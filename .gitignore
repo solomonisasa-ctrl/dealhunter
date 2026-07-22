@@ -1,0 +1,13 @@
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+.DS_Store
+dry_run_output.json
+
+# NOTE: data/*.json (findings, state, health) is intentionally tracked in git.
+# GitHub Actions commits updates back to the repo so the local dashboard can
+# read fresh results after a `git pull` — see .github/workflows/hunt.yml.

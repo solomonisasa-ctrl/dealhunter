@@ -1,0 +1,29 @@
+# Your hunts, in plain English. Edit by hand or via the dashboard's
+# "Watchlist" tab (which writes back to this file).
+#
+# Fields:
+#   id                  - stable short id, used in state/findings files. Don't
+#                          reuse an id for a different hunt.
+#   category             - must match a key in config/categories.yaml
+#   description           - plain English. This is what gets sent to Claude to
+#                            extract structured search criteria - no fixed
+#                            keyword lists.
+#   discount_threshold     - minimum (estimated_value - price) / estimated_value
+#                            required to trigger a notification. Default 0.30.
+#   lookback_days            - how far back to look for liquidity comps and how
+#                              long dedupe/sold-state is retained. Default 30.
+#   enabled                    - set to false to pause a hunt without deleting it.
+#   parsed_criteria             - filled in automatically by criteria_parser.py
+#                                  the first time this hunt runs; safe to leave
+#                                  blank when you add a new item by hand.
+
+- id: gs-shunbun
+  category: watches
+  description: 'Grand Seiko Shunbun, excellent condition, box and papers, under $6000
+    shipped.
+
+    '
+  discount_threshold: 0.3
+  lookback_days: 30
+  enabled: true
+  parsed_criteria: null

@@ -1,0 +1,86 @@
+[
+  {
+    "_note": "PLACEHOLDER fixture - replace with your real Omega Constellation example. Each entry is a self-contained (watch_item, listing, comparable_count) triple scored independently by scripts/dry_run.py.",
+    "watch_item": {
+      "id": "dryrun-omega-constellation",
+      "category": "watches",
+      "description": "Omega Constellation, quartz or automatic, steel, good condition, under $1200 shipped.",
+      "discount_threshold": 0.30,
+      "lookback_days": 30,
+      "enabled": true,
+      "parsed_criteria": null
+    },
+    "listing": {
+      "id": "dryrun:omega-constellation-1",
+      "source": "reddit",
+      "category": "watches",
+      "title": "[WTS] Omega Constellation 35mm steel, box only, great shape - $950 shipped",
+      "url": "https://example.com/placeholder-listing-omega-constellation",
+      "price": 950.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": null,
+      "body": "Selling my Omega Constellation, quartz movement, steel case and bracelet, 35mm. Light wear on the bracelet clasp, case has minor hairlines from normal wear, no major dings. Comes with the original box but no papers - I bought it secondhand years ago. Runs perfectly, recently serviced. Priced to move, open to reasonable offers.",
+      "posted_at": null,
+      "status": "active",
+      "raw": {}
+    },
+    "comparable_count": 4
+  },
+  {
+    "_note": "PLACEHOLDER fixture - replace with your real Vostok example.",
+    "watch_item": {
+      "id": "dryrun-vostok",
+      "category": "watches",
+      "description": "Vostok Amphibia, any dial variant, good condition, under $150 shipped.",
+      "discount_threshold": 0.30,
+      "lookback_days": 30,
+      "enabled": true,
+      "parsed_criteria": null
+    },
+    "listing": {
+      "id": "dryrun:vostok-1",
+      "source": "reddit",
+      "category": "watches",
+      "title": "[WTS] Vostok Amphibia 710 automatic, all original - $70 shipped CONUS",
+      "url": "https://example.com/placeholder-listing-vostok",
+      "price": 70.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": null,
+      "body": "Vostok Amphibia, 710 case, all original parts as far as I know, keeps decent time for a Vostok. Some scratches on the crystal, bezel turns smoothly. No box or papers, just the watch on a rubber strap. Good beater/daily.",
+      "posted_at": null,
+      "status": "active",
+      "raw": {}
+    },
+    "comparable_count": 8
+  },
+  {
+    "_note": "PLACEHOLDER fixture generated from your watchlist example - replace with a real listing when you find one.",
+    "watch_item": {
+      "id": "gs-shunbun",
+      "category": "watches",
+      "description": "Grand Seiko Shunbun, excellent condition, box and papers, under $6000 shipped.",
+      "discount_threshold": 0.30,
+      "lookback_days": 30,
+      "enabled": true,
+      "parsed_criteria": null
+    },
+    "listing": {
+      "id": "dryrun:gs-shunbun-1",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Grand Seiko Shunbun Limited Edition - Full Set Box/Papers - Excellent",
+      "url": "https://example.com/placeholder-listing-gs-shunbun",
+      "price": 4200.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": null,
+      "body": "Grand Seiko Shunbun spring-themed limited edition, excellent condition, worn only a handful of times. Full set with box, all papers, warranty card, and extra links. No scratches visible on case or crystal. Selling due to downsizing my collection.",
+      "posted_at": null,
+      "status": "active",
+      "raw": {"condition": "Pre-owned"}
+    },
+    "comparable_count": 1
+  }
+]

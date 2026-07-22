@@ -1,0 +1,33 @@
+# Pluggable category definitions.
+#
+# Each category describes a collectible domain: which subreddits/eBay category
+# IDs to search by default, and which structured fields the criteria parser
+# should try to extract from a plain-English hunt description. Core matching/
+# scoring code (src/dealhunter/) never hardcodes "watches" - it only reads
+# whatever categories are defined here, so adding a new category (e.g.
+# "sneakers", "trading_cards") later is a config change, not a code change.
+
+watches:
+  display_name: Watches
+  reddit:
+    subreddits:
+      - watchexchange
+      - vintagewatches
+      - omega
+      - Seiko
+      - rolex
+  ebay:
+    # eBay category ID 31387 = "Watches, Parts & Accessories" (Wristwatches).
+    category_ids:
+      - "31387"
+  # Fields the criteria parser (src/dealhunter/criteria_parser.py) is asked
+  # to extract from plain English. Any field it can't confidently extract is
+  # left null - the analyzer still gets the raw plain-English text either way.
+  structured_fields:
+    - brand
+    - model
+    - reference_number
+    - condition_min
+    - box_and_papers_required
+    - max_price_all_in
+    - other_requirements
