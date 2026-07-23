@@ -98,5 +98,20 @@
     },
     "findings_count": 50,
     "error_message": null
+  },
+  {
+    "timestamp": 1784842791.9128954,
+    "overall_status": "ok",
+    "duration_seconds": 24.504311323165894,
+    "sources": {
+      "ebay": {
+        "status": "ok",
+        "fetched": 3,
+        "new": 3,
+        "errors": []
+      }
+    },
+    "findings_count": 3,
+    "error_message": null
   }
 ]

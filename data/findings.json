@@ -2298,5 +2298,143 @@
     "notified": false,
     "duplicate_of": "gs-shunbun:ebay:v1|147450582247|0",
     "created_at": 1784760771.4605591
+  },
+  {
+    "id": "gs-shunbun:ebay:v1|127990210612|0",
+    "listing": {
+      "id": "ebay:v1|127990210612|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "SEIKO Grand Seiko Heritage Collection, limited edition of 40 pieces, availab...",
+      "url": "https://www.ebay.com/itm/127990210612?_skw=Grand+Seiko+Shunbun+Grand+Seiko+Shunbun+Spring+Equinox+GS+Shunbun+limited+edition+Grand+Seiko+Shunbun+box+papers+Shunbun+Grand+Seiko+watch&hash=item1dcccfa034:g:hUQAAeSwDB5qYf~9",
+      "price": 6309.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/hUQAAeSwDB5qYf~9/s-l225.jpg",
+      "body": "SEIKO Grand Seiko Heritage Collection, limited edition of 40 pieces, availab...",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "gs-shunbun",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Price is $6,309 all-in, which exceeds the buyer's $6000 all-in ceiling. Additionally, the listing does not explicitly confirm 'Shunbun' model name, box/papers presence, or condition grade in the visible text - it only references 'Heritage Collection, limited edition of 40 pieces' which is consistent with Shunbun (a 40-piece limited edition) but not confirmed, and no mention of box/papers is given.",
+      "estimated_value": 6000.0,
+      "confidence": 0.35,
+      "condition_summary": "Photo shows a stainless steel Grand Seiko with brown/maroon dial in apparently clean, lightly used condition with no visible major scratches, but image is small/low-res and likely a stock catalog photo rather than an in-hand seller photo.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "The image appears to be a generic stock/catalog photo (common for reseller listings) rather than an actual photo of the specific unit for sale - no box, papers, or serial number visible despite papers being a required criterion. Title is truncated and vague ('availab...'), lacking reference number, serial, or explicit confirmation of 'Shunbun' naming, which is a mild red flag for a listing at this price point.",
+      "rarity_notes": "If this is indeed the Shunbun (Spring Equinox) limited edition of 40 pieces from the Grand Seiko Elegance/Heritage seasonal collection, it is quite rare and highly sought after by collectors, commanding a premium over standard SBGA/SBGH references.",
+      "demand_tier": "High",
+      "demand_reasoning": "Grand Seiko limited editions like the seasonal (Shunbun/Shubun) series have strong collector demand due to extreme scarcity (only 40-100 pieces produced) and brand recognition among watch enthusiasts."
+    },
+    "deal_score": 48,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 96,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 96 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Grand Seiko limited editions like the seasonal (Shunbun/Shubun) series have strong collector demand due to extreme scarcity (only 40-100 pieces produced) and brand recognition among watch enthusiasts.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 6309.0,
+    "discount": -0.0515,
+    "notified": false,
+    "duplicate_of": "gs-shunbun:ebay:v1|147344052256|0",
+    "created_at": 1784842778.1876428
+  },
+  {
+    "id": "gs-shunbun:ebay:v1|397877384460|0",
+    "listing": {
+      "id": "ebay:v1|397877384460|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "GRAND SEIKO Evolution 9 Collection Purple LIMITED  SLGB005 2025",
+      "url": "https://www.ebay.com/itm/397877384460?_skw=Grand+Seiko+Shunbun+Grand+Seiko+Shunbun+Spring+Equinox+GS+Shunbun+limited+edition+Grand+Seiko+Shunbun+box+papers+Shunbun+Grand+Seiko+watch&hash=item5ca357150c:g:xFQAAeSw88dp7ACi",
+      "price": 10588.0,
+      "shipping_price": null,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/xFQAAeSw88dp7ACi/s-l225.jpg",
+      "body": "GRAND SEIKO Evolution 9 Collection Purple LIMITED  SLGB005 2025",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "gs-shunbun",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "This listing is for the Grand Seiko Evolution 9 Collection SLGB005 (a purple limited edition), not the Shunbun model the hunter is seeking. It also far exceeds the $6000 all-in price ceiling at $10,588.",
+      "estimated_value": 10000.0,
+      "confidence": 0.3,
+      "condition_summary": "Photo shows a full box/papers set (outer box, inner box, warranty booklets, manuals) but the watch itself is barely visible/obscured in the image, so actual condition of the watch cannot be assessed from this photo.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "No major red flags evident - box and papers are shown in a real (non-stock-looking) photo with genuine Grand Seiko branding. However, the watch itself is not clearly visible, so condition/authenticity of the timepiece can't be confirmed from the image alone; listing text is extremely sparse with no description of condition, wear, or provenance.",
+      "rarity_notes": "SLGB005 is a limited edition Evolution 9 model, likely a niche/limited production piece, but this is a completely different model from the Shunbun (Spring Equinox) limited edition the hunter wants.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Grand Seiko has strong brand recognition and limited editions attract collector interest, but this specific model is not what the hunter is targeting, reducing its relevance despite decent general demand."
+    },
+    "deal_score": 48,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 96,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 96 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko has strong brand recognition and limited editions attract collector interest, but this specific model is not what the hunter is targeting, reducing its relevance despite decent general demand.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 10588.0,
+    "discount": -0.0588,
+    "notified": false,
+    "duplicate_of": "gs-shunbun:ebay:v1|188674313920|0",
+    "created_at": 1784842785.3253043
+  },
+  {
+    "id": "gs-shunbun:ebay:v1|127925666704|0",
+    "listing": {
+      "id": "ebay:v1|127925666704|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Grand Seiko Evolution 9 Limited Edition Blue dial Lake Sawa 40mm SLGA021 Bracele",
+      "url": "https://www.ebay.com/itm/127925666704?_skw=Grand+Seiko+Shunbun+Grand+Seiko+Shunbun+Spring+Equinox+GS+Shunbun+limited+edition+Grand+Seiko+Shunbun+box+papers+Shunbun+Grand+Seiko+watch&hash=item1dc8f6c390:g:VMoAAeSwQMRqMXL5",
+      "price": 9685.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/VMoAAeSwQMRqMXL5/s-l225.jpg",
+      "body": "Grand Seiko Evolution 9 Limited Edition Blue dial Lake Sawa 40mm SLGA021 Bracele",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "New with box and papers"
+      }
+    },
+    "watch_item_id": "gs-shunbun",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "This listing is for the SLGA021 \"Lake Sawa\" Evolution 9 limited edition, not the Grand Seiko Shunbun. It is also priced at $9,685 all-in, far exceeding the $6000 ceiling. No mention of box/papers is provided either.",
+      "estimated_value": 9000.0,
+      "confidence": 0.3,
+      "condition_summary": "Photo appears to be a stock/catalog-style image showing the watch new-looking with no visible wear; no actual condition details or box/papers shown in text or photo.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "The image looks like a manufacturer stock photo rather than an actual photo of the seller's item, which is a common red flag for not showing the real item's condition or included accessories. No mention of box/papers, serial numbers, or provenance in the listing text.",
+      "rarity_notes": "SLGA021 Lake Sawa is itself a limited/special dial variant of the Evolution 9 line but is a completely different model from the Shunbun (Spring Equinox) limited edition the hunter is seeking.",
+      "demand_tier": "High",
+      "demand_reasoning": "Grand Seiko Evolution 9 models with special dials are highly sought after among GS collectors, but this doesn't help since it's the wrong model for the hunter's criteria."
+    },
+    "deal_score": 48,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 96,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 96 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Grand Seiko Evolution 9 models with special dials are highly sought after among GS collectors, but this doesn't help since it's the wrong model for the hunter's criteria.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 9685.0,
+    "discount": -0.07611111111111112,
+    "notified": false,
+    "duplicate_of": null,
+    "created_at": 1784842791.907109
   }
 ]
