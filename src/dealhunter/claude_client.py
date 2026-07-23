@@ -15,7 +15,7 @@ def call_structured(
     client: anthropic.Anthropic,
     model: str,
     system: str,
-    user_content: str,
+    user_content: str | list[dict[str, Any]],
     tool_name: str,
     tool_description: str,
     input_schema: dict[str, Any],

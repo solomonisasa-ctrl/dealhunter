@@ -13,11 +13,13 @@ import yaml
 
 from config.settings import Settings
 from dealhunter.analysis.analyzer import analyze_listing
+from dealhunter.analysis.dedup import find_duplicate
 from dealhunter.analysis.scoring import compute_deal_score, compute_liquidity, qualifies_for_notification
 from dealhunter.criteria_parser import ensure_parsed_criteria
-from dealhunter.healthcheck import assess_source_staleness, overall_status
+from dealhunter.healthcheck import assess_source_staleness, overall_status, verify_credentials
 from dealhunter.models import AnalysisResult, Finding, HealthReport, Listing, SourceHealth, WatchItem
-from dealhunter.notify.ntfy import send_deal_alert, send_error_alert
+from dealhunter.notify.ntfy import send_deal_digest, send_error_alert
+from dealhunter.schedule_store import load_paused, load_poll_interval_minutes
 from dealhunter.sources.base import SourceAdapter
 from dealhunter.sources.ebay_source import EbaySource
 from dealhunter.sources.reddit_source import RedditSource
@@ -32,12 +34,45 @@ SOURCE_REGISTRY: dict[str, type[SourceAdapter]] = {
 }
 
 
-def build_sources(settings: Settings) -> dict[str, SourceAdapter]:
-    return {name: cls(settings) for name, cls in SOURCE_REGISTRY.items()}
+def active_source_names(categories: dict) -> set[str]:
+    """Source names referenced by at least one category - e.g. if no
+    category has a 'reddit' block, we shouldn't build/health-check/alert on
+    a Reddit source nobody is configured to use yet."""
+    return {
+        name
+        for category_def in categories.values()
+        for name in SOURCE_REGISTRY
+        if name in category_def
+    }
+
+
+def build_sources(settings: Settings, categories: dict) -> dict[str, SourceAdapter]:
+    active = active_source_names(categories)
+    return {name: cls(settings) for name, cls in SOURCE_REGISTRY.items() if name in active}
 
 
 def load_categories(settings: Settings) -> dict:
     return yaml.safe_load(settings.categories_path.read_text(encoding="utf-8")) or {}
+
+
+def is_paused(settings: Settings) -> bool:
+    """Whether hunting is paused entirely, per config/schedule.yaml. Like
+    due_for_run(), only gates the scheduled/CLI entrypoint - 'Refresh now'
+    bypasses this on purpose, since clicking it is an explicit override."""
+    return load_paused(settings.schedule_path)
+
+
+def due_for_run(settings: Settings) -> bool:
+    """Whether enough time has passed since the last completed run, per the
+    user-configurable config/schedule.yaml. Only gates the scheduled/CLI
+    entrypoint (scripts/run_hunt.py) - the dashboard's manual 'Refresh now'
+    button calls run_hunt_checked() directly and bypasses this on purpose."""
+    interval_minutes = load_poll_interval_minutes(settings.schedule_path)
+    latest = health_store.latest_health(settings.health_path)
+    if latest is None:
+        return True
+    elapsed_minutes = (time.time() - latest.timestamp) / 60
+    return elapsed_minutes >= interval_minutes
 
 
 def score_listing(
@@ -72,7 +107,7 @@ def run_hunt(settings: Settings, source_health_errors: dict[str, str] | None = N
     start = time.time()
     client = anthropic.Anthropic(api_key=settings.anthropic_api_key)
     categories = load_categories(settings)
-    sources = build_sources(settings)
+    sources = build_sources(settings, categories)
     source_health_errors = source_health_errors or {}
 
     watchlist = load_watchlist(settings.watchlist_path)
@@ -83,6 +118,10 @@ def run_hunt(settings: Settings, source_health_errors: dict[str, str] | None = N
         for name in sources
     }
     findings_count = 0
+    # Collected across the WHOLE run (every watch item, every source) so a
+    # single poll that turns up several deals sends one notification, not
+    # one per listing - see notify.ntfy.send_deal_digest.
+    to_notify: list[Finding] = []
 
     for item in watchlist:
         if not item.enabled:
@@ -139,12 +178,24 @@ def run_hunt(settings: Settings, source_health_errors: dict[str, str] | None = N
                     source_health[source_name].errors.append(f"{listing.id}: {exc}")
                     continue
 
+                # Cross-source/repost duplicate check: the same physical item
+                # posted to more than one source (or reposted) shouldn't
+                # double-notify. Still stored either way, for audit history.
+                recent = findings_store.recent_findings_for_item(settings.findings_path, item.id, within_days=7)
+                duplicate = find_duplicate(listing, recent)
+                if duplicate is not None:
+                    finding.duplicate_of = duplicate.id
+
+                if finding.duplicate_of is None and qualifies_for_notification(
+                    finding.analysis, finding.discount, item.discount_threshold
+                ):
+                    finding.notified = True
+
                 findings_store.append_finding(settings.findings_path, finding)
                 findings_count += 1
 
-                if qualifies_for_notification(finding.analysis, finding.discount, item.discount_threshold):
-                    send_deal_alert(settings, finding)
-                    finding.notified = True
+                if finding.notified:
+                    to_notify.append(finding)
 
             state = state_store.prune_old(state)
             state_store.save_state(settings.state_dir, source_name, state)
@@ -173,8 +224,34 @@ def run_hunt(settings: Settings, source_health_errors: dict[str, str] | None = N
     report.overall_status = overall_status(source_health)
     health_store.append_health(settings.health_path, report)
 
+    if to_notify:
+        send_deal_digest(settings, to_notify)
+
     if report.overall_status == "error":
         error_lines = [f"{name}: {'; '.join(h.errors)}" for name, h in source_health.items() if h.errors]
         send_error_alert(settings, "\n".join(error_lines) or "Unknown error during hunt run.")
 
     return report
+
+
+def run_hunt_checked(settings: Settings) -> tuple[dict[str, str], HealthReport]:
+    """Verifies credentials, then runs one full hunt. Raises RuntimeError if
+    the Anthropic key itself is invalid - nothing can run without it. Other
+    source credential failures are recorded and those sources are skipped
+    for this run instead of aborting entirely. Shared by scripts/run_hunt.py
+    (the cron/CLI path) and the dashboard's 'Refresh now' button, so both
+    trigger paths behave identically."""
+    categories = load_categories(settings)
+    sources = build_sources(settings, categories)
+    cred_results = verify_credentials(settings, list(sources.values()))
+
+    if cred_results.get("anthropic", "").startswith("error"):
+        raise RuntimeError(f"Anthropic API key invalid, aborting run: {cred_results['anthropic']}")
+
+    source_errors = {
+        name: result
+        for name, result in cred_results.items()
+        if name in sources and result.startswith("error")
+    }
+    report = run_hunt(settings, source_health_errors=source_errors)
+    return cred_results, report

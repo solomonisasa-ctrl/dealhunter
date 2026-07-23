@@ -61,6 +61,42 @@ def send_deal_alert(settings: Settings, finding: Finding) -> None:
     )
 
 
+def send_deal_digest(settings: Settings, findings: list[Finding]) -> None:
+    """One notification for every qualifying finding from a single run - a
+    poll that turns up several deals at once shouldn't mean several pings.
+    Delegates to send_deal_alert's richer single-finding format when
+    there's only one; otherwise sends one combined message."""
+    if not findings:
+        return
+    if len(findings) == 1:
+        send_deal_alert(settings, findings[0])
+        return
+
+    ranked = sorted(findings, key=lambda f: f.deal_score, reverse=True)
+    best_color = ranked[0].score_color
+
+    max_lines = 8
+    lines = []
+    for f in ranked[:max_lines]:
+        price_str = f"${f.all_in_price:,.2f}" if f.all_in_price else "price n/a"
+        lines.append(f"[{f.deal_score}] {f.listing.title[:70]} - {price_str}\n{f.listing.url}")
+    remaining = len(ranked) - max_lines
+    if remaining > 0:
+        lines.append(f"...+{remaining} more - check the dashboard for the rest.")
+    message = "\n\n".join(lines) + f"\n\n{_DISCLAIMER}"
+
+    # No single Click target makes sense for a multi-item digest - each
+    # listing's URL is inline in the message body instead, which ntfy
+    # clients auto-linkify.
+    _post(
+        settings,
+        title=f"{len(findings)} new deals found (top score {ranked[0].deal_score})",
+        message=message,
+        priority=_SCORE_PRIORITY.get(best_color, "3"),
+        tags=_SCORE_TAG.get(best_color, "mag"),
+    )
+
+
 def send_error_alert(settings: Settings, message: str) -> None:
     _post(
         settings,

@@ -1,0 +1,15 @@
+# How often Deal Hunter actually does work when triggered, and whether it
+# should run at all right now.
+#
+# The GitHub Actions workflow (.github/workflows/hunt.yml) checks in every
+# 5 minutes - the practical floor GitHub's scheduler supports - but each
+# check-in only does real work (polling, Claude calls) if `paused` is false
+# AND at least poll_interval_minutes have passed since the last completed
+# run. Set paused: true to stop all polling entirely (e.g. while waiting on
+# Reddit/eBay API access) without touching the workflow or your watchlist.
+#
+# Edit here by hand, or use the dashboard's controls (write here directly).
+# Either way, local runs see the change immediately - the scheduled GitHub
+# Actions run needs `git push` before it does too.
+poll_interval_minutes: 5
+paused: false

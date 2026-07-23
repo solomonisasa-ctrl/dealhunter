@@ -16,7 +16,18 @@
       <button class="tab active" data-tab="feed">Feed</button>
       <button class="tab" data-tab="watchlist">Watchlist</button>
     </nav>
-    <div id="status-pill" class="status-pill status-unknown">Loading status…</div>
+    <div class="header-controls">
+      <select id="poll-interval" title="How often Deal Hunter actually polls for new listings">
+        <option value="5">Poll every 5 min</option>
+        <option value="10">Poll every 10 min</option>
+        <option value="15">Poll every 15 min</option>
+        <option value="30">Poll every 30 min</option>
+        <option value="60">Poll every hour</option>
+      </select>
+      <button id="refresh-now" class="btn btn-secondary">⟳ Refresh now</button>
+      <button id="pause-toggle" class="btn btn-secondary">⏸ Pause hunting</button>
+      <div id="status-pill" class="status-pill status-unknown">Loading status…</div>
+    </div>
   </header>
 
   <main id="app">
@@ -43,8 +54,8 @@
         <button id="add-watch-item" class="btn btn-primary">+ Add hunt</button>
       </div>
       <div id="unpushed-banner" class="banner hidden">
-        You have local changes to <code>config/watchlist.yaml</code> that haven't been pushed -
-        the scheduled GitHub Actions run won't see them until you <code>git push</code>.
+        You have local changes under <code>config/</code> (watchlist, schedule, etc.) that haven't
+        been pushed - the scheduled GitHub Actions run won't see them until you <code>git push</code>.
       </div>
       <div id="watchlist-items"></div>
     </section>

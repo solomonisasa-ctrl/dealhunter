@@ -50,12 +50,84 @@ async function loadStatus() {
       pill.textContent = `Last run ${timeAgo(latest.timestamp)} · ${latest.overall_status} · ${counts || "no sources"}`;
       pill.className = `status-pill status-${latest.overall_status}`;
     }
-    document.getElementById("unpushed-banner").classList.toggle("hidden", !data.unpushed_watchlist_changes);
+    document.getElementById("unpushed-banner").classList.toggle("hidden", !data.unpushed_config_changes);
   } catch (err) {
     pill.textContent = "Status unavailable";
     pill.className = "status-pill status-unknown";
   }
 }
+
+// ---------- Schedule (poll interval + pause) ----------
+function updatePauseButton(paused) {
+  const btn = document.getElementById("pause-toggle");
+  btn.textContent = paused ? "▶ Resume hunting" : "⏸ Pause hunting";
+  btn.classList.toggle("btn-paused", paused);
+  btn.dataset.paused = paused ? "1" : "0";
+}
+
+async function loadSchedule() {
+  const select = document.getElementById("poll-interval");
+  try {
+    const res = await fetch("/api/schedule");
+    const data = await res.json();
+    const minutes = String(data.poll_interval_minutes);
+    if (!select.querySelector(`option[value="${minutes}"]`)) {
+      // Someone hand-edited schedule.yaml to a non-preset value - show it anyway.
+      const opt = document.createElement("option");
+      opt.value = minutes;
+      opt.textContent = `Poll every ${minutes} min`;
+      select.appendChild(opt);
+    }
+    select.value = minutes;
+    updatePauseButton(data.paused);
+  } catch (err) {
+    // Leave the default selection if the schedule can't be loaded.
+  }
+}
+
+document.getElementById("poll-interval").addEventListener("change", async (e) => {
+  await fetch("/api/schedule", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ poll_interval_minutes: Number(e.target.value) }),
+  });
+  loadStatus();
+});
+
+document.getElementById("pause-toggle").addEventListener("click", async () => {
+  const btn = document.getElementById("pause-toggle");
+  const currentlyPaused = btn.dataset.paused === "1";
+  const res = await fetch("/api/schedule", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ paused: !currentlyPaused }),
+  });
+  const data = await res.json();
+  updatePauseButton(data.paused);
+  loadStatus();
+});
+
+// ---------- Refresh now ----------
+document.getElementById("refresh-now").addEventListener("click", async () => {
+  const btn = document.getElementById("refresh-now");
+  const originalText = btn.textContent;
+  btn.disabled = true;
+  btn.textContent = "Refreshing…";
+  try {
+    const res = await fetch("/api/run-now", { method: "POST" });
+    if (!res.ok) {
+      const err = await res.json().catch(() => ({}));
+      alert(`Refresh failed: ${err.detail || res.statusText}`);
+    } else {
+      await Promise.all([loadFeed(), loadStatus()]);
+    }
+  } catch (err) {
+    alert(`Refresh failed: ${err}`);
+  } finally {
+    btn.disabled = false;
+    btn.textContent = originalText;
+  }
+});
 
 // ---------- Feed ----------
 async function loadFeed() {
@@ -84,6 +156,10 @@ function renderFeed() {
       ? `<img src="${f.listing.image_url}" alt="">`
       : "No image";
 
+    const duplicateBadge = f.duplicate_of
+      ? '<span class="badge badge-duplicate">Possible duplicate</span>'
+      : "";
+
     card.innerHTML = `
       <div class="card-image">${img}</div>
       <div class="card-body">
@@ -92,6 +168,7 @@ function renderFeed() {
         <div class="badge-row">
           <span class="badge ${scoreBadgeClass(scoreColor(f.deal_score))}">${f.deal_score}/100</span>
           <span class="badge badge-liquidity">${f.liquidity.rating} liquidity</span>
+          ${duplicateBadge}
         </div>
         <div class="card-summary">${escapeHtml(f.analysis.condition_summary || "")}</div>
       </div>
@@ -121,12 +198,17 @@ async function openDetail(findingId) {
   if (!res.ok) return;
   const f = await res.json();
   const content = document.getElementById("detail-content");
+  const duplicateNote = f.duplicate_of
+    ? `<div class="banner duplicate-banner">Possible duplicate of <a href="#" data-open-finding="${escapeHtml(f.duplicate_of)}">an earlier finding</a> for this watch item - no notification was sent for this one.</div>`
+    : "";
+
   content.innerHTML = `
     <div class="detail-title">${escapeHtml(f.listing.title)}</div>
     <div class="detail-price">${fmtPrice(f.all_in_price)}
       <span class="badge ${scoreBadgeClass(scoreColor(f.deal_score))}">${f.deal_score}/100</span>
       <span class="badge badge-liquidity">${f.liquidity.rating} liquidity</span>
     </div>
+    ${duplicateNote}
 
     <div class="detail-section">
       <h4>Match reasoning</h4>
@@ -158,6 +240,14 @@ async function openDetail(findingId) {
     <div class="disclaimer">${DISCLAIMER}</div>
   `;
   document.getElementById("detail-overlay").classList.remove("hidden");
+
+  const originalLink = content.querySelector("[data-open-finding]");
+  if (originalLink) {
+    originalLink.addEventListener("click", (e) => {
+      e.preventDefault();
+      openDetail(originalLink.dataset.openFinding);
+    });
+  }
 }
 
 document.getElementById("detail-close").addEventListener("click", () => {
@@ -311,4 +401,5 @@ async function deleteWatchItem(itemId) {
   await loadWatchlist();
   await loadFeed();
   await loadStatus();
+  await loadSchedule();
 })();

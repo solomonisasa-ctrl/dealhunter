@@ -26,4 +26,17 @@
   discount_threshold: 0.3
   lookback_days: 30
   enabled: true
-  parsed_criteria: null
+  parsed_criteria:
+    brand: Grand Seiko
+    model: Shunbun
+    reference_number: null
+    condition_min: excellent
+    box_and_papers_required: true
+    max_price_all_in: 6000
+    other_requirements: Price must be all-in including shipping, under $6000 total
+    search_keywords:
+    - Grand Seiko Shunbun
+    - Grand Seiko Shunbun Spring Equinox
+    - GS Shunbun limited edition
+    - Grand Seiko Shunbun box papers
+    - Shunbun Grand Seiko watch

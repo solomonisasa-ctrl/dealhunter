@@ -53,3 +53,20 @@ def recent_comparable_count(
         for f in findings
         if f.watch_item_id == watch_item_id and f.created_at >= cutoff
     )
+
+
+def recent_findings_for_item(
+    path: Path, watch_item_id: str, within_days: int
+) -> list[Finding]:
+    """Recent findings for this watch item, excluding ones already marked
+    as a duplicate of something else - dedup matching should always link
+    back to the canonical original, not chain through a duplicate."""
+    cutoff = time.time() - within_days * 86400
+    findings = load_findings(path)
+    return [
+        f
+        for f in findings
+        if f.watch_item_id == watch_item_id
+        and f.created_at >= cutoff
+        and f.duplicate_of is None
+    ]

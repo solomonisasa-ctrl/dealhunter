@@ -24,8 +24,15 @@ from fastapi.responses import FileResponse  # noqa: E402
 from fastapi.staticfiles import StaticFiles  # noqa: E402
 
 from config.settings import get_settings  # noqa: E402
+from dealhunter import pipeline  # noqa: E402
 from dealhunter.models import WatchItem  # noqa: E402
 from dealhunter.pipeline import load_categories  # noqa: E402
+from dealhunter.schedule_store import (  # noqa: E402
+    load_paused,
+    load_poll_interval_minutes,
+    save_paused,
+    save_poll_interval_minutes,
+)
 from dealhunter.storage import findings_store, health_store  # noqa: E402
 from dealhunter.watchlist_store import (  # noqa: E402
     delete_watch_item,
@@ -85,15 +92,16 @@ def api_categories():
 def api_health():
     history = health_store.load_health_history(settings.health_path)
     latest = history[-1].model_dump(mode="json") if history else None
-    return {"latest": latest, "unpushed_watchlist_changes": _has_unpushed_watchlist_changes()}
+    return {"latest": latest, "unpushed_config_changes": _has_unpushed_config_changes()}
 
 
-def _has_unpushed_watchlist_changes() -> bool:
+def _has_unpushed_config_changes() -> bool:
     """Read-only `git status` check - never auto-commits or pushes. Used to
-    show a reminder banner so scheduled runs actually pick up your edits."""
+    show a reminder banner so scheduled runs actually pick up your edits
+    (watchlist, category, or schedule config)."""
     try:
         result = subprocess.run(
-            ["git", "status", "--porcelain", "--", "config/watchlist.yaml"],
+            ["git", "status", "--porcelain", "--", "config/"],
             cwd=REPO_ROOT,
             capture_output=True,
             text=True,
@@ -102,6 +110,37 @@ def _has_unpushed_watchlist_changes() -> bool:
         return bool(result.stdout.strip())
     except Exception:
         return False
+
+
+@app.get("/api/schedule")
+def api_get_schedule():
+    return {
+        "poll_interval_minutes": load_poll_interval_minutes(settings.schedule_path),
+        "paused": load_paused(settings.schedule_path),
+    }
+
+
+@app.post("/api/schedule")
+def api_set_schedule(payload: dict):
+    if "poll_interval_minutes" in payload:
+        save_poll_interval_minutes(settings.schedule_path, int(payload["poll_interval_minutes"]))
+    if "paused" in payload:
+        save_paused(settings.schedule_path, bool(payload["paused"]))
+    return {
+        "poll_interval_minutes": load_poll_interval_minutes(settings.schedule_path),
+        "paused": load_paused(settings.schedule_path),
+    }
+
+
+@app.post("/api/run-now")
+def api_run_now():
+    """Triggers an immediate hunt run, bypassing the poll-interval gate -
+    that's the whole point of a manual refresh."""
+    try:
+        cred_results, report = pipeline.run_hunt_checked(settings)
+    except RuntimeError as exc:
+        raise HTTPException(status_code=502, detail=str(exc))
+    return {"credentials": cred_results, "health": report.model_dump(mode="json")}
 
 
 app.mount("/static", StaticFiles(directory=str(STATIC_DIR)), name="static")

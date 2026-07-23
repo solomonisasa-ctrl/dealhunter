@@ -64,6 +64,10 @@ class Settings(BaseSettings):
         return self.config_dir / "categories.yaml"
 
     @property
+    def schedule_path(self) -> Path:
+        return self.config_dir / "schedule.yaml"
+
+    @property
     def findings_path(self) -> Path:
         return self.data_dir / "findings.json"
 

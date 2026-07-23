@@ -100,6 +100,7 @@ class Finding(BaseModel):
     all_in_price: Optional[float]
     discount: Optional[float]  # fraction, e.g. 0.35 = 35% under estimated value
     notified: bool = False
+    duplicate_of: Optional[str] = None  # id of an earlier Finding for the same physical item
     created_at: float = Field(default_factory=time.time)
 
     @property

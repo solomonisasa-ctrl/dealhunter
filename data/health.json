@@ -1,0 +1,102 @@
+[
+  {
+    "timestamp": 1784692849.282692,
+    "overall_status": "error",
+    "duration_seconds": 3.6655194759368896,
+    "sources": {
+      "ebay": {
+        "status": "error",
+        "fetched": 0,
+        "new": 0,
+        "errors": [
+          "error: eBay credentials invalid: 401 Client Error: Unauthorized for url: https://api.ebay.com/identity/v1/oauth2/token"
+        ]
+      }
+    },
+    "findings_count": 0,
+    "error_message": null
+  },
+  {
+    "timestamp": 1784693114.1352417,
+    "overall_status": "error",
+    "duration_seconds": 0.5003297328948975,
+    "sources": {
+      "ebay": {
+        "status": "error",
+        "fetched": 0,
+        "new": 0,
+        "errors": [
+          "error: eBay credentials invalid: 401 Client Error: Unauthorized for url: https://api.ebay.com/identity/v1/oauth2/token"
+        ]
+      }
+    },
+    "findings_count": 0,
+    "error_message": null
+  },
+  {
+    "timestamp": 1784693143.3522003,
+    "overall_status": "error",
+    "duration_seconds": 0.5080654621124268,
+    "sources": {
+      "ebay": {
+        "status": "error",
+        "fetched": 0,
+        "new": 0,
+        "errors": [
+          "error: eBay credentials invalid: 401 Client Error: Unauthorized for url: https://api.ebay.com/identity/v1/oauth2/token"
+        ]
+      }
+    },
+    "findings_count": 0,
+    "error_message": null
+  },
+  {
+    "timestamp": 1784693220.2490218,
+    "overall_status": "error",
+    "duration_seconds": 0.6177792549133301,
+    "sources": {
+      "ebay": {
+        "status": "error",
+        "fetched": 0,
+        "new": 0,
+        "errors": [
+          "error: eBay credentials invalid: 401 Client Error: Unauthorized for url: https://api.ebay.com/identity/v1/oauth2/token"
+        ]
+      }
+    },
+    "findings_count": 0,
+    "error_message": null
+  },
+  {
+    "timestamp": 1784693369.7932398,
+    "overall_status": "error",
+    "duration_seconds": 0.38321614265441895,
+    "sources": {
+      "ebay": {
+        "status": "error",
+        "fetched": 0,
+        "new": 0,
+        "errors": [
+          "error: eBay credentials invalid: 401 Client Error: Unauthorized for url: https://api.ebay.com/identity/v1/oauth2/token"
+        ]
+      }
+    },
+    "findings_count": 0,
+    "error_message": null
+  },
+  {
+    "timestamp": 1784760771.47853,
+    "overall_status": "ok",
+    "duration_seconds": 451.32263016700745,
+    "sources": {
+      "ebay": {
+        "status": "ok",
+        "fetched": 50,
+        "new": 50,
+        "errors": []
+      }
+    },
+    "findings_count": 50,
+    "error_message": null
+  }
+]

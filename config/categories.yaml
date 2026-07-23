@@ -9,13 +9,18 @@
 
 watches:
   display_name: Watches
-  reddit:
-    subreddits:
-      - watchexchange
-      - vintagewatches
-      - omega
-      - Seiko
-      - rolex
+  # reddit block temporarily disabled - Reddit's Data API now requires an
+  # approved access request before app credentials work at all (see
+  # https://github.com/solomonisasa-ctrl/dealhunter README for context).
+  # Request submitted 2026-07-21, pending review. Once approved, restore
+  # this block (uncomment) and fill in REDDIT_* in .env / repo secrets:
+  # reddit:
+  #   subreddits:
+  #     - watchexchange
+  #     - vintagewatches
+  #     - omega
+  #     - Seiko
+  #     - rolex
   ebay:
     # eBay category ID 31387 = "Watches, Parts & Accessories" (Wristwatches).
     category_ids:

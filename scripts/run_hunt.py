@@ -18,32 +18,31 @@ sys.path.insert(0, str(REPO_ROOT))
 sys.path.insert(0, str(REPO_ROOT / "src"))
 
 from config.settings import get_settings  # noqa: E402
-from dealhunter import healthcheck, pipeline  # noqa: E402
+from dealhunter import pipeline  # noqa: E402
 from dealhunter.notify.ntfy import send_error_alert  # noqa: E402
 
 
 def main() -> int:
     settings = get_settings()
-    sources = pipeline.build_sources(settings)
 
-    cred_results = healthcheck.verify_credentials(settings, list(sources.values()))
+    if pipeline.is_paused(settings):
+        print("Hunting is paused (config/schedule.yaml: paused: true) - skipping.")
+        return 0
+
+    if not pipeline.due_for_run(settings):
+        print("Not due yet per config/schedule.yaml poll_interval_minutes - skipping this trigger.")
+        return 0
+
+    try:
+        cred_results, report = pipeline.run_hunt_checked(settings)
+    except RuntimeError as exc:
+        print(str(exc), file=sys.stderr)
+        send_error_alert(settings, str(exc))
+        return 1
+
     print("Credential check:")
     for name, result in cred_results.items():
         print(f"  {name}: {result}")
-
-    if cred_results.get("anthropic", "").startswith("error"):
-        message = f"Anthropic API key invalid, aborting run: {cred_results['anthropic']}"
-        print(message, file=sys.stderr)
-        send_error_alert(settings, message)
-        return 1
-
-    source_errors = {
-        name: result
-        for name, result in cred_results.items()
-        if name in sources and result.startswith("error")
-    }
-
-    report = pipeline.run_hunt(settings, source_health_errors=source_errors)
 
     print(f"\nRun finished in {report.duration_seconds:.1f}s - status: {report.overall_status}")
     print(f"Findings recorded this run: {report.findings_count}")

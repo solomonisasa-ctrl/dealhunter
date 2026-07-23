@@ -20,7 +20,14 @@ _SYSTEM = (
     "an honest confidence score - if the listing text has too little detail "
     "to value the item, say so with low confidence rather than guessing "
     "precisely. Your output is shown to the buyer as a decision aid, not a "
-    "professional appraisal."
+    "professional appraisal.\n\n"
+    "A photo of the listing may be included below the text. When it is, "
+    "look closely for visual condition and authenticity cues - wear, "
+    "scratches, mismatched parts, box/papers actually shown vs. only "
+    "claimed, stock-photo vs. real-photo indicators - and fold what you see "
+    "into condition_summary and authenticity_notes. If no photo is "
+    "included, evaluate from the text alone and don't penalize confidence "
+    "just for that."
 )
 
 _INPUT_SCHEMA = {
@@ -84,18 +91,13 @@ _INPUT_SCHEMA = {
 }
 
 
-def analyze_listing(
-    client: anthropic.Anthropic,
-    model: str,
-    listing: Listing,
-    watch_item: WatchItem,
-) -> AnalysisResult:
+def _build_text(listing: Listing, watch_item: WatchItem) -> str:
     price_str = (
         f"${listing.all_in_price:,.2f} all-in (item + shipping)"
         if listing.all_in_price is not None
         else "price not listed / make offer"
     )
-    user_content = (
+    return (
         f"Hunter's criteria (plain English): {watch_item.description}\n"
         f"Structured criteria: {watch_item.parsed_criteria}\n\n"
         f"Listing source: {listing.source}\n"
@@ -103,11 +105,45 @@ def analyze_listing(
         f"Price: {price_str}\n"
         f"Listing text:\n{listing.body}\n"
     )
+
+
+def analyze_listing(
+    client: anthropic.Anthropic,
+    model: str,
+    listing: Listing,
+    watch_item: WatchItem,
+) -> AnalysisResult:
+    text = _build_text(listing, watch_item)
+
+    if listing.image_url:
+        # Listing photos are the single biggest signal for condition/
+        # authenticity, but scraped image URLs sometimes 404 or block
+        # hotlinking - fall back to text-only rather than losing the
+        # listing entirely if the image call fails.
+        content: str | list[dict] = [
+            {"type": "text", "text": text},
+            {"type": "image", "source": {"type": "url", "url": listing.image_url}},
+        ]
+        try:
+            result = call_structured(
+                client,
+                model=model,
+                system=_SYSTEM,
+                user_content=content,
+                tool_name="record_analysis",
+                tool_description="Record the structured analysis of this listing.",
+                input_schema=_INPUT_SCHEMA,
+                max_tokens=1200,
+            )
+            return AnalysisResult.model_validate(result)
+        except Exception:  # noqa: BLE001 - bad/unreachable image, retry text-only
+            pass
+
     result = call_structured(
         client,
         model=model,
         system=_SYSTEM,
-        user_content=user_content,
+        user_content=text,
         tool_name="record_analysis",
         tool_description="Record the structured analysis of this listing.",
         input_schema=_INPUT_SCHEMA,
