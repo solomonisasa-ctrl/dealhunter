@@ -144,6 +144,7 @@ select {
 .card:hover { transform: translateY(-2px); }
 
 .card-image {
+  position: relative;
   width: 100%;
   height: 160px;
   background: var(--surface-2);
@@ -155,6 +156,32 @@ select {
   overflow: hidden;
 }
 .card-image img { width: 100%; height: 100%; object-fit: cover; }
+.photo-count {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  background: rgba(10, 10, 15, 0.7);
+  color: #fff;
+  font-size: 11.5px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 999px;
+}
+
+.photo-gallery {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding-bottom: 4px;
+}
+.photo-gallery img {
+  height: 90px;
+  width: 90px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  flex-shrink: 0;
+}
 
 .card-body { padding: 14px 16px 16px; display: flex; flex-direction: column; gap: 8px; }
 .card-title { font-size: 14.5px; font-weight: 600; line-height: 1.35; }

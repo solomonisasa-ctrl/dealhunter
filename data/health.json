@@ -203,5 +203,95 @@
     },
     "findings_count": 1,
     "error_message": null
+  },
+  {
+    "timestamp": 1784923293.8233285,
+    "overall_status": "ok",
+    "duration_seconds": 591.8417665958405,
+    "sources": {
+      "ebay": {
+        "status": "ok",
+        "fetched": 49,
+        "new": 49,
+        "errors": []
+      }
+    },
+    "findings_count": 49,
+    "error_message": null
+  },
+  {
+    "timestamp": 1784923404.7820594,
+    "overall_status": "ok",
+    "duration_seconds": 73.28247547149658,
+    "sources": {
+      "ebay": {
+        "status": "ok",
+        "fetched": 6,
+        "new": 6,
+        "errors": []
+      }
+    },
+    "findings_count": 6,
+    "error_message": null
+  },
+  {
+    "timestamp": 1784923580.644469,
+    "overall_status": "ok",
+    "duration_seconds": 3.2474918365478516,
+    "sources": {
+      "ebay": {
+        "status": "ok",
+        "fetched": 0,
+        "new": 0,
+        "errors": []
+      }
+    },
+    "findings_count": 0,
+    "error_message": null
+  },
+  {
+    "timestamp": 1784923893.8601115,
+    "overall_status": "ok",
+    "duration_seconds": 18.758081436157227,
+    "sources": {
+      "ebay": {
+        "status": "ok",
+        "fetched": 1,
+        "new": 1,
+        "errors": []
+      }
+    },
+    "findings_count": 1,
+    "error_message": null
+  },
+  {
+    "timestamp": 1784923922.0181935,
+    "overall_status": "ok",
+    "duration_seconds": 0.40105128288269043,
+    "sources": {
+      "ebay": {
+        "status": "ok",
+        "fetched": 0,
+        "new": 0,
+        "errors": []
+      }
+    },
+    "findings_count": 0,
+    "error_message": null
+  },
+  {
+    "timestamp": 1784923952.6699915,
+    "overall_status": "ok",
+    "duration_seconds": 6.151755332946777,
+    "sources": {
+      "ebay": {
+        "status": "ok",
+        "fetched": 0,
+        "new": 0,
+        "errors": []
+      }
+    },
+    "findings_count": 0,
+    "error_message": null
   }
 ]

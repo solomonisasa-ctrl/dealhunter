@@ -28,8 +28,18 @@ def save_findings(path: Path, findings: list[Finding]) -> None:
 
 
 def append_finding(path: Path, finding: Finding) -> list[Finding]:
+    """Upserts by id rather than blindly appending - a listing can end up
+    getting re-scored (e.g. local testing and a scheduled run each
+    discovering the same not-yet-seen listing before their state files are
+    in sync), and storage should never end up with two entries for the same
+    id as a result."""
     findings = load_findings(path)
-    findings.append(finding)
+    for i, existing in enumerate(findings):
+        if existing.id == finding.id:
+            findings[i] = finding
+            break
+    else:
+        findings.append(finding)
     save_findings(path, findings)
     return findings
 

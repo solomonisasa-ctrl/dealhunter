@@ -156,16 +156,18 @@ function renderFeed() {
     card.className = "card";
     card.addEventListener("click", () => openDetail(f.id));
 
+    const photoCount = photoUrls(f.listing).length;
     const img = f.listing.image_url
       ? `<img src="${f.listing.image_url}" alt="">`
       : "No image";
+    const photoCountBadge = photoCount > 1 ? `<span class="photo-count">📷 ${photoCount}</span>` : "";
 
     const duplicateBadge = f.duplicate_of
       ? '<span class="badge badge-duplicate">Possible duplicate</span>'
       : "";
 
     card.innerHTML = `
-      <div class="card-image">${img}</div>
+      <div class="card-image">${img}${photoCountBadge}</div>
       <div class="card-body">
         <div class="card-title">${escapeHtml(f.listing.title)}</div>
         <div class="card-price">${fmtPrice(f.all_in_price)}</div>
@@ -191,6 +193,13 @@ function scoreColor(score) {
 
 function dealLabel(score) {
   return score >= 0 ? `${score}% under market` : `${Math.abs(score)}% over market`;
+}
+
+// All photos for a listing, falling back to just the primary image for
+// findings scored before multi-image support existed.
+function photoUrls(listing) {
+  if (listing.image_urls && listing.image_urls.length > 0) return listing.image_urls;
+  return listing.image_url ? [listing.image_url] : [];
 }
 
 function escapeHtml(s) {
@@ -220,6 +229,18 @@ function renderQaList(qaHistory) {
     .join("")}</div>`;
 }
 
+function renderPhotoGallery(listing) {
+  const urls = photoUrls(listing);
+  if (urls.length === 0) return "";
+  const thumbs = urls
+    .map(
+      (url, i) =>
+        `<a href="${url}" target="_blank" rel="noopener noreferrer"><img src="${url}" alt="Photo ${i + 1}" loading="lazy"></a>`
+    )
+    .join("");
+  return `<div class="detail-section"><h4>Photos (${urls.length})</h4><div class="photo-gallery">${thumbs}</div></div>`;
+}
+
 async function openDetail(findingId) {
   const res = await fetch(`/api/findings/${encodeURIComponent(findingId)}`);
   if (!res.ok) return;
@@ -237,6 +258,7 @@ async function openDetail(findingId) {
       <span class="badge badge-liquidity">${f.liquidity.rating} liquidity</span>
     </div>
     ${duplicateNote}
+    ${renderPhotoGallery(f.listing)}
 
     <div class="detail-section">
       <h4>Match reasoning</h4>

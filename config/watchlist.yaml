@@ -21,23 +21,21 @@
 
 - id: Omega Constellation
   category: watches
-  description: vintage omega constellation excellent condition unpolished gerald gentra
-    designed version
-  discount_threshold: 0.25
+  description: vintage omega constellation
+  discount_threshold: 0.2
   lookback_days: 30
   enabled: true
   parsed_criteria:
     brand: Omega
     model: Constellation
     reference_number: null
-    condition_min: Excellent
+    condition_min: null
     box_and_papers_required: null
     max_price_all_in: null
-    other_requirements: Unpolished case, Gerald Genta designed version (vintage)
+    other_requirements: Vintage piece
     search_keywords:
-    - Omega Constellation
     - vintage Omega Constellation
-    - Gerald Genta Constellation
-    - unpolished Constellation
-    - Omega Constellation vintage unpolished
-    - Genta design Omega
+    - Omega Constellation
+    - Omega Constellation vintage watch
+    - Constellation pie pan
+    - Omega Constellation automatic
