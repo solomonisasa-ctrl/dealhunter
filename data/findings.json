@@ -2436,5 +2436,281 @@
     "notified": false,
     "duplicate_of": null,
     "created_at": 1784842791.907109
+  },
+  {
+    "id": "gs-shunbun:ebay:v1|177920773595|0",
+    "listing": {
+      "id": "ebay:v1|177920773595|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Grand Seiko Sports Collection SBGE307 New Box Papers rare",
+      "url": "https://www.ebay.com/itm/177920773595?_skw=Grand+Seiko+Shunbun+Grand+Seiko+Shunbun+Spring+Equinox+GS+Shunbun+limited+edition+Grand+Seiko+Shunbun+box+papers+Shunbun+Grand+Seiko+watch&hash=item296ce78ddb:g:TKMAAeSwMcVpqDO6&amdata=enc%3AAQALAAABcACCtXRWQnOEpyOqnQQ8KGa3sBsO19nO4RJC65jTEywQgNR3a3mlLFH2awn5ASAEiPhA3UDduzsOzeAOQNxp9Cx%2Bj2Xs5m2p3fq6SnynaAlgkTCZmoqxvyzRYOxgROsfsi1vizi7TP%2BVShgrooXB3IMMJAoHFNkNyVidJ%2BKcmLLxpNMqWIu8HyK%2BBTsajzOv6lAkSB78C1s5UifN9%2BuQnVX3ie588FWz0apToQppPOr827Yoj1VTtrf2U507IBuccjWgjgoZN4vThbc2MhxKDOxDRUQWCV5%2BUl%2F18IZ6FdRLipO0gYWNDYl%2Fb4ENDMBlNKPhQKnDhA9%2F9KXGth1FIkQFTD0NUBIex2Uy6Z43xfcNC1PJbqfJFw4UEF8S86UyInuuIuBwS4WWlXGv%2F7pGPuZNAh5wC1uSd2XMx3HCUBtB8k0WuK68DXp6QPu4MLhK0L8Ccticlg29xiboZ0o%2B3KWuWHduAO7iZosYpImIziRg",
+      "price": 10450.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/TKMAAeSwMcVpqDO6/s-l225.jpg",
+      "body": "Grand Seiko Sports Collection SBGE307 New Box Papers rare",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "New with box and papers"
+      }
+    },
+    "watch_item_id": "gs-shunbun",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Listing is for SBGE307, a Grand Seiko Sports Collection Spring Drive GMT model, not the Shunbun (Spring Equinox) limited edition the hunter wants. Price of $10,450 also far exceeds the $6000 all-in ceiling.",
+      "estimated_value": 5200.0,
+      "confidence": 0.35,
+      "condition_summary": "Photo shows a textured white/silver dial GMT model with GS logo, described as 'New' with box and papers; close-up crop makes it hard to assess case/bracelet wear or confirm full set contents.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Photo is a tight macro crop of just the dial, not showing the case, caseback, bracelet, or the actual box/papers despite being advertised - this is a common tactic to obscure condition or authenticity issues. No reference to serial number visible, and 'rare' claim in title doesn't match a fairly common production reference (SBGE307), which is a soft red flag for misleading marketing.",
+      "rarity_notes": "SBGE307 is a standard-production Spring Drive GMT model, not a limited edition; it is not the Shunbun (Spring Equinox limited edition) the hunter is seeking, which is a genuinely harder-to-find piece.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Grand Seiko Spring Drive GMT models have solid demand and brand recognition, but SBGE307 is not a sought-after limited edition like the Shunbun, so demand/premium is moderate rather than high."
+    },
+    "deal_score": 32,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 105,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 105 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko Spring Drive GMT models have solid demand and brand recognition, but SBGE307 is not a sought-after limited edition like the Shunbun, so demand/premium is moderate rather than high.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 10450.0,
+    "discount": -1.0096153846153846,
+    "notified": false,
+    "duplicate_of": null,
+    "created_at": 1784880031.1351352
+  },
+  {
+    "id": "gs-shunbun:ebay:v1|176013474678|0",
+    "listing": {
+      "id": "ebay:v1|176013474678|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Grand Seiko Grand Seiko SBGH305 Green Dial Limited Edition Box and Papers",
+      "url": "https://www.ebay.com/itm/176013474678?_skw=Grand+Seiko+Shunbun+Grand+Seiko+Shunbun+Spring+Equinox+GS+Shunbun+limited+edition+Grand+Seiko+Shunbun+box+papers+Shunbun+Grand+Seiko+watch&hash=item28fb387b76:g:gQIAAOSwTi5lSHJV",
+      "price": 9750.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/gQIAAOSwTi5lSHJV/s-l225.jpg",
+      "body": "Grand Seiko Grand Seiko SBGH305 Green Dial Limited Edition Box and Papers",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "New with box and papers"
+      }
+    },
+    "watch_item_id": "gs-shunbun",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The listing is for a Grand Seiko SBGH305 (Shunbun/Spring Equinox Hi-Beat 36000 green dial LE), not confirmed to be the exact 'Shunbun' model the hunter wants but plausibly related - however the price of $9,750 all-in far exceeds the $6000 all-in ceiling, so it fails the price requirement regardless of model match.",
+      "estimated_value": 7500.0,
+      "confidence": 0.45,
+      "condition_summary": "Photo shows a clean, seemingly well-kept green dial Hi-Beat GS on bracelet with no visible major wear, but only one stock-style close-up image is provided with no shots of case sides, caseback, or the actual box/papers claimed in the title.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "No overt red flags (dial text, hands, and font look consistent with genuine SBGH305), but the listing only shows a single dial photo despite claiming box and papers are included - these are not pictured, so that claim is unverified from the image alone.",
+      "rarity_notes": "SBGH305 is a limited edition Hi-Beat 36000 green dial GS (part of the seasonal/nature series), moderately sought after but not ultra-rare; several examples typically available on the secondary market at a given time.",
+      "demand_tier": "High",
+      "demand_reasoning": "Grand Seiko Hi-Beat green dial limited editions have strong collector demand and brand recognition, especially with box and papers."
+    },
+    "deal_score": 36,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 105,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 105 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Grand Seiko Hi-Beat green dial limited editions have strong collector demand and brand recognition, especially with box and papers.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 9750.0,
+    "discount": -0.3,
+    "notified": false,
+    "duplicate_of": null,
+    "created_at": 1784880039.5359728
+  },
+  {
+    "id": "gs-shunbun:ebay:v1|175391217334|0",
+    "listing": {
+      "id": "ebay:v1|175391217334|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "GRAND SEIKO SBGE257 SPORT COLLECTION GREEN BOX AND PAPERS NEW",
+      "url": "https://www.ebay.com/itm/175391217334?_skw=Grand+Seiko+Shunbun+Grand+Seiko+Shunbun+Spring+Equinox+GS+Shunbun+limited+edition+Grand+Seiko+Shunbun+box+papers+Shunbun+Grand+Seiko+watch&hash=item28d62196b6:g:ZhcAAOSwlOpjAw49&amdata=enc%3AAQALAAABcACCtXRWQnOEpyOqnQQ8KGZlGI6lax6m6WK%2B2F1M%2FWI0J%2FH7sJ40DyxjyxxLYEfJfn%2Fo6X%2BPFm86%2FGHQwRBmXm3tfqK%2Fnmk7eMnr2LS0jrBxS4VUld4JOb3WSUAfv2Qm5qD6KgkW4znfr8RQHqpt2pDhgTX8a%2FyAdy2ScskI0tuPn%2Bro%2B4eMzthiFbqNPch612KYn%2F6tfZi%2Bb%2BB76I%2BwHHI8NCca23Zb3fPTG5GYGd8Bh6XzwH8iwVBx2APRppvHt%2BlzuikXvV3EIChuRpnGW%2BLYSbZTUSACEgy%2B6CxcPD0o9bxsXLscyABkpNdfQMjyCPyjqsmYo0nJjcbMS5MJn9fTay49c0lO4To6uUlYAWSrz%2FpceBtyz1F950QM3q7y15tbZRaCGyTyToOViFUsppa5wVJ8Qj6RRXHnlXtlqsOsTsU03AWJfwC%2FFihppe24fPZBbr60mack5GCYLWN6eGLa%2FBbflkqfGUeQj8KRmbHp",
+      "price": 6480.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/ZhcAAOSwlOpjAw49/s-l225.jpg",
+      "body": "GRAND SEIKO SBGE257 SPORT COLLECTION GREEN BOX AND PAPERS NEW",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "New with box and papers"
+      }
+    },
+    "watch_item_id": "gs-shunbun",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "This listing is for the Grand Seiko SBGE257 Sport Collection GMT (green dial/bezel Spring Drive GMT), not the Shunbun (Spring Equinox) limited edition the hunter is seeking. Additionally, the all-in price of $6,480 exceeds the $6000 ceiling.",
+      "estimated_value": 5800.0,
+      "confidence": 0.5,
+      "condition_summary": "Listed as new, box and papers included; photo shows a clean, unworn-looking green dial GMT sport watch consistent with 'new' claim, though it appears to be a stock/catalog-style image rather than an actual seller photo of the specific unit.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "The single photo looks like a generic product/stock image rather than a real photo of the actual item in hand (no visible serial, no photos of papers/box themselves, no imperfection or unique angle shots). No seller history, return policy, or additional detail provided. Title/model mismatch (SBGE257 vs Shunbun) also raises concern about listing accuracy or search-stuffing.",
+      "rarity_notes": "SBGE257 is a regular production Sport Collection GMT model, not a limited edition like the Shunbun (Spring Equinox), so it is far more common and not the rare piece being hunted.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Grand Seiko has strong brand recognition and the Sport GMT green is popular, but as a non-limited production model it doesn't carry the same demand/rarity premium as the Shunbun limited edition being sought."
+    },
+    "deal_score": 44,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 105,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 105 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko has strong brand recognition and the Sport GMT green is popular, but as a non-limited production model it doesn't carry the same demand/rarity premium as the Shunbun limited edition being sought.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 6480.0,
+    "discount": -0.11724137931034483,
+    "notified": false,
+    "duplicate_of": null,
+    "created_at": 1784880048.0484388
+  },
+  {
+    "id": "gs-shunbun:ebay:v1|175308902644|0",
+    "listing": {
+      "id": "ebay:v1|175308902644|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "GRAND SEIKO SBGA451G rare China Limited Edition Box and Papers White",
+      "url": "https://www.ebay.com/itm/175308902644?_skw=Grand+Seiko+Shunbun+Grand+Seiko+Shunbun+Spring+Equinox+GS+Shunbun+limited+edition+Grand+Seiko+Shunbun+box+papers+Shunbun+Grand+Seiko+watch&hash=item28d13990f4:g:B~EAAOSwbNxinWy6",
+      "price": 8280.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/B~EAAOSwbNxinWy6/s-l225.jpg",
+      "body": "GRAND SEIKO SBGA451G rare China Limited Edition Box and Papers White",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "New with box and papers"
+      }
+    },
+    "watch_item_id": "gs-shunbun",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Price is $8,280 all-in, well above the $6000 ceiling. Also this is the SBGA451G 'China Limited Edition' (Spring Drive, snowflake-style dial), not the Shunbun (Spring Equinox) model the hunter is seeking - different reference and theme entirely.",
+      "estimated_value": 7500.0,
+      "confidence": 0.35,
+      "condition_summary": "Photo shown appears to be a stock/catalog-style image rather than an actual photo of the specific watch for sale; no visible wear or condition detail can be confirmed, and no box/papers are actually pictured despite being claimed in the title.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Image looks like a generic manufacturer/catalog photo, not real photos of the actual item - a common red flag since buyers can't verify actual condition, serials, or that box/papers are truly included. Listing text is thin (just a title, no description of condition, serial verification, or seller provenance).",
+      "rarity_notes": "The SBGA451G is itself a limited edition (China-market release), so it can be hard to find, but it is a different model/reference from the Shunbun (SBGA413/SBGA407-style Spring Equinox limited editions) the hunter explicitly wants.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Grand Seiko limited editions have solid collector demand, but this specific China-market LE has a narrower audience than mainline Spring Drive Snowflake or Shunbun pieces, and it doesn't match the hunter's target model at all."
+    },
+    "deal_score": 46,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 105,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 105 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko limited editions have solid collector demand, but this specific China-market LE has a narrower audience than mainline Spring Drive Snowflake or Shunbun pieces, and it doesn't match the hunter's target model at all.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 8280.0,
+    "discount": -0.104,
+    "notified": false,
+    "duplicate_of": null,
+    "created_at": 1784880056.226437
+  },
+  {
+    "id": "gs-shunbun:ebay:v1|175202461664|0",
+    "listing": {
+      "id": "ebay:v1|175202461664|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Grand Seiko Ginza Tokyo Limited Edition SBGA447 Heritage Collection UNUSED",
+      "url": "https://www.ebay.com/itm/175202461664?_skw=Grand+Seiko+Shunbun+Grand+Seiko+Shunbun+Spring+Equinox+GS+Shunbun+limited+edition+Grand+Seiko+Shunbun+box+papers+Shunbun+Grand+Seiko+watch&hash=item28cae167e0:g:-~oAAOSwwoliMTrv",
+      "price": 8480.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/-~oAAOSwwoliMTrv/s-l225.jpg",
+      "body": "Grand Seiko Ginza Tokyo Limited Edition SBGA447 Heritage Collection UNUSED",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "New with box and papers"
+      }
+    },
+    "watch_item_id": "gs-shunbun",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Listing is for the SBGA447 Ginza Tokyo Limited Edition, not the Shunbun (Spring Equinox) model the hunter wants. Additionally, price of $8,480 all-in far exceeds the $6000 ceiling, and there is no mention of box/papers.",
+      "estimated_value": 4200.0,
+      "confidence": 0.35,
+      "condition_summary": "Photo shows a clean, seemingly unworn Spring Drive dial watch on a bracelet with no visible scratches; title claims 'UNUSED' but only one stock-like photo is provided with no box/papers shown.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only a single generic-looking photo (appears staged/stock-like on a jewelry display pad) is provided; no closeups of case back, serial, or included box/papers despite 'Heritage Collection' branding claims. Price is also unusually high relative to typical SBGA447 market value (~$3800-4500), which is itself a red flag suggesting inflated or padded pricing, possibly to negotiate down, or listing details may be inaccurate/mismatched to the model.",
+      "rarity_notes": "SBGA447 is a known Grand Seiko Heritage Spring Drive GMT/moonphase-style reference, moderately available on the secondary market; it is NOT the Shunbun (Spring Equinox) limited edition the hunter is seeking, which is a distinct, rarer seasonal limited release.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Grand Seiko Heritage models have solid collector demand, but SBGA447 is not as sought-after or rare as the specific Shunbun limited edition, and mismatched model plus inflated price will reduce buyer interest for this specific hunt."
+    },
+    "deal_score": 32,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 105,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 105 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko Heritage models have solid collector demand, but SBGA447 is not as sought-after or rare as the specific Shunbun limited edition, and mismatched model plus inflated price will reduce buyer interest for this specific hunt.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 8480.0,
+    "discount": -1.019047619047619,
+    "notified": false,
+    "duplicate_of": "gs-shunbun:ebay:v1|377194485493|0",
+    "created_at": 1784880065.1155834
+  },
+  {
+    "id": "gs-shunbun:ebay:v1|177941638271|0",
+    "listing": {
+      "id": "ebay:v1|177941638271|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Grand Seiko SBGA443 Pink Heritage Collection with Box Papers",
+      "url": "https://www.ebay.com/itm/177941638271?_skw=Grand+Seiko+Shunbun+Grand+Seiko+Shunbun+Spring+Equinox+GS+Shunbun+limited+edition+Grand+Seiko+Shunbun+box+papers+Shunbun+Grand+Seiko+watch&hash=item296e25ec7f:g:DfcAAeSwrA1prk8B&amdata=enc%3AAQALAAABcACCtXRWQnOEpyOqnQQ8KGZX8A8nhM7tQHn4%2BBz5RSZw2kmUfe23u4ltDtn2eOYfDv136yTbeanzIjKBP7%2F9fJDjiiZhkRCMSw--DFxo3iqdNvhktzIFkP7BNd6NhfahR6baawAfH2ApsdK3s3ELvT0bTqPaPfbU2NNludm1hi%2FIpZFW37hW%2FXgMWSl9rrcz6VXgAe039U3JLuvDsXdXe9zRz1lU1bUX%2B1IeXJXQZu8GC5pjAMfKmmNXv%2FvzI8bFjfKguUQc4LqyRv%2BpPBUyB47LuRkH8YX4Q%2FuAWgYLifJPbadfbimwys9mzG34JOEMCHYPAvkXWGGrsFET7bn7K2umBgsErPWeeoRLnsqD5JbHqXb2rHGSjsKsVVBfbEjyXPUhiHk%2BHKCUVx%2Bx9qGrN2pYQBN3hvVbF9jR9acrVEJtLhbvOrOqKZy0p4b8YXpFJP3RMSEcvjFTeB5RPI6zukMPR4mHq5dw2lyKTru2eFBo",
+      "price": 8650.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/DfcAAeSwrA1prk8B/s-l225.jpg",
+      "body": "Grand Seiko SBGA443 Pink Heritage Collection with Box Papers",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "New with box and papers"
+      }
+    },
+    "watch_item_id": "gs-shunbun",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "This listing is for the SBGA443 \"Pink\" Heritage Collection Spring Drive, not the Grand Seiko Shunbun (Spring Equinox) model the hunter is seeking. It also exceeds the $6000 all-in price ceiling at $8,650.",
+      "estimated_value": 4200.0,
+      "confidence": 0.3,
+      "condition_summary": "Photo shows a used-looking SBGA443 with a mother-of-pearl-like pink dial; no visible major damage but the image is small/low-res, making detailed condition assessment difficult. Text gives no explicit condition grading.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Photo appears to be a generic/stock-style product shot rather than an in-hand photo showing box, papers, or serial numbers, despite claiming \"Box Papers\" in the title - no images of the box or papers are shown, which is a mild red flag. No mention of serial number verification or additional angles.",
+      "rarity_notes": "SBGA443 is a relatively available Heritage Collection Spring Drive model, not a limited-edition Shunbun; not rare, and unrelated to the specific hunted reference.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Grand Seiko Spring Drive models have solid brand recognition and demand, but this specific model doesn't match the sought-after Shunbun limited edition, and price is above typical market value for SBGA443, likely due to a misleading title."
+    },
+    "deal_score": 35,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 105,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 105 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko Spring Drive models have solid brand recognition and demand, but this specific model doesn't match the sought-after Shunbun limited edition, and price is above typical market value for SBGA443, likely due to a misleading title.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 8650.0,
+    "discount": -1.0595238095238095,
+    "notified": false,
+    "duplicate_of": "gs-shunbun:ebay:v1|176013474678|0",
+    "created_at": 1784880072.9419408
   }
 ]
