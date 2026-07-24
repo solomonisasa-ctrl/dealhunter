@@ -7,7 +7,7 @@ from __future__ import annotations
 
 import time
 from enum import Enum
-from typing import Any, Optional
+from typing import Any, Literal, Optional
 
 from pydantic import BaseModel, Field
 
@@ -114,6 +114,11 @@ class Finding(BaseModel):
     duplicate_of: Optional[str] = None  # id of an earlier Finding for the same physical item
     qa_history: list[QAEntry] = Field(default_factory=list)
     created_at: float = Field(default_factory=time.time)
+    # "quick" = only the first photo was analyzed (the cheap default pass on
+    # every new listing); "full" = all photos were analyzed, either because
+    # it auto-qualified for its hunt's deal threshold or the user requested
+    # a deep dive via the dashboard.
+    analysis_depth: Literal["quick", "full"] = "quick"
 
     @property
     def score_color(self) -> str:
@@ -146,4 +151,5 @@ class HealthReport(BaseModel):
     duration_seconds: float = 0.0
     sources: dict[str, SourceHealth] = Field(default_factory=dict)
     findings_count: int = 0
+    sold_detected: int = 0
     error_message: Optional[str] = None

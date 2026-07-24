@@ -140,3 +140,28 @@ def test_images_capped_at_four():
     sent_content = client.messages.calls[0]["messages"][0]["content"]
     image_blocks = [b for b in sent_content if b["type"] == "image"]
     assert len(image_blocks) == 4
+
+
+def test_quick_pass_sends_only_first_photo():
+    client = _FakeClient()
+    urls = [f"https://example.com/{i}.jpg" for i in range(4)]
+    listing = _make_listing(image_url=urls[0], image_urls=urls)
+    analyze_listing(client, "claude-sonnet-5", listing, _make_watch_item(), full=False)
+
+    sent_content = client.messages.calls[0]["messages"][0]["content"]
+    image_blocks = [b for b in sent_content if b["type"] == "image"]
+    assert len(image_blocks) == 1
+    assert image_blocks[0]["source"]["url"] == urls[0]
+
+
+def test_full_pass_is_the_default():
+    client = _FakeClient()
+    urls = [f"https://example.com/{i}.jpg" for i in range(4)]
+    listing = _make_listing(image_url=urls[0], image_urls=urls)
+    # Not passing `full` at all should behave like full=True, for backward
+    # compatibility with dry_run.py and existing callers.
+    analyze_listing(client, "claude-sonnet-5", listing, _make_watch_item())
+
+    sent_content = client.messages.calls[0]["messages"][0]["content"]
+    image_blocks = [b for b in sent_content if b["type"] == "image"]
+    assert len(image_blocks) == 4

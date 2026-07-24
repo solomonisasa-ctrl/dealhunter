@@ -47,7 +47,8 @@ async function loadStatus() {
       const counts = Object.entries(latest.sources)
         .map(([name, h]) => `${name}: ${h.fetched}`)
         .join(", ");
-      pill.textContent = `Last run ${timeAgo(latest.timestamp)} · ${latest.overall_status} · ${counts || "no sources"}`;
+      const soldNote = latest.sold_detected > 0 ? ` · ${latest.sold_detected} sold` : "";
+      pill.textContent = `Last run ${timeAgo(latest.timestamp)} · ${latest.overall_status} · ${counts || "no sources"}${soldNote}`;
       pill.className = `status-pill status-${latest.overall_status}`;
     }
     document.getElementById("unpushed-banner").classList.toggle("hidden", !data.unpushed_config_changes);
@@ -165,6 +166,9 @@ function renderFeed() {
     const duplicateBadge = f.duplicate_of
       ? '<span class="badge badge-duplicate">Possible duplicate</span>'
       : "";
+    const depthBadge =
+      f.analysis_depth === "quick" ? '<span class="badge badge-liquidity">Quick scan</span>' : "";
+    const soldBadge = f.listing.status === "sold" ? '<span class="badge badge-red">Sold</span>' : "";
 
     card.innerHTML = `
       <div class="card-image">${img}${photoCountBadge}</div>
@@ -174,6 +178,8 @@ function renderFeed() {
         <div class="badge-row">
           <span class="badge ${scoreBadgeClass(scoreColor(f.deal_score))}">${dealLabel(f.deal_score)}</span>
           <span class="badge badge-liquidity">${f.liquidity.rating} liquidity</span>
+          ${depthBadge}
+          ${soldBadge}
           ${duplicateBadge}
         </div>
         <div class="card-summary">${escapeHtml(f.analysis.condition_summary || "")}</div>
@@ -251,14 +257,31 @@ async function openDetail(findingId) {
     ? `<div class="banner duplicate-banner">Possible duplicate of <a href="#" data-open-finding="${escapeHtml(f.duplicate_of)}">an earlier finding</a> for this watch item - no notification was sent for this one.</div>`
     : "";
 
+  const photoCount = photoUrls(f.listing).length;
+  const isSold = f.listing.status === "sold";
+  const canRunFullAnalysis = f.analysis_depth !== "full" && photoCount > 1 && !isSold;
+  const depthNote =
+    f.analysis_depth === "quick"
+      ? `<span class="badge badge-liquidity">Quick scan (1 of ${photoCount} photos)</span>`
+      : "";
+  const soldNote = isSold ? '<span class="badge badge-red">Sold</span>' : "";
+  const fullAnalysisSection = canRunFullAnalysis
+    ? `<div class="detail-section">
+        <button type="button" class="btn btn-secondary" id="full-analysis-btn">📸 Run full analysis (all ${photoCount} photos)</button>
+      </div>`
+    : "";
+
   content.innerHTML = `
     <div class="detail-title">${escapeHtml(f.listing.title)}</div>
     <div class="detail-price">${fmtPrice(f.all_in_price)}
       <span class="badge ${scoreBadgeClass(scoreColor(f.deal_score))}">${dealLabel(f.deal_score)}</span>
       <span class="badge badge-liquidity">${f.liquidity.rating} liquidity</span>
+      ${depthNote}
+      ${soldNote}
     </div>
     ${duplicateNote}
     ${renderPhotoGallery(f.listing)}
+    ${fullAnalysisSection}
 
     <div class="detail-section">
       <h4>Match reasoning</h4>
@@ -306,6 +329,33 @@ async function openDetail(findingId) {
     originalLink.addEventListener("click", (e) => {
       e.preventDefault();
       openDetail(originalLink.dataset.openFinding);
+    });
+  }
+
+  const fullAnalysisBtn = document.getElementById("full-analysis-btn");
+  if (fullAnalysisBtn) {
+    fullAnalysisBtn.addEventListener("click", async () => {
+      const originalText = fullAnalysisBtn.textContent;
+      fullAnalysisBtn.disabled = true;
+      fullAnalysisBtn.textContent = "Analyzing all photos…";
+      try {
+        const res = await fetch(`/api/findings/${encodeURIComponent(currentFindingId)}/full-analysis`, {
+          method: "POST",
+        });
+        if (!res.ok) {
+          const err = await res.json().catch(() => ({}));
+          alert(`Full analysis failed: ${err.detail || res.statusText}`);
+          fullAnalysisBtn.disabled = false;
+          fullAnalysisBtn.textContent = originalText;
+          return;
+        }
+        await openDetail(currentFindingId);
+        loadFeed();
+      } catch (err) {
+        alert(`Full analysis failed: ${err}`);
+        fullAnalysisBtn.disabled = false;
+        fullAnalysisBtn.textContent = originalText;
+      }
     });
   }
 
@@ -426,6 +476,8 @@ function openEdit(itemId) {
       <div>
         <label>Description (plain English)</label>
         <textarea name="description" required>${escapeHtml(item.description)}</textarea>
+        <button type="button" class="btn btn-secondary" id="preview-match-count-btn" style="margin-top:6px;">Preview match count</button>
+        <div id="preview-match-count-result"></div>
       </div>
       <div class="field-row">
         <div>
@@ -448,6 +500,46 @@ function openEdit(itemId) {
   `;
   document.getElementById("edit-overlay").classList.remove("hidden");
   document.getElementById("edit-cancel").addEventListener("click", closeEdit);
+
+  document.getElementById("preview-match-count-btn").addEventListener("click", async () => {
+    const btn = document.getElementById("preview-match-count-btn");
+    const resultEl = document.getElementById("preview-match-count-result");
+    const description = document.querySelector('textarea[name="description"]').value.trim();
+    const category = document.querySelector('select[name="category"]').value;
+    if (!description) {
+      resultEl.textContent = "Enter a description first.";
+      return;
+    }
+    btn.disabled = true;
+    btn.textContent = "Checking…";
+    resultEl.textContent = "";
+    try {
+      const res = await fetch(
+        `/api/watchlist/preview-match-count?${new URLSearchParams({ description, category })}`
+      );
+      if (!res.ok) {
+        const err = await res.json().catch(() => ({}));
+        resultEl.textContent = `Couldn't check: ${err.detail || res.statusText}`;
+      } else {
+        const { count } = await res.json();
+        // eBay's search match is fuzzy, not a strict phrase match - even a
+        // specific reference number can return hundreds of loosely-related
+        // results. Treat this as a relative signal (broader description ->
+        // bigger number, more ongoing Claude usage as new ones appear), not
+        // a precise prediction of next-run cost.
+        const veryBroad = count > 3000;
+        resultEl.innerHTML = veryBroad
+          ? `⚠️ ~${count.toLocaleString()} eBay results for this text - that's very broad and will mean a steady stream of new matches (and Claude calls) on every run. A model or reference number will narrow it a lot. (eBay's match is fuzzy, so this is a rough gauge, not an exact count.)`
+          : `~${count.toLocaleString()} eBay results for this text (rough gauge - eBay's match is fuzzy, not exact).`;
+        resultEl.className = veryBroad ? "preview-warning" : "preview-ok";
+      }
+    } catch (err) {
+      resultEl.textContent = `Couldn't check: ${err}`;
+    } finally {
+      btn.disabled = false;
+      btn.textContent = "Preview match count";
+    }
+  });
 
   document.getElementById("edit-form").addEventListener("submit", async (e) => {
     e.preventDefault();

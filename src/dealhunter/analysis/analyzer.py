@@ -13,7 +13,11 @@ from dealhunter.models import AnalysisResult, DemandTier, Finding, Listing, Risk
 
 # Bounds Claude cost/latency per listing - most listings don't need more
 # than a handful of angles to assess condition/authenticity anyway.
-_MAX_IMAGES = 4
+_MAX_IMAGES_FULL = 4
+# The cheap default pass every new listing gets: first photo only, so bad
+# deals don't burn a multi-image call before anyone's decided they're
+# worth a closer look. See pipeline.score_listing's `full` param.
+_MAX_IMAGES_QUICK = 1
 
 _SYSTEM = (
     "You are a collectibles appraisal assistant helping a buyer evaluate a "
@@ -103,9 +107,10 @@ _INPUT_SCHEMA = {
 }
 
 
-def _image_urls_for(listing: Listing) -> list[str]:
+def _image_urls_for(listing: Listing, full: bool = True) -> list[str]:
+    cap = _MAX_IMAGES_FULL if full else _MAX_IMAGES_QUICK
     urls = listing.image_urls or ([listing.image_url] if listing.image_url else [])
-    return urls[:_MAX_IMAGES]
+    return urls[:cap]
 
 
 def _build_text(listing: Listing, watch_item: WatchItem) -> str:
@@ -129,9 +134,14 @@ def analyze_listing(
     model: str,
     listing: Listing,
     watch_item: WatchItem,
+    full: bool = True,
 ) -> AnalysisResult:
+    """full=False caps images at 1 (the cheap first pass every new listing
+    gets); full=True sends up to _MAX_IMAGES_FULL (the deep dive, reserved
+    for listings that already cleared their hunt's deal threshold or that
+    the user explicitly asked to re-analyze)."""
     text = _build_text(listing, watch_item)
-    image_urls = _image_urls_for(listing)
+    image_urls = _image_urls_for(listing, full)
 
     if image_urls:
         # Listing photos are the single biggest signal for condition/

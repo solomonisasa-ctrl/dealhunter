@@ -17,7 +17,7 @@ from dealhunter.analysis.dedup import find_duplicate
 from dealhunter.analysis.scoring import compute_deal_score, compute_liquidity, qualifies_for_notification
 from dealhunter.criteria_parser import ensure_parsed_criteria
 from dealhunter.healthcheck import assess_source_staleness, overall_status, verify_credentials
-from dealhunter.models import AnalysisResult, Finding, HealthReport, Listing, SourceHealth, WatchItem
+from dealhunter.models import AnalysisResult, Finding, HealthReport, Listing, ListingStatus, SourceHealth, WatchItem
 from dealhunter.notify.ntfy import send_deal_digest, send_error_alert
 from dealhunter.schedule_store import load_paused, load_poll_interval_minutes
 from dealhunter.sources.base import SourceAdapter
@@ -81,11 +81,17 @@ def score_listing(
     listing: Listing,
     watch_item: WatchItem,
     comparable_count: int,
+    full: bool = True,
 ) -> Finding:
     """Runs the Claude analysis + deterministic scoring for one listing.
     Shared by the live pipeline and scripts/dry_run.py so dry-run results
-    are produced by the exact same code path as a real run."""
-    analysis: AnalysisResult = analyze_listing(client, model, listing, watch_item)
+    are produced by the exact same code path as a real run.
+
+    full=False runs the cheap first-photo-only pass (see run_hunt's
+    two-phase scoring below); full=True (the default, used by dry_run.py
+    and the dashboard's manual "full analysis" button) analyzes every
+    available photo."""
+    analysis: AnalysisResult = analyze_listing(client, model, listing, watch_item, full=full)
     deal_score, discount = compute_deal_score(listing.all_in_price, analysis)
     liquidity = compute_liquidity(comparable_count, analysis)
     return Finding(
@@ -97,7 +103,60 @@ def score_listing(
         liquidity=liquidity,
         all_in_price=listing.all_in_price,
         discount=discount,
+        analysis_depth="full" if full else "quick",
     )
+
+
+# Cap per source per run so a big backlog of active listings can't turn one
+# run into a burst of dozens of check_sold calls - oldest-still-active
+# listings are checked first, spreading the load across runs.
+_MAX_SOLD_CHECKS_PER_SOURCE = 25
+
+
+def refresh_sold_status(
+    settings: Settings, sources: dict[str, SourceAdapter], watchlist: list[WatchItem]
+) -> int:
+    """Re-checks previously-seen active listings to see if they've sold,
+    for watch items still enabled. Updates both the dedupe state (so the
+    listing isn't re-surfaced) and every stored Finding for that listing
+    (so the dashboard can stop showing it as an available deal). Returns
+    how many were newly found sold."""
+    enabled_ids = {w.id for w in watchlist if w.enabled}
+    findings = findings_store.load_findings(settings.findings_path)
+    findings_by_listing_id: dict[str, list[Finding]] = {}
+    for f in findings:
+        findings_by_listing_id.setdefault(f.listing.id, []).append(f)
+
+    newly_sold = 0
+    for source_name, source in sources.items():
+        state = state_store.load_state(settings.state_dir, source_name)
+        candidates = [
+            (listing_id, entry)
+            for listing_id, entry in state.items()
+            if entry.get("status") == "active"
+            and enabled_ids.intersection(entry.get("watch_item_ids", []))
+            and listing_id in findings_by_listing_id
+        ]
+        candidates.sort(key=lambda kv: kv[1].get("first_seen", 0))
+
+        for listing_id, _entry in candidates[:_MAX_SOLD_CHECKS_PER_SOURCE]:
+            related = findings_by_listing_id[listing_id]
+            listing = related[0].listing
+            try:
+                sold = source.check_sold(listing)
+            except Exception:  # noqa: BLE001 - best-effort, never fail the run over this
+                continue
+            if sold:
+                state_store.mark_sold(state, listing_id)
+                for f in related:
+                    f.listing.status = ListingStatus.SOLD
+                newly_sold += 1
+
+        state_store.save_state(settings.state_dir, source_name, state)
+
+    if newly_sold:
+        findings_store.save_findings(settings.findings_path, findings)
+    return newly_sold
 
 
 def run_hunt(settings: Settings, source_health_errors: dict[str, str] | None = None) -> HealthReport:
@@ -173,10 +232,29 @@ def run_hunt(settings: Settings, source_health_errors: dict[str, str] | None = N
                     continue
 
                 try:
-                    finding = score_listing(client, settings.anthropic_model, listing, item, comparable_count)
+                    # Cheap first pass: text + first photo only. Most new
+                    # listings aren't a good enough deal to be worth the
+                    # extra cost of a full multi-photo analysis - see below.
+                    finding = score_listing(
+                        client, settings.anthropic_model, listing, item, comparable_count, full=False
+                    )
                 except Exception as exc:  # noqa: BLE001
                     source_health[source_name].errors.append(f"{listing.id}: {exc}")
                     continue
+
+                cleared_threshold = qualifies_for_notification(
+                    finding.analysis, finding.discount, item.discount_threshold
+                )
+                has_more_photos = len(listing.image_urls) > 1
+                if cleared_threshold and has_more_photos:
+                    # Worth a closer look: re-analyze with every available
+                    # photo now that the cheap pass says this is a real deal.
+                    try:
+                        finding = score_listing(
+                            client, settings.anthropic_model, listing, item, comparable_count, full=True
+                        )
+                    except Exception:  # noqa: BLE001
+                        pass  # keep the quick-pass finding if the deep dive fails
 
                 # Cross-source/repost duplicate check: the same physical item
                 # posted to more than one source (or reposted) shouldn't
@@ -203,6 +281,15 @@ def run_hunt(settings: Settings, source_health_errors: dict[str, str] | None = N
     if watchlist_changed:
         save_watchlist(settings.watchlist_path, watchlist)
 
+    # Best-effort: re-check a bounded batch of previously-active listings to
+    # see if they've sold, so the feed stops showing deals that are gone.
+    # Only asks sources that didn't already fail credential/fetch checks.
+    working_sources = {name: src for name, src in sources.items() if source_health[name].status != "error"}
+    try:
+        sold_detected = refresh_sold_status(settings, working_sources, watchlist)
+    except Exception:  # noqa: BLE001 - never let this block the rest of the run
+        sold_detected = 0
+
     for name, health in source_health.items():
         if health.status != "error" and health.errors:
             health.status = "warning"
@@ -220,6 +307,7 @@ def run_hunt(settings: Settings, source_health_errors: dict[str, str] | None = N
         duration_seconds=time.time() - start,
         sources=source_health,
         findings_count=findings_count,
+        sold_detected=sold_detected,
     )
     report.overall_status = overall_status(source_health)
     health_store.append_health(settings.health_path, report)

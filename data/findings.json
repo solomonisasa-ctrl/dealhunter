@@ -45,7 +45,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784760333.3831315
+    "created_at": 1784760333.3831315,
+    "analysis_depth": "quick"
   },
   {
     "id": "gs-shunbun:ebay:v1|298482406627|0",
@@ -93,7 +94,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784760344.1477954
+    "created_at": 1784760344.1477954,
+    "analysis_depth": "quick"
   },
   {
     "id": "gs-shunbun:ebay:v1|267716772486|0",
@@ -141,7 +143,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784760351.723637
+    "created_at": 1784760351.723637,
+    "analysis_depth": "quick"
   },
   {
     "id": "gs-shunbun:ebay:v1|227415041972|0",
@@ -189,7 +192,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784760360.2204323
+    "created_at": 1784760360.2204323,
+    "analysis_depth": "quick"
   },
   {
     "id": "gs-shunbun:ebay:v1|147344052256|0",
@@ -237,7 +241,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784760369.7989573
+    "created_at": 1784760369.7989573,
+    "analysis_depth": "quick"
   },
   {
     "id": "gs-shunbun:ebay:v1|127968656290|0",
@@ -285,7 +290,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784760379.132016
+    "created_at": 1784760379.132016,
+    "analysis_depth": "quick"
   },
   {
     "id": "gs-shunbun:ebay:v1|147451422051|0",
@@ -333,7 +339,8 @@
     "notified": false,
     "duplicate_of": "gs-shunbun:ebay:v1|147344052256|0",
     "qa_history": [],
-    "created_at": 1784760388.4917793
+    "created_at": 1784760388.4917793,
+    "analysis_depth": "quick"
   },
   {
     "id": "gs-shunbun:ebay:v1|147450582247|0",
@@ -381,7 +388,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784760398.1109712
+    "created_at": 1784760398.1109712,
+    "analysis_depth": "quick"
   },
   {
     "id": "gs-shunbun:ebay:v1|198386631131|0",
@@ -429,7 +437,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784760409.7885785
+    "created_at": 1784760409.7885785,
+    "analysis_depth": "quick"
   },
   {
     "id": "gs-shunbun:ebay:v1|157805235429|0",
@@ -477,7 +486,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784760416.7759001
+    "created_at": 1784760416.7759001,
+    "analysis_depth": "quick"
   },
   {
     "id": "gs-shunbun:ebay:v1|117260198991|0",
@@ -525,7 +535,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784760426.0652714
+    "created_at": 1784760426.0652714,
+    "analysis_depth": "quick"
   },
   {
     "id": "gs-shunbun:ebay:v1|388869400350|0",
@@ -573,7 +584,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784760434.316374
+    "created_at": 1784760434.316374,
+    "analysis_depth": "quick"
   },
   {
     "id": "gs-shunbun:ebay:v1|188548025569|0",
@@ -621,7 +633,8 @@
     "notified": false,
     "duplicate_of": "gs-shunbun:ebay:v1|267716772486|0",
     "qa_history": [],
-    "created_at": 1784760443.638293
+    "created_at": 1784760443.638293,
+    "analysis_depth": "quick"
   },
   {
     "id": "gs-shunbun:ebay:v1|117034719312|0",
@@ -669,7 +682,8 @@
     "notified": false,
     "duplicate_of": "gs-shunbun:ebay:v1|147344052256|0",
     "qa_history": [],
-    "created_at": 1784760451.6773791
+    "created_at": 1784760451.6773791,
+    "analysis_depth": "quick"
   },
   {
     "id": "gs-shunbun:ebay:v1|147425360517|0",
@@ -717,7 +731,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784760460.5811744
+    "created_at": 1784760460.5811744,
+    "analysis_depth": "quick"
   },
   {
     "id": "gs-shunbun:ebay:v1|377194485493|0",
@@ -765,7 +780,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784760470.6132317
+    "created_at": 1784760470.6132317,
+    "analysis_depth": "quick"
   },
   {
     "id": "gs-shunbun:ebay:v1|147350656103|0",
@@ -813,7 +829,8 @@
     "notified": false,
     "duplicate_of": "gs-shunbun:ebay:v1|147344052256|0",
     "qa_history": [],
-    "created_at": 1784760479.6368034
+    "created_at": 1784760479.6368034,
+    "analysis_depth": "quick"
   },
   {
     "id": "gs-shunbun:ebay:v1|147452853876|0",
@@ -861,7 +878,8 @@
     "notified": false,
     "duplicate_of": "gs-shunbun:ebay:v1|227415041972|0",
     "qa_history": [],
-    "created_at": 1784760488.2231913
+    "created_at": 1784760488.2231913,
+    "analysis_depth": "quick"
   },
   {
     "id": "gs-shunbun:ebay:v1|398107886746|0",
@@ -909,7 +927,8 @@
     "notified": false,
     "duplicate_of": "gs-shunbun:ebay:v1|117260198991|0",
     "qa_history": [],
-    "created_at": 1784760498.3626885
+    "created_at": 1784760498.3626885,
+    "analysis_depth": "quick"
   },
   {
     "id": "gs-shunbun:ebay:v1|175340207742|0",
@@ -957,7 +976,8 @@
     "notified": false,
     "duplicate_of": "gs-shunbun:ebay:v1|267716772486|0",
     "qa_history": [],
-    "created_at": 1784760506.9551928
+    "created_at": 1784760506.9551928,
+    "analysis_depth": "quick"
   },
   {
     "id": "gs-shunbun:ebay:v1|358585948283|0",
@@ -1005,7 +1025,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784760516.585688
+    "created_at": 1784760516.585688,
+    "analysis_depth": "quick"
   },
   {
     "id": "gs-shunbun:ebay:v1|397513273521|0",
@@ -1053,7 +1074,8 @@
     "notified": false,
     "duplicate_of": "gs-shunbun:ebay:v1|147344052256|0",
     "qa_history": [],
-    "created_at": 1784760525.4635262
+    "created_at": 1784760525.4635262,
+    "analysis_depth": "quick"
   },
   {
     "id": "gs-shunbun:ebay:v1|316557039377|0",
@@ -1101,7 +1123,8 @@
     "notified": false,
     "duplicate_of": "gs-shunbun:ebay:v1|147344052256|0",
     "qa_history": [],
-    "created_at": 1784760533.073115
+    "created_at": 1784760533.073115,
+    "analysis_depth": "quick"
   },
   {
     "id": "gs-shunbun:ebay:v1|298365709892|0",
@@ -1149,7 +1172,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784760541.3515244
+    "created_at": 1784760541.3515244,
+    "analysis_depth": "quick"
   },
   {
     "id": "gs-shunbun:ebay:v1|188599726450|0",
@@ -1197,7 +1221,8 @@
     "notified": false,
     "duplicate_of": "gs-shunbun:ebay:v1|147425360517|0",
     "qa_history": [],
-    "created_at": 1784760550.0243635
+    "created_at": 1784760550.0243635,
+    "analysis_depth": "quick"
   },
   {
     "id": "gs-shunbun:ebay:v1|188674313920|0",
@@ -1245,7 +1270,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784760558.9191656
+    "created_at": 1784760558.9191656,
+    "analysis_depth": "quick"
   },
   {
     "id": "gs-shunbun:ebay:v1|147444188456|0",
@@ -1293,7 +1319,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784760567.1283736
+    "created_at": 1784760567.1283736,
+    "analysis_depth": "quick"
   },
   {
     "id": "gs-shunbun:ebay:v1|147169564297|0",
@@ -1341,7 +1368,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784760574.10399
+    "created_at": 1784760574.10399,
+    "analysis_depth": "quick"
   },
   {
     "id": "gs-shunbun:ebay:v1|298515622819|0",
@@ -1389,7 +1417,8 @@
     "notified": false,
     "duplicate_of": "gs-shunbun:ebay:v1|298482406627|0",
     "qa_history": [],
-    "created_at": 1784760586.6217952
+    "created_at": 1784760586.6217952,
+    "analysis_depth": "quick"
   },
   {
     "id": "gs-shunbun:ebay:v1|407089372544|0",
@@ -1437,7 +1466,8 @@
     "notified": false,
     "duplicate_of": "gs-shunbun:ebay:v1|298482406627|0",
     "qa_history": [],
-    "created_at": 1784760597.5387292
+    "created_at": 1784760597.5387292,
+    "analysis_depth": "quick"
   },
   {
     "id": "gs-shunbun:ebay:v1|227333496249|0",
@@ -1485,7 +1515,8 @@
     "notified": false,
     "duplicate_of": "gs-shunbun:ebay:v1|147344052256|0",
     "qa_history": [],
-    "created_at": 1784760606.2397928
+    "created_at": 1784760606.2397928,
+    "analysis_depth": "quick"
   },
   {
     "id": "gs-shunbun:ebay:v1|177921839142|0",
@@ -1533,7 +1564,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784760614.776704
+    "created_at": 1784760614.776704,
+    "analysis_depth": "quick"
   },
   {
     "id": "gs-shunbun:ebay:v1|116929152309|0",
@@ -1581,7 +1613,8 @@
     "notified": false,
     "duplicate_of": "gs-shunbun:ebay:v1|227415041972|0",
     "qa_history": [],
-    "created_at": 1784760622.925587
+    "created_at": 1784760622.925587,
+    "analysis_depth": "quick"
   },
   {
     "id": "gs-shunbun:ebay:v1|318619897865|0",
@@ -1629,7 +1662,8 @@
     "notified": false,
     "duplicate_of": "gs-shunbun:ebay:v1|147425360517|0",
     "qa_history": [],
-    "created_at": 1784760632.3101954
+    "created_at": 1784760632.3101954,
+    "analysis_depth": "quick"
   },
   {
     "id": "gs-shunbun:ebay:v1|137398091312|0",
@@ -1677,7 +1711,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784760640.6810327
+    "created_at": 1784760640.6810327,
+    "analysis_depth": "quick"
   },
   {
     "id": "gs-shunbun:ebay:v1|137338927294|0",
@@ -1725,7 +1760,8 @@
     "notified": false,
     "duplicate_of": "gs-shunbun:ebay:v1|147450582247|0",
     "qa_history": [],
-    "created_at": 1784760648.093673
+    "created_at": 1784760648.093673,
+    "analysis_depth": "quick"
   },
   {
     "id": "gs-shunbun:ebay:v1|147229087390|0",
@@ -1773,7 +1809,8 @@
     "notified": false,
     "duplicate_of": "gs-shunbun:ebay:v1|147344052256|0",
     "qa_history": [],
-    "created_at": 1784760655.5941677
+    "created_at": 1784760655.5941677,
+    "analysis_depth": "quick"
   },
   {
     "id": "gs-shunbun:ebay:v1|137434284352|0",
@@ -1821,7 +1858,8 @@
     "notified": false,
     "duplicate_of": "gs-shunbun:ebay:v1|117260198991|0",
     "qa_history": [],
-    "created_at": 1784760663.8014705
+    "created_at": 1784760663.8014705,
+    "analysis_depth": "quick"
   },
   {
     "id": "gs-shunbun:ebay:v1|407087744160|0",
@@ -1869,7 +1907,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784760673.5683982
+    "created_at": 1784760673.5683982,
+    "analysis_depth": "quick"
   },
   {
     "id": "gs-shunbun:ebay:v1|406870689698|0",
@@ -1917,7 +1956,8 @@
     "notified": false,
     "duplicate_of": "gs-shunbun:ebay:v1|177921839142|0",
     "qa_history": [],
-    "created_at": 1784760683.8805597
+    "created_at": 1784760683.8805597,
+    "analysis_depth": "quick"
   },
   {
     "id": "gs-shunbun:ebay:v1|306999752473|0",
@@ -1965,7 +2005,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784760692.540195
+    "created_at": 1784760692.540195,
+    "analysis_depth": "quick"
   },
   {
     "id": "gs-shunbun:ebay:v1|147410554351|0",
@@ -2013,7 +2054,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784760702.4334488
+    "created_at": 1784760702.4334488,
+    "analysis_depth": "quick"
   },
   {
     "id": "gs-shunbun:ebay:v1|147441691547|0",
@@ -2061,7 +2103,8 @@
     "notified": false,
     "duplicate_of": "gs-shunbun:ebay:v1|147344052256|0",
     "qa_history": [],
-    "created_at": 1784760710.9331412
+    "created_at": 1784760710.9331412,
+    "analysis_depth": "quick"
   },
   {
     "id": "gs-shunbun:ebay:v1|800291037105|0",
@@ -2109,7 +2152,8 @@
     "notified": false,
     "duplicate_of": "gs-shunbun:ebay:v1|147410554351|0",
     "qa_history": [],
-    "created_at": 1784760719.9137864
+    "created_at": 1784760719.9137864,
+    "analysis_depth": "quick"
   },
   {
     "id": "gs-shunbun:ebay:v1|336519633729|0",
@@ -2157,7 +2201,8 @@
     "notified": false,
     "duplicate_of": "gs-shunbun:ebay:v1|127968656290|0",
     "qa_history": [],
-    "created_at": 1784760728.7338474
+    "created_at": 1784760728.7338474,
+    "analysis_depth": "quick"
   },
   {
     "id": "gs-shunbun:ebay:v1|147379839078|0",
@@ -2205,7 +2250,8 @@
     "notified": false,
     "duplicate_of": "gs-shunbun:ebay:v1|147344052256|0",
     "qa_history": [],
-    "created_at": 1784760737.4016793
+    "created_at": 1784760737.4016793,
+    "analysis_depth": "quick"
   },
   {
     "id": "gs-shunbun:ebay:v1|147453334236|0",
@@ -2253,7 +2299,8 @@
     "notified": false,
     "duplicate_of": "gs-shunbun:ebay:v1|147344052256|0",
     "qa_history": [],
-    "created_at": 1784760745.9523861
+    "created_at": 1784760745.9523861,
+    "analysis_depth": "quick"
   },
   {
     "id": "gs-shunbun:ebay:v1|147432867737|0",
@@ -2301,7 +2348,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784760754.495478
+    "created_at": 1784760754.495478,
+    "analysis_depth": "quick"
   },
   {
     "id": "gs-shunbun:ebay:v1|188252865249|0",
@@ -2349,7 +2397,8 @@
     "notified": false,
     "duplicate_of": "gs-shunbun:ebay:v1|198386631131|0",
     "qa_history": [],
-    "created_at": 1784760763.9505124
+    "created_at": 1784760763.9505124,
+    "analysis_depth": "quick"
   },
   {
     "id": "gs-shunbun:ebay:v1|318591343204|0",
@@ -2397,7 +2446,8 @@
     "notified": false,
     "duplicate_of": "gs-shunbun:ebay:v1|147450582247|0",
     "qa_history": [],
-    "created_at": 1784760771.4605591
+    "created_at": 1784760771.4605591,
+    "analysis_depth": "quick"
   },
   {
     "id": "gs-shunbun:ebay:v1|127990210612|0",
@@ -2445,7 +2495,8 @@
     "notified": false,
     "duplicate_of": "gs-shunbun:ebay:v1|147344052256|0",
     "qa_history": [],
-    "created_at": 1784842778.1876428
+    "created_at": 1784842778.1876428,
+    "analysis_depth": "quick"
   },
   {
     "id": "gs-shunbun:ebay:v1|397877384460|0",
@@ -2493,7 +2544,8 @@
     "notified": false,
     "duplicate_of": "gs-shunbun:ebay:v1|188674313920|0",
     "qa_history": [],
-    "created_at": 1784842785.3253043
+    "created_at": 1784842785.3253043,
+    "analysis_depth": "quick"
   },
   {
     "id": "gs-shunbun:ebay:v1|127925666704|0",
@@ -2541,7 +2593,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784842791.907109
+    "created_at": 1784842791.907109,
+    "analysis_depth": "quick"
   },
   {
     "id": "gs-shunbun:ebay:v1|177920773595|0",
@@ -2589,7 +2642,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784880031.1351352
+    "created_at": 1784880031.1351352,
+    "analysis_depth": "quick"
   },
   {
     "id": "gs-shunbun:ebay:v1|176013474678|0",
@@ -2637,7 +2691,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784880039.5359728
+    "created_at": 1784880039.5359728,
+    "analysis_depth": "quick"
   },
   {
     "id": "gs-shunbun:ebay:v1|175391217334|0",
@@ -2685,7 +2740,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784880048.0484388
+    "created_at": 1784880048.0484388,
+    "analysis_depth": "quick"
   },
   {
     "id": "gs-shunbun:ebay:v1|175308902644|0",
@@ -2733,7 +2789,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784880056.226437
+    "created_at": 1784880056.226437,
+    "analysis_depth": "quick"
   },
   {
     "id": "gs-shunbun:ebay:v1|175202461664|0",
@@ -2781,7 +2838,8 @@
     "notified": false,
     "duplicate_of": "gs-shunbun:ebay:v1|377194485493|0",
     "qa_history": [],
-    "created_at": 1784880065.1155834
+    "created_at": 1784880065.1155834,
+    "analysis_depth": "quick"
   },
   {
     "id": "gs-shunbun:ebay:v1|177941638271|0",
@@ -2829,7 +2887,8 @@
     "notified": false,
     "duplicate_of": "gs-shunbun:ebay:v1|176013474678|0",
     "qa_history": [],
-    "created_at": 1784880072.9419408
+    "created_at": 1784880072.9419408,
+    "analysis_depth": "quick"
   },
   {
     "id": "gs-shunbun:ebay:v1|147441690696|0",
@@ -2877,7 +2936,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784916387.1377733
+    "created_at": 1784916387.1377733,
+    "analysis_depth": "quick"
   },
   {
     "id": "Omega Constellation:ebay:v1|206437713862|0",
@@ -2927,26 +2987,26 @@
     "watch_item_id": "Omega Constellation",
     "analysis": {
       "matches_criteria": true,
-      "match_reasoning": "The 168.027 \"C-shape\" Constellation is indeed one of the Gerald Genta-attributed designs (the pie-pan/C-case Constellations of the late 1960s), matching brand/model and Genta-design requirement. However, the listing gives no explicit statement on whether the case is unpolished, and the photo shows some ambiguity on case sharpness, so the 'unpolished' requirement cannot be fully confirmed from text alone.",
-      "estimated_value": 1800.0,
-      "confidence": 0.45,
-      "condition_summary": "Watch appears to be a gold-capped/gold-filled or solid gold C-shape case with pie-pan dial, worn on wrist in photo; dial shows some texture/age typical of vintage piece, case edges look moderately sharp but photo resolution and angle make it hard to assess polishing history or brassing/wear definitively.",
+      "match_reasoning": "Hunter's criteria is generic \"omega constellation\" with no specific reference/model named, so any authentic Constellation qualifies. This is a vintage Omega Constellation C-shape ref 168.027, which fits.",
+      "estimated_value": 1500.0,
+      "confidence": 0.55,
+      "condition_summary": "Dial shows noticeable speckling/spotting (age spots), case appears to be gold-capped/gold-filled (case wear visible at lugs) rather than solid gold as \"Gold Box\" title may imply just an included box; overall looks like an honest, worn vintage piece with a period-incorrect (or at least non-original-looking) aftermarket leather strap.",
       "authenticity_risk": "medium",
-      "authenticity_notes": "Only one photo provided (on-wrist shot), no closeups of case back, movement, hallmarks, or serial number - these are essential to confirm authenticity and originality of dial/hands for this reference. No mention of box/papers despite title saying 'Gold Box' which is confusing (may refer to case material, not an actual presentation box) - this ambiguity should be clarified with seller. Price of $1,399 is on the lower end for a gold Genta-design Constellation, which could indicate a doubl\u00e9/gold-capped case rather than solid gold, or could be a genuine bargain - insufficient detail to be sure.",
-      "rarity_notes": "The 168.027 C-shape Constellation is a desirable but not ultra-rare reference; Genta-attributed Constellations from this era have moderate collector recognition and values vary widely by case material (steel vs gold-cap vs solid gold) and dial variant.",
+      "authenticity_notes": "No caseback, movement, or hallmark/serial photos provided - only dial-on-wrist shots and an outer box shot, so authenticity of case metal, movement (cal. 564 claimed), and serial cannot be verified. Dial condition (spotting) is consistent with genuine aged tritium/paint dials but could also mask a refinished or degraded dial. Price seems plausible for a gold-cap/gold-filled example but is on the low side for a solid 18k version, which is itself a red flag if solid gold is being implied.",
+      "rarity_notes": "The C-shape case Constellations (Gerald Genta-associated design) are desirable among collectors but not exceptionally rare; ref 168.027 with cal. 564 is a commonly seen reference, more available than some other C-shape variants.",
       "demand_tier": "Medium",
-      "demand_reasoning": "Omega Constellation has strong general brand recognition, and Genta-design vintage pieces attract knowledgeable collectors, but this is a niche/vintage segment with less mainstream demand than Speedmaster or Seamaster lines."
+      "demand_reasoning": "Omega Constellation is a recognized, collectible vintage line with steady demand, especially C-shape/Genta design cases, but it doesn't command the intense demand of Speedmaster or top-tier Rolex vintage models."
     },
-    "deal_score": 22,
+    "deal_score": 7,
     "liquidity": {
       "rating": "Low",
       "comparable_count": 1,
       "algorithmic_tier": "Low",
       "claude_tier": "Medium",
-      "reasoning": "Algorithmic signal: 1 comparable listing(s) seen in the lookback window -> Low. Claude's qualitative read: Medium (Omega Constellation has strong general brand recognition, and Genta-design vintage pieces attract knowledgeable collectors, but this is a niche/vintage segment with less mainstream demand than Speedmaster or Seamaster lines.). Final rating uses the more conservative of the two: Low."
+      "reasoning": "Algorithmic signal: 1 comparable listing(s) seen in the lookback window -> Low. Claude's qualitative read: Medium (Omega Constellation is a recognized, collectible vintage line with steady demand, especially C-shape/Genta design cases, but it doesn't command the intense demand of Speedmaster or top-tier Rolex vintage models.). Final rating uses the more conservative of the two: Low."
     },
     "all_in_price": 1399.0,
-    "discount": 0.22277777777777777,
+    "discount": 0.06733333333333333,
     "notified": false,
     "duplicate_of": null,
     "qa_history": [
@@ -2966,7 +3026,8 @@
         "asked_at": 1784923551.6962724
       }
     ],
-    "created_at": 1784919243.878932
+    "created_at": 1784919243.878932,
+    "analysis_depth": "full"
   },
   {
     "id": "Omega Constellation:ebay:v1|327258710551|0",
@@ -3020,7 +3081,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784923357.509447
+    "created_at": 1784923357.509447,
+    "analysis_depth": "quick"
   },
   {
     "id": "Omega Constellation:ebay:v1|307083492557|0",
@@ -3077,7 +3139,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784923369.4892619
+    "created_at": 1784923369.4892619,
+    "analysis_depth": "quick"
   },
   {
     "id": "Omega Constellation:ebay:v1|157931485212|0",
@@ -3134,7 +3197,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784923391.064519
+    "created_at": 1784923391.064519,
+    "analysis_depth": "quick"
   },
   {
     "id": "Omega Constellation:ebay:v1|147458628667|0",
@@ -3198,7 +3262,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784923379.5902483
+    "created_at": 1784923379.5902483,
+    "analysis_depth": "quick"
   },
   {
     "id": "Omega Constellation:ebay:v1|327271833675|0",
@@ -3255,7 +3320,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784923401.1311812
+    "created_at": 1784923401.1311812,
+    "analysis_depth": "quick"
   },
   {
     "id": "Omega Constellation:ebay:v1|158105936458|0",
@@ -3310,7 +3376,8 @@
     "notified": false,
     "duplicate_of": "Omega Constellation:ebay:v1|147458628667|0",
     "qa_history": [],
-    "created_at": 1784923410.7541482
+    "created_at": 1784923410.7541482,
+    "analysis_depth": "quick"
   },
   {
     "id": "Omega Constellation:ebay:v1|206419843677|0",
@@ -3375,7 +3442,8 @@
     "notified": false,
     "duplicate_of": "Omega Constellation:ebay:v1|327271833675|0",
     "qa_history": [],
-    "created_at": 1784923421.6629982
+    "created_at": 1784923421.6629982,
+    "analysis_depth": "quick"
   },
   {
     "id": "Omega Constellation:ebay:v1|178336353112|0",
@@ -3437,7 +3505,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784923442.0009053
+    "created_at": 1784923442.0009053,
+    "analysis_depth": "quick"
   },
   {
     "id": "Omega Constellation:ebay:v1|800277847373|0",
@@ -3494,7 +3563,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784923430.8281507
+    "created_at": 1784923430.8281507,
+    "analysis_depth": "quick"
   },
   {
     "id": "Omega Constellation:ebay:v1|287462786508|0",
@@ -3553,7 +3623,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784923462.2972908
+    "created_at": 1784923462.2972908,
+    "analysis_depth": "quick"
   },
   {
     "id": "Omega Constellation:ebay:v1|206428574446|0",
@@ -3625,7 +3696,8 @@
     "notified": false,
     "duplicate_of": "Omega Constellation:ebay:v1|206437713862|0",
     "qa_history": [],
-    "created_at": 1784923471.474557
+    "created_at": 1784923471.474557,
+    "analysis_depth": "quick"
   },
   {
     "id": "Omega Constellation:ebay:v1|178332716433|0",
@@ -3689,7 +3761,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784923543.8751616
+    "created_at": 1784923543.8751616,
+    "analysis_depth": "quick"
   },
   {
     "id": "Omega Constellation:ebay:v1|147418668925|0",
@@ -3754,7 +3827,8 @@
     "notified": false,
     "duplicate_of": "Omega Constellation:ebay:v1|287462786508|0",
     "qa_history": [],
-    "created_at": 1784923452.0931044
+    "created_at": 1784923452.0931044,
+    "analysis_depth": "quick"
   },
   {
     "id": "Omega Constellation:ebay:v1|336677065514|0",
@@ -3821,7 +3895,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784923493.4950407
+    "created_at": 1784923493.4950407,
+    "analysis_depth": "quick"
   },
   {
     "id": "Omega Constellation:ebay:v1|206408161384|0",
@@ -3887,7 +3962,8 @@
     "notified": false,
     "duplicate_of": "Omega Constellation:ebay:v1|287462786508|0",
     "qa_history": [],
-    "created_at": 1784923503.19689
+    "created_at": 1784923503.19689,
+    "analysis_depth": "quick"
   },
   {
     "id": "Omega Constellation:ebay:v1|177739397298|0",
@@ -3947,7 +4023,8 @@
     "notified": false,
     "duplicate_of": "Omega Constellation:ebay:v1|227403652450|0",
     "qa_history": [],
-    "created_at": 1784923530.898095
+    "created_at": 1784923530.898095,
+    "analysis_depth": "quick"
   },
   {
     "id": "Omega Constellation:ebay:v1|358828515665|0",
@@ -4012,7 +4089,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784923515.0999832
+    "created_at": 1784923515.0999832,
+    "analysis_depth": "quick"
   },
   {
     "id": "Omega Constellation:ebay:v1|358781427907|0",
@@ -4083,7 +4161,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784923554.3209112
+    "created_at": 1784923554.3209112,
+    "analysis_depth": "quick"
   },
   {
     "id": "Omega Constellation:ebay:v1|227339981439|0",
@@ -4151,7 +4230,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784923574.5972803
+    "created_at": 1784923574.5972803,
+    "analysis_depth": "quick"
   },
   {
     "id": "Omega Constellation:ebay:v1|147412628359|0",
@@ -4218,7 +4298,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784923565.0894804
+    "created_at": 1784923565.0894804,
+    "analysis_depth": "quick"
   },
   {
     "id": "Omega Constellation:ebay:v1|178320426441|0",
@@ -4276,7 +4357,8 @@
     "notified": false,
     "duplicate_of": "Omega Constellation:ebay:v1|147412628359|0",
     "qa_history": [],
-    "created_at": 1784923594.459761
+    "created_at": 1784923594.459761,
+    "analysis_depth": "quick"
   },
   {
     "id": "Omega Constellation:ebay:v1|127871867497|0",
@@ -4331,7 +4413,8 @@
     "notified": false,
     "duplicate_of": "Omega Constellation:ebay:v1|327258710551|0",
     "qa_history": [],
-    "created_at": 1784923617.1649678
+    "created_at": 1784923617.1649678,
+    "analysis_depth": "quick"
   },
   {
     "id": "Omega Constellation:ebay:v1|800399938680|0",
@@ -4394,7 +4477,8 @@
     "notified": false,
     "duplicate_of": "Omega Constellation:ebay:v1|227339981439|0",
     "qa_history": [],
-    "created_at": 1784924794.3231118
+    "created_at": 1784924794.3231118,
+    "analysis_depth": "quick"
   },
   {
     "id": "Omega Constellation:ebay:v1|178308248607|0",
@@ -4449,7 +4533,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784923584.3254151
+    "created_at": 1784923584.3254151,
+    "analysis_depth": "quick"
   },
   {
     "id": "Omega Constellation:ebay:v1|318580368735|0",
@@ -4512,7 +4597,8 @@
     "notified": false,
     "duplicate_of": "Omega Constellation:ebay:v1|800277847373|0",
     "qa_history": [],
-    "created_at": 1784923606.7463455
+    "created_at": 1784923606.7463455,
+    "analysis_depth": "quick"
   },
   {
     "id": "Omega Constellation:ebay:v1|377364803400|0",
@@ -4570,7 +4656,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784924806.2022154
+    "created_at": 1784924806.2022154,
+    "analysis_depth": "quick"
   },
   {
     "id": "Omega Constellation:ebay:v1|227412216947|0",
@@ -4626,7 +4713,8 @@
     "notified": false,
     "duplicate_of": "Omega Constellation:ebay:v1|177739397298|0",
     "qa_history": [],
-    "created_at": 1784923627.6427436
+    "created_at": 1784923627.6427436,
+    "analysis_depth": "quick"
   },
   {
     "id": "Omega Constellation:ebay:v1|206408161085|0",
@@ -4691,7 +4779,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784923653.9838011
+    "created_at": 1784923653.9838011,
+    "analysis_depth": "quick"
   },
   {
     "id": "Omega Constellation:ebay:v1|227403652450|0",
@@ -4746,7 +4835,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784923687.1339498
+    "created_at": 1784923687.1339498,
+    "analysis_depth": "quick"
   },
   {
     "id": "Omega Constellation:ebay:v1|147171091988|0",
@@ -4811,7 +4901,8 @@
     "notified": false,
     "duplicate_of": "Omega Constellation:ebay:v1|307083492557|0",
     "qa_history": [],
-    "created_at": 1784923768.436603
+    "created_at": 1784923768.436603,
+    "analysis_depth": "quick"
   },
   {
     "id": "Omega Constellation:ebay:v1|336696958743|0",
@@ -4880,7 +4971,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784923667.0040255
+    "created_at": 1784923667.0040255,
+    "analysis_depth": "quick"
   },
   {
     "id": "Omega Constellation:ebay:v1|336535452297|0",
@@ -4935,7 +5027,8 @@
     "notified": false,
     "duplicate_of": "Omega Constellation:ebay:v1|206437713862|0",
     "qa_history": [],
-    "created_at": 1784923703.6093283
+    "created_at": 1784923703.6093283,
+    "analysis_depth": "quick"
   },
   {
     "id": "Omega Constellation:ebay:v1|117309650676|0",
@@ -4995,7 +5088,8 @@
     "notified": false,
     "duplicate_of": "Omega Constellation:ebay:v1|800277847373|0",
     "qa_history": [],
-    "created_at": 1784923639.8227243
+    "created_at": 1784923639.8227243,
+    "analysis_depth": "quick"
   },
   {
     "id": "Omega Constellation:ebay:v1|398199849981|0",
@@ -5059,7 +5153,8 @@
     "notified": false,
     "duplicate_of": "Omega Constellation:ebay:v1|358828515665|0",
     "qa_history": [],
-    "created_at": 1784923725.028126
+    "created_at": 1784923725.028126,
+    "analysis_depth": "quick"
   },
   {
     "id": "Omega Constellation:ebay:v1|407056026172|0",
@@ -5114,7 +5209,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784923851.5907965
+    "created_at": 1784923851.5907965,
+    "analysis_depth": "quick"
   },
   {
     "id": "Omega Constellation:ebay:v1|407091326622|0",
@@ -5168,7 +5264,8 @@
     "notified": false,
     "duplicate_of": "Omega Constellation:ebay:v1|178336353112|0",
     "qa_history": [],
-    "created_at": 1784923714.7815423
+    "created_at": 1784923714.7815423,
+    "analysis_depth": "quick"
   },
   {
     "id": "Omega Constellation:ebay:v1|236822115674|0",
@@ -5223,7 +5320,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784923748.7558448
+    "created_at": 1784923748.7558448,
+    "analysis_depth": "quick"
   },
   {
     "id": "Omega Constellation:ebay:v1|206396152867|0",
@@ -5285,7 +5383,8 @@
     "notified": false,
     "duplicate_of": "Omega Constellation:ebay:v1|177739397298|0",
     "qa_history": [],
-    "created_at": 1784923778.4735394
+    "created_at": 1784923778.4735394,
+    "analysis_depth": "quick"
   },
   {
     "id": "Omega Constellation:ebay:v1|147445890645|0",
@@ -5349,7 +5448,8 @@
     "notified": false,
     "duplicate_of": "Omega Constellation:ebay:v1|206408161085|0",
     "qa_history": [],
-    "created_at": 1784923821.1767294
+    "created_at": 1784923821.1767294,
+    "analysis_depth": "quick"
   },
   {
     "id": "Omega Constellation:ebay:v1|307069635425|0",
@@ -5416,7 +5516,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784923737.1133156
+    "created_at": 1784923737.1133156,
+    "analysis_depth": "quick"
   },
   {
     "id": "Omega Constellation:ebay:v1|278162724723|0",
@@ -5487,7 +5588,8 @@
     "notified": false,
     "duplicate_of": "Omega Constellation:ebay:v1|178336353112|0",
     "qa_history": [],
-    "created_at": 1784923789.230009
+    "created_at": 1784923789.230009,
+    "analysis_depth": "quick"
   },
   {
     "id": "Omega Constellation:ebay:v1|407064940068|0",
@@ -5546,7 +5648,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784923758.1973116
+    "created_at": 1784923758.1973116,
+    "analysis_depth": "quick"
   },
   {
     "id": "Omega Constellation:ebay:v1|267727743051|0",
@@ -5608,7 +5711,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784923800.423219
+    "created_at": 1784923800.423219,
+    "analysis_depth": "quick"
   },
   {
     "id": "Omega Constellation:ebay:v1|178339361914|0",
@@ -5669,7 +5773,8 @@
     "notified": false,
     "duplicate_of": "Omega Constellation:ebay:v1|358828515665|0",
     "qa_history": [],
-    "created_at": 1784923235.8536608
+    "created_at": 1784923235.8536608,
+    "analysis_depth": "quick"
   },
   {
     "id": "Omega Constellation:ebay:v1|298530707561|0",
@@ -5729,7 +5834,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784923841.142549
+    "created_at": 1784923841.142549,
+    "analysis_depth": "quick"
   },
   {
     "id": "Omega Constellation:ebay:v1|366556363835|0",
@@ -5792,7 +5898,8 @@
     "notified": false,
     "duplicate_of": "Omega Constellation:ebay:v1|358828515665|0",
     "qa_history": [],
-    "created_at": 1784924816.5076897
+    "created_at": 1784924816.5076897,
+    "analysis_depth": "quick"
   },
   {
     "id": "Omega Constellation:ebay:v1|318596355566|0",
@@ -5845,7 +5952,8 @@
     "notified": false,
     "duplicate_of": "Omega Constellation:ebay:v1|206437713862|0",
     "qa_history": [],
-    "created_at": 1784923831.7223296
+    "created_at": 1784923831.7223296,
+    "analysis_depth": "quick"
   },
   {
     "id": "Omega Constellation:ebay:v1|147425815225|0",
@@ -5906,7 +6014,8 @@
     "notified": false,
     "duplicate_of": "Omega Constellation:ebay:v1|307083492557|0",
     "qa_history": [],
-    "created_at": 1784923283.3084393
+    "created_at": 1784923283.3084393,
+    "analysis_depth": "quick"
   },
   {
     "id": "Omega Constellation:ebay:v1|318628228830|0",
@@ -5970,7 +6079,8 @@
     "notified": false,
     "duplicate_of": "Omega Constellation:ebay:v1|307083492557|0",
     "qa_history": [],
-    "created_at": 1784924837.812373
+    "created_at": 1784924837.812373,
+    "analysis_depth": "quick"
   },
   {
     "id": "Omega Constellation:ebay:v1|178339574561|0",
@@ -6031,7 +6141,8 @@
     "notified": false,
     "duplicate_of": "Omega Constellation:ebay:v1|177739397298|0",
     "qa_history": [],
-    "created_at": 1784923482.229802
+    "created_at": 1784923482.229802,
+    "analysis_depth": "quick"
   },
   {
     "id": "Omega Constellation:ebay:v1|206429000004|0",
@@ -6096,7 +6207,8 @@
     "notified": false,
     "duplicate_of": "Omega Constellation:ebay:v1|307083492557|0",
     "qa_history": [],
-    "created_at": 1784923676.7973256
+    "created_at": 1784923676.7973256,
+    "analysis_depth": "quick"
   },
   {
     "id": "Omega Constellation:ebay:v1|227207945626|0",
@@ -6158,7 +6270,8 @@
     "notified": false,
     "duplicate_of": "Omega Constellation:ebay:v1|800277847373|0",
     "qa_history": [],
-    "created_at": 1784923810.1689157
+    "created_at": 1784923810.1689157,
+    "analysis_depth": "quick"
   },
   {
     "id": "Omega Constellation:ebay:v1|358822401948|0",
@@ -6228,7 +6341,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784923862.0325298
+    "created_at": 1784923862.0325298,
+    "analysis_depth": "quick"
   },
   {
     "id": "Omega Constellation:ebay:v1|318595520111|0",
@@ -6293,7 +6407,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784923873.1272857
+    "created_at": 1784923873.1272857,
+    "analysis_depth": "quick"
   },
   {
     "id": "Omega Constellation:ebay:v1|287423600044|0",
@@ -6366,7 +6481,8 @@
     "notified": false,
     "duplicate_of": "Omega Constellation:ebay:v1|206437713862|0",
     "qa_history": [],
-    "created_at": 1784923884.0503454
+    "created_at": 1784923884.0503454,
+    "analysis_depth": "quick"
   },
   {
     "id": "Omega Constellation:ebay:v1|406864155555|0",
@@ -6423,7 +6539,8 @@
     "notified": false,
     "duplicate_of": "Omega Constellation:ebay:v1|307069635425|0",
     "qa_history": [],
-    "created_at": 1784923893.7810762
+    "created_at": 1784923893.7810762,
+    "analysis_depth": "quick"
   },
   {
     "id": "seiko willard:ebay:v1|336662826671|0",
@@ -6481,7 +6598,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784923928.7248735
+    "created_at": 1784923928.7248735,
+    "analysis_depth": "quick"
   },
   {
     "id": "seiko willard:ebay:v1|137490030042|0",
@@ -6548,7 +6666,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784923941.5108767
+    "created_at": 1784923941.5108767,
+    "analysis_depth": "quick"
   },
   {
     "id": "seiko willard:ebay:v1|157435466721|0",
@@ -6603,7 +6722,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784923954.1929767
+    "created_at": 1784923954.1929767,
+    "analysis_depth": "quick"
   },
   {
     "id": "seiko willard:ebay:v1|157944536004|0",
@@ -6660,7 +6780,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784923965.3845677
+    "created_at": 1784923965.3845677,
+    "analysis_depth": "quick"
   },
   {
     "id": "seiko willard:ebay:v1|327227208492|0",
@@ -6720,7 +6841,8 @@
     "notified": false,
     "duplicate_of": "seiko willard:ebay:v1|336662826671|0",
     "qa_history": [],
-    "created_at": 1784923977.4409928
+    "created_at": 1784923977.4409928,
+    "analysis_depth": "quick"
   },
   {
     "id": "seiko willard:ebay:v1|287393359427|0",
@@ -6775,7 +6897,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784923988.6014328
+    "created_at": 1784923988.6014328,
+    "analysis_depth": "quick"
   },
   {
     "id": "seiko willard:ebay:v1|336679853377|0",
@@ -6836,7 +6959,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784924000.6800451
+    "created_at": 1784924000.6800451,
+    "analysis_depth": "quick"
   },
   {
     "id": "seiko willard:ebay:v1|205998344495|0",
@@ -6897,7 +7021,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784924013.10058
+    "created_at": 1784924013.10058,
+    "analysis_depth": "quick"
   },
   {
     "id": "seiko willard:ebay:v1|198486491081|0",
@@ -6969,7 +7094,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784924025.3047063
+    "created_at": 1784924025.3047063,
+    "analysis_depth": "quick"
   },
   {
     "id": "seiko willard:ebay:v1|227414878548|0",
@@ -7025,7 +7151,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784924038.3058274
+    "created_at": 1784924038.3058274,
+    "analysis_depth": "quick"
   },
   {
     "id": "seiko willard:ebay:v1|137456228248|0",
@@ -7084,7 +7211,8 @@
     "notified": false,
     "duplicate_of": "seiko willard:ebay:v1|157944536004|0",
     "qa_history": [],
-    "created_at": 1784924050.0011694
+    "created_at": 1784924050.0011694,
+    "analysis_depth": "quick"
   },
   {
     "id": "seiko willard:ebay:v1|178240274196|0",
@@ -7140,7 +7268,8 @@
     "notified": false,
     "duplicate_of": "seiko willard:ebay:v1|336662826671|0",
     "qa_history": [],
-    "created_at": 1784924061.780381
+    "created_at": 1784924061.780381,
+    "analysis_depth": "quick"
   },
   {
     "id": "seiko willard:ebay:v1|297706191232|0",
@@ -7199,7 +7328,8 @@
     "notified": false,
     "duplicate_of": "seiko willard:ebay:v1|137490030042|0",
     "qa_history": [],
-    "created_at": 1784924078.9095438
+    "created_at": 1784924078.9095438,
+    "analysis_depth": "quick"
   },
   {
     "id": "seiko willard:ebay:v1|226982926164|0",
@@ -7258,7 +7388,8 @@
     "notified": false,
     "duplicate_of": "seiko willard:ebay:v1|157944536004|0",
     "qa_history": [],
-    "created_at": 1784924093.146671
+    "created_at": 1784924093.146671,
+    "analysis_depth": "quick"
   },
   {
     "id": "seiko willard:ebay:v1|188384804740|0",
@@ -7315,7 +7446,8 @@
     "notified": false,
     "duplicate_of": "seiko willard:ebay:v1|157944536004|0",
     "qa_history": [],
-    "created_at": 1784924105.2211604
+    "created_at": 1784924105.2211604,
+    "analysis_depth": "quick"
   },
   {
     "id": "seiko willard:ebay:v1|177168821997|0",
@@ -7386,7 +7518,8 @@
     "notified": false,
     "duplicate_of": "seiko willard:ebay:v1|227414878548|0",
     "qa_history": [],
-    "created_at": 1784924117.806508
+    "created_at": 1784924117.806508,
+    "analysis_depth": "quick"
   },
   {
     "id": "seiko willard:ebay:v1|357323040387|0",
@@ -7438,7 +7571,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784924129.2640872
+    "created_at": 1784924129.2640872,
+    "analysis_depth": "quick"
   },
   {
     "id": "seiko willard:ebay:v1|389649500819|0",
@@ -7489,7 +7623,8 @@
     "notified": false,
     "duplicate_of": "seiko willard:ebay:v1|157944536004|0",
     "qa_history": [],
-    "created_at": 1784924140.7921531
+    "created_at": 1784924140.7921531,
+    "analysis_depth": "quick"
   },
   {
     "id": "seiko willard:ebay:v1|147389337343|0",
@@ -7549,7 +7684,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784924151.6037781
+    "created_at": 1784924151.6037781,
+    "analysis_depth": "quick"
   },
   {
     "id": "seiko willard:ebay:v1|397435225563|0",
@@ -7613,7 +7749,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784924164.7296617
+    "created_at": 1784924164.7296617,
+    "analysis_depth": "quick"
   },
   {
     "id": "seiko willard:ebay:v1|394860097145|0",
@@ -7668,7 +7805,8 @@
     "notified": false,
     "duplicate_of": "seiko willard:ebay:v1|157435466721|0",
     "qa_history": [],
-    "created_at": 1784924178.2577527
+    "created_at": 1784924178.2577527,
+    "analysis_depth": "quick"
   },
   {
     "id": "seiko willard:ebay:v1|187447475244|0",
@@ -7736,7 +7874,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784924191.1481142
+    "created_at": 1784924191.1481142,
+    "analysis_depth": "quick"
   },
   {
     "id": "seiko willard:ebay:v1|326005350088|0",
@@ -7794,7 +7933,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784924205.3814194
+    "created_at": 1784924205.3814194,
+    "analysis_depth": "quick"
   },
   {
     "id": "seiko willard:ebay:v1|196069699243|0",
@@ -7850,7 +7990,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784924216.50878
+    "created_at": 1784924216.50878,
+    "analysis_depth": "quick"
   },
   {
     "id": "seiko willard:ebay:v1|356739940872|0",
@@ -7902,7 +8043,8 @@
     "notified": false,
     "duplicate_of": "seiko willard:ebay:v1|157944536004|0",
     "qa_history": [],
-    "created_at": 1784924229.2352507
+    "created_at": 1784924229.2352507,
+    "analysis_depth": "quick"
   },
   {
     "id": "seiko willard:ebay:v1|205892262428|0",
@@ -7956,7 +8098,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784924240.0946388
+    "created_at": 1784924240.0946388,
+    "analysis_depth": "quick"
   },
   {
     "id": "seiko willard:ebay:v1|135067267193|0",
@@ -8011,7 +8154,8 @@
     "notified": false,
     "duplicate_of": "seiko willard:ebay:v1|196069699243|0",
     "qa_history": [],
-    "created_at": 1784924252.2802396
+    "created_at": 1784924252.2802396,
+    "analysis_depth": "quick"
   },
   {
     "id": "Omega Constellation:ebay:v1|178336321519|0",
@@ -8073,7 +8217,8 @@
     "notified": false,
     "duplicate_of": "Omega Constellation:ebay:v1|307083492557|0",
     "qa_history": [],
-    "created_at": 1784924827.5274205
+    "created_at": 1784924827.5274205,
+    "analysis_depth": "quick"
   },
   {
     "id": "Omega Constellation:ebay:v1|377350891924|0",
@@ -8135,7 +8280,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784924945.4401672
+    "created_at": 1784924945.4401672,
+    "analysis_depth": "quick"
   },
   {
     "id": "Omega Constellation:ebay:v1|147452016840|0",
@@ -8200,7 +8346,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784924954.7968147
+    "created_at": 1784924954.7968147,
+    "analysis_depth": "quick"
   },
   {
     "id": "Omega Constellation:ebay:v1|137355112464|0",
@@ -8261,7 +8408,8 @@
     "notified": false,
     "duplicate_of": "Omega Constellation:ebay:v1|178308248607|0",
     "qa_history": [],
-    "created_at": 1784924964.0545676
+    "created_at": 1784924964.0545676,
+    "analysis_depth": "quick"
   },
   {
     "id": "Omega Constellation:ebay:v1|227446014255|0",
@@ -8314,7 +8462,8 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784924973.6604955
+    "created_at": 1784924973.6604955,
+    "analysis_depth": "quick"
   },
   {
     "id": "Omega Constellation:ebay:v1|137010964887|0",
@@ -8378,6 +8527,7 @@
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784924984.0260842
+    "created_at": 1784924984.0260842,
+    "analysis_depth": "quick"
   }
 ]

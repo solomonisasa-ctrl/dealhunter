@@ -365,3 +365,11 @@ form.edit-form textarea { min-height: 90px; resize: vertical; }
 .field-row { display: flex; gap: 12px; }
 .field-row > div { flex: 1; }
 .form-actions { display: flex; gap: 10px; margin-top: 6px; }
+
+.preview-ok, .preview-warning {
+  font-size: 12.5px;
+  margin-top: 6px;
+  line-height: 1.5;
+}
+.preview-ok { color: var(--text-muted); }
+.preview-warning { color: var(--yellow); }

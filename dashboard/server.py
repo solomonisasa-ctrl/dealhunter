@@ -30,6 +30,7 @@ from dealhunter.analysis.analyzer import answer_followup  # noqa: E402
 from dealhunter.analysis.scoring import qualifies_for_notification  # noqa: E402
 from dealhunter.models import QAEntry, WatchItem  # noqa: E402
 from dealhunter.pipeline import load_categories  # noqa: E402
+from dealhunter.sources.ebay_source import EbaySource  # noqa: E402
 from dealhunter.schedule_store import (  # noqa: E402
     load_paused,
     load_poll_interval_minutes,
@@ -60,15 +61,18 @@ def api_findings(watch_item_id: str | None = None, sort: str = "date", show_all:
     findings = [f for f in findings if f.watch_item_id in watchlist_by_id]
 
     if not show_all:
-        # Default view is "deals", not "everything analyzed": hide
-        # duplicates and anything that didn't actually match the hunter's
-        # criteria or clear their discount threshold. discount_threshold is
-        # looked up live so editing it later re-filters existing findings
-        # with no backfill needed.
+        # Default view is "deals you can still buy", not "everything
+        # analyzed": hide duplicates, sold-out listings, and anything that
+        # didn't actually match the hunter's criteria or clear their
+        # discount threshold. discount_threshold is looked up live so
+        # editing it later re-filters existing findings with no backfill
+        # needed. Sold listings stay visible under "Show all" (with a Sold
+        # badge) since they're still useful for auditing past finds.
         findings = [
             f
             for f in findings
             if f.duplicate_of is None
+            and f.listing.status != "sold"
             and qualifies_for_notification(
                 f.analysis, f.discount, watchlist_by_id[f.watch_item_id].discount_threshold
             )
@@ -114,6 +118,47 @@ def api_ask_finding(finding_id: str, payload: dict):
     return finding.model_dump(mode="json")
 
 
+@app.post("/api/findings/{finding_id:path}/full-analysis")
+def api_full_analysis(finding_id: str):
+    """Manual deep-dive: re-analyzes a finding with every available photo,
+    for a listing that only got the cheap first-photo-only pass (either it
+    didn't clear its hunt's deal threshold automatically, or the user just
+    wants a closer look before spending on it)."""
+    finding = findings_store.get_finding(settings.findings_path, finding_id)
+    if finding is None:
+        raise HTTPException(status_code=404, detail="Finding not found")
+    if finding.analysis_depth == "full":
+        return finding.model_dump(mode="json")
+
+    watch_item = next(
+        (w for w in load_watchlist(settings.watchlist_path) if w.id == finding.watch_item_id), None
+    )
+    if watch_item is None:
+        raise HTTPException(status_code=404, detail="Watch item for this finding no longer exists")
+
+    client = anthropic.Anthropic(api_key=settings.anthropic_api_key)
+    try:
+        updated = pipeline.score_listing(
+            client,
+            settings.anthropic_model,
+            finding.listing,
+            watch_item,
+            finding.liquidity.comparable_count,
+            full=True,
+        )
+    except Exception as exc:  # noqa: BLE001
+        raise HTTPException(status_code=502, detail=str(exc))
+
+    updated.id = finding.id
+    updated.duplicate_of = finding.duplicate_of
+    updated.notified = finding.notified
+    updated.qa_history = finding.qa_history
+    updated.created_at = finding.created_at
+
+    findings_store.update_finding(settings.findings_path, updated)
+    return updated.model_dump(mode="json")
+
+
 @app.get("/api/watchlist")
 def api_get_watchlist():
     return [item.model_dump(mode="json") for item in load_watchlist(settings.watchlist_path)]
@@ -129,6 +174,23 @@ def api_upsert_watch_item(item: WatchItem):
 def api_delete_watch_item(item_id: str):
     items = delete_watch_item(settings.watchlist_path, item_id)
     return [i.model_dump(mode="json") for i in items]
+
+
+@app.get("/api/watchlist/preview-match-count")
+def api_preview_match_count(description: str, category: str = "watches"):
+    """Cheap heads-up for the Add/Edit hunt form: how many active eBay
+    listings currently match this raw description, with no Claude call
+    involved. eBay's search matching is fuzzy (not a strict phrase match),
+    so this is a rough relative signal - broader descriptions return bigger
+    numbers - not a precise prediction of next-run Claude usage."""
+    categories = load_categories(settings)
+    category_def = categories.get(category, {})
+    category_ids = category_def.get("ebay", {}).get("category_ids", [])
+    try:
+        count = EbaySource(settings).raw_search_count(description, category_ids)
+    except Exception as exc:  # noqa: BLE001
+        raise HTTPException(status_code=502, detail=str(exc))
+    return {"count": count}
 
 
 @app.get("/api/categories")

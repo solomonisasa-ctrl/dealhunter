@@ -89,3 +89,35 @@ def test_fetch_new_falls_back_to_description_without_keywords(monkeypatch):
     source.fetch_new(item, {"ebay": {}}, set())
 
     assert captured[0]["q"] == "a generic hunt"
+
+
+def test_raw_search_count_uses_the_raw_description_as_the_query(monkeypatch):
+    captured: list = []
+
+    def _fake_get(url, headers=None, params=None, timeout=None):
+        captured.append(params)
+        resp = MagicMock()
+        resp.json.return_value = {"itemSummaries": [], "total": 187}
+        resp.raise_for_status.return_value = None
+        return resp
+
+    monkeypatch.setattr(ebay_module.requests, "post", _fake_post)
+    monkeypatch.setattr(ebay_module.requests, "get", _fake_get)
+
+    source = EbaySource(_FakeSettings())
+    count = source.raw_search_count("vintage omega constellation", ["31387"])
+
+    assert count == 187
+    assert captured[0]["q"] == "vintage omega constellation"
+
+
+def test_raw_search_count_empty_query_returns_zero_without_a_call(monkeypatch):
+    calls = []
+    monkeypatch.setattr(ebay_module.requests, "post", _fake_post)
+    monkeypatch.setattr(ebay_module.requests, "get", lambda *a, **k: calls.append(1))
+
+    source = EbaySource(_FakeSettings())
+    count = source.raw_search_count("   ", [])
+
+    assert count == 0
+    assert calls == []

@@ -186,3 +186,17 @@ class EbaySource(SourceAdapter):
         except requests.RequestException:
             return 0
         return int(data.get("total", 0))
+
+    def raw_search_count(self, query: str, category_ids: list[str]) -> int:
+        """Cheap, unscored count of currently-active eBay listings matching
+        a raw query string - no Claude call, no per-item detail calls. Used
+        by the dashboard to preview how broad a hunt description is before
+        it's saved, since a broad description means every matching listing
+        gets analyzed on the next run."""
+        if not query.strip():
+            return 0
+        try:
+            data = self._search(query, category_ids, limit=1)
+        except requests.RequestException:
+            return 0
+        return int(data.get("total", 0))
