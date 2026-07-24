@@ -83,7 +83,12 @@ class EbaySource(SourceAdapter):
             watch_item.description
         ]
         category_ids = category_def.get("ebay", {}).get("category_ids", [])
-        query = " ".join(keywords[:6])
+        # Use only the single most specific keyword phrase, not all of them
+        # blended together - joining multiple phrases dilutes eBay's search
+        # relevance toward whatever word repeats across them (usually the
+        # bare brand name), pulling in unrelated models before Claude ever
+        # sees the listing.
+        query = keywords[0] if keywords else watch_item.description
         try:
             data = self._search(query, category_ids)
         except requests.RequestException:
@@ -103,6 +108,13 @@ class EbaySource(SourceAdapter):
             if shipping_options:
                 shipping_cost_val = shipping_options[0].get("shippingCost", {}).get("value")
                 shipping_cost = float(shipping_cost_val) if shipping_cost_val else None
+            primary_image = (item.get("image") or {}).get("imageUrl")
+            # The search-result payload only ever has one image - the rest
+            # live behind the per-item detail endpoint. Only fetch it for
+            # listings that made it this far (genuinely new, not-yet-seen),
+            # so this doesn't multiply API calls across the whole search
+            # result set.
+            image_urls = self._additional_images(item_id, primary_image)
             listings.append(
                 Listing(
                     id=listing_id,
@@ -113,7 +125,8 @@ class EbaySource(SourceAdapter):
                     price=float(price["value"]) if price.get("value") else None,
                     shipping_price=shipping_cost,
                     currency=price.get("currency", "USD"),
-                    image_url=(item.get("image") or {}).get("imageUrl"),
+                    image_url=primary_image,
+                    image_urls=image_urls,
                     body=item.get("shortDescription", "") or item.get("title", ""),
                     posted_at=None,
                     status=ListingStatus.ACTIVE,
@@ -121,6 +134,30 @@ class EbaySource(SourceAdapter):
                 )
             )
         return listings
+
+    def _additional_images(self, item_id: str, primary_image: str | None) -> list[str]:
+        """Full photo set for one item, via the per-item detail endpoint -
+        the search-result payload only has the primary image. Best-effort:
+        falls back to just the primary image (or empty) on any failure."""
+        fallback = [primary_image] if primary_image else []
+        try:
+            resp = requests.get(
+                _ITEM_URL.format(item_id=item_id), headers=self._headers(), timeout=15
+            )
+            resp.raise_for_status()
+            data = resp.json()
+        except requests.RequestException:
+            return fallback
+
+        urls = []
+        image = (data.get("image") or {}).get("imageUrl")
+        if image:
+            urls.append(image)
+        for extra in data.get("additionalImages", []):
+            url = extra.get("imageUrl")
+            if url and url not in urls:
+                urls.append(url)
+        return urls or fallback
 
     def check_sold(self, listing: Listing) -> bool:
         item_id = listing.id.split(":", 1)[1]
@@ -143,7 +180,7 @@ class EbaySource(SourceAdapter):
             watch_item.description
         ]
         category_ids = category_def.get("ebay", {}).get("category_ids", [])
-        query = " ".join(keywords[:6])
+        query = keywords[0] if keywords else watch_item.description
         try:
             data = self._search(query, category_ids, limit=1)
         except requests.RequestException:

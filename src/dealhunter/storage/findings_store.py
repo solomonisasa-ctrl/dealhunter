@@ -34,6 +34,15 @@ def append_finding(path: Path, finding: Finding) -> list[Finding]:
     return findings
 
 
+def update_finding(path: Path, finding: Finding) -> list[Finding]:
+    """Overwrites the stored finding with matching id (e.g. after appending
+    a Q&A turn). No-ops if the id isn't found."""
+    findings = load_findings(path)
+    findings = [finding if f.id == finding.id else f for f in findings]
+    save_findings(path, findings)
+    return findings
+
+
 def get_finding(path: Path, finding_id: str) -> Finding | None:
     for f in load_findings(path):
         if f.id == finding_id:

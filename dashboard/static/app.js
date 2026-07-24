@@ -133,13 +133,17 @@ document.getElementById("refresh-now").addEventListener("click", async () => {
 async function loadFeed() {
   const watchItemId = document.getElementById("filter-watch-item").value;
   const sort = document.getElementById("sort-order").value;
+  const showAll = document.getElementById("show-all").checked;
   const params = new URLSearchParams();
   if (watchItemId) params.set("watch_item_id", watchItemId);
   params.set("sort", sort);
+  if (showAll) params.set("show_all", "1");
   const res = await fetch(`/api/findings?${params.toString()}`);
   state.findings = await res.json();
   renderFeed();
 }
+
+document.getElementById("show-all").addEventListener("change", loadFeed);
 
 function renderFeed() {
   const grid = document.getElementById("feed-grid");
@@ -193,10 +197,28 @@ document.getElementById("filter-watch-item").addEventListener("change", loadFeed
 document.getElementById("sort-order").addEventListener("change", loadFeed);
 
 // ---------- Detail overlay ----------
+let currentFindingId = null;
+
+function renderQaList(qaHistory) {
+  if (!qaHistory || qaHistory.length === 0) {
+    return '<p class="qa-empty">No questions asked yet.</p>';
+  }
+  return `<div class="qa-list">${qaHistory
+    .map(
+      (qa) => `
+      <div class="qa-entry">
+        <div class="qa-question">${escapeHtml(qa.question)}</div>
+        <div class="qa-answer">${escapeHtml(qa.answer)}</div>
+      </div>`
+    )
+    .join("")}</div>`;
+}
+
 async function openDetail(findingId) {
   const res = await fetch(`/api/findings/${encodeURIComponent(findingId)}`);
   if (!res.ok) return;
   const f = await res.json();
+  currentFindingId = f.id;
   const content = document.getElementById("detail-content");
   const duplicateNote = f.duplicate_of
     ? `<div class="banner duplicate-banner">Possible duplicate of <a href="#" data-open-finding="${escapeHtml(f.duplicate_of)}">an earlier finding</a> for this watch item - no notification was sent for this one.</div>`
@@ -237,6 +259,16 @@ async function openDetail(findingId) {
     </div>
 
     <a class="detail-link" href="${f.listing.url}" target="_blank" rel="noopener noreferrer">View original listing →</a>
+
+    <div class="detail-section">
+      <h4>Ask a follow-up</h4>
+      <div id="qa-list">${renderQaList(f.qa_history)}</div>
+      <form class="qa-form" id="qa-form">
+        <input type="text" id="qa-input" placeholder="Ask a question about this listing…" autocomplete="off" />
+        <button type="submit" class="btn btn-secondary" id="qa-submit">Ask</button>
+      </form>
+    </div>
+
     <div class="disclaimer">${DISCLAIMER}</div>
   `;
   document.getElementById("detail-overlay").classList.remove("hidden");
@@ -248,6 +280,39 @@ async function openDetail(findingId) {
       openDetail(originalLink.dataset.openFinding);
     });
   }
+
+  document.getElementById("qa-form").addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const input = document.getElementById("qa-input");
+    const submitBtn = document.getElementById("qa-submit");
+    const question = input.value.trim();
+    if (!question) return;
+
+    input.disabled = true;
+    submitBtn.disabled = true;
+    submitBtn.textContent = "Asking…";
+    try {
+      const askRes = await fetch(`/api/findings/${encodeURIComponent(currentFindingId)}/ask`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ question }),
+      });
+      if (!askRes.ok) {
+        const err = await askRes.json().catch(() => ({}));
+        alert(`Question failed: ${err.detail || askRes.statusText}`);
+        return;
+      }
+      const updated = await askRes.json();
+      document.getElementById("qa-list").innerHTML = renderQaList(updated.qa_history);
+      input.value = "";
+    } catch (err) {
+      alert(`Question failed: ${err}`);
+    } finally {
+      input.disabled = false;
+      submitBtn.disabled = false;
+      submitBtn.textContent = "Ask";
+    }
+  });
 }
 
 document.getElementById("detail-close").addEventListener("click", () => {

@@ -173,5 +173,35 @@
     },
     "findings_count": 1,
     "error_message": null
+  },
+  {
+    "timestamp": 1784919052.6653786,
+    "overall_status": "ok",
+    "duration_seconds": 3.6182923316955566,
+    "sources": {
+      "ebay": {
+        "status": "ok",
+        "fetched": 0,
+        "new": 0,
+        "errors": []
+      }
+    },
+    "findings_count": 0,
+    "error_message": null
+  },
+  {
+    "timestamp": 1784919243.9028292,
+    "overall_status": "ok",
+    "duration_seconds": 17.965181827545166,
+    "sources": {
+      "ebay": {
+        "status": "ok",
+        "fetched": 1,
+        "new": 1,
+        "errors": []
+      }
+    },
+    "findings_count": 1,
+    "error_message": null
   }
 ]

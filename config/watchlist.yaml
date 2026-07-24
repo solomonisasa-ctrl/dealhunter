@@ -17,26 +17,25 @@
 #                                  the first time this hunt runs; safe to leave
 #                                  blank when you add a new item by hand.
 
-- id: gs-shunbun
+- id: Omega Constellation
   category: watches
-  description: 'Grand Seiko Shunbun, excellent condition, box and papers, under $6000
-    shipped.
-
-    '
-  discount_threshold: 0.3
+  description: vintage omega constellation excellent condition unpolished gerald gentra
+    designed version
+  discount_threshold: 0.25
   lookback_days: 30
   enabled: true
   parsed_criteria:
-    brand: Grand Seiko
-    model: Shunbun
+    brand: Omega
+    model: Constellation
     reference_number: null
-    condition_min: excellent
-    box_and_papers_required: true
-    max_price_all_in: 6000
-    other_requirements: Price must be all-in including shipping, under $6000 total
+    condition_min: Excellent
+    box_and_papers_required: null
+    max_price_all_in: null
+    other_requirements: Unpolished case, Gerald Genta designed version (vintage)
     search_keywords:
-    - Grand Seiko Shunbun
-    - Grand Seiko Shunbun Spring Equinox
-    - GS Shunbun limited edition
-    - Grand Seiko Shunbun box papers
-    - Shunbun Grand Seiko watch
+    - Omega Constellation
+    - vintage Omega Constellation
+    - Gerald Genta Constellation
+    - unpolished Constellation
+    - Omega Constellation vintage unpolished
+    - Genta design Omega

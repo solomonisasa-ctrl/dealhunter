@@ -52,7 +52,8 @@ class Listing(BaseModel):
     price: Optional[float] = None
     shipping_price: Optional[float] = None
     currency: str = "USD"
-    image_url: Optional[str] = None
+    image_url: Optional[str] = None  # primary photo, used as the feed-card thumbnail
+    image_urls: list[str] = Field(default_factory=list)  # all photos, used for analysis
     body: str = ""  # description / post text used for analysis
     posted_at: Optional[float] = None  # unix timestamp
     status: ListingStatus = ListingStatus.UNKNOWN
@@ -80,6 +81,14 @@ class AnalysisResult(BaseModel):
     demand_reasoning: str
 
 
+class QAEntry(BaseModel):
+    """One follow-up question/answer turn about a specific finding."""
+
+    question: str
+    answer: str
+    asked_at: float = Field(default_factory=time.time)
+
+
 class LiquidityAssessment(BaseModel):
     rating: DemandTier
     comparable_count: int
@@ -101,6 +110,7 @@ class Finding(BaseModel):
     discount: Optional[float]  # fraction, e.g. 0.35 = 35% under estimated value
     notified: bool = False
     duplicate_of: Optional[str] = None  # id of an earlier Finding for the same physical item
+    qa_history: list[QAEntry] = Field(default_factory=list)
     created_at: float = Field(default_factory=time.time)
 
     @property

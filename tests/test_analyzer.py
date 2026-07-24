@@ -51,7 +51,7 @@ class _FakeClient:
         self.messages = _FakeMessages(fail_first=fail_first)
 
 
-def _make_listing(image_url: str | None) -> Listing:
+def _make_listing(image_url: str | None, image_urls: list[str] | None = None) -> Listing:
     return Listing(
         id="reddit:abc123",
         source="reddit",
@@ -60,6 +60,7 @@ def _make_listing(image_url: str | None) -> Listing:
         url="https://example.com/listing",
         price=900.0,
         image_url=image_url,
+        image_urls=image_urls or [],
         body="A watch for sale.",
     )
 
@@ -106,3 +107,36 @@ def test_failed_image_call_falls_back_to_text_only():
     second_content = client.messages.calls[1]["messages"][0]["content"]
     assert isinstance(first_content, list)  # the failed image attempt
     assert isinstance(second_content, str)  # the successful text-only retry
+
+
+def test_multiple_images_all_included_as_content_blocks():
+    client = _FakeClient()
+    listing = _make_listing(
+        image_url="https://example.com/1.jpg",
+        image_urls=[
+            "https://example.com/1.jpg",
+            "https://example.com/2.jpg",
+            "https://example.com/3.jpg",
+        ],
+    )
+    analyze_listing(client, "claude-sonnet-5", listing, _make_watch_item())
+
+    sent_content = client.messages.calls[0]["messages"][0]["content"]
+    image_blocks = [b for b in sent_content if b["type"] == "image"]
+    assert len(image_blocks) == 3
+    assert [b["source"]["url"] for b in image_blocks] == [
+        "https://example.com/1.jpg",
+        "https://example.com/2.jpg",
+        "https://example.com/3.jpg",
+    ]
+
+
+def test_images_capped_at_four():
+    client = _FakeClient()
+    urls = [f"https://example.com/{i}.jpg" for i in range(7)]
+    listing = _make_listing(image_url=urls[0], image_urls=urls)
+    analyze_listing(client, "claude-sonnet-5", listing, _make_watch_item())
+
+    sent_content = client.messages.calls[0]["messages"][0]["content"]
+    image_blocks = [b for b in sent_content if b["type"] == "image"]
+    assert len(image_blocks) == 4

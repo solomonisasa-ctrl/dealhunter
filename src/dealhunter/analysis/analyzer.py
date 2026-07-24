@@ -9,7 +9,11 @@ from __future__ import annotations
 import anthropic
 
 from dealhunter.claude_client import call_structured
-from dealhunter.models import AnalysisResult, DemandTier, Listing, RiskLevel, WatchItem
+from dealhunter.models import AnalysisResult, DemandTier, Finding, Listing, RiskLevel, WatchItem
+
+# Bounds Claude cost/latency per listing - most listings don't need more
+# than a handful of angles to assess condition/authenticity anyway.
+_MAX_IMAGES = 4
 
 _SYSTEM = (
     "You are a collectibles appraisal assistant helping a buyer evaluate a "
@@ -21,13 +25,21 @@ _SYSTEM = (
     "to value the item, say so with low confidence rather than guessing "
     "precisely. Your output is shown to the buyer as a decision aid, not a "
     "professional appraisal.\n\n"
-    "A photo of the listing may be included below the text. When it is, "
-    "look closely for visual condition and authenticity cues - wear, "
-    "scratches, mismatched parts, box/papers actually shown vs. only "
-    "claimed, stock-photo vs. real-photo indicators - and fold what you see "
-    "into condition_summary and authenticity_notes. If no photo is "
-    "included, evaluate from the text alone and don't penalize confidence "
-    "just for that."
+    "Be strict about matches_criteria, especially model/reference "
+    "specificity: if the hunter names a specific model, reference number, "
+    "or limited-edition name (e.g. a named limited edition), matches_criteria "
+    "must be false unless the listing is that exact model/reference - a "
+    "different model from the same brand or product line does NOT count as "
+    "a match, no matter how similar or related it is. Only treat it as a "
+    "match if the hunter's own description was itself generic (no specific "
+    "model named).\n\n"
+    "One or more photos of the listing may be included below the text. "
+    "When present, look closely across all of them for visual condition and "
+    "authenticity cues - wear, scratches, mismatched parts, box/papers "
+    "actually shown vs. only claimed, stock-photo vs. real-photo indicators "
+    "- and fold what you see into condition_summary and authenticity_notes. "
+    "If no photo is included, evaluate from the text alone and don't "
+    "penalize confidence just for that."
 )
 
 _INPUT_SCHEMA = {
@@ -35,7 +47,7 @@ _INPUT_SCHEMA = {
     "properties": {
         "matches_criteria": {
             "type": "boolean",
-            "description": "Does this listing match the hunter's stated criteria (item type, condition floor, price ceiling, required accessories, etc)?",
+            "description": "Does this listing match the hunter's stated criteria (item type, condition floor, price ceiling, required accessories, etc)? If the hunter named a specific model/reference/limited-edition, this must be false for any other model, even from the same brand.",
         },
         "match_reasoning": {
             "type": "string",
@@ -91,6 +103,11 @@ _INPUT_SCHEMA = {
 }
 
 
+def _image_urls_for(listing: Listing) -> list[str]:
+    urls = listing.image_urls or ([listing.image_url] if listing.image_url else [])
+    return urls[:_MAX_IMAGES]
+
+
 def _build_text(listing: Listing, watch_item: WatchItem) -> str:
     price_str = (
         f"${listing.all_in_price:,.2f} all-in (item + shipping)"
@@ -114,15 +131,15 @@ def analyze_listing(
     watch_item: WatchItem,
 ) -> AnalysisResult:
     text = _build_text(listing, watch_item)
+    image_urls = _image_urls_for(listing)
 
-    if listing.image_url:
+    if image_urls:
         # Listing photos are the single biggest signal for condition/
         # authenticity, but scraped image URLs sometimes 404 or block
         # hotlinking - fall back to text-only rather than losing the
         # listing entirely if the image call fails.
-        content: str | list[dict] = [
-            {"type": "text", "text": text},
-            {"type": "image", "source": {"type": "url", "url": listing.image_url}},
+        content: str | list[dict] = [{"type": "text", "text": text}] + [
+            {"type": "image", "source": {"type": "url", "url": url}} for url in image_urls
         ]
         try:
             result = call_structured(
@@ -150,3 +167,67 @@ def analyze_listing(
         max_tokens=1200,
     )
     return AnalysisResult.model_validate(result)
+
+
+_QA_SYSTEM = (
+    "You are a collectibles appraisal assistant. The buyer already had this "
+    "listing analyzed and is now asking a follow-up question about it. "
+    "Answer directly and concisely, grounded in the listing text/photos and "
+    "your prior analysis below - don't just repeat the prior analysis "
+    "verbatim, actually address what they're asking. If you don't have "
+    "enough information to answer confidently, say so plainly rather than "
+    "guessing. This is a decision aid, not a professional appraisal."
+)
+
+
+def _finding_context(finding: Finding) -> str:
+    listing = finding.listing
+    analysis = finding.analysis
+    price_str = (
+        f"${finding.all_in_price:,.2f} all-in" if finding.all_in_price is not None else "price not listed"
+    )
+    context = (
+        f"Listing title: {listing.title}\n"
+        f"Price: {price_str}\n"
+        f"Listing text:\n{listing.body}\n\n"
+        f"Your prior analysis of this listing:\n"
+        f"- Matches criteria: {analysis.matches_criteria} ({analysis.match_reasoning})\n"
+        f"- Estimated value: {analysis.estimated_value} (confidence {analysis.confidence})\n"
+        f"- Condition: {analysis.condition_summary}\n"
+        f"- Authenticity risk: {analysis.authenticity_risk.value} - {analysis.authenticity_notes}\n"
+        f"- Rarity: {analysis.rarity_notes}\n"
+        f"- Demand: {analysis.demand_tier.value} - {analysis.demand_reasoning}\n"
+    )
+    if finding.qa_history:
+        context += "\nPrior follow-up Q&A on this same listing:\n"
+        for qa in finding.qa_history:
+            context += f"Q: {qa.question}\nA: {qa.answer}\n"
+    return context
+
+
+def answer_followup(
+    client: anthropic.Anthropic,
+    model: str,
+    finding: Finding,
+    question: str,
+) -> str:
+    """Free-form (not tool-forced) follow-up answer about an already-scored
+    finding, grounded in its listing/analysis/photos and any prior Q&A."""
+    context = _finding_context(finding)
+    image_urls = _image_urls_for(finding.listing)
+
+    text = f"{context}\nNew question: {question}"
+    content: str | list[dict] = (
+        [{"type": "text", "text": text}]
+        + [{"type": "image", "source": {"type": "url", "url": url}} for url in image_urls]
+        if image_urls
+        else text
+    )
+
+    response = client.messages.create(
+        model=model,
+        max_tokens=600,
+        system=_QA_SYSTEM,
+        messages=[{"role": "user", "content": content}],
+    )
+    return response.content[0].text

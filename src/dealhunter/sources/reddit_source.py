@@ -4,6 +4,7 @@ username/password needed since we only ever read public listings).
 """
 from __future__ import annotations
 
+import html
 import re
 import time
 
@@ -76,6 +77,7 @@ class RedditSource(SourceAdapter):
                         if _looks_sold(submission.title, submission.link_flair_text)
                         else ListingStatus.ACTIVE
                     )
+                    image_urls = _all_image_urls(submission)
                     listings.append(
                         Listing(
                             id=listing_id,
@@ -85,7 +87,8 @@ class RedditSource(SourceAdapter):
                             url=f"https://reddit.com{submission.permalink}",
                             price=_extract_price(text),
                             shipping_price=None,
-                            image_url=_first_image_url(submission),
+                            image_url=image_urls[0] if image_urls else None,
+                            image_urls=image_urls,
                             body=submission.selftext or "",
                             posted_at=submission.created_utc,
                             status=status,
@@ -127,14 +130,30 @@ class RedditSource(SourceAdapter):
         return count
 
 
-def _first_image_url(submission) -> str | None:
+def _all_image_urls(submission) -> list[str]:
+    """All photos on a post, not just the first - Reddit gallery posts
+    (multiple images) need submission.gallery_data + media_metadata, since
+    a single-image post's .url/.preview only ever has one image."""
+    if getattr(submission, "is_gallery", False):
+        gallery_data = getattr(submission, "gallery_data", None) or {}
+        media_metadata = getattr(submission, "media_metadata", None) or {}
+        urls = []
+        for item in gallery_data.get("items", []):
+            media_id = item.get("media_id")
+            meta = media_metadata.get(media_id) or {}
+            source_url = (meta.get("s") or {}).get("u")
+            if source_url:
+                urls.append(html.unescape(source_url))
+        if urls:
+            return urls
+
     url = getattr(submission, "url", None)
     if url and any(url.lower().endswith(ext) for ext in (".jpg", ".jpeg", ".png", ".webp")):
-        return url
+        return [url]
     preview = getattr(submission, "preview", None)
     if preview:
         try:
-            return preview["images"][0]["source"]["url"]
+            return [preview["images"][0]["source"]["url"]]
         except (KeyError, IndexError):
-            return None
-    return None
+            return []
+    return []

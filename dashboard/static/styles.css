@@ -105,7 +105,16 @@ main { max-width: 1080px; margin: 0 auto; padding: 24px 20px 80px; }
 .view { display: none; }
 .view.active { display: block; }
 
-.feed-controls { display: flex; gap: 10px; margin-bottom: 18px; }
+.feed-controls { display: flex; gap: 10px; align-items: center; margin-bottom: 18px; }
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  color: var(--text-muted);
+  cursor: pointer;
+}
+.checkbox-label input { width: auto; margin: 0; }
 select {
   background: var(--surface);
   border: 1px solid var(--border);
@@ -276,6 +285,29 @@ select {
   font-weight: 600;
   text-decoration: none;
   font-size: 13.5px;
+}
+
+.qa-list { display: flex; flex-direction: column; gap: 10px; margin-bottom: 10px; }
+.qa-entry {
+  background: var(--surface-2);
+  border-radius: 10px;
+  padding: 10px 12px;
+  font-size: 13.5px;
+  line-height: 1.5;
+}
+.qa-question { font-weight: 600; margin-bottom: 4px; }
+.qa-answer { color: var(--text-muted); }
+.qa-empty { font-size: 13px; color: var(--text-muted); margin-bottom: 10px; }
+.qa-form { display: flex; gap: 8px; }
+.qa-form input {
+  flex: 1;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 9px 11px;
+  font-size: 13.5px;
+  color: var(--text);
+  font-family: inherit;
 }
 
 .disclaimer {

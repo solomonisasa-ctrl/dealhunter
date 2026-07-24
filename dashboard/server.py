@@ -19,13 +19,16 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO_ROOT))
 sys.path.insert(0, str(REPO_ROOT / "src"))
 
+import anthropic  # noqa: E402
 from fastapi import FastAPI, HTTPException  # noqa: E402
 from fastapi.responses import FileResponse  # noqa: E402
 from fastapi.staticfiles import StaticFiles  # noqa: E402
 
 from config.settings import get_settings  # noqa: E402
 from dealhunter import pipeline  # noqa: E402
-from dealhunter.models import WatchItem  # noqa: E402
+from dealhunter.analysis.analyzer import answer_followup  # noqa: E402
+from dealhunter.analysis.scoring import qualifies_for_notification  # noqa: E402
+from dealhunter.models import QAEntry, WatchItem  # noqa: E402
 from dealhunter.pipeline import load_categories  # noqa: E402
 from dealhunter.schedule_store import (  # noqa: E402
     load_paused,
@@ -47,8 +50,30 @@ STATIC_DIR = Path(__file__).resolve().parent / "static"
 
 
 @app.get("/api/findings")
-def api_findings(watch_item_id: str | None = None, sort: str = "date"):
+def api_findings(watch_item_id: str | None = None, sort: str = "date", show_all: bool = False):
     findings = findings_store.load_findings(settings.findings_path)
+    watchlist_by_id = {w.id: w for w in load_watchlist(settings.watchlist_path)}
+
+    # Always drop findings for watch items that no longer exist - deleting
+    # a hunt should remove its listings from the feed, not just hide the
+    # watch item itself.
+    findings = [f for f in findings if f.watch_item_id in watchlist_by_id]
+
+    if not show_all:
+        # Default view is "deals", not "everything analyzed": hide
+        # duplicates and anything that didn't actually match the hunter's
+        # criteria or clear their discount threshold. discount_threshold is
+        # looked up live so editing it later re-filters existing findings
+        # with no backfill needed.
+        findings = [
+            f
+            for f in findings
+            if f.duplicate_of is None
+            and qualifies_for_notification(
+                f.analysis, f.discount, watchlist_by_id[f.watch_item_id].discount_threshold
+            )
+        ]
+
     if watch_item_id:
         findings = [f for f in findings if f.watch_item_id == watch_item_id]
     if sort == "score":
@@ -63,6 +88,27 @@ def api_finding_detail(finding_id: str):
     finding = findings_store.get_finding(settings.findings_path, finding_id)
     if finding is None:
         raise HTTPException(status_code=404, detail="Finding not found")
+    return finding.model_dump(mode="json")
+
+
+@app.post("/api/findings/{finding_id:path}/ask")
+def api_ask_finding(finding_id: str, payload: dict):
+    question = (payload.get("question") or "").strip()
+    if not question:
+        raise HTTPException(status_code=400, detail="question is required")
+
+    finding = findings_store.get_finding(settings.findings_path, finding_id)
+    if finding is None:
+        raise HTTPException(status_code=404, detail="Finding not found")
+
+    client = anthropic.Anthropic(api_key=settings.anthropic_api_key)
+    try:
+        answer = answer_followup(client, settings.anthropic_model, finding, question)
+    except Exception as exc:  # noqa: BLE001
+        raise HTTPException(status_code=502, detail=str(exc))
+
+    finding.qa_history.append(QAEntry(question=question, answer=answer))
+    findings_store.update_finding(settings.findings_path, finding)
     return finding.model_dump(mode="json")
 
 
