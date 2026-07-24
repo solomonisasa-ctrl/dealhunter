@@ -21,21 +21,15 @@
 
 - id: Omega Constellation
   category: watches
-  description: vintage omega constellation
+  description: omega constellation
   discount_threshold: 0.2
   lookback_days: 30
   enabled: true
-  parsed_criteria:
-    brand: Omega
-    model: Constellation
-    reference_number: null
-    condition_min: null
-    box_and_papers_required: null
-    max_price_all_in: null
-    other_requirements: Vintage piece
-    search_keywords:
-    - vintage Omega Constellation
-    - Omega Constellation
-    - Omega Constellation vintage watch
-    - Constellation pie pan
-    - Omega Constellation automatic
+  parsed_criteria: null
+- id: shunbun
+  category: watches
+  description: grand seiko shunbun
+  discount_threshold: 0.2
+  lookback_days: 30
+  enabled: true
+  parsed_criteria: null
