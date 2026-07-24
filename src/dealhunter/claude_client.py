@@ -10,6 +10,17 @@ from typing import Any
 
 import anthropic
 
+# Without an explicit timeout, a single stuck Claude call can hang a whole
+# hunt run indefinitely - this bounds every call so a per-listing failure
+# (already handled by callers) surfaces in seconds, not never.
+_DEFAULT_TIMEOUT_SECONDS = 60.0
+
+
+def make_client(api_key: str, timeout: float = _DEFAULT_TIMEOUT_SECONDS) -> anthropic.Anthropic:
+    """Every Anthropic client in this app should be built through here, not
+    anthropic.Anthropic(...) directly, so the timeout is applied uniformly."""
+    return anthropic.Anthropic(api_key=api_key, timeout=timeout)
+
 
 def call_structured(
     client: anthropic.Anthropic,

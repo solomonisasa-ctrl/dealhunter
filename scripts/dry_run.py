@@ -25,9 +25,8 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO_ROOT))
 sys.path.insert(0, str(REPO_ROOT / "src"))
 
-import anthropic  # noqa: E402
-
 from config.settings import get_settings  # noqa: E402
+from dealhunter.claude_client import make_client  # noqa: E402
 from dealhunter.criteria_parser import ensure_parsed_criteria  # noqa: E402
 from dealhunter.models import Listing, WatchItem  # noqa: E402
 from dealhunter.pipeline import load_categories, score_listing  # noqa: E402
@@ -54,7 +53,7 @@ def main() -> int:
         print("ANTHROPIC_API_KEY is not set - dry run needs a real key to call Claude.", file=sys.stderr)
         return 1
 
-    client = anthropic.Anthropic(api_key=settings.anthropic_api_key)
+    client = make_client(settings.anthropic_api_key)
     categories = load_categories(settings)
     fixtures = json.loads(Path(args.fixtures).read_text(encoding="utf-8"))
 

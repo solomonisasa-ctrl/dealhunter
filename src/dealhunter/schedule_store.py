@@ -13,6 +13,8 @@ from typing import Any
 
 import yaml
 
+from dealhunter.atomic_write import atomic_write_text
+
 DEFAULT_POLL_INTERVAL_MINUTES = 5
 DEFAULT_PAUSED = False
 _MIN_POLL_INTERVAL_MINUTES = 1
@@ -42,7 +44,7 @@ def _load_raw(path: Path) -> dict[str, Any]:
 
 def _save_raw(path: Path, data: dict[str, Any]) -> None:
     body = yaml.safe_dump(data, sort_keys=False)
-    path.write_text(_HEADER_COMMENT + body, encoding="utf-8")
+    atomic_write_text(path, _HEADER_COMMENT + body)
 
 
 def load_poll_interval_minutes(path: Path) -> int:

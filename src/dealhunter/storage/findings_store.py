@@ -8,6 +8,7 @@ import json
 import time
 from pathlib import Path
 
+from dealhunter.atomic_write import atomic_write_text
 from dealhunter.models import Finding
 
 # Hard cap so the findings file (committed to git by CI) doesn't grow forever.
@@ -24,7 +25,7 @@ def load_findings(path: Path) -> list[Finding]:
 def save_findings(path: Path, findings: list[Finding]) -> None:
     trimmed = findings[-_MAX_FINDINGS:]
     raw = [f.model_dump(mode="json") for f in trimmed]
-    path.write_text(json.dumps(raw, indent=2), encoding="utf-8")
+    atomic_write_text(path, json.dumps(raw, indent=2))
 
 
 def append_finding(path: Path, finding: Finding) -> list[Finding]:

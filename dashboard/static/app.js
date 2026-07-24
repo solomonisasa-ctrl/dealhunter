@@ -109,26 +109,73 @@ document.getElementById("pause-toggle").addEventListener("click", async () => {
 });
 
 // ---------- Refresh now ----------
+function setProgressUI(visible, pct, label) {
+  const container = document.getElementById("refresh-progress-container");
+  const bar = document.getElementById("refresh-progress-bar");
+  const labelEl = document.getElementById("refresh-progress-label");
+  container.classList.toggle("hidden", !visible);
+  labelEl.classList.toggle("hidden", !visible);
+  if (visible) {
+    bar.style.width = `${pct}%`;
+    labelEl.textContent = label;
+  }
+}
+
+async function pollRunStatus() {
+  const btn = document.getElementById("refresh-now");
+  const res = await fetch("/api/run-status");
+  const status = await res.json();
+
+  if (status.running) {
+    const pct = status.total > 0 ? Math.min(100, Math.round((status.current / status.total) * 100)) : 0;
+    const label = `${status.phase}${status.detail ? " - " + status.detail : ""} (${pct}%)`;
+    setProgressUI(true, pct, label);
+    btn.textContent = "Refreshing…";
+    setTimeout(pollRunStatus, 1000);
+  } else {
+    setProgressUI(false, 0, "");
+    btn.disabled = false;
+    btn.textContent = "⟳ Refresh now";
+    if (status.error) {
+      alert(`Refresh failed: ${status.error}`);
+    }
+    await Promise.all([loadFeed(), loadStatus()]);
+  }
+}
+
 document.getElementById("refresh-now").addEventListener("click", async () => {
   const btn = document.getElementById("refresh-now");
-  const originalText = btn.textContent;
   btn.disabled = true;
-  btn.textContent = "Refreshing…";
+  btn.textContent = "Starting…";
   try {
     const res = await fetch("/api/run-now", { method: "POST" });
     if (!res.ok) {
       const err = await res.json().catch(() => ({}));
       alert(`Refresh failed: ${err.detail || res.statusText}`);
-    } else {
-      await Promise.all([loadFeed(), loadStatus()]);
+      btn.disabled = false;
+      btn.textContent = "⟳ Refresh now";
+      return;
     }
   } catch (err) {
     alert(`Refresh failed: ${err}`);
-  } finally {
     btn.disabled = false;
-    btn.textContent = originalText;
+    btn.textContent = "⟳ Refresh now";
+    return;
   }
+  setTimeout(pollRunStatus, 300);
 });
+
+// If a refresh was already running when the page loaded (e.g. triggered
+// from another tab, or this tab was reloaded mid-run), pick up polling
+// instead of showing a stale idle button.
+(async function resumeProgressIfRunning() {
+  const res = await fetch("/api/run-status");
+  const status = await res.json();
+  if (status.running) {
+    document.getElementById("refresh-now").disabled = true;
+    pollRunStatus();
+  }
+})();
 
 // ---------- Feed ----------
 async function loadFeed() {

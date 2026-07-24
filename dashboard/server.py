@@ -13,21 +13,23 @@ from __future__ import annotations
 
 import subprocess
 import sys
+import threading
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO_ROOT))
 sys.path.insert(0, str(REPO_ROOT / "src"))
 
-import anthropic  # noqa: E402
 from fastapi import FastAPI, HTTPException  # noqa: E402
 from fastapi.responses import FileResponse  # noqa: E402
 from fastapi.staticfiles import StaticFiles  # noqa: E402
 
 from config.settings import get_settings  # noqa: E402
 from dealhunter import pipeline  # noqa: E402
+from dealhunter import progress as progress_tracker  # noqa: E402
 from dealhunter.analysis.analyzer import answer_followup  # noqa: E402
 from dealhunter.analysis.scoring import qualifies_for_notification  # noqa: E402
+from dealhunter.claude_client import make_client  # noqa: E402
 from dealhunter.models import QAEntry, WatchItem  # noqa: E402
 from dealhunter.pipeline import load_categories  # noqa: E402
 from dealhunter.sources.ebay_source import EbaySource  # noqa: E402
@@ -107,7 +109,7 @@ def api_ask_finding(finding_id: str, payload: dict):
     if finding is None:
         raise HTTPException(status_code=404, detail="Finding not found")
 
-    client = anthropic.Anthropic(api_key=settings.anthropic_api_key)
+    client = make_client(settings.anthropic_api_key)
     try:
         answer = answer_followup(client, settings.anthropic_model, finding, question)
     except Exception as exc:  # noqa: BLE001
@@ -136,7 +138,7 @@ def api_full_analysis(finding_id: str):
     if watch_item is None:
         raise HTTPException(status_code=404, detail="Watch item for this finding no longer exists")
 
-    client = anthropic.Anthropic(api_key=settings.anthropic_api_key)
+    client = make_client(settings.anthropic_api_key)
     try:
         updated = pipeline.score_listing(
             client,
@@ -244,13 +246,27 @@ def api_set_schedule(payload: dict):
 
 @app.post("/api/run-now")
 def api_run_now():
-    """Triggers an immediate hunt run, bypassing the poll-interval gate -
-    that's the whole point of a manual refresh."""
-    try:
-        cred_results, report = pipeline.run_hunt_checked(settings)
-    except RuntimeError as exc:
-        raise HTTPException(status_code=502, detail=str(exc))
-    return {"credentials": cred_results, "health": report.model_dump(mode="json")}
+    """Triggers an immediate hunt run in the background, bypassing the
+    poll-interval gate - that's the whole point of a manual refresh. Runs
+    off the request thread since a full hunt can take minutes; the
+    dashboard polls /api/run-status for live progress instead of blocking
+    on this response."""
+    if progress_tracker.snapshot().get("running"):
+        raise HTTPException(status_code=409, detail="A refresh is already running.")
+
+    def _run():
+        try:
+            pipeline.run_hunt_checked(settings)
+        except Exception:  # noqa: BLE001 - already recorded on progress_tracker by run_hunt_checked
+            pass
+
+    threading.Thread(target=_run, daemon=True).start()
+    return {"started": True}
+
+
+@app.get("/api/run-status")
+def api_run_status():
+    return progress_tracker.snapshot()
 
 
 app.mount("/static", StaticFiles(directory=str(STATIC_DIR)), name="static")

@@ -12,9 +12,11 @@ import anthropic
 import yaml
 
 from config.settings import Settings
+from dealhunter import progress as progress_tracker
 from dealhunter.analysis.analyzer import analyze_listing
 from dealhunter.analysis.dedup import find_duplicate
 from dealhunter.analysis.scoring import compute_deal_score, compute_liquidity, qualifies_for_notification
+from dealhunter.claude_client import make_client
 from dealhunter.criteria_parser import ensure_parsed_criteria
 from dealhunter.healthcheck import assess_source_staleness, overall_status, verify_credentials
 from dealhunter.models import AnalysisResult, Finding, HealthReport, Listing, ListingStatus, SourceHealth, WatchItem
@@ -159,12 +161,20 @@ def refresh_sold_status(
     return newly_sold
 
 
+# Bounds worst-case run time predictably: a watch item with a very broad
+# description (or one just added, so everything is "new") can't turn one
+# run into hundreds of sequential Claude calls. Anything past this cap
+# isn't lost - it's simply not marked seen, so it's picked up on a later
+# run instead of blocking this one.
+_MAX_NEW_LISTINGS_PER_RUN = 20
+
+
 def run_hunt(settings: Settings, source_health_errors: dict[str, str] | None = None) -> HealthReport:
     """Runs one full hunt across the whole watchlist. source_health_errors,
     if provided, marks those sources as already-failed (e.g. from a prior
     verify_credentials() call) so we don't try to use them."""
     start = time.time()
-    client = anthropic.Anthropic(api_key=settings.anthropic_api_key)
+    client = make_client(settings.anthropic_api_key)
     categories = load_categories(settings)
     sources = build_sources(settings, categories)
     source_health_errors = source_health_errors or {}
@@ -182,12 +192,17 @@ def run_hunt(settings: Settings, source_health_errors: dict[str, str] | None = N
     # one per listing - see notify.ntfy.send_deal_digest.
     to_notify: list[Finding] = []
 
-    for item in watchlist:
-        if not item.enabled:
-            continue
+    enabled_items = [w for w in watchlist if w.enabled]
+    total_items = max(len(enabled_items), 1)
+
+    for item_index, item in enumerate(enabled_items, start=1):
         category_def = categories.get(item.category)
         if category_def is None:
             continue
+
+        progress_tracker.update(
+            phase="fetching", detail=item.id, current=item_index - 1, total=total_items
+        )
 
         item, changed = ensure_parsed_criteria(client, settings.anthropic_model, item, category_def.get("structured_fields", []))
         if changed:
@@ -217,13 +232,22 @@ def run_hunt(settings: Settings, source_health_errors: dict[str, str] | None = N
                 continue
 
             source_health[source_name].fetched += len(listings)
+            # See _MAX_NEW_LISTINGS_PER_RUN - anything past this isn't
+            # marked seen below, so it's simply picked up on a later run.
+            listings = listings[:_MAX_NEW_LISTINGS_PER_RUN]
             comparable_count = 0
             try:
                 comparable_count = source.comparable_count(item, category_def)
             except Exception:  # noqa: BLE001
                 pass
 
-            for listing in listings:
+            for listing_index, listing in enumerate(listings, start=1):
+                progress_tracker.update(
+                    phase="analyzing",
+                    detail=f"{item.id} ({source_name}) - listing {listing_index}/{len(listings)}",
+                    current=(item_index - 1) + (listing_index - 1) / max(len(listings), 1),
+                    total=total_items,
+                )
                 state_store.mark_seen(state, listing.id, item.id)
                 source_health[source_name].new += 1
 
@@ -281,6 +305,8 @@ def run_hunt(settings: Settings, source_health_errors: dict[str, str] | None = N
     if watchlist_changed:
         save_watchlist(settings.watchlist_path, watchlist)
 
+    progress_tracker.update(phase="checking sold listings", current=total_items, total=total_items)
+
     # Best-effort: re-check a bounded batch of previously-active listings to
     # see if they've sold, so the feed stops showing deals that are gone.
     # Only asks sources that didn't already fail credential/fetch checks.
@@ -329,17 +355,24 @@ def run_hunt_checked(settings: Settings) -> tuple[dict[str, str], HealthReport]:
     for this run instead of aborting entirely. Shared by scripts/run_hunt.py
     (the cron/CLI path) and the dashboard's 'Refresh now' button, so both
     trigger paths behave identically."""
-    categories = load_categories(settings)
-    sources = build_sources(settings, categories)
-    cred_results = verify_credentials(settings, list(sources.values()))
+    progress_tracker.start()
+    try:
+        progress_tracker.update(phase="verifying credentials")
+        categories = load_categories(settings)
+        sources = build_sources(settings, categories)
+        cred_results = verify_credentials(settings, list(sources.values()))
 
-    if cred_results.get("anthropic", "").startswith("error"):
-        raise RuntimeError(f"Anthropic API key invalid, aborting run: {cred_results['anthropic']}")
+        if cred_results.get("anthropic", "").startswith("error"):
+            raise RuntimeError(f"Anthropic API key invalid, aborting run: {cred_results['anthropic']}")
 
-    source_errors = {
-        name: result
-        for name, result in cred_results.items()
-        if name in sources and result.startswith("error")
-    }
-    report = run_hunt(settings, source_health_errors=source_errors)
+        source_errors = {
+            name: result
+            for name, result in cred_results.items()
+            if name in sources and result.startswith("error")
+        }
+        report = run_hunt(settings, source_health_errors=source_errors)
+    except Exception as exc:
+        progress_tracker.finish(error=str(exc))
+        raise
+    progress_tracker.finish()
     return cred_results, report

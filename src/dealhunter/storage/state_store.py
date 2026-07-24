@@ -11,6 +11,8 @@ import time
 from pathlib import Path
 from typing import Any
 
+from dealhunter.atomic_write import atomic_write_text
+
 # Hard cap on how long a dedupe entry is kept, independent of any single
 # watch item's lookback_days, so the state file doesn't grow unbounded even
 # if a watch item is left with a very long lookback.
@@ -30,7 +32,7 @@ def load_state(state_dir: Path, source: str) -> dict[str, Any]:
 
 def save_state(state_dir: Path, source: str, state: dict[str, Any]) -> None:
     path = _path_for(state_dir, source)
-    path.write_text(json.dumps(state, indent=2, sort_keys=True), encoding="utf-8")
+    atomic_write_text(path, json.dumps(state, indent=2, sort_keys=True))
 
 
 def is_new(state: dict[str, Any], listing_id: str) -> bool:

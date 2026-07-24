@@ -5,6 +5,7 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+from dealhunter.atomic_write import atomic_write_text
 from dealhunter.models import HealthReport
 
 _MAX_HISTORY = 50
@@ -27,5 +28,5 @@ def append_health(path: Path, report: HealthReport) -> list[HealthReport]:
     history.append(report)
     history = history[-_MAX_HISTORY:]
     raw = [r.model_dump(mode="json") for r in history]
-    path.write_text(json.dumps(raw, indent=2), encoding="utf-8")
+    atomic_write_text(path, json.dumps(raw, indent=2))
     return history

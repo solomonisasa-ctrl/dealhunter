@@ -5,6 +5,7 @@ from pathlib import Path
 
 import yaml
 
+from dealhunter.atomic_write import atomic_write_text
 from dealhunter.models import WatchItem
 
 _HEADER_COMMENT = """\
@@ -42,7 +43,7 @@ def load_watchlist(path: Path) -> list[WatchItem]:
 def save_watchlist(path: Path, items: list[WatchItem]) -> None:
     raw = [item.model_dump(mode="json") for item in items]
     body = yaml.safe_dump(raw, sort_keys=False, allow_unicode=True)
-    path.write_text(_HEADER_COMMENT + body, encoding="utf-8")
+    atomic_write_text(path, _HEADER_COMMENT + body)
 
 
 def upsert_watch_item(path: Path, item: WatchItem) -> list[WatchItem]:

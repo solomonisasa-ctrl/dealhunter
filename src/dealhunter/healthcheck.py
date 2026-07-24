@@ -6,10 +6,10 @@ reads and which gates the ntfy error notification.
 """
 from __future__ import annotations
 
-import anthropic
 import requests
 
 from config.settings import Settings
+from dealhunter.claude_client import make_client
 from dealhunter.models import HealthReport, SourceHealth
 from dealhunter.sources.base import SourceAdapter
 
@@ -32,7 +32,7 @@ def verify_credentials(settings: Settings, sources: list[SourceAdapter]) -> dict
             results[source.name] = f"error: {exc}"
 
     try:
-        anthropic.Anthropic(api_key=settings.anthropic_api_key).models.list(limit=1)
+        make_client(settings.anthropic_api_key).models.list(limit=1)
         results["anthropic"] = "ok"
     except Exception as exc:  # noqa: BLE001
         results["anthropic"] = f"error: {exc}"

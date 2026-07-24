@@ -8568,30 +8568,30 @@
     "watch_item_id": "shunbun",
     "analysis": {
       "matches_criteria": false,
-      "match_reasoning": "The hunter is specifically seeking the Grand Seiko \"Shunbun\" (Spring Equinox) limited edition. This listing is for an SBGJ203, a Hi-Beat 36000 GMT model with a black dial - a completely different reference and design from the Shunbun, which is typically part of the 24 Seasons/Spring Drive limited series with a distinctive textured dial reflecting the equinox theme. Same brand, but wrong model entirely.",
-      "estimated_value": 4499.0,
-      "confidence": 0.6,
-      "condition_summary": "Appears new or like-new based on the single studio-style photo; no visible wear, scratches, or damage on case, bracelet, or dial.",
+      "match_reasoning": "The hunter is specifically seeking the Grand Seiko Shunbun (Spring Equinox limited edition). This listing is an SBGJ203, a Hi-Beat 36000 GMT model with black dial - a completely different model/reference, not the Shunbun. Different model from the same brand does not count as a match.",
+      "estimated_value": 4200.0,
+      "confidence": 0.55,
+      "condition_summary": "Appears new or like-new based on the single studio-style photo; no wear visible, but only one image provided with no close-ups of caseback, box, or papers.",
       "authenticity_risk": "low",
-      "authenticity_notes": "Photo appears to be a clean, professional/stock-style image without close-up serial or caseback shots, which limits verification, but nothing overtly suspicious. Price is roughly in line with typical secondary market pricing for this reference, which is a good sign against too-good-to-be-true fraud patterns. No box/papers shown or mentioned.",
-      "rarity_notes": "SBGJ203 is a well-known, relatively available Grand Seiko Hi-Beat GMT reference (not limited edition) - not rare. This is unrelated to the Shunbun limited edition the hunter is seeking, which is a far more limited/collectible piece.",
-      "demand_tier": "Medium",
-      "demand_reasoning": "Grand Seiko Hi-Beat GMT models like the SBGJ203 have solid demand among enthusiasts, but they are a regular production model, not the specialty limited-edition demand tier the Shunbun would command."
+      "authenticity_notes": "Photo looks like a professional/stock-style product shot rather than an in-hand photo of the actual item, which is a minor red flag - no box, papers, or serial number shown to confirm authenticity. No other red flags in text (no unusually low price, no urgency language).",
+      "rarity_notes": "SBGJ203 is a fairly well-known, non-limited Hi-Beat GMT reference within the Grand Seiko catalog - not rare compared to true limited editions like the Shunbun.",
+      "demand_tier": "High",
+      "demand_reasoning": "Grand Seiko Hi-Beat GMT models are popular and well recognized among GS collectors, sustaining solid resale demand even though this is not the specific model the hunter wants."
     },
-    "deal_score": 0,
+    "deal_score": -7,
     "liquidity": {
-      "rating": "Medium",
+      "rating": "High",
       "comparable_count": 853,
       "algorithmic_tier": "High",
-      "claude_tier": "Medium",
-      "reasoning": "Algorithmic signal: 853 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko Hi-Beat GMT models like the SBGJ203 have solid demand among enthusiasts, but they are a regular production model, not the specialty limited-edition demand tier the Shunbun would command.). Final rating uses the more conservative of the two: Medium."
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 853 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Grand Seiko Hi-Beat GMT models are popular and well recognized among GS collectors, sustaining solid resale demand even though this is not the specific model the hunter wants.). Final rating uses the more conservative of the two: High."
     },
     "all_in_price": 4499.0,
-    "discount": 0.0,
+    "discount": -0.07119047619047619,
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784926604.2482612,
+    "created_at": 1784934593.9221365,
     "analysis_depth": "quick"
   },
   {
@@ -8623,30 +8623,30 @@
     "watch_item_id": "shunbun",
     "analysis": {
       "matches_criteria": false,
-      "match_reasoning": "Hunter specifically wants the Grand Seiko \"Shunbun\" (Spring Equinox) limited edition. This listing is a SBGH341 62GS Heritage Collection Hi-Beat 36000 model with a pink/sakura textured dial - a different reference entirely, not the Shunbun model.",
-      "estimated_value": 8300.0,
+      "match_reasoning": "The hunter is specifically seeking the Grand Seiko \"Shunbun\" (Spring Equinox) limited edition. This listing is a SBGH341 62GS Heritage Collection Hi-Beat 36000 model with a pink/sakura dial - a different reference and model entirely, not the Shunbun edition.",
+      "estimated_value": 3800.0,
       "confidence": 0.5,
-      "condition_summary": "Described as \"Unused\" with clean stock-style photo showing no visible wear on case, bracelet, or dial; appears to be new/near-mint.",
+      "condition_summary": "Listed as \"Unused,\" photo shows a pristine dial and case with no visible wear, consistent with new/unworn condition.",
       "authenticity_risk": "low",
-      "authenticity_notes": "Listing photo has a legitimate-looking dealer watermark (Time Grace, Ginza), which is a known reputable Japanese watch dealer, reducing fraud risk. No box/papers shown in image, only text claim of \"Unused\" - would want confirmation of full set given the price point.",
-      "rarity_notes": "SBGH341 is a limited/special dial variant of the 62GS Hi-Beat line, moderately available on secondary market but not as scarce as true limited editions like the Shunbun.",
+      "authenticity_notes": "Photo appears to be a professional retailer stock image (Time Grace Ginza watermark), which is common for reputable Japanese dealers selling on eBay and not inherently a red flag, but buyer should confirm actual item photos and serial match are provided before purchase. No mismatched details visible.",
+      "rarity_notes": "SBGH341 is a limited/special dial variant of the 62GS Hi-Beat line but is a different, more available model than the Shunbun limited edition, which was a specific seasonal/limited release with unique dial texture and engraving referencing the spring equinox.",
       "demand_tier": "Medium",
-      "demand_reasoning": "Grand Seiko Hi-Beat 62GS models have solid collector demand, but this specific dial variant is less iconic/sought-after than the seasonal limited editions like Shunbun."
+      "demand_reasoning": "Grand Seiko Hi-Beat 62GS models have solid collector demand, but this specific reference is not the named Shunbun edition the hunter wants, so it doesn't satisfy the specific hunt despite being a desirable watch in its own right."
     },
-    "deal_score": -1,
+    "deal_score": -120,
     "liquidity": {
       "rating": "Medium",
       "comparable_count": 853,
       "algorithmic_tier": "High",
       "claude_tier": "Medium",
-      "reasoning": "Algorithmic signal: 853 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko Hi-Beat 62GS models have solid collector demand, but this specific dial variant is less iconic/sought-after than the seasonal limited editions like Shunbun.). Final rating uses the more conservative of the two: Medium."
+      "reasoning": "Algorithmic signal: 853 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko Hi-Beat 62GS models have solid collector demand, but this specific reference is not the named Shunbun edition the hunter wants, so it doesn't satisfy the specific hunt despite being a desirable watch in its own right.). Final rating uses the more conservative of the two: Medium."
     },
     "all_in_price": 8351.08,
-    "discount": -0.006154216867469871,
+    "discount": -1.1976526315789473,
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784926614.3750298,
+    "created_at": 1784934602.933863,
     "analysis_depth": "quick"
   },
   {
@@ -8739,15 +8739,15 @@
     "watch_item_id": "shunbun",
     "analysis": {
       "matches_criteria": false,
-      "match_reasoning": "The hunter specifically wants the Grand Seiko \"Shunbun\" (Spring Equinox) limited edition, but this listing is for the SBGH323G \"Red Dragon\" Hi-Beat 40mm limited edition - a completely different model/reference within the same Hi-Beat family. Per criteria rules, a different named limited edition does not count as a match even though both are Grand Seiko LEs.",
+      "match_reasoning": "Hunter specifically wants the Grand Seiko \"Shunbun\" (Spring Equinox) limited edition. This listing is the SBGH323 \"Red Dragon\" Hi-Beat 40mm LE, a completely different model/reference with a different dial (burgundy sunburst, not the Shunbun's snowflake/textured motif) and different limited-edition theme. Same brand and general Hi-Beat category, but not the named model.",
       "estimated_value": 9200.0,
       "confidence": 0.55,
-      "condition_summary": "Photo shows what appears to be a new/unworn example with clean bracelet links, crisp dial texture, and no visible scratches on case or crystal; listing text provides no condition detail beyond the photo.",
-      "authenticity_risk": "low",
-      "authenticity_notes": "Photo appears to be a genuine, well-lit studio shot consistent with authentic Grand Seiko SBGH323 imagery (correct dial printing, caseback engraving style visible, correct GS logo font). However, listing text is extremely sparse - no mention of box/papers, seller history, or serial number verification, which is a mild red flag for a watch at this price point.",
-      "rarity_notes": "SBGH323G Red Dragon is itself a well-known, sought-after limited edition (limited to a few hundred pieces) - rare and desirable, but not the item the hunter is searching for.",
+      "condition_summary": "Watch appears new/unworn based on the single studio photo (bracelet, dial, and hands show no visible wear), but only one photo is provided with no box/papers or caseback images shown despite it being a boxed limited edition purchase-worthy item.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only a single generic studio-style photo is provided with no shots of box, papers, caseback, or serial number close-up, which is a common gap in listings for high-value pieces. Price is roughly in line with secondary market rates for this reference, which is a mild positive signal, but the lack of documentation photos and provenance details for a $9,625 watch is a notable red flag worth following up on before purchase.",
+      "rarity_notes": "SBGH323 'Red Dragon' is itself a limited edition (typically 700-800 pieces) tied to Grand Seiko's zodiac dragon theme, distinct from the Shunbun (Spring Equinox) limited edition the hunter is seeking, which has its own separate scarcity profile.",
       "demand_tier": "High",
-      "demand_reasoning": "Grand Seiko Hi-Beat limited editions like the Red Dragon have strong collector demand and often trade near or above retail, but this is irrelevant to the hunter's specific Shunbun search."
+      "demand_reasoning": "Grand Seiko Hi-Beat limited editions with colored dials, including the Red Dragon, are well recognized and sought after in the GS collector community, commanding strong resale demand even though this is not the specific model requested."
     },
     "deal_score": -5,
     "liquidity": {
@@ -8755,14 +8755,14 @@
       "comparable_count": 853,
       "algorithmic_tier": "High",
       "claude_tier": "High",
-      "reasoning": "Algorithmic signal: 853 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Grand Seiko Hi-Beat limited editions like the Red Dragon have strong collector demand and often trade near or above retail, but this is irrelevant to the hunter's specific Shunbun search.). Final rating uses the more conservative of the two: High."
+      "reasoning": "Algorithmic signal: 853 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Grand Seiko Hi-Beat limited editions with colored dials, including the Red Dragon, are well recognized and sought after in the GS collector community, commanding strong resale demand even though this is not the specific model requested.). Final rating uses the more conservative of the two: High."
     },
     "all_in_price": 9625.0,
     "discount": -0.04619565217391304,
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784926632.3384743,
+    "created_at": 1784934612.8614044,
     "analysis_depth": "quick"
   },
   {
@@ -8793,15 +8793,15 @@
     "watch_item_id": "shunbun",
     "analysis": {
       "matches_criteria": false,
-      "match_reasoning": "Hunter specifically wants the Grand Seiko Shunbun (Spring Equinox, 24 Seasons series). This listing is a completely different model - the SBGV247 Sport 9F Quartz 25th Anniversary blue dial watch. Different case, movement (quartz vs likely spring drive/mechanical for Shunbun), collection, and design entirely. Not a match despite being the same brand.",
+      "match_reasoning": "Hunter specifically wants the Grand Seiko \"Shunbun\" (Spring Equinox) limited edition. This listing is a different model entirely - the SBGV247 9F quartz 25th Anniversary Sport blue-dial model on an orange rubber strap. Not a match regardless of similarity or brand.",
       "estimated_value": 2600.0,
       "confidence": 0.55,
-      "condition_summary": "Watch appears to be in good/excellent worn condition based on photo - case and bracelet/strap show no obvious major scratches, dial and hands look clean and sharp; on-wrist photo only, no box/papers shown.",
+      "condition_summary": "Watch appears to be in very good to excellent worn condition based on the wrist photo - case and bracelet lugs show no visible scratches, dial and crystal look clean, aftermarket orange rubber strap fitted in place of original.",
       "authenticity_risk": "low",
-      "authenticity_notes": "Photo appears to be a genuine real-life on-wrist shot (not obviously a stock photo), dial texture and GS logo look consistent with authentic SBGV247. However only one photo provided, no box/papers/serial visible, and no closeups of caseback or papers to confirm authenticity - some caution warranted.",
-      "rarity_notes": "SBGV247 is a limited/special \"25th Anniversary\" 9F quartz Sport model with blue textured dial; not extremely rare but a sought-after variant in the 9F Sport line. It is unrelated to the Shunbun 24 Seasons limited editions the hunter is seeking.",
+      "authenticity_notes": "Photo shows a real, in-hand shot (not a stock image), with visible GS logo, dial texture, and date window consistent with genuine SBGV247. No box/papers shown, and only one photo provided, which limits full verification of serial/caseback, but no overt red flags like mismatched fonts or suspicious pricing are present.",
+      "rarity_notes": "This is not the Shunbun at all - it's the SBGV247, a limited \"25th Anniversary\" 9F quartz Sport model, which itself is moderately limited but a completely different reference and theme from the Shunbun (Spring Equinox) limited edition the hunter is seeking.",
       "demand_tier": "Medium",
-      "demand_reasoning": "Grand Seiko Sport 9F quartz models have solid brand recognition and collector interest, but demand is generally lower than for Spring Drive or mechanical Grand Seiko limited editions like Shunbun."
+      "demand_reasoning": "Grand Seiko as a brand has strong recognition and demand, but this specific quartz Sport 25th Anniversary model is less sought-after than mechanical Hi-Beat or Spring Drive limited editions like the Shunbun, resulting in medium overall demand."
     },
     "deal_score": -13,
     "liquidity": {
@@ -8809,14 +8809,14 @@
       "comparable_count": 853,
       "algorithmic_tier": "High",
       "claude_tier": "Medium",
-      "reasoning": "Algorithmic signal: 853 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko Sport 9F quartz models have solid brand recognition and collector interest, but demand is generally lower than for Spring Drive or mechanical Grand Seiko limited editions like Shunbun.). Final rating uses the more conservative of the two: Medium."
+      "reasoning": "Algorithmic signal: 853 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko as a brand has strong recognition and demand, but this specific quartz Sport 25th Anniversary model is less sought-after than mechanical Hi-Beat or Spring Drive limited editions like the Shunbun, resulting in medium overall demand.). Final rating uses the more conservative of the two: Medium."
     },
     "all_in_price": 2950.0,
     "discount": -0.1346153846153846,
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784926641.53614,
+    "created_at": 1784934632.734689,
     "analysis_depth": "quick"
   },
   {
@@ -8851,30 +8851,30 @@
     "watch_item_id": "shunbun",
     "analysis": {
       "matches_criteria": false,
-      "match_reasoning": "The hunter is specifically seeking the Grand Seiko \"Shunbun\" (Spring Equinox) limited edition. This listing is for the SBGH241, a Wako-exclusive Hi-Beat 36000 model with a silver dial - a different reference and design entirely, not the Shunbun. Same brand but wrong model, so it does not match.",
+      "match_reasoning": "The hunter is specifically seeking the Grand Seiko Shunbun (Spring Equinox) limited edition. This listing is an SBGH241 Hi-Beat \"Wako Exclusive\" model, a completely different reference and design (silver sunburst dial with numerals, not the Shunbun's distinctive dial). Different model within the same brand does not satisfy a named limited-edition search.",
       "estimated_value": 6000.0,
       "confidence": 0.55,
-      "condition_summary": "Watch appears to be in good, lightly worn condition based on the photo - clean dial, no visible scratches on crystal, bracelet looks intact; only one photo shown, no box/papers visible.",
+      "condition_summary": "Watch appears to be in good/excellent cosmetic condition from the photo - case and bracelet show minimal visible wear, dial and hands look clean and correctly aligned; only one photo provided, no box/papers shown.",
       "authenticity_risk": "low",
-      "authenticity_notes": "Dial text, caseback engraving style, and hand design look consistent with genuine Grand Seiko Hi-Beat pieces. However, only one photo is provided (on-wrist), no caseback, box, or papers shown, and no serial number or purchase provenance mentioned, which limits ability to fully verify authenticity.",
-      "rarity_notes": "The SBGH241 is a genuine Wako department store exclusive variant, moderately rare among GS collectors, but it is unrelated to the Shunbun 24 Seasons limited edition the hunter is seeking.",
-      "demand_tier": "Medium",
-      "demand_reasoning": "Grand Seiko Hi-Beat models have solid collector demand, and Wako exclusives add a layer of desirability, but this is a niche variant rather than a headline limited edition like the Shunbun."
+      "authenticity_notes": "Dial text, hand shapes, GS logo, and caseback engraving style are consistent with genuine SBGH241 Hi-Beat models. No box or papers are shown or mentioned, which is a minor gap but not necessarily a red flag by itself. Only a single close-up photo is provided rather than multiple angles, which limits ability to fully verify authenticity.",
+      "rarity_notes": "The SBGH241 Wako Exclusive is itself a limited/boutique-exclusive Hi-Beat model, moderately rare, but it is unrelated to the Shunbun (Spring Equinox) limited edition the hunter is seeking, which has a distinct seasonal-themed dial design.",
+      "demand_tier": "High",
+      "demand_reasoning": "Grand Seiko Hi-Beat models, especially store exclusives like Wako, have strong collector demand and recognition, though this is not the specific Shunbun piece requested."
     },
     "deal_score": -8,
     "liquidity": {
-      "rating": "Medium",
+      "rating": "High",
       "comparable_count": 853,
       "algorithmic_tier": "High",
-      "claude_tier": "Medium",
-      "reasoning": "Algorithmic signal: 853 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko Hi-Beat models have solid collector demand, and Wako exclusives add a layer of desirability, but this is a niche variant rather than a headline limited edition like the Shunbun.). Final rating uses the more conservative of the two: Medium."
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 853 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Grand Seiko Hi-Beat models, especially store exclusives like Wako, have strong collector demand and recognition, though this is not the specific Shunbun piece requested.). Final rating uses the more conservative of the two: High."
     },
     "all_in_price": 6500.0,
     "discount": -0.08333333333333333,
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784926650.2397082,
+    "created_at": 1784934622.4914627,
     "analysis_depth": "quick"
   },
   {
@@ -8909,30 +8909,30 @@
     "watch_item_id": "shunbun",
     "analysis": {
       "matches_criteria": false,
-      "match_reasoning": "The hunter specifically wants the Grand Seiko Shunbun (Spring Equinox) limited edition, typically an SBGA-series Spring Drive model with a distinctive textured dial. This listing is a base 9F62-0AB0 quartz model with a plain white dial and date window - a completely different, non-limited reference. Not a match.",
-      "estimated_value": 1400.0,
-      "confidence": 0.5,
-      "condition_summary": "Watch appears in good cosmetic condition from the photo, on what looks like a black leather strap (possibly aftermarket, not original bracelet), no box/papers shown.",
+      "match_reasoning": "The hunter is specifically seeking the Grand Seiko \"Shunbun\" (Spring Equinox) limited edition. This listing is a standard Grand Seiko 9F62-0AB0 quartz dress watch with a plain white dial - not the Shunbun no Kokochi limited edition, which typically features a distinctive textured dial referencing cherry blossoms/spring equinox and a specific caseback engraving. This is a different reference from the same brand, so it does not match.",
+      "estimated_value": 1900.0,
+      "confidence": 0.55,
+      "condition_summary": "Watch appears in generally good used condition based on the photo - clean dial, hands and markers intact, date window functioning; leather strap shows some wear/creasing. No box or papers shown in the image.",
       "authenticity_risk": "low",
-      "authenticity_notes": "Dial text, GS logo, and caseback markings visible appear consistent with genuine 9F62 quartz Grand Seiko production; no obvious red flags, though only one photo is provided and no serial/caseback close-up or papers are shown.",
-      "rarity_notes": "The 9F62-0AB0 is a fairly common production Grand Seiko quartz reference, not rare. The Shunbun is a distinct limited-edition Spring Drive model and is considerably harder to find - this listing is not that piece.",
+      "authenticity_notes": "Dial text, GS logo placement, and case shape are consistent with genuine 9F62 Grand Seiko models; no obvious mismatched fonts or printing errors visible. However, the photo has reflections obscuring parts of the case and no caseback/movement shot or papers are shown, so full authentication isn't possible from this single image alone.",
+      "rarity_notes": "The 9F62-0AB0 is a fairly common Grand Seiko quartz dress reference, not rare. The actual Shunbun no Kokochi limited edition the hunter wants is a numbered, limited-production piece with a unique dial pattern and is considerably harder to find on the secondary market.",
       "demand_tier": "Medium",
-      "demand_reasoning": "Grand Seiko as a brand has strong/growing recognition, but this specific base quartz reference has only moderate collector demand compared to Spring Drive or limited-edition pieces like the Shunbun."
+      "demand_reasoning": "Grand Seiko as a brand has strong and growing demand, but this specific reference (basic 9F quartz dress model) is common and less sought-after than special/limited editions like the Shunbun, keeping demand moderate rather than high."
     },
-    "deal_score": -36,
+    "deal_score": 0,
     "liquidity": {
       "rating": "Medium",
-      "comparable_count": 853,
+      "comparable_count": 852,
       "algorithmic_tier": "High",
       "claude_tier": "Medium",
-      "reasoning": "Algorithmic signal: 853 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko as a brand has strong/growing recognition, but this specific base quartz reference has only moderate collector demand compared to Spring Drive or limited-edition pieces like the Shunbun.). Final rating uses the more conservative of the two: Medium."
+      "reasoning": "Algorithmic signal: 852 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko as a brand has strong and growing demand, but this specific reference (basic 9F quartz dress model) is common and less sought-after than special/limited editions like the Shunbun, keeping demand moderate rather than high.). Final rating uses the more conservative of the two: Medium."
     },
     "all_in_price": 1897.5500000000002,
-    "discount": -0.3553928571428573,
+    "discount": 0.0012894736842104307,
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784926658.716241,
+    "created_at": 1784934593.7163444,
     "analysis_depth": "quick"
   },
   {
@@ -8973,30 +8973,30 @@
     "watch_item_id": "shunbun",
     "analysis": {
       "matches_criteria": false,
-      "match_reasoning": "The hunter is specifically seeking the Grand Seiko 'Shunbun' (Spring Equinox) limited edition, part of the 24 Seasons collection. This listing is for the SBGV239, a Heritage Collection quartz model with a black/grey dial - an entirely different reference, movement type, and design from the Shunbun. Same brand, different model, so it does not match.",
-      "estimated_value": 2600.0,
-      "confidence": 0.6,
-      "condition_summary": "Watch appears to be in excellent/near-mint condition based on photo - clean case, bracelet, and dial with no visible scratches, shown with GS branded box.",
+      "match_reasoning": "Hunter specifically wants the Grand Seiko \"Shunbun\" (Shunbun no Kokochi, spring equinox limited edition). This listing is an SBGV239 Heritage Collection Quartz model, a different reference/model entirely, not the Shunbun limited edition.",
+      "estimated_value": 2000.0,
+      "confidence": 0.55,
+      "condition_summary": "Watch appears to be in excellent, likely near-mint condition based on photo, displayed with GS branded box; no visible scratches or wear on case/bracelet.",
       "authenticity_risk": "low",
-      "authenticity_notes": "Photo shows a real, detailed shot (not obvious stock photo) with correct GS branding, box, and dial layout consistent with genuine SBGV239. No mismatched serials or major red flags visible, though only one angle is shown and no papers/serial closeup provided.",
-      "rarity_notes": "SBGV239 is a fairly common Heritage Collection quartz reference, not limited or rare. The Shunbun is a specific limited-edition seasonal model and is much harder to find; this listing is unrelated to that rarity tier.",
+      "authenticity_notes": "Photo appears to be a genuine seller-taken image (not a stock photo) showing the actual watch on a display stand with branded box, which is a good sign. No mismatched serials or major red flags visible, though only one photo is provided and no close-up of caseback/serial is shown.",
+      "rarity_notes": "SBGV239 is a fairly common quartz Heritage model, not particularly rare. This is not the Shunbun limited edition the hunter is seeking, which is a distinct and much rarer seasonal/limited release.",
       "demand_tier": "Medium",
-      "demand_reasoning": "Grand Seiko as a brand has strong recognition and demand, but quartz Heritage models like the SBGV239 are less sought after than mechanical Spring Drive or limited editions like the Shunbun."
+      "demand_reasoning": "Grand Seiko brand has strong recognition and demand, but this specific quartz Heritage model is more common and less sought after than limited editions like Shunbun."
     },
-    "deal_score": -11,
+    "deal_score": -44,
     "liquidity": {
       "rating": "Medium",
-      "comparable_count": 853,
+      "comparable_count": 852,
       "algorithmic_tier": "High",
       "claude_tier": "Medium",
-      "reasoning": "Algorithmic signal: 853 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko as a brand has strong recognition and demand, but quartz Heritage models like the SBGV239 are less sought after than mechanical Spring Drive or limited editions like the Shunbun.). Final rating uses the more conservative of the two: Medium."
+      "reasoning": "Algorithmic signal: 852 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko brand has strong recognition and demand, but this specific quartz Heritage model is more common and less sought after than limited editions like Shunbun.). Final rating uses the more conservative of the two: Medium."
     },
     "all_in_price": 2878.75,
-    "discount": -0.10721153846153846,
+    "discount": -0.439375,
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784926666.5141914,
+    "created_at": 1784934562.1373715,
     "analysis_depth": "quick"
   },
   {
@@ -9035,30 +9035,30 @@
     "watch_item_id": "shunbun",
     "analysis": {
       "matches_criteria": false,
-      "match_reasoning": "Hunter specifically wants the Grand Seiko Shunbun (Spring Equinox, 24 Seasons series), a specific limited-edition model. This listing is a Grand Seiko Tentagraph SLGC001, an entirely different model (mechanical hi-beat chronograph, Evolution 9 line), not the Shunbun. Different reference, different collection, no relation beyond brand.",
-      "estimated_value": 8200.0,
+      "match_reasoning": "Hunter specifically wants the Grand Seiko \"Shunbun\" (Shunbun no Kokochi) limited edition, but this listing is a Grand Seiko Tentagraph SLGC001, a completely different model (Evolution 9 mechanical hi-beat chronograph). Different model line entirely, so this is not a match regardless of quality or price.",
+      "estimated_value": 8500.0,
       "confidence": 0.55,
-      "condition_summary": "Watch appears new/lightly worn based on photo, with protective stickers still visible on the crown/pushers, suggesting it is unworn or barely worn; blue dial and tachymeter bezel show no visible scratches.",
+      "condition_summary": "Watch appears new/lightly used based on photo (protective stickers still visible on case/crown area), with box and papers claimed. No visible wear on case or bracelet in the image.",
       "authenticity_risk": "low",
-      "authenticity_notes": "Photo appears to be an actual product shot (not obviously stock) with visible protective film strips, consistent with a real, lightly used item. No mismatched engravings or obvious red flags visible, though only one photo is provided and no close-up of caseback/serial or papers is shown despite being claimed.",
-      "rarity_notes": "SLGC001 Tentagraph is a hyped, hard-to-get modern Grand Seiko chronograph but is not the item the hunter is seeking (Shunbun). Not relevant to rarity assessment for this hunt.",
+      "authenticity_notes": "Photo appears to be an actual product photo (not stock) with visible protective film/stickers, consistent with a real, lightly-used piece. No mismatched serials or other red flags noted, though no close-up of caseback/serial or papers themselves is shown.",
+      "rarity_notes": "Irrelevant to hunter's target (Shunbun), but for reference the SLGC001 Tentagraph is a recently released, in-demand Evolution 9 chronograph, not especially rare but high demand at launch.",
       "demand_tier": "High",
-      "demand_reasoning": "Tentagraph SLGC001 is one of Grand Seiko's most in-demand recent releases with strong resale demand, but this is irrelevant since it doesn't match the requested Shunbun model."
+      "demand_reasoning": "Grand Seiko Tentagraph is a hyped, high-demand modern release, but it is not the item the hunter is seeking (Shunbun), so this demand is irrelevant to the search criteria."
     },
-    "deal_score": -4,
+    "deal_score": 0,
     "liquidity": {
       "rating": "High",
-      "comparable_count": 853,
+      "comparable_count": 852,
       "algorithmic_tier": "High",
       "claude_tier": "High",
-      "reasoning": "Algorithmic signal: 853 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Tentagraph SLGC001 is one of Grand Seiko's most in-demand recent releases with strong resale demand, but this is irrelevant since it doesn't match the requested Shunbun model.). Final rating uses the more conservative of the two: High."
+      "reasoning": "Algorithmic signal: 852 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Grand Seiko Tentagraph is a hyped, high-demand modern release, but it is not the item the hunter is seeking (Shunbun), so this demand is irrelevant to the search criteria.). Final rating uses the more conservative of the two: High."
     },
     "all_in_price": 8500.0,
-    "discount": -0.036585365853658534,
+    "discount": 0.0,
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784926675.886271,
+    "created_at": 1784934544.5970345,
     "analysis_depth": "quick"
   },
   {
@@ -9099,30 +9099,30 @@
     "watch_item_id": "shunbun",
     "analysis": {
       "matches_criteria": false,
-      "match_reasoning": "The hunter is specifically seeking the Grand Seiko Shunbun (Spring Equinox, 24 Seasons series). This listing is a Grand Seiko SLGW003 Evolution 9 Collection manual-wind Hi-Beat titanium watch - a completely different model/reference from a different collection. It does not match despite being the same brand.",
-      "estimated_value": 9500.0,
+      "match_reasoning": "The hunter specifically wants the Grand Seiko Shunbun (Shunbun no Kokochi) limited edition, but this listing is for the SLGW003 Evolution 9 Collection manual wind titanium watch - a completely different model/reference. Same brand, but not the requested model.",
+      "estimated_value": 9200.0,
       "confidence": 0.6,
-      "condition_summary": "Watch appears to be in excellent, likely near-new condition based on the photo - clean case, crisp dial texture, no visible scratches or wear on the case or crystal.",
+      "condition_summary": "Watch appears to be in excellent, likely near-mint condition based on the photo - clean case, crisp textured dial, no visible scratches or wear on the titanium case or crystal.",
       "authenticity_risk": "low",
-      "authenticity_notes": "Photo appears to be a genuine real-world shot (not a stock catalog image), with plausible dial texture, hands, and case finishing consistent with SLGW003. No mismatched serials visible, though only one photo is provided and box/papers are claimed but not shown in this image - would want to see B&P and caseback/serial for full verification.",
-      "rarity_notes": "Not applicable to the hunter's target (Shunbun); as its own item, the SLGW003 is a fairly recent, still-in-production Evolution 9 manual-wind Hi-Beat model, not especially rare, though desirable.",
+      "authenticity_notes": "Photo appears to be a genuine, well-lit real-world shot (not a stock catalog image), consistent with the claimed model's dial texture, hands, and case shape. No mismatched serials or suspicious details visible, though only one photo is provided and box/papers are claimed but not shown in this image.",
+      "rarity_notes": "The SLGW003 is a modern Evolution 9 manual-wind hi-beat titanium piece, not especially rare but sought after; it is entirely unrelated to the Shunbun no Kokochi limited edition the hunter is seeking, which is a distinct seasonal limited-production model with different dial art and much greater scarcity.",
       "demand_tier": "High",
-      "demand_reasoning": "Grand Seiko Evolution 9 manual Hi-Beat titanium models are well-recognized and popular among enthusiasts, commanding strong demand and price stability near retail."
+      "demand_reasoning": "Grand Seiko Evolution 9 hi-beat titanium models are highly sought after in the current market, but this is irrelevant to the hunter's specific Shunbun request."
     },
-    "deal_score": -5,
+    "deal_score": -9,
     "liquidity": {
       "rating": "High",
-      "comparable_count": 853,
+      "comparable_count": 852,
       "algorithmic_tier": "High",
       "claude_tier": "High",
-      "reasoning": "Algorithmic signal: 853 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Grand Seiko Evolution 9 manual Hi-Beat titanium models are well-recognized and popular among enthusiasts, commanding strong demand and price stability near retail.). Final rating uses the more conservative of the two: High."
+      "reasoning": "Algorithmic signal: 852 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Grand Seiko Evolution 9 hi-beat titanium models are highly sought after in the current market, but this is irrelevant to the hunter's specific Shunbun request.). Final rating uses the more conservative of the two: High."
     },
     "all_in_price": 9997.0,
-    "discount": -0.05231578947368421,
+    "discount": -0.08663043478260869,
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784926685.2562923,
+    "created_at": 1784934553.289324,
     "analysis_depth": "quick"
   },
   {
@@ -9157,30 +9157,30 @@
     "watch_item_id": "shunbun",
     "analysis": {
       "matches_criteria": false,
-      "match_reasoning": "The hunter is looking for the Grand Seiko \"Shunbun\" limited edition, which is a specific named/reference model in the 24 Seasons/Spring Equinox series (typically SBGA413 is NOT the Shunbun - the actual Shunbun reference is SBGA407, part of a different limited series with a distinct textured \"shunbun\" dial motif). The listing title says \"Shunbun\" but the reference given, SBGA413, corresponds to a standard Spring Drive \"Snowflake\"-adjacent model (white/textured dial SBGA413 is actually a different limited release, not the officially named Shunbun). The dial pattern shown does not match the widely recognized Shunbun cherry-blossom/spring dial motif, and the reference number does not match the known Shunbun reference. This is a mismatch between title claim and actual reference, which is a red flag as well as a criteria failure.",
-      "estimated_value": 5800.0,
-      "confidence": 0.4,
-      "condition_summary": "Watch appears to be in excellent/mint cosmetic condition in the photo, well presented in what looks like an authentic Grand Seiko box; no visible scratches or wear on the bracelet or case in the single image provided.",
+      "match_reasoning": "The hunter is specifically looking for the Grand Seiko \"Shunbun\" (Shunbun no Kokochi, spring equinox limited edition). The listing title mentions \"Shunbun\" but the reference number SBGA413 and the dial shown (a textured/crystalline white dial resembling the standard SBGA211 \"Snowflake\" style dial with power reserve sub-dial at 8 o'clock and date at 3) do not match the actual Shunbun no Kokochi references (which are typically SBGA407/SBGA411 with distinctive cherry-blossom-inspired dial colors, e.g. pale pink/green). SBGA413 is not a recognized Shunbun reference - this appears to be a mislabeled or generic Spring Drive model (possibly a Snowflake-style SBGA4xx model) being marketed with the trendy \"Shunbun\" name to attract buyers searching for the limited edition.",
+      "estimated_value": 4200.0,
+      "confidence": 0.35,
+      "condition_summary": "Watch appears new/mint in its case box, stainless bracelet, textured dial, no visible wear on the case or bracelet in the single photo provided.",
       "authenticity_risk": "medium",
-      "authenticity_notes": "Title claims \"Shunbun\" but the stated reference SBGA413 does not correspond to the known official Shunbun limited edition reference - this mismatch between naming and reference number is a notable red flag, either an error or a misleading listing. No close-up of caseback, serial, or papers shown despite \"Full Set\" claim; only one box photo provided.",
-      "rarity_notes": "If this is genuinely a Shunbun limited edition, those are rare (limited production runs, highly sought by GS collectors). However, if it is actually just a standard SBGA413 (a more common, non-limited Spring Drive model), it is far more common and not rare at all.",
-      "demand_tier": "High",
-      "demand_reasoning": "Grand Seiko Spring Drive models have strong collector demand generally, and named limited editions like Shunbun command a premium; however, since the reference doesn't match the claimed limited edition, true demand depends on which model this actually is."
+      "authenticity_notes": "Reference number SBGA413 does not correspond to any known official Shunbun no Kokochi limited edition (those are typically SBGA407/411/etc. with specific dial colors tied to the spring theme). Using the \"Shunbun\" name for a possibly different/generic model is a red flag for mislabeling, whether intentional or a seller mistake. Only one photo shown (in case), no shots of caseback, papers, or box exterior despite \"Full Set\" claim - can't verify included accessories or serial numbers.",
+      "rarity_notes": "If this were genuinely the Shunbun no Kokochi limited edition, it would be quite rare (limited production, sought after in Japan and by GS collectors). However since the reference doesn't match known Shunbun references, this seems to be a standard/more common Spring Drive model, which is far less rare.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Grand Seiko Spring Drive models have solid collector demand, but without confirmed limited-edition status this specific reference sees only moderate, not high, demand relative to true named limited editions."
     },
-    "deal_score": -11,
+    "deal_score": -54,
     "liquidity": {
-      "rating": "High",
-      "comparable_count": 853,
+      "rating": "Medium",
+      "comparable_count": 852,
       "algorithmic_tier": "High",
-      "claude_tier": "High",
-      "reasoning": "Algorithmic signal: 853 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Grand Seiko Spring Drive models have strong collector demand generally, and named limited editions like Shunbun command a premium; however, since the reference doesn't match the claimed limited edition, true demand depends on which model this actually is.). Final rating uses the more conservative of the two: High."
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 852 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko Spring Drive models have solid collector demand, but without confirmed limited-edition status this specific reference sees only moderate, not high, demand relative to true named limited editions.). Final rating uses the more conservative of the two: Medium."
     },
     "all_in_price": 6450.0,
-    "discount": -0.11206896551724138,
+    "discount": -0.5357142857142857,
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784926696.37773,
+    "created_at": 1784934583.511023,
     "analysis_depth": "quick"
   },
   {
@@ -9219,30 +9219,30 @@
     "watch_item_id": "shunbun",
     "analysis": {
       "matches_criteria": false,
-      "match_reasoning": "Hunter specifically wants the Grand Seiko \"Shunbun\" (Spring Equinox) limited edition, typically a Spring Drive model with a distinctive seasonal dial. This listing is a 9F85-0AC0 Heritage Collection quartz model with a plain silver sunburst dial - a completely different reference and design, not the Shunbun edition.",
-      "estimated_value": 1600.0,
+      "match_reasoning": "The hunter is specifically seeking the Grand Seiko \"Shunbun\" (Spring Equinox) limited edition. This listing is a 9F85-0AC0 Heritage Collection quartz model with a plain silver/champagne sunburst dial - a standard production reference, not the Shunbun limited edition (which has a distinct textured dial inspired by cherry blossoms/spring equinox and different case markings). Different model entirely, so this is not a match despite being the same brand.",
+      "estimated_value": 2200.0,
       "confidence": 0.55,
-      "condition_summary": "Watch appears to be in excellent, well-kept condition based on the photo - clean dial, bracelet, and case with no visible scratches or damage.",
+      "condition_summary": "Watch appears to be in excellent, lightly worn condition based on the photo - clean dial, minimal case wear visible, bracelet looks intact with no obvious scratches.",
       "authenticity_risk": "low",
-      "authenticity_notes": "Photo appears to be an actual product photo (studio watch stand) rather than a stock image, dial text and lume plots look consistent with genuine 9F85 Heritage models. No box/papers shown, only a single angle provided, and no serial/case-back photos to verify authenticity - some limitation but no overt red flags.",
-      "rarity_notes": "The 9F85-0AC0 is a fairly common, mainstream Heritage Collection quartz reference, not rare. The Shunbun is a specific limited-edition Spring Drive release with seasonal dial art and is much harder to find; this listing does not match that rarity profile at all.",
+      "authenticity_notes": "Photo appears to be an actual product photo (not obviously stock), dial text and caseback engravings look consistent with genuine 9F quartz Grand Seiko Heritage models. No box/papers shown or mentioned, which is a minor gap but not necessarily a red flag for a used listing. No serial number visible to verify.",
+      "rarity_notes": "The 9F85-0AC0 is a fairly common Grand Seiko Heritage Collection quartz reference, not rare or limited. The Shunbun the hunter wants is a specific, harder-to-find limited edition with a unique dial design - this listing does not offer that.",
       "demand_tier": "Medium",
-      "demand_reasoning": "Grand Seiko as a brand has strong recognition and demand, but this particular quartz Heritage model is common and less sought after than the Spring Drive Shunbun limited edition the hunter is targeting."
+      "demand_reasoning": "Grand Seiko as a brand has strong recognition and demand, but this particular quartz Heritage reference is a common, mass-produced model rather than a sought-after limited edition, so demand/collector interest is moderate rather than high."
     },
-    "deal_score": -76,
+    "deal_score": -28,
     "liquidity": {
       "rating": "Medium",
       "comparable_count": 853,
       "algorithmic_tier": "High",
       "claude_tier": "Medium",
-      "reasoning": "Algorithmic signal: 853 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko as a brand has strong recognition and demand, but this particular quartz Heritage model is common and less sought after than the Spring Drive Shunbun limited edition the hunter is targeting.). Final rating uses the more conservative of the two: Medium."
+      "reasoning": "Algorithmic signal: 853 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko as a brand has strong recognition and demand, but this particular quartz Heritage reference is a common, mass-produced model rather than a sought-after limited edition, so demand/collector interest is moderate rather than high.). Final rating uses the more conservative of the two: Medium."
     },
     "all_in_price": 2817.7200000000003,
-    "discount": -0.7610750000000002,
+    "discount": -0.2807818181818183,
     "notified": false,
     "duplicate_of": "shunbun:ebay:v1|358837389584|0",
     "qa_history": [],
-    "created_at": 1784926705.1214023,
+    "created_at": 1784934642.150381,
     "analysis_depth": "quick"
   },
   {
@@ -9277,30 +9277,30 @@
     "watch_item_id": "shunbun",
     "analysis": {
       "matches_criteria": false,
-      "match_reasoning": "The hunter specifically wants the Grand Seiko \"Shunbun\" (Spring Equinox) limited edition. This listing is an SBGP013 Quartz model with a blue sunburst dial - a different, non-limited reference in the standard GS quartz lineup, not the Shunbun model.",
-      "estimated_value": 2200.0,
-      "confidence": 0.5,
-      "condition_summary": "Watch appears to be in good/very good condition from photo - clean dial, no visible scratches on crystal or case, bracelet looks intact; no box/papers shown.",
+      "match_reasoning": "The hunter is specifically seeking the Grand Seiko Shunbun (Shunbun no Kokochi, \"Spring Equinox\" limited edition). This listing is for the SGBP013, a standard blue-dial quartz Grand Seiko (part of the 9F quartz 'Heritage' collection), which is a different, non-limited model. Even though both are Grand Seiko, the specific named model does not match.",
+      "estimated_value": 2800.0,
+      "confidence": 0.55,
+      "condition_summary": "Watch appears to be in excellent, likely near-mint condition based on the photo - clean bracelet, sharp dial markers, no visible scratches, though only one photo is shown and no box/papers are pictured.",
       "authenticity_risk": "low",
-      "authenticity_notes": "Photo appears to be a genuine real-world shot (not stock), dial text and GS logo look consistent with authentic pieces. However, no caseback or serial shown, and no box/papers pictured, so full authentication isn't possible from this listing alone.",
-      "rarity_notes": "SBGP013 is a standard production quartz Grand Seiko, not a limited edition - readily available on secondary market, unlike the Shunbun which is a numbered seasonal limited edition.",
+      "authenticity_notes": "Dial, hands, and case details look consistent with genuine SGBP013 styling; no obvious red flags in the single photo, but only one image is provided (no caseback, box, or papers shown) and listing text is extremely sparse with no mention of accessories, serial, or provenance.",
+      "rarity_notes": "The SGBP013 is a fairly common production 9F quartz Grand Seiko (not limited), readily available on the secondary market - not rare. The Shunbun the hunter wants is a limited edition and considerably harder to find.",
       "demand_tier": "Medium",
-      "demand_reasoning": "Grand Seiko brand has strong recognition and demand, but this specific quartz reference is a common model rather than a sought-after limited edition, so demand/collector interest is more moderate than the Shunbun."
+      "demand_reasoning": "Grand Seiko as a brand has strong recognition and demand, but this specific quartz reference is a standard catalog piece rather than a sought-after limited edition, so demand is moderate rather than high."
     },
-    "deal_score": -50,
+    "deal_score": -18,
     "liquidity": {
       "rating": "Medium",
-      "comparable_count": 853,
+      "comparable_count": 852,
       "algorithmic_tier": "High",
       "claude_tier": "Medium",
-      "reasoning": "Algorithmic signal: 853 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko brand has strong recognition and demand, but this specific quartz reference is a common model rather than a sought-after limited edition, so demand/collector interest is more moderate than the Shunbun.). Final rating uses the more conservative of the two: Medium."
+      "reasoning": "Algorithmic signal: 852 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko as a brand has strong recognition and demand, but this specific quartz reference is a standard catalog piece rather than a sought-after limited edition, so demand is moderate rather than high.). Final rating uses the more conservative of the two: Medium."
     },
     "all_in_price": 3306.75,
-    "discount": -0.5030681818181818,
+    "discount": -0.18098214285714287,
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784926713.0057554,
+    "created_at": 1784934571.29029,
     "analysis_depth": "quick"
   },
   {
@@ -9368,7 +9368,7 @@
       "source": "ebay",
       "category": "watches",
       "title": "Grand Seiko Heritage UNWORN 11/2024 Pink Kirazuri Limited Ed. Spring Drive Watch",
-      "url": "https://www.ebay.com/itm/127184621811?_skw=Grand+Seiko+Shunbun&hash=item1d9ccb50f3:g:lS8AAOSwg-doDn~X&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGZcZur%2FJBBnL2hChoPBKg9YruB5c9G%2FxPq6ollGWUx2VCfwFLuE1J8opnL1rxcqEXSA7iZGP%2BWYsViEW8OAQV6fTE8enmgiIiJAbh4WfQsAenmF42Lh3AVTgFSN6dpc%2FbvpKGBiaS2vd%2FCWFnNxJ4rEZWcv2yMfiI%2Fezew3vBL63wKzF9NPvkcXY12HbqIDAGUiZo2BZ7dTEtJYj26uoRiLq9A2E3sxcIvc7C4GWXTWvfJ5L9wyOSgqlCXsIqzmok4YZ%2BgGjYIxcy0oAi1cNSdjAd3Tj%2BFhJrsMsfhonE0a3Q%3D%3D",
+      "url": "https://www.ebay.com/itm/127184621811?_skw=Grand+Seiko+Shunbun&hash=item1d9ccb50f3:g:lS8AAOSwg-doDn~X&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGZcZur%2FJBBnL2hChoPBKg9YruB5c9G%2FxPq6ollGWUx2VCfwFLuE1J8opnL1rxcqEXSA7iZGP%2BWYsViEW8OAQV6fTE8enmgiIiJAbh4WfQsAenmF42Lh3AVTgFSN6dpc%2FbvxAgYidEdogkRlWyBnVvsksbW7zrD3frjWgdW6RyBFhxo8JZylc4cMeubM7sewaUztLEouH3F29GoUgSsUVU3%2B9OQALevuII5iu48jVO%2Bn%2BNcyOGo7vgKv3%2B6bNY94MDInKzId9ljWUyEZUF%2FrLYhxDUChek32YYGtpCYnooUU3g%3D%3D",
       "price": 7995.0,
       "shipping_price": 19.95,
       "currency": "USD",
@@ -9394,30 +9394,30 @@
     "watch_item_id": "shunbun",
     "analysis": {
       "matches_criteria": false,
-      "match_reasoning": "The hunter is specifically seeking the Grand Seiko \"Shunbun\" (Spring Equinox, part of the 24 Seasons/Sekki collection). This listing is a different limited edition - the \"Pink Kirazuri\" Heritage Spring Drive model, which is a distinct reference with a different dial pattern/name and release. Same brand and Spring Drive movement family, but not the same named limited edition, so it does not match the strict model requirement.",
-      "estimated_value": 7500.0,
+      "match_reasoning": "The hunter is seeking the Grand Seiko \"Shunbun\" (Shunbun no Kokochi, spring equinox themed limited edition). This listing is a different Grand Seiko Heritage Spring Drive limited edition - the \"Pink Kirazuri\" model - a distinct reference/dial design, not the Shunbun. Even though both are GS Spring Drive limited editions with similar aesthetic (textured pink/salmon dial), they are different named limited editions, so this does not match the specific model requested.",
+      "estimated_value": 3800.0,
       "confidence": 0.5,
-      "condition_summary": "Watch is shown as unworn/new in its presentation box, with clean bracelet links and dial, consistent with the claimed 11/2024 purchase date; no visible wear in photo.",
+      "condition_summary": "Watch appears unworn, presented in its case box with plastic-free display, clean bracelet and dial with no visible scratches in photo. Photo shows crisp detail consistent with a genuine new/unworn piece.",
       "authenticity_risk": "low",
-      "authenticity_notes": "Photo appears to be a genuine real-world shot (not stock imagery), showing correct dial texture, GS logo placement, and Spring Drive power reserve sub-dial consistent with authentic Heritage Collection pieces. No box/papers shown in this single photo despite being implied by \"unworn\" claim - would want additional photos of papers, caseback, and full box set to fully confirm authenticity and completeness.",
-      "rarity_notes": "This is a limited edition \"Pink Kirazuri\" dial Heritage Spring Drive model, distinct from the Shunbun (Spring Equinox) reference the hunter wants. Both are limited runs from Grand Seiko's seasonal/artisanal dial series, but they are different models with different production numbers and dial finishing.",
+      "authenticity_notes": "Photo appears to be an actual seller photo (not a stock catalog image), showing realistic case wear/box environment, which is a good sign. No serial numbers or papers shown, so full authentication can't be confirmed from listing alone; would want to see case back, box/papers, and serial number close-ups before purchase.",
+      "rarity_notes": "This \"Pink Kirazuri\" Heritage Spring Drive limited edition is itself a limited/special dial release, but it is a separate limited edition from the Shunbun no Kokochi model the hunter is seeking. Shunbun editions are tied to the spring equinox theme with a specific dial texture/color and are distinct collector targets.",
       "demand_tier": "High",
-      "demand_reasoning": "Grand Seiko limited editions with special dials (Kirazuri, Shunbun, etc.) are highly sought after by collectors and tend to hold or appreciate in value, especially unworn examples."
+      "demand_reasoning": "Grand Seiko Spring Drive limited editions with textured dials have strong collector demand and brand recognition, but since this is not the specific Shunbun model requested, it doesn't serve the hunter's specific search despite general desirability."
     },
-    "deal_score": -7,
+    "deal_score": -111,
     "liquidity": {
       "rating": "High",
-      "comparable_count": 853,
+      "comparable_count": 852,
       "algorithmic_tier": "High",
       "claude_tier": "High",
-      "reasoning": "Algorithmic signal: 853 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Grand Seiko limited editions with special dials (Kirazuri, Shunbun, etc.) are highly sought after by collectors and tend to hold or appreciate in value, especially unworn examples.). Final rating uses the more conservative of the two: High."
+      "reasoning": "Algorithmic signal: 852 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Grand Seiko Spring Drive limited editions with textured dials have strong collector demand and brand recognition, but since this is not the specific Shunbun model requested, it doesn't serve the hunter's specific search despite general desirability.). Final rating uses the more conservative of the two: High."
     },
     "all_in_price": 8014.95,
-    "discount": -0.06865999999999997,
+    "discount": -1.1091973684210525,
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784926732.8733401,
+    "created_at": 1784934623.330689,
     "analysis_depth": "quick"
   },
   {
@@ -9427,7 +9427,7 @@
       "source": "ebay",
       "category": "watches",
       "title": "Grand Seiko Heritage Collection Ice Blue Titanium SBGH349 NEW with Box Papers",
-      "url": "https://www.ebay.com/itm/177384328482?_skw=Grand+Seiko+Shunbun&hash=item294cee0d22:g:GbcAAeSwzrlqApKC&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGaHEBF5ybBt0NHEvWSqEBGYuMNK5WlYulWt9gD%2FYVc1Q%2BV9QIGfrxDoouU1JHCg3FoXHzIVVn9V8ydZnHIA4%2BoI3d0i4siNqcW4i0mxjv1UqnmtjsSmTr0opmTjvTNRVuxSogYhzcDEAkqWsw2zAQtrbjdWgoLyyS3hzn54qfOyrz63oLWeu0EnQdwmXtEnASh92JSMAOG3X2qZ5nprOGhLBHtPiaZP2iiSdJsnuhFshDJSYgmdP0Zt7qQcPrFRJ9ob1WQ68zZI3WmjjFQey8RZ9mxvI3OWafIQMUgdBZ3bmg%3D%3D",
+      "url": "https://www.ebay.com/itm/177384328482?_skw=Grand+Seiko+Shunbun&hash=item294cee0d22:g:GbcAAeSwzrlqApKC&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGaHEBF5ybBt0NHEvWSqEBGYuMNK5WlYulWt9gD%2FYVc1Q%2BV9QIGfrxDoouU1JHCg3FoXHzIVVn9V8ydZnHIA4%2BoI3d0i4siNqcW4i0mxjv1UqnmtjsSmTr0opmTjvTNRVux%2FYJ5mQRyDBr8DZcIDmn82mraljLVjKJJ0jtYjFRxeyH1V5%2FpMzR7BCR10xXWecEcHkuYc0REQEd1x9t7AT0lZZHx33SoslEpiMz%2BjpBzONtluOZ6YtNnVy1UeFHxgFpT%2FjK8WgjFEdrYkb6zf0X69dTj9m0FsIdc%2Fc3Z7kQxl3w%3D%3D",
       "price": 6850.0,
       "shipping_price": 0.0,
       "currency": "USD",
@@ -9449,30 +9449,30 @@
     "watch_item_id": "shunbun",
     "analysis": {
       "matches_criteria": false,
-      "match_reasoning": "The hunter specifically wants the Grand Seiko Shunbun (Spring Equinox) limited edition. This listing is for the SBGH349 Ice Blue Hi-Beat 36000, a different model entirely from the Heritage Collection, not the Shunbun reference. Being the same brand does not satisfy the specific model requirement.",
+      "match_reasoning": "The hunter is specifically seeking the Grand Seiko \"Shunbun\" (spring equinox limited edition). This listing is for the SBGH349 \"Ice Blue\" Heritage Collection Hi-Beat model, a different reference and different limited edition line entirely. Same brand but not the named model, so it does not match.",
       "estimated_value": 6800.0,
-      "confidence": 0.55,
-      "condition_summary": "Listed as new with box and papers; stock-style product photo shows no visible wear, consistent with a new watch, but only one image provided.",
+      "confidence": 0.6,
+      "condition_summary": "Listed as new with box and papers; photo shows a pristine, unworn-looking watch consistent with new condition, though it appears to be a stock/studio-style promotional image rather than a personal photo of the actual item in hand.",
       "authenticity_risk": "low",
-      "authenticity_notes": "Photo appears to be a professional/stock-style image rather than an actual photo of the seller's specific unit, so box/papers are only claimed in text, not visually confirmed. No serial number or additional angles shown, which is a minor red flag for a $6,850 item, though price is in line with market for this reference.",
-      "rarity_notes": "SBGH349 is a well-known, relatively available Hi-Beat 36000 reference within the Heritage Collection, not rare or limited like the Shunbun.",
+      "authenticity_notes": "No obvious red flags in text, and price is roughly in line with market for SBGH349 (which often sells $6,500-7,500 new). However, the image looks like a generic/stock catalog photo rather than an actual photo of the seller's specific unit, so box/papers/serial cannot be verified visually - worth requesting actual photos of the item, box, and papers before purchase.",
+      "rarity_notes": "SBGH349 is a well-known, relatively available Hi-Beat 36000 Heritage model (not a limited numbered edition like Shunbun), so it is not rare in the way the hunter's target piece is.",
       "demand_tier": "Medium",
-      "demand_reasoning": "Grand Seiko has strong brand recognition and the Ice Blue dial Hi-Beat models are popular, but this is not the specific limited-edition Shunbun the hunter is targeting."
+      "demand_reasoning": "Grand Seiko Hi-Beat models have solid collector demand, but this is a different, more commonly available reference than the specifically sought-after Shunbun limited edition, which carries higher rarity-driven demand."
     },
     "deal_score": -1,
     "liquidity": {
       "rating": "Medium",
-      "comparable_count": 853,
+      "comparable_count": 852,
       "algorithmic_tier": "High",
       "claude_tier": "Medium",
-      "reasoning": "Algorithmic signal: 853 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko has strong brand recognition and the Ice Blue dial Hi-Beat models are popular, but this is not the specific limited-edition Shunbun the hunter is targeting.). Final rating uses the more conservative of the two: Medium."
+      "reasoning": "Algorithmic signal: 852 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko Hi-Beat models have solid collector demand, but this is a different, more commonly available reference than the specifically sought-after Shunbun limited edition, which carries higher rarity-driven demand.). Final rating uses the more conservative of the two: Medium."
     },
     "all_in_price": 6850.0,
     "discount": -0.007352941176470588,
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784926740.314756,
+    "created_at": 1784934631.6005394,
     "analysis_depth": "quick"
   },
   {
@@ -9519,30 +9519,30 @@
     "watch_item_id": "shunbun",
     "analysis": {
       "matches_criteria": false,
-      "match_reasoning": "The hunter is seeking the specific Grand Seiko \"Shunbun\" (Spring Equinox) limited edition. This listing is a standard Grand Seiko 9F82 quartz model with a blue dial, not the Shunbun reference. Different model within the same brand does not satisfy a named limited-edition search.",
-      "estimated_value": 2700.0,
-      "confidence": 0.4,
-      "condition_summary": "Watch appears new/like-new in box with full packaging shown; no visible wear in photo, but only one angle provided.",
+      "match_reasoning": "The hunter specifically wants the Grand Seiko Shunbun (Shunbun no Kokochi, spring equinox limited edition). This listing is for a standard Grand Seiko 9F82-0AF0 quartz model with a blue dial - a different, non-limited reference with no indication it is the Shunbun edition. Different model from the same brand does not count as a match.",
+      "estimated_value": 2600.0,
+      "confidence": 0.55,
+      "condition_summary": "Watch appears new/unworn in box with full packaging shown in photo; no visible wear on case or bracelet in the image provided.",
       "authenticity_risk": "low",
-      "authenticity_notes": "Box, case, and dial branding look consistent with genuine Grand Seiko packaging; no obvious red flags, though only one photo is provided and no close-up of caseback/serial or papers.",
-      "rarity_notes": "The 9F82 blue-dial Grand Seiko is a fairly common quartz model, not rare. The Shunbun limited edition (part of the 24 Seasons collection) is a distinct, much rarer, and more collectible reference not represented here.",
+      "authenticity_notes": "Box, lion logo, and watch styling are consistent with genuine Grand Seiko packaging; no red flags in the photo, though only one dial angle is shown and no caseback or papers/warranty card are visible to confirm reference match.",
+      "rarity_notes": "The 9F82-0AF0 is a standard production quartz Grand Seiko reference, not rare. This is unrelated to the Shunbun no Kokochi limited edition, which is a distinct seasonal/limited release with different dial art and reference number.",
       "demand_tier": "Medium",
-      "demand_reasoning": "Grand Seiko has strong brand recognition, but this particular 9F82 quartz reference is a mainstream model with moderate demand, not the sought-after limited edition."
+      "demand_reasoning": "Grand Seiko quartz 9F models have solid but not extreme demand; the brand is well recognized, but this reference is common and not the specifically sought-after limited edition."
     },
-    "deal_score": 0,
+    "deal_score": -4,
     "liquidity": {
       "rating": "Medium",
-      "comparable_count": 853,
+      "comparable_count": 852,
       "algorithmic_tier": "High",
       "claude_tier": "Medium",
-      "reasoning": "Algorithmic signal: 853 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko has strong brand recognition, but this particular 9F82 quartz reference is a mainstream model with moderate demand, not the sought-after limited edition.). Final rating uses the more conservative of the two: Medium."
+      "reasoning": "Algorithmic signal: 852 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko quartz 9F models have solid but not extreme demand; the brand is well recognized, but this reference is common and not the specifically sought-after limited edition.). Final rating uses the more conservative of the two: Medium."
     },
     "all_in_price": 2705.55,
-    "discount": -0.002055555555555623,
+    "discount": -0.040596153846153914,
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784926747.405119,
+    "created_at": 1784934603.446494,
     "analysis_depth": "quick"
   },
   {
@@ -9580,30 +9580,30 @@
     "watch_item_id": "shunbun",
     "analysis": {
       "matches_criteria": true,
-      "match_reasoning": "The listing is explicitly for the Grand Seiko SBGA443 'Shunbun' (Spring Equinox) Spring Drive, matching the hunter's exact named model.",
-      "estimated_value": 6100.0,
+      "match_reasoning": "The hunter specifically wants the Grand Seiko Shunbun (Spring Equinox) limited edition. This listing is explicitly titled and appears to depict the SBGA443 Shunbun Spring Drive model, matching the named reference.",
+      "estimated_value": 6300.0,
       "confidence": 0.55,
-      "condition_summary": "Watch appears new or like-new in its presentation box, with a textured cherry-blossom/snowflake-style dial and bracelet showing no visible scratches in the photo; no wear noted in text.",
+      "condition_summary": "Watch appears to be in excellent, likely lightly worn or near-new condition based on the photo, presented in its box with no visible scratches on case or bracelet.",
       "authenticity_risk": "low",
-      "authenticity_notes": "Photo shows a genuine-looking GS dial, case, crown, and bracelet consistent with the SBGA443 reference; however, listing text is minimal (no mention of box/papers contents, serial number, purchase history, or full accessory list), and only one photo is provided, so full authentication (caseback, papers, serial) cannot be confirmed from this listing alone.",
-      "rarity_notes": "The Shunbun (Spring Equinox) is part of Grand Seiko's limited '24 Seasons' series tied to the SBGA411 Shunbun lineage; SBGA443 specifically is a limited/special dial variant, making it a sought-after and relatively scarce reference among GS collectors.",
+      "authenticity_notes": "Dial pattern, GS logo, Spring Drive sub-dial power reserve indicator, and case shape are consistent with genuine SBGA443. However, only one photo is provided, no caseback, papers, or serial number shown, and no full accessory/box set confirmed in text - buyer should request additional photos (caseback, papers, full box set) before purchase.",
+      "rarity_notes": "The Shunbun (Spring Equinox) SBGA443 is a limited production Spring Drive model with a textured dial referencing seasonal themes; it's moderately hard to find on the secondary market compared to standard Spring Drive Seiko models but not as scarce as ultra-limited GS pieces.",
       "demand_tier": "High",
-      "demand_reasoning": "Grand Seiko Spring Drive limited editions with seasonal textured dials are highly desired by collectors, and this specific 'Shunbun' reference has strong recognition and demand in the GS community."
+      "demand_reasoning": "Grand Seiko Spring Drive limited editions with unique dial textures are highly sought after by collectors, and the Shunbun's seasonal theme adds desirability among GS enthusiasts."
     },
-    "deal_score": -1,
+    "deal_score": 2,
     "liquidity": {
       "rating": "High",
-      "comparable_count": 853,
+      "comparable_count": 852,
       "algorithmic_tier": "High",
       "claude_tier": "High",
-      "reasoning": "Algorithmic signal: 853 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Grand Seiko Spring Drive limited editions with seasonal textured dials are highly desired by collectors, and this specific 'Shunbun' reference has strong recognition and demand in the GS community.). Final rating uses the more conservative of the two: High."
+      "reasoning": "Algorithmic signal: 852 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Grand Seiko Spring Drive limited editions with unique dial textures are highly sought after by collectors, and the Shunbun's seasonal theme adds desirability among GS enthusiasts.). Final rating uses the more conservative of the two: High."
     },
     "all_in_price": 6149.99,
-    "discount": -0.008195081967213079,
+    "discount": 0.023811111111111147,
     "notified": false,
     "duplicate_of": "shunbun:ebay:v1|127970429854|0",
     "qa_history": [],
-    "created_at": 1784926757.0410383,
+    "created_at": 1784934640.6152864,
     "analysis_depth": "quick"
   },
   {
@@ -9644,30 +9644,30 @@
     "watch_item_id": "shunbun",
     "analysis": {
       "matches_criteria": false,
-      "match_reasoning": "Hunter specifically wants the Grand Seiko \"Shunbun\" (Spring Equinox) limited edition, likely an SBGA-series Spring Drive model. This listing is an SBGS003 9587-8000, a vintage quartz Grand Seiko from a completely different era/model line with no relation to the Shunbun 24 Seasons collection. Different model entirely, so it does not match.",
-      "estimated_value": 1000.0,
-      "confidence": 0.5,
-      "condition_summary": "Appears to be a used vintage quartz Grand Seiko (9587-8000 movement) with a plain cream dial, steel bracelet; photo shows generally clean dial and case with light wear typical of age, no box/papers shown.",
+      "match_reasoning": "The hunter specifically wants the Grand Seiko Shunbun (Shunbun no Kokochi, spring equinox limited edition). This listing is a Grand Seiko SBGS003 (9587-8000 quartz caliber), a completely different, non-limited standard model with no relation to the Shunbun line. Same brand but wrong model, so it does not match.",
+      "estimated_value": 900.0,
+      "confidence": 0.55,
+      "condition_summary": "Watch appears in good, clean condition with a crisp cream dial, minimal visible scratches on case/bracelet, and standard signs of light handling; no box/papers shown.",
       "authenticity_risk": "low",
-      "authenticity_notes": "Dial, case shape, and bracelet style are consistent with genuine 1990s Grand Seiko quartz models; no obvious red flags like mismatched fonts or crooked text. However, only one photo provided and no case-back or serial verification shown, so authenticity can't be fully confirmed.",
-      "rarity_notes": "This is not the Shunbun limited edition; it's a fairly common vintage Grand Seiko quartz reference (SBGS003), not particularly rare but distinct from the requested model.",
+      "authenticity_notes": "Dial text, caliber markings, and bracelet style look consistent with genuine 9587 quartz Grand Seiko models from that era; no obvious red flags, though only one photo angle is shown and no caseback/movement shot or papers to fully verify.",
+      "rarity_notes": "SBGS003 is an older quartz Grand Seiko model, moderately available on secondary market but not a limited edition; the Shunbun no Kokochi is a distinct, much rarer limited-edition release entirely separate from this reference.",
       "demand_tier": "Medium",
-      "demand_reasoning": "Grand Seiko as a brand has strong collector recognition, but this specific vintage quartz reference has more niche/limited demand compared to modern mechanical or Spring Drive models like the Shunbun."
+      "demand_reasoning": "Grand Seiko as a brand has strong collector demand, but this specific quartz reference is a lower-tier, non-limited model with more modest interest compared to mechanical or limited-edition Grand Seikos like the Shunbun."
     },
-    "deal_score": -8,
+    "deal_score": -20,
     "liquidity": {
       "rating": "Medium",
-      "comparable_count": 853,
+      "comparable_count": 852,
       "algorithmic_tier": "High",
       "claude_tier": "Medium",
-      "reasoning": "Algorithmic signal: 853 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko as a brand has strong collector recognition, but this specific vintage quartz reference has more niche/limited demand compared to modern mechanical or Spring Drive models like the Shunbun.). Final rating uses the more conservative of the two: Medium."
+      "reasoning": "Algorithmic signal: 852 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko as a brand has strong collector demand, but this specific quartz reference is a lower-tier, non-limited model with more modest interest compared to mechanical or limited-edition Grand Seikos like the Shunbun.). Final rating uses the more conservative of the two: Medium."
     },
     "all_in_price": 1075.68,
-    "discount": -0.07568000000000007,
+    "discount": -0.19520000000000007,
     "notified": false,
     "duplicate_of": null,
     "qa_history": [],
-    "created_at": 1784926765.9199982,
+    "created_at": 1784934650.8543425,
     "analysis_depth": "quick"
   },
   {
@@ -9844,6 +9844,67 @@
     "duplicate_of": "Omega Constellation:ebay:v1|327271833675|0",
     "qa_history": [],
     "created_at": 1784934423.3627691,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "Omega Constellation:ebay:v1|127992777352|0",
+    "listing": {
+      "id": "ebay:v1|127992777352|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Omega Constellation Ref. 168.017 Case #539",
+      "url": "https://www.ebay.com/itm/127992777352?_skw=Omega+Constellation&hash=item1dccf6ca88:g:HdwAAeSw2JtqY-7s",
+      "price": 1099.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/HdwAAeSw2JtqY-7s/s-l225.jpg",
+      "image_urls": [
+        "https://i.ebayimg.com/images/g/HdwAAeSw2JtqY-7s/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/~FQAAeSwtxVqY-7r/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/tJwAAeSwxUxqY-7r/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/MikAAeSw-ABqY-7s/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/TcIAAeSwSFFqY-7r/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/1r8AAeSwQ7dqY-7r/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/ARQAAeSwe4RqY-7r/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/WSwAAeSwxLNqY-7s/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/mGgAAeSwxhdqY-7s/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/ym0AAeSwBFtqY-7s/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/tVMAAeSwUFpqY-7s/s-l1600.jpg"
+      ],
+      "body": "Omega Constellation Ref. 168.017 Case #539",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "Omega Constellation",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Hunter's criteria was generic (Omega Constellation, no specific reference required), and this listing is a genuine Omega Constellation model (ref. 168.017), so it matches.",
+      "estimated_value": 1100.0,
+      "confidence": 0.55,
+      "condition_summary": "Vintage steel Constellation with pie-pan-style dial, applied indices, and date window looks clean with good luster on dial and hands; case shows typical light wear from photo, on an aftermarket black leather strap. No visible dents or major dial damage, but photo is only single close-up shot of the front.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only one photo is shown (front dial view), with no images of caseback, movement, or hallmarks to confirm case/movement serial matching the stated \"Case #539\" or reference 168.017. No box/papers shown or mentioned. Price is reasonable for the model, not suspiciously low, but lack of verifying photos (serial numbers, caseback engravings, movement) is a gap for a $1,099 vintage watch purchase - recommend requesting additional photos before buying.",
+      "rarity_notes": "Ref. 168.017 is a fairly common vintage Constellation reference from the late 1960s/early 1970s (steel automatic chronometer with date), not a rare or limited variant, but generally desirable among vintage Omega collectors.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Omega Constellation is a recognized and respected vintage line with steady collector demand, though this particular reference is common enough that it doesn't command premium pricing like rarer Constellation variants (e.g., pie-pan with observatory case backs)."
+    },
+    "deal_score": 0,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 7316,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 7316 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Omega Constellation is a recognized and respected vintage line with steady collector demand, though this particular reference is common enough that it doesn't command premium pricing like rarer Constellation variants (e.g., pie-pan with observatory case backs).). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 1099.0,
+    "discount": 0.0009090909090909091,
+    "notified": false,
+    "duplicate_of": null,
+    "qa_history": [],
+    "created_at": 1784934534.6206,
     "analysis_depth": "quick"
   }
 ]
