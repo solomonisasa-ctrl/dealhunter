@@ -2712,5 +2712,51 @@
     "notified": false,
     "duplicate_of": "gs-shunbun:ebay:v1|176013474678|0",
     "created_at": 1784880072.9419408
+  },
+  {
+    "id": "gs-shunbun:ebay:v1|147441690696|0",
+    "listing": {
+      "id": "ebay:v1|147441690696|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Grand Seiko Heritage Collection Master Shop Limited Quartz SBGP001 second ha...",
+      "url": "https://www.ebay.com/itm/147441690696?_skw=Grand+Seiko+Shunbun+Grand+Seiko+Shunbun+Spring+Equinox+GS+Shunbun+limited+edition+Grand+Seiko+Shunbun+box+papers+Shunbun+Grand+Seiko+watch&hash=item225435a848:g:a9oAAeSw9ABqXym8",
+      "price": 2598.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/a9oAAeSw9ABqXym8/s-l225.jpg",
+      "body": "Grand Seiko Heritage Collection Master Shop Limited Quartz SBGP001 second ha...",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "gs-shunbun",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "This listing is for the Grand Seiko Heritage Collection Master Shop Limited Quartz SBGP001, not the Shunbun (Spring Equinox) limited edition the hunter is seeking. Different model/reference entirely, and there's no mention of box and papers being included.",
+      "estimated_value": 2400.0,
+      "confidence": 0.3,
+      "condition_summary": "Photo shows a standard silver-dial GS quartz bracelet watch with no visible major wear, but it's a plain stock-style product shot with no box/papers, case-back, or close-up condition detail shown.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Listing title is truncated/garbled ('second ha...'), lacks reference to box/papers, and the photo appears to be a generic catalog-style image rather than an actual photo of the specific watch being sold - a common red flag. No serial/case-back or accessory photos provided.",
+      "rarity_notes": "SBGP001 is a Master Shop limited edition quartz model, different from the Shunbun (Spring Equinox) limited edition; not the item being hunted, so rarity of Shunbun itself cannot be assessed from this listing.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Grand Seiko has strong general brand recognition, but this specific Master Shop limited quartz model has a narrower niche audience compared to the more sought-after Shunbun spring/autumn equinox limited editions."
+    },
+    "deal_score": 48,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 105,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 105 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko has strong general brand recognition, but this specific Master Shop limited quartz model has a narrower niche audience compared to the more sought-after Shunbun spring/autumn equinox limited editions.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 2598.0,
+    "discount": -0.0825,
+    "notified": false,
+    "duplicate_of": null,
+    "created_at": 1784916387.1377733
   }
 ]
