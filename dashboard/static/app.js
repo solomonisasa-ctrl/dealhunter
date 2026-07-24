@@ -170,7 +170,7 @@ function renderFeed() {
         <div class="card-title">${escapeHtml(f.listing.title)}</div>
         <div class="card-price">${fmtPrice(f.all_in_price)}</div>
         <div class="badge-row">
-          <span class="badge ${scoreBadgeClass(scoreColor(f.deal_score))}">${f.deal_score}/100</span>
+          <span class="badge ${scoreBadgeClass(scoreColor(f.deal_score))}">${dealLabel(f.deal_score)}</span>
           <span class="badge badge-liquidity">${f.liquidity.rating} liquidity</span>
           ${duplicateBadge}
         </div>
@@ -182,9 +182,15 @@ function renderFeed() {
 }
 
 function scoreColor(score) {
-  if (score >= 80) return "green";
-  if (score >= 50) return "yellow";
+  // deal_score is a plain percent under/over market value, not an abstract
+  // 0-100 scale - these bands are percent thresholds.
+  if (score >= 30) return "green";
+  if (score >= 10) return "yellow";
   return "red";
+}
+
+function dealLabel(score) {
+  return score >= 0 ? `${score}% under market` : `${Math.abs(score)}% over market`;
 }
 
 function escapeHtml(s) {
@@ -227,7 +233,7 @@ async function openDetail(findingId) {
   content.innerHTML = `
     <div class="detail-title">${escapeHtml(f.listing.title)}</div>
     <div class="detail-price">${fmtPrice(f.all_in_price)}
-      <span class="badge ${scoreBadgeClass(scoreColor(f.deal_score))}">${f.deal_score}/100</span>
+      <span class="badge ${scoreBadgeClass(scoreColor(f.deal_score))}">${dealLabel(f.deal_score)}</span>
       <span class="badge badge-liquidity">${f.liquidity.rating} liquidity</span>
     </div>
     ${duplicateNote}
@@ -238,8 +244,8 @@ async function openDetail(findingId) {
     </div>
     <div class="detail-section">
       <h4>Valuation</h4>
-      <p>Estimated value: ${fmtPrice(f.analysis.estimated_value)} (confidence ${(f.analysis.confidence * 100).toFixed(0)}%)<br>
-      ${f.discount !== null ? `Discount vs. estimated value: ${(f.discount * 100).toFixed(0)}%` : "Discount: n/a"}</p>
+      <p>Estimated value: ${fmtPrice(f.analysis.estimated_value)} (Claude's confidence: ${(f.analysis.confidence * 100).toFixed(0)}%)<br>
+      ${f.discount !== null ? `Price vs. estimated value: ${dealLabel(Math.round(f.discount * 100))}` : "Discount: n/a"}</p>
     </div>
     <div class="detail-section">
       <h4>Condition</h4>
@@ -355,7 +361,7 @@ function renderWatchlist() {
         <strong>${escapeHtml(item.id)}</strong> <span class="badge badge-liquidity">${escapeHtml(item.category)}</span>
         <div class="watch-item-desc">${escapeHtml(item.description)}</div>
         <div class="watch-item-meta">
-          <span>Discount threshold: ${(item.discount_threshold * 100).toFixed(0)}%</span>
+          <span>Discount threshold: ${item.discount_threshold !== null && item.discount_threshold !== undefined ? (item.discount_threshold * 100).toFixed(0) + "%" : "none - any match"}</span>
           <span>Lookback: ${item.lookback_days}d</span>
           <span>${item.enabled ? "Enabled" : "Disabled"}</span>
         </div>
@@ -378,7 +384,7 @@ function renderWatchlist() {
 function openEdit(itemId) {
   const item = itemId
     ? state.watchlist.find((i) => i.id === itemId)
-    : { id: "", category: Object.keys(state.categories)[0] || "watches", description: "", discount_threshold: 0.3, lookback_days: 30, enabled: true, parsed_criteria: null };
+    : { id: "", category: Object.keys(state.categories)[0] || "watches", description: "", discount_threshold: null, lookback_days: 30, enabled: true, parsed_criteria: null };
 
   const categoryOptions = Object.keys(state.categories)
     .map((c) => `<option value="${c}" ${c === item.category ? "selected" : ""}>${c}</option>`)
@@ -401,8 +407,8 @@ function openEdit(itemId) {
       </div>
       <div class="field-row">
         <div>
-          <label>Discount threshold (%)</label>
-          <input name="discount_threshold" type="number" min="0" max="100" step="1" value="${item.discount_threshold * 100}" />
+          <label>Discount threshold (%) - optional, leave blank for any match</label>
+          <input name="discount_threshold" type="number" min="0" max="100" step="1" value="${item.discount_threshold !== null && item.discount_threshold !== undefined ? item.discount_threshold * 100 : ""}" placeholder="any" />
         </div>
         <div>
           <label>Lookback (days)</label>
@@ -424,11 +430,12 @@ function openEdit(itemId) {
   document.getElementById("edit-form").addEventListener("submit", async (e) => {
     e.preventDefault();
     const form = new FormData(e.target);
+    const rawThreshold = form.get("discount_threshold").trim();
     const payload = {
       id: form.get("id").trim(),
       category: form.get("category"),
       description: form.get("description").trim(),
-      discount_threshold: Number(form.get("discount_threshold")) / 100,
+      discount_threshold: rawThreshold === "" ? null : Number(rawThreshold) / 100,
       lookback_days: Number(form.get("lookback_days")),
       enabled: form.get("enabled") === "on",
       // Changing the description invalidates any previously-parsed criteria

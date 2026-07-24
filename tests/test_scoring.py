@@ -34,32 +34,32 @@ def test_discount_basic_math():
     assert compute_discount(700.0, 1000.0) == 0.3
 
 
-def test_deal_score_neutral_at_zero_discount_full_confidence():
+def test_deal_score_is_zero_at_zero_discount():
     analysis = make_analysis(estimated_value=1000.0, confidence=1.0)
     score, discount = compute_deal_score(1000.0, analysis)
     assert discount == 0.0
-    assert score == 50
+    assert score == 0
 
 
-def test_deal_score_high_for_big_discount_full_confidence():
+def test_deal_score_equals_discount_percent():
     analysis = make_analysis(estimated_value=1000.0, confidence=1.0)
     score, discount = compute_deal_score(600.0, analysis)  # 40% under value
     assert discount == 0.4
-    assert score == 90
+    assert score == 40
 
 
-def test_deal_score_low_confidence_pulls_toward_neutral():
+def test_deal_score_ignores_confidence():
     analysis = make_analysis(estimated_value=1000.0, confidence=0.1)
     score, _ = compute_deal_score(600.0, analysis)  # same 40% discount, low confidence
-    # base would be 90; with confidence=0.1, score = 50 + (90-50)*0.1 = 54
-    assert score == 54
+    # confidence no longer dampens the score - it's shown separately in the UI as context.
+    assert score == 40
 
 
-def test_deal_score_overpriced_goes_below_neutral():
+def test_deal_score_overpriced_goes_negative():
     analysis = make_analysis(estimated_value=1000.0, confidence=1.0)
     score, discount = compute_deal_score(1500.0, analysis)  # 50% over value
     assert discount == -0.5
-    assert score == 0
+    assert score == -50
 
 
 def test_deal_score_none_without_valuation():
@@ -114,3 +114,13 @@ def test_qualifies_for_notification_requires_match_and_threshold():
 
     non_match = make_analysis(matches_criteria=False)
     assert qualifies_for_notification(non_match, 0.9, 0.30) is False
+
+
+def test_qualifies_for_notification_no_threshold_means_any_match_qualifies():
+    analysis = make_analysis(matches_criteria=True)
+    assert qualifies_for_notification(analysis, 0.35, None) is True
+    assert qualifies_for_notification(analysis, -0.5, None) is True  # even overpriced
+    assert qualifies_for_notification(analysis, None, None) is True  # even no valuation
+
+    non_match = make_analysis(matches_criteria=False)
+    assert qualifies_for_notification(non_match, 0.9, None) is False

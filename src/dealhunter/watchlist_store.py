@@ -19,7 +19,9 @@ _HEADER_COMMENT = """\
 #                            extract structured search criteria - no fixed
 #                            keyword lists.
 #   discount_threshold     - minimum (estimated_value - price) / estimated_value
-#                            required to trigger a notification. Default 0.30.
+#                            required to trigger a notification. Optional -
+#                            leave blank/null to notify on any match
+#                            regardless of price vs. market value.
 #   lookback_days            - how far back to look for liquidity comps and how
 #                              long dedupe/sold-state is retained. Default 30.
 #   enabled                    - set to false to pause a hunt without deleting it.

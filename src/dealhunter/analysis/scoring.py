@@ -28,32 +28,28 @@ def compute_deal_score(
     all_in_price: float | None,
     analysis: AnalysisResult,
 ) -> tuple[int, float | None]:
-    """Returns (deal_score 0-100, discount fraction or None).
+    """Returns (deal_score, discount fraction or None).
 
-    base = 50 + discount*100, clamped to [0, 100] - 0% discount sits at
-    neutral (50), every 1% under value moves the score 1 point toward 100
-    (and overpriced listings move below 50 the same way).
+    deal_score is simply the discount expressed as a percent: 35% under
+    estimated value scores 35, 10% over market scores -10. No confidence
+    dampening - Claude's confidence is shown alongside the score in the UI
+    as context, not baked into the number itself, so the score always means
+    exactly what it says.
 
-    confidence dampens the score toward neutral: a low-confidence valuation
-    can't swing the score to an extreme, because we don't trust it enough to.
-
-    A high authenticity risk caps the score outright, regardless of price -
-    a steep discount on a probably-fake item is not a good deal.
+    A high or medium authenticity risk caps the score outright, regardless
+    of price - a steep discount on a probably-fake item is not a good deal.
     """
     discount = compute_discount(all_in_price, analysis.estimated_value)
     if discount is None:
         return 0, None
 
-    confidence = max(0.0, min(1.0, analysis.confidence))
-    base = max(0.0, min(100.0, 50 + discount * 100))
-    score = 50 + (base - 50) * confidence
-    score = max(0, min(100, round(score)))
+    score = round(discount * 100)
 
     cap = _AUTHENTICITY_RISK_CAP.get(analysis.authenticity_risk)
     if cap is not None:
         score = min(score, cap)
 
-    return int(score), discount
+    return score, discount
 
 
 def compute_liquidity(
@@ -95,10 +91,13 @@ def compute_liquidity(
 def qualifies_for_notification(
     analysis: AnalysisResult,
     discount: float | None,
-    discount_threshold: float,
+    discount_threshold: float | None,
 ) -> bool:
     if not analysis.matches_criteria:
         return False
+    if discount_threshold is None:
+        # No minimum discount configured for this hunt - any match qualifies.
+        return True
     if discount is None:
         return False
     return discount >= discount_threshold

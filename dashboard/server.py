@@ -78,6 +78,8 @@ def api_findings(watch_item_id: str | None = None, sort: str = "date", show_all:
         findings = [f for f in findings if f.watch_item_id == watch_item_id]
     if sort == "score":
         findings.sort(key=lambda f: f.deal_score, reverse=True)
+    elif sort == "price":
+        findings.sort(key=lambda f: (f.all_in_price is None, f.all_in_price))
     else:
         findings.sort(key=lambda f: f.created_at, reverse=True)
     return [f.model_dump(mode="json") for f in findings]

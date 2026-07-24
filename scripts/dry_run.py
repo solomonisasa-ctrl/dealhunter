@@ -75,7 +75,7 @@ def main() -> int:
         finding = score_listing(client, settings.anthropic_model, listing, watch_item, comparable_count)
 
         print(f"  Price (all-in): ${finding.all_in_price:,.2f}" if finding.all_in_price else "  Price: n/a")
-        print(f"  Deal score: {finding.deal_score}/100 ({finding.score_color})")
+        print(f"  Deal: {finding.deal_label} ({finding.score_color})")
         print(f"  Discount: {finding.discount * 100:.0f}%" if finding.discount is not None else "  Discount: n/a")
         print(f"  Liquidity: {finding.liquidity.rating.value} - {finding.liquidity.reasoning}")
         print(f"  Matches criteria: {finding.analysis.matches_criteria} - {finding.analysis.match_reasoning}")

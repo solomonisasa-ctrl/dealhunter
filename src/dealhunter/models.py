@@ -35,7 +35,9 @@ class WatchItem(BaseModel):
     id: str
     category: str
     description: str
-    discount_threshold: float = 0.30
+    # None = no minimum discount required to notify/show - any listing that
+    # matches the description qualifies regardless of price vs. market value.
+    discount_threshold: Optional[float] = None
     lookback_days: int = 30
     enabled: bool = True
     parsed_criteria: Optional[dict[str, Any]] = None
@@ -115,11 +117,20 @@ class Finding(BaseModel):
 
     @property
     def score_color(self) -> str:
-        if self.deal_score >= 80:
+        # deal_score is a plain percent under/over market value (see
+        # analysis/scoring.compute_deal_score), so these bands are percent
+        # thresholds, not an abstract 0-100 scale.
+        if self.deal_score >= 30:
             return "green"
-        if self.deal_score >= 50:
+        if self.deal_score >= 10:
             return "yellow"
         return "red"
+
+    @property
+    def deal_label(self) -> str:
+        if self.deal_score >= 0:
+            return f"{self.deal_score}% under market"
+        return f"{-self.deal_score}% over market"
 
 
 class SourceHealth(BaseModel):

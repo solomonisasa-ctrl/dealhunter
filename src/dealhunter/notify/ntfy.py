@@ -43,17 +43,16 @@ def send_deal_alert(settings: Settings, finding: Finding) -> None:
     value_str = (
         f"${finding.analysis.estimated_value:,.2f}" if finding.analysis.estimated_value else "n/a"
     )
-    discount_str = f"{finding.discount * 100:.0f}% under est. value" if finding.discount else ""
     message = (
-        f"Deal score: {finding.deal_score}/100 ({color}) | Liquidity: {finding.liquidity.rating.value}\n"
-        f"Price: {price_str} vs est. value {value_str} ({discount_str})\n"
+        f"Deal: {finding.deal_label} ({color}) | Liquidity: {finding.liquidity.rating.value}\n"
+        f"Price: {price_str} vs est. value {value_str}\n"
         f"Condition: {finding.analysis.condition_summary}\n"
         f"Authenticity: {finding.analysis.authenticity_risk.value} - {finding.analysis.authenticity_notes}\n\n"
         f"{_DISCLAIMER}"
     )
     _post(
         settings,
-        title=f"[{finding.deal_score}] {finding.listing.title[:80]}",
+        title=f"[{finding.deal_label}] {finding.listing.title[:80]}",
         message=message,
         priority=_SCORE_PRIORITY.get(color, "3"),
         tags=_SCORE_TAG.get(color, "mag"),
@@ -79,7 +78,7 @@ def send_deal_digest(settings: Settings, findings: list[Finding]) -> None:
     lines = []
     for f in ranked[:max_lines]:
         price_str = f"${f.all_in_price:,.2f}" if f.all_in_price else "price n/a"
-        lines.append(f"[{f.deal_score}] {f.listing.title[:70]} - {price_str}\n{f.listing.url}")
+        lines.append(f"[{f.deal_label}] {f.listing.title[:70]} - {price_str}\n{f.listing.url}")
     remaining = len(ranked) - max_lines
     if remaining > 0:
         lines.append(f"...+{remaining} more - check the dashboard for the rest.")
@@ -90,7 +89,7 @@ def send_deal_digest(settings: Settings, findings: list[Finding]) -> None:
     # clients auto-linkify.
     _post(
         settings,
-        title=f"{len(findings)} new deals found (top score {ranked[0].deal_score})",
+        title=f"{len(findings)} new deals found (top: {ranked[0].deal_label})",
         message=message,
         priority=_SCORE_PRIORITY.get(best_color, "3"),
         tags=_SCORE_TAG.get(best_color, "mag"),
