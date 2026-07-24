@@ -33,3 +33,10 @@
   lookback_days: 30
   enabled: true
   parsed_criteria: null
+- id: vostok
+  category: watches
+  description: vintage vostok amphibia, no crazy dials just classic military feel
+  discount_threshold: 0.1
+  lookback_days: 30
+  enabled: true
+  parsed_criteria: null
