@@ -61,7 +61,8 @@
     - Grand Seiko Shunbun SBGA
 - id: vostok
   category: watches
-  description: vintage vostok amphibia, no crazy dials just classic military feel
+  description: vintage only vostok amphibia, no crazy dials just classic military
+    feel. no current models
   discount_threshold: 0.1
   lookback_days: 30
   enabled: true
@@ -72,12 +73,67 @@
     condition_min: null
     box_and_papers_required: null
     max_price_all_in: null
-    other_requirements: Classic military-style dial, no unusual/crazy dial variants,
-      vintage look
+    other_requirements: Vintage only, no current/modern production models; classic
+      military-style look; no unusual or flashy dials, prefer standard/classic dial
+      designs
     search_keywords:
-    - Vostok Amphibia
-    - vintage Vostok
-    - Amphibia military dial
-    - Vostok Amphibian
-    - classic Vostok diver
-    - Soviet military watch
+    - vintage Vostok Amphibia
+    - Vostok Amphibia military
+    - Soviet Vostok diver
+    - classic Vostok Amphibia dial
+    - vintage Russian military watch
+    - Vostok Amphibia USSR
+- id: james bond watch
+  category: watches
+  description: any james bond seamaster
+  discount_threshold: 0.35
+  lookback_days: 30
+  enabled: true
+  parsed_criteria:
+    brand: Omega
+    model: Seamaster
+    reference_number: null
+    condition_min: null
+    box_and_papers_required: null
+    max_price_all_in: null
+    other_requirements: James Bond edition/theme
+    search_keywords:
+    - Omega Seamaster James Bond
+    - Seamaster 007
+    - Omega Seamaster Bond edition
+    - Seamaster Diver 300M Bond
+    - James Bond Omega watch
+- id: aqua terra
+  category: watches
+  description: like new 38mm aqua terra, simple dial
+  discount_threshold: 0.25
+  lookback_days: 30
+  enabled: true
+  parsed_criteria:
+    brand: Omega
+    model: Aqua Terra
+    reference_number: null
+    condition_min: like new
+    box_and_papers_required: null
+    max_price_all_in: null
+    other_requirements: 38mm case size, simple (uncluttered) dial design
+    search_keywords:
+    - Aqua Terra 38mm
+    - Omega Aqua Terra
+    - Aqua Terra simple dial
+    - Omega Seamaster Aqua Terra 38
+    - Aqua Terra 150M
+- id: submariner
+  category: watches
+  description: authentic vintage rolex submariner black dial
+  discount_threshold: 0.3
+  lookback_days: 30
+  enabled: true
+  parsed_criteria: null
+- id: santos
+  category: watches
+  description: authentic cartier santos medium or large, silver with white dial.
+  discount_threshold: 0.25
+  lookback_days: 30
+  enabled: true
+  parsed_criteria: null

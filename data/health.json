@@ -382,5 +382,22 @@
     "sold_detected": 0,
     "repriced_detected": 4,
     "error_message": null
+  },
+  {
+    "timestamp": 1784944747.5742679,
+    "overall_status": "ok",
+    "duration_seconds": 262.5998201370239,
+    "sources": {
+      "ebay": {
+        "status": "ok",
+        "fetched": 154,
+        "new": 73,
+        "errors": []
+      }
+    },
+    "findings_count": 73,
+    "sold_detected": 0,
+    "repriced_detected": 1,
+    "error_message": null
   }
 ]
