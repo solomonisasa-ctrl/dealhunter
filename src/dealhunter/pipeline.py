@@ -110,26 +110,35 @@ def score_listing(
 
 
 # Cap per source per run so a big backlog of active listings can't turn one
-# run into a burst of dozens of check_sold calls - oldest-still-active
-# listings are checked first, spreading the load across runs.
-_MAX_SOLD_CHECKS_PER_SOURCE = 25
+# run into a burst of dozens of refresh calls - oldest-still-active listings
+# are checked first, spreading the load across runs.
+_MAX_REFRESH_CHECKS_PER_SOURCE = 25
 
 
-def refresh_sold_status(
+def refresh_listings(
     settings: Settings, sources: dict[str, SourceAdapter], watchlist: list[WatchItem]
-) -> int:
-    """Re-checks previously-seen active listings to see if they've sold,
-    for watch items still enabled. Updates both the dedupe state (so the
-    listing isn't re-surfaced) and every stored Finding for that listing
-    (so the dashboard can stop showing it as an available deal). Returns
-    how many were newly found sold."""
+) -> tuple[int, int, list[Finding]]:
+    """Re-checks previously-seen active listings: sold, and has the price
+    changed. Sellers commonly cut prices on active eBay listings - without
+    this, a finding's discount/deal score stays frozen at whatever the
+    price was the moment it was first discovered, so a price cut that
+    would newly clear a hunt's deal threshold is silently missed. Updates
+    dedupe state and every stored Finding for that listing. Returns
+    (sold_count, repriced_count, findings newly qualifying for
+    notification because of a price cut - a finding already notified once
+    isn't re-notified for a further drop)."""
+    watch_items_by_id = {w.id: w for w in watchlist}
     enabled_ids = {w.id for w in watchlist if w.enabled}
     findings = findings_store.load_findings(settings.findings_path)
     findings_by_listing_id: dict[str, list[Finding]] = {}
     for f in findings:
         findings_by_listing_id.setdefault(f.listing.id, []).append(f)
 
-    newly_sold = 0
+    sold_count = 0
+    repriced_count = 0
+    newly_qualified: list[Finding] = []
+    changed = False
+
     for source_name, source in sources.items():
         state = state_store.load_state(settings.state_dir, source_name)
         candidates = [
@@ -141,24 +150,51 @@ def refresh_sold_status(
         ]
         candidates.sort(key=lambda kv: kv[1].get("first_seen", 0))
 
-        for listing_id, _entry in candidates[:_MAX_SOLD_CHECKS_PER_SOURCE]:
+        for listing_id, _entry in candidates[:_MAX_REFRESH_CHECKS_PER_SOURCE]:
             related = findings_by_listing_id[listing_id]
             listing = related[0].listing
             try:
-                sold = source.check_sold(listing)
+                refresh = source.refresh_listing(listing)
             except Exception:  # noqa: BLE001 - best-effort, never fail the run over this
                 continue
-            if sold:
+
+            if refresh.sold:
                 state_store.mark_sold(state, listing_id)
                 for f in related:
                     f.listing.status = ListingStatus.SOLD
-                newly_sold += 1
+                sold_count += 1
+                changed = True
+                continue
+
+            price_changed = (
+                refresh.price != listing.price or refresh.shipping_price != listing.shipping_price
+            )
+            if not price_changed:
+                continue
+
+            changed = True
+            repriced_count += 1
+            for f in related:
+                f.listing.price = refresh.price
+                f.listing.shipping_price = refresh.shipping_price
+                f.all_in_price = f.listing.all_in_price
+                f.deal_score, f.discount = compute_deal_score(f.all_in_price, f.analysis)
+
+                watch_item = watch_items_by_id.get(f.watch_item_id)
+                now_qualifies = (
+                    watch_item is not None
+                    and f.duplicate_of is None
+                    and qualifies_for_notification(f.analysis, f.discount, watch_item.discount_threshold)
+                )
+                if now_qualifies and not f.notified:
+                    f.notified = True
+                    newly_qualified.append(f)
 
         state_store.save_state(settings.state_dir, source_name, state)
 
-    if newly_sold:
+    if changed:
         findings_store.save_findings(settings.findings_path, findings)
-    return newly_sold
+    return sold_count, repriced_count, newly_qualified
 
 
 # Bounds worst-case run time predictably: a watch item with a very broad
@@ -269,16 +305,22 @@ def run_hunt(settings: Settings, source_health_errors: dict[str, str] | None = N
                 cleared_threshold = qualifies_for_notification(
                     finding.analysis, finding.discount, item.discount_threshold
                 )
-                has_more_photos = len(listing.image_urls) > 1
-                if cleared_threshold and has_more_photos:
-                    # Worth a closer look: re-analyze with every available
-                    # photo now that the cheap pass says this is a real deal.
+                if cleared_threshold:
+                    # Worth a closer look now that the cheap pass says this
+                    # is a real deal - fetch whatever extra photos this
+                    # source has (a no-op for sources that already had them
+                    # all) and re-analyze with everything available.
                     try:
-                        finding = score_listing(
-                            client, settings.anthropic_model, listing, item, comparable_count, full=True
-                        )
+                        listing.image_urls = source.fetch_additional_photos(listing)
                     except Exception:  # noqa: BLE001
-                        pass  # keep the quick-pass finding if the deep dive fails
+                        pass
+                    if len(listing.image_urls) > 1:
+                        try:
+                            finding = score_listing(
+                                client, settings.anthropic_model, listing, item, comparable_count, full=True
+                            )
+                        except Exception:  # noqa: BLE001
+                            pass  # keep the quick-pass finding if the deep dive fails
 
                 # Cross-source/repost duplicate check: the same physical item
                 # posted to more than one source (or reposted) shouldn't
@@ -305,16 +347,18 @@ def run_hunt(settings: Settings, source_health_errors: dict[str, str] | None = N
     if watchlist_changed:
         save_watchlist(settings.watchlist_path, watchlist)
 
-    progress_tracker.update(phase="checking sold listings", current=total_items, total=total_items)
+    progress_tracker.update(phase="checking sold/price changes", current=total_items, total=total_items)
 
-    # Best-effort: re-check a bounded batch of previously-active listings to
-    # see if they've sold, so the feed stops showing deals that are gone.
-    # Only asks sources that didn't already fail credential/fetch checks.
+    # Best-effort: re-check a bounded batch of previously-active listings for
+    # sold status and price cuts, so the feed stops showing deals that are
+    # gone and picks up drops that newly clear a hunt's threshold. Only asks
+    # sources that didn't already fail credential/fetch checks.
     working_sources = {name: src for name, src in sources.items() if source_health[name].status != "error"}
     try:
-        sold_detected = refresh_sold_status(settings, working_sources, watchlist)
+        sold_detected, repriced_detected, newly_qualified = refresh_listings(settings, working_sources, watchlist)
     except Exception:  # noqa: BLE001 - never let this block the rest of the run
-        sold_detected = 0
+        sold_detected, repriced_detected, newly_qualified = 0, 0, []
+    to_notify.extend(newly_qualified)
 
     for name, health in source_health.items():
         if health.status != "error" and health.errors:
@@ -334,6 +378,7 @@ def run_hunt(settings: Settings, source_health_errors: dict[str, str] | None = N
         sources=source_health,
         findings_count=findings_count,
         sold_detected=sold_detected,
+        repriced_detected=repriced_detected,
     )
     report.overall_status = overall_status(source_health)
     health_store.append_health(settings.health_path, report)

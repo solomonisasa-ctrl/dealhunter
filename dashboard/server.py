@@ -138,6 +138,13 @@ def api_full_analysis(finding_id: str):
     if watch_item is None:
         raise HTTPException(status_code=404, detail="Watch item for this finding no longer exists")
 
+    source_cls = pipeline.SOURCE_REGISTRY.get(finding.listing.source)
+    if source_cls is not None:
+        try:
+            finding.listing.image_urls = source_cls(settings).fetch_additional_photos(finding.listing)
+        except Exception:  # noqa: BLE001 - best-effort, fall back to whatever photos we already have
+            pass
+
     client = make_client(settings.anthropic_api_key)
     try:
         updated = pipeline.score_listing(

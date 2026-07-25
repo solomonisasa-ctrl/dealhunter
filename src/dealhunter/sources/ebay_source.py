@@ -8,7 +8,7 @@ with the user - see plan). Until/unless that access is granted, comparable_count
 below is a PROXY liquidity signal built from active-listing search-result
 counts, not true sold-through data. If Marketplace Insights access is granted
 later, only this file needs to change - swap comparable_count (and optionally
-check_sold) to call it instead; scoring.py and pipeline.py are unaffected.
+refresh_listing) to call it instead; scoring.py and pipeline.py are unaffected.
 """
 from __future__ import annotations
 
@@ -18,7 +18,7 @@ import time
 import requests
 
 from config.settings import Settings
-from dealhunter.models import Listing, ListingStatus, WatchItem
+from dealhunter.models import Listing, ListingRefresh, ListingStatus, WatchItem
 from dealhunter.sources.base import SourceAdapter
 
 _OAUTH_URL = "https://api.ebay.com/identity/v1/oauth2/token"
@@ -110,11 +110,13 @@ class EbaySource(SourceAdapter):
                 shipping_cost = float(shipping_cost_val) if shipping_cost_val else None
             primary_image = (item.get("image") or {}).get("imageUrl")
             # The search-result payload only ever has one image - the rest
-            # live behind the per-item detail endpoint. Only fetch it for
-            # listings that made it this far (genuinely new, not-yet-seen),
-            # so this doesn't multiply API calls across the whole search
-            # result set.
-            image_urls = self._additional_images(item_id, primary_image)
+            # live behind a separate per-item detail call. Deliberately NOT
+            # fetched eagerly here: most new listings never get past the
+            # cheap quick-pass analysis (see pipeline.score_listing), so
+            # paying for a per-item detail call on every single one of them
+            # would be pure wasted latency. fetch_additional_photos() below
+            # fetches it lazily, only once a listing is actually getting a
+            # full re-analysis.
             listings.append(
                 Listing(
                     id=listing_id,
@@ -126,7 +128,6 @@ class EbaySource(SourceAdapter):
                     shipping_price=shipping_cost,
                     currency=price.get("currency", "USD"),
                     image_url=primary_image,
-                    image_urls=image_urls,
                     body=item.get("shortDescription", "") or item.get("title", ""),
                     posted_at=None,
                     status=ListingStatus.ACTIVE,
@@ -135,11 +136,16 @@ class EbaySource(SourceAdapter):
             )
         return listings
 
-    def _additional_images(self, item_id: str, primary_image: str | None) -> list[str]:
+    def fetch_additional_photos(self, listing: Listing) -> list[str]:
         """Full photo set for one item, via the per-item detail endpoint -
         the search-result payload only has the primary image. Best-effort:
-        falls back to just the primary image (or empty) on any failure."""
-        fallback = [primary_image] if primary_image else []
+        falls back to just the primary image (or whatever's already on the
+        listing) on any failure. Skips the network call entirely if we
+        already have more than one photo (e.g. a re-analysis)."""
+        if len(listing.image_urls) > 1:
+            return listing.image_urls
+        fallback = listing.image_urls or ([listing.image_url] if listing.image_url else [])
+        item_id = listing.id.split(":", 1)[1]
         try:
             resp = requests.get(
                 _ITEM_URL.format(item_id=item_id), headers=self._headers(), timeout=15
@@ -159,18 +165,31 @@ class EbaySource(SourceAdapter):
                 urls.append(url)
         return urls or fallback
 
-    def check_sold(self, listing: Listing) -> bool:
+    def refresh_listing(self, listing: Listing) -> ListingRefresh:
         item_id = listing.id.split(":", 1)[1]
         try:
             resp = requests.get(
                 _ITEM_URL.format(item_id=item_id), headers=self._headers(), timeout=15
             )
             if resp.status_code == 404:
-                return True
+                return ListingRefresh(sold=True)
             resp.raise_for_status()
-            return False
+            data = resp.json()
         except requests.RequestException:
-            return False
+            # Unknown - don't guess sold, and don't lose the price we already have.
+            return ListingRefresh(sold=False, price=listing.price, shipping_price=listing.shipping_price)
+
+        price_data = data.get("price", {})
+        price = float(price_data["value"]) if price_data.get("value") else listing.price
+
+        shipping_price = listing.shipping_price
+        shipping_options = data.get("shippingOptions", [])
+        if shipping_options:
+            shipping_val = shipping_options[0].get("shippingCost", {}).get("value")
+            if shipping_val:
+                shipping_price = float(shipping_val)
+
+        return ListingRefresh(sold=False, price=price, shipping_price=shipping_price)
 
     def comparable_count(self, watch_item: WatchItem, category_def: dict) -> int:
         """PROXY liquidity signal: count of currently-active eBay listings

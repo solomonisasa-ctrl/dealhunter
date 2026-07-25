@@ -1,7 +1,9 @@
 """
 Offline tests for the follow-up Q&A feature: a fake Anthropic client (no
 network calls, no forced tool call - this is free-form conversation)
-verifies the question and prior Q&A history reach the prompt correctly.
+verifies prior Q&A turns become a real multi-turn conversation, static
+listing/analysis context lives in the system prompt, and a response
+starting with a non-text block (e.g. ThinkingBlock) doesn't crash.
 """
 from __future__ import annotations
 
@@ -19,27 +21,41 @@ from dealhunter.models import (
 
 class _FakeTextBlock:
     def __init__(self, text: str):
+        self.type = "text"
         self.text = text
 
 
+class _FakeThinkingBlock:
+    """Stands in for anthropic's ThinkingBlock - has no .text attribute,
+    which is exactly what used to crash answer_followup."""
+
+    def __init__(self):
+        self.type = "thinking"
+        self.thinking = "reasoning about the question..."
+
+
 class _FakeResponse:
-    def __init__(self, text: str):
-        self.content = [_FakeTextBlock(text)]
+    def __init__(self, content: list):
+        self.content = content
 
 
 class _FakeMessages:
-    def __init__(self, answer: str):
+    def __init__(self, answer: str, lead_with_thinking: bool = False):
         self.answer = answer
+        self.lead_with_thinking = lead_with_thinking
         self.calls: list[dict] = []
 
     def create(self, **kwargs):
         self.calls.append(kwargs)
-        return _FakeResponse(self.answer)
+        blocks = [_FakeTextBlock(self.answer)]
+        if self.lead_with_thinking:
+            blocks = [_FakeThinkingBlock()] + blocks
+        return _FakeResponse(blocks)
 
 
 class _FakeClient:
-    def __init__(self, answer: str = "This looks genuine to me."):
-        self.messages = _FakeMessages(answer)
+    def __init__(self, answer: str = "This looks genuine to me.", lead_with_thinking: bool = False):
+        self.messages = _FakeMessages(answer, lead_with_thinking=lead_with_thinking)
 
 
 def make_finding(qa_history=None) -> Finding:
@@ -83,11 +99,10 @@ def make_finding(qa_history=None) -> Finding:
     )
 
 
-def _sent_text(client: _FakeClient) -> str:
-    sent = client.messages.calls[0]["messages"][0]["content"]
-    if isinstance(sent, str):
-        return sent
-    return next(b["text"] for b in sent if b["type"] == "text")
+def _content_text(content) -> str:
+    if isinstance(content, str):
+        return content
+    return next(b["text"] for b in content if b["type"] == "text")
 
 
 def test_answer_followup_returns_text():
@@ -101,25 +116,51 @@ def test_answer_followup_returns_text():
     assert "tools" not in client.messages.calls[0]  # free-form, no forced tool call
 
 
-def test_answer_followup_includes_question_and_listing_context():
+def test_leading_thinking_block_does_not_crash():
+    """Regression test: Claude can return a ThinkingBlock before the text
+    block. answer_followup must find the text, not assume content[0]."""
+    client = _FakeClient(answer="The bracelet looks period-correct.", lead_with_thinking=True)
+    finding = make_finding()
+
+    answer = answer_followup(client, "claude-sonnet-5", finding, "What about the bracelet?")
+
+    assert answer == "The bracelet looks period-correct."
+
+
+def test_static_context_lives_in_system_prompt_not_the_message():
     client = _FakeClient()
     finding = make_finding()
 
     answer_followup(client, "claude-sonnet-5", finding, "Is this a good price?")
 
-    text = _sent_text(client)
-    assert "Is this a good price?" in text
-    assert "Grand Seiko Shunbun" in text
-    assert "excellent" in text  # prior condition_summary grounding
+    system = client.messages.calls[0]["system"]
+    assert "Grand Seiko Shunbun" in system
+    assert "excellent" in system  # prior condition_summary grounding
+
+    last_message = client.messages.calls[0]["messages"][-1]
+    assert last_message["role"] == "user"
+    assert _content_text(last_message["content"]) == "Is this a good price?"
+    # The question itself shouldn't need the listing title re-stated - it
+    # lives in the system prompt now, not flattened into the user turn.
+    assert "Grand Seiko Shunbun" not in _content_text(last_message["content"])
 
 
-def test_answer_followup_includes_prior_qa_history():
+def test_prior_qa_becomes_real_conversation_turns():
     client = _FakeClient()
-    finding = make_finding(qa_history=[QAEntry(question="Is it authentic?", answer="Likely yes.")])
+    finding = make_finding(
+        qa_history=[
+            QAEntry(question="Is it authentic?", answer="Likely yes."),
+            QAEntry(question="Any box or papers?", answer="Not mentioned in the listing."),
+        ]
+    )
 
     answer_followup(client, "claude-sonnet-5", finding, "What about the bracelet?")
 
-    text = _sent_text(client)
-    assert "Is it authentic?" in text
-    assert "Likely yes." in text
-    assert "What about the bracelet?" in text
+    messages = client.messages.calls[0]["messages"]
+    assert len(messages) == 5  # 2 prior turns (4 messages) + the new question
+    assert messages[0] == {"role": "user", "content": "Is it authentic?"}
+    assert messages[1] == {"role": "assistant", "content": "Likely yes."}
+    assert messages[2] == {"role": "user", "content": "Any box or papers?"}
+    assert messages[3] == {"role": "assistant", "content": "Not mentioned in the listing."}
+    assert messages[4]["role"] == "user"
+    assert _content_text(messages[4]["content"]) == "What about the bracelet?"

@@ -190,13 +190,17 @@ _QA_SYSTEM = (
 )
 
 
-def _finding_context(finding: Finding) -> str:
+def _static_finding_context(finding: Finding) -> str:
+    """Context that doesn't change turn to turn - listing text plus
+    Claude's original structured analysis. Lives in the system prompt (see
+    answer_followup) rather than being re-explained in every user message,
+    so the actual messages list can be a real conversation."""
     listing = finding.listing
     analysis = finding.analysis
     price_str = (
         f"${finding.all_in_price:,.2f} all-in" if finding.all_in_price is not None else "price not listed"
     )
-    context = (
+    return (
         f"Listing title: {listing.title}\n"
         f"Price: {price_str}\n"
         f"Listing text:\n{listing.body}\n\n"
@@ -208,11 +212,16 @@ def _finding_context(finding: Finding) -> str:
         f"- Rarity: {analysis.rarity_notes}\n"
         f"- Demand: {analysis.demand_tier.value} - {analysis.demand_reasoning}\n"
     )
-    if finding.qa_history:
-        context += "\nPrior follow-up Q&A on this same listing:\n"
-        for qa in finding.qa_history:
-            context += f"Q: {qa.question}\nA: {qa.answer}\n"
-    return context
+
+
+def _first_text_block(content_blocks) -> str:
+    """Claude's response can include non-text blocks (e.g. a ThinkingBlock)
+    ahead of the actual answer - find the first real text block instead of
+    assuming content[0] always is one."""
+    for block in content_blocks:
+        if getattr(block, "type", None) == "text":
+            return block.text
+    raise RuntimeError("Claude's response had no text content block")
 
 
 def answer_followup(
@@ -222,22 +231,31 @@ def answer_followup(
     question: str,
 ) -> str:
     """Free-form (not tool-forced) follow-up answer about an already-scored
-    finding, grounded in its listing/analysis/photos and any prior Q&A."""
-    context = _finding_context(finding)
-    image_urls = _image_urls_for(finding.listing)
+    finding. The listing/analysis context lives in the system prompt (it's
+    static); every prior Q&A turn plus the new question is sent as real
+    alternating user/assistant messages, so this is an actual back-and-
+    forth conversation rather than a flattened transcript re-explained on
+    every call."""
+    system = f"{_QA_SYSTEM}\n\n{_static_finding_context(finding)}"
 
-    text = f"{context}\nNew question: {question}"
-    content: str | list[dict] = (
-        [{"type": "text", "text": text}]
+    messages: list[dict] = []
+    for qa in finding.qa_history:
+        messages.append({"role": "user", "content": qa.question})
+        messages.append({"role": "assistant", "content": qa.answer})
+
+    image_urls = _image_urls_for(finding.listing)
+    new_content: str | list[dict] = (
+        [{"type": "text", "text": question}]
         + [{"type": "image", "source": {"type": "url", "url": url}} for url in image_urls]
         if image_urls
-        else text
+        else question
     )
+    messages.append({"role": "user", "content": new_content})
 
     response = client.messages.create(
         model=model,
         max_tokens=600,
-        system=_QA_SYSTEM,
-        messages=[{"role": "user", "content": content}],
+        system=system,
+        messages=messages,
     )
-    return response.content[0].text
+    return _first_text_block(response.content)

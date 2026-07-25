@@ -48,7 +48,8 @@ async function loadStatus() {
         .map(([name, h]) => `${name}: ${h.fetched}`)
         .join(", ");
       const soldNote = latest.sold_detected > 0 ? ` · ${latest.sold_detected} sold` : "";
-      pill.textContent = `Last run ${timeAgo(latest.timestamp)} · ${latest.overall_status} · ${counts || "no sources"}${soldNote}`;
+      const repricedNote = latest.repriced_detected > 0 ? ` · ${latest.repriced_detected} repriced` : "";
+      pill.textContent = `Last run ${timeAgo(latest.timestamp)} · ${latest.overall_status} · ${counts || "no sources"}${soldNote}${repricedNote}`;
       pill.className = `status-pill status-${latest.overall_status}`;
     }
     document.getElementById("unpushed-banner").classList.toggle("hidden", !data.unpushed_config_changes);
@@ -306,15 +307,20 @@ async function openDetail(findingId) {
 
   const photoCount = photoUrls(f.listing).length;
   const isSold = f.listing.status === "sold";
-  const canRunFullAnalysis = f.analysis_depth !== "full" && photoCount > 1 && !isSold;
+  // We don't eagerly fetch every photo anymore (that's the whole point -
+  // most listings never need it), so we can't know the true count until
+  // the full analysis actually checks. Offer the button whenever it
+  // hasn't run yet, rather than only when we already happen to know
+  // there's more than one photo.
+  const canRunFullAnalysis = f.analysis_depth !== "full" && !isSold;
   const depthNote =
     f.analysis_depth === "quick"
-      ? `<span class="badge badge-liquidity">Quick scan (1 of ${photoCount} photos)</span>`
+      ? `<span class="badge badge-liquidity">Quick scan</span>`
       : "";
   const soldNote = isSold ? '<span class="badge badge-red">Sold</span>' : "";
   const fullAnalysisSection = canRunFullAnalysis
     ? `<div class="detail-section">
-        <button type="button" class="btn btn-secondary" id="full-analysis-btn">📸 Run full analysis (all ${photoCount} photos)</button>
+        <button type="button" class="btn btn-secondary" id="full-analysis-btn">📸 Run full analysis (all photos)</button>
       </div>`
     : "";
 

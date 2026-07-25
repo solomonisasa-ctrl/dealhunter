@@ -25,18 +25,59 @@
   discount_threshold: 0.2
   lookback_days: 30
   enabled: true
-  parsed_criteria: null
+  parsed_criteria:
+    brand: Omega
+    model: Constellation
+    reference_number: null
+    condition_min: null
+    box_and_papers_required: null
+    max_price_all_in: null
+    other_requirements: null
+    search_keywords:
+    - Omega Constellation
+    - Omega Constellation watch
+    - Constellation automatic
+    - Omega Constellation vintage
+    - Omega Constellation chronometer
 - id: shunbun
   category: watches
   description: grand seiko shunbun
   discount_threshold: 0.2
   lookback_days: 30
   enabled: true
-  parsed_criteria: null
+  parsed_criteria:
+    brand: Grand Seiko
+    model: Shunbun
+    reference_number: null
+    condition_min: null
+    box_and_papers_required: null
+    max_price_all_in: null
+    other_requirements: null
+    search_keywords:
+    - Grand Seiko Shunbun
+    - Shunbun Spring Equinox
+    - Grand Seiko Season's watch Shunbun
+    - GS Shunbun limited edition
+    - Grand Seiko Shunbun SBGA
 - id: vostok
   category: watches
   description: vintage vostok amphibia, no crazy dials just classic military feel
   discount_threshold: 0.1
   lookback_days: 30
   enabled: true
-  parsed_criteria: null
+  parsed_criteria:
+    brand: Vostok
+    model: Amphibia
+    reference_number: null
+    condition_min: null
+    box_and_papers_required: null
+    max_price_all_in: null
+    other_requirements: Classic military-style dial, no unusual/crazy dial variants,
+      vintage look
+    search_keywords:
+    - Vostok Amphibia
+    - vintage Vostok
+    - Amphibia military dial
+    - Vostok Amphibian
+    - classic Vostok diver
+    - Soviet military watch

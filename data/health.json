@@ -14,6 +14,7 @@
       }
     },
     "findings_count": 0,
+    "sold_detected": 0,
     "error_message": null
   },
   {
@@ -31,6 +32,7 @@
       }
     },
     "findings_count": 0,
+    "sold_detected": 0,
     "error_message": null
   },
   {
@@ -48,6 +50,7 @@
       }
     },
     "findings_count": 0,
+    "sold_detected": 0,
     "error_message": null
   },
   {
@@ -65,6 +68,7 @@
       }
     },
     "findings_count": 0,
+    "sold_detected": 0,
     "error_message": null
   },
   {
@@ -82,6 +86,7 @@
       }
     },
     "findings_count": 0,
+    "sold_detected": 0,
     "error_message": null
   },
   {
@@ -97,6 +102,7 @@
       }
     },
     "findings_count": 50,
+    "sold_detected": 0,
     "error_message": null
   },
   {
@@ -112,6 +118,7 @@
       }
     },
     "findings_count": 3,
+    "sold_detected": 0,
     "error_message": null
   },
   {
@@ -127,6 +134,7 @@
       }
     },
     "findings_count": 0,
+    "sold_detected": 0,
     "error_message": null
   },
   {
@@ -142,6 +150,7 @@
       }
     },
     "findings_count": 6,
+    "sold_detected": 0,
     "error_message": null
   },
   {
@@ -157,6 +166,7 @@
       }
     },
     "findings_count": 0,
+    "sold_detected": 0,
     "error_message": null
   },
   {
@@ -172,6 +182,7 @@
       }
     },
     "findings_count": 1,
+    "sold_detected": 0,
     "error_message": null
   },
   {
@@ -187,6 +198,7 @@
       }
     },
     "findings_count": 0,
+    "sold_detected": 0,
     "error_message": null
   },
   {
@@ -202,6 +214,7 @@
       }
     },
     "findings_count": 1,
+    "sold_detected": 0,
     "error_message": null
   },
   {
@@ -217,6 +230,7 @@
       }
     },
     "findings_count": 49,
+    "sold_detected": 0,
     "error_message": null
   },
   {
@@ -232,6 +246,7 @@
       }
     },
     "findings_count": 6,
+    "sold_detected": 0,
     "error_message": null
   },
   {
@@ -247,6 +262,7 @@
       }
     },
     "findings_count": 0,
+    "sold_detected": 0,
     "error_message": null
   },
   {
@@ -262,6 +278,7 @@
       }
     },
     "findings_count": 1,
+    "sold_detected": 0,
     "error_message": null
   },
   {
@@ -277,6 +294,7 @@
       }
     },
     "findings_count": 0,
+    "sold_detected": 0,
     "error_message": null
   },
   {
@@ -292,6 +310,7 @@
       }
     },
     "findings_count": 0,
+    "sold_detected": 0,
     "error_message": null
   },
   {
@@ -307,6 +326,23 @@
       }
     },
     "findings_count": 5,
+    "sold_detected": 0,
+    "error_message": null
+  },
+  {
+    "timestamp": 1784936601.8451276,
+    "overall_status": "ok",
+    "duration_seconds": 625.8594436645508,
+    "sources": {
+      "ebay": {
+        "status": "ok",
+        "fetched": 101,
+        "new": 41,
+        "errors": []
+      }
+    },
+    "findings_count": 41,
+    "sold_detected": 0,
     "error_message": null
   }
 ]

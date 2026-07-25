@@ -12,7 +12,7 @@ import praw
 import prawcore
 
 from config.settings import Settings
-from dealhunter.models import Listing, ListingStatus, WatchItem
+from dealhunter.models import Listing, ListingRefresh, ListingStatus, WatchItem
 from dealhunter.sources.base import SourceAdapter
 
 _PRICE_RE = re.compile(r"\$\s?([\d][\d,]*(?:\.\d{1,2})?)")
@@ -102,12 +102,16 @@ class RedditSource(SourceAdapter):
                 continue
         return listings
 
-    def check_sold(self, listing: Listing) -> bool:
+    def refresh_listing(self, listing: Listing) -> ListingRefresh:
+        # Reddit posts don't have a reliably re-extractable structured
+        # price the way an eBay item detail response does - echo the
+        # existing price back unchanged rather than guessing from text.
         try:
             submission = self.reddit.submission(url=listing.url)
-            return _looks_sold(submission.title, submission.link_flair_text)
+            sold = _looks_sold(submission.title, submission.link_flair_text)
         except prawcore.exceptions.PrawcoreException:
-            return False
+            sold = False
+        return ListingRefresh(sold=sold, price=listing.price, shipping_price=listing.shipping_price)
 
     def comparable_count(self, watch_item: WatchItem, category_def: dict) -> int:
         keywords = (watch_item.parsed_criteria or {}).get("search_keywords") or []

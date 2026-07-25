@@ -12,4 +12,4 @@
 # Either way, local runs see the change immediately - the scheduled GitHub
 # Actions run needs `git push` before it does too.
 poll_interval_minutes: 10
-paused: false
+paused: true

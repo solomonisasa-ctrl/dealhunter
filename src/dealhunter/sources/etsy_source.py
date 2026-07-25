@@ -9,7 +9,7 @@ require touching reddit_source.py, ebay_source.py, or scoring.py.
 from __future__ import annotations
 
 from config.settings import Settings
-from dealhunter.models import Listing, WatchItem
+from dealhunter.models import Listing, ListingRefresh, WatchItem
 from dealhunter.sources.base import SourceAdapter
 
 
@@ -30,5 +30,5 @@ class EtsySource(SourceAdapter):
     ) -> list[Listing]:
         raise NotImplementedError("Etsy source is not implemented yet (phase 2).")
 
-    def check_sold(self, listing: Listing) -> bool:
+    def refresh_listing(self, listing: Listing) -> ListingRefresh:
         raise NotImplementedError("Etsy source is not implemented yet (phase 2).")

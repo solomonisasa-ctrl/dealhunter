@@ -145,6 +145,16 @@ class SourceHealth(BaseModel):
     errors: list[str] = Field(default_factory=list)
 
 
+class ListingRefresh(BaseModel):
+    """Result of re-checking a previously-seen listing: still active, and
+    at what price. Sources that can't cheaply re-check (Reddit, Etsy stub)
+    just echo back the listing's existing price unchanged."""
+
+    sold: bool
+    price: Optional[float] = None
+    shipping_price: Optional[float] = None
+
+
 class HealthReport(BaseModel):
     timestamp: float = Field(default_factory=time.time)
     overall_status: str = "ok"  # "ok" | "warning" | "error"
@@ -152,4 +162,5 @@ class HealthReport(BaseModel):
     sources: dict[str, SourceHealth] = Field(default_factory=dict)
     findings_count: int = 0
     sold_detected: int = 0
+    repriced_detected: int = 0
     error_message: Optional[str] = None
