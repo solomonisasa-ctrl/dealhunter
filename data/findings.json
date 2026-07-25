@@ -44,6 +44,7 @@
     "discount": -0.06865999999999997,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784760333.3831315,
     "analysis_depth": "quick"
@@ -93,6 +94,7 @@
     "discount": -0.0356400000000001,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784760344.1477954,
     "analysis_depth": "quick"
@@ -142,6 +144,7 @@
     "discount": -0.075,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784760351.723637,
     "analysis_depth": "quick"
@@ -191,6 +194,7 @@
     "discount": -0.1346153846153846,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784760360.2204323,
     "analysis_depth": "quick"
@@ -240,6 +244,7 @@
     "discount": -0.0726923076923077,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784760369.7989573,
     "analysis_depth": "quick"
@@ -289,6 +294,7 @@
     "discount": 0.002777777777777778,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784760379.132016,
     "analysis_depth": "quick"
@@ -338,6 +344,7 @@
     "discount": -0.0066,
     "notified": false,
     "duplicate_of": "gs-shunbun:ebay:v1|147344052256|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784760388.4917793,
     "analysis_depth": "quick"
@@ -387,6 +394,7 @@
     "discount": -0.07661290322580645,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784760398.1109712,
     "analysis_depth": "quick"
@@ -436,6 +444,7 @@
     "discount": -0.034482758620689655,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784760409.7885785,
     "analysis_depth": "quick"
@@ -485,6 +494,7 @@
     "discount": null,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784760416.7759001,
     "analysis_depth": "quick"
@@ -534,6 +544,7 @@
     "discount": -0.012,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784760426.0652714,
     "analysis_depth": "quick"
@@ -583,6 +594,7 @@
     "discount": -0.1288709677419355,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784760434.316374,
     "analysis_depth": "quick"
@@ -596,7 +608,7 @@
       "title": "Grand Seiko Shunbun SBGA413G",
       "url": "https://www.ebay.com/itm/188548025569?_skw=Grand+Seiko+Shunbun+Grand+Seiko+Shunbun+Spring+Equinox+GS+Shunbun+limited+edition+Grand+Seiko+Shunbun+box+papers+Shunbun+Grand+Seiko+watch&hash=item2be6568ce1:g:kk0AAeSwtOZqOcc7",
       "price": 6099.0,
-      "shipping_price": null,
+      "shipping_price": 5.58,
       "currency": "USD",
       "image_url": "https://i.ebayimg.com/images/g/kk0AAeSwtOZqOcc7/s-l225.jpg",
       "image_urls": [],
@@ -628,10 +640,11 @@
       "claude_tier": "High",
       "reasoning": "Algorithmic signal: 97 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Grand Seiko has strong and growing collector demand, and special seasonal dial editions like the Shunbun attract a dedicated following, driving competitive pricing near or above retail.). Final rating uses the more conservative of the two: High."
     },
-    "all_in_price": 6099.0,
-    "discount": -0.0165,
+    "all_in_price": 6104.58,
+    "discount": -0.017429999999999987,
     "notified": false,
     "duplicate_of": "gs-shunbun:ebay:v1|267716772486|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784760443.638293,
     "analysis_depth": "quick"
@@ -681,6 +694,7 @@
     "discount": -0.05172413793103448,
     "notified": false,
     "duplicate_of": "gs-shunbun:ebay:v1|147344052256|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784760451.6773791,
     "analysis_depth": "quick"
@@ -730,6 +744,7 @@
     "discount": 0.0,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784760460.5811744,
     "analysis_depth": "quick"
@@ -779,6 +794,7 @@
     "discount": -0.23548064516129025,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784760470.6132317,
     "analysis_depth": "quick"
@@ -828,6 +844,7 @@
     "discount": -0.04807692307692308,
     "notified": false,
     "duplicate_of": "gs-shunbun:ebay:v1|147344052256|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784760479.6368034,
     "analysis_depth": "quick"
@@ -877,6 +894,7 @@
     "discount": null,
     "notified": false,
     "duplicate_of": "gs-shunbun:ebay:v1|227415041972|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784760488.2231913,
     "analysis_depth": "quick"
@@ -926,6 +944,7 @@
     "discount": -0.023136363636363677,
     "notified": false,
     "duplicate_of": "gs-shunbun:ebay:v1|117260198991|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784760498.3626885,
     "analysis_depth": "quick"
@@ -975,6 +994,7 @@
     "discount": -1.20625,
     "notified": false,
     "duplicate_of": "gs-shunbun:ebay:v1|267716772486|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784760506.9551928,
     "analysis_depth": "quick"
@@ -1024,6 +1044,7 @@
     "discount": -0.031,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784760516.585688,
     "analysis_depth": "quick"
@@ -1073,6 +1094,7 @@
     "discount": null,
     "notified": false,
     "duplicate_of": "gs-shunbun:ebay:v1|147344052256|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784760525.4635262,
     "analysis_depth": "quick"
@@ -1122,6 +1144,7 @@
     "discount": -0.13264423076923076,
     "notified": false,
     "duplicate_of": "gs-shunbun:ebay:v1|147344052256|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784760533.073115,
     "analysis_depth": "quick"
@@ -1171,6 +1194,7 @@
     "discount": -0.09596774193548387,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784760541.3515244,
     "analysis_depth": "quick"
@@ -1220,6 +1244,7 @@
     "discount": 0.0,
     "notified": false,
     "duplicate_of": "gs-shunbun:ebay:v1|147425360517|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784760550.0243635,
     "analysis_depth": "quick"
@@ -1269,6 +1294,7 @@
     "discount": -0.04905263157894737,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784760558.9191656,
     "analysis_depth": "quick"
@@ -1318,6 +1344,7 @@
     "discount": -0.025216666666666696,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784760567.1283736,
     "analysis_depth": "quick"
@@ -1367,6 +1394,7 @@
     "discount": -0.06384615384615384,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784760574.10399,
     "analysis_depth": "quick"
@@ -1416,6 +1444,7 @@
     "discount": -0.01107000000000005,
     "notified": false,
     "duplicate_of": "gs-shunbun:ebay:v1|298482406627|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784760586.6217952,
     "analysis_depth": "quick"
@@ -1465,6 +1494,7 @@
     "discount": null,
     "notified": false,
     "duplicate_of": "gs-shunbun:ebay:v1|298482406627|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784760597.5387292,
     "analysis_depth": "quick"
@@ -1514,6 +1544,7 @@
     "discount": 0.0,
     "notified": false,
     "duplicate_of": "gs-shunbun:ebay:v1|147344052256|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784760606.2397928,
     "analysis_depth": "quick"
@@ -1563,6 +1594,7 @@
     "discount": -0.06021250000000009,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784760614.776704,
     "analysis_depth": "quick"
@@ -1612,6 +1644,7 @@
     "discount": -0.3689894736842105,
     "notified": false,
     "duplicate_of": "gs-shunbun:ebay:v1|227415041972|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784760622.925587,
     "analysis_depth": "quick"
@@ -1661,6 +1694,7 @@
     "discount": -0.02591842105263152,
     "notified": false,
     "duplicate_of": "gs-shunbun:ebay:v1|147425360517|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784760632.3101954,
     "analysis_depth": "quick"
@@ -1710,6 +1744,7 @@
     "discount": null,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784760640.6810327,
     "analysis_depth": "quick"
@@ -1759,6 +1794,7 @@
     "discount": -0.12153846153846154,
     "notified": false,
     "duplicate_of": "gs-shunbun:ebay:v1|147450582247|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784760648.093673,
     "analysis_depth": "quick"
@@ -1808,6 +1844,7 @@
     "discount": null,
     "notified": false,
     "duplicate_of": "gs-shunbun:ebay:v1|147344052256|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784760655.5941677,
     "analysis_depth": "quick"
@@ -1857,6 +1894,7 @@
     "discount": -0.010344827586206896,
     "notified": false,
     "duplicate_of": "gs-shunbun:ebay:v1|117260198991|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784760663.8014705,
     "analysis_depth": "quick"
@@ -1906,6 +1944,7 @@
     "discount": -6.472666666666667,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784760673.5683982,
     "analysis_depth": "quick"
@@ -1955,6 +1994,7 @@
     "discount": 0.019232142857142826,
     "notified": false,
     "duplicate_of": "gs-shunbun:ebay:v1|177921839142|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784760683.8805597,
     "analysis_depth": "quick"
@@ -2004,6 +2044,7 @@
     "discount": -0.1354569230769231,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784760692.540195,
     "analysis_depth": "quick"
@@ -2053,6 +2094,7 @@
     "discount": -0.06642857142857143,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784760702.4334488,
     "analysis_depth": "quick"
@@ -2102,6 +2144,7 @@
     "discount": -0.0842,
     "notified": false,
     "duplicate_of": "gs-shunbun:ebay:v1|147344052256|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784760710.9331412,
     "analysis_depth": "quick"
@@ -2151,6 +2194,7 @@
     "discount": 0.039359615384615396,
     "notified": false,
     "duplicate_of": "gs-shunbun:ebay:v1|147410554351|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784760719.9137864,
     "analysis_depth": "quick"
@@ -2200,6 +2244,7 @@
     "discount": -0.06375,
     "notified": false,
     "duplicate_of": "gs-shunbun:ebay:v1|127968656290|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784760728.7338474,
     "analysis_depth": "quick"
@@ -2249,6 +2294,7 @@
     "discount": -0.05086206896551724,
     "notified": false,
     "duplicate_of": "gs-shunbun:ebay:v1|147344052256|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784760737.4016793,
     "analysis_depth": "quick"
@@ -2298,6 +2344,7 @@
     "discount": -0.05333333333333334,
     "notified": false,
     "duplicate_of": "gs-shunbun:ebay:v1|147344052256|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784760745.9523861,
     "analysis_depth": "quick"
@@ -2347,6 +2394,7 @@
     "discount": null,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784760754.495478,
     "analysis_depth": "quick"
@@ -2396,6 +2444,7 @@
     "discount": -0.17,
     "notified": false,
     "duplicate_of": "gs-shunbun:ebay:v1|198386631131|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784760763.9505124,
     "analysis_depth": "quick"
@@ -2445,6 +2494,7 @@
     "discount": -2.6521290702857086e-05,
     "notified": false,
     "duplicate_of": "gs-shunbun:ebay:v1|147450582247|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784760771.4605591,
     "analysis_depth": "quick"
@@ -2494,6 +2544,7 @@
     "discount": -0.0515,
     "notified": false,
     "duplicate_of": "gs-shunbun:ebay:v1|147344052256|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784842778.1876428,
     "analysis_depth": "quick"
@@ -2543,6 +2594,7 @@
     "discount": -0.0588,
     "notified": false,
     "duplicate_of": "gs-shunbun:ebay:v1|188674313920|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784842785.3253043,
     "analysis_depth": "quick"
@@ -2592,6 +2644,7 @@
     "discount": -0.07611111111111112,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784842791.907109,
     "analysis_depth": "quick"
@@ -2641,6 +2694,7 @@
     "discount": -1.0096153846153846,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784880031.1351352,
     "analysis_depth": "quick"
@@ -2690,6 +2744,7 @@
     "discount": -0.3,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784880039.5359728,
     "analysis_depth": "quick"
@@ -2739,6 +2794,7 @@
     "discount": -0.11724137931034483,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784880048.0484388,
     "analysis_depth": "quick"
@@ -2788,6 +2844,7 @@
     "discount": -0.104,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784880056.226437,
     "analysis_depth": "quick"
@@ -2837,6 +2894,7 @@
     "discount": -1.019047619047619,
     "notified": false,
     "duplicate_of": "gs-shunbun:ebay:v1|377194485493|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784880065.1155834,
     "analysis_depth": "quick"
@@ -2886,6 +2944,7 @@
     "discount": -1.0595238095238095,
     "notified": false,
     "duplicate_of": "gs-shunbun:ebay:v1|176013474678|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784880072.9419408,
     "analysis_depth": "quick"
@@ -2935,6 +2994,7 @@
     "discount": -0.0825,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784916387.1377733,
     "analysis_depth": "quick"
@@ -2947,7 +3007,7 @@
       "category": "watches",
       "title": "Vintage Omega Constellation C-Shape 168.027 Cal 564 Gold Box 36mm Gerald Genta",
       "url": "https://www.ebay.com/itm/206437713862?_skw=Omega+Constellation+vintage+Omega+Constellation+Gerald+Genta+Constellation+unpolished+Constellation+Omega+Constellation+vintage+unpolished+Genta+design+Omega&hash=item3010a587c6:g:xwEAAeSw6Z5qYzaN",
-      "price": 1399.0,
+      "price": 1189.15,
       "shipping_price": 0.0,
       "currency": "USD",
       "image_url": "https://i.ebayimg.com/images/g/xwEAAeSw6Z5qYzaN/s-l225.jpg",
@@ -2997,7 +3057,7 @@
       "demand_tier": "Medium",
       "demand_reasoning": "Omega Constellation is a recognized, collectible vintage line with steady demand, especially C-shape/Genta design cases, but it doesn't command the intense demand of Speedmaster or top-tier Rolex vintage models."
     },
-    "deal_score": 7,
+    "deal_score": 21,
     "liquidity": {
       "rating": "Low",
       "comparable_count": 1,
@@ -3005,10 +3065,11 @@
       "claude_tier": "Medium",
       "reasoning": "Algorithmic signal: 1 comparable listing(s) seen in the lookback window -> Low. Claude's qualitative read: Medium (Omega Constellation is a recognized, collectible vintage line with steady demand, especially C-shape/Genta design cases, but it doesn't command the intense demand of Speedmaster or top-tier Rolex vintage models.). Final rating uses the more conservative of the two: Low."
     },
-    "all_in_price": 1399.0,
-    "discount": 0.06733333333333333,
-    "notified": false,
+    "all_in_price": 1189.15,
+    "discount": 0.20723333333333327,
+    "notified": true,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [
       {
         "question": "Is the crown likely original given only one photo is available?",
@@ -3105,6 +3166,7 @@
     "discount": 0.06666666666666667,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784923357.509447,
     "analysis_depth": "quick"
@@ -3163,6 +3225,7 @@
     "discount": -0.4,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784923369.4892619,
     "analysis_depth": "quick"
@@ -3221,6 +3284,7 @@
     "discount": -0.12857142857142856,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784923391.064519,
     "analysis_depth": "quick"
@@ -3286,6 +3350,7 @@
     "discount": -0.02605263157894731,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784923379.5902483,
     "analysis_depth": "quick"
@@ -3344,6 +3409,7 @@
     "discount": 0.10041666666666667,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784923401.1311812,
     "analysis_depth": "quick"
@@ -3400,6 +3466,7 @@
     "discount": -0.15982857142857143,
     "notified": false,
     "duplicate_of": "Omega Constellation:ebay:v1|147458628667|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784923410.7541482,
     "analysis_depth": "quick"
@@ -3466,6 +3533,7 @@
     "discount": 0.014290476190476294,
     "notified": false,
     "duplicate_of": "Omega Constellation:ebay:v1|327271833675|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784923421.6629982,
     "analysis_depth": "quick"
@@ -3479,7 +3547,7 @@
       "title": "VINTAGE Omega Constellation Cal.561 Pie-Pan Date Gold Automatic Men Watch JAPAN",
       "url": "https://www.ebay.com/itm/178336353112?_skw=vintage+Omega+Constellation&hash=item2985accb58:g:-10AAeSw4vpp~YCd",
       "price": 2399.99,
-      "shipping_price": 480.0,
+      "shipping_price": 35.0,
       "currency": "USD",
       "image_url": "https://i.ebayimg.com/images/g/-10AAeSw4vpp~YCd/s-l225.jpg",
       "image_urls": [
@@ -3517,7 +3585,7 @@
       "demand_tier": "High",
       "demand_reasoning": "Omega Constellation is a well-recognized, collected vintage model line with strong sustained demand, especially pie-pan dial examples."
     },
-    "deal_score": -20,
+    "deal_score": -1,
     "liquidity": {
       "rating": "High",
       "comparable_count": 1256,
@@ -3525,10 +3593,11 @@
       "claude_tier": "High",
       "reasoning": "Algorithmic signal: 1256 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Omega Constellation is a well-recognized, collected vintage model line with strong sustained demand, especially pie-pan dial examples.). Final rating uses the more conservative of the two: High."
     },
-    "all_in_price": 2879.99,
-    "discount": -0.19999583333333323,
+    "all_in_price": 2434.99,
+    "discount": -0.014579166666666575,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784923442.0009053,
     "analysis_depth": "quick"
@@ -3587,6 +3656,7 @@
     "discount": -0.05262105263157896,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784923430.8281507,
     "analysis_depth": "quick"
@@ -3647,6 +3717,7 @@
     "discount": 0.08214285714285714,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784923462.2972908,
     "analysis_depth": "quick"
@@ -3720,6 +3791,7 @@
     "discount": -0.1076923076923077,
     "notified": false,
     "duplicate_of": "Omega Constellation:ebay:v1|206437713862|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784923471.474557,
     "analysis_depth": "quick"
@@ -3732,7 +3804,7 @@
       "category": "watches",
       "title": "\u3010Box\u3011Omega Constellation 396.1080 Rare Cal.1441 Gold Steel Quartz Mens Works #87",
       "url": "https://www.ebay.com/itm/178332716433?_skw=vintage+Omega+Constellation&hash=item2985754d91:g:IOUAAeSwwSZp70g2",
-      "price": 740.0,
+      "price": 759.99,
       "shipping_price": 155.0,
       "currency": "USD",
       "image_url": "https://i.ebayimg.com/images/g/IOUAAeSwwSZp70g2/s-l225.jpg",
@@ -3773,7 +3845,7 @@
       "demand_tier": "Medium",
       "demand_reasoning": "Omega Constellation is a well-recognized, desirable vintage line, but this particular quartz two-tone reference is one of the more common and lower-demand variants compared to earlier automatic pie-pan models, keeping demand moderate rather than high."
     },
-    "deal_score": -19,
+    "deal_score": -22,
     "liquidity": {
       "rating": "Medium",
       "comparable_count": 1256,
@@ -3781,10 +3853,11 @@
       "claude_tier": "Medium",
       "reasoning": "Algorithmic signal: 1256 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Omega Constellation is a well-recognized, desirable vintage line, but this particular quartz two-tone reference is one of the more common and lower-demand variants compared to earlier automatic pie-pan models, keeping demand moderate rather than high.). Final rating uses the more conservative of the two: Medium."
     },
-    "all_in_price": 895.0,
-    "discount": -0.19333333333333333,
+    "all_in_price": 914.99,
+    "discount": -0.2199866666666667,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784923543.8751616,
     "analysis_depth": "quick"
@@ -3851,6 +3924,7 @@
     "discount": -0.38999,
     "notified": false,
     "duplicate_of": "Omega Constellation:ebay:v1|287462786508|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784923452.0931044,
     "analysis_depth": "quick"
@@ -3919,6 +3993,7 @@
     "discount": -0.299,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784923493.4950407,
     "analysis_depth": "quick"
@@ -3986,6 +4061,7 @@
     "discount": -0.09499,
     "notified": false,
     "duplicate_of": "Omega Constellation:ebay:v1|287462786508|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784923503.19689,
     "analysis_depth": "quick"
@@ -4047,6 +4123,7 @@
     "discount": -0.3332222222222223,
     "notified": false,
     "duplicate_of": "Omega Constellation:ebay:v1|227403652450|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784923530.898095,
     "analysis_depth": "quick"
@@ -4113,6 +4190,7 @@
     "discount": 0.02669333333333331,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784923515.0999832,
     "analysis_depth": "quick"
@@ -4185,6 +4263,7 @@
     "discount": -0.2857142857142857,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784923554.3209112,
     "analysis_depth": "quick"
@@ -4254,6 +4333,7 @@
     "discount": -0.046,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784923574.5972803,
     "analysis_depth": "quick"
@@ -4322,6 +4402,7 @@
     "discount": 0.059095454545454645,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784923565.0894804,
     "analysis_depth": "quick"
@@ -4381,6 +4462,7 @@
     "discount": 0.11864583333333334,
     "notified": false,
     "duplicate_of": "Omega Constellation:ebay:v1|147412628359|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784923594.459761,
     "analysis_depth": "quick"
@@ -4437,6 +4519,7 @@
     "discount": -0.4444444444444444,
     "notified": false,
     "duplicate_of": "Omega Constellation:ebay:v1|327258710551|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784923617.1649678,
     "analysis_depth": "quick"
@@ -4501,6 +4584,7 @@
     "discount": -0.13383750000000005,
     "notified": false,
     "duplicate_of": "Omega Constellation:ebay:v1|227339981439|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784924794.3231118,
     "analysis_depth": "quick"
@@ -4557,6 +4641,7 @@
     "discount": 0.16666666666666666,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784923584.3254151,
     "analysis_depth": "quick"
@@ -4621,6 +4706,7 @@
     "discount": -0.12630526315789475,
     "notified": false,
     "duplicate_of": "Omega Constellation:ebay:v1|800277847373|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784923606.7463455,
     "analysis_depth": "quick"
@@ -4680,6 +4766,7 @@
     "discount": -1.1714214285714284,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784924806.2022154,
     "analysis_depth": "quick"
@@ -4737,6 +4824,7 @@
     "discount": -0.2636363636363636,
     "notified": false,
     "duplicate_of": "Omega Constellation:ebay:v1|177739397298|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784923627.6427436,
     "analysis_depth": "quick"
@@ -4803,6 +4891,7 @@
     "discount": -0.5818,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784923653.9838011,
     "analysis_depth": "quick"
@@ -4859,6 +4948,7 @@
     "discount": -0.0908909090909091,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784923687.1339498,
     "analysis_depth": "quick"
@@ -4925,6 +5015,7 @@
     "discount": -0.13331111111111113,
     "notified": false,
     "duplicate_of": "Omega Constellation:ebay:v1|307083492557|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784923768.436603,
     "analysis_depth": "quick"
@@ -4995,6 +5086,7 @@
     "discount": -0.36841052631578947,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784923667.0040255,
     "analysis_depth": "quick"
@@ -5051,6 +5143,7 @@
     "discount": -0.15383846153846154,
     "notified": false,
     "duplicate_of": "Omega Constellation:ebay:v1|206437713862|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784923703.6093283,
     "analysis_depth": "quick"
@@ -5112,6 +5205,7 @@
     "discount": 0.005555555555555556,
     "notified": false,
     "duplicate_of": "Omega Constellation:ebay:v1|800277847373|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784923639.8227243,
     "analysis_depth": "quick"
@@ -5177,6 +5271,7 @@
     "discount": -0.5108888888888888,
     "notified": false,
     "duplicate_of": "Omega Constellation:ebay:v1|358828515665|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784923725.028126,
     "analysis_depth": "quick"
@@ -5233,6 +5328,7 @@
     "discount": -0.19023809523809523,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784923851.5907965,
     "analysis_depth": "quick"
@@ -5288,6 +5384,7 @@
     "discount": 0.03884615384615384,
     "notified": false,
     "duplicate_of": "Omega Constellation:ebay:v1|178336353112|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784923714.7815423,
     "analysis_depth": "quick"
@@ -5344,6 +5441,7 @@
     "discount": 0.02631578947368421,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784923748.7558448,
     "analysis_depth": "quick"
@@ -5407,6 +5505,7 @@
     "discount": -0.2727090909090909,
     "notified": false,
     "duplicate_of": "Omega Constellation:ebay:v1|177739397298|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784923778.4735394,
     "analysis_depth": "quick"
@@ -5472,6 +5571,7 @@
     "discount": -0.12940000000000002,
     "notified": false,
     "duplicate_of": "Omega Constellation:ebay:v1|206408161085|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784923821.1767294,
     "analysis_depth": "quick"
@@ -5540,6 +5640,7 @@
     "discount": 0.14285714285714285,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784923737.1133156,
     "analysis_depth": "quick"
@@ -5612,6 +5713,7 @@
     "discount": -0.03653846153846154,
     "notified": false,
     "duplicate_of": "Omega Constellation:ebay:v1|178336353112|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784923789.230009,
     "analysis_depth": "quick"
@@ -5672,6 +5774,7 @@
     "discount": 0.02273181818181828,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784923758.1973116,
     "analysis_depth": "quick"
@@ -5735,6 +5838,7 @@
     "discount": -0.031578947368421054,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784923800.423219,
     "analysis_depth": "quick"
@@ -5797,6 +5901,7 @@
     "discount": -0.6888666666666667,
     "notified": false,
     "duplicate_of": "Omega Constellation:ebay:v1|358828515665|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784923235.8536608,
     "analysis_depth": "quick"
@@ -5858,6 +5963,7 @@
     "discount": -0.35642857142857143,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784923841.142549,
     "analysis_depth": "quick"
@@ -5922,6 +6028,7 @@
     "discount": -0.07140000000000003,
     "notified": false,
     "duplicate_of": "Omega Constellation:ebay:v1|358828515665|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784924816.5076897,
     "analysis_depth": "quick"
@@ -5976,6 +6083,7 @@
     "discount": -0.22,
     "notified": false,
     "duplicate_of": "Omega Constellation:ebay:v1|206437713862|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784923831.7223296,
     "analysis_depth": "quick"
@@ -6038,6 +6146,7 @@
     "discount": -0.12497500000000002,
     "notified": false,
     "duplicate_of": "Omega Constellation:ebay:v1|307083492557|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784923283.3084393,
     "analysis_depth": "quick"
@@ -6103,6 +6212,7 @@
     "discount": 0.07274545454545453,
     "notified": false,
     "duplicate_of": "Omega Constellation:ebay:v1|307083492557|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784924837.812373,
     "analysis_depth": "quick"
@@ -6165,6 +6275,7 @@
     "discount": -0.2727090909090909,
     "notified": false,
     "duplicate_of": "Omega Constellation:ebay:v1|177739397298|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784923482.229802,
     "analysis_depth": "quick"
@@ -6231,6 +6342,7 @@
     "discount": -0.022200000000000022,
     "notified": false,
     "duplicate_of": "Omega Constellation:ebay:v1|307083492557|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784923676.7973256,
     "analysis_depth": "quick"
@@ -6294,6 +6406,7 @@
     "discount": 0.15384615384615385,
     "notified": false,
     "duplicate_of": "Omega Constellation:ebay:v1|800277847373|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784923810.1689157,
     "analysis_depth": "quick"
@@ -6365,6 +6478,7 @@
     "discount": -0.21875,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784923862.0325298,
     "analysis_depth": "quick"
@@ -6431,6 +6545,7 @@
     "discount": -0.14543636363636364,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784923873.1272857,
     "analysis_depth": "quick"
@@ -6505,6 +6620,7 @@
     "discount": 0.07142857142857142,
     "notified": false,
     "duplicate_of": "Omega Constellation:ebay:v1|206437713862|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784923884.0503454,
     "analysis_depth": "quick"
@@ -6563,6 +6679,7 @@
     "discount": -0.13,
     "notified": false,
     "duplicate_of": "Omega Constellation:ebay:v1|307069635425|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784923893.7810762,
     "analysis_depth": "quick"
@@ -6622,6 +6739,7 @@
     "discount": 0.02631578947368421,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784923928.7248735,
     "analysis_depth": "quick"
@@ -6690,6 +6808,7 @@
     "discount": -0.16250526315789485,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784923941.5108767,
     "analysis_depth": "quick"
@@ -6746,6 +6865,7 @@
     "discount": -0.054959090909090846,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784923954.1929767,
     "analysis_depth": "quick"
@@ -6804,6 +6924,7 @@
     "discount": -0.2268181818181818,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784923965.3845677,
     "analysis_depth": "quick"
@@ -6865,6 +6986,7 @@
     "discount": 0.18181818181818182,
     "notified": false,
     "duplicate_of": "seiko willard:ebay:v1|336662826671|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784923977.4409928,
     "analysis_depth": "quick"
@@ -6921,6 +7043,7 @@
     "discount": -0.25,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784923988.6014328,
     "analysis_depth": "quick"
@@ -6983,6 +7106,7 @@
     "discount": -0.21427857142857143,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784924000.6800451,
     "analysis_depth": "quick"
@@ -7045,6 +7169,7 @@
     "discount": -1.2857,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784924013.10058,
     "analysis_depth": "quick"
@@ -7118,6 +7243,7 @@
     "discount": 0.0953125,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784924025.3047063,
     "analysis_depth": "quick"
@@ -7175,6 +7301,7 @@
     "discount": -7.7375,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784924038.3058274,
     "analysis_depth": "quick"
@@ -7235,6 +7362,7 @@
     "discount": -0.16884615384615384,
     "notified": false,
     "duplicate_of": "seiko willard:ebay:v1|157944536004|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784924050.0011694,
     "analysis_depth": "quick"
@@ -7292,6 +7420,7 @@
     "discount": -0.4278571428571429,
     "notified": false,
     "duplicate_of": "seiko willard:ebay:v1|336662826671|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784924061.780381,
     "analysis_depth": "quick"
@@ -7352,6 +7481,7 @@
     "discount": -0.2375,
     "notified": false,
     "duplicate_of": "seiko willard:ebay:v1|137490030042|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784924078.9095438,
     "analysis_depth": "quick"
@@ -7412,6 +7542,7 @@
     "discount": -0.36318181818181816,
     "notified": false,
     "duplicate_of": "seiko willard:ebay:v1|157944536004|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784924093.146671,
     "analysis_depth": "quick"
@@ -7470,6 +7601,7 @@
     "discount": -0.10714285714285714,
     "notified": false,
     "duplicate_of": "seiko willard:ebay:v1|157944536004|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784924105.2211604,
     "analysis_depth": "quick"
@@ -7542,6 +7674,7 @@
     "discount": -6.743333333333333,
     "notified": false,
     "duplicate_of": "seiko willard:ebay:v1|227414878548|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784924117.806508,
     "analysis_depth": "quick"
@@ -7595,6 +7728,7 @@
     "discount": -0.06666666666666667,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784924129.2640872,
     "analysis_depth": "quick"
@@ -7647,6 +7781,7 @@
     "discount": -0.07692307692307693,
     "notified": false,
     "duplicate_of": "seiko willard:ebay:v1|157944536004|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784924140.7921531,
     "analysis_depth": "quick"
@@ -7708,6 +7843,7 @@
     "discount": -0.11503999999999996,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784924151.6037781,
     "analysis_depth": "quick"
@@ -7773,6 +7909,7 @@
     "discount": -0.2887611111111111,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784924164.7296617,
     "analysis_depth": "quick"
@@ -7829,6 +7966,7 @@
     "discount": -0.4757444444444445,
     "notified": false,
     "duplicate_of": "seiko willard:ebay:v1|157435466721|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784924178.2577527,
     "analysis_depth": "quick"
@@ -7898,6 +8036,7 @@
     "discount": -0.5057868421052631,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784924191.1481142,
     "analysis_depth": "quick"
@@ -7957,6 +8096,7 @@
     "discount": -0.6666624999999999,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784924205.3814194,
     "analysis_depth": "quick"
@@ -8014,6 +8154,7 @@
     "discount": -0.15384615384615385,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784924216.50878,
     "analysis_depth": "quick"
@@ -8067,6 +8208,7 @@
     "discount": -0.3888888888888889,
     "notified": false,
     "duplicate_of": "seiko willard:ebay:v1|157944536004|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784924229.2352507,
     "analysis_depth": "quick"
@@ -8122,6 +8264,7 @@
     "discount": -11.7424,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784924240.0946388,
     "analysis_depth": "quick"
@@ -8178,6 +8321,7 @@
     "discount": -0.5622222222222222,
     "notified": false,
     "duplicate_of": "seiko willard:ebay:v1|196069699243|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784924252.2802396,
     "analysis_depth": "quick"
@@ -8241,6 +8385,7 @@
     "discount": -0.2222,
     "notified": false,
     "duplicate_of": "Omega Constellation:ebay:v1|307083492557|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784924827.5274205,
     "analysis_depth": "quick"
@@ -8304,6 +8449,7 @@
     "discount": -0.01221111111111112,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784924945.4401672,
     "analysis_depth": "quick"
@@ -8370,6 +8516,7 @@
     "discount": -0.03958333333333333,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784924954.7968147,
     "analysis_depth": "quick"
@@ -8432,6 +8579,7 @@
     "discount": -0.008781249999999971,
     "notified": false,
     "duplicate_of": "Omega Constellation:ebay:v1|178308248607|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784924964.0545676,
     "analysis_depth": "quick"
@@ -8486,6 +8634,7 @@
     "discount": -0.03571428571428571,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784924973.6604955,
     "analysis_depth": "quick"
@@ -8551,6 +8700,7 @@
     "discount": 0.001000000000000048,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784924984.0260842,
     "analysis_depth": "quick"
@@ -8615,6 +8765,7 @@
     "discount": -0.07119047619047619,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784936084.1938658,
     "analysis_depth": "quick"
@@ -8670,6 +8821,7 @@
     "discount": -9.579691054954765e-06,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784936092.8171759,
     "analysis_depth": "quick"
@@ -8728,6 +8880,7 @@
     "discount": -0.046,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784926623.2037861,
     "analysis_depth": "quick"
@@ -8786,6 +8939,7 @@
     "discount": -0.04619565217391304,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784936102.320638,
     "analysis_depth": "quick"
@@ -8840,6 +8994,7 @@
     "discount": -0.1346153846153846,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784936123.342681,
     "analysis_depth": "quick"
@@ -8898,6 +9053,7 @@
     "discount": -0.08333333333333333,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784936112.55758,
     "analysis_depth": "quick"
@@ -8956,6 +9112,7 @@
     "discount": -0.054194444444444545,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784936133.6522074,
     "analysis_depth": "quick"
@@ -9020,6 +9177,7 @@
     "discount": -0.10721153846153846,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784936142.7680473,
     "analysis_depth": "quick"
@@ -9082,6 +9240,7 @@
     "discount": 0.0,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784936152.3546636,
     "analysis_depth": "quick"
@@ -9146,6 +9305,7 @@
     "discount": -0.05231578947368421,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784936161.823083,
     "analysis_depth": "quick"
@@ -9204,6 +9364,7 @@
     "discount": -0.5357142857142857,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784936172.8018258,
     "analysis_depth": "quick"
@@ -9266,6 +9427,7 @@
     "discount": -0.4830105263157896,
     "notified": false,
     "duplicate_of": "shunbun:ebay:v1|358837389584|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784936181.9723737,
     "analysis_depth": "quick"
@@ -9324,6 +9486,7 @@
     "discount": -0.18098214285714287,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784936191.2665825,
     "analysis_depth": "quick"
@@ -9382,6 +9545,7 @@
     "discount": 0.04411764705882353,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784936210.6266706,
     "analysis_depth": "quick"
@@ -9441,6 +9605,7 @@
     "discount": -0.027557692307692283,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784936221.0001316,
     "analysis_depth": "quick"
@@ -9496,6 +9661,7 @@
     "discount": -0.03787878787878788,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784936230.2265198,
     "analysis_depth": "quick"
@@ -9566,6 +9732,7 @@
     "discount": -0.002055555555555623,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784936200.930373,
     "analysis_depth": "quick"
@@ -9627,6 +9794,7 @@
     "discount": 0.008066129032258099,
     "notified": false,
     "duplicate_of": "shunbun:ebay:v1|127970429854|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784936239.4871478,
     "analysis_depth": "quick"
@@ -9691,6 +9859,7 @@
     "discount": -0.19520000000000007,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784936248.3299613,
     "analysis_depth": "quick"
@@ -9751,6 +9920,7 @@
     "discount": -0.04583333333333333,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784934405.9554987,
     "analysis_depth": "quick"
@@ -9811,6 +9981,7 @@
     "discount": -0.22666666666666666,
     "notified": false,
     "duplicate_of": "Omega Constellation:ebay:v1|178332716433|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784934414.5453517,
     "analysis_depth": "quick"
@@ -9867,6 +10038,7 @@
     "discount": 0.09091363636363636,
     "notified": false,
     "duplicate_of": "Omega Constellation:ebay:v1|327271833675|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784934423.3627691,
     "analysis_depth": "quick"
@@ -9928,6 +10100,7 @@
     "discount": 0.0009090909090909091,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784934534.6206,
     "analysis_depth": "quick"
@@ -9986,6 +10159,7 @@
     "discount": -0.2777777777777778,
     "notified": false,
     "duplicate_of": "Omega Constellation:ebay:v1|307069635425|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784935995.3094387,
     "analysis_depth": "quick"
@@ -10037,6 +10211,7 @@
     "discount": -7.773000000000001,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784936255.305016,
     "analysis_depth": "quick"
@@ -10095,6 +10270,7 @@
     "discount": -0.01280555555555553,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784936264.9012995,
     "analysis_depth": "quick"
@@ -10148,6 +10324,7 @@
     "discount": -0.26666666666666666,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784936365.2816415,
     "analysis_depth": "quick"
@@ -10208,6 +10385,7 @@
     "discount": -1.4607692307692306,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784936374.1241663,
     "analysis_depth": "quick"
@@ -10268,6 +10446,7 @@
     "discount": -2.799777777777778,
     "notified": false,
     "duplicate_of": "vostok:ebay:v1|202716530031|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784936383.641889,
     "analysis_depth": "quick"
@@ -10328,6 +10507,7 @@
     "discount": -1.2659999999999998,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784936391.837624,
     "analysis_depth": "quick"
@@ -10381,6 +10561,7 @@
     "discount": -0.936857142857143,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784936401.840579,
     "analysis_depth": "quick"
@@ -10433,6 +10614,7 @@
     "discount": -2.448222222222222,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784936411.8734076,
     "analysis_depth": "quick"
@@ -10486,6 +10668,7 @@
     "discount": -2.0833333333333335,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784936425.287816,
     "analysis_depth": "quick"
@@ -10543,6 +10726,7 @@
     "discount": -1.8571428571428572,
     "notified": false,
     "duplicate_of": "vostok:ebay:v1|377367812715|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784936437.0684032,
     "analysis_depth": "quick"
@@ -10604,6 +10788,7 @@
     "discount": -0.5383076923076923,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784936447.4477541,
     "analysis_depth": "quick"
@@ -10658,6 +10843,7 @@
     "discount": -0.8888888888888888,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784936457.650937,
     "analysis_depth": "quick"
@@ -10713,6 +10899,7 @@
     "discount": -2.0,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784936467.4770057,
     "analysis_depth": "quick"
@@ -10765,6 +10952,7 @@
     "discount": -1.7272727272727273,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784936479.9710257,
     "analysis_depth": "quick"
@@ -10826,6 +11014,7 @@
     "discount": 0.0013157894736842105,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784936490.4069073,
     "analysis_depth": "quick"
@@ -10888,6 +11077,7 @@
     "discount": -1.2659999999999998,
     "notified": false,
     "duplicate_of": "vostok:ebay:v1|202716530031|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784936500.2071245,
     "analysis_depth": "quick"
@@ -10947,6 +11137,7 @@
     "discount": -0.3631818181818181,
     "notified": false,
     "duplicate_of": "vostok:ebay:v1|202716530031|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784936509.869857,
     "analysis_depth": "quick"
@@ -11002,6 +11193,7 @@
     "discount": -1.4659999999999997,
     "notified": false,
     "duplicate_of": "vostok:ebay:v1|202716530031|0",
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784936520.5204587,
     "analysis_depth": "quick"
@@ -11056,6 +11248,7 @@
     "discount": -1.2221666666666666,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784936532.9098547,
     "analysis_depth": "quick"
@@ -11111,6 +11304,7 @@
     "discount": -2.088888888888889,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784936544.4832304,
     "analysis_depth": "quick"
@@ -11162,6 +11356,7 @@
     "discount": -1.1111111111111112,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784936552.91138,
     "analysis_depth": "quick"
@@ -11219,8 +11414,2109 @@
     "discount": -1.4444444444444444,
     "notified": false,
     "duplicate_of": null,
+    "dismissed": false,
     "qa_history": [],
     "created_at": 1784936564.2437432,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "Omega Constellation:ebay:v1|398205070933|0",
+    "listing": {
+      "id": "ebay:v1|398205070933|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "OMEGA Diamond Constellation My Choice 22mm Mother of Pearl w/ box 1465.71",
+      "url": "https://www.ebay.com/itm/398205070933?_skw=Omega+Constellation&hash=item5cb6df2e55:g:sAsAAeSwAY9qYT~l",
+      "price": 1350.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/sAsAAeSwAY9qYT~l/s-l225.jpg",
+      "image_urls": [],
+      "body": "OMEGA Diamond Constellation My Choice 22mm Mother of Pearl w/ box 1465.71",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "Omega Constellation",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Hunter's criteria specify only brand 'Omega' and model 'Constellation' with no specific reference number required, so this Constellation \"My Choice\" model (ref 1465.71) qualifies as a match under the generic model criteria.",
+      "estimated_value": 1100.0,
+      "confidence": 0.45,
+      "condition_summary": "Ladies stainless steel Constellation My Choice with mother-of-pearl diamond dial, shown on a single photo with box; visible surface appears clean but bracelet/case wear cannot be fully assessed from one image.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only one photo provided, no close-up of caseback, serial number, or clasp hallmarks to verify authenticity; box shown but no papers. Price seems roughly in line with market so not a glaring red flag, but lack of detailed photos (movement, serial, hallmarks) is a caution point for a diamond-set model prone to counterfeiting.",
+      "rarity_notes": "The My Choice 1465.71 is a fairly common ladies Constellation variant from the 1990s/2000s, not particularly rare, though diamond bezel/dial versions carry a premium over base models.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Omega Constellation is a well-recognized line with solid demand, but this specific diamond ladies variant has a smaller buyer pool than men's steel/gold Constellation models, keeping demand moderate rather than high."
+    },
+    "deal_score": -23,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 7330,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 7330 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Omega Constellation is a well-recognized line with solid demand, but this specific diamond ladies variant has a smaller buyer pool than men's steel/gold Constellation models, keeping demand moderate rather than high.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 1350.0,
+    "discount": -0.22727272727272727,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1784938551.498753,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "Omega Constellation:ebay:v1|257615031671|0",
+    "listing": {
+      "id": "ebay:v1|257615031671|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "OMEGA WATCH CONSTELLATION 1431 (SH3034702)",
+      "url": "https://www.ebay.com/itm/257615031671?_skw=Omega+Constellation&hash=item3bfb0d6d77:g:EpwAAeSwhZ9qUBAh",
+      "price": 799.99,
+      "shipping_price": 10.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/EpwAAeSwhZ9qUBAh/s-l225.jpg",
+      "image_urls": [],
+      "body": "OMEGA WATCH CONSTELLATION 1431 (SH3034702)",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Fair"
+      }
+    },
+    "watch_item_id": "Omega Constellation",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Hunter's criteria only specify brand Omega and model Constellation with no specific reference number required, so this listing (an Omega Constellation, reference 1431) satisfies the stated criteria at the model-family level.",
+      "estimated_value": 450.0,
+      "confidence": 0.3,
+      "condition_summary": "Watch appears to be a quartz-era Constellation (reference-style numbering like 1431 suggests 1980s quartz model) with visible surface wear on the case and bracelet; exact condition (working order, scratches, crystal condition) cannot be confirmed from the single low-resolution photo.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only one photo shown, no close-up of case back, movement, or serial number to verify authenticity against the \"1431\" reference cited in the title. Dial logo and text are too blurry to confirm printing quality/font typical of genuine Omega pieces. No box/papers shown or mentioned. Listing text is minimal (essentially just a restated title with no description of condition, movement, or history), which is itself a mild red flag for a $800+ item.",
+      "rarity_notes": "The 1431 reference corresponds to a 1980s quartz Constellation, which was produced in larger numbers than earlier automatic chronometer models and is relatively common on the secondary market, not a rare or limited variant.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Omega as a brand and Constellation as a line have strong recognition and steady collector interest, though this specific quartz-era reference is less sought after than vintage pie-pan or Manhattan models."
+    },
+    "deal_score": -80,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 7330,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 7330 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Omega as a brand and Constellation as a line have strong recognition and steady collector interest, though this specific quartz-era reference is less sought after than vintage pie-pan or Manhattan models.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 809.99,
+    "discount": -0.7999777777777778,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1784938560.2933443,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "shunbun:ebay:v1|257628839962|0",
+    "listing": {
+      "id": "ebay:v1|257628839962|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Grand Seiko High Beat 36000 Ginza Limited 2023 Model with original box and paper",
+      "url": "https://www.ebay.com/itm/257628839962?_skw=Grand+Seiko+Shunbun&hash=item3bfbe0201a:g:PMYAAeSwihxqXAzN",
+      "price": 5099.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/PMYAAeSwihxqXAzN/s-l225.jpg",
+      "image_urls": [],
+      "body": "Grand Seiko High Beat 36000 Ginza Limited 2023 Model with original box and paper",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "shunbun",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The hunter specifically wants the Grand Seiko \"Shunbun\" (Spring Equinox seasonal limited edition). This listing is a \"Grand Seiko High Beat 36000 Ginza Limited 2023 Model,\" a completely different limited edition/model line. Not a match regardless of brand overlap.",
+      "estimated_value": 4200.0,
+      "confidence": 0.3,
+      "condition_summary": "Photo shows a blue-dial High Beat model with steel bracelet appearing lightly used/near mint, but only one stock-style photo provided with no close-ups of caseback, clasp, or papers.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only a single generic photo is shown despite claims of \"original box and paper\" - no box/papers actually pictured. No reference number given, making verification difficult. Price seems plausible for a High Beat Ginza limited but lack of documentation photos and vague title are mild red flags.",
+      "rarity_notes": "Ginza limited editions are boutique-exclusive and moderately rare, but this is a distinct product from the Shunbun seasonal series the hunter is seeking, so rarity of this specific item is irrelevant to the hunt.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Grand Seiko High Beat models have solid collector demand, but Ginza limiteds are more niche/regional releases compared to flagship references, and this isn't the model the hunter is targeting."
+    },
+    "deal_score": -21,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 853,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 853 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko High Beat models have solid collector demand, but Ginza limiteds are more niche/regional releases compared to flagship references, and this isn't the model the hunter is targeting.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 5099.0,
+    "discount": -0.21404761904761904,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1784938571.3967583,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "shunbun:ebay:v1|318608269888|0",
+    "listing": {
+      "id": "ebay:v1|318608269888|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "GRAND SEIKO SBGJ263 Green Dial Automatic Watch Auth Japan",
+      "url": "https://www.ebay.com/itm/318608269888?_skw=Grand+Seiko+Shunbun&hash=item4a2e886240:g:vV0AAeSwOKhqXbNu",
+      "price": 8175.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/vV0AAeSwOKhqXbNu/s-l225.jpg",
+      "image_urls": [],
+      "body": "GRAND SEIKO SBGJ263 Green Dial Automatic Watch Auth Japan",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "shunbun",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The hunter specifically wants the Grand Seiko \"Shunbun\" (Spring Equinox seasonal limited edition), but this listing is for the SBGJ263, a green dial GMT model that is a different reference entirely, not the Shunbun edition. Also the photo shows a white/silver dial watch, not green as claimed in the title, adding further mismatch concerns.",
+      "estimated_value": null,
+      "confidence": 0.2,
+      "condition_summary": "Watch appears to be presented in its box with a bracelet; the photo shows what looks like a silver/white dial rather than the green dial claimed in the title, and no close-up detail shots of the dial, case back, or papers are provided.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Discrepancy between the title (green dial) and the actual photo (appears white/silver dial) is a notable red flag. No visible papers, warranty card, or close-up serial/case-back shots to verify authenticity. Listing text is minimal with no description of condition, box/papers included, or provenance.",
+      "rarity_notes": "The actual Shunbun limited edition is a specific seasonal/limited release from Grand Seiko and is relatively hard to find; SBGJ263 is a separate, more regularly produced GMT reference and not part of that limited series.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Grand Seiko as a brand has strong recognition and demand, but this specific reference (SBGJ263) is not the sought-after Shunbun limited edition, so it doesn't carry the same collector premium the hunter is targeting."
+    },
+    "deal_score": 0,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 853,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 853 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko as a brand has strong recognition and demand, but this specific reference (SBGJ263) is not the sought-after Shunbun limited edition, so it doesn't carry the same collector premium the hunter is targeting.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 8175.0,
+    "discount": null,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1784938579.712321,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "shunbun:ebay:v1|257633934624|0",
+    "listing": {
+      "id": "ebay:v1|257633934624|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Grand Seiko 8N65-9010 Gold Dial Quartz 37mm Original Band Japan Used",
+      "url": "https://www.ebay.com/itm/257633934624?_skw=Grand+Seiko+Shunbun&hash=item3bfc2ddd20:g:WYkAAeSwN-lqXxaO",
+      "price": 1190.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/WYkAAeSwN-lqXxaO/s-l225.jpg",
+      "image_urls": [],
+      "body": "Grand Seiko 8N65-9010 Gold Dial Quartz 37mm Original Band Japan Used",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "shunbun",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The hunter is specifically seeking the Grand Seiko \"Shunbun\" (Spring Equinox) limited edition. This listing is a Grand Seiko 8N65-9010, a vintage quartz gold-dial model unrelated to the Shunbun line. Different model entirely, so it does not match despite being the same brand.",
+      "estimated_value": 550.0,
+      "confidence": 0.35,
+      "condition_summary": "Appears to be a used vintage quartz Grand Seiko with a gold-toned dial, steel case and bracelet; photo shows light wear consistent with age but no major visible damage.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "No obvious red flags in the single photo, but only one image is provided with no close-ups of caseback, movement, or serial number, limiting ability to verify authenticity.",
+      "rarity_notes": "Vintage 8N65 quartz models are fairly common on the secondary market from Japan and not considered rare or particularly collectible compared to modern mechanical Grand Seikos.",
+      "demand_tier": "Low",
+      "demand_reasoning": "Vintage quartz Grand Seiko models like the 8N65 have modest collector interest compared to mechanical Hi-Beat or Spring Drive models, and lack the special-edition appeal of the Shunbun."
+    },
+    "deal_score": -116,
+    "liquidity": {
+      "rating": "Low",
+      "comparable_count": 853,
+      "algorithmic_tier": "High",
+      "claude_tier": "Low",
+      "reasoning": "Algorithmic signal: 853 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Low (Vintage quartz Grand Seiko models like the 8N65 have modest collector interest compared to mechanical Hi-Beat or Spring Drive models, and lack the special-edition appeal of the Shunbun.). Final rating uses the more conservative of the two: Low."
+    },
+    "all_in_price": 1190.0,
+    "discount": -1.1636363636363636,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1784938586.2779467,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "shunbun:ebay:v1|318608269856|0",
+    "listing": {
+      "id": "ebay:v1|318608269856|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "GRAND SEIKO SGBP013 Silver Dial Quartz Watch Auth Japan",
+      "url": "https://www.ebay.com/itm/318608269856?_skw=Grand+Seiko+Shunbun&hash=item4a2e886220:g:6JsAAeSw4NdqXbNg",
+      "price": 3855.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/6JsAAeSw4NdqXbNg/s-l225.jpg",
+      "image_urls": [],
+      "body": "GRAND SEIKO SGBP013 Silver Dial Quartz Watch Auth Japan",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "shunbun",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The hunter specifically wants the Grand Seiko \"Shunbun\" (Spring Equinox) limited edition. This listing is for a SGBP013 Silver Dial Quartz model, an entirely different reference/model, so it does not match despite being the same brand.",
+      "estimated_value": 1800.0,
+      "confidence": 0.3,
+      "condition_summary": "Photo shows a standard steel-bracelet Grand Seiko quartz watch with blue/silver dial on a generic stand; condition appears used but no visible major damage. Listing text provides minimal detail (no mention of box/papers, wear, or serial).",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only one stock-like photo provided, no close-ups of caseback, movement, or papers to verify authenticity. Price seems high relative to typical resale for this reference without documented provenance, which is a mild red flag. No mention of box/papers included.",
+      "rarity_notes": "SGBP013 is a fairly common Grand Seiko quartz model, not a limited edition; it is unrelated to the rare Shunbun (Spring Equinox) seasonal limited edition the hunter is seeking.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Grand Seiko as a brand has strong demand, but standard quartz models like the SGBP013 are more common and less sought after than limited editions such as the Shunbun."
+    },
+    "deal_score": -114,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 853,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 853 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko as a brand has strong demand, but standard quartz models like the SGBP013 are more common and less sought after than limited editions such as the Shunbun.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 3855.0,
+    "discount": -1.1416666666666666,
+    "notified": false,
+    "duplicate_of": "shunbun:ebay:v1|358837266021|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1784938593.5134618,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "shunbun:ebay:v1|318608269871|0",
+    "listing": {
+      "id": "ebay:v1|318608269871|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "GRAND SEIKO 4J52-0AC0 Silver Dial Quartz Watch Auth Japan",
+      "url": "https://www.ebay.com/itm/318608269871?_skw=Grand+Seiko+Shunbun&hash=item4a2e88622f:g:1F4AAeSwMm1qXbPY",
+      "price": 1375.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/1F4AAeSwMm1qXbPY/s-l225.jpg",
+      "image_urls": [],
+      "body": "GRAND SEIKO 4J52-0AC0 Silver Dial Quartz Watch Auth Japan",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "shunbun",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Hunter specifically wants the Grand Seiko \"Shunbun\" (Spring Equinox) limited edition, likely a Spring Drive model (SBGA series). This listing is for a 4J52-0AC0 quartz movement women's/small silver dial watch, an entirely different model with no reference to Shunbun or the Spring Equinox limited edition line. Different model, does not match.",
+      "estimated_value": 700.0,
+      "confidence": 0.3,
+      "condition_summary": "Appears to be a smaller/ladies quartz Grand Seiko with silver dial and bracelet, shown on a generic stand; condition looks decent from the single photo but no close-ups of dial, case back, or clasp are provided.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only one low-detail stock-style photo on a generic watch stand; no close-ups of movement, case back, serial, or papers. No box/papers mentioned. Listing text is minimal (just repeats title), which is a mild red flag for a $1,375 luxury watch claim.",
+      "rarity_notes": "The 4J52-0AC0 is a common quartz Grand Seiko reference, not rare; it bears no relation to the Shunbun limited edition, which is a specific seasonal/limited Spring Drive release with distinct dial art and limited production numbers.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Grand Seiko as a brand has strong recognition and demand, but this particular quartz reference is a lower-tier, mass-produced model compared to the sought-after limited edition Shunbun, so demand for this specific piece is moderate at best."
+    },
+    "deal_score": -96,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 853,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 853 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko as a brand has strong recognition and demand, but this particular quartz reference is a lower-tier, mass-produced model compared to the sought-after limited edition Shunbun, so demand for this specific piece is moderate at best.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 1375.0,
+    "discount": -0.9642857142857143,
+    "notified": false,
+    "duplicate_of": "shunbun:ebay:v1|257633934624|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1784938601.8058543,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "shunbun:ebay:v1|318608269866|0",
+    "listing": {
+      "id": "ebay:v1|318608269866|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "GRAND SEIKO 9F62-0AB0 Silver Dial Quartz Watch Auth Japan",
+      "url": "https://www.ebay.com/itm/318608269866?_skw=Grand+Seiko+Shunbun&hash=item4a2e88622a:g:uysAAeSw6XlqXbPH",
+      "price": 3315.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/uysAAeSw6XlqXbPH/s-l225.jpg",
+      "image_urls": [],
+      "body": "GRAND SEIKO 9F62-0AB0 Silver Dial Quartz Watch Auth Japan",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "shunbun",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The hunter is seeking the specific Grand Seiko \"Shunbun\" (Spring Equinox) limited edition. This listing is a 9F62-0AB0 quartz model with a black dial (title says \"Silver Dial\" but photo shows black), which is a different, non-Shunbun reference. Different model within the same brand does not satisfy a named limited-edition requirement.",
+      "estimated_value": 2800.0,
+      "confidence": 0.35,
+      "condition_summary": "Photo shows a stainless steel Grand Seiko with black dial, applied indices, date window, appears lightly used with no major visible damage, but only one image provided.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Title claims \"Silver Dial\" but the photo clearly shows a black dial, a discrepancy that raises concern about listing accuracy or possibly a mismatched/stock photo. No box/papers shown, no close-up of caseback or serial number to verify authenticity.",
+      "rarity_notes": "The 9F62-0AB0 is a standard production Grand Seiko quartz model, not rare. It is unrelated to the Shunbun limited edition the hunter is seeking, which is a seasonal/limited release with distinct dial art and much higher rarity.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Grand Seiko as a brand has strong recognition and demand, but this particular reference is a common catalog model rather than a sought-after limited edition, so demand is moderate compared to the Shunbun the hunter wants."
+    },
+    "deal_score": -18,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 853,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 853 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko as a brand has strong recognition and demand, but this particular reference is a common catalog model rather than a sought-after limited edition, so demand is moderate compared to the Shunbun the hunter wants.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 3315.0,
+    "discount": -0.18392857142857144,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1784938612.4715707,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "shunbun:ebay:v1|188548025569|0",
+    "listing": {
+      "id": "ebay:v1|188548025569|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Grand Seiko Shunbun SBGA413G",
+      "url": "https://www.ebay.com/itm/188548025569?_skw=Grand+Seiko+Shunbun&hash=item2be6568ce1:g:kk0AAeSwtOZqOcc7",
+      "price": 6099.0,
+      "shipping_price": 5.58,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/kk0AAeSwtOZqOcc7/s-l225.jpg",
+      "image_urls": [],
+      "body": "Grand Seiko Shunbun SBGA413G",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "shunbun",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "The hunter is seeking the Grand Seiko Shunbun (Spring Equinox) limited edition, and the listing explicitly identifies the reference SBGA413G, which is the known Shunbun Spring Equinox model. This matches the specific named limited edition.",
+      "estimated_value": 6800.0,
+      "confidence": 0.45,
+      "condition_summary": "Photo shows the watch in its presentation box looking clean with no visible major wear, but only one angle is provided and no wrist shots, case-back, or close-ups of the dial/bracelet are shown to fully assess condition.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Listing text is extremely sparse - just the title repeated, no description of condition, box/papers contents, serial number, or purchase history. Only a single photo is provided (box shot), no close-ups of dial, movement, or hallmarks to verify authenticity. Price is notably below typical secondary market prices for this rare limited edition, which is a mild red flag given lack of supporting detail.",
+      "rarity_notes": "The Shunbun (Spring Equinox) SBGA413G is part of Grand Seiko's seasonal limited-edition Spring Drive series, produced in small numbers (typically limited to a few hundred pieces worldwide), making it a genuinely rare and sought-after reference.",
+      "demand_tier": "High",
+      "demand_reasoning": "Grand Seiko has strong collector demand, and limited-edition seasonal pieces like the Shunbun command premium interest and command a dedicated hunter base actively searching for this exact reference."
+    },
+    "deal_score": 10,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 853,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 853 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Grand Seiko has strong collector demand, and limited-edition seasonal pieces like the Shunbun command premium interest and command a dedicated hunter base actively searching for this exact reference.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 6104.58,
+    "discount": 0.10226764705882355,
+    "notified": false,
+    "duplicate_of": "shunbun:ebay:v1|267716772486|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1784938620.62448,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "shunbun:ebay:v1|327035539352|0",
+    "listing": {
+      "id": "ebay:v1|327035539352|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Grand Seiko Soko Frost SBGH295 Heritage Collection 40mm Men's Watch",
+      "url": "https://www.ebay.com/itm/327035539352?_skw=Grand+Seiko+Shunbun&hash=item4c24d64f98:g:ti8AAeSwHKppYyAb",
+      "price": 5595.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/ti8AAeSwHKppYyAb/s-l225.jpg",
+      "image_urls": [],
+      "body": "Grand Seiko Soko Frost SBGH295 Heritage Collection 40mm Men's Watch",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "shunbun",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The hunter specifically wants the Grand Seiko 'Shunbun' model, but this listing is for the SBGH295 'Soko Frost' Heritage Collection, a completely different named model/reference. Different named limited edition from the same brand does not count as a match.",
+      "estimated_value": 5200.0,
+      "confidence": 0.4,
+      "condition_summary": "Watch appears to be in good/lightly used condition based on photos, shown with both a leather strap and an included steel bracelet; no visible major wear in the images.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "No obvious red flags in the photos, but listing lacks detail on box/papers, serial number, or purchase history, and only two photos are provided which limits verification.",
+      "rarity_notes": "SBGH295 Soko Frost is a special/limited seasonal release itself, moderately sought after, but distinct from the Shunbun model the hunter is targeting.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Grand Seiko Heritage Collection special editions have solid collector demand, but are less iconic than core Snowflake/Shunbun lines, keeping demand moderate rather than high."
+    },
+    "deal_score": -8,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 853,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 853 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko Heritage Collection special editions have solid collector demand, but are less iconic than core Snowflake/Shunbun lines, keeping demand moderate rather than high.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 5595.0,
+    "discount": -0.07596153846153846,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1784938627.2010903,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "shunbun:ebay:v1|127984546301|0",
+    "listing": {
+      "id": "ebay:v1|127984546301|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "SEIKO Grand SEIKO Heritage Collection 40mm TI Grayish pink Dial SBGA413",
+      "url": "https://www.ebay.com/itm/127984546301?_skw=Grand+Seiko+Shunbun&hash=item1dcc7931fd:g:4zIAAeSw17BqXdX9",
+      "price": 5820.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/4zIAAeSw17BqXdX9/s-l225.jpg",
+      "image_urls": [],
+      "body": "SEIKO Grand SEIKO Heritage Collection 40mm TI Grayish pink Dial SBGA413",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "shunbun",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The hunter is specifically seeking the Grand Seiko \"Shunbun\" (Spring Equinox) limited edition. This listing is for the SBGA413 Heritage Collection Spring Drive with a grayish pink dial, a different model entirely - not the named Shunbun reference. Same brand/family but not the specific model requested, so this does not match.",
+      "estimated_value": 4800.0,
+      "confidence": 0.5,
+      "condition_summary": "Appears to be a standard production SBGA413 (Spring Drive, titanium/steel case) with grayish-pink dial; photo shows a clean, seemingly unworn or lightly worn watch on bracelet, but only one stock-like image provided with no close-up of case back, box, or papers.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "No obvious red flags in the single image, but there is minimal detail (no serial/case-back photo, no box/papers shown despite being a $5.8k item), and the price is somewhat above typical secondary market pricing for this reference, which could indicate a NOS/full-set claim not substantiated in the text.",
+      "rarity_notes": "SBGA413 is a regular catalog Heritage Collection Spring Drive model, not a limited edition - it is fairly available on the secondary market, unlike the true rare/limited Shunbun seasonal release the hunter wants.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Grand Seiko Spring Drive Heritage models have solid brand recognition and steady demand, but the SBGA413 is not as sought-after or scarce as a genuine limited-edition Shunbun piece."
+    },
+    "deal_score": -21,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 853,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 853 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko Spring Drive Heritage models have solid brand recognition and steady demand, but the SBGA413 is not as sought-after or scarce as a genuine limited-edition Shunbun piece.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 5820.0,
+    "discount": -0.2125,
+    "notified": false,
+    "duplicate_of": "shunbun:ebay:v1|327035539352|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1784938635.8037367,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "shunbun:ebay:v1|137536346803|0",
+    "listing": {
+      "id": "ebay:v1|137536346803|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Grand Seiko SBGF029 Textured White Dial Quartz 34.5mm Wristwatch - Mint",
+      "url": "https://www.ebay.com/itm/137536346803?_skw=Grand+Seiko+Shunbun&hash=item2005ce1ab3:g:Q~gAAeSwD-BqX2PC",
+      "price": 1349.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/Q~gAAeSwD-BqX2PC/s-l225.jpg",
+      "image_urls": [],
+      "body": "Grand Seiko SBGF029 Textured White Dial Quartz 34.5mm Wristwatch - Mint",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "shunbun",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The hunter is specifically seeking the Grand Seiko \"Shunbun\" (Spring Equinox) limited edition model. This listing is for the SBGF029, a different quartz model (textured white dial, 34.5mm), not the named Shunbun reference. A different model from the same brand does not satisfy a named limited-edition search.",
+      "estimated_value": 1300.0,
+      "confidence": 0.4,
+      "condition_summary": "Watch appears clean in the wrist photo with a textured white dial and tan leather strap; seller claims 'Mint' condition but only one photo is shown, no closeups of case back, box, or papers.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "Dial, hands, and case shape look consistent with genuine Grand Seiko SBGF029 styling; no obvious red flags, but limited photo angles (only one wrist shot) prevent verifying serial, case back engraving, or included box/papers.",
+      "rarity_notes": "SBGF029 is a standard quartz Grand Seiko model, not particularly rare or limited, and is unrelated to the Shunbun seasonal limited edition the hunter is seeking.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Grand Seiko has strong general brand recognition and demand, but this particular quartz reference is not a sought-after limited edition like the Shunbun, so demand is moderate rather than high."
+    },
+    "deal_score": -4,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 853,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 853 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko has strong general brand recognition and demand, but this particular quartz reference is not a sought-after limited edition like the Shunbun, so demand is moderate rather than high.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 1349.0,
+    "discount": -0.03769230769230769,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1784938643.0856378,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "shunbun:ebay:v1|147421653650|0",
+    "listing": {
+      "id": "ebay:v1|147421653650|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "SEIKO Grand Seiko 9F61-0A10 Quartz Ivory Dial Men's Watch Authentic Japan",
+      "url": "https://www.ebay.com/itm/147421653650?_skw=Grand+Seiko+Shunbun&hash=item225303ea92:g:KgIAAeSwGspqTJmq&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGZDBvO2dTFZAAsgvB7wSlkDl%2BVd%2FuF%2BuzrgJ8LOZI24TUx7jRIZTuvi%2Bya1ZTOFrF9kW8%2FmipqL7uVHmmZWthGPpy%2FKjK7EJdBxR5uCxrIZ7AqMOLlGO7l%2F5qgL9Smq0RZipNW27V9TrqfYWHJsZhwdD8Vo%2FV8n5CVYthsx1vYYkliYES%2Bi7GtD3Dtx5Ick%2Bgg5KYNZRuAHYz1VOK5WsEJfYA1agN5v2EbeQ%2FlfkOhZ3QcQUFPZksPmdGWvc5yyTf3CUY56Vc22gIEduO938F6RRkplxa%2FQ3Hxf%2FR43zAWsmg%3D%3D",
+      "price": 1244.99,
+      "shipping_price": 210.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/KgIAAeSwGspqTJmq/s-l225.jpg",
+      "image_urls": [],
+      "body": "SEIKO Grand Seiko 9F61-0A10 Quartz Ivory Dial Men's Watch Authentic Japan",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "shunbun",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The hunter specifically wants the Grand Seiko \"Shunbun\" (Spring Equinox seasons limited edition). This listing is a standard Grand Seiko 9F61-0A10 quartz ivory dial model, not the Shunbun reference. Different reference and not a limited edition seasons piece, so it does not match despite being the same brand.",
+      "estimated_value": 1450.0,
+      "confidence": 0.5,
+      "condition_summary": "Watch appears to be in good/excellent visible condition from the photo, with clean ivory dial, steel case, and black leather strap; no visible scratches or damage, but only one photo provided and no mention of box/papers.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "No overt red flags - price is in a reasonable range for a 9F61 model, listing claims \"Authentic Japan.\" However, only a single stock-like photo is shown, no serial number visible, and no mention of box/papers, warranty card, or purchase history, which limits verification.",
+      "rarity_notes": "The 9F61-0A10 is a fairly common Grand Seiko quartz model, not rare. The Shunbun the hunter wants is a limited \"seasons\" collection piece and considerably harder to find; this listing is unrelated to that specific rarity.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Grand Seiko as a brand has strong recognition and demand, but this particular quartz reference is a standard production model with moderate collector interest compared to limited editions like the Shunbun."
+    },
+    "deal_score": 0,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 853,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 853 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko as a brand has strong recognition and demand, but this particular quartz reference is a standard production model with moderate collector interest compared to limited editions like the Shunbun.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 1454.99,
+    "discount": -0.0034413793103448337,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1784938650.7531183,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "shunbun:ebay:v1|358726727095|0",
+    "listing": {
+      "id": "ebay:v1|358726727095|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Grand Seiko Heritage Collection Quartz SBGV223 black WATCH",
+      "url": "https://www.ebay.com/itm/358726727095?_skw=Grand+Seiko+Shunbun&hash=item5385c775b7:g:9mAAAeSwf1FqP0lj&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGbX%2BwbC25tLIKENzCVWUbUCqiLxdJrGCfBstuRpKipTv%2FNGPjydfsStmh5l5rNog2%2FuggDa0LZvw7mRRhvYvXcH9ECG%2FIaQV1z7P5I0Vff85x1WyPWXz1fTebNpn8ubMZfmQ7QU98Y3r6dFMZ55%2FohD9XsO28gK02bw1cYtQwFhvS6T2HuMbrQKqRojhksy6R3dY0EIXlxnQ6%2BeS9w19jTCXfKRERZr7o9MzyylOR2D%2BL4ZMJ8QnbUlA%2Fhu1t3fEsH9RMH95puR%2FUFdzcowY6OqGTFlP1TsesyL5kZclHH1Nw%3D%3D",
+      "price": 1774.78,
+      "shipping_price": 19.9,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/9mAAAeSwf1FqP0lj/s-l225.jpg",
+      "image_urls": [],
+      "body": "Grand Seiko Heritage Collection Quartz SBGV223 black WATCH",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "shunbun",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Hunter specifically requested the Grand Seiko \"Shunbun\" (Spring Equinox) limited edition model. This listing is a standard Grand Seiko Heritage Collection Quartz SBGV223 in black, a completely different, non-limited reference. Since a specific named model was requested, this does not qualify as a match.",
+      "estimated_value": 1600.0,
+      "confidence": 0.5,
+      "condition_summary": "Watch appears to be in good, lightly used or possibly new condition based on the photo - case and bracelet show no obvious scratches, but only one image is provided.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "No overt red flags, but only a single stock-style photo is shown with no closeups of case back, serial, or papers, making full authenticity verification impossible from listing alone.",
+      "rarity_notes": "SBGV223 is a fairly common, non-limited Grand Seiko Heritage Collection quartz model, widely available on the secondary market - not rare at all compared to the Shunbun limited edition.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Grand Seiko as a brand has strong recognition and demand, but this specific quartz model is a mainstream reference rather than a sought-after limited edition, so demand is moderate rather than high."
+    },
+    "deal_score": -12,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 853,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 853 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko as a brand has strong recognition and demand, but this specific quartz model is a mainstream reference rather than a sought-after limited edition, so demand is moderate rather than high.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 1794.68,
+    "discount": -0.12167500000000003,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1784938657.3885827,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "shunbun:ebay:v1|188691487179|0",
+    "listing": {
+      "id": "ebay:v1|188691487179|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Grand Seiko Soko Frost | Ref. SBGA471 | 40mm | Blue Dial | Full Set | 2022",
+      "url": "https://www.ebay.com/itm/188691487179?_skw=Grand+Seiko+Shunbun&hash=item2beee399cb:g:hbQAAeSw7RNqY5qC",
+      "price": 5900.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/hbQAAeSw7RNqY5qC/s-l225.jpg",
+      "image_urls": [],
+      "body": "Grand Seiko Soko Frost | Ref. SBGA471 | 40mm | Blue Dial | Full Set | 2022",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "shunbun",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The hunter specifically wants the Grand Seiko \"Shunbun\" (Spring Equinox) limited edition, but this listing is for the SBGA471 \"Soko Frost\" model with a blue dial - a different named limited edition entirely from the same Spring Drive Snowflake-style lineup. Different reference and different theme, so this does not match.",
+      "estimated_value": 5200.0,
+      "confidence": 0.35,
+      "condition_summary": "Described as full set, 2022; photo shows a white/silver dial with sub-seconds, not the blue dial claimed in the title, which is a mismatch worth noting. Appears lightly used or new based on image clarity, but no close-up wear shots provided.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Title claims 'Blue Dial' but the photo shown appears to be a white/cream dial model, a significant inconsistency between text and image. No serial or box/papers photos shown despite 'Full Set' claim. Stock-photo styling (colorful background overlay) obscures actual item details.",
+      "rarity_notes": "The SBGA471 'Soko Frost' is itself a limited/special release within Grand Seiko's seasonal/nature series, distinct from the Shunbun model the hunter is seeking. Not the item requested.",
+      "demand_tier": "High",
+      "demand_reasoning": "Grand Seiko Spring Drive Snowflake-style limited editions are highly sought after among collectors, but this specific reference does not satisfy the hunter's request for the Shunbun edition."
+    },
+    "deal_score": -13,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 853,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 853 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Grand Seiko Spring Drive Snowflake-style limited editions are highly sought after among collectors, but this specific reference does not satisfy the hunter's request for the Shunbun edition.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 5900.0,
+    "discount": -0.1346153846153846,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1784938666.2763827,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "shunbun:ebay:v1|407038398546|0",
+    "listing": {
+      "id": "ebay:v1|407038398546|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Grand Seiko Heritage Sakura Pink 36.5mm Watch SBGW289 Limited Edition",
+      "url": "https://www.ebay.com/itm/407038398546?_skw=Grand+Seiko+Shunbun&hash=item5ec5611052:g:nPcAAeSw3bRqQ~dp",
+      "price": 4995.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/nPcAAeSw3bRqQ~dp/s-l225.jpg",
+      "image_urls": [],
+      "body": "Grand Seiko Heritage Sakura Pink 36.5mm Watch SBGW289 Limited Edition",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "shunbun",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The hunter is specifically seeking the Grand Seiko \"Shunbun\" (Spring Equinox) limited edition model. This listing is for the SBGW289 \"Sakura Pink\" Heritage 36.5mm limited edition, a completely different model/reference from the same brand. Per strict matching rules, a different model does not count as a match even if related in theme (seasonal/sakura releases).",
+      "estimated_value": 4500.0,
+      "confidence": 0.35,
+      "condition_summary": "Watch appears to be in good/like-new condition based on the single photo showing it in its presentation box with case and papers pouch, but no close-up shots of dial, case back, or clasp are provided to verify wear.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only one photo is shown (box shot), no close-ups of the dial, movement, case back engravings, or serial number, which are typically needed to verify authenticity of a limited edition GS. No mention of accompanying papers/certificate details, warranty card, or purchase provenance. Price is plausible for this model but the lack of detailed photos is a moderate red flag for a $5k purchase.",
+      "rarity_notes": "The SBGW289 Sakura Pink is itself a limited edition Grand Seiko Heritage model, distinct from the Shunbun (Spring Equinox) seasonal limited edition the hunter is targeting. Both are limited runs but are different references entirely.",
+      "demand_tier": "High",
+      "demand_reasoning": "Grand Seiko limited editions, especially Sakura/pink dial pieces, have strong collector demand and brand recognition, but this specific listing does not satisfy the hunter's Shunbun-specific search."
+    },
+    "deal_score": -11,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 853,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 853 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Grand Seiko limited editions, especially Sakura/pink dial pieces, have strong collector demand and brand recognition, but this specific listing does not satisfy the hunter's Shunbun-specific search.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 4995.0,
+    "discount": -0.11,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1784938674.6874049,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "shunbun:ebay:v1|267688966916|0",
+    "listing": {
+      "id": "ebay:v1|267688966916|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "2024 Grand Seiko Blue Kirazuri 40mm Stainless Steel Automatic Watch SBGA507 B+P",
+      "url": "https://www.ebay.com/itm/267688966916?_skw=Grand+Seiko+Shunbun&hash=item3e53817b04:g:oRgAAeSwROFqILWf",
+      "price": 5729.06,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/oRgAAeSwROFqILWf/s-l225.jpg",
+      "image_urls": [],
+      "body": "2024 Grand Seiko Blue Kirazuri 40mm Stainless Steel Automatic Watch SBGA507 B+P",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "shunbun",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Hunter specifically asked for the Grand Seiko \"Shunbun\" (Spring Equinox seasons watch). This listing is the SBGA507 \"Blue Kirazuri\" model, a different Grand Seiko reference/theme entirely, not the Shunbun limited edition.",
+      "estimated_value": 5500.0,
+      "confidence": 0.4,
+      "condition_summary": "Watch appears to be in good/near-new condition based on the single photo shown (clean case and bracelet, no visible major scratches), but only one image provided and no close-up of dial details, box, or papers despite being listed as \"B+P\".",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Listing claims box and papers (B+P) but only shows the watch itself in a single low-detail photo held in a hand - no images of box, papers, or caseback/serial verification. Lack of supporting documentation photos for a $5,700 item is a moderate red flag; would want additional photos before trusting authenticity.",
+      "rarity_notes": "SBGA507 Blue Kirazuri is a distinct, fairly recent Grand Seiko release with moderate collector interest, but it is not the Shunbun limited edition the hunter is seeking, which is a separate, more limited seasonal release.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Grand Seiko as a brand has strong demand, and Spring Drive models like this are popular, but this specific reference is not the named limited edition the hunter wants, so it doesn't satisfy the search intent despite general desirability."
+    },
+    "deal_score": -4,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 853,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 853 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko as a brand has strong demand, and Spring Drive models like this are popular, but this specific reference is not the named limited edition the hunter wants, so it doesn't satisfy the search intent despite general desirability.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 5729.06,
+    "discount": -0.0416472727272728,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1784938683.934819,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "shunbun:ebay:v1|318603172728|0",
+    "listing": {
+      "id": "ebay:v1|318603172728|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Grand Seiko Heritage Blue Men's Watch - SBGH295with box and papers",
+      "url": "https://www.ebay.com/itm/318603172728?_skw=Grand+Seiko+Shunbun&hash=item4a2e3a9b78:g:0QIAAeSw7EhqXC7W",
+      "price": 5125.0,
+      "shipping_price": 8.64,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/0QIAAeSw7EhqXC7W/s-l225.jpg",
+      "image_urls": [],
+      "body": "Grand Seiko Heritage Blue Men's Watch - SBGH295with box and papers",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "shunbun",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Hunter specifically wants the Grand Seiko Shunbun (Spring Equinox) limited edition model. This listing is for the SBGH295 Heritage Blue, a different reference/model entirely, so it does not match despite being the same brand.",
+      "estimated_value": 5000.0,
+      "confidence": 0.4,
+      "condition_summary": "Watch appears to be in good used/possibly like-new condition based on the single photo showing a blue textured dial and steel bracelet; no visible major damage, but limited photo angles limit full assessment.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "No overt red flags in the text, and box/papers are claimed, but only one photo is provided which doesn't clearly show papers, box, or caseback/serial - can't verify authenticity fully from this listing alone.",
+      "rarity_notes": "SBGH295 is a Heritage Collection model with a hi-beat movement, not part of the seasonal Shunbun limited series; not the item the hunter is seeking.",
+      "demand_tier": "High",
+      "demand_reasoning": "Grand Seiko Heritage models with hi-beat movements are well recognized and have solid demand among collectors, though this specific piece is not what the hunter is searching for."
+    },
+    "deal_score": -3,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 853,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 853 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Grand Seiko Heritage models with hi-beat movements are well recognized and have solid demand among collectors, though this specific piece is not what the hunter is searching for.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 5133.64,
+    "discount": -0.026728000000000064,
+    "notified": false,
+    "duplicate_of": "shunbun:ebay:v1|407038398546|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1784938690.7963576,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "shunbun:ebay:v1|157805235429|0",
+    "listing": {
+      "id": "ebay:v1|157805235429|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Box & Card + 2 Bonus Straps Shinshu Grand Seiko Heritage Collection SBGP017",
+      "url": "https://www.ebay.com/itm/157805235429?_skw=Grand+Seiko+Shunbun&hash=item24bdeccce5:g:UccAAeSwAnhp0AI1",
+      "price": 5850.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/UccAAeSwAnhp0AI1/s-l225.jpg",
+      "image_urls": [],
+      "body": "Box & Card + 2 Bonus Straps Shinshu Grand Seiko Heritage Collection SBGP017",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "shunbun",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The hunter is specifically seeking the Grand Seiko \"Shunbun\" (Spring Equinox) limited edition model. This listing is for the SBGP017, a different reference in the Grand Seiko Heritage Collection (Shinshu), not the named Shunbun model. Different model from the same brand does not satisfy the specific model requirement.",
+      "estimated_value": 5850.0,
+      "confidence": 0.4,
+      "condition_summary": "Watch appears to be in excellent/near-mint condition based on photo, with box, card, and two bonus straps (bracelet and leather) included.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "Photo shows genuine-looking Grand Seiko boxes, cards, and watch with consistent branding; no obvious red flags like mismatched serials or stock photo reuse, though only one image is provided and item-specific serial/paperwork close-ups are not shown.",
+      "rarity_notes": "SBGP017 is a specific Heritage Collection reference, not the Shunbun limited edition the hunter is seeking; unrelated to the rarity profile of the Shunbun release.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Grand Seiko has strong collector recognition overall, but this specific reference (SBGP017) is not the named limited edition the hunter wants, so it doesn't fulfill the targeted demand driving this search."
+    },
+    "deal_score": 0,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 853,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 853 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko has strong collector recognition overall, but this specific reference (SBGP017) is not the named limited edition the hunter wants, so it doesn't fulfill the targeted demand driving this search.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 5850.0,
+    "discount": 0.0,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1784938697.87635,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "shunbun:ebay:v1|147351466869|0",
+    "listing": {
+      "id": "ebay:v1|147351466869|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Grand Seiko Heritage Collection Spring Drive \"Soko\" Steel Mens Watch SBGA427",
+      "url": "https://www.ebay.com/itm/147351466869?_skw=Grand+Seiko+Shunbun&hash=item224ed4f375:g:ca4AAeSwHC5qGEu0",
+      "price": 5348.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/ca4AAeSwHC5qGEu0/s-l225.jpg",
+      "image_urls": [],
+      "body": "Grand Seiko Heritage Collection Spring Drive \"Soko\" Steel Mens Watch SBGA427",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "New with box and papers"
+      }
+    },
+    "watch_item_id": "shunbun",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The hunter is specifically seeking the Grand Seiko \"Shunbun\" (Spring Equinox) limited edition model. This listing is for the SBGA427 \"Soko\" model, a different named reference in the Heritage Collection Spring Drive line. Despite both being Grand Seiko Spring Drive models, they are distinct named editions, so this does not match the specific criteria.",
+      "estimated_value": 5300.0,
+      "confidence": 0.4,
+      "condition_summary": "Watch appears new or lightly used based on the single photo showing a clean dial and bracelet with no visible scratches; no box/papers shown in image.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "Photo appears to be an actual product shot (not obviously stock), but only one angle is provided with no close-up of caseback, movement, or serial number, limiting authentication ability. Price is roughly in line with typical retail/secondary market for SBGA427, no major red flags like suspiciously low pricing.",
+      "rarity_notes": "SBGA427 \"Soko\" is a limited/special release within the Heritage Collection but is not the Shunbun model the hunter is seeking; it has its own moderate rarity but is a different collectible.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Grand Seiko Spring Drive models have solid brand recognition and steady collector demand, but the Soko variant is less iconic/sought-after than the Shunbun seasonal limited editions specifically targeted by the hunter."
+    },
+    "deal_score": -1,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 853,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 853 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko Spring Drive models have solid brand recognition and steady collector demand, but the Soko variant is less iconic/sought-after than the Shunbun seasonal limited editions specifically targeted by the hunter.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 5348.0,
+    "discount": -0.009056603773584906,
+    "notified": false,
+    "duplicate_of": "shunbun:ebay:v1|327035539352|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1784938705.6073494,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "shunbun:ebay:v1|177957909395|0",
+    "listing": {
+      "id": "ebay:v1|177957909395|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Grand Seiko Heritage Collection Silver SBGA465  with Box and Papers",
+      "url": "https://www.ebay.com/itm/177957909395?_skw=Grand+Seiko+Shunbun&hash=item296f1e3393:g:eEcAAeSwh6hptM3k&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGbSymbEyl8pmHQ%2FalZdhTc0ESDKuFSNl1MtX6KpCuDUVN0Byj1VCyf0Roh99zExTTye7ZPUIz8NmLD7CVA00PUS9gmZmb1cIx9lJCyfiuGlgaAbgUSZu8sNeldjxPmi9oWHMIBsWifX9%2FaYZ6S011yKLPaWU16AiTwGMFzNfEIabdKTyQFbKD77iMNqAHan12nNcOHF4vV9DfXpx38LtF68YaVytZp4TFC21Ya0bNvOBGud8OLvVwzgTQW58ii4TZrXfuZrPJ8dGvjKcEX8FAz1xmxhyc%2BDVulOd4HlRHwT8Q%3D%3D",
+      "price": 5680.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/eEcAAeSwh6hptM3k/s-l225.jpg",
+      "image_urls": [],
+      "body": "Grand Seiko Heritage Collection Silver SBGA465  with Box and Papers",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "New with box and papers"
+      }
+    },
+    "watch_item_id": "shunbun",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The hunter specifically wants the Grand Seiko \"Shunbun\" (Spring Equinox) limited edition. This listing is for the SBGA465 Heritage Collection, a different model within the Snowflake/Spring Drive line, not the named Shunbun edition. Even though both are Grand Seiko Spring Drive watches, the specific model requirement is not met.",
+      "estimated_value": 5200.0,
+      "confidence": 0.4,
+      "condition_summary": "Photo shows a clean, seemingly well-kept dial and case with no visible scratches, but only one close-up image is provided so overall condition can't be fully assessed.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "Image appears to be a professional/stock-style product photo rather than an in-hand photo, which is common for legitimate listings but does not confirm the actual item's condition or that box/papers shown match this specific watch. No serial number or additional angles provided.",
+      "rarity_notes": "SBGA465 is a fairly well-known Heritage Collection Spring Drive \"Snowflake\"-style model, not especially rare compared to true limited editions like the Shunbun.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Grand Seiko has strong brand recognition and this model has decent demand, but it lacks the exclusivity/collector premium of the named Shunbun limited edition the hunter is seeking."
+    },
+    "deal_score": -9,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 853,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 853 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko has strong brand recognition and this model has decent demand, but it lacks the exclusivity/collector premium of the named Shunbun limited edition the hunter is seeking.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 5680.0,
+    "discount": -0.09230769230769231,
+    "notified": false,
+    "duplicate_of": "shunbun:ebay:v1|327035539352|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1784938712.6057587,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "shunbun:ebay:v1|178311791711|0",
+    "listing": {
+      "id": "ebay:v1|178311791711|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "SEIKO Grand Seiko GS 8N65-8000 Quartz Men's Watch",
+      "url": "https://www.ebay.com/itm/178311791711?_skw=Grand+Seiko+Shunbun&hash=item298436045f:g:DXUAAeSwNRxqVzKE&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGYw1evZtGm83e0JTy8ghEMap5oS7cLdyntEsy%2FXCRqakt3iaofRUgAEKLvngMqdTlap%2BSbDEV8VvCfS5Y%2FFfGu8MZAwbBTGwQV07JSOLoisDMxp0Zfk0pJ%2FUAZVB6U5G4DO3k%2BVS76WHlXkBwx8T5wy5gMpfyeAG%2BjDWK8n9zrpMkrpZ4IppKV2m072kj23sPMkf3cIL7YenM5%2FDrKhnX7HlTE5zRF844t%2B0KJRtkkXmOnZ%2B0eIGiYyE%2BI5xGs79x8JNvSoj0tOXF6hHxXG1IEocz8ex7X8JWl0UUFIXDx%2Bfg%3D%3D",
+      "price": 395.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/DXUAAeSwNRxqVzKE/s-l225.jpg",
+      "image_urls": [],
+      "body": "SEIKO Grand Seiko GS 8N65-8000 Quartz Men's Watch",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "shunbun",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The hunter is specifically seeking the Grand Seiko \"Shunbun\" (Spring Equinox) limited edition model. This listing is a vintage Grand Seiko 8N65-8000 quartz model, an entirely different reference and era from the Shunbun. Different model from the same brand does not satisfy the specific model requirement.",
+      "estimated_value": 350.0,
+      "confidence": 0.4,
+      "condition_summary": "Appears to be a vintage two-tone Grand Seiko quartz watch with visible wear on the case and bracelet consistent with age; photo shows only one angle with no box/papers shown.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only one stock-like photo provided, no close-ups of case back, movement, or serial number to confirm authenticity. Vintage Grand Seiko quartz models are sometimes reissued/faked dials; lack of detail is a caution flag, though price and styling seem plausible for a genuine 8N65 model.",
+      "rarity_notes": "The 8N65-8000 is a vintage 1990s Grand Seiko quartz reference, not particularly rare but distinct from the Shunbun limited edition, which is a modern Spring Equinox-themed limited release with different dial, case, and movement.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Vintage Grand Seiko quartz models have a following among enthusiasts but lack the strong collector demand and hype associated with named limited editions like the Shunbun."
+    },
+    "deal_score": -13,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 853,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 853 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Vintage Grand Seiko quartz models have a following among enthusiasts but lack the strong collector demand and hype associated with named limited editions like the Shunbun.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 395.0,
+    "discount": -0.12857142857142856,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1784938719.9577997,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "vostok:ebay:v1|204368583398|0",
+    "listing": {
+      "id": "ebay:v1|204368583398|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Vostok Amphibia 060059 Watch Scuba Dude Diver Mechanical Automatic USA Seller",
+      "url": "https://www.ebay.com/itm/204368583398?_skw=Vostok+Amphibia&hash=item2f95511ae6:g:SFoAAeSwyUJoj27A&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGaAd%2Ft0aAuwvfcuZsEu%2FVciqX6%2FMxjA0xEEsdzJHiGSJQfGCNUSqlOfTSXACMvc81nbTZLyfyYPn2YGFSw%2B21JMx4LlhyG7R%2FnbgqRwDC%2BZ0%2FLWhrODRN9mS6F9ZQbl5gcsKoVT%2FRLJQ0xPnmzqiT%2FehUKQURaTyV%2F8Sp06hweQMQo3A1dnHI%2Bpx9wdmURnVLR0lCUCGnJh48DXjwfexRfhACgwP55O7z5DoP1Lac7XTttb0M%2FGP4odPQZgWTEnfxeIVeRQ8SoWVBpJNlf2dVR8guJOUd1qWj%2Bt%2Bp9%2BbkNuKg%3D%3D",
+      "price": 149.95,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/SFoAAeSwyUJoj27A/s-l225.jpg",
+      "image_urls": [],
+      "body": "Vostok Amphibia 060059 Watch Scuba Dude Diver Mechanical Automatic USA Seller",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "New with box and papers"
+      }
+    },
+    "watch_item_id": "vostok",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The hunter wants a classic military-feel Amphibia with no crazy dials. This listing is the \"Scuba Dude\" variant (060059), which features a novelty diver graphic on the dial rather than a plain military-style dial, so it conflicts with the 'no crazy dials' requirement.",
+      "estimated_value": 130.0,
+      "confidence": 0.5,
+      "condition_summary": "Appears new or lightly used based on the single stock-style photo; case, bezel, and bracelet look clean with no visible wear, but only one image is provided so overall condition can't be fully verified.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "Reference number, dial design, and case shape are consistent with genuine Vostok Amphibia 060059 models; price is in line with typical modern-production/vintage-style Amphibias sold by USA resellers, so nothing here screams counterfeit. However, only one photo is shown (no caseback, no box/papers), so full authenticity can't be confirmed.",
+      "rarity_notes": "The Scuba Dude dial is a well-known, widely produced Amphibia variant - not rare, but popular among collectors for its novelty design rather than classic military aesthetics.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Vostok Amphibia has a dedicated collector following and the Scuba Dude variant is popular, but it's a mass-produced/reissued model rather than a rare vintage piece, keeping demand moderate rather than high."
+    },
+    "deal_score": -15,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 2575,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 2575 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Vostok Amphibia has a dedicated collector following and the Scuba Dude variant is popular, but it's a mass-produced/reissued model rather than a rare vintage piece, keeping demand moderate rather than high.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 149.95,
+    "discount": -0.15346153846153837,
+    "notified": false,
+    "duplicate_of": "vostok:ebay:v1|202716530031|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1784938731.6529634,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "vostok:ebay:v1|137544597640|0",
+    "listing": {
+      "id": "ebay:v1|137544597640|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "SERVICED/ USSR Vintage Vostok 2416B Amphibia Marine Anchor 200m Russian Diver",
+      "url": "https://www.ebay.com/itm/137544597640?_skw=Vostok+Amphibia&hash=item20064c0088:g:VJ0AAeSwzGVqYnvI",
+      "price": 199.99,
+      "shipping_price": 16.99,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/VJ0AAeSwzGVqYnvI/s-l225.jpg",
+      "image_urls": [],
+      "body": "SERVICED/ USSR Vintage Vostok 2416B Amphibia Marine Anchor 200m Russian Diver",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "vostok",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "This is a Vostok Amphibia (radial/barrel case), Marine Anchor dial variant, which is a classic military-associated dial (anchor logo used for Soviet Navy divers) - a fairly traditional, non-'crazy' dial with black face, applied numerals, and simple hands, fitting the requested classic military feel.",
+      "estimated_value": 140.0,
+      "confidence": 0.55,
+      "condition_summary": "Watch appears serviced and in good functional/cosmetic condition based on the photo - case and bezel show typical light wear, crystal and dial look clean, strap appears to be an aftermarket rubber/silicone band rather than original.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "Vostok Amphibias are inexpensive and widely reproduced/reissued, but this looks like a plausible genuine vintage-style piece (common 2416B movement, standard case). No mismatched serials since Vostok doesn't serialize like Swiss brands. Single photo is a real user-taken wrist shot (not obviously a stock photo), which is a positive sign, but only one angle is shown - no back-of-case or movement photo to verify 'serviced' claim.",
+      "rarity_notes": "The 2416B automatic Amphibia with anchor/marine dial is a fairly common variant, not a rare or limited edition - many still produced/available new, though vintage examples in good serviced condition have decent demand.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Vostok Amphibia has a dedicated collector following and strong recognition among Soviet/vintage watch enthusiasts, but it's a budget-tier, mass-produced watch so overall demand/value ceiling is modest compared to Swiss or higher-end pieces."
+    },
+    "deal_score": -55,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 2575,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 2575 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Vostok Amphibia has a dedicated collector following and strong recognition among Soviet/vintage watch enthusiasts, but it's a budget-tier, mass-produced watch so overall demand/value ceiling is modest compared to Swiss or higher-end pieces.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 216.98000000000002,
+    "discount": -0.5498571428571429,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1784938742.2012134,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "vostok:ebay:v1|168558764621|0",
+    "listing": {
+      "id": "ebay:v1|168558764621|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "\u0427\u0430\u0441\u044b Vostok Commander Amphibian, \u0421\u0421\u0421\u0420",
+      "url": "https://www.ebay.com/itm/168558764621?_skw=Vostok+Amphibia&hash=item273ee2a24d:g:5VgAAeSwlDZqYoGx",
+      "price": 85.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/5VgAAeSwlDZqYoGx/s-l225.jpg",
+      "image_urls": [],
+      "body": "\u0427\u0430\u0441\u044b Vostok Commander Amphibian, \u0421\u0421\u0421\u0420",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Seller refurbished"
+      }
+    },
+    "watch_item_id": "vostok",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Hunter wants a classic vintage Vostok Amphibia with military feel, no crazy dials. This listing shows a \"Commander Amphibian\" with a plain black dial, orange accents, and military-style strap - consistent with a classic military Amphibia variant rather than an unusual dial pattern.",
+      "estimated_value": 75.0,
+      "confidence": 0.35,
+      "condition_summary": "Watch appears to be in decent cosmetic condition from the single photo - case and crystal look clean, strap appears newer (possibly aftermarket NATO-style band), but no close-up of dial details, caseback, or movement is provided.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only one photo provided, no caseback or movement shots to confirm authenticity/originality. Listing text is extremely minimal (just title, no description of condition, servicing, or specs), which is a mild red flag for a vintage mechanical watch purchase. \"Commander\" naming is a common modern re-branding/homage sold by dealers of reissued Vostok cases, so buyer should confirm if this is a genuine vintage Soviet-era piece or a modern reassembled/franken piece using vintage parts.",
+      "rarity_notes": "Vostok Amphibia and its many dial variants (including \"Commander\" styled versions) are fairly common on the vintage/enthusiast market; not a rare or limited reference, though specific vintage dial fonts/case types can vary in desirability.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Vostok Amphibia has a solid, dedicated collector base and strong recognition among affordable vintage/Soviet watch enthusiasts, but it's not a high-end luxury brand with broad mainstream demand."
+    },
+    "deal_score": -13,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 2575,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 2575 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Vostok Amphibia has a solid, dedicated collector base and strong recognition among affordable vintage/Soviet watch enthusiasts, but it's not a high-end luxury brand with broad mainstream demand.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 85.0,
+    "discount": -0.13333333333333333,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1784938751.75482,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "vostok:ebay:v1|278201400440|0",
+    "listing": {
+      "id": "ebay:v1|278201400440|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Vintage Vostok Amphibian KGB Watch Made in USSR Watch Soviet Russia",
+      "url": "https://www.ebay.com/itm/278201400440?_skw=Vostok+Amphibia&hash=item40c6187c78:g:TGUAAeSwVDJqXlmj",
+      "price": 101.11,
+      "shipping_price": null,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/TGUAAeSwVDJqXlmj/s-l225.jpg",
+      "image_urls": [],
+      "body": "Vintage Vostok Amphibian KGB Watch Made in USSR Watch Soviet Russia",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Fair"
+      }
+    },
+    "watch_item_id": "vostok",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "The listing is a Vostok Amphibia (Amphibian) model, which matches the hunter's stated brand/model. The \"KGB\" naming appears to be seller marketing rather than a distinct crazy-dial limited edition, and the photo shows a fairly plain, classic military-style dial rather than an unusual variant.",
+      "estimated_value": 55.0,
+      "confidence": 0.35,
+      "condition_summary": "Watch shows a worn, aged leather strap and a case with visible patina/wear; dial appears simple and classic (hard to fully assess due to small/blurry photo). Overall looks used/vintage condition consistent with age.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only one low-resolution, slightly blurry photo provided with no close-up of dial text, caseback, or movement - hard to verify authenticity or exact reference. \"KGB\" branding is a common embellishment used by resellers on generic Vostok Amphibia watches and is not an official Vostok designation, which is a mild red flag for over-marketing rather than fraud. No mention of serial numbers, box/papers, or movement caliber.",
+      "rarity_notes": "Standard vintage Vostok Amphibia watches are fairly common on the secondary market; this does not appear to be a rare or special limited variant despite the \"KGB\" name in the title.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Vostok Amphibia is a well-recognized and collected vintage Soviet watch line with steady niche demand, though not as universally sought-after as major Swiss brands."
+    },
+    "deal_score": -84,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 2575,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 2575 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Vostok Amphibia is a well-recognized and collected vintage Soviet watch line with steady niche demand, though not as universally sought-after as major Swiss brands.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 101.11,
+    "discount": -0.8383636363636363,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1784938760.4245515,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "vostok:ebay:v1|377362957311|0",
+    "listing": {
+      "id": "ebay:v1|377362957311|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Vintage Mens Watch Vostok Amphibia Aircraft Carrier Albatross USSR Blue Dial 155",
+      "url": "https://www.ebay.com/itm/377362957311?_skw=Vostok+Amphibia&hash=item57dc95c3ff:g:7oYAAeSw-g1pz4QQ",
+      "price": 350.0,
+      "shipping_price": 25.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/7oYAAeSw-g1pz4QQ/s-l225.jpg",
+      "image_urls": [],
+      "body": "Vintage Mens Watch Vostok Amphibia Aircraft Carrier Albatross USSR Blue Dial 155",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "vostok",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The hunter wants a classic/military-style Vostok Amphibia dial, explicitly excluding 'crazy dials.' This listing features an Aircraft Carrier Albatross graphic dial with a helicopter illustration, which is a novelty/themed dial rather than a classic military diver dial, so it fails the 'no crazy dials' requirement despite being a genuine Amphibia.",
+      "estimated_value": 80.0,
+      "confidence": 0.4,
+      "condition_summary": "Watch appears to be in decent cosmetic condition with visible case and bezel wear typical of vintage Vostoks; dial and hands look intact in the photo, but no wrist shot or case-back photo provided to confirm full functionality.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only one photo shown, no case-back or movement shot despite claims of being a specific USSR piece; 'Albatross' aircraft carrier theme dials are commonly reproduced/aftermarket on genuine Vostok cases, so origin of the dial itself is uncertain. Price of $375 is notably high for a common Amphibia case with an aftermarket-style novelty dial, which is itself a minor red flag.",
+      "rarity_notes": "Standard Amphibia cases are common; novelty 'Aircraft Carrier Albatross' dials are a modern custom/aftermarket trend rather than an original rare Soviet-era military issue, so rarity is low to moderate at best.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Vostok Amphibia is a well-recognized budget vintage diver line with a solid collector base, but novelty/custom dial variants like this have narrower niche demand compared to classic military dials."
+    },
+    "deal_score": -369,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 2575,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 2575 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Vostok Amphibia is a well-recognized budget vintage diver line with a solid collector base, but novelty/custom dial variants like this have narrower niche demand compared to classic military dials.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 375.0,
+    "discount": -3.6875,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1784938769.3334546,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "vostok:ebay:v1|202716543257|0",
+    "listing": {
+      "id": "ebay:v1|202716543257|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Vostok Amphibia 420059 Watch Scuba Dude Diver Mechanical Automatic USA Seller",
+      "url": "https://www.ebay.com/itm/202716543257?_skw=Vostok+Amphibia&hash=item2f32d8f919:g:84EAAOSwDV1mUfaT",
+      "price": 169.95,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/84EAAOSwDV1mUfaT/s-l225.jpg",
+      "image_urls": [],
+      "body": "Vostok Amphibia 420059 Watch Scuba Dude Diver Mechanical Automatic USA Seller",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "New with box and papers"
+      }
+    },
+    "watch_item_id": "vostok",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The hunter wants a classic military-feel Amphibia without \"crazy\" dials. This listing is the 420059 \"Scuba Dude\" variant with a diver mascot graphic on the dial and colorful red/black bezel insert - a novelty/fun dial rather than the plain military-style dial the hunter asked for. Also this appears to be a new/current production piece, not vintage.",
+      "estimated_value": 75.0,
+      "confidence": 0.55,
+      "condition_summary": "Photo shows a brand-new looking watch with polished/unscratched case and bracelet, stock product photography rather than an actual item photo of a used vintage piece.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "No obvious fraud red flags, but the image looks like a manufacturer/stock catalog photo rather than the actual item being sold, which makes it hard to verify true condition. Price of $169.95 is roughly in line with new Vostok Amphibia pricing from resellers, suggesting this is a new/reissue piece, not a genuine vintage watch.",
+      "rarity_notes": "The 420059 Scuba Dude is a well-known, currently produced (or recently produced) Amphibia variant - not rare, and not vintage; widely available from Vostok resellers.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Vostok Amphibia has solid recognition and a dedicated fanbase, and the Scuba Dude variant is popular among enthusiasts, but it's a niche/fun collector piece rather than a broad classic military design, and it doesn't match this hunter's stated preference."
+    },
+    "deal_score": -127,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 2575,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 2575 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Vostok Amphibia has solid recognition and a dedicated fanbase, and the Scuba Dude variant is popular among enthusiasts, but it's a niche/fun collector piece rather than a broad classic military design, and it doesn't match this hunter's stated preference.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 169.95,
+    "discount": -1.2659999999999998,
+    "notified": false,
+    "duplicate_of": "vostok:ebay:v1|202716530031|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1784938777.9151762,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "vostok:ebay:v1|377362958068|0",
+    "listing": {
+      "id": "ebay:v1|377362958068|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Vintage Mens Watch Vostok Amphibia Sector Dial Barrel Case USSR 18 Jewels 163",
+      "url": "https://www.ebay.com/itm/377362958068?_skw=Vostok+Amphibia&hash=item57dc95c6f4:g:rGEAAeSwQTBpz4f1",
+      "price": 435.0,
+      "shipping_price": 25.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/rGEAAeSwQTBpz4f1/s-l225.jpg",
+      "image_urls": [],
+      "body": "Vintage Mens Watch Vostok Amphibia Sector Dial Barrel Case USSR 18 Jewels 163",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "vostok",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "This is a genuine Vostok Amphibia in the classic barrel case with a sector dial - a traditional/military-style layout, not one of the unusual \"crazy dial\" limited editions. It fits the hunter's request for a classic military-feel Amphibia.",
+      "estimated_value": 130.0,
+      "confidence": 0.4,
+      "condition_summary": "Watch appears in good cosmetic condition with a clean sector dial, intact bezel insert, and steel bracelet; no major visible damage in the single photo, but no wrist shots, case-back, or movement photos are provided to confirm overall condition.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Asking price of $460 is dramatically above typical resale value for a standard Vostok Amphibia (these commonly sell for $50-150 even in excellent vintage condition), which is a red flag - either a pricing error, an attempt to target uninformed buyers, or an assumption of rarity that isn't well substantiated. No serial/movement photos, no box/papers shown, and only one stock-like photo is provided, making it hard to verify authenticity or condition claims.",
+      "rarity_notes": "The barrel-case Amphibia with a sector dial is a well-known, commonly reissued/produced variant - not rare. Genuine vintage USSR-era examples exist but are not particularly scarce, and this could also be a newer production piece rather than true vintage.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Vostok Amphibia is a recognized and liked model among vintage/military watch collectors, giving it steady niche demand, but it's not a high-value luxury brand, so overall demand and price ceiling are modest."
+    },
+    "deal_score": -254,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 2575,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 2575 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Vostok Amphibia is a recognized and liked model among vintage/military watch collectors, giving it steady niche demand, but it's not a high-value luxury brand, so overall demand and price ceiling are modest.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 460.0,
+    "discount": -2.5384615384615383,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1784938787.9636686,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "vostok:ebay:v1|377362957742|0",
+    "listing": {
+      "id": "ebay:v1|377362957742|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Vintage Mens Watch Vostok Amphibia Sector Dial Barrel Case USSR 18 Jewels 163",
+      "url": "https://www.ebay.com/itm/377362957742?_skw=Vostok+Amphibia&hash=item57dc95c5ae:g:xqMAAeSwlBhpz4V7",
+      "price": 240.0,
+      "shipping_price": 25.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/xqMAAeSwlBhpz4V7/s-l225.jpg",
+      "image_urls": [],
+      "body": "Vintage Mens Watch Vostok Amphibia Sector Dial Barrel Case USSR 18 Jewels 163",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "vostok",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "While branded as Vostok Amphibia, this is a \"sector dial\" variant with a star/compass rose design and blue coloring - a decorative/novelty dial rather than the classic military diver dial the hunter wants. The hunter explicitly asked for classic military feel, not unusual dial variants, so this sector dial with star emblem falls into the 'crazy dial' category they want to avoid.",
+      "estimated_value": 130.0,
+      "confidence": 0.4,
+      "condition_summary": "Watch appears to be in decent cosmetic condition with a shiny case and bracelet, though photo resolution is low; no wear details or movement close-ups provided.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Single low-quality photo, no shots of caseback, movement, or crown for verification. Vostok watches (especially reissues/franken-watches assembled from parts) are commonly modified or re-cased in the aftermarket, and 'sector dial' variants are often modern reproductions rather than true vintage USSR pieces - this raises some concern about whether it's a genuine vintage piece vs. a modern kit build.",
+      "rarity_notes": "Sector dial Amphibia variants are a known but niche aftermarket/collector style, not as common as classic black military dials; genuine vintage examples in this specific dial are less standardized since many are custom dial swaps.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Vostok Amphibia has a solid collector following (Medium-High recognition), but this particular decorative dial variant appeals to a narrower niche audience than the classic military dial models, and the price ($265) is high for a basic Vostok, suggesting either a modified piece or optimistic pricing."
+    },
+    "deal_score": -104,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 2575,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 2575 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Vostok Amphibia has a solid collector following (Medium-High recognition), but this particular decorative dial variant appeals to a narrower niche audience than the classic military dial models, and the price ($265) is high for a basic Vostok, suggesting either a modified piece or optimistic pricing.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 265.0,
+    "discount": -1.0384615384615385,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1784938799.035505,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "vostok:ebay:v1|377362958612|0",
+    "listing": {
+      "id": "ebay:v1|377362958612|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Vintage Mens Watch Vostok Amphibia Komandirskie USSR 17 Jewels Green Dial Steel ",
+      "url": "https://www.ebay.com/itm/377362958612?_skw=Vostok+Amphibia&hash=item57dc95c914:g:e20AAeSwbzRpzi2-",
+      "price": 435.0,
+      "shipping_price": 25.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/e20AAeSwbzRpzi2-/s-l225.jpg",
+      "image_urls": [],
+      "body": "Vintage Mens Watch Vostok Amphibia Komandirskie USSR 17 Jewels Green Dial Steel ",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "vostok",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Listing is a Vostok Amphibia Komandirskie with a green dial and classic military diver styling (steel case, black NATO strap, coin-edge bezel) - fits the \"classic military feel, no crazy dials\" requirement reasonably well since green sunburst/classic dials are standard Amphibia variants, not one of the wild novelty dials.",
+      "estimated_value": 140.0,
+      "confidence": 0.4,
+      "condition_summary": "Watch appears used but presentable in the photo - case shows typical light wear, crystal and bezel look intact, strap is an aftermarket black NATO rather than original.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only one photo provided, no case-back, movement, or dial close-up shots to confirm originality of dial/hands/lume or matching serial markings; $460 asking price is well above typical market value ($80-180) for a standard vintage Vostok Amphibia Komandirskie, which is a red flag - either overpriced or seller assumes rarity/condition not substantiated by the listing. No mention of box/papers, provenance, or servicing history.",
+      "rarity_notes": "Green-dial Amphibia Komandirskie models are common in the vintage Vostok market; not a rare or limited variant, so no strong justification for premium pricing.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Vostok Amphibia has a solid collector following, especially among affordable vintage diver enthusiasts, but demand and price ceiling for standard dial variants remain modest compared to Swiss vintage divers."
+    },
+    "deal_score": -229,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 2575,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 2575 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Vostok Amphibia has a solid collector following, especially among affordable vintage diver enthusiasts, but demand and price ceiling for standard dial variants remain modest compared to Swiss vintage divers.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 460.0,
+    "discount": -2.2857142857142856,
+    "notified": false,
+    "duplicate_of": "vostok:ebay:v1|377362958068|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1784938807.7374685,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "vostok:ebay:v1|203192246446|0",
+    "listing": {
+      "id": "ebay:v1|203192246446|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Vostok Amphibia 170805 Watch Scuba Dude Diver Mechanical Automatic USA Seller",
+      "url": "https://www.ebay.com/itm/203192246446?_skw=Vostok+Amphibia&hash=item2f4f33a0ae:g:92cAAOSw6uZmweDa",
+      "price": 179.95,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/92cAAOSw6uZmweDa/s-l225.jpg",
+      "image_urls": [],
+      "body": "Vostok Amphibia 170805 Watch Scuba Dude Diver Mechanical Automatic USA Seller",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "New with box and papers"
+      }
+    },
+    "watch_item_id": "vostok",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The hunter wants a classic military-feel Amphibia without \"crazy\" dials. The \"Scuba Dude\" 170805 model features a novelty diver mascot graphic on the dial, which is a fun/quirky variant rather than a classic military-style dial, so it doesn't fit the stated aesthetic despite being a genuine Amphibia.",
+      "estimated_value": 130.0,
+      "confidence": 0.55,
+      "condition_summary": "Photo shows what appears to be a new or lightly used modern-production Amphibia with rubber strap, steel case, and black bezel; no visible scratches but image is small/stock-like, no case-back or box shown.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "Vostok Amphibia 170805 is a well-documented current production reference (Scuba Dude), commonly sold by USA resellers at this price point, so nothing inherently suspicious; however, only one small photo is provided with no case-back, movement, or packaging shots, which limits verification.",
+      "rarity_notes": "Not rare - the Scuba Dude 170805 is a popular, still-in-production or recently discontinued Amphibia variant, widely available new from Russian and USA sellers.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Vostok Amphibia has a dedicated collector following and the Scuba Dude variant is popular among enthusiasts, but it's a mass-produced modern piece, not a rare vintage grail, keeping demand moderate rather than high."
+    },
+    "deal_score": -38,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 2575,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 2575 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Vostok Amphibia has a dedicated collector following and the Scuba Dude variant is popular among enthusiasts, but it's a mass-produced modern piece, not a rare vintage grail, keeping demand moderate rather than high.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 179.95,
+    "discount": -0.38423076923076915,
+    "notified": false,
+    "duplicate_of": "vostok:ebay:v1|202716530031|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1784938816.2243526,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "vostok:ebay:v1|203302342759|0",
+    "listing": {
+      "id": "ebay:v1|203302342759|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Vostok Amphibia 120657 Watch Scuba Dude Diver Mechanical Automatic USA Seller",
+      "url": "https://www.ebay.com/itm/203302342759?_skw=Vostok+Amphibia&hash=item2f55c39067:g:vUYAAOSwcqdoLtK5&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGYrwxzEM8t--HiSTunTDGQ4saEDCvrXCHObCUOfFe3qc86notzEU7RRgJy2knuiH0GZQunJeUgrkx5f1b9%2F5FD%2Bjj%2BjHfcigiJAe6Yqo%2BMUiJrbPVhVCsyW7VdddwvsMiD9NH%2BL18IymPTIKN6LO7G34hrMEN4sPeVIwRcyHSgoOrRO4D9iV8Lpo%2FNs0hnPNoz3NHTOK%2ByJoy49NsFNC5%2BDkLitgf35Fpcdj%2FxBirLH9XrroIU4M0tqbgFWJKfB4aerfuDVHNerBvNI8pzIbfkP4djBXmEPUMQqivrNfzR0Tw%3D%3D",
+      "price": 149.95,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/vUYAAOSwcqdoLtK5/s-l225.jpg",
+      "image_urls": [],
+      "body": "Vostok Amphibia 120657 Watch Scuba Dude Diver Mechanical Automatic USA Seller",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "New with box and papers"
+      }
+    },
+    "watch_item_id": "vostok",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The hunter wants a classic military-feel Amphibia with no crazy dials. This listing is the \"Scuba Dude\" variant (120657), which has a novelty diver-figure printed on the dial - a fun/quirky design rather than a classic military dial. While it is a genuine Amphibia model, it doesn't fit the 'no crazy dials, classic military feel' requirement.",
+      "estimated_value": 130.0,
+      "confidence": 0.55,
+      "condition_summary": "Appears new/unworn based on the stock-style product photo, with black dial, red accents, and black rubber strap; no signs of wear visible, but only one generic image is provided.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "Photo looks like a standard manufacturer/reseller stock image rather than an actual photo of the specific watch being sold, which is common for new Vostok listings but does reduce ability to verify the exact item's condition and originality. Price and description are consistent with typical new Vostok Amphibia listings from USA-based Vostok resellers, so no major red flags, but the lack of a real, unique photo (case back, serial, movement) is a minor caution point.",
+      "rarity_notes": "The 120657 'Scuba Dude' is a well-known, mass-produced modern Vostok Amphibia variant, not vintage and not rare - it's readily available new from multiple sellers.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Vostok Amphibia has a solid collector/enthusiast following and the Scuba Dude is a popular novelty variant, but it's a niche interest compared to mainstream watch brands, and this specific model is a niche within that niche."
+    },
+    "deal_score": -15,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 2575,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 2575 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Vostok Amphibia has a solid collector/enthusiast following and the Scuba Dude is a popular novelty variant, but it's a niche interest compared to mainstream watch brands, and this specific model is a niche within that niche.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 149.95,
+    "discount": -0.15346153846153837,
+    "notified": false,
+    "duplicate_of": "vostok:ebay:v1|202716530031|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1784938825.4758046,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "vostok:ebay:v1|204295604239|0",
+    "listing": {
+      "id": "ebay:v1|204295604239|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Vostok Amphibia 720070 Watch Antarctica Diver Mechanical Automatic USA Seller",
+      "url": "https://www.ebay.com/itm/204295604239?_skw=Vostok+Amphibia&hash=item2f90f7880f:g:WO4AAOSwqSZnBSiT&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGaA0fLhDD%2FIJWiZX2oB7sClWze1e7nHAVmjOSYQddS0%2B%2FNV%2Bp32B9GwpXvtF3pDuXTfeaHlPUXBnnErMDETWJMD%2FikIMgsY3tVRDWhHblgLja%2FfvQPtzHwXYofDoKbPFRWiiSoGAgK00hGbePNnzYuSTrot%2BrqSC63x7xjdrVeVW6T8XtAFeYEUYBglRQgTezw9yHQNDU5YG3Zz8Tr2mZCiM3BG0Rtf92crR1ayeV2B7CREfBX9bv3EOUkxlEiedvGa1j8a9JUb8MzYU1d2FNJq%2Fw%2BMsR%2FsPfkakNDbvkSLIA%3D%3D",
+      "price": 179.95,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/WO4AAOSwqSZnBSiT/s-l225.jpg",
+      "image_urls": [],
+      "body": "Vostok Amphibia 720070 Watch Antarctica Diver Mechanical Automatic USA Seller",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "New with box and papers"
+      }
+    },
+    "watch_item_id": "vostok",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Hunter wants a vintage-style Vostok Amphibia with a classic military feel, no crazy dials. The listing is a Vostok Amphibia 720070 'Antarctica' variant with a plain white dial, black bezel, and simple hands/numerals - this is a classic, understated military diver look, not an unusual dial variant. No specific reference was required beyond the model line, so this fits.",
+      "estimated_value": 130.0,
+      "confidence": 0.55,
+      "condition_summary": "Photo shows what appears to be a new/unworn watch on a stock-style product image (studio background), stainless bracelet and case look clean with no visible wear, consistent with a new production Vostok rather than a true vintage piece.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "Image looks like a standard manufacturer/catalog photo rather than an actual photo of the seller's specific unit, which is a mild concern for verifying exact condition, but Vostok Amphibia 720070 is a well-documented, currently produced model and $179.95 is in line with typical new/reissue pricing from small dealers - no major red flags like mismatched serials or suspiciously low pricing.",
+      "rarity_notes": "The 720070 'Antarctica' dial is a widely available modern production Amphibia variant, not a rare vintage piece - true vintage (Soviet-era, 1980s-90s) Amphibias are harder to find and typically have different casing/movement markings.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Vostok Amphibia has a solid enthusiast following for affordable mechanical divers, but this specific modern variant is common and mass-produced, keeping demand moderate rather than high."
+    },
+    "deal_score": -38,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 2575,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 2575 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Vostok Amphibia has a solid enthusiast following for affordable mechanical divers, but this specific modern variant is common and mass-produced, keeping demand moderate rather than high.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 179.95,
+    "discount": -0.38423076923076915,
+    "notified": false,
+    "duplicate_of": "vostok:ebay:v1|202716530031|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1784938834.676915,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "vostok:ebay:v1|205216444466|0",
+    "listing": {
+      "id": "ebay:v1|205216444466|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Vostok Amphibia 71009A Watch Russian Diver Automatic Exclusive USA Seller",
+      "url": "https://www.ebay.com/itm/205216444466?_skw=Vostok+Amphibia&hash=item2fc7da7032:g:OE4AAOSwQYNngRZs&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGZt95nRci8oHsdLKnzc58UJtucGa3mY%2FuHBxxSt3sZCQfis27lsZyVognXGxEQUyAw1NSFycylWqfyv2vJT9gumUuIOC7vCHuybdtXCcqBsZkGKe%2FF%2BDqZmFImDHAxx%2BG1wvfcBr7q98q9n6cpRDITzgSuOZ%2FKa5OR3Rf9GtPvD2nzA2lAFUqdfQGXrH42Ac4Mwn5ngZAuDRuGiPaVQ%2FEy20p9Dla8PIEbZH4WAjIP15V7Xdh6%2BMJFGklYGXaC2NoVE0jGwTuj5hxzlyoTCg8MEpAiL%2BoGS%2F%2B3Z0kXLX36iEw%3D%3D",
+      "price": 189.95,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/OE4AAOSwQYNngRZs/s-l225.jpg",
+      "image_urls": [],
+      "body": "Vostok Amphibia 71009A Watch Russian Diver Automatic Exclusive USA Seller",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "New with box and papers"
+      }
+    },
+    "watch_item_id": "vostok",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The hunter wants a vintage Vostok Amphibia with classic military dial (no crazy variants) but did not name a specific reference number, so the 71009A model itself isn't automatically disqualifying. However, this listing appears to be a new/current production Vostok Amphibia (common reseller stock photo), not a genuine vintage piece, and the dial style (white with black bezel, modern hands) is a simple classic diver look consistent with 'no crazy dial' request, so it partially matches on style but likely fails on 'vintage' requirement.",
+      "estimated_value": 75.0,
+      "confidence": 0.4,
+      "condition_summary": "Appears to be a new/unworn Vostok Amphibia 71009A based on stock-style photo showing a clean white dial with black bezel and bracelet; no visible wear, but likely a new production piece rather than genuinely vintage.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "Image appears to be a standard stock/catalog photo (common for Vostok reseller listings), not an actual photo of the specific unit for sale - no serial number, box, or papers shown. This is typical for new Vostok Amphibia listings from resellers, so not necessarily fraudulent, but buyer can't verify actual condition of the piece received. No red flags like mismatched parts or inconsistent branding visible, but lack of real photos of the actual item lowers confidence in condition claims.",
+      "rarity_notes": "The 71009A is a widely produced, currently available Vostok Amphibia variant, not a rare or discontinued vintage reference - readily available from multiple resellers.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Vostok Amphibia line has a dedicated collector/enthusiast base and strong recognition, especially for military-diver aesthetics, though this is a mass-produced modern reissue rather than a rare vintage piece."
+    },
+    "deal_score": -153,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 2575,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 2575 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Vostok Amphibia line has a dedicated collector/enthusiast base and strong recognition, especially for military-diver aesthetics, though this is a mass-produced modern reissue rather than a rare vintage piece.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 189.95,
+    "discount": -1.5326666666666666,
+    "notified": false,
+    "duplicate_of": "vostok:ebay:v1|204295600470|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1784938844.0623326,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "vostok:ebay:v1|377366412321|0",
+    "listing": {
+      "id": "ebay:v1|377366412321|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Vintage Mens Watch Vostok Amphibia Komandirskie Submarine Automatic Self-Winding",
+      "url": "https://www.ebay.com/itm/377366412321?_skw=Vostok+Amphibia&hash=item57dcca7c21:g:u4wAAeSwyVdpzjJy",
+      "price": 385.0,
+      "shipping_price": 25.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/u4wAAeSwyVdpzjJy/s-l225.jpg",
+      "image_urls": [],
+      "body": "Vintage Mens Watch Vostok Amphibia Komandirskie Submarine Automatic Self-Winding",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "vostok",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The hunter wants a classic military-feel Amphibia with no crazy dials. This listing shows a submarine-themed dial with a blue background and whale/submarine graphic - a novelty/graphic dial variant, not a classic military dial (numerals-only, radium-style or simple Komandirskie face). This falls into the 'crazy dial' category the hunter explicitly wants to avoid.",
+      "estimated_value": 120.0,
+      "confidence": 0.35,
+      "condition_summary": "Watch appears used but functional in the photo, with visible case wear and a plain black leather strap that looks aftermarket/non-original; no box or papers shown.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only one photo provided (appears to be a stock/reused seller photo based on generic staging), no case-back or movement shots to confirm authenticity, no serial/reference details given in the text. Vostok Amphibias are frequently reissued/modded with aftermarket dials, so 'vintage' claim is unverified without movement or hallmark evidence.",
+      "rarity_notes": "Submarine/whale-themed dials are a specific novelty variant within the Amphibia line, not particularly rare but distinct from classic military Komandirskie dials; such graphic dials are common in reissue/modded markets.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Vostok Amphibia is a recognized, popular vintage Soviet diver brand with a solid collector base, but this specific novelty dial variant appeals to a narrower niche than the classic military style the hunter wants."
+    },
+    "deal_score": -242,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 2575,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 2575 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Vostok Amphibia is a recognized, popular vintage Soviet diver brand with a solid collector base, but this specific novelty dial variant appeals to a narrower niche than the classic military style the hunter wants.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 410.0,
+    "discount": -2.4166666666666665,
+    "notified": false,
+    "duplicate_of": "vostok:ebay:v1|377362958068|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1784938852.8917656,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "vostok:ebay:v1|203304452119|0",
+    "listing": {
+      "id": "ebay:v1|203304452119|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Vostok Amphibia 120849 Watch Scuba Diver Mechanic Automatic USA Seller",
+      "url": "https://www.ebay.com/itm/203304452119?_skw=Vostok+Amphibia&hash=item2f55e3c017:g:gEIAAOSwDPhoL1mo",
+      "price": 149.95,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/gEIAAOSwDPhoL1mo/s-l225.jpg",
+      "image_urls": [],
+      "body": "Vostok Amphibia 120849 Watch Scuba Diver Mechanic Automatic USA Seller",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "New with box and papers"
+      }
+    },
+    "watch_item_id": "vostok",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Hunter wants a classic-dial Vostok Amphibia with military feel, no specific reference required. The listed 120849 model has a simple silver/grey military-style dial with baton/arrow markers and standard bezel - fits the 'classic, no crazy dial' request.",
+      "estimated_value": 120.0,
+      "confidence": 0.45,
+      "condition_summary": "Photo shows what appears to be a new/unworn watch on rubber strap with clean dial, crystal, and case - no visible wear, but this may be a stock/catalog photo rather than the actual item.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "Vostok Europe/Amphibia models are widely reproduced but genuine examples are common and inexpensive; no major red flags, though the single stock-style photo with no close-ups of caseback, movement, or serial markings makes it hard to confirm this exact unit's authenticity or condition. Listing title mixes 'vintage' request with what looks like a newer production model (Vostok Amphibia reissue rather than true vintage Soviet-era piece).",
+      "rarity_notes": "120849 is a fairly common modern Vostok Amphibia reference, not a rare vintage variant; readily available from multiple sellers, so not particularly hard to find.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Vostok Amphibia has solid recognition among affordable vintage/military watch collectors, but this specific common reference isn't a standout grail, keeping demand moderate rather than high."
+    },
+    "deal_score": -25,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 2575,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 2575 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Vostok Amphibia has solid recognition among affordable vintage/military watch collectors, but this specific common reference isn't a standout grail, keeping demand moderate rather than high.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 149.95,
+    "discount": -0.24958333333333324,
+    "notified": false,
+    "duplicate_of": "vostok:ebay:v1|202716530031|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1784938861.7279205,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "vostok:ebay:v1|202716538904|0",
+    "listing": {
+      "id": "ebay:v1|202716538904|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Vostok Amphibia 710634 Watch Scuba Dude Diver Mechanical Automatic USA Seller",
+      "url": "https://www.ebay.com/itm/202716538904?_skw=Vostok+Amphibia&hash=item2f32d8e818:g:zKEAAOSwRrxdD-PP",
+      "price": 149.95,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/zKEAAOSwRrxdD-PP/s-l225.jpg",
+      "image_urls": [],
+      "body": "Vostok Amphibia 710634 Watch Scuba Dude Diver Mechanical Automatic USA Seller",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "New with box and papers"
+      }
+    },
+    "watch_item_id": "vostok",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "The dial (Scuba Dude with black dial, applied numerals, simple bezel) fits the \"classic military feel, no crazy dial\" requirement reasonably well. However, this appears to be a current-production/new Vostok Amphibia (ref 710634), not a genuine vintage piece, so it only partially satisfies the \"vintage\" aspect of the hunter's request.",
+      "estimated_value": 85.0,
+      "confidence": 0.45,
+      "condition_summary": "Cannot confirm actual condition of the specific unit since only a stock-style photo is shown; described as mechanical automatic, appears new/unworn in the photo with no visible wear, scratches, or aging typical of a true vintage piece.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "Photo appears to be a stock/catalog image (common for these mass-produced Vostok listings), not an actual photo of the specific watch being sold. No serial number, case-back, or movement shots to verify authenticity. Vostok Amphibia watches are widely reissued/reproduced and this looks like a new/current production piece rather than a genuine vintage Soviet-era watch, despite \"vintage\" styling. Price and generic description are consistent with typical current-production Vostok resellers, not a red flag for fraud, but it's not vintage.",
+      "rarity_notes": "Ref 710634 \"Scuba Dude\" is one of the most common and widely produced Vostok Amphibia variants, still in production today - not rare or hard to find, and readily available new from many sellers.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Vostok Amphibia is a well-known, recognized affordable diver among enthusiasts, with steady collector/hobbyist demand, though this \"Scuba Dude\" variant is common and low-cost, not particularly rare."
+    },
+    "deal_score": -76,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 2575,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 2575 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Vostok Amphibia is a well-known, recognized affordable diver among enthusiasts, with steady collector/hobbyist demand, though this \"Scuba Dude\" variant is common and low-cost, not particularly rare.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 149.95,
+    "discount": -0.7641176470588233,
+    "notified": false,
+    "duplicate_of": "vostok:ebay:v1|202716530031|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1784938871.2742348,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "vostok:ebay:v1|204151711977|0",
+    "listing": {
+      "id": "ebay:v1|204151711977|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Vostok Amphibia 120811 Watch Diver Mechanical Automatic Black USA Seller",
+      "url": "https://www.ebay.com/itm/204151711977?_skw=Vostok+Amphibia&hash=item2f8863e8e9:g:NIsAAOSwgL5mYUpd",
+      "price": 159.95,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/NIsAAOSwgL5mYUpd/s-l225.jpg",
+      "image_urls": [],
+      "body": "Vostok Amphibia 120811 Watch Diver Mechanical Automatic Black USA Seller",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "New with box and papers"
+      }
+    },
+    "watch_item_id": "vostok",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "The hunter wants a Vostok Amphibia with a classic military-style dial, no unusual variants. This listing is a Vostok Amphibia (ref 120811) with a simple black dial, black numerals/hands, and standard bezel - a classic no-frills military-style look, matching the criteria well since no specific reference was required.",
+      "estimated_value": 75.0,
+      "confidence": 0.45,
+      "condition_summary": "Photo shows what appears to be a new/unworn watch on a rubber strap with clean bezel and crystal, but the image looks like a stock product photo rather than an actual item photo, so true condition is unverified.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only one stock-style photo provided with no close-ups of caseback, movement, or serial markings; listing text is minimal (just the title repeated) with no description of condition, history, or included accessories. Price is plausible for a modern-production Amphibia but 'vintage' claim by the hunter isn't supported - this model (120811 series) is a newer/current production reissue, not a true vintage Soviet-era piece, which is a mismatch with the 'vintage' framing even though it satisfies the 'classic military feel, no crazy dial' requirement.",
+      "rarity_notes": "The 120811 case/dial combo is a widely produced, easily available modern Vostok Amphibia variant - not rare or hard to find, commonly sold by multiple sellers at similar prices.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Vostok Amphibia has a solid enthusiast following and reliable recognition, but this specific common black-dial variant is not a standout/rare piece, so demand is moderate rather than high."
+    },
+    "deal_score": -113,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 2575,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 2575 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Vostok Amphibia has a solid enthusiast following and reliable recognition, but this specific common black-dial variant is not a standout/rare piece, so demand is moderate rather than high.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 159.95,
+    "discount": -1.1326666666666665,
+    "notified": false,
+    "duplicate_of": "vostok:ebay:v1|202716530031|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1784938880.2353349,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "vostok:ebay:v1|203918177468|0",
+    "listing": {
+      "id": "ebay:v1|203918177468|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Vostok Amphibia 120658 Watch Scuba Dude Diver Automatic USA Seller",
+      "url": "https://www.ebay.com/itm/203918177468?_skw=Vostok+Amphibia&hash=item2f7a7874bc:g:O34AAOSwcf9my0mW",
+      "price": 149.95,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/O34AAOSwcf9my0mW/s-l225.jpg",
+      "image_urls": [],
+      "body": "Vostok Amphibia 120658 Watch Scuba Dude Diver Automatic USA Seller",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "New with box and papers"
+      }
+    },
+    "watch_item_id": "vostok",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The Scuba Dude dial (with the diver mascot graphic) is considered a novelty/fun dial variant, not the classic military-style dial the hunter explicitly wants (\"no crazy dials just classic military feel\"). While it is a genuine Vostok Amphibia model, the dial style conflicts with the stated requirement.",
+      "estimated_value": 130.0,
+      "confidence": 0.55,
+      "condition_summary": "Photo shows what appears to be a new or like-new watch on a black rubber strap, with a stock-photo look (product shot, no wear visible, no size reference or box shown).",
+      "authenticity_risk": "low",
+      "authenticity_notes": "Price and presentation are consistent with a new/reissue Vostok Amphibia sold by USA-based resellers (common for this reference); no obvious red flags like mismatched parts or unrealistic pricing, but the image looks like a generic stock/catalog photo rather than an actual photo of the specific unit being sold, which is worth noting.",
+      "rarity_notes": "The 120658 \"Scuba Dude\" is a well-known, mass-produced modern Vostok Amphibia variant, not a rare vintage piece; readily available new from multiple sellers.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Vostok Amphibia has strong niche recognition among affordable vintage/Soviet watch collectors, but the Scuba Dude variant is common and not particularly sought after compared to true vintage military-dial pieces."
+    },
+    "deal_score": -15,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 2575,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 2575 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Vostok Amphibia has strong niche recognition among affordable vintage/Soviet watch collectors, but the Scuba Dude variant is common and not particularly sought after compared to true vintage military-dial pieces.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 149.95,
+    "discount": -0.15346153846153837,
+    "notified": false,
+    "duplicate_of": "vostok:ebay:v1|202716530031|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1784938888.2084079,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "vostok:ebay:v1|202727675264|0",
+    "listing": {
+      "id": "ebay:v1|202727675264|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Vostok Amphibia 120656 Watch Scuba Dude Diver Automatic USA Seller",
+      "url": "https://www.ebay.com/itm/202727675264?_skw=Vostok+Amphibia&hash=item2f3382d580:g:04oAAOSw6qhmnSQr",
+      "price": 149.95,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/04oAAOSw6qhmnSQr/s-l225.jpg",
+      "image_urls": [],
+      "body": "Vostok Amphibia 120656 Watch Scuba Dude Diver Automatic USA Seller",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "New with box and papers"
+      }
+    },
+    "watch_item_id": "vostok",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The hunter wants a classic military-feel Amphibia with no crazy dials. The 120656 \"Scuba Dude\" model features a novelty diver-with-flag graphic dial, which is a distinctive/quirky dial variant rather than a classic military-style dial (e.g., plain numbered/marker dial). This falls into the 'crazy dial' category the hunter explicitly wants to avoid.",
+      "estimated_value": 100.0,
+      "confidence": 0.55,
+      "condition_summary": "Appears to be a new/modern-production Amphibia (stock-style product photo, rubber strap, clean case) rather than a genuine vintage piece; no wear shown, likely current manufacture rather than an actual Soviet-era vintage watch.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "Photo looks like a standard manufacturer/reseller product shot rather than an actual photo of the seller's item, common for new-production Vostok listings; not necessarily fraudulent but reduces ability to verify actual condition. Price and description are consistent with widely available new Vostok Amphibia models sold by many legitimate resellers.",
+      "rarity_notes": "The 120656 \"Scuba Dude\" dial is a well-known, currently produced Vostok variant - not rare, and not vintage; it's a modern novelty dial, contrary to the classic military look requested.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Vostok Amphibia has a solid enthusiast following and the Scuba Dude variant is popular within that niche, but it's not a high-value or broadly recognized luxury piece, and this specific dial doesn't match the buyer's stated preference."
+    },
+    "deal_score": -50,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 2575,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 2575 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Vostok Amphibia has a solid enthusiast following and the Scuba Dude variant is popular within that niche, but it's not a high-value or broadly recognized luxury piece, and this specific dial doesn't match the buyer's stated preference.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 149.95,
+    "discount": -0.4994999999999999,
+    "notified": false,
+    "duplicate_of": "vostok:ebay:v1|202716530031|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1784938897.6501243,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "vostok:ebay:v1|202800759504|0",
+    "listing": {
+      "id": "ebay:v1|202800759504|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Vostok Amphibia 710439 Watch Military Mechanical Automatic Green USA Seller",
+      "url": "https://www.ebay.com/itm/202800759504?_skw=Vostok+Amphibia&hash=item2f37de02d0:g:SYUAAOSw0gVdpi2S&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGZwVDxkqA2fncllRutTMWsbqu%2BmVRDeYsVciaK6F%2Bk0MP%2BfnTyODcFmdpIB8KTUpNrrwoIb6Xyiawp7gRMP6ijrGJwnIU2qHCnbUth8ZwWJuSMafwWrYqX%2F8nc6TgvjcdS%2Bonpt7WXXF24GSskVLJMYOw36MOSTjWbQY4hSUulPAYAI4VzDBX7n0WYegr34VSwN1Pi4aA%2B4C3g%2F2mVnvfurxCLFEf1bDgzdgAZjiLBjqyhtmtMHEhPsOYFWfH4jScUs2m8NtKdhwLvhQc8XLB%2FviwflHOY8d0vuq0qsU2YoQw%3D%3D",
+      "price": 149.95,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/SYUAAOSw0gVdpi2S/s-l225.jpg",
+      "image_urls": [],
+      "body": "Vostok Amphibia 710439 Watch Military Mechanical Automatic Green USA Seller",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "New with box and papers"
+      }
+    },
+    "watch_item_id": "vostok",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "The listing is a genuine Vostok Amphibia (ref 710439), matching the brand/model exactly. The dial is a classic green military-style diver dial, not an unusual/crazy variant, fitting the 'classic military feel' requirement.",
+      "estimated_value": 115.0,
+      "confidence": 0.55,
+      "condition_summary": "Photo shows what appears to be a new/unworn watch on a stainless bracelet with clean dial and bezel; no visible wear, but only one stock-style photo provided.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "Image looks like a standard manufacturer/reseller stock photo rather than an in-hand photo of the actual item, which is common for new Vostok listings but limits condition verification. No serial mismatches or other overt red flags; price is in line with typical new Vostok Amphibia pricing, not suspiciously low.",
+      "rarity_notes": "This is a widely produced, currently available Vostok Amphibia reference (710439), not a rare or discontinued vintage piece - common and easy to find new.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Vostok Amphibias have a solid enthusiast following for affordable Soviet-style divers, but this particular colorway/reference is a mass-produced current model rather than a sought-after vintage grail, so demand is moderate rather than high."
+    },
+    "deal_score": -30,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 2575,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 2575 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Vostok Amphibias have a solid enthusiast following for affordable Soviet-style divers, but this particular colorway/reference is a mass-produced current model rather than a sought-after vintage grail, so demand is moderate rather than high.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 149.95,
+    "discount": -0.30391304347826076,
+    "notified": false,
+    "duplicate_of": "vostok:ebay:v1|202716530031|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1784938904.910794,
     "analysis_depth": "quick"
   }
 ]

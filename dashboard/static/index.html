@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Deal Hunter</title>
-  <link rel="stylesheet" href="/static/styles.css?v=10" />
+  <link rel="stylesheet" href="/static/styles.css?v=11" />
 </head>
 <body>
   <header class="topbar">
@@ -23,6 +23,11 @@
         <option value="15">Poll every 15 min</option>
         <option value="30">Poll every 30 min</option>
         <option value="60">Poll every hour</option>
+        <option value="180">Poll every 3 hours</option>
+        <option value="360">Poll every 6 hours</option>
+        <option value="480">Poll every 8 hours</option>
+        <option value="720">Poll every 12 hours</option>
+        <option value="1440">Poll every day</option>
       </select>
       <button id="refresh-now" class="btn btn-secondary">⟳ Refresh now</button>
       <button id="pause-toggle" class="btn btn-secondary">⏸ Pause hunting</button>
@@ -85,6 +90,6 @@
     </div>
   </div>
 
-  <script src="/static/app.js?v=10"></script>
+  <script src="/static/app.js?v=11"></script>
 </body>
 </html>

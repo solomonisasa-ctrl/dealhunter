@@ -77,6 +77,13 @@
       "Omega Constellation"
     ]
   },
+  "ebay:v1|127984546301|0": {
+    "first_seen": 1784938627.421776,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
   "ebay:v1|127990210612|0": {
     "first_seen": 1784842769.0563755,
     "status": "active",
@@ -168,6 +175,20 @@
       "vostok"
     ]
   },
+  "ebay:v1|137536346803|0": {
+    "first_seen": 1784938635.9520824,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|137544597640|0": {
+    "first_seen": 1784938731.810052,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
   "ebay:v1|147169564297|0": {
     "first_seen": 1784760567.1343763,
     "status": "active",
@@ -203,6 +224,13 @@
       "gs-shunbun"
     ]
   },
+  "ebay:v1|147351466869|0": {
+    "first_seen": 1784938698.035546,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
   "ebay:v1|147379839078|0": {
     "first_seen": 1784760728.7518432,
     "status": "active",
@@ -236,6 +264,13 @@
     "status": "active",
     "watch_item_ids": [
       "Omega Constellation"
+    ]
+  },
+  "ebay:v1|147421653650|0": {
+    "first_seen": 1784938643.2351131,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
     ]
   },
   "ebay:v1|147425360517|0": {
@@ -340,7 +375,8 @@
     "first_seen": 1784760409.8299644,
     "status": "active",
     "watch_item_ids": [
-      "gs-shunbun"
+      "gs-shunbun",
+      "shunbun"
     ]
   },
   "ebay:v1|157931485212|0": {
@@ -397,6 +433,13 @@
     "status": "active",
     "watch_item_ids": [
       "Omega Constellation"
+    ]
+  },
+  "ebay:v1|168558764621|0": {
+    "first_seen": 1784938742.4018316,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
     ]
   },
   "ebay:v1|168558807121|0": {
@@ -483,6 +526,13 @@
       "gs-shunbun"
     ]
   },
+  "ebay:v1|177957909395|0": {
+    "first_seen": 1784938705.7598865,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
   "ebay:v1|178240274196|0": {
     "first_seen": 1784924050.1200752,
     "status": "active",
@@ -495,6 +545,13 @@
     "status": "active",
     "watch_item_ids": [
       "Omega Constellation"
+    ]
+  },
+  "ebay:v1|178311791711|0": {
+    "first_seen": 1784938712.7741666,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
     ]
   },
   "ebay:v1|178320426441|0": {
@@ -564,7 +621,8 @@
     "first_seen": 1784760434.3584287,
     "status": "active",
     "watch_item_ids": [
-      "gs-shunbun"
+      "gs-shunbun",
+      "shunbun"
     ]
   },
   "ebay:v1|188599726450|0": {
@@ -579,6 +637,13 @@
     "status": "active",
     "watch_item_ids": [
       "gs-shunbun"
+    ]
+  },
+  "ebay:v1|188691487179|0": {
+    "first_seen": 1784938657.5875804,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
     ]
   },
   "ebay:v1|196069699243|0": {
@@ -609,6 +674,55 @@
       "vostok"
     ]
   },
+  "ebay:v1|202716538904|0": {
+    "first_seen": 1784938861.879303,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|202716543257|0": {
+    "first_seen": 1784938769.500824,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|202727675264|0": {
+    "first_seen": 1784938888.3662453,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|202800759504|0": {
+    "first_seen": 1784938897.8121917,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|203192246446|0": {
+    "first_seen": 1784938807.8998895,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|203302342759|0": {
+    "first_seen": 1784938816.3723164,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|203304452119|0": {
+    "first_seen": 1784938853.047976,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
   "ebay:v1|203304452943|0": {
     "first_seen": 1784936490.5535038,
     "status": "active",
@@ -616,8 +730,36 @@
       "vostok"
     ]
   },
+  "ebay:v1|203918177468|0": {
+    "first_seen": 1784938880.3901796,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|204151711977|0": {
+    "first_seen": 1784938871.4281123,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
   "ebay:v1|204295600470|0": {
     "first_seen": 1784936383.778832,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|204295604239|0": {
+    "first_seen": 1784938825.7084076,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|204368583398|0": {
+    "first_seen": 1784938723.6646154,
     "status": "active",
     "watch_item_ids": [
       "vostok"
@@ -632,6 +774,13 @@
   },
   "ebay:v1|204413888239|0": {
     "first_seen": 1784936510.0892515,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|205216444466|0": {
+    "first_seen": 1784938834.8305297,
     "status": "active",
     "watch_item_ids": [
       "vostok"
@@ -840,6 +989,34 @@
       "Omega Constellation"
     ]
   },
+  "ebay:v1|257615031671|0": {
+    "first_seen": 1784938551.6088924,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|257628839962|0": {
+    "first_seen": 1784938563.818362,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|257633934624|0": {
+    "first_seen": 1784938579.8476758,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|267688966916|0": {
+    "first_seen": 1784938674.8378263,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
   "ebay:v1|267716772486|0": {
     "first_seen": 1784760344.182757,
     "status": "active",
@@ -888,6 +1065,13 @@
     "status": "active",
     "watch_item_ids": [
       "Omega Constellation"
+    ]
+  },
+  "ebay:v1|278201400440|0": {
+    "first_seen": 1784938751.9146352,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
     ]
   },
   "ebay:v1|286711267767|0": {
@@ -1044,8 +1228,43 @@
       "Omega Constellation"
     ]
   },
+  "ebay:v1|318603172728|0": {
+    "first_seen": 1784938684.084207,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
   "ebay:v1|318608269812|0": {
     "first_seen": 1784936256.4601092,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|318608269856|0": {
+    "first_seen": 1784938586.424339,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|318608269866|0": {
+    "first_seen": 1784938601.9557202,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|318608269871|0": {
+    "first_seen": 1784938593.658853,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|318608269888|0": {
+    "first_seen": 1784938571.5388827,
     "status": "active",
     "watch_item_ids": [
       "shunbun"
@@ -1070,6 +1289,13 @@
     "status": "active",
     "watch_item_ids": [
       "seiko willard"
+    ]
+  },
+  "ebay:v1|327035539352|0": {
+    "first_seen": 1784938620.7702467,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
     ]
   },
   "ebay:v1|327165790877|0": {
@@ -1182,6 +1408,13 @@
     "status": "active",
     "watch_item_ids": [
       "gs-shunbun"
+    ]
+  },
+  "ebay:v1|358726727095|0": {
+    "first_seen": 1784938650.8998034,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
     ]
   },
   "ebay:v1|358781427907|0": {
@@ -1310,11 +1543,46 @@
       "vostok"
     ]
   },
+  "ebay:v1|377362957311|0": {
+    "first_seen": 1784938760.578458,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|377362957742|0": {
+    "first_seen": 1784938788.120138,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|377362958068|0": {
+    "first_seen": 1784938778.077694,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|377362958612|0": {
+    "first_seen": 1784938799.1807115,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
   "ebay:v1|377364803400|0": {
     "first_seen": 1784924794.3578155,
     "status": "active",
     "watch_item_ids": [
       "Omega Constellation"
+    ]
+  },
+  "ebay:v1|377366412321|0": {
+    "first_seen": 1784938844.2124503,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
     ]
   },
   "ebay:v1|377367812715|0": {
@@ -1380,11 +1648,25 @@
       "Omega Constellation"
     ]
   },
+  "ebay:v1|398205070933|0": {
+    "first_seen": 1784938543.2374651,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
   "ebay:v1|406870689698|0": {
     "first_seen": 1784760673.5853984,
     "status": "active",
     "watch_item_ids": [
       "gs-shunbun"
+    ]
+  },
+  "ebay:v1|407038398546|0": {
+    "first_seen": 1784938666.4216955,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
     ]
   },
   "ebay:v1|407056026172|0": {

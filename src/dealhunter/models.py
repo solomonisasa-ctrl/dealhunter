@@ -112,6 +112,11 @@ class Finding(BaseModel):
     discount: Optional[float]  # fraction, e.g. 0.35 = 35% under estimated value
     notified: bool = False
     duplicate_of: Optional[str] = None  # id of an earlier Finding for the same physical item
+    # User explicitly said "not interested" - permanently hidden from the
+    # feed (default view and "Show all" alike) and skipped by the sold/
+    # price-refresh pass, so it never resurfaces and never costs another
+    # API call.
+    dismissed: bool = False
     qa_history: list[QAEntry] = Field(default_factory=list)
     created_at: float = Field(default_factory=time.time)
     # "quick" = only the first photo was analyzed (the cheap default pass on

@@ -59,8 +59,10 @@ def api_findings(watch_item_id: str | None = None, sort: str = "date", show_all:
 
     # Always drop findings for watch items that no longer exist - deleting
     # a hunt should remove its listings from the feed, not just hide the
-    # watch item itself.
-    findings = [f for f in findings if f.watch_item_id in watchlist_by_id]
+    # watch item itself. Same for dismissed findings - "not interested"
+    # means gone for good, not just hidden from the default view, so this
+    # applies even under "Show all".
+    findings = [f for f in findings if f.watch_item_id in watchlist_by_id and not f.dismissed]
 
     if not show_all:
         # Default view is "deals you can still buy", not "everything
@@ -161,11 +163,25 @@ def api_full_analysis(finding_id: str):
     updated.id = finding.id
     updated.duplicate_of = finding.duplicate_of
     updated.notified = finding.notified
+    updated.dismissed = finding.dismissed
     updated.qa_history = finding.qa_history
     updated.created_at = finding.created_at
 
     findings_store.update_finding(settings.findings_path, updated)
     return updated.model_dump(mode="json")
+
+
+@app.post("/api/findings/{finding_id:path}/dismiss")
+def api_dismiss_finding(finding_id: str):
+    """Marks a finding as not interested - permanently hidden from the
+    feed (even under "Show all") and skipped by future sold/price
+    re-checks, so it never resurfaces and never costs another API call."""
+    finding = findings_store.get_finding(settings.findings_path, finding_id)
+    if finding is None:
+        raise HTTPException(status_code=404, detail="Finding not found")
+    finding.dismissed = True
+    findings_store.update_finding(settings.findings_path, finding)
+    return finding.model_dump(mode="json")
 
 
 @app.get("/api/watchlist")

@@ -6,6 +6,7 @@ notify all stay independently testable.
 """
 from __future__ import annotations
 
+import concurrent.futures
 import time
 
 import anthropic
@@ -147,6 +148,10 @@ def refresh_listings(
             if entry.get("status") == "active"
             and enabled_ids.intersection(entry.get("watch_item_ids", []))
             and listing_id in findings_by_listing_id
+            # Skip listings the user dismissed everywhere they matched -
+            # they're gone for good, so there's no point spending an API
+            # call keeping their price/sold status current.
+            and any(not f.dismissed for f in findings_by_listing_id[listing_id])
         ]
         candidates.sort(key=lambda kv: kv[1].get("first_seen", 0))
 
@@ -203,6 +208,12 @@ def refresh_listings(
 # isn't lost - it's simply not marked seen, so it's picked up on a later
 # run instead of blocking this one.
 _MAX_NEW_LISTINGS_PER_RUN = 20
+
+# Quick-pass analysis calls are independent, network-bound, and have no
+# shared state, so they run concurrently instead of one at a time - the
+# biggest lever for wall-clock run time. Kept modest to stay well clear of
+# Anthropic rate limits on a personal-tier account.
+_QUICK_PASS_WORKERS = 4
 
 
 def run_hunt(settings: Settings, source_health_errors: dict[str, str] | None = None) -> HealthReport:
@@ -277,13 +288,44 @@ def run_hunt(settings: Settings, source_health_errors: dict[str, str] | None = N
             except Exception:  # noqa: BLE001
                 pass
 
-            for listing_index, listing in enumerate(listings, start=1):
-                progress_tracker.update(
-                    phase="analyzing",
-                    detail=f"{item.id} ({source_name}) - listing {listing_index}/{len(listings)}",
-                    current=(item_index - 1) + (listing_index - 1) / max(len(listings), 1),
-                    total=total_items,
-                )
+            scorable = [lst for lst in listings if lst.status.value != "sold"]
+
+            # Phase 1: run the cheap quick-pass analysis for every new
+            # listing IN PARALLEL - each call is an independent, network-
+            # bound Claude request with no shared state, so this is the
+            # single biggest lever for wall-clock speed (previously fully
+            # sequential). Bookkeeping that touches shared files (state,
+            # findings.json) stays out of this phase and happens after, in
+            # original order, in phase 2 below.
+            quick_results: dict[str, Finding | Exception] = {}
+            if scorable:
+                with concurrent.futures.ThreadPoolExecutor(max_workers=_QUICK_PASS_WORKERS) as pool:
+                    future_to_listing = {
+                        pool.submit(
+                            score_listing, client, settings.anthropic_model, lst, item, comparable_count, full=False
+                        ): lst
+                        for lst in scorable
+                    }
+                    done = 0
+                    for future in concurrent.futures.as_completed(future_to_listing):
+                        lst = future_to_listing[future]
+                        done += 1
+                        progress_tracker.update(
+                            phase="analyzing",
+                            detail=f"{item.id} ({source_name}) - listing {done}/{len(future_to_listing)}",
+                            current=(item_index - 1) + done / max(len(future_to_listing), 1),
+                            total=total_items,
+                        )
+                        try:
+                            quick_results[lst.id] = future.result()
+                        except Exception as exc:  # noqa: BLE001
+                            quick_results[lst.id] = exc
+
+            # Phase 2: sequential bookkeeping, in the original listing
+            # order, so dedup against earlier findings from this same
+            # batch (already written to findings.json by an earlier
+            # iteration) still works correctly.
+            for listing in listings:
                 state_store.mark_seen(state, listing.id, item.id)
                 source_health[source_name].new += 1
 
@@ -291,16 +333,11 @@ def run_hunt(settings: Settings, source_health_errors: dict[str, str] | None = N
                     state_store.mark_sold(state, listing.id)
                     continue
 
-                try:
-                    # Cheap first pass: text + first photo only. Most new
-                    # listings aren't a good enough deal to be worth the
-                    # extra cost of a full multi-photo analysis - see below.
-                    finding = score_listing(
-                        client, settings.anthropic_model, listing, item, comparable_count, full=False
-                    )
-                except Exception as exc:  # noqa: BLE001
-                    source_health[source_name].errors.append(f"{listing.id}: {exc}")
+                result = quick_results.get(listing.id)
+                if isinstance(result, Exception):
+                    source_health[source_name].errors.append(f"{listing.id}: {result}")
                     continue
+                finding = result
 
                 cleared_threshold = qualifies_for_notification(
                     finding.analysis, finding.discount, item.discount_threshold

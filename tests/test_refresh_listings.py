@@ -208,6 +208,21 @@ def test_price_cut_that_clears_threshold_flags_for_notification(tmp_path):
     assert updated.notified is True
 
 
+def test_dismissed_finding_is_skipped_entirely(tmp_path):
+    settings = _FakeSettings(tmp_path)
+    finding = _seed(settings, "ebay:1", "item-a")
+    finding.dismissed = True
+    findings_store.update_finding(settings.findings_path, finding)
+
+    watchlist = [WatchItem(id="item-a", category="watches", description="anything")]
+    source = _FakeSource(sold_ids={"ebay:1"})  # even though it's "sold" now
+
+    sold, repriced, newly_qualified = refresh_listings(settings, {"ebay": source}, watchlist)
+
+    assert source.checked == []  # never even asked - saves the API call
+    assert (sold, repriced, newly_qualified) == (0, 0, [])
+
+
 def test_already_notified_finding_is_not_re_flagged_on_a_further_drop(tmp_path):
     settings = _FakeSettings(tmp_path)
     finding = _make_finding("ebay:1", "item-a", price=300.0, estimated_value=600.0)

@@ -194,6 +194,14 @@ async function loadFeed() {
 
 document.getElementById("show-all").addEventListener("change", loadFeed);
 
+async function dismissFinding(findingId) {
+  const res = await fetch(`/api/findings/${encodeURIComponent(findingId)}/dismiss`, { method: "POST" });
+  if (!res.ok) {
+    const err = await res.json().catch(() => ({}));
+    throw new Error(err.detail || res.statusText);
+  }
+}
+
 function renderFeed() {
   const grid = document.getElementById("feed-grid");
   const empty = document.getElementById("feed-empty");
@@ -219,7 +227,10 @@ function renderFeed() {
     const soldBadge = f.listing.status === "sold" ? '<span class="badge badge-red">Sold</span>' : "";
 
     card.innerHTML = `
-      <div class="card-image">${img}${photoCountBadge}</div>
+      <div class="card-image">
+        ${img}${photoCountBadge}
+        <button type="button" class="dismiss-btn" title="Not interested - dismiss">✕</button>
+      </div>
       <div class="card-body">
         <div class="card-title">${escapeHtml(f.listing.title)}</div>
         <div class="card-price">${fmtPrice(f.all_in_price)}</div>
@@ -233,6 +244,19 @@ function renderFeed() {
         <div class="card-summary">${escapeHtml(f.analysis.condition_summary || "")}</div>
       </div>
     `;
+    card.querySelector(".dismiss-btn").addEventListener("click", async (e) => {
+      e.stopPropagation();
+      const btn = e.currentTarget;
+      btn.disabled = true;
+      try {
+        await dismissFinding(f.id);
+        card.remove();
+        empty.classList.toggle("hidden", grid.children.length > 0);
+      } catch (err) {
+        alert(`Dismiss failed: ${err.message || err}`);
+        btn.disabled = false;
+      }
+    });
     grid.appendChild(card);
   }
 }
@@ -331,6 +355,7 @@ async function openDetail(findingId) {
       <span class="badge badge-liquidity">${f.liquidity.rating} liquidity</span>
       ${depthNote}
       ${soldNote}
+      <button type="button" class="btn btn-danger" id="dismiss-detail-btn" style="float:right;">🚫 Not interested</button>
     </div>
     ${duplicateNote}
     ${renderPhotoGallery(f.listing)}
@@ -384,6 +409,21 @@ async function openDetail(findingId) {
       openDetail(originalLink.dataset.openFinding);
     });
   }
+
+  document.getElementById("dismiss-detail-btn").addEventListener("click", async (e) => {
+    const btn = e.currentTarget;
+    btn.disabled = true;
+    btn.textContent = "Dismissing…";
+    try {
+      await dismissFinding(currentFindingId);
+      document.getElementById("detail-overlay").classList.add("hidden");
+      loadFeed();
+    } catch (err) {
+      alert(`Dismiss failed: ${err.message || err}`);
+      btn.disabled = false;
+      btn.textContent = "🚫 Not interested";
+    }
+  });
 
   const fullAnalysisBtn = document.getElementById("full-analysis-btn");
   if (fullAnalysisBtn) {
