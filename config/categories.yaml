@@ -25,6 +25,18 @@ watches:
     # eBay category ID 31387 = "Watches, Parts & Accessories" (Wristwatches).
     category_ids:
       - "31387"
+  # etsy block disabled until you've created an app at etsy.com/developers/
+  # your-apps and filled in ETSY_KEYSTRING + ETSY_SHARED_SECRET in .env /
+  # repo secrets (unlike Reddit, this is self-serve - no approval wait).
+  # Uncomment once that's done:
+  # etsy:
+  #   # Optional: narrow results to a specific Etsy taxonomy (category) ID.
+  #   # Etsy doesn't publish a simple lookup table for these - call
+  #   # GET /v3/application/seller-taxonomy/nodes (or buyer-taxonomy/nodes)
+  #   # to find the right one for "Watches" and set it here. Left unset for
+  #   # now, so search runs marketplace-wide (still keyword-scoped, just
+  #   # not category-restricted).
+  #   taxonomy_id: null
   # Fields the criteria parser (src/dealhunter/criteria_parser.py) is asked
   # to extract from plain English. Any field it can't confidently extract is
   # left null - the analyzer still gets the raw plain-English text either way.

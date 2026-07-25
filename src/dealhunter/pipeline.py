@@ -25,15 +25,15 @@ from dealhunter.notify.ntfy import send_deal_digest, send_error_alert
 from dealhunter.schedule_store import load_paused, load_poll_interval_minutes
 from dealhunter.sources.base import SourceAdapter
 from dealhunter.sources.ebay_source import EbaySource
+from dealhunter.sources.etsy_source import EtsySource
 from dealhunter.sources.reddit_source import RedditSource
 from dealhunter.storage import findings_store, health_store, state_store
 from dealhunter.watchlist_store import load_watchlist, save_watchlist
 
-# Etsy intentionally excluded (phase 2 - see sources/etsy_source.py). Adding
-# it later is a one-line addition here plus filling in the source class.
 SOURCE_REGISTRY: dict[str, type[SourceAdapter]] = {
     "reddit": RedditSource,
     "ebay": EbaySource,
+    "etsy": EtsySource,
 }
 
 

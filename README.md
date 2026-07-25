@@ -1,6 +1,6 @@
 # Deal Hunter
 
-A personal tool that watches Reddit and eBay for underpriced collectibles
+A personal tool that watches Reddit, eBay, and Etsy for underpriced collectibles
 (starting with watches), scores each new listing with Claude (deal score +
 resale liquidity), and pushes an ntfy.sh alert when something qualifies.
 Runs on a schedule via GitHub Actions - no server to maintain - with a local
@@ -37,6 +37,7 @@ labeled as such wherever it shows up.
 |---|---|---|
 | Reddit | Go to [reddit.com/prefs/apps](https://www.reddit.com/prefs/apps), click "create app", choose type **script**, set redirect URI to `http://localhost:8080` (unused but required) | `client_id` (under the app name), `client_secret` |
 | eBay | Register at [developer.ebay.com](https://developer.ebay.com), create a **Production** keyset under "Application Keys" | `Client ID` (App ID), `Client Secret` (Cert ID) |
+| Etsy | Create an app at [etsy.com/developers/your-apps](https://www.etsy.com/developers/your-apps) | `Keystring`, `Shared secret` - public read endpoints only, no OAuth consent flow needed |
 | Anthropic | Create a key at [console.anthropic.com](https://console.anthropic.com) | API key |
 | ntfy.sh | No signup - just pick a hard-to-guess topic name, e.g. `dealhunter-xk92j`, and subscribe to it in the [ntfy app](https://ntfy.sh/app) (iOS/Android) or web | topic name |
 | GitHub | Create a new **private** repo (this will hold your watchlist + finding history) | - |
@@ -51,7 +52,7 @@ source .venv/bin/activate   # or .venv\Scripts\activate on Windows
 pip install -r requirements.txt
 
 cp .env.example .env
-# edit .env and fill in the 4 sets of credentials above
+# edit .env and fill in the 5 sets of credentials above
 ```
 
 ## 3. Run the tests (no network calls)
@@ -121,6 +122,7 @@ add these repository secrets:
 
 - `REDDIT_CLIENT_ID`, `REDDIT_CLIENT_SECRET`, `REDDIT_USER_AGENT`
 - `EBAY_CLIENT_ID`, `EBAY_CLIENT_SECRET`
+- `ETSY_KEYSTRING`, `ETSY_SHARED_SECRET`
 - `ANTHROPIC_API_KEY`
 - `NTFY_TOPIC`
 

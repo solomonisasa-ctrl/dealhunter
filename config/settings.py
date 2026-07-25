@@ -32,6 +32,12 @@ class Settings(BaseSettings):
     ebay_client_id: str = ""
     ebay_client_secret: str = ""
 
+    # Etsy - "keystring" and "shared secret" from etsy.com/developers/your-apps.
+    # Public read endpoints (search, single listing) only need these two
+    # combined into the x-api-key header - no OAuth user-consent flow.
+    etsy_keystring: str = ""
+    etsy_shared_secret: str = ""
+
     # Anthropic
     anthropic_api_key: str = ""
     anthropic_model: str = "claude-sonnet-5"
