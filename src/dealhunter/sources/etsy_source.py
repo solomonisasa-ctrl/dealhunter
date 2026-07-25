@@ -93,23 +93,31 @@ class EtsySource(SourceAdapter):
             listing_id = f"etsy:{listing_id_raw}"
             if listing_id in seen_ids:
                 continue
-            listings.append(
-                Listing(
-                    id=listing_id,
-                    source=self.name,
-                    category=watch_item.category,
-                    title=item.get("title", ""),
-                    url=item.get("url", ""),
-                    price=_money_to_float(item.get("price")),
-                    shipping_price=None,  # not in the search payload - shipping varies by destination
-                    currency=(item.get("price") or {}).get("currency_code", "USD"),
-                    image_url=None,  # not in the search payload either - see fetch_additional_photos
-                    body=item.get("description", "") or item.get("title", ""),
-                    posted_at=None,
-                    status=ListingStatus.ACTIVE,
-                    raw={"taxonomy_id": item.get("taxonomy_id")},
-                )
+            listing = Listing(
+                id=listing_id,
+                source=self.name,
+                category=watch_item.category,
+                title=item.get("title", ""),
+                url=item.get("url", ""),
+                price=_money_to_float(item.get("price")),
+                shipping_price=None,  # not in the search payload - shipping varies by destination
+                currency=(item.get("price") or {}).get("currency_code", "USD"),
+                body=item.get("description", "") or item.get("title", ""),
+                posted_at=None,
+                status=ListingStatus.ACTIVE,
+                raw={"taxonomy_id": item.get("taxonomy_id")},
             )
+            # Unlike eBay, whose search results include one free thumbnail,
+            # Etsy's search payload has NO image at all - every listing
+            # needs a separate call just to get a single photo. Fetched
+            # eagerly here (not lazily like the eBay's *additional* photos)
+            # so quick-pass analysis has a photo to look at, and the
+            # dashboard doesn't show a misleading "no image" for a listing
+            # that actually has plenty on the real Etsy page.
+            photos = self.fetch_additional_photos(listing)
+            listing.image_urls = photos
+            listing.image_url = photos[0] if photos else None
+            listings.append(listing)
         return listings
 
     def fetch_additional_photos(self, listing: Listing) -> list[str]:

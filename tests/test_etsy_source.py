@@ -110,8 +110,54 @@ def test_fetch_new_converts_money_and_skips_seen(monkeypatch):
     assert listing.source == "etsy"
     assert listing.price == 4200.0  # 420000 / 100
     assert listing.currency == "USD"
-    assert listing.image_url is None  # not in the search payload
-    assert listing.image_urls == []
+
+
+def test_fetch_new_eagerly_fetches_photos_unlike_ebay(monkeypatch):
+    """Regression test: unlike eBay (whose search results include one free
+    thumbnail), Etsy's search payload has NO image at all - fetch_new must
+    eagerly fetch photos itself, or every listing shows "no image" in the
+    dashboard even when the real Etsy listing clearly has one."""
+
+    def _fake_get(url, headers=None, params=None, timeout=None):
+        resp = MagicMock()
+        if "/images" in url:
+            resp.json.return_value = {
+                "results": [
+                    {"rank": 1, "url_fullxfull": "https://example.com/1.jpg"},
+                    {"rank": 2, "url_fullxfull": "https://example.com/2.jpg"},
+                ]
+            }
+        else:
+            resp.json.return_value = {"results": [_fake_listing_result(listing_id=111)], "count": 1}
+        resp.raise_for_status.return_value = None
+        return resp
+
+    monkeypatch.setattr(etsy_module.requests, "get", _fake_get)
+    source = EtsySource(_FakeSettings())
+    listings = source.fetch_new(make_watch_item(), {"etsy": {}}, seen_ids=set())
+
+    assert len(listings) == 1
+    listing = listings[0]
+    assert listing.image_url == "https://example.com/1.jpg"
+    assert listing.image_urls == ["https://example.com/1.jpg", "https://example.com/2.jpg"]
+
+
+def test_fetch_new_falls_back_to_no_image_if_photo_fetch_fails(monkeypatch):
+    def _fake_get(url, headers=None, params=None, timeout=None):
+        if "/images" in url:
+            raise etsy_module.requests.RequestException("boom")
+        resp = MagicMock()
+        resp.json.return_value = {"results": [_fake_listing_result(listing_id=111)], "count": 1}
+        resp.raise_for_status.return_value = None
+        return resp
+
+    monkeypatch.setattr(etsy_module.requests, "get", _fake_get)
+    source = EtsySource(_FakeSettings())
+    listings = source.fetch_new(make_watch_item(), {"etsy": {}}, seen_ids=set())
+
+    assert len(listings) == 1
+    assert listings[0].image_url is None
+    assert listings[0].image_urls == []
 
 
 def test_fetch_new_falls_back_to_description_without_keywords(monkeypatch):

@@ -129,11 +129,39 @@
   discount_threshold: 0.3
   lookback_days: 30
   enabled: true
-  parsed_criteria: null
+  parsed_criteria:
+    brand: Rolex
+    model: Submariner
+    reference_number: null
+    condition_min: null
+    box_and_papers_required: null
+    max_price_all_in: null
+    other_requirements: authentic, vintage, black dial
+    search_keywords:
+    - vintage Rolex Submariner
+    - Rolex Submariner black dial
+    - authentic Rolex Submariner
+    - Rolex Submariner vintage
+    - Submariner black dial vintage
+    - Rolex Sub black face
 - id: santos
   category: watches
   description: authentic cartier santos medium or large, silver with white dial.
   discount_threshold: 0.25
   lookback_days: 30
   enabled: true
-  parsed_criteria: null
+  parsed_criteria:
+    brand: Cartier
+    model: Santos
+    reference_number: null
+    condition_min: null
+    box_and_papers_required: null
+    max_price_all_in: null
+    other_requirements: Must be authentic; silver-tone case/bracelet with white dial;
+      medium or large size accepted
+    search_keywords:
+    - Cartier Santos
+    - Santos medium
+    - Santos large
+    - Cartier Santos silver white dial
+    - Cartier Santos steel
