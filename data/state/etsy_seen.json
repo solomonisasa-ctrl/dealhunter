@@ -216,6 +216,13 @@
       "santos"
     ]
   },
+  "etsy:1872936007": {
+    "first_seen": 1785109139.6076427,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
   "etsy:1873439462": {
     "first_seen": 1785015649.10614,
     "status": "active",
@@ -428,6 +435,20 @@
   },
   "etsy:4408061395": {
     "first_seen": 1785023837.6998615,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "etsy:4410017312": {
+    "first_seen": 1785109100.1256347,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "etsy:4411130425": {
+    "first_seen": 1785109100.0565698,
     "status": "active",
     "watch_item_ids": [
       "Omega Constellation"
@@ -890,7 +911,7 @@
   },
   "etsy:4535153767": {
     "first_seen": 1785015209.4203715,
-    "status": "active",
+    "status": "sold",
     "watch_item_ids": [
       "Omega Constellation"
     ]
