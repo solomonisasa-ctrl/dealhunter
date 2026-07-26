@@ -471,5 +471,28 @@
     "sold_detected": 0,
     "repriced_detected": 0,
     "error_message": null
+  },
+  {
+    "timestamp": 1785080824.4086962,
+    "overall_status": "ok",
+    "duration_seconds": 166.56766057014465,
+    "sources": {
+      "ebay": {
+        "status": "ok",
+        "fetched": 36,
+        "new": 36,
+        "errors": []
+      },
+      "etsy": {
+        "status": "ok",
+        "fetched": 2,
+        "new": 2,
+        "errors": []
+      }
+    },
+    "findings_count": 38,
+    "sold_detected": 0,
+    "repriced_detected": 0,
+    "error_message": null
   }
 ]
