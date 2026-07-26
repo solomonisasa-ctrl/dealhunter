@@ -20,6 +20,7 @@ from dealhunter.analysis.scoring import compute_deal_score, compute_liquidity, q
 from dealhunter.claude_client import make_client
 from dealhunter.criteria_parser import ensure_parsed_criteria
 from dealhunter.healthcheck import assess_source_staleness, overall_status, verify_credentials
+from dealhunter.junk_filter import is_junk_listing
 from dealhunter.models import AnalysisResult, Finding, HealthReport, Listing, ListingStatus, SourceHealth, WatchItem
 from dealhunter.notify.ntfy import send_deal_digest, send_error_alert
 from dealhunter.schedule_store import load_paused, load_poll_interval_minutes
@@ -279,6 +280,19 @@ def run_hunt(settings: Settings, source_health_errors: dict[str, str] | None = N
                 continue
 
             source_health[source_name].fetched += len(listings)
+
+            # Drop obvious junk (accessories, replacement parts, art/media)
+            # before it ever reaches Claude or counts against this run's
+            # cap - a keyword search surfaces these just because they
+            # mention the same brand/model text as the real thing. Marked
+            # seen so they aren't re-fetched every run, but never scored or
+            # stored as a finding. Source-agnostic and driven entirely by
+            # this category's config, so it works for any category.
+            for listing in listings:
+                if is_junk_listing(listing, category_def):
+                    state_store.mark_seen(state, listing.id, item.id)
+            listings = [lst for lst in listings if not is_junk_listing(lst, category_def)]
+
             # See _MAX_NEW_LISTINGS_PER_RUN - anything past this isn't
             # marked seen below, so it's simply picked up on a later run.
             listings = listings[:_MAX_NEW_LISTINGS_PER_RUN]

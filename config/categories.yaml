@@ -26,13 +26,39 @@ watches:
     category_ids:
       - "31387"
   etsy:
-    # Approved 2026-07-25. Optional: narrow results to a specific Etsy
-    # taxonomy (category) ID. Etsy doesn't publish a simple lookup table
-    # for these - call GET /v3/application/seller-taxonomy/nodes (or
-    # buyer-taxonomy/nodes) to find the right one for "Watches" and set it
-    # here. Left unset for now, so search runs marketplace-wide (still
-    # keyword-scoped, just not category-restricted).
-    taxonomy_id: null
+    # Etsy taxonomy 2831 = Jewelry > Watches > Wrist Watches. Without this,
+    # keyword search runs across all of Etsy and pulls in straps/bands,
+    # sunglasses, art prints, and other non-watch junk that happens to
+    # mention the brand/model in its title or tags - found via
+    # GET /v3/application/seller-taxonomy/nodes.
+    taxonomy_id: 2831
+  # Title phrases that mean a listing is an accessory, replacement part, or
+  # art/media item rather than the actual watch itself - filtered out
+  # before spending a Claude call on it (src/dealhunter/junk_filter.py).
+  # A category-driven keyword search matches on brand/model text alone, so
+  # it also surfaces straps, prints, and other unrelated products that
+  # mention the same words. Keep phrases specific/multi-word (e.g. "strap
+  # for" not bare "strap") so a genuine watch listing that mentions its own
+  # strap/bracelet isn't excluded by mistake. This mechanism - and the list
+  # itself - is per-category, so a future category (e.g. "sneakers")
+  # defines its own without touching any code.
+  junk_title_phrases:
+    - strap for
+    - band for
+    - bracelet for
+    - compatible with
+    - replacement strap
+    - replacement band
+    - replacement bracelet
+    - watch strap
+    - watch band
+    - watch bracelet
+    - sketch
+    - wall art
+    - art print
+    - poster
+    - sunglasses
+    - eyeglasses
   # Fields the criteria parser (src/dealhunter/criteria_parser.py) is asked
   # to extract from plain English. Any field it can't confidently extract is
   # left null - the analyzer still gets the raw plain-English text either way.
