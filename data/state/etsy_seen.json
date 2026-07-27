@@ -62,11 +62,32 @@
       "james bond watch"
     ]
   },
+  "etsy:1334118522": {
+    "first_seen": 1785175411.4610045,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "etsy:1334118668": {
+    "first_seen": 1785175411.3246508,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
   "etsy:1339801519": {
     "first_seen": 1785015467.2502687,
     "status": "active",
     "watch_item_ids": [
       "james bond watch"
+    ]
+  },
+  "etsy:1343778527": {
+    "first_seen": 1785175513.9899545,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
     ]
   },
   "etsy:1394944637": {
@@ -267,6 +288,20 @@
   },
   "etsy:1890671963": {
     "first_seen": 1785015208.399365,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "etsy:1891853349": {
+    "first_seen": 1785175353.140752,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "etsy:1892432537": {
+    "first_seen": 1785175352.722817,
     "status": "active",
     "watch_item_ids": [
       "Omega Constellation"
@@ -704,6 +739,13 @@
     "status": "active",
     "watch_item_ids": [
       "vostok"
+    ]
+  },
+  "etsy:4476666532": {
+    "first_seen": 1785175352.517445,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
     ]
   },
   "etsy:4476794106": {
@@ -1236,6 +1278,41 @@
     "status": "active",
     "watch_item_ids": [
       "vostok"
+    ]
+  },
+  "etsy:4544738713": {
+    "first_seen": 1785175353.0259457,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "etsy:4544806189": {
+    "first_seen": 1785175352.939397,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "etsy:4544810507": {
+    "first_seen": 1785175352.8496318,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "etsy:4544827889": {
+    "first_seen": 1785175352.6375434,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "etsy:4544844234": {
+    "first_seen": 1785175475.3074522,
+    "status": "active",
+    "watch_item_ids": [
+      "submariner"
     ]
   },
   "etsy:579354182": {
