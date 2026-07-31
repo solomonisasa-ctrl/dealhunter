@@ -1518,6 +1518,13 @@
       "Omega Constellation"
     ]
   },
+  "etsy:4547345821": {
+    "first_seen": 1785515129.3037536,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
   "etsy:579354182": {
     "first_seen": 1785050630.923352,
     "status": "active",
@@ -1565,6 +1572,13 @@
     "status": "active",
     "watch_item_ids": [
       "vostok"
+    ]
+  },
+  "etsy:890675653": {
+    "first_seen": 1785515102.7167547,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
     ]
   }
 }
