@@ -708,7 +708,7 @@
       "title": "SEIKO Grand Seiko SBGV247 9F Caliber 25th Anniversary Limited Edition Model",
       "url": "https://www.ebay.com/itm/147425360517?_skw=Grand+Seiko+Shunbun+Grand+Seiko+Shunbun+Spring+Equinox+GS+Shunbun+limited+edition+Grand+Seiko+Shunbun+box+papers+Shunbun+Grand+Seiko+watch&hash=item22533c7a85:g:9skAAeSwIo5qTrJE&amdata=enc%3AAQALAAABcACCtXRWQnOEpyOqnQQ8KGYJesHqcV1ApbCYVKQzDArc5bmQcIV1jn8jXsIKUpJiTJSgtVbl89BAeLU3%2B9yfHkXAk6ygCcBIF%2FrAFnDNGP1aLz%2Bgq3YyaXZ57Gb8D8TzOvImMoah%2BU5nnJsGxNJ4MtMkAhbbnDwQQXgsslLMNoHeGJEYvVhz3%2FdnegSgVEdskXPaIVSwCpxqkQTJlz0RD91eFE5LDJFGcWiyB%2FuG%2FSEfSTGwK7vcHaUGlWodsryySCTIIU6Kx%2BHGhTqMAlaBjd%2BTK1SMvFhZZ54PNno1DT0aDcSkBW4ZMX9AuYsinh1BZZ2%2F2nyPJd5eQPUK5EwvWgXQfYElgX0GE8lH9JqE6LtbxjptGuxcdO5K5ItYwl%2Fz1%2B2a2bhnN%2B1vZh9OKYzcUDNXVsm0KabT%2BwiaBI2dcf7IZzSzW9dZC9VO4rfTEO9MpwbQgLh%2BBTYK6Uo%2BCWGE0yuDvy8qb7Od39U%2BCviUz6AK",
       "price": 3800.0,
-      "shipping_price": 0.0,
+      "shipping_price": 35.0,
       "currency": "USD",
       "image_url": "https://i.ebayimg.com/images/g/9skAAeSwIo5qTrJE/s-l225.jpg",
       "image_urls": [],
@@ -732,7 +732,7 @@
       "demand_tier": "Medium",
       "demand_reasoning": "Grand Seiko as a brand has high recognition and demand, but this specific 9F quartz anniversary LE has a smaller, more niche collector base compared to mechanical Grand Seiko models like the Shunbun, so demand is moderate rather than high."
     },
-    "deal_score": 0,
+    "deal_score": -1,
     "liquidity": {
       "rating": "Medium",
       "comparable_count": 97,
@@ -740,8 +740,8 @@
       "claude_tier": "Medium",
       "reasoning": "Algorithmic signal: 97 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko as a brand has high recognition and demand, but this specific 9F quartz anniversary LE has a smaller, more niche collector base compared to mechanical Grand Seiko models like the Shunbun, so demand is moderate rather than high.). Final rating uses the more conservative of the two: Medium."
     },
-    "all_in_price": 3800.0,
-    "discount": 0.0,
+    "all_in_price": 3835.0,
+    "discount": -0.009210526315789473,
     "notified": false,
     "duplicate_of": null,
     "dismissed": false,
@@ -62438,6 +62438,926 @@
     "dismissed": false,
     "qa_history": [],
     "created_at": 1785573851.5991893,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "Omega Constellation:ebay:v1|178362837826|0",
+    "listing": {
+      "id": "ebay:v1|178362837826|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "1962 Near MINT OMEGA Constellation Chronometer 34mm 14900-62 Automatic Men's",
+      "url": "https://www.ebay.com/itm/178362837826?_skw=Omega+Constellation&hash=item298740eb42:i:178362837826",
+      "price": 1199.99,
+      "shipping_price": 270.0,
+      "currency": "USD",
+      "image_url": null,
+      "image_urls": [],
+      "body": "1962 Near MINT OMEGA Constellation Chronometer 34mm 14900-62 Automatic Men's",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "Omega Constellation",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Hunter's criteria only specified brand Omega and model Constellation with no specific reference required. This listing is a genuine Omega Constellation model (ref 14900-62), so it matches the generic criteria.",
+      "estimated_value": 1400.0,
+      "confidence": 0.4,
+      "condition_summary": "Described as \"Near MINT\" 1962 automatic chronometer, 34mm case, but no photos provided and no detail on dial, case wear, movement servicing, or box/papers.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "No photos included to verify dial printing, case back engravings, or movement - \"Near MINT\" claims for a 60+ year old watch are a common overstatement red flag. No mention of box/papers, service history, or serial number verification. Title is keyword-stuffed (common on eBay but also common in vague/reseller listings), and price seems plausible but can't be verified without visual inspection.",
+      "rarity_notes": "The pie-pan dial Constellation 14900-series from the early 1960s is a well-known and desirable vintage reference, but not particularly rare - many examples surface on the market regularly, so value depends heavily on dial/case condition and originality.",
+      "demand_tier": "High",
+      "demand_reasoning": "Omega Constellation vintage chronometers, especially pie-pan dial models, have strong collector demand and brand recognition."
+    },
+    "deal_score": -5,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 7637,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 7637 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Omega Constellation vintage chronometers, especially pie-pan dial models, have strong collector demand and brand recognition.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 1469.99,
+    "discount": -0.04999285714285715,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1785599226.7545905,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "Omega Constellation:ebay:v1|327283470403|0",
+    "listing": {
+      "id": "ebay:v1|327283470403|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Omega Constellation Automatic Gold and Stainless Steel 1302.10",
+      "url": "https://www.ebay.com/itm/327283470403?_skw=Omega+Constellation&hash=item4c339d7043:g:7vsAAeSwo4NqaRzn",
+      "price": 1795.0,
+      "shipping_price": 60.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/7vsAAeSwo4NqaRzn/s-l225.jpg",
+      "image_urls": [],
+      "body": "Omega Constellation Automatic Gold and Stainless Steel 1302.10",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "Omega Constellation",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Hunter's criteria was generic 'Omega Constellation' with no specific reference required, and this listing is an Omega Constellation (ref 1302.10), so it matches.",
+      "estimated_value": 1900.0,
+      "confidence": 0.55,
+      "condition_summary": "Two-tone (steel and gold) automatic Constellation with champagne dial, visible in a single stock-style photo showing no obvious major wear; condition otherwise not detailed in text (no mention of box/papers, service history, or close-up wear shots).",
+      "authenticity_risk": "low",
+      "authenticity_notes": "Reference number, dial layout, and case/bracelet design in the photo are consistent with a genuine 1990s Omega Constellation 1302.10. No box/papers shown or mentioned, and only one photo provided (no case-back, serial, or clasp close-ups), which limits ability to verify authenticity fully - not a red flag by itself but worth requesting more photos/serial before purchase.",
+      "rarity_notes": "This is a common, widely-produced reference from the Constellation line (1990s two-tone automatic); not rare or limited, but a well-recognized and desirable model.",
+      "demand_tier": "High",
+      "demand_reasoning": "Omega Constellation is a well-known, in-demand model line, and two-tone automatic versions like the 1302.10 have steady collector/buyer interest."
+    },
+    "deal_score": 2,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 7637,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 7637 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Omega Constellation is a well-known, in-demand model line, and two-tone automatic versions like the 1302.10 have steady collector/buyer interest.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 1855.0,
+    "discount": 0.02368421052631579,
+    "notified": false,
+    "duplicate_of": "Omega Constellation:etsy:4480039308",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1785599226.7536044,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "Omega Constellation:ebay:v1|227454593408|0",
+    "listing": {
+      "id": "ebay:v1|227454593408|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "OMEGA Constellation 1510.30 date flat bezel Quartz Men's Watch A#149130",
+      "url": "https://www.ebay.com/itm/227454593408?_skw=Omega+Constellation&hash=item34f559a980:g:3U8AAeSwrhNqaw~o",
+      "price": 584.35,
+      "shipping_price": 90.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/3U8AAeSwrhNqaw~o/s-l225.jpg",
+      "image_urls": [],
+      "body": "OMEGA Constellation 1510.30 date flat bezel Quartz Men's Watch A#149130",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "Omega Constellation",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Hunter's criteria is generic \"Omega Constellation\" with no specific reference required. Listing is a genuine Omega Constellation model (ref 1510.30), so it matches.",
+      "estimated_value": 650.0,
+      "confidence": 0.55,
+      "condition_summary": "Watch appears in good cosmetic condition from the single photo - clean dial, bracelet and bezel show no major visible damage, but image is small/stock-like and no close-up of case back, clasp, or wear details is provided.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "No obvious red flags (correct model naming, plausible reference number, price is in a reasonable range for this quartz Constellation), but only one photo is shown and no close-ups of hallmarks, serial number, or movement are provided, so authenticity can't be fully verified from the listing alone.",
+      "rarity_notes": "The 1510.30 quartz Constellation \"Manhattan\" style is a fairly common reference from the 1990s-2000s, not rare or limited edition - readily available on the secondary market.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Omega Constellation is a well-recognized, reputable model line with steady demand, but this quartz date-flat-bezel variant is common and less sought-after than automatic/chronometer versions."
+    },
+    "deal_score": -4,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 7637,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 7637 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Omega Constellation is a well-recognized, reputable model line with steady demand, but this quartz date-flat-bezel variant is common and less sought-after than automatic/chronometer versions.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 674.35,
+    "discount": -0.0374615384615385,
+    "notified": false,
+    "duplicate_of": "Omega Constellation:ebay:v1|236970470402|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1785599228.7743468,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "Omega Constellation:etsy:4547995298",
+    "listing": {
+      "id": "etsy:4547995298",
+      "source": "etsy",
+      "category": "watches",
+      "title": "Watch OMEGA Constellation Automatic, Chronometer Officially Certified, Case Steel, Watch Men, Gift Birthday, Watch Unisex, Watch Working",
+      "url": "https://www.etsy.com/listing/4547995298/watch-omega-constellation-automatic",
+      "price": 1275.0,
+      "shipping_price": null,
+      "currency": "USD",
+      "image_url": "https://i.etsystatic.com/7555273/r/il/3c0b88/7938301391/il_fullxfull.7938301391_8zml.jpg",
+      "image_urls": [
+        "https://i.etsystatic.com/7555273/r/il/3c0b88/7938301391/il_fullxfull.7938301391_8zml.jpg",
+        "https://i.etsystatic.com/7555273/r/il/14b8f8/7938301385/il_fullxfull.7938301385_sylo.jpg",
+        "https://i.etsystatic.com/7555273/r/il/a29b1b/7890342936/il_fullxfull.7890342936_qqat.jpg",
+        "https://i.etsystatic.com/7555273/r/il/9c97ca/7938301389/il_fullxfull.7938301389_qprf.jpg",
+        "https://i.etsystatic.com/7555273/r/il/7647b6/7938301531/il_fullxfull.7938301531_awdr.jpg",
+        "https://i.etsystatic.com/7555273/r/il/a3358d/7938301551/il_fullxfull.7938301551_r5xo.jpg",
+        "https://i.etsystatic.com/7555273/r/il/20aac6/7938301399/il_fullxfull.7938301399_cs7d.jpg",
+        "https://i.etsystatic.com/7555273/r/il/3c85cc/7890342922/il_fullxfull.7890342922_9wpf.jpg",
+        "https://i.etsystatic.com/7555273/r/il/428344/7890342954/il_fullxfull.7890342954_7x05.jpg",
+        "https://i.etsystatic.com/7555273/r/il/a533f0/7890342802/il_fullxfull.7890342802_hcvc.jpg",
+        "https://i.etsystatic.com/7555273/r/il/bdbd63/7938301413/il_fullxfull.7938301413_o94n.jpg",
+        "https://i.etsystatic.com/7555273/r/il/85d45b/7890342944/il_fullxfull.7890342944_6r2h.jpg"
+      ],
+      "body": "\u2763\ufe0f \ud835\udc13 \ud835\udc07 \ud835\udc04 . \ud835\udc01 \ud835\udc04 \ud835\udc12 \ud835\udc13 . \ud835\udc02 \ud835\udc0e \ud835\udc0b \ud835\udc0b \ud835\udc04 \ud835\udc02 \ud835\udc13 \ud835\udc08 \ud835\udc01 \ud835\udc0b \ud835\udc04 \ud835\udc12 \u2763\ufe0f\n\nWe offer an elegant wristwatch in excellent condition\n\nJoya high-end Swiss watches for men or unisex\n\nBrand OMEGA\n\nModel Constellation  -  Chronometer Officially Certified   \n\nReference 168.047\n\nMeasure 40mm x 34mm (excluding crown)\n\nCirca 1970  (with 56 years old)\n\nOrigin Switzerland\n\nDial signed OMEGA\n\nCalendar\n\nCrown signed OMEGA\n\nCase stainless steel, signed OMEGA\n\nBracelet stainless steel, signed OMEGA\n\nAutomatic movement signed OMEGA\n\nCaliber 1001 -  20 Jewels\n\nExcellent working and performance\n\nIt has a maintenance service before putting it up for sale\n\nAll my watches are subjected to review and service, to ensure proper operation\n\nThe photos published for the article offered\n\nAll our photos are high quality, so you can see well, in detail, the article, and there is no doubt\n\n______________________________________________________\n\n\u25ba Why choose \ud835\udc00\ud835\udc27\ud835\udc2d\ud835\udc22\ud835\udc2a\ud835\udc2e\ud835\udc1e\ud835\udc2c \ud835\udc02\ud835\udc28\ud835\udc25\ud835\udc25\ud835\udc1e\ud835\udc1c\ud835\udc2d\ud835\udc22\ud835\udc1b\ud835\udc25\ud835\udc1e ? We have extensive experience in the antiques and collectibles trade. We are a second-generation family business with over 55 years of experience.\n\n\u25ba We have been in global retail for over thirty years, working throughout the Americas and Europe.\n\n\u25ba We ship hundreds of packages every month, of all shapes and sizes, seamlessly, worldwide.\n\n\u25ba We offer what is probably the largest single selection online, with at least 5,000 vintage and antique items from across the Americas and Europe. Find them both in our Etsy shops and through our social media channels.\n\n\u25ba We can match and beat our competitors&#39; prices whenever possible; just let us know and we&#39;ll get to work right away.\n\n\u25ba Regarding packaging, we take every precaution to ensure the contents arrive in excellent condition, quickly and safely.\n\n\u25ba We use recycled or recyclable packaging. Occasionally, this isn&#39;t possible; for example, paper tape doesn&#39;t withstand the rigors of international shipping.\n\n\u25ba We specialize in vintage and antique items, often unique. While we strive to ensure the safety and quality of the products we source and offer for sale, please be aware that vintage and antique items may not meet current safety standards and regulations. They were generally created before such regulations existed.\n\n\u25ba All items are sold as spare parts, repairs, accessories, and collectibles and are generally intended for functional and decorative purposes. They may contain materials or components that are unsuitable for use by children or in certain environments. Customers are advised to handle these items with care and keep them out of reach of children.\n\n\u25ba Everything we sell comes with a 10-day trial. If it doesn&#39;t work as expected, simply return it for a full refund. We understand that online shopping can sometimes be difficult. We do it a lot! We&#39;re often surprised by what we receive. You can usually avoid disappointment by thoroughly reading product descriptions and reviewing all listing photos, where we strive to detail any flaws our vintage and antique items may have.\n\n\u25ba Any feedback we receive that is less than excellent is almost always due to customers not reading product descriptions or not looking at all the photos. That&#39;s why we suggest contacting us before leaving incorrect feedback; we can correct any confusion.\n\n\u25ba If you have any questions or security concerns about our vintage and antique items, please send us a message on Etsy, and we&#39;ll respond as soon as possible.\n\nAlways remember that we have \u2763\ufe0f \ud835\udc13 \ud835\udc07 \ud835\udc04 . \ud835\udc01 \ud835\udc04 \ud835\udc12 \ud835\udc13 . \ud835\udc02 \ud835\udc0e \ud835\udc0b \ud835\udc0b \ud835\udc04 \ud835\udc02 \ud835\udc13 \ud835\udc08 \ud835\udc01 \ud835\udc0b \ud835\udc04 \ud835\udc12 \u2763\ufe0f",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "taxonomy_id": 2831
+      }
+    },
+    "watch_item_id": "Omega Constellation",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Hunter's criteria was generic \"Omega Constellation\" with no specific reference required, and this listing is a genuine Omega Constellation (ref 168.047), so it matches.",
+      "estimated_value": 1000.0,
+      "confidence": 0.55,
+      "condition_summary": "Vintage c-case Constellation from the 1970s showing typical light wear and case scratches consistent with age; dial appears clean with some slight discoloration near edges, hands and markers intact, bracelet shown is steel but end links/clasp not clearly visible.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "Photo shows a plausible genuine Constellation \"C-case\" with correct dial text layout, signed crown, and consistent caliber 1001 claim for this era. No visible caseback or movement photo, no close-up of serial/hallmarks, which limits verification. Seller's boilerplate marketing text is generic and doesn't raise fraud flags itself, but lack of caseback/movement shots is a minor gap.",
+      "rarity_notes": "This \"C-shape\" cushion-case Constellation (ref 168.047) with pie-pan/linen dial is a fairly common vintage Omega model from the early-mid 1970s; not a limited edition, moderately available on the secondary market.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Omega Constellation is a well-recognized, collectible line with solid demand, though this particular cushion-case variant is less iconic than the pie-pan round-case Constellations, keeping demand at medium rather than high."
+    },
+    "deal_score": -28,
+    "liquidity": {
+      "rating": "Low",
+      "comparable_count": 0,
+      "algorithmic_tier": "Low",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 0 comparable listing(s) seen in the lookback window -> Low. Claude's qualitative read: Medium (Omega Constellation is a well-recognized, collectible line with solid demand, though this particular cushion-case variant is less iconic than the pie-pan round-case Constellations, keeping demand at medium rather than high.). Final rating uses the more conservative of the two: Low."
+    },
+    "all_in_price": 1275.0,
+    "discount": -0.275,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1785599240.6363385,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "Omega Constellation:etsy:4547945887",
+    "listing": {
+      "id": "etsy:4547945887",
+      "source": "etsy",
+      "category": "watches",
+      "title": "1969 Near MINT OMEGA Constellation Chronometer 25mm 568.001 Automatic Women&#39;s",
+      "url": "https://www.etsy.com/listing/4547945887/1969-near-mint-omega-constellation",
+      "price": 599.99,
+      "shipping_price": null,
+      "currency": "USD",
+      "image_url": "https://i.etsystatic.com/62069282/r/il/7386c2/8373324779/il_fullxfull.8373324779_jkfw.jpg",
+      "image_urls": [
+        "https://i.etsystatic.com/62069282/r/il/7386c2/8373324779/il_fullxfull.8373324779_jkfw.jpg",
+        "https://i.etsystatic.com/62069282/r/il/01ee97/8373327363/il_fullxfull.8373327363_8we7.jpg",
+        "https://i.etsystatic.com/62069282/r/il/6ce738/8373328669/il_fullxfull.8373328669_noo0.jpg",
+        "https://i.etsystatic.com/62069282/r/il/089a0e/8373330773/il_fullxfull.8373330773_trpb.jpg",
+        "https://i.etsystatic.com/62069282/r/il/7dd596/8373333587/il_fullxfull.8373333587_5zxx.jpg",
+        "https://i.etsystatic.com/62069282/r/il/4941dd/8373337043/il_fullxfull.8373337043_4jll.jpg",
+        "https://i.etsystatic.com/62069282/r/il/d173c1/8373339341/il_fullxfull.8373339341_5k3l.jpg",
+        "https://i.etsystatic.com/62069282/r/il/e98b78/8325445604/il_fullxfull.8325445604_bp82.jpg",
+        "https://i.etsystatic.com/62069282/r/il/7879a9/8373348055/il_fullxfull.8373348055_nvn7.jpg",
+        "https://i.etsystatic.com/62069282/r/il/deeb6c/8325452714/il_fullxfull.8325452714_gxib.jpg",
+        "https://i.etsystatic.com/62069282/r/il/729dfa/8373370431/il_fullxfull.8373370431_luwh.jpg"
+      ],
+      "body": "1969 NEAR MINT OMEGA CONSTELLATION CHRONOMETER 25MM 568.001 AUTOMATIC WOMEN&#39;S #2496\n\nWe also offer watch boxes in our store that are perfect for gifts.\nWhen you purchase a watch together with a box, the box will be 50% off, and the discount will be refunded after purchase.\nPlease feel free to check our store, and don\u2019t miss this special offer!\n\n\nDESCRIPTION\n\n\nTOTAL CONDITION;\n\nNEAR MINT\n\nTOP MINT\nPre-owned, Almost new item\nMINT\nPre-owned, Like new\nNEAR MINT\nPre-owned, almost no signs of use\nEXCELLENT+++++\nPre-owned, minimal signs of use\nEXECELLENT\nPre-owned, heavy signs of use\nVERY GOOD\nPoor appearance\n\nBand: Fits wrists up to about 173 mm (6.81 inches).\nCase size: About 25 mm\n\n\nSERIAL NUMBER;\n\n31848170\n\n\nAPPEARANCE;\n\nAppearance is beautiful.\nNew Strap.\ntiny scuffs from normal use.\nIt shows signs of use.\n*Please check photos.\n\n\nFUNCTIONAL;\n\nIt works properly.\nDay difference is around +96 seconds.\u3000\n\n\nBUNDLED ITEMS;\n\nAll you can see on the picture will be included in a set of a package.\nAbove condition is based on my own opinion.\nPlease check the photo carefully.\nPlease feel free to contact me for any questions!\nThank you.\n\n\nSHIPPING\n\nI ship by DHL or Japan Post.\nI attach the tracking number.\nPlease bid it without worrying.\nShipping is available from Monday to Friday.\nWeekends are not available because office is closed.\n\n\nSTORAGE AND PACKING\n\nStorage\nImmediately after shooting, it is placed in a closed container with desiccant and stored for 24 hours and 365 days in a temperature and humidity controlled warehouse.\n\n\nPacking\nBy weight and shape of each product, I use 13 kind of cushioning materials and pursue safety and weight reduction.\n\n\n\nRETURNS\n\nUnconditional Return Policy\nCustomer service and satisfaction are very important to us.\nI have an unconditional return policy if notified within 30 days of the receipt of the item.\nAll returned items must be the original condition.\nAll return requests must be made within 30 days of the receipt of the item.\nPlease contact me first for return before you ship it back to me.\nThe postage of the returned goods is a seller burden.\n\n\nFOR U.S. BUYERS\n\nIf the shipping cost shown at checkout is USD 50 or more, the item will be shipped as DDP (Delivered Duty Paid).\nIn this case, the shipping fee includes express shipping as well as U.S. import duties and related charges, all of which are covered by our store.\n\nTherefore, no additional customs duties or fees will be required upon delivery.\n\nThis system ensures smooth customs clearance, prevents unexpected charges, and provides fast and worry-free shipping.\n\nIf the shipping cost is under USD 50, the item will be shipped as DDU (Delivered Duty Unpaid).\nIn this case, depending on the destination country\u2019s regulations, U.S. import duties and related charges may apply.\n\nThese import duties and related charges are the buyer\u2019s responsibility and may be billed by the local carrier or customs office.\n\n\nINTERNATIONAL BUYERS\n\nImport duties, taxes, and charges are not included in the item price or shipping cost.\nThese charges are the buyer\u2019s responsibility.\nPlease check with your country\u2019s customs office before purchasing.",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "taxonomy_id": 6074
+      }
+    },
+    "watch_item_id": "Omega Constellation",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "The hunter's criteria only specify Omega Constellation with no specific reference number required, and this listing is a genuine Omega Constellation (ref 568.001), so it matches the stated criteria.",
+      "estimated_value": 550.0,
+      "confidence": 0.6,
+      "condition_summary": "Ladies' 25mm automatic chronometer with new strap, described as \"near mint\" with tiny scuffs from normal use; photo shows a clean dial and case with light wear at lug edges, consistent with the description. Runs with a +96 sec/day deviation, which is fairly out of spec for a chronometer-grade movement, suggesting it may need servicing.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "Dial, case shape, crown, and date window all appear consistent with genuine late-1960s Omega Constellation ladies' models; Omega logo, chronometer text, and Constellation script with star match known examples. Only one photo shown (close-up), no caseback or movement shot, no box/papers - can't confirm serial 31848170 matches case, and reference number claim (568.001) should be cross-checked against caseback stamping, but nothing overtly suspicious in text or image.",
+      "rarity_notes": "This is a fairly common ladies' Constellation reference from 1969, not a rare or limited variant; plentiful supply on the vintage market so rarity is low.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Omega Constellation is a recognized, desirable vintage line, but this small (25mm) ladies' automatic model has less collector demand than men's full-size Constellations, keeping overall demand moderate."
+    },
+    "deal_score": -9,
+    "liquidity": {
+      "rating": "Low",
+      "comparable_count": 0,
+      "algorithmic_tier": "Low",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 0 comparable listing(s) seen in the lookback window -> Low. Claude's qualitative read: Medium (Omega Constellation is a recognized, desirable vintage line, but this small (25mm) ladies' automatic model has less collector demand than men's full-size Constellations, keeping overall demand moderate.). Final rating uses the more conservative of the two: Low."
+    },
+    "all_in_price": 599.99,
+    "discount": -0.0908909090909091,
+    "notified": false,
+    "duplicate_of": "Omega Constellation:ebay:v1|147412868089|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1785599240.160345,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "Omega Constellation:etsy:4547961702",
+    "listing": {
+      "id": "etsy:4547961702",
+      "source": "etsy",
+      "category": "watches",
+      "title": "1991 Near MINT OMEGA Constellation 32mm 396.1070.1 Quartz White Men&#39;s Vintage",
+      "url": "https://www.etsy.com/listing/4547961702/1991-near-mint-omega-constellation-32mm",
+      "price": 749.99,
+      "shipping_price": null,
+      "currency": "USD",
+      "image_url": "https://i.etsystatic.com/62069282/r/il/f13ed3/8373333605/il_fullxfull.8373333605_m9jp.jpg",
+      "image_urls": [
+        "https://i.etsystatic.com/62069282/r/il/f13ed3/8373333605/il_fullxfull.8373333605_m9jp.jpg",
+        "https://i.etsystatic.com/62069282/r/il/40aad7/8373336425/il_fullxfull.8373336425_axfc.jpg",
+        "https://i.etsystatic.com/62069282/r/il/a1dfa8/8325441808/il_fullxfull.8325441808_aqem.jpg",
+        "https://i.etsystatic.com/62069282/r/il/be016c/8373340653/il_fullxfull.8373340653_e7hd.jpg",
+        "https://i.etsystatic.com/62069282/r/il/053adf/8325445616/il_fullxfull.8325445616_42if.jpg",
+        "https://i.etsystatic.com/62069282/r/il/906779/8373348063/il_fullxfull.8373348063_euuw.jpg",
+        "https://i.etsystatic.com/62069282/r/il/01497b/8373348121/il_fullxfull.8373348121_q1ot.jpg",
+        "https://i.etsystatic.com/62069282/r/il/9cd505/8373356073/il_fullxfull.8373356073_6jjg.jpg"
+      ],
+      "body": "1991 NEAR MINT OMEGA CONSTELLATION 32MM 396.1070.1 QUARTZ WHITE MEN&#39;S VINTAGE #2486\n\nWe also offer watch boxes in our store that are perfect for gifts.\nWhen you purchase a watch together with a box, the box will be 50% off, and the discount will be refunded after purchase.\nPlease feel free to check our store, and don\u2019t miss this special offer!\n\n\nDESCRIPTION\n\n\nTOTAL CONDITION;\n\nNEAR MINT\n\nTOP MINT\nPre-owned, Almost new item\nMINT\nPre-owned, Like new\nNEAR MINT\nPre-owned, almost no signs of use\nEXCELLENT+++++\nPre-owned, minimal signs of use\nEXECELLENT\nPre-owned, heavy signs of use\nVERY GOOD\nPoor appearance\n\nBand: Fits wrists up to about 178 mm (7.01 inches).\nCase size: About 32 mm\n\n\nSERIAL NUMBER;\n\n53750741\n\n\nAPPEARANCE;\n\nAppearance is beautiful.\nThere is a thin layer of corrosion across the entire dial.\ntiny scuffs from normal use.\nIt shows signs of use.\n*Please check photos.\n\n\nFUNCTIONAL;\n\nIt works properly.\nThe watch is currently running smoothly, but since it is a battery-powered watch, there is a possibility that it will stop during transportation.\nPlease understand that we do not guarantee that this will happen.\nPlease contact me first for return before you ship it back to me.\n\n\nBUNDLED ITEMS;\n\nAll you can see on the picture will be included in a set of a package.\nAbove condition is based on my own opinion.\nPlease check the photo carefully.\nPlease feel free to contact me for any questions!\nThank you.\n\n\nSHIPPING\n\nI ship by DHL or Japan Post.\nI attach the tracking number.\nPlease bid it without worrying.\nShipping is available from Monday to Friday.\nWeekends are not available because office is closed.\n\n\nSTORAGE AND PACKING\n\nStorage\nImmediately after shooting, it is placed in a closed container with desiccant and stored for 24 hours and 365 days in a temperature and humidity controlled warehouse.\n\n\nPacking\nBy weight and shape of each product, I use 13 kind of cushioning materials and pursue safety and weight reduction.\n\n\n\nRETURNS\n\nUnconditional Return Policy\nCustomer service and satisfaction are very important to us.\nI have an unconditional return policy if notified within 30 days of the receipt of the item.\nAll returned items must be the original condition.\nAll return requests must be made within 30 days of the receipt of the item.\nPlease contact me first for return before you ship it back to me.\nThe postage of the returned goods is a seller burden.\n\n\nFOR U.S. BUYERS\n\nIf the shipping cost shown at checkout is USD 50 or more, the item will be shipped as DDP (Delivered Duty Paid).\nIn this case, the shipping fee includes express shipping as well as U.S. import duties and related charges, all of which are covered by our store.\n\nTherefore, no additional customs duties or fees will be required upon delivery.\n\nThis system ensures smooth customs clearance, prevents unexpected charges, and provides fast and worry-free shipping.\n\nIf the shipping cost is under USD 50, the item will be shipped as DDU (Delivered Duty Unpaid).\nIn this case, depending on the destination country\u2019s regulations, U.S. import duties and related charges may apply.\n\nThese import duties and related charges are the buyer\u2019s responsibility and may be billed by the local carrier or customs office.\n\n\nINTERNATIONAL BUYERS\n\nImport duties, taxes, and charges are not included in the item price or shipping cost.\nThese charges are the buyer\u2019s responsibility.\nPlease check with your country\u2019s customs office before purchasing.",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "taxonomy_id": 6074
+      }
+    },
+    "watch_item_id": "Omega Constellation",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Hunter's criteria is generic \"Omega Constellation\" with no specific reference required, so this 396.1070.1 quartz Constellation qualifies as a match.",
+      "estimated_value": 550.0,
+      "confidence": 0.6,
+      "condition_summary": "Small 32mm quartz Constellation (unisex/men's smaller size) from 1991; seller notes a thin layer of corrosion across the dial and tiny scuffs from normal use, otherwise described as \"near mint.\" Photo shows visible fine scratches on bezel and case, dial appears clean in image but corrosion may be subtle/not fully visible.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "Dial, bezel Roman numerals, and case shape are consistent with genuine Omega Constellation quartz models of this era. Serial number provided (53750741) though not independently verifiable. No box/papers shown or claimed, which is normal for this price point. Overseas seller (Japan) with standard Etsy vintage watch reseller boilerplate; no major red flags, but lack of macro photos of casebook/movement/hallmarks limits full authentication confidence.",
+      "rarity_notes": "This is a common quartz Constellation reference (396.1070.1) from the early 90s \"Manhattan\" style line - widely produced, not a limited or rare variant. Plentiful supply on the secondary market.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Omega Constellation is a recognized, desirable model line, but the 32mm quartz men's/unisex variant is less sought after than larger automatic/chronometer versions, giving it medium rather than high demand."
+    },
+    "deal_score": -36,
+    "liquidity": {
+      "rating": "Low",
+      "comparable_count": 0,
+      "algorithmic_tier": "Low",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 0 comparable listing(s) seen in the lookback window -> Low. Claude's qualitative read: Medium (Omega Constellation is a recognized, desirable model line, but the 32mm quartz men's/unisex variant is less sought after than larger automatic/chronometer versions, giving it medium rather than high demand.). Final rating uses the more conservative of the two: Low."
+    },
+    "all_in_price": 749.99,
+    "discount": -0.36361818181818184,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1785599240.1752324,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "Omega Constellation:etsy:4547959680",
+    "listing": {
+      "id": "etsy:4547959680",
+      "source": "etsy",
+      "category": "watches",
+      "title": "1962 Near MINT OMEGA Constellation Chronometer 36mm 168.001 Automatic Men&#39;s",
+      "url": "https://www.etsy.com/listing/4547959680/1962-near-mint-omega-constellation",
+      "price": 1599.99,
+      "shipping_price": null,
+      "currency": "USD",
+      "image_url": "https://i.etsystatic.com/62069282/r/il/3427a6/8373319193/il_fullxfull.8373319193_l2q2.jpg",
+      "image_urls": [
+        "https://i.etsystatic.com/62069282/r/il/3427a6/8373319193/il_fullxfull.8373319193_l2q2.jpg",
+        "https://i.etsystatic.com/62069282/r/il/13bba7/8325425050/il_fullxfull.8325425050_3n2x.jpg",
+        "https://i.etsystatic.com/62069282/r/il/015282/8373321923/il_fullxfull.8373321923_2enz.jpg",
+        "https://i.etsystatic.com/62069282/r/il/bb9ff4/8373324775/il_fullxfull.8373324775_8wb5.jpg",
+        "https://i.etsystatic.com/62069282/r/il/0607d5/8373327387/il_fullxfull.8373327387_fum8.jpg",
+        "https://i.etsystatic.com/62069282/r/il/24df88/8373329983/il_fullxfull.8373329983_i3oe.jpg",
+        "https://i.etsystatic.com/62069282/r/il/0c55ca/8373330767/il_fullxfull.8373330767_vj15.jpg",
+        "https://i.etsystatic.com/62069282/r/il/afb01c/8325438364/il_fullxfull.8325438364_k0oa.jpg",
+        "https://i.etsystatic.com/62069282/r/il/738297/8373333609/il_fullxfull.8373333609_2l3v.jpg",
+        "https://i.etsystatic.com/62069282/r/il/a3d111/8373337045/il_fullxfull.8373337045_t9un.jpg",
+        "https://i.etsystatic.com/62069282/r/il/832eda/8373340663/il_fullxfull.8373340663_tpw1.jpg"
+      ],
+      "body": "1962 NEAR MINT OMEGA CONSTELLATION CHRONOMETER 36MM 168.001 AUTOMATIC MEN&#39;S #2567\n\nWe also offer watch boxes in our store that are perfect for gifts.\nWhen you purchase a watch together with a box, the box will be 50% off, and the discount will be refunded after purchase.\nPlease feel free to check our store, and don\u2019t miss this special offer!\n\n\nDESCRIPTION\n\n\nTOTAL CONDITION;\n\nNEAR MINT\n\nTOP MINT\nPre-owned, Almost new item\nMINT\nPre-owned, Like new\nNEAR MINT\nPre-owned, almost no signs of use\nEXCELLENT+++++\nPre-owned, minimal signs of use\nEXECELLENT\nPre-owned, heavy signs of use\nVERY GOOD\nPoor appearance\n\nBand: Fits wrists up to about 200 mm (7.87 inches).\nCase size: About 36 mm\n\n\nSERIAL NUMBER;\n\n19650910\n\n\nAPPEARANCE;\n\nAppearance is beautiful.\nNew Strap.\ntiny scuffs from normal use.\nIt shows signs of use.\n*Please check photos.\n\n\nFUNCTIONAL;\n\nIt works properly.\nDay difference is around +13 seconds.\n\n\nBUNDLED ITEMS;\n\nAll you can see on the picture will be included in a set of a package.\nAbove condition is based on my own opinion.\nPlease check the photo carefully.\nPlease feel free to contact me for any questions!\nThank you.\n\n\nSHIPPING\n\nI ship by DHL or Japan Post.\nI attach the tracking number.\nPlease bid it without worrying.\nShipping is available from Monday to Friday.\nWeekends are not available because office is closed.\n\n\nSTORAGE AND PACKING\n\nStorage\nImmediately after shooting, it is placed in a closed container with desiccant and stored for 24 hours and 365 days in a temperature and humidity controlled warehouse.\n\n\nPacking\nBy weight and shape of each product, I use 13 kind of cushioning materials and pursue safety and weight reduction.\n\n\n\nRETURNS\n\nUnconditional Return Policy\nCustomer service and satisfaction are very important to us.\nI have an unconditional return policy if notified within 30 days of the receipt of the item.\nAll returned items must be the original condition.\nAll return requests must be made within 30 days of the receipt of the item.\nPlease contact me first for return before you ship it back to me.\nThe postage of the returned goods is a seller burden.\n\n\nFOR U.S. BUYERS\n\nIf the shipping cost shown at checkout is USD 50 or more, the item will be shipped as DDP (Delivered Duty Paid).\nIn this case, the shipping fee includes express shipping as well as U.S. import duties and related charges, all of which are covered by our store.\n\nTherefore, no additional customs duties or fees will be required upon delivery.\n\nThis system ensures smooth customs clearance, prevents unexpected charges, and provides fast and worry-free shipping.\n\nIf the shipping cost is under USD 50, the item will be shipped as DDU (Delivered Duty Unpaid).\nIn this case, depending on the destination country\u2019s regulations, U.S. import duties and related charges may apply.\n\nThese import duties and related charges are the buyer\u2019s responsibility and may be billed by the local carrier or customs office.\n\n\nINTERNATIONAL BUYERS\n\nImport duties, taxes, and charges are not included in the item price or shipping cost.\nThese charges are the buyer\u2019s responsibility.\nPlease check with your country\u2019s customs office before purchasing.",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "taxonomy_id": 6074
+      }
+    },
+    "watch_item_id": "Omega Constellation",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "The hunter's criteria are generic - Omega Constellation with no specific reference required. This listing is an Omega Constellation (ref 168.001), so it matches the stated criteria.",
+      "estimated_value": 1700.0,
+      "confidence": 0.55,
+      "condition_summary": "Gold-capped/solid case Constellation \"pie-pan\" style dial with date, new leather strap, described as near mint with tiny scuffs from normal use; photo shows a clean dial and crystal but some case edge wear visible near lugs.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Listing conflates a claimed \"1962\" date with a serial number (19650910) that looks like a formatted date/production code rather than an actual Omega serial (real Omega serials from that era are 6-8 digit numbers without that format), which is a mild red flag. No caseback photo shown to confirm engravings, hallmarks, or movement authenticity; only one dial-side photo provided despite text claiming \"all photos\" show full set. Price ($1,599.99) is plausible but on the lower end for a gold-capped vintage chronometer-certified Constellation in near-mint condition, which could indicate a lower-grade case (gold cap/fill rather than solid gold) or reduced originality (redial risk is common with Constellation pie-pan dials of this era). Seller is Japan-based Etsy reseller with generic templated listing boilerplate, common in vintage watch flipping but not inherently disqualifying.",
+      "rarity_notes": "The 168.001 pie-pan dial Constellation from the early-to-mid 1960s is a well-known and desirable reference among vintage Omega collectors, but it was produced in significant numbers over several years, so it is not especially rare - condition and originality (dial, hands, case) drive value more than scarcity.",
+      "demand_tier": "High",
+      "demand_reasoning": "Omega Constellation is a well-recognized, sought-after vintage line, especially the pie-pan dial chronometer models, which have strong and consistent collector demand."
+    },
+    "deal_score": 6,
+    "liquidity": {
+      "rating": "Low",
+      "comparable_count": 0,
+      "algorithmic_tier": "Low",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 0 comparable listing(s) seen in the lookback window -> Low. Claude's qualitative read: High (Omega Constellation is a well-recognized, sought-after vintage line, especially the pie-pan dial chronometer models, which have strong and consistent collector demand.). Final rating uses the more conservative of the two: Low."
+    },
+    "all_in_price": 1599.99,
+    "discount": 0.05882941176470588,
+    "notified": false,
+    "duplicate_of": "Omega Constellation:ebay:v1|178362837826|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1785599241.9207091,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "Omega Constellation:etsy:4547943635",
+    "listing": {
+      "id": "etsy:4547943635",
+      "source": "etsy",
+      "category": "watches",
+      "title": "1962 Near MINT OMEGA Constellation Chronometer 34mm 14900-62 Automatic Men&#39;s",
+      "url": "https://www.etsy.com/listing/4547943635/1962-near-mint-omega-constellation",
+      "price": 1199.99,
+      "shipping_price": null,
+      "currency": "USD",
+      "image_url": "https://i.etsystatic.com/62069282/r/il/bd408e/8325411688/il_fullxfull.8325411688_rcsc.jpg",
+      "image_urls": [
+        "https://i.etsystatic.com/62069282/r/il/bd408e/8325411688/il_fullxfull.8325411688_rcsc.jpg",
+        "https://i.etsystatic.com/62069282/r/il/5a6b6f/8373308033/il_fullxfull.8373308033_p1hi.jpg",
+        "https://i.etsystatic.com/62069282/r/il/1d5b7f/8325413302/il_fullxfull.8325413302_jya8.jpg",
+        "https://i.etsystatic.com/62069282/r/il/5fa092/8325414826/il_fullxfull.8325414826_k6gr.jpg",
+        "https://i.etsystatic.com/62069282/r/il/7e596b/8373310469/il_fullxfull.8373310469_e2jf.jpg",
+        "https://i.etsystatic.com/62069282/r/il/44106f/8373312759/il_fullxfull.8373312759_az5k.jpg",
+        "https://i.etsystatic.com/62069282/r/il/8bdb0a/8325420846/il_fullxfull.8325420846_oso1.jpg",
+        "https://i.etsystatic.com/62069282/r/il/16a077/8373316433/il_fullxfull.8373316433_a6zc.jpg",
+        "https://i.etsystatic.com/62069282/r/il/4461e7/8373317885/il_fullxfull.8373317885_chs9.jpg",
+        "https://i.etsystatic.com/62069282/r/il/eb6f62/8325424280/il_fullxfull.8325424280_fjol.jpg",
+        "https://i.etsystatic.com/62069282/r/il/e5873a/8325427066/il_fullxfull.8325427066_gf83.jpg"
+      ],
+      "body": "1962 NEAR MINT OMEGA CONSTELLATION CHRONOMETER 34MM 14900-62 AUTOMATIC MEN&#39;S #2577\n\nWe also offer watch boxes in our store that are perfect for gifts.\nWhen you purchase a watch together with a box, the box will be 50% off, and the discount will be refunded after purchase.\nPlease feel free to check our store, and don\u2019t miss this special offer!\n\n\nDESCRIPTION\n\n\nTOTAL CONDITION;\n\nNEAR MINT\n\nTOP MINT\nPre-owned, Almost new item\nMINT\nPre-owned, Like new\nNEAR MINT\nPre-owned, almost no signs of use\nEXCELLENT+++++\nPre-owned, minimal signs of use\nEXECELLENT\nPre-owned, heavy signs of use\nVERY GOOD\nPoor appearance\n\nBand: Fits wrists up to about 200 mm (7.87 inches).\nCase size: About 34 mm\n\n\nSERIAL NUMBER;\n\n19368153\n\n\nAPPEARANCE;\n\nAppearance is beautiful.\nNew Strap.\ntiny scuffs from normal use.\nIt shows signs of use.\n*Please check photos.\n\n\nFUNCTIONAL;\n\nIt works properly.\nDay difference is around +84 seconds.\n\n\nBUNDLED ITEMS;\n\nAll you can see on the picture will be included in a set of a package.\nAbove condition is based on my own opinion.\nPlease check the photo carefully.\nPlease feel free to contact me for any questions!\nThank you.\n\n\nSHIPPING\n\nI ship by DHL or Japan Post.\nI attach the tracking number.\nPlease bid it without worrying.\nShipping is available from Monday to Friday.\nWeekends are not available because office is closed.\n\n\nSTORAGE AND PACKING\n\nStorage\nImmediately after shooting, it is placed in a closed container with desiccant and stored for 24 hours and 365 days in a temperature and humidity controlled warehouse.\n\n\nPacking\nBy weight and shape of each product, I use 13 kind of cushioning materials and pursue safety and weight reduction.\n\n\n\nRETURNS\n\nUnconditional Return Policy\nCustomer service and satisfaction are very important to us.\nI have an unconditional return policy if notified within 30 days of the receipt of the item.\nAll returned items must be the original condition.\nAll return requests must be made within 30 days of the receipt of the item.\nPlease contact me first for return before you ship it back to me.\nThe postage of the returned goods is a seller burden.\n\n\nFOR U.S. BUYERS\n\nIf the shipping cost shown at checkout is USD 50 or more, the item will be shipped as DDP (Delivered Duty Paid).\nIn this case, the shipping fee includes express shipping as well as U.S. import duties and related charges, all of which are covered by our store.\n\nTherefore, no additional customs duties or fees will be required upon delivery.\n\nThis system ensures smooth customs clearance, prevents unexpected charges, and provides fast and worry-free shipping.\n\nIf the shipping cost is under USD 50, the item will be shipped as DDU (Delivered Duty Unpaid).\nIn this case, depending on the destination country\u2019s regulations, U.S. import duties and related charges may apply.\n\nThese import duties and related charges are the buyer\u2019s responsibility and may be billed by the local carrier or customs office.\n\n\nINTERNATIONAL BUYERS\n\nImport duties, taxes, and charges are not included in the item price or shipping cost.\nThese charges are the buyer\u2019s responsibility.\nPlease check with your country\u2019s customs office before purchasing.",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "taxonomy_id": 6074
+      }
+    },
+    "watch_item_id": "Omega Constellation",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Hunter's criteria are generic (brand: Omega, model: Constellation, no specific reference required), and this listing is an Omega Constellation Chronometer ref. 14900-62, so it matches.",
+      "estimated_value": 1000.0,
+      "confidence": 0.55,
+      "condition_summary": "Dial and case appear clean and well-preserved in the photo with sharp indices and lume, new replacement leather strap; seller claims \"near mint\" with only tiny scuffs, though only one close-up photo is provided so overall case/back condition (polishing, edge wear) can't be fully verified.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "Dial layout, Omega logo, \"Automatic Chronometer\" text, and Constellation script with star match known genuine 14900-62 dials from this era. Seller provides serial number and detailed condition grading system, which is a positive sign, but only one photo is shown (no caseback, movement, or full watch shots) so full authentication (case/movement serial match, correct caliber 561/564) can't be confirmed from images alone. Price is reasonable for the model, not suspiciously low, reducing scam risk.",
+      "rarity_notes": "The 14900-62 34mm automatic chronometer Constellation is a fairly common vintage reference from the early-to-mid 1960s; plenty of supply exists on the vintage market, so not particularly rare, though clean examples with new correct-style straps are desirable.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Omega Constellation is a well-recognized, collectible vintage line with steady demand among vintage watch collectors, though less hyped than Speedmaster or Seamaster, and this particular reference is common enough to keep demand moderate rather than high."
+    },
+    "deal_score": -20,
+    "liquidity": {
+      "rating": "Low",
+      "comparable_count": 0,
+      "algorithmic_tier": "Low",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 0 comparable listing(s) seen in the lookback window -> Low. Claude's qualitative read: Medium (Omega Constellation is a well-recognized, collectible vintage line with steady demand among vintage watch collectors, though less hyped than Speedmaster or Seamaster, and this particular reference is common enough to keep demand moderate rather than high.). Final rating uses the more conservative of the two: Low."
+    },
+    "all_in_price": 1199.99,
+    "discount": -0.19999,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1785599250.8535151,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "shunbun:ebay:v1|147425360517|0",
+    "listing": {
+      "id": "ebay:v1|147425360517|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "SEIKO Grand Seiko SBGV247 9F Caliber 25th Anniversary Limited Edition Model",
+      "url": "https://www.ebay.com/itm/147425360517?_skw=Grand+Seiko+Shunbun&hash=item22533c7a85:g:9skAAeSwIo5qTrJE&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGYJesHqcV1ApbCYVKQzDArc5bmQcIV1jn8jXsIKUpJiTJSgtVbl89BAeLU3%2B9yfHkXAk6ygCcBIF%2FrAFnDNGP1aLz%2Bgq3YyaXZ57Gb8D8TzOvImMoah%2BU5nnJsGxNJ4MtNiBI9WMqtAKwJ8g5INf0yFgV2vQLkO8N4n3ORs8TM6tOXc57d9QJxoXPDeZ9U9K5ghpR86WMzMRyMjoqs4RFV8g5Q66rxR4IphamqSs073LhydXz8R%2FyBnwZrFX%2FMypcLvN0Tv1t7yEnOI9xr1SaQ3vbxe3jmwI8hfRb7vYU%2Brag%3D%3D",
+      "price": 3800.0,
+      "shipping_price": 35.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/9skAAeSwIo5qTrJE/s-l225.jpg",
+      "image_urls": [],
+      "body": "SEIKO Grand Seiko SBGV247 9F Caliber 25th Anniversary Limited Edition Model",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "shunbun",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The hunter specifically wants the Grand Seiko \"Shunbun\" (Spring Equinox seasonal limited edition), but this listing is for the SBGV247, a 9F Caliber 25th Anniversary Limited Edition - a completely different model/reference. Same brand, different specific limited edition, so it does not match the stated criteria.",
+      "estimated_value": 3800.0,
+      "confidence": 0.55,
+      "condition_summary": "Appears to be presented in original box with an extra strap; watch looks unworn/clean in the photo, but no detailed condition notes or close-up shots are provided.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only one photo shown (in box with strap), no close-ups of caseback, movement, or serial numbers. Listing text is minimal - just a title with no description of condition, papers, or provenance. Price and photo don't raise obvious red flags, but lack of detail limits verification.",
+      "rarity_notes": "SBGV247 is itself a limited edition (25th Anniversary 9F quartz model) and reasonably scarce, but it is unrelated to the Shunbun seasonal collection the hunter is seeking.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Grand Seiko 9F quartz limited editions have solid collector demand, though this specific 25th Anniversary model is a niche piece rather than a headline reference."
+    },
+    "deal_score": -1,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 867,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 867 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko 9F quartz limited editions have solid collector demand, though this specific 25th Anniversary model is a niche piece rather than a headline reference.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 3835.0,
+    "discount": -0.009210526315789473,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1785599259.824058,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "shunbun:ebay:v1|257653691397|0",
+    "listing": {
+      "id": "ebay:v1|257653691397|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "SEIKO Grand Seiko 9S85-00W0/SBGH045 Master Shop Limited Automatic Men's_961193",
+      "url": "https://www.ebay.com/itm/257653691397?_skw=Grand+Seiko+Shunbun&hash=item3bfd5b5405:g:w8sAAeSwYJFqbUNW",
+      "price": 3945.6,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/w8sAAeSwYJFqbUNW/s-l225.jpg",
+      "image_urls": [],
+      "body": "SEIKO Grand Seiko 9S85-00W0/SBGH045 Master Shop Limited Automatic Men's_961193",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "shunbun",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The hunter specifically wants the Grand Seiko \"Shunbun\" (Spring Equinox) limited edition. This listing is a different model entirely: the SBGH045 Master Shop Limited Hi-Beat 36000 model with ref 9S85-00W0. Same brand, different specific model, so it does not match the named limited-edition requirement.",
+      "estimated_value": 3900.0,
+      "confidence": 0.5,
+      "condition_summary": "Photo shows a black-dial SBGH045 in apparently good, lightly used condition with no obvious major scratches visible; only one stock-style photo provided, no box/papers shown.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "Listing appears to be a standard reseller template (common with Japanese used-watch export sellers, indicated by the \"_961193\" inventory tag), which is typically legitimate but only one photo is provided and no box/papers/serial closeups are shown, so authenticity can't be fully verified from images alone.",
+      "rarity_notes": "SBGH045 is a Master Shop limited edition (different limited run from Shunbun), moderately rare but more available than the Shunbun seasonal limited edition, which was produced in very limited numbers tied to a specific seasonal theme.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Grand Seiko Hi-Beat models have solid collector demand, but this specific Master Shop limited variant has a smaller, more niche following compared to mainstream GS Hi-Beat references."
+    },
+    "deal_score": -1,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 867,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 867 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko Hi-Beat models have solid collector demand, but this specific Master Shop limited variant has a smaller, more niche following compared to mainstream GS Hi-Beat references.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 3945.6,
+    "discount": -0.011692307692307669,
+    "notified": false,
+    "duplicate_of": "shunbun:ebay:v1|137359605251|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1785599261.229455,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "vostok:etsy:4547945462",
+    "listing": {
+      "id": "etsy:4547945462",
+      "source": "etsy",
+      "category": "watches",
+      "title": "Vostok Amphibia Soviet Dive Watch for Men, Russian Mechanical Diver Timepiece, Vintage USSR Style",
+      "url": "https://www.etsy.com/listing/4547945462/vostok-amphibia-soviet-dive-watch-for",
+      "price": 64.0,
+      "shipping_price": null,
+      "currency": "USD",
+      "image_url": "https://i.etsystatic.com/63573784/r/il/4b874b/8373208387/il_fullxfull.8373208387_l48e.jpg",
+      "image_urls": [
+        "https://i.etsystatic.com/63573784/r/il/4b874b/8373208387/il_fullxfull.8373208387_l48e.jpg",
+        "https://i.etsystatic.com/63573784/r/il/95e178/8373208443/il_fullxfull.8373208443_lttc.jpg",
+        "https://i.etsystatic.com/63573784/r/il/d73ef6/8325313828/il_fullxfull.8325313828_1m92.jpg",
+        "https://i.etsystatic.com/63573784/r/il/e400e5/8325313838/il_fullxfull.8325313838_qxhq.jpg",
+        "https://i.etsystatic.com/63573784/r/il/0d8c46/8325313860/il_fullxfull.8325313860_r26q.jpg",
+        "https://i.etsystatic.com/63573784/r/il/1a30ae/8325313890/il_fullxfull.8325313890_kn9x.jpg",
+        "https://i.etsystatic.com/63573784/r/il/1eeb20/8325313858/il_fullxfull.8325313858_l7b5.jpg",
+        "https://i.etsystatic.com/63573784/r/il/a35072/8373208405/il_fullxfull.8373208405_fguf.jpg",
+        "https://i.etsystatic.com/63573784/r/il/fff3af/8373208461/il_fullxfull.8373208461_lh5e.jpg",
+        "https://i.etsystatic.com/63573784/r/il/5d11fc/8373208569/il_fullxfull.8373208569_hqkx.jpg",
+        "https://i.etsystatic.com/63573784/r/il/5c4303/8373208549/il_fullxfull.8373208549_7dnb.jpg"
+      ],
+      "body": "\u231a Vostok Amphibia Soviet Mechanical Dive Watch \u2013 Vintage USSR Timepiece\n\nThe Vostok Amphibia is an iconic Soviet mechanical dive watch, originally developed for military and professional use. Designed and produced in the USSR, the Amphibia became famous for its innovative case construction and outstanding water resistance, making it one of the most respected vintage diver watches in the world.\n\nPowered by a manual-wind mechanical movement, this watch represents true Soviet engineering\u2014durable, functional, and timeless in design.\n\n\ud83d\udd27 Watch Details\n\nBrand: Vostok\n\nModel: Amphibia\n\nType: Mechanical dive watch\n\nMovement: Manual wind (mechanical)\n\nWater Resistance: Designed for diving (Amphibia case)\n\nOrigin: USSR (Soviet Union)\n\nEra: Vintage Soviet period\n\nCase: Stainless steel\n\nDial: Original Soviet design\n\nFunctions: Time\n\n\u2b50 Why You\u2019ll Love It\n\n\u2714 Legendary Vostok Amphibia diver\n\u2714 Authentic vintage Soviet mechanical watch\n\u2714 Innovative Amphibia waterproof case design\n\u2714 Highly collectible USSR timepiece\n\u2714 Perfect gift for men & watch collectors\n\n\ud83c\udf81 Perfect For\n\nVintage dive watch collectors\n\nMechanical watch enthusiasts\n\nSoviet / USSR memorabilia fans\n\nUnique birthday, anniversary, or Father\u2019s Day gifts\n\n\ud83d\udce6 Condition\n\nThis is a vintage item, so light signs of age or wear may be present. Each watch carries its own history and character.\n\nPlease review photos carefully \u2014 they are part of the description.\n\n\ud83d\ude9a Shipping\n\nCarefully packed and shipped with tracking.\nWorldwide shipping available.",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "taxonomy_id": 6074
+      }
+    },
+    "watch_item_id": "vostok",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "The listing is for a vintage Vostok Amphibia with a classic military-style submarine fleet dial (star, anchor, submarine graphic) rather than a \"crazy\" novelty dial, which fits the hunter's stated preference for classic military feel and vintage-only, no-current-model requirement.",
+      "estimated_value": 55.0,
+      "confidence": 0.45,
+      "condition_summary": "Used vintage piece with visible dial lacquer crazing/cracking on the blue center medallion, worn gilt bezel insert, and a non-original-looking bracelet; seller only vaguely states \"light signs of age or wear may be present.\"",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Photo shows a Submarine Fleet (\"\u041f\u043e\u0434\u0432\u043e\u0434\u043d\u044b\u0435 \u0421\u0438\u043b\u044b\") commemorative dial with cracked/crazed lacquer on the blue disc, which is common on genuine aged Vostok dials but also easily faked/reprinted by sellers assembling \"Frankenwatches\" from parts. Text is generic template language with no serial numbers, no movement caliber (2409/2416), no case-back photos, and no mention of original bracelet vs aftermarket - the bracelet shown looks like a generic steel oyster-style band, not the correct Vostok-style bracelet, suggesting a parts-assembled or re-cased piece. Gold-tone bezel insert is unusual/mismatched looking against a steel case, another possible sign of swapped parts. No close-up of caseback or movement to verify authenticity. Price of $64 is plausible for a real (if modest/reconditioned) vintage Vostok, not a screaming red flag on its own.",
+      "rarity_notes": "This appears to be a \"Komandirskie/Amphibia\" submarine forces commemorative dial variant, moderately common among vintage Vostok collectors but more sought-after than plain dials; genuine well-preserved examples with original bracelet and correct bezel command more than generic ones.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Vostok Amphibia is a well-known, actively collected vintage Soviet diver with strong niche demand, especially military/submarine dial variants, though it's a budget-tier collectible overall compared to Swiss vintage divers."
+    },
+    "deal_score": -16,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 198,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 198 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Vostok Amphibia is a well-known, actively collected vintage Soviet diver with strong niche demand, especially military/submarine dial variants, though it's a budget-tier collectible overall compared to Swiss vintage divers.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 64.0,
+    "discount": -0.16363636363636364,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1785599276.8246546,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "james bond watch:ebay:v1|800272203071|0",
+    "listing": {
+      "id": "ebay:v1|800272203071|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "OMEGA Seamaster Aqua Terra James Bond 007 Limited 41.5 Watch 231.10.42.21.03.004",
+      "url": "https://www.ebay.com/itm/800272203071?_skw=Omega+Seamaster+James+Bond&hash=itemba53f0bd3f:g:CG8AAeSwT0xqRQk9",
+      "price": 4100.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/CG8AAeSwT0xqRQk9/s-l225.jpg",
+      "image_urls": [],
+      "body": "OMEGA Seamaster Aqua Terra James Bond 007 Limited 41.5 Watch 231.10.42.21.03.004",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "james bond watch",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "The hunter's criteria is broad: any James Bond edition/theme Omega Seamaster. This listing is the Seamaster Aqua Terra James Bond 007 Limited Edition (ref 231.10.42.21.03.004), which is a genuine James Bond-themed Seamaster, so it satisfies the generic 'any James Bond Seamaster' request.",
+      "estimated_value": 4200.0,
+      "confidence": 0.45,
+      "condition_summary": "Only one photo shown (watch head on a stand), appears to be in good cosmetic condition with no visible major scratches, but no box/papers, caseback, or clasp shown to confirm full condition or completeness.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Listing provides only a single generic-angle photo with no close-ups of the caseback (which typically has special James Bond engraving), no serial number shown, and no box/papers pictured despite this being a collectible limited edition where documentation significantly affects value and authenticity confidence. Price is roughly in line with market for this reference, which is a mild positive, but the lack of detailed photos (hallmarks, engraved caseback, serial) is a notable gap for a $4,100 limited-edition purchase.",
+      "rarity_notes": "The Aqua Terra 231.10.42.21.03.004 is the 2015 James Bond Limited Edition (8,007 pieces produced) tied to Spectre - a legitimate, moderately rare limited edition, not the mainstream Seamaster Diver 300M Bond version, but still a valid 'James Bond Seamaster.'",
+      "demand_tier": "High",
+      "demand_reasoning": "Omega Seamaster is a globally recognized, highly desirable model, and James Bond limited editions carry strong collector demand due to the licensing tie-in and limited production numbers."
+    },
+    "deal_score": 2,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 331,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 331 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Omega Seamaster is a globally recognized, highly desirable model, and James Bond limited editions carry strong collector demand due to the licensing tie-in and limited production numbers.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 4100.0,
+    "discount": 0.023809523809523808,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1785599287.3966525,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "aqua terra:ebay:v1|398230067805|0",
+    "listing": {
+      "id": "ebay:v1|398230067805|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "OMEGA Seamaster Aqua Terra 150M Quartz 38.5mm 231.10.39.60.06.001 Stainless ...",
+      "url": "https://www.ebay.com/itm/398230067805?_skw=Aqua+Terra+38mm&hash=item5cb85c9a5d:g:PD4AAeSw3yhqbdEj&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGbidvmILUQyJjJQrM0Ic2WhROuBW%2B6fNoGC1913%2BpAFIofwzYDu2mz%2BVI1g4Y8NmNUYjCuZn%2F9f1JFkiVcTWA44DhIV7moPoEqM1WuK2jPQh%2Bw4yil7YSVe06BBanhHMtZsHFinZwPcY3cuz%2BFyj1LvXHBolM1O0lyE8uu5Ehk6A%2Fe%2FjYUe6McNHGHzd1VJkNkOdJJXVXwPlMSYFpvIu0N07FBo%2Fix%2FpdWbBFFoPEMb%2BnFpZ0Z%2BUP3FYbEscV6Xnju3E9UQpoQO91O5qT8UD9ylcXIMA2rL%2B4Dk59TCN%2B%2F7sQ%3D%3D",
+      "price": 2250.9,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/PD4AAeSw3yhqbdEj/s-l225.jpg",
+      "image_urls": [],
+      "body": "OMEGA Seamaster Aqua Terra 150M Quartz 38.5mm 231.10.39.60.06.001 Stainless ...",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "aqua terra",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "This is the Aqua Terra 150M quartz 38.5mm (ref 231.10.39.60.06.001), which is essentially the 38mm size the hunter wants, with a classic teak-pattern dial that fits 'simple/uncluttered' description. No box/papers mentioned but none required.",
+      "estimated_value": 2100.0,
+      "confidence": 0.5,
+      "condition_summary": "Photo shows a clean, apparently unworn/lightly worn watch with no visible scratches on case or bracelet; described condition not detailed in text beyond title.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "Photo appears to be a stock/catalog-style image rather than an actual seller photo of the specific item, which is a minor red flag since actual wear/serial cannot be verified. No mention of papers, box, or serial number matching. Price is in line with market so not suspiciously low.",
+      "rarity_notes": "This reference (231.10.39.60.06.001) is a fairly common, widely produced Aqua Terra quartz model - not rare, but well recognized and desirable in the 38mm simple grey dial configuration.",
+      "demand_tier": "High",
+      "demand_reasoning": "Omega Aqua Terra is a well-known, popular model with strong brand recognition and steady demand, especially in the classic 38mm teak dial configuration."
+    },
+    "deal_score": -7,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 2784,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 2784 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Omega Aqua Terra is a well-known, popular model with strong brand recognition and steady demand, especially in the classic 38mm teak dial configuration.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 2250.9,
+    "discount": -0.0718571428571429,
+    "notified": false,
+    "duplicate_of": "aqua terra:ebay:v1|298532904432|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1785599297.0186124,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "aqua terra:ebay:v1|298548672795|0",
+    "listing": {
+      "id": "ebay:v1|298548672795|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Authentic [Unserviced - Value Price]Omega SeamasterAqua Terra 2503.33 Stainl...",
+      "url": "https://www.ebay.com/itm/298548672795?_skw=Aqua+Terra+38mm&hash=item4582e3391b:g:1YQAAeSwflRqbcUX&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGbbkMyiI9XCOz8pD8ptWrQicI4RtoNN16B5bIZgkjjOqhgt7pHjtbk3w5A3Em9GnNSOmvnKZnymU4vqQuOF3oMVpmPCSljw3tg930bsUWmI0IeccQn%2BJ5S7Q9zqu%2BgL0aLapeHsLOCy30kKbgskMMQxSmYwyAmM0GW2jg5y0mmFdwTek2VXYEb3Ag0RjjgtweZeAEYHUKfx%2BGltanijwLPeXrhCQMgEM6cJdUa6QGBlCBg1HdImdvBYLwC%2FETokFztsM5WUBaX7bH6RLpfpOh8SqfHXI4oYIbvmJLx7HFP3tQ%3D%3D",
+      "price": 2625.48,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/1YQAAeSwflRqbcUX/s-l225.jpg",
+      "image_urls": [],
+      "body": "Authentic [Unserviced - Value Price]Omega SeamasterAqua Terra 2503.33 Stainl...",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "aqua terra",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The reference 2503.33 is the 36mm Aqua Terra (Co-Axial Chronometer, 150M) rather than the 38mm variant the hunter wants. Also listed as \"unserviced,\" which conflicts with a \"like new\" condition requirement.",
+      "estimated_value": 1900.0,
+      "confidence": 0.35,
+      "condition_summary": "Photo shows a clean-looking white dial Aqua Terra with blue accents and steel bracelet, but listing explicitly states \"unserviced,\" implying unknown mechanical condition and likely visible wear not fully disclosed.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Title uses odd bracketed marketing language (\"Authentic [Unserviced - Value Price]\") which is a bit unusual phrasing for a genuine listing; no serial number, box/papers, or close-up photos of caseback/movement shown; only one stock-like photo provided. Price seems on the low side for a Co-Axial Aqua Terra, which combined with lack of detail and \"unserviced\" caveat raises some caution flags, though not definitive fraud indicators.",
+      "rarity_notes": "The 2503.33 36mm Aqua Terra Co-Axial is a fairly common reference from the mid-2000s, not rare, but the specific 38mm size the hunter wants is a different, less common reference (e.g., 2504.xx or 231.10.39.xx series).",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Omega Aqua Terra models have solid brand recognition and steady demand, but this specific size/reference doesn't match the sought-after 38mm variant, slightly limiting appeal to this particular hunter."
+    },
+    "deal_score": -38,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 2784,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 2784 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Omega Aqua Terra models have solid brand recognition and steady demand, but this specific size/reference doesn't match the sought-after 38mm variant, slightly limiting appeal to this particular hunter.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 2625.48,
+    "discount": -0.3818315789473684,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1785599297.5109642,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "santos:ebay:v1|278237047395|0",
+    "listing": {
+      "id": "ebay:v1|278237047395|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Cartier Santos Carr\u00e9e 0902 24mm 18ct Gold Steel Automatic Vintage Watch",
+      "url": "https://www.ebay.com/itm/278237047395?_skw=Cartier+Santos&hash=item40c8386a63:g:1NsAAeSw2S9qbdK~",
+      "price": 3498.84,
+      "shipping_price": 20.22,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/1NsAAeSw2S9qbdK~/s-l225.jpg",
+      "image_urls": [],
+      "body": "Cartier Santos Carr\u00e9e 0902 24mm 18ct Gold Steel Automatic Vintage Watch",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "santos",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Hunter asked for Cartier Santos, medium or large, silver-tone with white dial (no specific reference required, only general size/color criteria). This listing is a Santos Carr\u00e9e (the classic Santos model line) ref 0902, 24mm, steel/gold, white dial - fits within the Santos family and the size roughly corresponds to a small/medium size (24mm is actually on the smaller end, close to 'Santos Demoiselle/small' range, but often 24mm case width models are still marketed as the standard 'Santos' medium in vintage lines). Since hunter did not specify an exact reference number, this is treated as compatible with the broad model requirement.",
+      "estimated_value": 3200.0,
+      "confidence": 0.45,
+      "condition_summary": "Vintage two-tone (steel and gold) Santos Carr\u00e9e with white dial, Roman numerals, and blue leather strap; visible wear on strap and some patina on case, but watch appears functional and cosmetically decent based on the single photo.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only one photo provided, no visible serial number, no box/papers shown or mentioned, and no close-up of hallmarks or movement - all of which are needed to confirm authenticity on a vintage Cartier. Price is within plausible market range for a genuine two-tone vintage Santos Carr\u00e9e, which is a mild positive, but the lack of documentation and single stock-like photo is a caution flag for a vintage piece at this price point.",
+      "rarity_notes": "Santos Carr\u00e9e 0902 is an early vintage Santos reference (steel/gold quartz-era or early automatic), moderately available on the vintage market but less common than later Santos Galb\u00e9e models; collectors value original examples with box/papers, which aren't confirmed here.",
+      "demand_tier": "High",
+      "demand_reasoning": "Cartier Santos is a globally recognized, highly sought-after luxury watch model with strong resale demand, especially two-tone vintage examples with white dials."
+    },
+    "deal_score": -10,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 2363,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 2363 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Cartier Santos is a globally recognized, highly sought-after luxury watch model with strong resale demand, especially two-tone vintage examples with white dials.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 3519.06,
+    "discount": -0.09970624999999998,
+    "notified": false,
+    "duplicate_of": "santos:ebay:v1|287341746292|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1785599315.0455558,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "santos:ebay:v1|257648293170|0",
+    "listing": {
+      "id": "ebay:v1|257648293170|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "CARTIER Santos 100 LM W2020010 black Dial Automatic Men's Watch_963284",
+      "url": "https://www.ebay.com/itm/257648293170?_skw=Cartier+Santos&hash=item3bfd08f532:g:SqMAAeSwlcJqaV0p",
+      "price": 3873.6,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/SqMAAeSwlcJqaV0p/s-l225.jpg",
+      "image_urls": [],
+      "body": "CARTIER Santos 100 LM W2020010 black Dial Automatic Men's Watch_963284",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "santos",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Hunter requires a Santos medium or large with silver-tone case/bracelet and white dial. This listing is a Santos 100 LM (large model) with black PVD/coated case, black dial, and leather strap (not bracelet) - dial color and case finish do not match, so it fails the criteria despite being the correct brand/model line.",
+      "estimated_value": 3200.0,
+      "confidence": 0.45,
+      "condition_summary": "Watch appears used with visible wear on the black coated case and leather strap; photo shows only a single stock-like image with no close-up of case back, clasp, or papers.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only one generic photo provided, no box/papers shown despite implied authenticity claim; reference number W2020010 given but no serial/hallmark close-ups to verify; price is plausible for a real piece but can't confirm authenticity from image alone.",
+      "rarity_notes": "Santos 100 LM in black PVD/steel with black dial is a known variant, moderately available on secondary market; not as common as steel/white dial versions but not a limited edition either.",
+      "demand_tier": "High",
+      "demand_reasoning": "Cartier Santos is a highly recognized, in-demand model line, though this specific black-dial LM variant is less sought after than the classic steel/white dial version the hunter wants."
+    },
+    "deal_score": -21,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 2363,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 2363 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Cartier Santos is a highly recognized, in-demand model line, though this specific black-dial LM variant is less sought after than the classic steel/white dial version the hunter wants.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 3873.6,
+    "discount": -0.21049999999999996,
+    "notified": false,
+    "duplicate_of": "santos:ebay:v1|287341746292|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1785599308.6026442,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "santos:ebay:v1|178260208255|0",
+    "listing": {
+      "id": "ebay:v1|178260208255|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Cartier Santos 100 2656 W20073X8 Stainless Steel 38MM Men's Automatic Watch",
+      "url": "https://www.ebay.com/itm/178260208255?_skw=Cartier+Santos&hash=item298122ea7f:g:XJwAAeSwhhBqPD19",
+      "price": 4650.25,
+      "shipping_price": 40.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/XJwAAeSwhhBqPD19/s-l225.jpg",
+      "image_urls": [],
+      "body": "Cartier Santos 100 2656 W20073X8 Stainless Steel 38MM Men's Automatic Watch",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "santos",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Hunter's criteria is generic (Santos medium or large, steel/silver with white dial), not a specific reference. This is a Cartier Santos 100 (ref 2656/W20073X8), 38mm which fits \"medium\" size, stainless steel case with white/silver dial - matches the general requirements.",
+      "estimated_value": 5200.0,
+      "confidence": 0.55,
+      "condition_summary": "Photo shows a steel Santos 100 with silver guilloch\u00e9-style dial and black leather strap in apparently good cosmetic condition, but only one stock-like photo is provided with no close-ups of case back, movement, or papers.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only a single, fairly generic/stock-style image is shown; no box, papers, or serial number close-ups are provided despite the model/reference being stated. Price is somewhat below typical retail/secondary market pricing for a Santos 100 with box/papers, which could indicate missing accessories, a well-worn piece, or an incomplete/misrepresented listing - buyer should request additional photos (case back engravings, movement, papers) and verify serial numbers before purchase.",
+      "rarity_notes": "Santos 100 in steel 38mm is a fairly common, widely produced reference (not limited edition), so rarity is low but demand remains solid due to brand recognition.",
+      "demand_tier": "High",
+      "demand_reasoning": "Cartier Santos is a highly recognizable, actively traded luxury watch line with strong resale demand, especially in steel with white dial variants."
+    },
+    "deal_score": 10,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 2363,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 2363 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Cartier Santos is a highly recognizable, actively traded luxury watch line with strong resale demand, especially in steel with white dial variants.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 4690.25,
+    "discount": 0.09802884615384615,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1785599309.4056273,
     "analysis_depth": "quick"
   }
 ]
