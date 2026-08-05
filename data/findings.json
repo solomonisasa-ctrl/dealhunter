@@ -74752,5 +74752,1234 @@
     "qa_history": [],
     "created_at": 1785932961.9308703,
     "analysis_depth": "quick"
+  },
+  {
+    "id": "Omega Constellation:ebay:v1|398254315336|0",
+    "listing": {
+      "id": "ebay:v1|398254315336|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Omega Constellation Grey Dial Two-Tone Bracelet - 38MM -REF 123.20.38.21.06.001",
+      "url": "https://www.ebay.com/itm/398254315336?_skw=Omega+Constellation&hash=item5cb9ce9748:g:iBAAAeSwmA5qc53J",
+      "price": 4895.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/iBAAAeSwmA5qc53J/s-l225.jpg",
+      "image_urls": [],
+      "body": "Omega Constellation Grey Dial Two-Tone Bracelet - 38MM -REF 123.20.38.21.06.001",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "Omega Constellation",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Hunter's criteria is generic \"Omega Constellation\" with no specific reference required, so any genuine Constellation model qualifies. This listing is an Omega Constellation 38mm two-tone with reference 123.20.38.21.06.001, matching the brand/model requirement.",
+      "estimated_value": 4200.0,
+      "confidence": 0.55,
+      "condition_summary": "Photo shows a clean, seemingly well-kept two-tone Constellation with black/grey dial, gold bezel with the signature claws, and date window; no visible major scratches but only one stock-style studio photo is provided, no wrist shots, box/papers, or close-ups of case back/clasp.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "No overt red flags (dial text, font, claws, and bezel look consistent with genuine Omega Constellation), but only a single generic-looking product photo is shown with no serial number, hallmarks, movement, or papers visible, so authenticity can't be fully verified from images alone. Price is reasonably in line with market for this ref, not suspiciously low, which reduces scam likelihood.",
+      "rarity_notes": "This is a common, currently/recently produced Constellation reference (123.20.38.21.06.001) in steel/gold with black dial - widely available on the secondary market, not rare or limited.",
+      "demand_tier": "High",
+      "demand_reasoning": "Omega Constellation is a well-recognized, popular collection with steady demand, especially two-tone models with the \"claws\" design, though it's not as hyped as Speedmaster/Seamaster."
+    },
+    "deal_score": -17,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 7981,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 7981 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Omega Constellation is a well-recognized, popular collection with steady demand, especially two-tone models with the \"claws\" design, though it's not as hyped as Speedmaster/Seamaster.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 4895.0,
+    "discount": -0.16547619047619047,
+    "notified": false,
+    "duplicate_of": "Omega Constellation:ebay:v1|267747878062|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1785968520.8949888,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "Omega Constellation:ebay:v1|206462615349|0",
+    "listing": {
+      "id": "ebay:v1|206462615349|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Ladies Omega Constellation 18K Gold Watch White MOP Diamond Dial & Bezel 1365.75",
+      "url": "https://www.ebay.com/itm/206462615349?_skw=Omega+Constellation&hash=item3012217f35:g:5cgAAeSw8fBqcKYb",
+      "price": 2445.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/5cgAAeSw8fBqcKYb/s-l225.jpg",
+      "image_urls": [],
+      "body": "Ladies Omega Constellation 18K Gold Watch White MOP Diamond Dial & Bezel 1365.75",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "Omega Constellation",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Hunter's criteria only specified brand \"Omega\" and model \"Constellation\" generically, with no specific reference number required. This listing is a genuine Omega Constellation (ref 1365.75), so it matches the stated criteria.",
+      "estimated_value": 2400.0,
+      "confidence": 0.55,
+      "condition_summary": "Ladies two-tone (steel/gold) Constellation \"Manhattan\" style with white MOP diamond dial and factory diamond bezel; photo shows a clean, glossy example with no visible wear, but only one stock-like image is provided so overall condition can't be fully verified.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only a single, small, studio-style photo is shown with no close-ups of case back, movement, hallmarks, or serial numbers to verify the 18K gold and diamond authenticity claims; no box/papers shown despite being a higher-value gold/diamond piece. Price is plausible for a used 1365.75 but the lack of verification photos and provenance detail is a moderate red flag for a gold/diamond watch at this price point.",
+      "rarity_notes": "Ref 1365.75 (ladies quartz Constellation \"Manhattan\" with diamond bezel/MOP dial) is a fairly common model on the secondary market, not rare, but the 18K gold/diamond configuration adds value over base steel versions.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Omega Constellation is a well-recognized model with steady demand, especially diamond/gold ladies' versions, though demand is more moderate than Omega Speedmaster or Rolex equivalents."
+    },
+    "deal_score": -2,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 7981,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 7981 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Omega Constellation is a well-recognized model with steady demand, especially diamond/gold ladies' versions, though demand is more moderate than Omega Speedmaster or Rolex equivalents.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 2445.0,
+    "discount": -0.01875,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1785968521.747817,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "Omega Constellation:ebay:v1|206435076263|0",
+    "listing": {
+      "id": "ebay:v1|206435076263|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Omega Constellation Manhattan 396.1070 Gold Dial Steel/Gold Quartz 34mm Watch",
+      "url": "https://www.ebay.com/itm/206435076263?_skw=Omega+Constellation&hash=item30107d48a7:g:nYQAAeSwtPhqYd~J&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGbgcs6JDLN7aG4Rqj1zg7hCChZxzVRBXAOl8Nh536Nz33qMbd2tfwS3dPZPJIQbNomGvKZQTXdE5RMNuL441rB1TSHCviX5c7oU5AqxbMW6gyNjS1YibBeURUkB%2B9qL%2F0t%2FAk6xfl98LzWkp2EZlwQXsNCw61FWX9zahKCM05mLiZh0Cy1BcZAvxl4TI3UA8uS1wSKm4tPxdc%2FKyTfgkxz5q0%2FtR2SWnRajSVsevdd5KVDpxvyiMK2uJbB3MS22S0BqtkzPh9kE7mPSdF74e6GQNZcN%2B%2FnKV7oZHdlb5%2FuepQ%3D%3D",
+      "price": 1699.99,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/nYQAAeSwtPhqYd~J/s-l225.jpg",
+      "image_urls": [],
+      "body": "Omega Constellation Manhattan 396.1070 Gold Dial Steel/Gold Quartz 34mm Watch",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "Omega Constellation",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Hunter's criteria was generic (brand: Omega, model: Constellation, no specific reference required). This listing is an Omega Constellation Manhattan model, which falls under the Constellation line, so it satisfies the stated criteria.",
+      "estimated_value": 1500.0,
+      "confidence": 0.55,
+      "condition_summary": "Watch appears in good cosmetic condition from the single photo - clean gold dial, sharp Roman numerals, and unscratched-looking bezel/bracelet, but only one stock-style image is provided with no closeups of case back, clasp, or wear points.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only one photo is shown (looks like a catalog/stock image rather than an in-hand seller photo), with no box, papers, serial number, or case-back shots to verify authenticity. No mention of provenance, service history, or seller feedback. Price is roughly in line with market so not a glaring red flag, but lack of verification photos and generic image warrant some caution.",
+      "rarity_notes": "The 396.1070 two-tone quartz Constellation Manhattan 34mm is a very common, mass-produced reference from the 1980s-90s; not rare and widely available on the secondary market.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Omega Constellation is a well-recognized, respected model line with steady collector interest, but this common two-tone quartz Manhattan variant is plentiful and not highly sought-after compared to vintage chronometer or limited references."
+    },
+    "deal_score": -13,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 7981,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 7981 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Omega Constellation is a well-recognized, respected model line with steady collector interest, but this common two-tone quartz Manhattan variant is plentiful and not highly sought-after compared to vintage chronometer or limited references.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 1699.99,
+    "discount": -0.13332666666666668,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1785968520.43559,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "Omega Constellation:etsy:4550590531",
+    "listing": {
+      "id": "etsy:4550590531",
+      "source": "etsy",
+      "category": "watches",
+      "title": "Omega Watch, Seamaster Automatic, Swiss Made, Men&#39;s Vintage, #K094",
+      "url": "https://www.etsy.com/listing/4550590531/omega-watch-seamaster-automatic-swiss",
+      "price": 1695.0,
+      "shipping_price": null,
+      "currency": "USD",
+      "image_url": "https://i.etsystatic.com/8887538/r/il/0f6826/8392141407/il_fullxfull.8392141407_t63i.jpg",
+      "image_urls": [
+        "https://i.etsystatic.com/8887538/r/il/0f6826/8392141407/il_fullxfull.8392141407_t63i.jpg",
+        "https://i.etsystatic.com/8887538/r/il/b62093/8392141453/il_fullxfull.8392141453_jpdv.jpg",
+        "https://i.etsystatic.com/8887538/r/il/44d4e2/8344255378/il_fullxfull.8344255378_euh7.jpg",
+        "https://i.etsystatic.com/8887538/r/il/1e5e4f/8344255386/il_fullxfull.8344255386_n8am.jpg",
+        "https://i.etsystatic.com/8887538/r/il/4a30b8/8392141771/il_fullxfull.8392141771_hprs.jpg",
+        "https://i.etsystatic.com/8887538/r/il/501340/8344255396/il_fullxfull.8344255396_jzlo.jpg",
+        "https://i.etsystatic.com/8887538/r/il/ce8446/8344255726/il_fullxfull.8344255726_ldd5.jpg",
+        "https://i.etsystatic.com/8887538/r/il/7df627/8344255724/il_fullxfull.8344255724_hgsb.jpg",
+        "https://i.etsystatic.com/8887538/r/il/088cef/8344255404/il_fullxfull.8344255404_bjvd.jpg",
+        "https://i.etsystatic.com/8887538/r/il/eb37e9/8392141785/il_fullxfull.8392141785_czl3.jpg"
+      ],
+      "body": "***We greatly appreciate your support of our small business!***\n*Buying here is buying direct from an experienced watchmaker, TIM MACKRAIN, who provides care before and after the sale.\n\nStunning Omega Seamaster Automatic vintage men\u2019s watch. 34 mm (without crown) stainless steel case #2846-7 SC is in beautiful condition. Premium restoration in two-tone silver on original dial has original applied silver dagger and Arabic numeral hour markers and new Swiss made silver dagger hands. I personally cleaned and oiled this caliber 501, 20 jewel rotor automatic and it is running strong and keeping time well. Serial number 15768176 dates watch to 1957. These photos are of the actual movement in this watch. New Swiss made optical grade acrylic crystal, new gasket and new signed Omega crown. New high-quality OmegaAddict 18 mm black, dark brown or light brown comfortable leather strap with SILVER buckle. Please specify choice of color when you make your purchase. Classic 1950&#39;s Seamaster Automatic is serviced and ready to wear. \n*Watch comes in gift box with professional appraisal and ONE YEAR WARRANTY!\n*Please read SHIPPING POLICY, RETURN POLICY and WARRANTY TERMS!\n*OMEGAADDICT ONE YEAR WARRANTY: Omega mechanical watches were engineered to last generations. These beautiful vintage time pieces are now 45+ years old and perform best with regular maintenance. Because of their excellent reputation, I can offer a one-year warranty; no charge for labor, only charging for parts (if needed) and return shipping ($20 in U.S. /$45 outside U.S.). \n*FREE LIFETIME SERVICE AGREEMENT:  Your watch should be SERVICED every 3 years after date of purchase.  A SERVICE includes - movement dismantled, movement cleaned and oiled, case cleaned and new crystal.  With this agreement, your 3-Year Service will cost $300 plus parts and return shipping (20 in U.S. /45 outside U.S.).\n\nOmegaAddict - Sales and Service of Vintage Omega Watches\nFor restoration or service of your VINTAGE OMEGA WATCH message Tim Mackrain. Any problems with a watch purchased from me, I will take care of it right away \u2013 always have and always will.  I believe in quality not quantity. Every watch I sell gets my full attention to detail.  Authenticity is money back guaranteed on all my watches. I do not sell fake watches!  We are located in sunny Phoenix, Arizona. Feel free to message me with any watch questions from 8am to 5pm - AZ time. 602-795-8894",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "taxonomy_id": 6074
+      }
+    },
+    "watch_item_id": "Omega Constellation",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The hunter is specifically looking for Omega Constellation models. This listing is an Omega Seamaster (caliber 501, case 2846-7 SC), a different model line entirely, so it does not match despite being the same brand.",
+      "estimated_value": 1200.0,
+      "confidence": 0.55,
+      "condition_summary": "Vintage 1957 Omega Seamaster Automatic, 34mm steel case, dial reportedly restored/refinished, movement serviced with new crystal, crown, gasket and strap; photos show a clean, sharp dial and case consistent with described restoration.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "Seller is a named, apparently established watchmaker (Tim Mackrain/OmegaAddict) with warranty and service policies, which is a positive trust signal. However, the dial is disclosed as \"premium restoration\" (refinished), which is a common area for value inflation/misrepresentation if not disclosed to buyers as non-original; here it is disclosed, which is good. No obvious mismatched serials, but buyer should verify case/movement serial correspondence independently.",
+      "rarity_notes": "Seamaster caliber 501 automatics from the 1950s are fairly common in the vintage Omega market, not particularly rare, though clean original examples with serviced movements are desirable.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Omega Seamaster vintage models have solid collector demand but are less iconic/rare than Constellation or Speedmaster lines; refinished dial slightly reduces desirability for purists."
+    },
+    "deal_score": -41,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 247,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 247 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Omega Seamaster vintage models have solid collector demand but are less iconic/rare than Constellation or Speedmaster lines; refinished dial slightly reduces desirability for purists.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 1695.0,
+    "discount": -0.4125,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1785968533.8806045,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "Omega Constellation:etsy:4550427291",
+    "listing": {
+      "id": "etsy:4550427291",
+      "source": "etsy",
+      "category": "watches",
+      "title": "Omega Watch, Constellation Pie Pan, Swiss Made, Men&#39;s Automatic, #K063",
+      "url": "https://www.etsy.com/listing/4550427291/omega-watch-constellation-pie-pan-swiss",
+      "price": 3195.0,
+      "shipping_price": null,
+      "currency": "USD",
+      "image_url": "https://i.etsystatic.com/8887538/r/il/ec06e7/8391022631/il_fullxfull.8391022631_1h3p.jpg",
+      "image_urls": [
+        "https://i.etsystatic.com/8887538/r/il/ec06e7/8391022631/il_fullxfull.8391022631_1h3p.jpg",
+        "https://i.etsystatic.com/8887538/r/il/56d5f6/8343139104/il_fullxfull.8343139104_p8x5.jpg",
+        "https://i.etsystatic.com/8887538/r/il/c5ba73/8391022627/il_fullxfull.8391022627_rm6k.jpg",
+        "https://i.etsystatic.com/8887538/r/il/e07c36/8343139060/il_fullxfull.8343139060_lk31.jpg",
+        "https://i.etsystatic.com/8887538/r/il/a61ac8/8391023047/il_fullxfull.8391023047_70i7.jpg",
+        "https://i.etsystatic.com/8887538/r/il/595bde/8391022691/il_fullxfull.8391022691_99fi.jpg",
+        "https://i.etsystatic.com/8887538/r/il/4ecfa5/8343139462/il_fullxfull.8343139462_ljzw.jpg",
+        "https://i.etsystatic.com/8887538/r/il/6ff6b0/8343139458/il_fullxfull.8343139458_q75l.jpg",
+        "https://i.etsystatic.com/8887538/r/il/9b2e1f/8391022689/il_fullxfull.8391022689_1wxr.jpg",
+        "https://i.etsystatic.com/8887538/r/il/524a1f/8391023049/il_fullxfull.8391023049_6m7c.jpg"
+      ],
+      "body": "***We greatly appreciate your support of our small business!***\n*Buying here is buying direct from an experienced watchmaker, TIM MACKRAIN, who provides care before and after the sale.\n\nBeautiful Omega Pie Pan Constellation Chronometre men&#39;s automatic watch. 34 mm (without crown) 14k gold over stainless steel case number 14381 8 SC has 14k gold observatory logo on back. Premium restoration in silver with crosshairs on original pie pan dial has original applied gold baton hour markers and new Swiss made gold dagger hands. I personally serviced this caliber 551, 24 jewel rotor automatic Chronometre, adjusted 5 positions and it is running strong and keeping time well. Serial number 17733775 dates watch to 1959. These photos are of the actual movement in this watch! New Swiss made optical grade acrylic crystal, new gasket and new signed Omega crown. New OmegaAddict high-quality 18 mm black, dark brown or light brown comfortable leather strap with GOLD buckle. Please specify choice of color when you make your purchase. Signed 5 times; case 2x, dial, crown and movement. This classic Pie Pan Constellation Chronometre is loaded with Omega style! \n*Watch comes in gift box with professional appraisal and ONE YEAR WARRANTY!\n*Please read SHIPPING POLICY, RETURN POLICY and WARRANTY TERMS!\n*OMEGAADDICT ONE YEAR WARRANTY: Omega mechanical watches were engineered to last generations. These beautiful vintage time pieces are now 45+ years old and perform best with regular maintenance. Because of their excellent reputation, I can offer a one-year warranty; no charge for labor, only charging for parts (if needed) and return shipping ($20 in U.S. /$45 outside U.S.). \n*FREE LIFETIME SERVICE AGREEMENT:  Your watch should be SERVICED every 3 years after date of purchase.  A SERVICE includes - movement dismantled, movement cleaned and oiled, case cleaned and new crystal.  With this agreement, your 3-Year Service will cost $300 plus parts and return shipping (20 in U.S. /45 outside U.S.).\n\nOmegaAddict - Sales and Service of Vintage Omega Watches\nFor restoration or service of your VINTAGE OMEGA WATCH message Tim Mackrain. Any problems with a watch purchased from me, I will take care of it right away \u2013 always have and always will.  I believe in quality not quantity. Every watch I sell gets my full attention to detail.  Authenticity is money back guaranteed on all my watches. I do not sell fake watches!  We are located in sunny Phoenix, Arizona. Feel free to message me with any watch questions from 8am to 5pm - AZ time. 602-795-8894",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "taxonomy_id": 6074
+      }
+    },
+    "watch_item_id": "Omega Constellation",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Hunter's criteria simply specify Omega Constellation with no specific reference/limited edition required. This listing is a genuine vintage Omega Constellation \"Pie Pan\" model, matching brand and model generically.",
+      "estimated_value": 2400.0,
+      "confidence": 0.55,
+      "condition_summary": "Vintage 1959 Constellation Pie Pan, 34mm cap gold/steel case, dial noted as \"premium restoration\" (redial) with original applied markers, new crystal, gasket, crown, and strap; movement serviced and adjusted by seller. Photo shows a clean, glossy dial and shiny case consistent with redial/refinish rather than fully original condition.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Seller is transparent about redial (\"premium restoration in silver\") and new hands/crystal/crown, which is good disclosure, but redialed dials significantly reduce originality/value versus an all-original example and can be a red flag for purists. Case is gold-capped (gold over stainless steel), not solid gold, so buyers should not overpay as if solid gold. No serial-to-movement cross-check shown beyond seller's claim; movement photos claimed to be \"actual movement\" but not independently verifiable from text alone. Seller appears to be an established individual watchmaker with warranty/appraisal offered, which reduces outright scam risk, but restoration work invites some authenticity/value concerns rather than fraud per se.",
+      "rarity_notes": "Pie Pan dial Constellations from the late 1950s (cal. 551, 24-jewel chronometer) are a well-known and fairly plentiful vintage variant among Omega collectors - not a limited edition, moderately available in vintage market, though clean original-dial examples are more sought after than redials.",
+      "demand_tier": "High",
+      "demand_reasoning": "Omega Constellation Pie Pan models are iconic and highly recognized among vintage watch collectors, with steady demand, though redialed examples suppress prices relative to all-original pieces."
+    },
+    "deal_score": -33,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 247,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 247 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Omega Constellation Pie Pan models are iconic and highly recognized among vintage watch collectors, with steady demand, though redialed examples suppress prices relative to all-original pieces.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 3195.0,
+    "discount": -0.33125,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1785968536.109116,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "vostok:ebay:v1|398253032875|0",
+    "listing": {
+      "id": "ebay:v1|398253032875|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "\u231a Serviced Vostok Amphibia 200 meters USSR watch Komandirskie Wostok divers band",
+      "url": "https://www.ebay.com/itm/398253032875?_skw=vintage+Vostok+Amphibia&hash=item5cb9bb05ab:g:ODwAAeSwQBhqczsV",
+      "price": 89.0,
+      "shipping_price": 15.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/ODwAAeSwQBhqczsV/s-l225.jpg",
+      "image_urls": [],
+      "body": "\u231a Serviced Vostok Amphibia 200 meters USSR watch Komandirskie Wostok divers band",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "vostok",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Hunter wants vintage Vostok Amphibia with classic military feel, no specific reference required. This listing is a USSR-era Vostok Amphibia (Komandirskie-style case) with a fairly standard black dial, black rotating bezel, and simple markers - fits the 'classic military feel, no crazy dial' criteria and is stated as USSR (vintage) rather than a current model.",
+      "estimated_value": 100.0,
+      "confidence": 0.5,
+      "condition_summary": "Watch appears serviced with a clean black dial, intact bezel insert, and new-looking leather divers strap; case shows typical light wear consistent with a vintage piece but no major damage visible in the single photo.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only one photo provided (on a watch stand, not on wrist or with case back/movement shown), so no view of the movement, case back engravings, or serial/reference markings to confirm originality. \"Serviced\" claim is unverified - no mention of who serviced it or what parts were replaced (crystal, crown, seals, hands). Strap looks aftermarket/new which is common and not a red flag itself, but combined with lack of movement photos it's hard to rule out reissued/franken parts. Price is plausible for genuine vintage Vostok Amphibia, not suspiciously low.",
+      "rarity_notes": "Vintage Vostok Amphibia (Komandirskie-case divers) watches are fairly common on the secondary market - not especially rare, though condition and originality of dial/bezel/crown vary widely.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Vostok Amphibia has a solid niche collector following for affordable Soviet diver watches, but it's not a high-glamour/high-value brand - demand is steady but moderate, keeping prices in the $60-150 range for typical examples."
+    },
+    "deal_score": -4,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 1024,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 1024 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Vostok Amphibia has a solid niche collector following for affordable Soviet diver watches, but it's not a high-glamour/high-value brand - demand is steady but moderate, keeping prices in the $60-150 range for typical examples.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 104.0,
+    "discount": -0.04,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1785968550.8182607,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "vostok:etsy:4483139507",
+    "listing": {
+      "id": "etsy:4483139507",
+      "source": "etsy",
+      "category": "watches",
+      "title": "Vintage Mens Watch Chistopol Vostok Gold Plated USSR MOD Order 18 Jewels Date 110",
+      "url": "https://www.etsy.com/listing/4483139507/vintage-mens-watch-chistopol-vostok-gold",
+      "price": 485.0,
+      "shipping_price": null,
+      "currency": "USD",
+      "image_url": "https://i.etsystatic.com/59581390/r/il/fe1f35/7873372148/il_fullxfull.7873372148_hrkd.jpg",
+      "image_urls": [
+        "https://i.etsystatic.com/59581390/r/il/fe1f35/7873372148/il_fullxfull.7873372148_hrkd.jpg",
+        "https://i.etsystatic.com/59581390/r/il/1e3eea/7873372064/il_fullxfull.7873372064_f8xz.jpg",
+        "https://i.etsystatic.com/59581390/r/il/c54d4e/7873371826/il_fullxfull.7873371826_fzvi.jpg",
+        "https://i.etsystatic.com/59581390/r/il/9d607d/7921329697/il_fullxfull.7921329697_dcku.jpg",
+        "https://i.etsystatic.com/59581390/r/il/b61763/7873371900/il_fullxfull.7873371900_q96c.jpg",
+        "https://i.etsystatic.com/59581390/r/il/a736d2/7873372112/il_fullxfull.7873372112_ohum.jpg"
+      ],
+      "body": "Men&#39;s Mechanical Watch in Gold-Plated Case \u2014 Vintage USSR Era Military Style | 40x36x8 mm, Vintage Condition\nDiscover a Piece of History: The Gold-Plated Vintage Military Watch\nDiscover the beauty of this Vintage Men&#39;s Mechanical Watch, crafted from a gold-plated case with exceptional craftsmanship and refined design. This elegant piece features an anthracite dial, a reliable 18-jewel mechanical movement with date display, and classic military-style markers, making it perfect for collectors, enthusiasts, or anyone seeking a meaningful vintage timepiece. Combining timeless charm with historical significance, it adds a sophisticated and unique touch to any look.\n\nKey Features:\nMade from high-quality gold-plated material for lasting appeal and vintage charm.\nFeatures a reliable 18-jewel mechanical movement with a convenient date window at 3 o&#39;clock.\nStriking anthracite dial with clear Arabic numerals at 6, 9, 12, and stick markers for excellent readability.\nAuthentic USSR era military design \u2013 a rare and historically interesting collectible.\nPaired with a comfortable and stylish brown crocodile-embossed leather strap.\nSpecifications:\nMaterial: Gold-Plated Case, Stainless Steel Caseback, Leather Strap\nKarat / Hallmark: Null\nWeight: Null\nDimensions / Size: 40\u00d736\u00d78 mm (approx. case dimensions)\nOrigin: USSR\nCondition: Vintage",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "taxonomy_id": 6074
+      }
+    },
+    "watch_item_id": "vostok",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "This is a Vostok dress watch (Chistopol-made, gold-plated case, flat mineral crystal, non-diver case) \u2014 not an Amphibia at all. The Amphibia is specifically Vostok's diver line with a distinctive case shape, screw-down crown, rotating bezel, and O-ring sealed case-back. This piece has none of that; it's a classic Soviet dress watch, so it fails the model-specific requirement even though it's a genuine vintage Vostok.",
+      "estimated_value": 55.0,
+      "confidence": 0.55,
+      "condition_summary": "Photo shows a clean vintage gold-plated Vostok dress watch with a black dial, appears to be in good cosmetic condition with minor wear typical of age; new-looking aftermarket leather strap.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Dial and case appear consistent with genuine Soviet-era Vostok dress watches, and the \"\u0412\u043e\u0441\u0442\u043e\u043a\" logo and \"18 \u041a\u0410\u041c\u041d\u0415\u0419\" text look plausible. However, price of $485 is far above typical market value ($40-100) for this common model, which is a red flag suggesting inflated/misleading pricing rather than a fraud on authenticity itself; no movement/caseback photos shown to verify hallmarks or originality.",
+      "rarity_notes": "This is a very common Vostok dress watch model from the Chistopol factory, mass produced in the USSR era; not rare or particularly collectible compared to actual vintage Amphibia divers, which are the sought-after military/diver models.",
+      "demand_tier": "Low",
+      "demand_reasoning": "Vostok dress watches like this are plentiful and inexpensive on the vintage market; demand and recognition are far lower than for the Amphibia diver line, which has strong collector demand for its military/diver aesthetic."
+    },
+    "deal_score": -782,
+    "liquidity": {
+      "rating": "Low",
+      "comparable_count": 197,
+      "algorithmic_tier": "High",
+      "claude_tier": "Low",
+      "reasoning": "Algorithmic signal: 197 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Low (Vostok dress watches like this are plentiful and inexpensive on the vintage market; demand and recognition are far lower than for the Amphibia diver line, which has strong collector demand for its military/diver aesthetic.). Final rating uses the more conservative of the two: Low."
+    },
+    "all_in_price": 485.0,
+    "discount": -7.818181818181818,
+    "notified": false,
+    "duplicate_of": "vostok:etsy:4482352583",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1785968563.2804694,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "james bond watch:ebay:v1|298562561707|0",
+    "listing": {
+      "id": "ebay:v1|298562561707|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "2026 OMEGA Seamaster Diver 300M 210.30.42.20.03.002 James Bond 60th anniversary",
+      "url": "https://www.ebay.com/itm/298562561707?_skw=Omega+Seamaster+James+Bond&hash=item4583b726ab:g:wSYAAeSwOzFqc6lf",
+      "price": 7750.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/wSYAAeSwOzFqc6lf/s-l225.jpg",
+      "image_urls": [],
+      "body": "2026 OMEGA Seamaster Diver 300M 210.30.42.20.03.002 James Bond 60th anniversary",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "james bond watch",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "The hunter's criteria was broad (\"any james bond seamaster\"), not tied to a specific reference. This listing is an Omega Seamaster Diver 300M James Bond 60th Anniversary edition (ref 210.30.42.20.03.002), which is a genuine James Bond-themed Seamaster, so it satisfies the generic criteria.",
+      "estimated_value": 6800.0,
+      "confidence": 0.4,
+      "condition_summary": "Photo shows what appears to be a new/unworn watch on a mesh bracelet with no visible wear, but only one stock-style image is provided and no box/papers are shown despite being implied by \"2026\" listing.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "The \"2026\" date is suspicious (future date, likely a typo or possibly indicating an unreleased/counterfeit claim). Only a single generic-looking photo is provided with gloved hands, common in both legitimate luxury listings and reseller/counterfeit stock photos - no closeups of caseback, serial, hallmarks, or papers. Price is notably below typical secondary market prices (~$8,500-$10,000+) for this sought-after limited-ish release, which combined with lack of provenance detail raises some caution, though not dramatically underpriced.",
+      "rarity_notes": "The Seamaster Diver 300M James Bond 60th Anniversary (210.30.42.20.03.002) was a widely-released commemorative model (not a tiny limited edition), so it's moderately available but still highly desirable among Bond/Omega collectors.",
+      "demand_tier": "High",
+      "demand_reasoning": "Omega Seamaster is a globally recognized dive watch line, and James Bond editions carry strong collector demand due to the franchise tie-in and Omega's marketing push."
+    },
+    "deal_score": -14,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 351,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 351 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Omega Seamaster is a globally recognized dive watch line, and James Bond editions carry strong collector demand due to the franchise tie-in and Omega's marketing push.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 7750.0,
+    "discount": -0.13970588235294118,
+    "notified": false,
+    "duplicate_of": "james bond watch:ebay:v1|278239236051|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1785968575.292857,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "james bond watch:ebay:v1|128012217432|0",
+    "listing": {
+      "id": "ebay:v1|128012217432|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "OMEGA Seamaster Professional 007 James Bond Auto Chronometer 300m Box Manual",
+      "url": "https://www.ebay.com/itm/128012217432?_skw=Omega+Seamaster+James+Bond&hash=item1dce1f6c58:g:fGQAAeSwVktqczmA",
+      "price": 4525.0,
+      "shipping_price": null,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/fGQAAeSwVktqczmA/s-l225.jpg",
+      "image_urls": [],
+      "body": "OMEGA Seamaster Professional 007 James Bond Auto Chronometer 300m Box Manual",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "james bond watch",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Hunter's criteria is generic (\"any James Bond Seamaster\"), and this listing is a Seamaster Professional 300M with 007/James Bond edition markings (visible red bezel triangle/lettering typical of the Bond limited series), so it matches the broad requirement.",
+      "estimated_value": 4200.0,
+      "confidence": 0.55,
+      "condition_summary": "Watch appears in good cosmetic condition from the single photo (clean bezel, dial, and bracelet with no obvious major scratches), but only one image is provided and box/papers are claimed but not shown.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only one stock-like photo is provided showing the watch face-on; no images of caseback, serial numbers, box, or papers despite them being claimed in the title. No mention of specific limited edition number (e.g., \"007/10000\") or serial verification, which is a common check point for these Bond editions. Price is within plausible market range, not suspiciously low, which is a mild positive signal, but lack of documentation photos and vague description keep risk at medium.",
+      "rarity_notes": "Omega Seamaster James Bond limited editions were produced in limited runs (often 10,000 pieces per version) and are moderately sought after by collectors; exact rarity depends on which specific Bond edition (e.g., 1995 300M Bond, GoldenEye, Skyfall, No Time to Die) which is not specified here.",
+      "demand_tier": "High",
+      "demand_reasoning": "Omega Seamaster is a globally recognized brand/model, and James Bond editions carry strong collector and pop-culture demand, making this a high-demand niche within watch collecting."
+    },
+    "deal_score": -8,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 351,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 351 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Omega Seamaster is a globally recognized brand/model, and James Bond editions carry strong collector and pop-culture demand, making this a high-demand niche within watch collecting.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 4525.0,
+    "discount": -0.07738095238095238,
+    "notified": false,
+    "duplicate_of": "james bond watch:ebay:v1|278235890699|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1785968575.0654502,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "james bond watch:ebay:v1|377394860895|0",
+    "listing": {
+      "id": "ebay:v1|377394860895|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Omega Seamaster 300M Blue Dial on Stainless Steel 2531.80.00",
+      "url": "https://www.ebay.com/itm/377394860895?_skw=Omega+Seamaster+James+Bond&hash=item57de7c935f:g:8Q8AAeSwAY9qclF4",
+      "price": 2300.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/8Q8AAeSwAY9qclF4/s-l225.jpg",
+      "image_urls": [],
+      "body": "Omega Seamaster 300M Blue Dial on Stainless Steel 2531.80.00",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "james bond watch",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The hunter wants a James Bond edition/theme Seamaster (e.g., wave dial with 'James Bond' or '007' branding/caseback, or a specific Bond limited edition). This listing is a standard Omega Seamaster 300M ref. 2531.80.00 blue wave dial with no mention of Bond branding, caseback engraving, or limited edition markings. While this reference is visually similar to Bond-associated Seamasters, it is not itself marketed or confirmed as a James Bond edition, so it does not satisfy the specific theme requirement.",
+      "estimated_value": 2300.0,
+      "confidence": 0.5,
+      "condition_summary": "Watch appears used with visible wear on the bracelet and case in the photo; no box or papers shown or mentioned.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only one photo provided, held in hand at an angle that obscures dial detail, caseback, and serial number - typical of listings where full authentication isn't possible. No box, papers, or close-up of hallmarks/engravings shown. Price seems roughly in line with market for a standard 2531.80, so no major red flag there, but lack of detailed photos (caseback, clasp, serial) is a concern for authenticity verification.",
+      "rarity_notes": "The 2531.80.00 is a common, widely-produced Seamaster 300M reference, not a limited or Bond-specific edition. True James Bond editions (e.g., 2531.80 'Bond' commemorative with special caseback/box, or later 007 limited editions) are more scarce and carry a premium; this listing does not indicate such extras.",
+      "demand_tier": "High",
+      "demand_reasoning": "Omega Seamaster 300M is a well-recognized, high-demand model in the used watch market due to its Bond film associations and reputation, even without an explicit limited edition designation."
+    },
+    "deal_score": 0,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 351,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 351 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Omega Seamaster 300M is a well-recognized, high-demand model in the used watch market due to its Bond film associations and reputation, even without an explicit limited edition designation.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 2300.0,
+    "discount": 0.0,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1785968575.8370032,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "aqua terra:ebay:v1|358884232560|0",
+    "listing": {
+      "id": "ebay:v1|358884232560|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "OMEGA Seamaster Aqua Terra 41mm Blue Dial Co-Axial Auto Chronometer Box",
+      "url": "https://www.ebay.com/itm/358884232560?_skw=Aqua+Terra+38mm&hash=item538f2acd70:g:N4UAAeSwjF1qckXq",
+      "price": 4500.0,
+      "shipping_price": null,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/N4UAAeSwjF1qckXq/s-l225.jpg",
+      "image_urls": [],
+      "body": "OMEGA Seamaster Aqua Terra 41mm Blue Dial Co-Axial Auto Chronometer Box",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "New with imperfections"
+      }
+    },
+    "watch_item_id": "aqua terra",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Hunter specifically wants a 38mm Aqua Terra with a simple/uncluttered dial. This listing is a 41mm Aqua Terra with a blue dial (likely the teak/horizontal pattern dial common to that reference), which is a different case size and a busier dial design - a clear mismatch on the stated size requirement.",
+      "estimated_value": 4200.0,
+      "confidence": 0.4,
+      "condition_summary": "Watch appears to be presented with box and papers, in what looks like good cosmetic condition from the single photo, but no close-up shots of the dial, case, or bracelet are provided to verify actual wear.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only one distant, low-detail photo showing the watch in its box - no close-ups of dial, caseback, movement, or papers/serial numbers, which is a red flag for verifying authenticity. Price of $4,500 is plausible for a 41mm Aqua Terra co-axial with box/papers, so not suspiciously low, but the lack of detailed photos and minimal description warrants caution.",
+      "rarity_notes": "41mm blue dial Aqua Terra co-axial models are fairly common on the secondary market; not a limited or rare variant.",
+      "demand_tier": "High",
+      "demand_reasoning": "Omega Aqua Terra is a well-recognized, popular model line with strong demand, though this specific 41mm blue dial variant does not match the hunter's 38mm simple-dial requirement."
+    },
+    "deal_score": -7,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 2837,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 2837 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Omega Aqua Terra is a well-recognized, popular model line with strong demand, though this specific 41mm blue dial variant does not match the hunter's 38mm simple-dial requirement.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 4500.0,
+    "discount": -0.07142857142857142,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1785968588.3602774,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "aqua terra:ebay:v1|206468047367|0",
+    "listing": {
+      "id": "ebay:v1|206468047367|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Omega Seamaster Aqua Terra 220.12.41.21.06.001",
+      "url": "https://www.ebay.com/itm/206468047367?_skw=Aqua+Terra+38mm&hash=item3012746207:g:TqkAAeSwzmFqc2Lh",
+      "price": 5400.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/TqkAAeSwzmFqc2Lh/s-l225.jpg",
+      "image_urls": [],
+      "body": "Omega Seamaster Aqua Terra 220.12.41.21.06.001",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "aqua terra",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The hunter wants a 38mm Aqua Terra with a simple dial. The reference 220.12.41.21.06.001 is a 41mm Aqua Terra with the teak-pattern dial, not the 38mm case size specified. Case size mismatch alone disqualifies this listing.",
+      "estimated_value": 4800.0,
+      "confidence": 0.4,
+      "condition_summary": "Watch appears new/unworn in the single photo, with a textured teak dial, blue accents, and blue leather strap; no visible wear on case or bezel, but only one image provided and no box/papers shown.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only one photo provided (appears to be a possible stock/promotional image with a watermark/logo overlay in the background), no shots of case back, serial, movement, or box/papers despite a $5,400 price point. No seller history or provenance details given. These gaps warrant caution though not necessarily indicative of fraud.",
+      "rarity_notes": "This 41mm teak-dial Aqua Terra reference is a fairly common, widely produced model in the current Omega lineup, not rare or limited.",
+      "demand_tier": "High",
+      "demand_reasoning": "Omega Aqua Terra is a well-recognized, popular model line with strong resale demand, though this exact 41mm variant is common rather than sought-after specifically for its 38mm size that the hunter wants."
+    },
+    "deal_score": -12,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 2837,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 2837 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Omega Aqua Terra is a well-recognized, popular model line with strong resale demand, though this exact 41mm variant is common rather than sought-after specifically for its 38mm size that the hunter wants.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 5400.0,
+    "discount": -0.125,
+    "notified": false,
+    "duplicate_of": "aqua terra:ebay:v1|398233315366|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1785968588.2111871,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "aqua terra:ebay:v1|257644129551|0",
+    "listing": {
+      "id": "ebay:v1|257644129551|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "OMEGA Seamaster Aqua Terra 231.10.42.21.03.003 Master Co-Axial AT Men's_972832",
+      "url": "https://www.ebay.com/itm/257644129551?_skw=Aqua+Terra+38mm&hash=item3bfcc96d0f:g:e7IAAeSw9HxqcYLR",
+      "price": 3756.66,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/e7IAAeSw9HxqcYLR/s-l225.jpg",
+      "image_urls": [],
+      "body": "OMEGA Seamaster Aqua Terra 231.10.42.21.03.003 Master Co-Axial AT Men's_972832",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "aqua terra",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The reference number 231.10.42.21.03.003 corresponds to the 41.5-42mm Aqua Terra case, not the 38mm variant the hunter specified. Since the hunter explicitly required 38mm, this different case size disqualifies the listing despite being the correct model family.",
+      "estimated_value": 3200.0,
+      "confidence": 0.4,
+      "condition_summary": "Photo shows a used but clean-looking Aqua Terra with blue dial, teak pattern, on a bracelet; no visible major wear in the single stock-style photo, but condition can't be fully verified from one image.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only one small, low-resolution photo provided, no box/papers shown despite being a $3,700+ item, and no close-up of caseback, serial, or movement to verify authenticity. Title includes a generic seller SKU suffix ('_972832') typical of high-volume resale listings, which isn't inherently suspicious but warrants requesting more photos before purchase.",
+      "rarity_notes": "This reference (42mm Master Co-Axial Aqua Terra with teak blue dial) is a common, widely produced Omega model, not rare or limited.",
+      "demand_tier": "High",
+      "demand_reasoning": "Omega Aqua Terra is a well-recognized, popular line with strong resale demand, though this exact 42mm reference is common rather than a hot/limited variant."
+    },
+    "deal_score": -17,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 2837,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 2837 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Omega Aqua Terra is a well-recognized, popular line with strong resale demand, though this exact 42mm reference is common rather than a hot/limited variant.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 3756.66,
+    "discount": -0.17395624999999995,
+    "notified": false,
+    "duplicate_of": "aqua terra:ebay:v1|147474983221|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1785968588.0944884,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "submariner:ebay:v1|206419274254|0",
+    "listing": {
+      "id": "ebay:v1|206419274254|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Vintage Rolex Submariner No Date 5512 40mm Black Patina Dial Stainless Steel",
+      "url": "https://www.ebay.com/itm/206419274254?_skw=vintage+Rolex+Submariner&hash=item300f8c2a0e:g:PaQAAeSwfRBqc65~",
+      "price": 18995.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/PaQAAeSwfRBqc65~/s-l225.jpg",
+      "image_urls": [],
+      "body": "Vintage Rolex Submariner No Date 5512 40mm Black Patina Dial Stainless Steel",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "submariner",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Hunter's criteria is generic (authentic vintage Rolex Submariner, black dial), no specific reference required. The listing is a vintage Submariner ref. 5512 with black dial, which fits the stated category.",
+      "estimated_value": 19000.0,
+      "confidence": 0.35,
+      "condition_summary": "Photo shows a stainless steel Submariner with black \"patina\" dial and matching bracelet, bezel and case appear intact with typical vintage wear; no close-up of dial texture, case back, or movement to verify condition claims.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only one generic stock-style photo is provided (watch on a display stand), with no shots of case back, movement, serial/reference numbers between lugs, or close-up of dial/hands - all critical for verifying a vintage 5512 given how heavily this reference is faked/franken-watched. No mention of papers, service history, or box. \"Patina\" claims on vintage Subs are common cover for redial or aftermarket dial swaps, which should be verified via serial and dial font inspection before purchase.",
+      "rarity_notes": "Ref. 5512 is a genuinely rare and desirable vintage Submariner (chronometer-certified, produced late 1950s-1970s), especially with an all-original matching black dial and case - values vary widely depending on originality of dial, hands, bezel, and case (unpolished vs polished).",
+      "demand_tier": "High",
+      "demand_reasoning": "Vintage Rolex Submariners, especially ref. 5512, are among the most sought-after vintage watches with strong, consistent collector demand and deep market comps."
+    },
+    "deal_score": 0,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 482,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 482 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Vintage Rolex Submariners, especially ref. 5512, are among the most sought-after vintage watches with strong, consistent collector demand and deep market comps.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 18995.0,
+    "discount": 0.0002631578947368421,
+    "notified": false,
+    "duplicate_of": "submariner:etsy:4549976640",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1785968600.9929514,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "submariner:ebay:v1|278250642821|0",
+    "listing": {
+      "id": "ebay:v1|278250642821|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex vintage Sea dweller 1665 or Submariner 1680 Genuine dial, been Refinished!",
+      "url": "https://www.ebay.com/itm/278250642821?_skw=vintage+Rolex+Submariner&hash=item40c907dd85:g:kAoAAeSw8fBqc3RO",
+      "price": 375.0,
+      "shipping_price": 7.5,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/kAoAAeSw8fBqc3RO/s-l225.jpg",
+      "image_urls": [],
+      "body": "Rolex vintage Sea dweller 1665 or Submariner 1680 Genuine dial, been Refinished!",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "submariner",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "This listing is only for a dial (refinished, not original condition), not a complete watch. The hunter is looking for an authentic vintage Submariner watch with black dial - a refinished aftermarket dial component does not satisfy 'authentic' criteria since refinished dials are explicitly non-original/altered, and it's not even a complete timepiece.",
+      "estimated_value": 150.0,
+      "confidence": 0.4,
+      "condition_summary": "A single black Submariner-style dial, stated to have been refinished (repainted/relumed), not an original untouched dial; no watch case, movement, or bracelet included.",
+      "authenticity_risk": "high",
+      "authenticity_notes": "Seller admits the dial has been \"refinished,\" which means it is not in original factory condition - refinished dials are common in fraud/misrepresentation schemes and significantly reduce collector value versus original dials. Title ambiguously conflates two different references (Sea-Dweller 1665 vs Submariner 1680), suggesting the seller isn't even certain what part this is from, a red flag for provenance. Only one photo of the loose dial is shown, no case, movement, or documentation to verify it came from a genuine vintage Rolex.",
+      "rarity_notes": "Original unrefinished 1665/1680 dials are moderately rare and desirable to restorers, but this is explicitly a refinished dial, which is far more common and less sought after by serious collectors.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Rolex parts (even refinished dials) have a market among watchmakers/restorers and Rolex enthusiasts, but demand is much lower than for complete authentic watches, and refinished status further limits the buyer pool to those doing restorations rather than collectors seeking originality."
+    },
+    "deal_score": -155,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 482,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 482 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Rolex parts (even refinished dials) have a market among watchmakers/restorers and Rolex enthusiasts, but demand is much lower than for complete authentic watches, and refinished status further limits the buyer pool to those doing restorations rather than collectors seeking originality.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 382.5,
+    "discount": -1.55,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1785968602.0240142,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "santos:ebay:v1|188749035452|0",
+    "listing": {
+      "id": "ebay:v1|188749035452|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Cartier Santos L WSSA0089 Titanium B&P 2026",
+      "url": "https://www.ebay.com/itm/188749035452?_skw=Cartier+Santos&hash=item2bf251b7bc:g:7dEAAeSwgm9qc6au",
+      "price": 9500.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/7dEAAeSwgm9qc6au/s-l225.jpg",
+      "image_urls": [],
+      "body": "Cartier Santos L WSSA0089 Titanium B&P 2026",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "santos",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Hunter's criteria was generic (any Cartier Santos medium/large, silver-tone with white dial, authentic) rather than a specific reference number. This listing is a Santos Large (WSSA0089) in titanium/steel-tone with a white dial, which satisfies the size, color, and model requirements.",
+      "estimated_value": 8200.0,
+      "confidence": 0.45,
+      "condition_summary": "Photo shows a clean, seemingly lightly worn or new-looking Santos L with white Roman numeral dial and steel/titanium case and bracelet; no visible scratches or damage in the single image, but no close-up or box/papers photos are shown despite being claimed.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Title claims 'B&P' (box and papers) and a '2026' date, which is odd/suspicious since 2026 has not occurred yet - this could be a typo for warranty card date or a red flag for fabricated/altered documentation. No photos of box, papers, or case-back/serial number are provided to verify authenticity or the box & papers claim; only one stock-style photo of the watch head is shown. Price is somewhat below typical retail/gray market for this model, which combined with lack of documentation photos warrants caution.",
+      "rarity_notes": "Santos Large WSSA0089 is a current production, widely available reference - not rare, but well recognized and desirable in the resale market.",
+      "demand_tier": "High",
+      "demand_reasoning": "Cartier Santos is a highly recognized, in-demand model with strong resale liquidity, especially the Large size with white dial."
+    },
+    "deal_score": -16,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 2387,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 2387 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Cartier Santos is a highly recognized, in-demand model with strong resale liquidity, especially the Large size with white dial.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 9500.0,
+    "discount": -0.15853658536585366,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1785968615.6223686,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "santos:ebay:v1|178377744848|0",
+    "listing": {
+      "id": "ebay:v1|178377744848|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Cartier Santos Medium WSSA0029 35MM Silver Dial Steel Box Paper",
+      "url": "https://www.ebay.com/itm/178377744848?_skw=Cartier+Santos&hash=item29882461d0:g:Xi0AAeSw-1dqc6~-",
+      "price": 7499.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/Xi0AAeSw-1dqc6~-/s-l225.jpg",
+      "image_urls": [],
+      "body": "Cartier Santos Medium WSSA0029 35MM Silver Dial Steel Box Paper",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "santos",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Hunter wanted an authentic Cartier Santos medium or large, silver-tone steel with white dial. This is the WSSA0029, the current-generation Cartier Santos Medium (35mm) in steel with white/silver dial - matches size and dial/case criteria. No specific reference was requested by the hunter, so the standard medium reference qualifies.",
+      "estimated_value": 7200.0,
+      "confidence": 0.55,
+      "condition_summary": "Watch appears to be in good/lightly used condition based on the single photo showing clean case and bracelet; no close-up of clasp, case back, or dial texture is provided to confirm condition claims.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only one photo is shown despite claiming box and papers - no image of papers, warranty card, or box contents, no close-up of engravings/serial numbers, and no hallmark/clasp shots to verify authenticity. Text is minimal (just a repeated title) with no seller description of condition, purchase history, or documentation details, which is a mild red flag for a $7,499 watch. Price is roughly in line with market so not suspiciously low, but lack of verification photos and generic listing text warrant caution.",
+      "rarity_notes": "WSSA0029 is the current production Cartier Santos Medium (35mm) steel model - widely available new and pre-owned, not rare, but consistently in demand.",
+      "demand_tier": "High",
+      "demand_reasoning": "Cartier Santos is a highly recognized, sought-after model line with strong resale demand; the steel medium size with white dial is one of the most popular configurations."
+    },
+    "deal_score": -4,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 2387,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 2387 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Cartier Santos is a highly recognized, sought-after model line with strong resale demand; the steel medium size with white dial is one of the most popular configurations.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 7499.0,
+    "discount": -0.041527777777777775,
+    "notified": false,
+    "duplicate_of": "santos:ebay:v1|198535540337|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1785968615.6287427,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "santos:ebay:v1|227434672646|0",
+    "listing": {
+      "id": "ebay:v1|227434672646|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "CARTIER Santos 100 W20106X8 2878 Automatic Mens Watch Excellent A7346",
+      "url": "https://www.ebay.com/itm/227434672646?_skw=Cartier+Santos&hash=item34f429b206:g:N-IAAeSwfZRqWZ0E",
+      "price": 3845.26,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/N-IAAeSwfZRqWZ0E/s-l225.jpg",
+      "image_urls": [],
+      "body": "CARTIER Santos 100 W20106X8 2878 Automatic Mens Watch Excellent A7346",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "santos",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Hunter's criteria was generic (medium or large Santos, silver-tone with white dial, no specific reference required). This is a Cartier Santos 100, steel case, white dial - a large-size Santos model, so it fits the size/color/dial requirements.",
+      "estimated_value": 3800.0,
+      "confidence": 0.45,
+      "condition_summary": "Listed as \"Excellent\" with steel case, white roman-numeral dial, and black leather strap; photo shows a clean dial and case but is a generic stock-style image with no close-up wear/serial shots.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only one stock-like photo provided, no shots of case back, serial number, or papers/box despite reference number being cited in title; no seller history or provenance details given in listing text; price is plausible for a used Santos 100 but can't be verified against serial/box. Lack of authentication documentation or close-up detail photos is a moderate red flag for an eBay listing at this price point.",
+      "rarity_notes": "Santos 100 in steel with white dial is a common, widely-produced reference - not rare, but well recognized and steadily in demand.",
+      "demand_tier": "High",
+      "demand_reasoning": "Cartier Santos is a highly recognized luxury watch line with strong resale demand, and the steel/white dial combo is the most popular configuration."
+    },
+    "deal_score": -1,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 2387,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 2387 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Cartier Santos is a highly recognized luxury watch line with strong resale demand, and the steel/white dial combo is the most popular configuration.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 3845.26,
+    "discount": -0.011910526315789531,
+    "notified": false,
+    "duplicate_of": "santos:ebay:v1|366583577096|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1785968614.9323995,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "santos:ebay:v1|257664182332|0",
+    "listing": {
+      "id": "ebay:v1|257664182332|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Vintage Cartier Santos 0907 Automatic 25mm Watch Santos de Cartier Octo SM",
+      "url": "https://www.ebay.com/itm/257664182332?_skw=Cartier+Santos&hash=item3bfdfb683c:g:rroAAeSweXxqc7bH",
+      "price": 3350.0,
+      "shipping_price": null,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/rroAAeSweXxqc7bH/s-l225.jpg",
+      "image_urls": [],
+      "body": "Vintage Cartier Santos 0907 Automatic 25mm Watch Santos de Cartier Octo SM",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "santos",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The hunter requires a silver-tone (steel) case/bracelet with white dial, medium or large Santos. This listing is a two-tone (steel and gold) Santos Octagon 25mm 'SM' (small model), not a pure silver-tone medium/large. The two-tone bezel/bracelet visible in the photo disqualifies it on the 'silver' requirement, and the 25mm size corresponds to the small/ladies model rather than medium or large.",
+      "estimated_value": 2800.0,
+      "confidence": 0.4,
+      "condition_summary": "Vintage two-tone Santos Octagon, appears to have visible wear typical of age on bracelet links and case edges; photo shows only one stock-like image with no close-up of dial, case back, or box/papers.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only a single, somewhat generic photo is provided with no close-ups of hallmarks, serial number, movement, or box/papers, making authentication difficult from the listing alone. No mention of papers, service history, or provenance, which is a minor red flag for a vintage two-tone piece at this price point.",
+      "rarity_notes": "Vintage two-tone Santos Octagon 25mm (SM) models are fairly common on the secondary market; not a rare or limited reference.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Cartier Santos is a well-recognized, desirable model, but this specific two-tone small/vintage variant has more moderate demand compared to modern steel medium/large versions the hunter is seeking."
+    },
+    "deal_score": -20,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 2387,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 2387 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Cartier Santos is a well-recognized, desirable model, but this specific two-tone small/vintage variant has more moderate demand compared to modern steel medium/large versions the hunter is seeking.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 3350.0,
+    "discount": -0.19642857142857142,
+    "notified": false,
+    "duplicate_of": "santos:ebay:v1|366583577096|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1785968615.0160162,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "santos:ebay:v1|158154634972|0",
+    "listing": {
+      "id": "ebay:v1|158154634972|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Box & Papers Cartier Santos Galbee 1565",
+      "url": "https://www.ebay.com/itm/158154634972?_skw=Cartier+Santos&hash=item24d2c036dc:g:Vq0AAeSwRXVqckmH",
+      "price": 4150.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/Vq0AAeSwRXVqckmH/s-l225.jpg",
+      "image_urls": [],
+      "body": "Box & Papers Cartier Santos Galbee 1565",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "santos",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "The hunter's criteria is generic for Cartier Santos (medium or large, silver-tone, white dial), not tied to a specific reference. The Santos Galbee 1565 is a steel Santos model with white dial that fits the medium/large size range, so it satisfies the stated (non-specific) requirements.",
+      "estimated_value": 4500.0,
+      "confidence": 0.45,
+      "condition_summary": "Watch appears in good cosmetic condition from the single photo shown - case and bracelet show no obvious major scratches, dial looks clean with visible date window; box and papers are shown alongside the watch. However, only one photo angle is provided, and no closeup of case back, movement, or papers' details (serial, date) is visible to confirm condition claims.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Listing is thin on detail - no close-up of serial number, hallmarks, movement, or papers' specifics (e.g., matching serial on papers vs. case) to verify authenticity, which is a common area for red flags on vintage/pre-owned Cartier. Price is within plausible market range so not a 'too good to be true' red flag, but lack of verification photos and no seller history/feedback mentioned means some risk remains until closer inspection.",
+      "rarity_notes": "The Santos Galbee (ref. 1565) is a well-known, fairly common steel Santos variant from the 1990s/2000s - not a limited edition, moderately available on the secondary market, especially with box and papers which add a premium.",
+      "demand_tier": "High",
+      "demand_reasoning": "Cartier Santos is a highly recognized, in-demand model line, and this steel Galbee variant with box and papers is a desirable, easy-to-sell configuration."
+    },
+    "deal_score": 8,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 2387,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 2387 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Cartier Santos is a highly recognized, in-demand model line, and this steel Galbee variant with box and papers is a desirable, easy-to-sell configuration.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 4150.0,
+    "discount": 0.07777777777777778,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1785968629.85213,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "santos:ebay:v1|267708577890|0",
+    "listing": {
+      "id": "ebay:v1|267708577890|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Cartier Santos Silver Dial Stainless Steel 38mm Automatic Men's Watch W20073X8",
+      "url": "https://www.ebay.com/itm/267708577890?_skw=Cartier+Santos&hash=item3e54acb862:g:lFUAAeSwfTdqOTYQ",
+      "price": 4495.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/lFUAAeSwfTdqOTYQ/s-l225.jpg",
+      "image_urls": [],
+      "body": "Cartier Santos Silver Dial Stainless Steel 38mm Automatic Men's Watch W20073X8",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "santos",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Hunter accepts medium or large Santos in steel/silver with white dial, without a specific reference requirement. This is a Cartier Santos 100 (W20073X8), 38mm which is the \"medium\" size, stainless steel with silver/white dial - fits the stated criteria.",
+      "estimated_value": 4200.0,
+      "confidence": 0.55,
+      "condition_summary": "Watch appears in good cosmetic condition from the single stock-style photo; case and bezel show no obvious major scratches, but the photo is a generic product shot rather than an actual seller photo, so true condition (crystal scratches, bracelet/strap wear, movement service history) can't be verified.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only one stock-like image is provided with no close-ups of hallmarks, serial number, movement, or papers/box; no mention of provenance, box/papers, or seller's return/authentication policy. Price is within plausible market range (not suspiciously low), which is a mild positive, but lack of detailed real photos and any serial/paperwork verification is a red flag for a $4,495 luxury watch purchase.",
+      "rarity_notes": "The Santos 100 in steel with silver dial (W20073X8) is a well-known, commonly available reference - not rare or limited, making it easy to source comps but also easier to counterfeit/fake listings for due to high volume.",
+      "demand_tier": "High",
+      "demand_reasoning": "Cartier Santos is a highly recognized, actively sought-after model in the current luxury watch resale market, with strong consistent demand for steel/white dial variants."
+    },
+    "deal_score": -7,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 2387,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 2387 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Cartier Santos is a highly recognized, actively sought-after model in the current luxury watch resale market, with strong consistent demand for steel/white dial variants.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 4495.0,
+    "discount": -0.07023809523809524,
+    "notified": false,
+    "duplicate_of": "santos:ebay:v1|178260208255|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1785968625.2592027,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "santos:ebay:v1|257651962241|0",
+    "listing": {
+      "id": "ebay:v1|257651962241|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "CARTIER Santos Octagon SM white Dial Automatic Ladies Watch_968830",
+      "url": "https://www.ebay.com/itm/257651962241?_skw=Cartier+Santos&hash=item3bfd40f181:g:YUgAAeSwnN9qcXul",
+      "price": 2706.4,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/YUgAAeSwnN9qcXul/s-l225.jpg",
+      "image_urls": [],
+      "body": "CARTIER Santos Octagon SM white Dial Automatic Ladies Watch_968830",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "santos",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Hunter wants a Santos Medium or Large in silver-tone (steel) with white dial. This listing is a Santos Octagon SM (Ronde Octagon), a different model line, and it's two-tone steel/gold, not pure silver-tone. Both the model variant and metal combination fail the stated criteria.",
+      "estimated_value": 2200.0,
+      "confidence": 0.45,
+      "condition_summary": "Photo shows a two-tone Santos Octagon with visible wear on the gold screws/bezel and case, white Roman numeral dial appears intact; overall used condition with typical light scratching.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only one small stock-like photo provided, no box/papers, no movement or caseback shots, and no serial number visible to verify authenticity. Listing title includes an odd internal SKU (_968830) typical of resale/dealer bulk listings, which isn't inherently bad but combined with minimal photos raises some caution.",
+      "rarity_notes": "Santos Octagon (Ronde Santos Octagon) two-tone ladies models are fairly common on the secondary market, not rare.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Cartier brand recognition is high, but this specific two-tone ladies Octagon model has moderate demand compared to the classic steel Santos Galb\u00e9e/Large models the hunter is targeting."
+    },
+    "deal_score": -23,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 2387,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 2387 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Cartier brand recognition is high, but this specific two-tone ladies Octagon model has moderate demand compared to the classic steel Santos Galb\u00e9e/Large models the hunter is targeting.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 2706.4,
+    "discount": -0.2301818181818182,
+    "notified": false,
+    "duplicate_of": "santos:ebay:v1|267740060164|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1785968625.070225,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "santos:ebay:v1|287454555201|0",
+    "listing": {
+      "id": "ebay:v1|287454555201|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Cartier Santos De Cartier WSSA0071 S/S 39.8MM Blue Dial Auto Watch. Unworn. B/P",
+      "url": "https://www.ebay.com/itm/287454555201?_skw=Cartier+Santos&hash=item42eda06c41:g:CaoAAeSwmaVqUlws",
+      "price": 7950.0,
+      "shipping_price": 60.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/CaoAAeSwmaVqUlws/s-l225.jpg",
+      "image_urls": [],
+      "body": "Cartier Santos De Cartier WSSA0071 S/S 39.8MM Blue Dial Auto Watch. Unworn. B/P",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "New with imperfections"
+      }
+    },
+    "watch_item_id": "santos",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Hunter requires a white dial Santos (medium or large); this listing is WSSA0071 with a blue dial, which does not match the specified dial color requirement.",
+      "estimated_value": 7800.0,
+      "confidence": 0.55,
+      "condition_summary": "Described as unworn with box and papers; photo shows a stainless steel Santos with blue dial in apparently pristine condition, though only one stock-like image is provided.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "No obvious red flags - reference number, size, and description are consistent with a genuine Santos de Cartier large model; price is in line with market for this reference. However, only one photo is shown and it looks like a generic product shot rather than seller's own photos of the actual unit, which slightly limits ability to verify authenticity details (serial, papers, engravings).",
+      "rarity_notes": "WSSA0071 (large steel blue dial) is a current production, non-limited reference and is readily available at retail and secondary market, so not rare.",
+      "demand_tier": "High",
+      "demand_reasoning": "Cartier Santos is a highly recognized, in-demand model with strong resale demand, though this specific blue dial variant doesn't meet the buyer's white dial requirement."
+    },
+    "deal_score": -3,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 2387,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 2387 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Cartier Santos is a highly recognized, in-demand model with strong resale demand, though this specific blue dial variant doesn't meet the buyer's white dial requirement.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 8010.0,
+    "discount": -0.026923076923076925,
+    "notified": false,
+    "duplicate_of": "santos:ebay:v1|127987400897|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1785968624.4230912,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "santos:ebay:v1|336313309386|0",
+    "listing": {
+      "id": "ebay:v1|336313309386|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Santos de Cartier Watch Galb\u00e9e Gold & Stainless Steel Small 24mm",
+      "url": "https://www.ebay.com/itm/336313309386?_skw=Cartier+Santos&hash=item4e4dd5d8ca:g:UvgAAeSwyXRqA4sO&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGaOEb8rOpPnaGDGioIV73qpXJlDXR3Bie0wFxsfz85z7RjI1n3Q0%2FDdZuF%2B8kS%2Fk6CjXlx6QvyqXvoC2makMWO3u6rIaARV2WVpspnUIpSUILiAUQT6RTUy2B7rfJycGbHnTGKbc2DQHsTuOJ33Pgyry37OjwWE7g2le1ZfCXDOuyCGH7CMu2teJQzn%2FyEcdSwQevb1MRZiplnFX3M5Bu5%2Bl8hp%2BjeyHvz9TTkllsUNq3%2FVseE3NmyS%2Ba%2B4nQCZR7gTIIYB9dC%2FHTa6aTmUpsnWh%2BGZah3hZmMd7uMS1dOmPw%3D%3D",
+      "price": 5087.25,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/UvgAAeSwyXRqA4sO/s-l225.jpg",
+      "image_urls": [],
+      "body": "Santos de Cartier Watch Galb\u00e9e Gold & Stainless Steel Small 24mm",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "santos",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Hunter requires medium or large Santos in all-silver (steel) with white dial. This listing is a Small (24mm) Santos Galb\u00e9e in two-tone steel/gold, not silver-only and not medium/large sized. Both size and metal composition disqualify it.",
+      "estimated_value": 3200.0,
+      "confidence": 0.5,
+      "condition_summary": "Photo shows a two-tone (steel and gold) Santos Galb\u00e9e small model with white Roman numeral dial; visible surface wear on bracelet links and bezel screws, otherwise appears intact with no obvious damage.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "Dial, case shape, and bezel screws look consistent with genuine Santos Galb\u00e9e design; no obvious red flags in the single photo, but only one image provided and no mention of box/papers, serial number, or movement details, so authenticity can't be fully verified from listing alone.",
+      "rarity_notes": "Small two-tone Santos Galb\u00e9e models are fairly common on the secondary market, not rare.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Cartier Santos is a recognizable, in-demand model line, but the small two-tone variant is less sought after than the steel medium/large models the hunter wants, and two-tone styling is currently less trendy than all-steel."
+    },
+    "deal_score": -59,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 2387,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 2387 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Cartier Santos is a recognizable, in-demand model line, but the small two-tone variant is less sought after than the steel medium/large models the hunter wants, and two-tone styling is currently less trendy than all-steel.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 5087.25,
+    "discount": -0.589765625,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1785968632.8169136,
+    "analysis_depth": "quick"
   }
 ]
