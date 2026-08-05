@@ -1,24 +1,5 @@
 [
   {
-    "timestamp": 1784692849.282692,
-    "overall_status": "error",
-    "duration_seconds": 3.6655194759368896,
-    "sources": {
-      "ebay": {
-        "status": "error",
-        "fetched": 0,
-        "new": 0,
-        "errors": [
-          "error: eBay credentials invalid: 401 Client Error: Unauthorized for url: https://api.ebay.com/identity/v1/oauth2/token"
-        ]
-      }
-    },
-    "findings_count": 0,
-    "sold_detected": 0,
-    "repriced_detected": 0,
-    "error_message": null
-  },
-  {
     "timestamp": 1784693114.1352417,
     "overall_status": "error",
     "duration_seconds": 0.5003297328948975,
@@ -1064,6 +1045,29 @@
     "findings_count": 39,
     "sold_detected": 0,
     "repriced_detected": 0,
+    "error_message": null
+  },
+  {
+    "timestamp": 1785932982.917204,
+    "overall_status": "ok",
+    "duration_seconds": 69.31475830078125,
+    "sources": {
+      "ebay": {
+        "status": "ok",
+        "fetched": 7,
+        "new": 7,
+        "errors": []
+      },
+      "etsy": {
+        "status": "ok",
+        "fetched": 0,
+        "new": 0,
+        "errors": []
+      }
+    },
+    "findings_count": 7,
+    "sold_detected": 0,
+    "repriced_detected": 1,
     "error_message": null
   }
 ]

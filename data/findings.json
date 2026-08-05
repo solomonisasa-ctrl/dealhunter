@@ -307,7 +307,7 @@
       "category": "watches",
       "title": "Grand Seiko Sports Collection Master Shop Limited Edition Mechanical Hi-Beat...",
       "url": "https://www.ebay.com/itm/147451422051?_skw=Grand+Seiko+Shunbun+Grand+Seiko+Shunbun+Spring+Equinox+GS+Shunbun+limited+edition+Grand+Seiko+Shunbun+box+papers+Shunbun+Grand+Seiko+watch&hash=item2254ca2563:g:U5gAAeSwbf1qRH~M",
-      "price": 5199.0,
+      "price": 5206.0,
       "shipping_price": 35.0,
       "currency": "USD",
       "image_url": "https://i.ebayimg.com/images/g/U5gAAeSwbf1qRH~M/s-l225.jpg",
@@ -340,8 +340,8 @@
       "claude_tier": "Medium",
       "reasoning": "Algorithmic signal: 97 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko Hi-Beat Sports/GMT limited editions have solid collector interest, but this listing's mismatch with the target model, lack of detail, and absence of confirmed box/papers reduce practical demand relevance for this specific hunt.). Final rating uses the more conservative of the two: Medium."
     },
-    "all_in_price": 5234.0,
-    "discount": -0.0468,
+    "all_in_price": 5241.0,
+    "discount": -0.0482,
     "notified": false,
     "duplicate_of": "gs-shunbun:ebay:v1|147344052256|0",
     "dismissed": false,
@@ -13985,7 +13985,7 @@
       "category": "watches",
       "title": "Grand Seiko Sports Collection Master Shop Limited Edition Mechanical Hi-Beat...",
       "url": "https://www.ebay.com/itm/147451422051?_skw=Grand+Seiko+Shunbun&hash=item2254ca2563:g:U5gAAeSwbf1qRH~M",
-      "price": 5199.0,
+      "price": 5206.0,
       "shipping_price": 35.0,
       "currency": "USD",
       "image_url": "https://i.ebayimg.com/images/g/U5gAAeSwbf1qRH~M/s-l225.jpg",
@@ -14018,8 +14018,8 @@
       "claude_tier": "High",
       "reasoning": "Algorithmic signal: 861 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Grand Seiko Hi-Beat GMT Master Shop limited editions are highly recognized and desirable among collectors, commanding strong demand and resale value, though this is not the specific model the hunter is targeting.). Final rating uses the more conservative of the two: High."
     },
-    "all_in_price": 5234.0,
-    "discount": -0.0468,
+    "all_in_price": 5241.0,
+    "discount": -0.0482,
     "notified": false,
     "duplicate_of": null,
     "dismissed": false,
@@ -74401,6 +74401,356 @@
     "dismissed": false,
     "qa_history": [],
     "created_at": 1785910631.162848,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "shunbun:ebay:v1|147483784340|0",
+    "listing": {
+      "id": "ebay:v1|147483784340|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Grand Seiko Sports Collection Master Shop Limited Edition Mechanical Hi-Beat...",
+      "url": "https://www.ebay.com/itm/147483784340?_skw=Grand+Seiko+Shunbun&hash=item2256b7f494:g:~zYAAeSwk8Zqcqn7",
+      "price": 5266.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/~zYAAeSwk8Zqcqn7/s-l225.jpg",
+      "image_urls": [],
+      "body": "Grand Seiko Sports Collection Master Shop Limited Edition Mechanical Hi-Beat...",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "shunbun",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The hunter specifically wants the Grand Seiko \"Shunbun\" (Spring Equinox) seasons limited edition. This listing is a different model entirely - a Sports Collection Master Shop Limited Edition Hi-Beat GMT with a green/silver GMT bezel - not the Shunbun model. Different reference and design language (no seasonal dial motif typical of Shunbun releases).",
+      "estimated_value": 5266.0,
+      "confidence": 0.3,
+      "condition_summary": "Watch appears new or lightly used based on the single stock-style product photo; no wear visible, but no box/papers shown or condition details given in text.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only one generic-looking product photo provided with no close-ups of caseback, serial, or hallmarks; listing text is just a title with no description of condition, accessories, or provenance. Price seems plausible for a Master Shop Hi-Beat GMT LE, but lack of detail and single stock-like image is a mild red flag.",
+      "rarity_notes": "This is a Master Shop Limited Edition Hi-Beat GMT, a different limited run than the Shunbun; such Master Shop editions are typically limited to small numbers (often under 100-200 pieces) and are moderately rare, but this is not the item the hunter is seeking.",
+      "demand_tier": "High",
+      "demand_reasoning": "Grand Seiko limited editions, especially Master Shop and Hi-Beat GMT models, have strong collector demand, though this particular model does not match the hunter's target."
+    },
+    "deal_score": 0,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 901,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 901 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Grand Seiko limited editions, especially Master Shop and Hi-Beat GMT models, have strong collector demand, though this particular model does not match the hunter's target.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 5266.0,
+    "discount": 0.0,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1785932925.2202895,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "vostok:ebay:v1|206467349372|0",
+    "listing": {
+      "id": "ebay:v1|206467349372|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Vintage Vostok Amphibia Automatic Blue Dial Diver Men\u2019s Watch USSR Serviced",
+      "url": "https://www.ebay.com/itm/206467349372?_skw=vintage+Vostok+Amphibia&hash=item301269bb7c:g:FtsAAeSwgUdqcyGs",
+      "price": 188.0,
+      "shipping_price": 18.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/FtsAAeSwgUdqcyGs/s-l225.jpg",
+      "image_urls": [],
+      "body": "Vintage Vostok Amphibia Automatic Blue Dial Diver Men\u2019s Watch USSR Serviced",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "vostok",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Listing is a vintage Vostok Amphibia diver, which matches the hunter's brand/model requirement. The blue dial with scuba diver graphic is a classic/traditional Amphibia dial design (not an unusual/flashy variant), consistent with the 'classic military feel' request.",
+      "estimated_value": 140.0,
+      "confidence": 0.5,
+      "condition_summary": "Watch appears in good cosmetic condition with a shiny case, intact bezel insert, and clean crystal; stated as 'serviced' though no service details or movement photos are provided.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only one photo shown (no case-back, movement, or box/papers), and 'Serviced' is claimed without specifics on what was done or by whom. Vostok Amphibias are also widely reissued/reproduced with 'vintage-style' cases and dials, so it's hard to confirm true vintage (Soviet-era) origin vs. a later assembled/aftermarket build from genuine parts - common in this category.",
+      "rarity_notes": "Blue dial scuba-diver Amphibia is one of the more common and widely available vintage/modern-adjacent variants, not a rare configuration; easy to find comparable listings.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Vostok Amphibia has solid recognition and a dedicated collector/enthusiast base, but it's a low-cost, mass-produced watch category with many similar listings, capping typical resale values."
+    },
+    "deal_score": -47,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 1030,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 1030 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Vostok Amphibia has solid recognition and a dedicated collector/enthusiast base, but it's a low-cost, mass-produced watch category with many similar listings, capping typical resale values.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 206.0,
+    "discount": -0.4714285714285714,
+    "notified": false,
+    "duplicate_of": "vostok:ebay:v1|206460322165|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1785932935.6337109,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "vostok:ebay:v1|318681560650|0",
+    "listing": {
+      "id": "ebay:v1|318681560650|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Wristwatch Vostok Amphibia, vintage watch, made USSR.",
+      "url": "https://www.ebay.com/itm/318681560650?_skw=vintage+Vostok+Amphibia&hash=item4a32e6b64a:g:n~EAAeSwnLZqAvLu",
+      "price": 85.0,
+      "shipping_price": 15.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/n~EAAeSwnLZqAvLu/s-l225.jpg",
+      "image_urls": [],
+      "body": "Wristwatch Vostok Amphibia, vintage watch, made USSR.",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "vostok",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Listing is titled and described as a Vostok Amphibia, vintage, made in USSR, matching the hunter's brand/model and vintage requirement. The dial shown is a classic black military-style dial (not a flashy/unusual variant), consistent with the 'no crazy dials' preference.",
+      "estimated_value": 90.0,
+      "confidence": 0.35,
+      "condition_summary": "Watch appears to be in decent cosmetic condition with an aftermarket black leather strap; case and bezel show typical light wear consistent with age, but no close-up or movement photos are given to assess further.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only one photo provided, showing the watch on a wooden surface; no caseback, movement, or serial shots to confirm authenticity. Dial and case design look consistent with genuine Vostok Amphibia components, but no close-up of movement or hallmark stamps to verify. Seller provides very minimal description (no history, no movement details, no measurements), which is a mild red flag for a $100 \"vintage\" claim - could be a reissue/modern case with older-style dial, or genuine but underdescribed. Price is roughly in line with typical vintage Vostok Amphibia sales, not suspiciously low.",
+      "rarity_notes": "This case/bezel style (often called 'Scuba Dude' or similar radial-marker bezel) is a common vintage Amphibia variant - not particularly rare, but a solid classic example if genuinely USSR-era.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Vostok Amphibia is a well-recognized, popular vintage Soviet diver watch with a strong collector base, especially for military-style variants."
+    },
+    "deal_score": -11,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 1030,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 1030 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Vostok Amphibia is a well-recognized, popular vintage Soviet diver watch with a strong collector base, especially for military-style variants.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 100.0,
+    "discount": -0.1111111111111111,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1785932936.4626362,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "vostok:ebay:v1|800464935094|0",
+    "listing": {
+      "id": "ebay:v1|800464935094|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "VOSTOK Amphibia Submarine Manual Watch Crown Loose Working",
+      "url": "https://www.ebay.com/itm/800464935094?_skw=vintage+Vostok+Amphibia&hash=itemba5f6d98b6:g:fgIAAeSwkB5qcwAm&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGZ4DmVhdnjw1pEF4th2WK1n0311nsA25D4ddiJVtEyJrJVTWQ3loDMwJwwPhAtNR4ZYkh9GtyuLDbhYOT%2BRAo0CluI%2Ftfrj5fWvoZBvdI9U%2BY8io3qQofIOQKCCT6SadeZo%2FahbS7OAgNcDkXy2P2KaaVzGoRR6yt2t4uzTdYf1wfthBI%2BzF4M7augJaVFzPt6tJu9UOCwqFygv0eMWtLR%2FouWtc4NtTSt5Ys6Xu%2BGlG7ZHC2OOu5fse6lC01VpWo2%2BLdwIvNgHTgUvMcajDpmlcrYqKT5J0MmJ1oja1qYfhg%3D%3D",
+      "price": 125.94,
+      "shipping_price": 26.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/fgIAAeSwkB5qcwAm/s-l225.jpg",
+      "image_urls": [],
+      "body": "VOSTOK Amphibia Submarine Manual Watch Crown Loose Working",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "vostok",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The listing shows a \"Submarine\" branded Amphibia case with a modern-style white dial, submarine graphic, and radiation-style hand\u2014this appears to be a current/reissue production model rather than a genuine vintage piece, and the dial design is more novelty/themed than classic military. Also the title notes a mechanical issue (crown loose).",
+      "estimated_value": 55.0,
+      "confidence": 0.4,
+      "condition_summary": "Watch appears to be in working order per title but has a loose crown (potential stem/movement issue); case and bezel show typical light use wear, strap looks aftermarket/new leather.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "No mention of serial number, papers, or provenance; single stock-like photo with no case-back or movement shots to verify authenticity or vintage status. \"Submarine\" branding suggests a newer novelty/reissue variant rather than an original Soviet-era Amphibia.",
+      "rarity_notes": "If genuinely vintage Soviet-era Amphibia, would be moderately common but desirable; however this specific \"Submarine\" dial variant looks like a modern/contemporary production design, which is not rare and not vintage.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Vostok Amphibia has solid collector recognition and demand, but this particular themed dial variant is more niche and less sought after than classic vintage military dials."
+    },
+    "deal_score": -176,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 1030,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 1030 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Vostok Amphibia has solid collector recognition and demand, but this particular themed dial variant is more niche and less sought after than classic vintage military dials.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 151.94,
+    "discount": -1.7625454545454544,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1785932935.4122598,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "vostok:ebay:v1|256516529506|0",
+    "listing": {
+      "id": "ebay:v1|256516529506|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "\ud83e\udd3f Original Sniper Rare Vostok Amphibia 2409 Wostok USSR Soviet Amphibian \ud83d\udee0",
+      "url": "https://www.ebay.com/itm/256516529506?_skw=vintage+Vostok+Amphibia&hash=item3bb9939d62:g:DtIAAOSwqn9mScec",
+      "price": 97.0,
+      "shipping_price": 15.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/DtIAAOSwqn9mScec/s-l225.jpg",
+      "image_urls": [],
+      "body": "\ud83e\udd3f Original Sniper Rare Vostok Amphibia 2409 Wostok USSR Soviet Amphibian \ud83d\udee0",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "vostok",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Listing is a Vostok Amphibia 2409 with classic black dial and red bezel insert - a standard military-style diver look, no unusual dial. Hunter didn't specify a particular reference, just 'vintage only, classic military feel', which this appears to satisfy assuming it is genuinely vintage rather than a modern reissue.",
+      "estimated_value": 90.0,
+      "confidence": 0.4,
+      "condition_summary": "Watch appears in a generic presentation box, case and bezel show typical light wear consistent with age; strap looks like a newer aftermarket rubber band, not original vintage strap.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Title uses odd hype language ('Original Sniper Rare') which is a common red flag phrasing on reissued/modern Vostoks marketed as vintage; the strap looks modern/aftermarket, and no movement photo, caseback, or serial/markings shown to confirm true vintage 2409 movement vs. modern re-manufactured case. No box/papers proof beyond a generic white box.",
+      "rarity_notes": "2409 movement Amphibias with black/red classic diver dial are fairly common in the Vostok collecting world, not especially rare despite the 'rare' claim in the title.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Vostok Amphibia has solid niche collector demand and brand recognition, but this specific configuration is common rather than a sought-after limited variant."
+    },
+    "deal_score": -24,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 1030,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 1030 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Vostok Amphibia has solid niche collector demand and brand recognition, but this specific configuration is common rather than a sought-after limited variant.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 112.0,
+    "discount": -0.24444444444444444,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1785932936.6889286,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "aqua terra:ebay:v1|278249346019|0",
+    "listing": {
+      "id": "ebay:v1|278249346019|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "OMEGA Seamaster Aqua Terra",
+      "url": "https://www.ebay.com/itm/278249346019?_skw=Aqua+Terra+38mm&hash=item40c8f413e3:g:ps8AAeSwms5qcwZW",
+      "price": 4400.0,
+      "shipping_price": null,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/ps8AAeSwms5qcwZW/s-l225.jpg",
+      "image_urls": [],
+      "body": "OMEGA Seamaster Aqua Terra",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "aqua terra",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The listing gives no confirmation of case size (38mm) or dial simplicity - the title is generic \"OMEGA Seamaster Aqua Terra\" with no reference number or size stated, and the photo is too small/unclear to verify these specifics. Without confirmation of the 38mm case and simple dial, this cannot be confirmed as a match.",
+      "estimated_value": 3800.0,
+      "confidence": 0.2,
+      "condition_summary": "Watch appears to be in a box with papers/card visible in a thumbnail strip, but the single photo provided is small, blurry, and taken at an odd angle, making it hard to assess actual case/dial/bracelet condition.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Extremely sparse listing text (just repeats the title with no reference number, no size, no accessories detail, no description of condition). Photo is a low-quality screenshot-like image rather than clear product photography, and no close-ups of the dial, caseback, or serial are shown. This lack of detail combined with a fairly high price ($4,400) for an unspecified model is a red flag warranting caution.",
+      "rarity_notes": "Cannot assess rarity without reference number, dial color, or size confirmation - Aqua Terra line has many variants ranging from common to more limited co-axial/master chronometer editions.",
+      "demand_tier": "High",
+      "demand_reasoning": "Omega Aqua Terra is a well-recognized, strongly in-demand model line regardless of specific reference, so general brand/model demand is high even though this specific listing lacks detail."
+    },
+    "deal_score": -16,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 2869,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 2869 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Omega Aqua Terra is a well-recognized, strongly in-demand model line regardless of specific reference, so general brand/model demand is high even though this specific listing lacks detail.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 4400.0,
+    "discount": -0.15789473684210525,
+    "notified": false,
+    "duplicate_of": "aqua terra:ebay:v1|147474983221|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1785932950.2683384,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "santos:ebay:v1|398034500621|0",
+    "listing": {
+      "id": "ebay:v1|398034500621|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Cartier Santos de Cartier WSSA0018 Watch + Card LARGE MODEL",
+      "url": "https://www.ebay.com/itm/398034500621?_skw=Cartier+Santos&hash=item5cacb47c0d:g:LSIAAeSw4iNqJIaf",
+      "price": 6550.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/LSIAAeSw4iNqJIaf/s-l225.jpg",
+      "image_urls": [],
+      "body": "Cartier Santos de Cartier WSSA0018 Watch + Card LARGE MODEL",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "santos",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "The hunter's criteria are generic (any Santos medium/large, silver with white dial), not a specific reference. WSSA0018 is the current-production steel Santos Large model with white dial, which fits the stated requirements.",
+      "estimated_value": 6800.0,
+      "confidence": 0.45,
+      "condition_summary": "Watch appears to be in good, lightly used condition based on the single photo showing the case, bracelet links, and white dial with blue steel hands; no visible major damage, but photo angle limits full assessment.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only a card (guarantee card) is shown, not the full box or papers with matching serial numbers; no close-up of case back, serial number, or movement to verify authenticity. Photo is a single flat-lay image without full watch on wrist or macro shots of hallmarks - moderate risk given the high value and lack of detailed verification photos.",
+      "rarity_notes": "WSSA0018 is a current, non-limited production reference in steel - readily available new and pre-owned, not rare, but consistently in demand.",
+      "demand_tier": "High",
+      "demand_reasoning": "Cartier Santos is a highly recognized, in-demand model, especially the modern Large steel version with white dial - strong resale market and brand recognition."
+    },
+    "deal_score": 4,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 2353,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 2353 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Cartier Santos is a highly recognized, in-demand model, especially the modern Large steel version with white dial - strong resale market and brand recognition.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 6550.0,
+    "discount": 0.03676470588235294,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1785932961.9308703,
     "analysis_depth": "quick"
   }
 ]
