@@ -75981,5 +75981,1313 @@
     "qa_history": [],
     "created_at": 1785968632.8169136,
     "analysis_depth": "quick"
+  },
+  {
+    "id": "Omega Constellation:ebay:v1|158159071705|0",
+    "listing": {
+      "id": "ebay:v1|158159071705|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Omega Vintage Constellation Electroquartz | f8192Hz - Cal.1343 - 1970s Stainless",
+      "url": "https://www.ebay.com/itm/158159071705?_skw=Omega+Constellation&hash=item24d303e9d9:g:3KcAAeSw6Ppqc~jc&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGZhgvx1mhCPR7BGFZ3ybz3XNxxxUP5TRlkqiF85EhLQ4sWdslNAOM0eAszjyT8CNhTQOQT0F85Lh8KCXZi6ClYfb2qOBk29j9AxpwZ7vpE9XJhFc5PtKE8tN2szW2IUf9vEELfN3kqzFuUOG7ANBvbtG%2Bifj%2FX%2BbOsBW5%2BTcKd1Rve6wFPSkUFWxS5NBr7RDYsoyzu4c90suWJ45i4psagf3%2Ft3pfmRKjeOEhN7mDnRJBzW01tj95o6%2BGGs%2FBZKCnK%2BxfOVvRCRvUW%2FKCHIxVF1k8QhWmzQTAO5LSDsnwU4lA%3D%3D",
+      "price": 800.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/3KcAAeSw6Ppqc~jc/s-l225.jpg",
+      "image_urls": [],
+      "body": "Omega Vintage Constellation Electroquartz | f8192Hz - Cal.1343 - 1970s Stainless",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "Omega Constellation",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Hunter's criteria only specify brand \"Omega\" and model \"Constellation\" with no specific reference number or restriction to mechanical/chronometer versions. This listing is a genuine Omega Constellation (Electroquartz Cal.1343), so it falls within the stated model line even though it's a quartz variant rather than the more common automatic chronometer.",
+      "estimated_value": 750.0,
+      "confidence": 0.45,
+      "condition_summary": "Photo shows a worn but intact 1970s stainless steel Constellation Electroquartz with visible dial aging/discoloration and a period-correct bracelet; no box or papers shown or mentioned.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "Design, case shape, and dial text (f8192Hz, Cal.1343) are consistent with genuine Omega Constellation Electroquartz models from the 1970s. Only one photo provided, no close-ups of case back/movement/serial number, which limits full verification but is common for casual private-seller listings rather than a definitive red flag.",
+      "rarity_notes": "The Electroquartz Constellation (Cal. 1343/1300 series) is a less common variant compared to the classic automatic chronometer Constellations, appealing mainly to niche quartz/vintage-tech collectors rather than mainstream Constellation buyers.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Omega Constellation as a line has strong brand recognition, but the quartz Electroquartz executions are a smaller niche within that demand compared to the automatic pie-pan models, moderating overall demand."
+    },
+    "deal_score": -7,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 8010,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 8010 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Omega Constellation as a line has strong brand recognition, but the quartz Electroquartz executions are a smaller niche within that demand compared to the automatic pie-pan models, moderating overall demand.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 800.0,
+    "discount": -0.06666666666666667,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1786003371.306574,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "Omega Constellation:ebay:v1|377115329095|0",
+    "listing": {
+      "id": "ebay:v1|377115329095|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "OMEGA 1262110 Constellation gold Dial Quartz Yellow Gold Stainless Steel",
+      "url": "https://www.ebay.com/itm/377115329095?_skw=Omega+Constellation&hash=item57cdd34247:g:8C8AAeSwZoxqAYC0",
+      "price": 1110.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/8C8AAeSwZoxqAYC0/s-l225.jpg",
+      "image_urls": [],
+      "body": "OMEGA 1262110 Constellation gold Dial Quartz Yellow Gold Stainless Steel",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "Omega Constellation",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Hunter's criteria only specify brand Omega and model Constellation with no specific reference required. This listing is an Omega Constellation (ref 1262110), so it matches the generic model criteria.",
+      "estimated_value": 1100.0,
+      "confidence": 0.5,
+      "condition_summary": "Appears to be a ladies/mid-size two-tone Constellation quartz with gold dial, shown in one stock-style catalog photo with no visible wear, box, or papers.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only a single generic/stock-looking photo is provided, no close-ups of case back, movement, or serial numbers to verify authenticity. No mention of box/papers, service history, or seller credentials, which is a mild red flag for a $1,100 luxury watch purchase; price itself is roughly in line with market so not a \"too good to be true\" flag, but lack of verification photos keeps risk at medium.",
+      "rarity_notes": "This is a common two-tone quartz Constellation reference (1262xx series), widely available on the secondary market - not rare or limited.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Omega Constellation is a recognized, desirable line, but this quartz two-tone variant is a common, entry-level model with steady but not high collector demand compared to vintage chronometer or manual-wind versions."
+    },
+    "deal_score": -1,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 8010,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 8010 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Omega Constellation is a recognized, desirable line, but this quartz two-tone variant is a common, entry-level model with steady but not high collector demand compared to vintage chronometer or manual-wind versions.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 1110.0,
+    "discount": -0.00909090909090909,
+    "notified": false,
+    "duplicate_of": "Omega Constellation:ebay:v1|188719322188|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1786003371.055812,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "Omega Constellation:ebay:v1|147485181116|0",
+    "listing": {
+      "id": "ebay:v1|147485181116|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Omega Pie Pan Constellation Chronometre Men's Vintage Watch",
+      "url": "https://www.ebay.com/itm/147485181116?_skw=Omega+Constellation&hash=item2256cd44bc:g:NU4AAeSw4VJqc15Q",
+      "price": 3195.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/NU4AAeSw4VJqc15Q/s-l225.jpg",
+      "image_urls": [],
+      "body": "Omega Pie Pan Constellation Chronometre Men's Vintage Watch",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "Omega Constellation",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Hunter's criteria is generic (brand Omega, model Constellation, no specific reference). This listing is an Omega Constellation \"Pie Pan\" Chronometer, which falls within the general Constellation model line, so it matches.",
+      "estimated_value": 2800.0,
+      "confidence": 0.4,
+      "condition_summary": "Vintage pie-pan dial Constellation shown on a non-original brown leather strap; dial and case appear original with visible gold-cap wear typical of age, but photo is a single low-resolution image with no case-back, movement, or serial number shown.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only one stock-like photo provided, no movement/caseback/serial shots, no box or papers mentioned or shown - hard to verify originality of dial, hands, or movement (common issue with pie-pan Constellations being redialed or having swapped parts). No mention of service history or provenance. Price is within plausible range for a genuine piece but lack of documentation and photos raises moderate risk.",
+      "rarity_notes": "Pie-pan dial Constellations (typically 1950s-60s, cal. 561/564/551 etc.) are desirable among collectors but not extremely rare; many variants exist, and correct examples with original dials command a premium over generic examples.",
+      "demand_tier": "High",
+      "demand_reasoning": "Omega Constellation, especially pie-pan chronometer variants, are highly recognized and sought after in the vintage watch collecting community."
+    },
+    "deal_score": -14,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 8010,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 8010 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Omega Constellation, especially pie-pan chronometer variants, are highly recognized and sought after in the vintage watch collecting community.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 3195.0,
+    "discount": -0.14107142857142857,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1786003378.0412712,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "shunbun:ebay:v1|287506632939|0",
+    "listing": {
+      "id": "ebay:v1|287506632939|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Grand Seiko SBGH241 Wako Limited Edition Ginza Tokyo",
+      "url": "https://www.ebay.com/itm/287506632939?_skw=Grand+Seiko+Shunbun&hash=item42f0bb10eb:g:vx4AAeSw2S9qdCUl",
+      "price": 7000.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/vx4AAeSw2S9qdCUl/s-l225.jpg",
+      "image_urls": [],
+      "body": "Grand Seiko SBGH241 Wako Limited Edition Ginza Tokyo",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "New with box and papers"
+      }
+    },
+    "watch_item_id": "shunbun",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The hunter specifically wants the Grand Seiko \"Shunbun\" (Spring Equinox) limited edition. This listing is for the SBGH241 Wako Limited Edition, a completely different reference and limited edition tied to the Wako Ginza store, not the Shunbun seasonal model. Different model/reference from the same brand does not count as a match.",
+      "estimated_value": 6500.0,
+      "confidence": 0.3,
+      "condition_summary": "Photo shows a clean-looking stainless steel Grand Seiko on a display stand with white dial and date window; no visible scratches but image is low-res and only one angle shown, no box/papers visible.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only a single, somewhat generic photo is provided with no close-ups of caseback, serial, or papers; no box/papers shown despite this being a claimed limited edition, which is a red flag for a $7,000 watch. Listing text is minimal (just repeats title) with no provenance, purchase history, or documentation details.",
+      "rarity_notes": "The SBGH241 Wako Limited Edition is itself a rare, boutique-exclusive piece tied to the Wako Ginza store, but it is not the Shunbun the hunter is seeking - so despite its rarity, it's the wrong item.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Grand Seiko limited editions have a dedicated collector base, but store-exclusive pieces like the Wako edition have a smaller, more niche following compared to mainstream GS references."
+    },
+    "deal_score": -8,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 907,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 907 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko limited editions have a dedicated collector base, but store-exclusive pieces like the Wako edition have a smaller, more niche following compared to mainstream GS references.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 7000.0,
+    "discount": -0.07692307692307693,
+    "notified": false,
+    "duplicate_of": "shunbun:ebay:v1|127919384050|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1786003392.007065,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "shunbun:ebay:v1|267748971244|0",
+    "listing": {
+      "id": "ebay:v1|267748971244|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Full Set - Grand Seiko SLGW003G Evolution 9 9SA4 Manual Winding",
+      "url": "https://www.ebay.com/itm/267748971244?_skw=Grand+Seiko+Shunbun&hash=item3e571512ec:g:D3kAAeSwSwhqc7oo",
+      "price": 8250.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/D3kAAeSwSwhqc7oo/s-l225.jpg",
+      "image_urls": [],
+      "body": "Full Set - Grand Seiko SLGW003G Evolution 9 9SA4 Manual Winding",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "shunbun",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The hunter is specifically seeking the Grand Seiko \"Shunbun\" (Spring Equinox seasons limited edition). This listing is for the SLGW003G, an Evolution 9 line manual-winding model with 9SA4 caliber, which is an entirely different model/reference from the same brand. Per matching rules, a different model does not count as a match even though brand is correct.",
+      "estimated_value": 8000.0,
+      "confidence": 0.4,
+      "condition_summary": "Photo shows a watch and box described as \"full set,\" appearing new or lightly used, but only one distant photo is provided showing box and watch on a strap - no close-up of dial, case, or movement to verify condition.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "No overt red flags like mismatched serials or wildly low price, but the single low-resolution photo doesn't allow verification of papers, serial numbers, or close-up authenticity details; more photos would be needed for higher confidence.",
+      "rarity_notes": "SLGW003G is a modern Evolution 9 manual-wind piece, not a limited \"seasons\" model like Shunbun; it is not the rare item the hunter is targeting, though it is itself a desirable, relatively hard-to-find high-end Grand Seiko.",
+      "demand_tier": "High",
+      "demand_reasoning": "Grand Seiko Evolution 9 manual-wind models with 9SA4 movement are highly sought after among collectors, commanding strong demand and premiums, even though this isn't the specific Shunbun model requested."
+    },
+    "deal_score": -3,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 907,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 907 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Grand Seiko Evolution 9 manual-wind models with 9SA4 movement are highly sought after among collectors, commanding strong demand and premiums, even though this isn't the specific Shunbun model requested.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 8250.0,
+    "discount": -0.03125,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1786003390.3774064,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "shunbun:ebay:v1|127914409016|0",
+    "listing": {
+      "id": "ebay:v1|127914409016|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Grand Seiko Evolution 9 Hi-Beat  Tentagraph 43.2mm SLGC007 SILVER DIAL WATCH",
+      "url": "https://www.ebay.com/itm/127914409016?_skw=Grand+Seiko+Shunbun&hash=item1dc84afc38:g:pjsAAeSwYONpXxGS",
+      "price": 13000.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/pjsAAeSwYONpXxGS/s-l225.jpg",
+      "image_urls": [],
+      "body": "Grand Seiko Evolution 9 Hi-Beat  Tentagraph 43.2mm SLGC007 SILVER DIAL WATCH",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "New with box and papers"
+      }
+    },
+    "watch_item_id": "shunbun",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The hunter is specifically seeking the Grand Seiko Shunbun (Spring Equinox seasonal limited edition). This listing is a Grand Seiko Evolution 9 Hi-Beat Tentagraph SLGC007, an entirely different model/reference within the Grand Seiko lineup. Even though both are Grand Seikos, the hunter named a specific model, so this does not qualify as a match.",
+      "estimated_value": 13000.0,
+      "confidence": 0.55,
+      "condition_summary": "Photo shows what appears to be a new or lightly worn SLGC007 with silver/white chronograph dial, black tachymeter bezel, and steel bracelet; no visible scratches or damage in the single image provided.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "Image appears to be a genuine product-style photo consistent with the SLGC007 Tentagraph; no obvious red flags like mismatched text or altered dial. However, only one photo is provided with no shots of caseback, papers, or box, and no mention of included accessories, which limits verification.",
+      "rarity_notes": "The SLGC007 Tentagraph is a recently released, high-demand flagship model with limited production, distinct from the Shunbun which is a separate seasonal limited-edition line - so while this watch itself is desirable, it is not the item being hunted.",
+      "demand_tier": "High",
+      "demand_reasoning": "Grand Seiko's Evolution 9 Tentagraph is one of the brand's most hyped recent releases with strong collector demand, but this is irrelevant to matching the Shunbun-specific hunt."
+    },
+    "deal_score": 0,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 907,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 907 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Grand Seiko's Evolution 9 Tentagraph is one of the brand's most hyped recent releases with strong collector demand, but this is irrelevant to matching the Shunbun-specific hunt.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 13000.0,
+    "discount": 0.0,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1786003390.1478968,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "shunbun:ebay:v1|398255343082|0",
+    "listing": {
+      "id": "ebay:v1|398255343082|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Grand Seiko Heritage Collection 9F Quartz SBGP013 (9F85-0AC0) Navy Quartz #670",
+      "url": "https://www.ebay.com/itm/398255343082?_skw=Grand+Seiko+Shunbun&hash=item5cb9de45ea:g:22YAAeSw8EFqdBcE",
+      "price": 2289.43,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/22YAAeSw8EFqdBcE/s-l225.jpg",
+      "image_urls": [],
+      "body": "Grand Seiko Heritage Collection 9F Quartz SBGP013 (9F85-0AC0) Navy Quartz #670",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "shunbun",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The hunter is specifically seeking the Grand Seiko \"Shunbun\" (Spring Equinox seasons limited edition). This listing is a Heritage Collection 9F Quartz SBGP013 (9F85-0AC0) Navy, an entirely different model/reference with no connection to the Shunbun line. A different model from the same brand does not count as a match.",
+      "estimated_value": 2200.0,
+      "confidence": 0.5,
+      "condition_summary": "Photo shows a clean, seemingly lightly used or new SBGP013 with navy dial, steel bracelet, no visible scratches; box/papers not shown in image.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "Reference number and dial markings are consistent with a genuine SBGP013; no obvious red flags, though only one photo provided and no box/papers shown despite common inclusion for this price point.",
+      "rarity_notes": "SBGP013 is a standard production Heritage Collection 9F quartz model, not limited edition - relatively easy to find compared to seasonal/limited pieces like the Shunbun.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Grand Seiko is a recognized high-demand brand, but the 9F quartz Heritage line is less sought-after than mechanical Spring Drive or limited seasonal editions, giving it moderate rather than high demand."
+    },
+    "deal_score": -4,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 907,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 907 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko is a recognized high-demand brand, but the 9F quartz Heritage line is less sought-after than mechanical Spring Drive or limited seasonal editions, giving it moderate rather than high demand.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 2289.43,
+    "discount": -0.04064999999999992,
+    "notified": false,
+    "duplicate_of": "shunbun:ebay:v1|257655937205|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1786003389.6879952,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "shunbun:ebay:v1|366584734264|0",
+    "listing": {
+      "id": "ebay:v1|366584734264|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Grand Seiko Evolution 9 Collection Lake Suwa Blue Dial Watch",
+      "url": "https://www.ebay.com/itm/366584734264?_skw=Grand+Seiko+Shunbun&hash=item555a272238:g:2TcAAeSwzIxqcV64",
+      "price": 10908.99,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/2TcAAeSwzIxqcV64/s-l225.jpg",
+      "image_urls": [],
+      "body": "Grand Seiko Evolution 9 Collection Lake Suwa Blue Dial Watch",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "shunbun",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The hunter specifically wants the Grand Seiko \"Shunbun\" (Spring Equinox) limited edition model. This listing is a Grand Seiko Evolution 9 Collection Lake Suwa Blue Dial watch, a different model/reference within the same brand. Per the strict matching rule, a different model does not count as a match even if related.",
+      "estimated_value": 10500.0,
+      "confidence": 0.4,
+      "condition_summary": "Appears to be a new or lightly used Lake Suwa blue dial Evolution 9 watch on a steel bracelet; photo shows a clean dial and bracelet with no visible damage, though only one image is provided and no close-up of case/clasp for wear assessment.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "No obvious red flags like mismatched serials or unrealistic pricing; price is in line with typical Evolution 9 Lake Suwa market values. However, listing lacks detail on box/papers, serial number, or full condition report, and only a single stock-like photo is shown, so authenticity can't be fully verified from this listing alone.",
+      "rarity_notes": "The Lake Suwa Evolution 9 blue dial is a well-known, semi-limited but not ultra-rare model; the Shunbun the hunter wants is a distinct, more limited seasonal release and is not the same watch.",
+      "demand_tier": "High",
+      "demand_reasoning": "Grand Seiko Evolution 9 models, especially Lake Suwa blue dial pieces, are highly sought after among GS collectors, driving strong demand even though it isn't the specific Shunbun model requested."
+    },
+    "deal_score": -4,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 907,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 907 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Grand Seiko Evolution 9 models, especially Lake Suwa blue dial pieces, are highly sought after among GS collectors, driving strong demand even though it isn't the specific Shunbun model requested.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 10908.99,
+    "discount": -0.038951428571428554,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1786003399.1939933,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "shunbun:ebay:v1|318646556928|0",
+    "listing": {
+      "id": "ebay:v1|318646556928|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Grand Seiko GS9 Club Limited Model SBGW319 Manual Wind 36.5mm Box Papers Green",
+      "url": "https://www.ebay.com/itm/318646556928?_skw=Grand+Seiko+Shunbun&hash=item4a30d09900:g:NY4AAeSw9ZVqaK4V",
+      "price": 11425.16,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/NY4AAeSw9ZVqaK4V/s-l225.jpg",
+      "image_urls": [],
+      "body": "Grand Seiko GS9 Club Limited Model SBGW319 Manual Wind 36.5mm Box Papers Green",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "shunbun",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Hunter specifically wants the Grand Seiko Shunbun (Spring Equinox) model. This listing is for the SBGW319, a GS9 Club Limited Edition manual-wind model, which is a completely different limited edition/reference despite being the same brand. Not a match per strict model-specificity rule.",
+      "estimated_value": 11000.0,
+      "confidence": 0.5,
+      "condition_summary": "Watch appears to be in excellent/like-new condition with full box, outer box, warranty papers, and manual all present in photo; green dial visible on bracelet.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "Photo shows genuine-looking GS box, papers, and warranty booklet consistent with authentic sets; no obvious mismatched serials or stock-photo red flags visible, though only one image provided limits full verification of case/movement details.",
+      "rarity_notes": "SBGW319 is a GS9 Club exclusive limited edition (very limited production, club-member only release), making it quite rare and distinct from the Shunbun seasonal limited editions.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Grand Seiko has strong collector demand overall, and GS9 Club limited editions attract niche enthusiast interest, but the pool of buyers for this exact club-exclusive piece is smaller than for widely known Shunbun or Snowflake models."
+    },
+    "deal_score": -4,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 907,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 907 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko has strong collector demand overall, and GS9 Club limited editions attract niche enthusiast interest, but the pool of buyers for this exact club-exclusive piece is smaller than for widely known Shunbun or Snowflake models.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 11425.16,
+    "discount": -0.038650909090909076,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1786003401.8180716,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "vostok:ebay:v1|137302949229|0",
+    "listing": {
+      "id": "ebay:v1|137302949229|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Vintage Soviet Wrist Watch VOSTOK Wostok AMPHIBIA barrel USSR 1980s",
+      "url": "https://www.ebay.com/itm/137302949229?_skw=vintage+Vostok+Amphibia&hash=item1ff7e4bd6d:g:fykAAeSw3uFp2KIj",
+      "price": 40.0,
+      "shipping_price": 15.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/fykAAeSw3uFp2KIj/s-l225.jpg",
+      "image_urls": [],
+      "body": "Vintage Soviet Wrist Watch VOSTOK Wostok AMPHIBIA barrel USSR 1980s",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "vostok",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Listing is a vintage 1980s Vostok Amphibia (barrel case), which fits the hunter's generic 'vintage Vostok Amphibia, classic military feel' criteria. No exotic dial variant is claimed, and the photo shows a fairly standard faceted dial, not a flashy/unusual design.",
+      "estimated_value": 45.0,
+      "confidence": 0.35,
+      "condition_summary": "Watch head only (no strap/crown visibly missing details), case shows noticeable wear/scratches and dial appears faded/tarnished with brown tone; crystal has some haze; no movement or caseback photos shown.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only one low-quality photo provided, no caseback, movement, or crown/strap shown, making it hard to verify originality of parts (dial, hands, crystal) or confirm it's not a reassembled/franken watch, which is common with cheap vintage Vostok listings. No serial number or reference details given for cross-checking.",
+      "rarity_notes": "Barrel-case Amphibias from the 1980s are fairly common on the vintage market; not a rare variant, though genuine unmolested examples with original dials/hands are less common than reissues.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Vostok Amphibia has a strong niche collector following for affordable Soviet vintage divers, but this specific barrel case variant is common and price point suggests modest demand/value rather than a highly sought grail piece."
+    },
+    "deal_score": -22,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 1023,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 1023 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Vostok Amphibia has a strong niche collector following for affordable Soviet vintage divers, but this specific barrel case variant is common and price point suggests modest demand/value rather than a highly sought grail piece.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 55.0,
+    "discount": -0.2222222222222222,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1786003414.9689548,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "vostok:ebay:v1|257569398863|0",
+    "listing": {
+      "id": "ebay:v1|257569398863|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Vintage Vostok Amphibia \"Sniper\" Dial Soviet Diver Watch Octagon Antimagnetic \ud83c\udfaf",
+      "url": "https://www.ebay.com/itm/257569398863?_skw=vintage+Vostok+Amphibia&hash=item3bf855204f:g:EikAAeSwQZpqMVup&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGZTTffW%2Bz0XrOhz4ZAV7cyjPHogJ15wGN0egeutVgQ8RmsDcyfFwDpVahxTsLC0yI%2B3NOPWrwUuZMGyBAMvLArmqp6pA8u%2Ff5K6Zh%2F%2B423YsLyZ3yBE%2BlK2%2Bn50sHq1Gj0FQTVBKwUpP%2F7YcoPfIFPdlS3ZhNbprXJn9Wuh0BB0n8KsMJw5SG%2BHzyNwq8XTIdnN0tMACwb2ptYvbkZDbOnarZVIQteUB%2FODkZBfdb%2FbYZAXk5jd7IwCZrlKiEVe0T2Y18lY9PM1gYLRY4BtHDRO0aoUE11vG8aj3Su6dVuuzQ%3D%3D",
+      "price": 127.0,
+      "shipping_price": 15.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/EikAAeSwQZpqMVup/s-l225.jpg",
+      "image_urls": [],
+      "body": "Vintage Vostok Amphibia \"Sniper\" Dial Soviet Diver Watch Octagon Antimagnetic \ud83c\udfaf",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "vostok",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The hunter wants vintage Vostok Amphibia with classic military feel and no \"crazy\" dials. The \"Sniper\" dial with its distinctive scope/crosshair-style bezel marking and octagon case is a specialty/novelty dial variant, not a classic military dial - this conflicts with the 'no crazy dials' requirement. Additionally, the octagon case Amphibias are largely a modern/reissue case style rather than genuine vintage Soviet-era production, raising doubt about it meeting 'vintage only, no current models'.",
+      "estimated_value": 130.0,
+      "confidence": 0.4,
+      "condition_summary": "Watch appears in good cosmetic condition in the photo - case and bracelet show minimal visible wear, crystal looks clear, but only one angle is shown so overall condition can't be fully verified.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only a single staged photo (watch on a pillow) is provided with no caseback, movement, or clasp shots, no serial/movement number close-up, making authentication difficult. The \"Sniper\" dial octagon case is a variant that has been widely reissued/reproduced in recent years, so distinguishing genuine vintage from a modern reissue or franken-watch (mixed parts) is a real concern here.",
+      "rarity_notes": "Octagon-case Amphibia \"Sniper\" dial variants are a known but niche Vostok variant; not especially rare, and many circulating examples are modern-era assembled/reissued pieces rather than true vintage Soviet production.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Vostok Amphibia has a solid collector following and decent recognition, but this particular novelty dial variant appeals to a narrower niche than classic military dials, and demand is tempered by uncertainty over vintage vs. modern production."
+    },
+    "deal_score": -9,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 1023,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 1023 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Vostok Amphibia has a solid collector following and decent recognition, but this particular novelty dial variant appeals to a narrower niche than classic military dials, and demand is tempered by uncertainty over vintage vs. modern production.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 142.0,
+    "discount": -0.09230769230769231,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1786003415.2809258,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "vostok:etsy:4484505224",
+    "listing": {
+      "id": "etsy:4484505224",
+      "source": "etsy",
+      "category": "watches",
+      "title": "Rare Vostok Amphibia Komandirskie Mechanical Men&#39;s Watch USSR Export 2209 - 1285",
+      "url": "https://www.etsy.com/listing/4484505224/rare-vostok-amphibia-komandirskie",
+      "price": 375.0,
+      "shipping_price": null,
+      "currency": "USD",
+      "image_url": "https://i.etsystatic.com/59581390/r/il/27f583/7934548195/il_fullxfull.7934548195_2i8w.jpg",
+      "image_urls": [
+        "https://i.etsystatic.com/59581390/r/il/27f583/7934548195/il_fullxfull.7934548195_2i8w.jpg",
+        "https://i.etsystatic.com/59581390/r/il/8f8074/7934548183/il_fullxfull.7934548183_ktsl.jpg",
+        "https://i.etsystatic.com/59581390/r/il/1fd9ff/7886588464/il_fullxfull.7886588464_274h.jpg",
+        "https://i.etsystatic.com/59581390/r/il/a5adda/7886588470/il_fullxfull.7886588470_bpo1.jpg",
+        "https://i.etsystatic.com/59581390/r/il/29bc14/7934548191/il_fullxfull.7934548191_n2fj.jpg",
+        "https://i.etsystatic.com/59581390/r/il/3be6cd/7886588492/il_fullxfull.7886588492_86mk.jpg",
+        "https://i.etsystatic.com/59581390/r/il/4b2668/7886588502/il_fullxfull.7886588502_p97r.jpg"
+      ],
+      "body": "Vintage Mechanical Dive Watch in Stainless Steel \u2014 Amphibian 200M | Good Condition\nDiscover a Piece of History on Your Wrist\nDiscover the beauty of this vintage Soviet-era mechanical dive watch, crafted from durable stainless steel with exceptional craftsmanship and a robust design.\n\nThis iconic timepiece features a distinctive barrel-shaped case, a crisp black dial with prominent Arabic numerals, and a reliable 18-jewel hand-winding movement (caliber 2209). It\u2019s a perfect acquisition for collectors of historical timepieces or anyone seeking a unique, rugged accessory with a rich heritage.\n\nCombining timeless charm with proven durability, this watch adds a sophisticated and adventurous touch to any look.\n\nKey Features:\nMade from high-quality stainless steel for lasting durability and a vintage aesthetic.\nFeatures a robust 200M water resistance and a shockproof balance, designed for reliability in diverse conditions.\nPowered by a classic hand-winding mechanical movement with 18 jewels, ensuring precise and reliable timekeeping.\nDistinctive barrel-shaped case and an export version black dial with bold Arabic numerals enhance its unique collectible appeal.\nIdeal for collectors of Soviet-era watches or for daily wear for those who appreciate robust vintage design and history.\nSpecifications:\nMaterial: Stainless Steel case, Black Leather strap with red stitching\nKarat / Hallmark: Not applicable\nWeight: Null\nDimensions / Size: Null (Features a notable barrel-shaped case)\nOrigin: USSR (Soviet Era)\nCondition: Vintage, Good (as depicted in images)",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "taxonomy_id": 6074
+      }
+    },
+    "watch_item_id": "vostok",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "This is a vintage Vostok (Wostok export) Amphibia-type \"barrel-case\" watch with a classic black dial, Arabic numerals, and military feel\u2014no crazy dial colors or modern reissue styling. Hunter's criteria were generic (any vintage Amphibia, classic dial), so this qualifies.",
+      "estimated_value": 180.0,
+      "confidence": 0.5,
+      "condition_summary": "Case shows brushed steel with visible wear/scratches typical of vintage use; dial and hands appear intact with slight aging on lume; crystal has some glare/scuffing. Overall \"good\" vintage condition consistent with description, but strap looks like an aftermarket replacement (leather with red stitching, not period-correct).",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Dial reads \"Wostok\" (export naming) which is plausible for genuine Soviet export models, and the barrel case, crown position, and bezel design match known Amphibia export variants. However, only one photo is shown, no caseback or movement shot to confirm caliber 2209 or check for reprinted/redial dial, and no visible serial/hallmark confirmation. Price ($375) is notably higher than typical market rate for this common export model, which is itself a mild red flag suggesting overpricing rather than fraud, but the lack of movement/caseback photos limits authentication confidence.",
+      "rarity_notes": "This specific export configuration (2209 movement, barrel case, \"Wostok\" branded dial) is a commonly seen vintage Vostok Amphibia variant on the secondary market\u2014not particularly rare. Many similar examples appear regularly on Etsy and other vintage watch sites.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Vostok Amphibias have a solid collector following, especially vintage Soviet-era pieces, but this particular export variant is common rather than a standout rare configuration, keeping demand moderate rather than high."
+    },
+    "deal_score": -108,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 197,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 197 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Vostok Amphibias have a solid collector following, especially vintage Soviet-era pieces, but this particular export variant is common rather than a standout rare configuration, keeping demand moderate rather than high.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 375.0,
+    "discount": -1.0833333333333333,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1786003431.1563923,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "james bond watch:ebay:v1|358890505529|0",
+    "listing": {
+      "id": "ebay:v1|358890505529|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "2005 Omega Seamaster 300M 41mm James Bond GoldenEye 007 Quartz 2541.80.00",
+      "url": "https://www.ebay.com/itm/358890505529?_skw=Omega+Seamaster+James+Bond&hash=item538f8a8539:g:gZQAAeSwN09qdCxk",
+      "price": 3395.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/gZQAAeSwN09qdCxk/s-l225.jpg",
+      "image_urls": [],
+      "body": "2005 Omega Seamaster 300M 41mm James Bond GoldenEye 007 Quartz 2541.80.00",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "james bond watch",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Hunter's criteria is broad (\"any James Bond Seamaster\"), and this listing is an Omega Seamaster 300M ref 2541.80.00, which is a standard production model, not the actual special \"GoldenEye\" limited edition (which has a different case/dial marking and bullet-shaped hands with a special GoldenEye logo caseback). However, since the hunter's own request was generic (any Bond-themed Seamaster), and the seller is marketing this as a Bond-associated model/era piece, it reasonably fits the loose criteria, though the \"GoldenEye\" branding in the title may be seller embellishment rather than an official limited edition marking.",
+      "estimated_value": 2200.0,
+      "confidence": 0.45,
+      "condition_summary": "Photo shows a clean, standard Seamaster Professional 300M quartz on bracelet with typical light wear; no box/papers shown in the image, and text doesn't confirm accessories.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Title labels this as \"James Bond GoldenEye 007\" but ref 2541.80.00 is the standard 41mm Seamaster Professional quartz reference, not an officially recognized GoldenEye limited edition (those typically have distinct case markings/engravings). This naming pattern is a common red flag for sellers inflating value by associating a common reference with a Bond edition. No box/papers shown, no closeup of caseback or serial, single stock-style studio photo only - insufficient verification of authenticity or special edition claims.",
+      "rarity_notes": "The base reference 2541.80.00 is a fairly common Seamaster Professional 300M from the early 2000s, not particularly rare on its own; true Bond limited editions (e.g., \"007 50th Anniversary,\" \"Skyfall,\" \"No Time To Die\") are far rarer and command significant premiums - this does not appear to be one of those official limited runs.",
+      "demand_tier": "High",
+      "demand_reasoning": "Omega Seamaster 300M is a globally recognized, highly desirable model, especially with any Bond association, driving strong collector and general demand."
+    },
+    "deal_score": -54,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 351,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 351 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Omega Seamaster 300M is a globally recognized, highly desirable model, especially with any Bond association, driving strong collector and general demand.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 3395.0,
+    "discount": -0.5431818181818182,
+    "notified": false,
+    "duplicate_of": "james bond watch:ebay:v1|278232982357|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1786003444.5963771,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "james bond watch:ebay:v1|318685314212|0",
+    "listing": {
+      "id": "ebay:v1|318685314212|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "2021 Omega Aqua Terra James Bond Spectre 41.5mm 231.10.42.21.03.003",
+      "url": "https://www.ebay.com/itm/318685314212?_skw=Omega+Seamaster+James+Bond&hash=item4a331ffca4:g:hjYAAeSwh~xqdBs4&amdata=enc%3AAQALAAABAACCtXRWQnOEpyOqnQQ8KGaBsTVBm2FkvBbPFDOfnEsBMUHzrcRs7W52Zk%2BKRHV1uCrlJFe%2F4lXRoK4FgNn61pv1BzEIv2nyHEWJs0zlCkJX68Huxzxj199o5vDffKC%2BsquQvfR4cE4YrDrCGkuLV05novxFLhyKLj0pBu8ekvEiJSYq5Qahs%2BDNFKj4d9fSx9FqmbJ2NRfY8e0p1xsHNnTVD2iH4ZrSHnMeIj3bfySpeUAVghtsVSAJKEeq3QT4tMPIMiCD9PfKdmQcnLP6IApr5sraH5xMMzczTvcGXITZdevjjQvfuWtea6UaiSAOEt4xe8AU0irMbVPYvUl9EHg%3D",
+      "price": 4899.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/hjYAAeSwh~xqdBs4/s-l225.jpg",
+      "image_urls": [],
+      "body": "2021 Omega Aqua Terra James Bond Spectre 41.5mm 231.10.42.21.03.003",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "james bond watch",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The hunter's criteria specify an Omega Seamaster with James Bond theme. This listing is an Omega Aqua Terra (part of the Seamaster family broadly, but marketed and referenced distinctly as 'Aqua Terra', not the 'Seamaster Diver 300M' or 'Seamaster' line itself). While Aqua Terra is technically a Seamaster sub-line, the hunter's own keywords emphasize 'Seamaster Diver 300M Bond' style editions, and this is a different specific model (Aqua Terra Spectre limited edition, ref 231.10.42.21.03.003) rather than the classic Seamaster Bond editions. Given the strict rule to treat distinct named models as non-matches, this should be flagged false.",
+      "estimated_value": 4200.0,
+      "confidence": 0.55,
+      "condition_summary": "Photo shows a clean, seemingly lightly worn or new-looking blue dial Aqua Terra with brushed steel bracelet; no visible scratches or damage, but only one angle shown and no box/papers visible in the image.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "No overt red flags like mismatched serials, but only a single close-up photo is provided with no box/papers/certificate shown despite this being a collectible limited edition; price is roughly in line with market so not suspiciously low. Would want additional photos (case back, movement, papers) to fully verify authenticity.",
+      "rarity_notes": "The Aqua Terra Spectre James Bond limited edition (231.10.42.21.03.003) was a limited run (reportedly 7,007 pieces) tied to the 2015 Spectre film, making it a legitimately collectible but different model from the classic Seamaster Diver 300M Bond editions the hunter referenced.",
+      "demand_tier": "High",
+      "demand_reasoning": "Omega Bond-themed limited editions have strong collector demand and brand recognition, though this specific Aqua Terra variant is somewhat less iconic than the Diver 300M Bond watches."
+    },
+    "deal_score": -17,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 351,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 351 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Omega Bond-themed limited editions have strong collector demand and brand recognition, though this specific Aqua Terra variant is somewhat less iconic than the Diver 300M Bond watches.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 4899.0,
+    "discount": -0.16642857142857143,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1786003443.003586,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "aqua terra:ebay:v1|327296937283|0",
+    "listing": {
+      "id": "ebay:v1|327296937283|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "OMEGA Seamaster Aqua Terra 2518.30",
+      "url": "https://www.ebay.com/itm/327296937283?_skw=Aqua+Terra+38mm&hash=item4c346aed43:g:oOoAAeSweXxqc7VS",
+      "price": 2000.0,
+      "shipping_price": null,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/oOoAAeSweXxqc7VS/s-l225.jpg",
+      "image_urls": [],
+      "body": "OMEGA Seamaster Aqua Terra 2518.30",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "aqua terra",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "The hunter's criteria are generic (any Aqua Terra 38mm with a simple dial, like new condition), not a specific reference. The 2518.30 is a 36mm-class Aqua Terra (early generation, often cataloged as 36mm-38mm depending on source) with a clean, uncluttered dial, which fits the general request.",
+      "estimated_value": 1800.0,
+      "confidence": 0.4,
+      "condition_summary": "Watch appears clean in the single photo with a bright dial and polished/brushed bracelet showing no obvious major wear, but image is small/low detail and no wrist shots, case-back, or close-ups of clasp/crown are provided to confirm \"like new\" claim.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only one low-resolution photo is provided with no close-ups of hallmarks, serial number, movement, or papers/box despite this being a $2000 luxury watch purchase - this is a red flag for a listing at this price point. No mention of box/papers, service history, or seller feedback/history. Listing text is extremely minimal (just title, no description of condition, authenticity provenance, or included accessories).",
+      "rarity_notes": "The 2518.30 is an early-generation (pre-2010) Aqua Terra, fairly common on the secondary market and not a limited edition, so it's not rare, but well-regarded for its simple, classic dial design.",
+      "demand_tier": "High",
+      "demand_reasoning": "Omega Aqua Terra is a well-recognized, popular model with strong resale demand, especially the simpler dial variants from the earlier generation."
+    },
+    "deal_score": -11,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 2817,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 2817 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Omega Aqua Terra is a well-recognized, popular model with strong resale demand, especially the simpler dial variants from the earlier generation.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 2000.0,
+    "discount": -0.1111111111111111,
+    "notified": false,
+    "duplicate_of": "aqua terra:ebay:v1|227459782721|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1786003457.302991,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "aqua terra:ebay:v1|236988223633|0",
+    "listing": {
+      "id": "ebay:v1|236988223633|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "OMEGA Seamaster Aqua Terra 38mm Sedna Gold On Steel New B&P 220.20.38.20.03.001",
+      "url": "https://www.ebay.com/itm/236988223633?_skw=Aqua+Terra+38mm&hash=item372d995091:g:6kkAAeSwAY9qc-Us",
+      "price": 10950.0,
+      "shipping_price": null,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/6kkAAeSwAY9qc-Us/s-l225.jpg",
+      "image_urls": [],
+      "body": "OMEGA Seamaster Aqua Terra 38mm Sedna Gold On Steel New B&P 220.20.38.20.03.001",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "New with box and papers"
+      }
+    },
+    "watch_item_id": "aqua terra",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Hunter's criteria did not specify a particular reference, only 38mm Aqua Terra with a simple/uncluttered dial and like-new condition. This listing is a 38mm Aqua Terra (ref 220.20.38.20.03.001) with a blue horizontal-teak dial, index markers, date window - a clean, simple design consistent with the request, and stated as New with box and papers.",
+      "estimated_value": 10500.0,
+      "confidence": 0.55,
+      "condition_summary": "Seller states \"New\" with box and papers; photo shows a clean, unworn-looking watch with protective stickers still on the clasp, consistent with new/like-new condition.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Listing text is extremely sparse (just a title, no description of provenance, seller history, or close-up authenticity shots like hologram sticker, engravings, or papers themselves). Only one photo is provided, showing the watch on a plain background without box/papers actually pictured despite being claimed - this is a notable gap given the price point. No serial/papers cross-check possible from text.",
+      "rarity_notes": "The Sedna gold/steel two-tone 38mm Aqua Terra with blue dial is a legitimate current-production variant, not ultra-rare but less commonly seen than full steel versions; retail is roughly $10,700-$11,500 new, so this price is in line with market.",
+      "demand_tier": "High",
+      "demand_reasoning": "Omega Aqua Terra is a well-recognized, popular model with strong resale demand, and two-tone Sedna gold versions have a dedicated following for their distinctive look."
+    },
+    "deal_score": -4,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 2817,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 2817 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Omega Aqua Terra is a well-recognized, popular model with strong resale demand, and two-tone Sedna gold versions have a dedicated following for their distinctive look.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 10950.0,
+    "discount": -0.04285714285714286,
+    "notified": false,
+    "duplicate_of": "aqua terra:ebay:v1|227462135920|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1786003458.28745,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "aqua terra:ebay:v1|198547997918|0",
+    "listing": {
+      "id": "ebay:v1|198547997918|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Seamaster Aqua Terra 41mm - 2024 Card - 2 Bracelets!!! 220.10.41.21.02.001",
+      "url": "https://www.ebay.com/itm/198547997918?_skw=Aqua+Terra+38mm&hash=item2e3a6204de:g:NoEAAeSwpfRqcnMI",
+      "price": 5250.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/NoEAAeSwpfRqcnMI/s-l225.jpg",
+      "image_urls": [],
+      "body": "Seamaster Aqua Terra 41mm - 2024 Card - 2 Bracelets!!! 220.10.41.21.02.001",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "aqua terra",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Hunter specifically requires a 38mm Aqua Terra with a simple dial, but this listing is the 41mm variant (reference 220.10.41.21.02.001). Case size is a stated hard requirement, so this does not match despite being the correct model line.",
+      "estimated_value": 4800.0,
+      "confidence": 0.55,
+      "condition_summary": "Watch appears to be in excellent/like-new condition based on the photo, with full box, papers, extra bracelet, and accessories shown - consistent with the seller's claims.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "Photo shows an actual full box set with card, booklets, and tools rather than a generic stock photo, which is a good sign. No serial mismatches mentioned, and the reference number is provided and consistent with a 41mm Aqua Terra. Price seems reasonable for a 2024-dated piece with two bracelets, not suspiciously low.",
+      "rarity_notes": "41mm Aqua Terra with two bracelets and 2024 card is a fairly common configuration on the secondary market, not a limited or rare variant.",
+      "demand_tier": "High",
+      "demand_reasoning": "Omega Aqua Terra is a well-recognized, in-demand model line, and this specific 41mm reference is popular, though it doesn't meet the buyer's 38mm size requirement."
+    },
+    "deal_score": -9,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 2817,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 2817 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Omega Aqua Terra is a well-recognized, in-demand model line, and this specific 41mm reference is popular, though it doesn't meet the buyer's 38mm size requirement.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 5250.0,
+    "discount": -0.09375,
+    "notified": false,
+    "duplicate_of": "aqua terra:ebay:v1|398233315366|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1786003456.579515,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "aqua terra:ebay:v1|287474912963|0",
+    "listing": {
+      "id": "ebay:v1|287474912963|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "OMEGA Seamaster Aqua Terra 231.10.39.21.06.001 Co-Axial Automatic Men's_901888",
+      "url": "https://www.ebay.com/itm/287474912963?_skw=Aqua+Terra+38mm&hash=item42eed70ec3:g:GOgAAeSwt4FqaB2u&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGZpiMsuDFOmXKj1%2Fk9kJblzYx03XYah9EHQiS6i6S%2B7krmooKj9pB6vchNRibhwtEgV8qJuEDd3ntbJGKGW7IcBZPJ%2FO975%2FN4NDv%2BRr8hcVBAA10d0KkWTRCfvbwrsql3zMNpoSzVwymCASFPxxMXiii9y3uTDU20Q3Yb1DHkjwQP%2BvcU6IRcSANOfBstWrL15XsAWh1BMHaERAZjkM40B17nuQUR7acRfIQo2PNX4GuVoPu6U9gtZTRs5VkkTLK2AyE87cTdTg6llhn4dyqzD8RskygF2PcoeCo9H%2FpAcKA%3D%3D",
+      "price": 2721.36,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/GOgAAeSwt4FqaB2u/s-l225.jpg",
+      "image_urls": [],
+      "body": "OMEGA Seamaster Aqua Terra 231.10.39.21.06.001 Co-Axial Automatic Men's_901888",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "aqua terra",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Reference 231.10.39.21.06.001 is the 38.5mm (commonly rounded to 38mm) Omega Seamaster Aqua Terra Co-Axial with a simple grey dial (indices, date, no chronograph subdials), matching the hunter's size and dial simplicity requirements. No specific reference was named by the hunter, so this generic match against 'Aqua Terra 38mm, simple dial' is valid.",
+      "estimated_value": 2900.0,
+      "confidence": 0.55,
+      "condition_summary": "Watch appears clean in the single stock-style photo with no visible scratches on case or bracelet, but condition claims ('like new') cannot be fully verified from one image; no close-ups of clasp, caseback, or dial texture provided.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "Reference number, dial layout, and bracelet style are consistent with genuine Aqua Terra 231.10.39.21.06.001. No box/papers shown or mentioned, and only one photo is provided, which limits ability to check hallmarks, serial, or caseback engravings - a mild red flag but not unusual for used listings.",
+      "rarity_notes": "This is a widely produced, non-limited Aqua Terra reference, so it is not rare, but remains a popular and easily verifiable model.",
+      "demand_tier": "High",
+      "demand_reasoning": "Omega Aqua Terra is a well-recognized, highly sought-after model in the 38mm size range, especially with simple dial variants, making it a strong demand item among collectors and buyers seeking daily-wear luxury watches."
+    },
+    "deal_score": 6,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 2817,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 2817 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Omega Aqua Terra is a well-recognized, highly sought-after model in the 38mm size range, especially with simple dial variants, making it a strong demand item among collectors and buyers seeking daily-wear luxury watches.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 2721.36,
+    "discount": 0.06159999999999995,
+    "notified": false,
+    "duplicate_of": "aqua terra:ebay:v1|227457028172|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1786003457.8329017,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "submariner:ebay:v1|398255209569|0",
+    "listing": {
+      "id": "ebay:v1|398255209569|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex Submariner 40mm Automatic Black Dial Date Pepsi Bezel Steel Bracelet",
+      "url": "https://www.ebay.com/itm/398255209569?_skw=vintage+Rolex+Submariner&hash=item5cb9dc3c61:g:oZoAAeSwRydqdAVF",
+      "price": 8000.0,
+      "shipping_price": null,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/oZoAAeSwRydqdAVF/s-l225.jpg",
+      "image_urls": [],
+      "body": "Rolex Submariner 40mm Automatic Black Dial Date Pepsi Bezel Steel Bracelet",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Fair"
+      }
+    },
+    "watch_item_id": "submariner",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The hunter wants a vintage Rolex Submariner with a black dial. The title mixes Submariner naming with \"Pepsi Bezel\" and \"Date\" - Pepsi bezel (red/blue) is a hallmark of the GMT-Master/GMT-Master II, not the Submariner (which has a black or black/green bezel). The photo clearly shows a GMT-Master style watch with red/blue bezel and 4-digit-style case, not a Submariner. This is a mismatched/likely mislabeled listing - wrong model for the stated criteria.",
+      "estimated_value": 5500.0,
+      "confidence": 0.3,
+      "condition_summary": "Photo shows a stainless steel bracelet watch with black dial and red/blue (Pepsi) bezel, moderate presumed wear typical of a used vintage-style piece; no close-up of case back, movement, or papers provided.",
+      "authenticity_risk": "high",
+      "authenticity_notes": "Title conflates Submariner naming with a Pepsi bezel, which is characteristic of GMT-Master/GMT-Master II, not Submariner - suggests either a mislabeled listing, a replica, or a franken-watch. Only one generic stock-like photo is provided, no serial/reference number, no box/papers, no movement shots, and no seller history details given. Price of $8,000 is plausible for a genuine GMT-Master but is not consistent with the stated 'Submariner' model, raising further doubt about accuracy or authenticity of the description.",
+      "rarity_notes": "If this is genuinely a GMT-Master/GMT-Master II Pepsi, it's a desirable but not rare reference; if it's meant to be a vintage black-dial Submariner, that specific combination (title vs photo) does not exist as described, indicating a likely misidentified or problematic listing.",
+      "demand_tier": "High",
+      "demand_reasoning": "Both Rolex Submariner and GMT-Master lines have very high collector demand and brand recognition, but the mismatch between title and image undermines confidence in what is actually being sold."
+    },
+    "deal_score": -45,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 483,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 483 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Both Rolex Submariner and GMT-Master lines have very high collector demand and brand recognition, but the mismatch between title and image undermines confidence in what is actually being sold.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 8000.0,
+    "discount": -0.45454545454545453,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1786003472.4963095,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "submariner:ebay:v1|257595067360|0",
+    "listing": {
+      "id": "ebay:v1|257595067360|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "ROLEX GMT Master 1675 Genuine Vintage Cigarette Box Card Excellent JAPAN",
+      "url": "https://www.ebay.com/itm/257595067360?_skw=vintage+Rolex+Submariner&hash=item3bf9dccbe0:g:q1gAAeSwk8FqQuRA&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGbmBltWcnu5ho6W7VfKYwGd%2F4e%2BsDcxsIGSJQ%2BK5ElNHwfVf7JpH6y8ApV%2Fw5KgsFHrRdlT%2BdW87FNVZi40CkQZQEb9jVw1T%2FjjtMohbRaleR1x9CNu2SGVzFqQavHjJg7rWMAvN76v%2Bf6RB6PRPSaT0SkssdcpvEti5TShwg8aSXJlo4tB%2FSqEGLlfBQXylT2UilgEPw752fFDtJOegUMqP4stEkd1PzbiDnIoU%2BnUo1GdrRqxkmjOlI0dAHcBE7rdL73M3aZCCYql3ipML7QCCSHUeGBYRhxMdarTxp3XDg%3D%3D",
+      "price": 602.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/q1gAAeSwk8FqQuRA/s-l225.jpg",
+      "image_urls": [],
+      "body": "ROLEX GMT Master 1675 Genuine Vintage Cigarette Box Card Excellent JAPAN",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "submariner",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The hunter wants an authentic vintage Rolex Submariner black dial watch. This listing title references a Rolex GMT Master 1675, and the photo shows only printed cigarette/warranty-style cards (Submariner 200/GMT Master paper cards), not an actual wristwatch. There is no watch being sold here at all, so it cannot match a criteria requiring an actual Submariner watch.",
+      "estimated_value": 50.0,
+      "confidence": 0.4,
+      "condition_summary": "Item appears to be a set of reproduction or vintage-style paper cards/cigarette cards referencing Submariner 200 and GMT-Master models, not a physical watch; cards look clean/unused in the photo.",
+      "authenticity_risk": "high",
+      "authenticity_notes": "Title is confusing/mismatched: says 'GMT Master 1675' but photo shows multiple 'Submariner 200' and 'GMT-Master' cards together, suggesting a lot of loose paper ephemera rather than a single genuine warranty card tied to one watch. No watch, box, or serial-matching documentation shown - high risk this is just reproduction memorabilia, not linked to any verifiable authentic timepiece.",
+      "rarity_notes": "Original vintage Rolex warranty/guarantee cards for Submariner/GMT-Master are collectible on their own, but bundling multiple different model cards together is unusual and raises doubt about originality/authenticity versus reproductions.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Vintage Rolex paper ephemera has a niche collector market, but demand and value are far lower than for an actual Submariner watch, and this listing does not fulfill the hunter's actual goal of acquiring a watch."
+    },
+    "deal_score": -1104,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 483,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 483 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Vintage Rolex paper ephemera has a niche collector market, but demand and value are far lower than for an actual Submariner watch, and this listing does not fulfill the hunter's actual goal of acquiring a watch.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 602.0,
+    "discount": -11.04,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1786003471.3611624,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "santos:ebay:v1|168592125377|0",
+    "listing": {
+      "id": "ebay:v1|168592125377|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Cartier Santos-Dumont Large WSSA0085 Steel Luxury Watch",
+      "url": "https://www.ebay.com/itm/168592125377?_skw=Cartier+Santos&hash=item2740dfadc1:g:GNsAAeSwxChp~MNt",
+      "price": 4300.0,
+      "shipping_price": 65.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/GNsAAeSwxChp~MNt/s-l225.jpg",
+      "image_urls": [],
+      "body": "Cartier Santos-Dumont Large WSSA0085 Steel Luxury Watch",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "santos",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The hunter is looking for the standard Cartier Santos (medium or large, silver/steel with white dial) on a bracelet, not the Santos-Dumont line. The Santos-Dumont is a distinct model with different case construction, thinner profile, and typically sold on a leather strap (as shown here) rather than the interchangeable steel bracelet the standard Santos uses. Since the hunter did not name Santos-Dumont, this different model/product line does not count as a match despite the shared 'Santos' branding.",
+      "estimated_value": 3800.0,
+      "confidence": 0.5,
+      "condition_summary": "Watch appears to be in good/lightly used condition based on the single photo - case and dial look clean with no visible major scratches, but only one angle is shown and no closeups of case back, clasp, or papers.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only one photo is provided, no box/papers, no proof of purchase, no close-up of hallmarks, serial number, or movement - this is a common presentation for both genuine private sales and fakes/replicas, so authenticity cannot be confirmed from listing text/photo alone. No seller history or feedback details given, which is itself a gap worth investigating before purchase.",
+      "rarity_notes": "The Santos-Dumont Large in steel (WSSA0085) is a regular-production reference, not limited edition, and is reasonably available in the market, though less common than the standard steel Santos with bracelet.",
+      "demand_tier": "High",
+      "demand_reasoning": "Cartier Santos line overall has strong brand recognition and demand, but this is a different model than the specifically desired standard Santos medium/large with bracelet."
+    },
+    "deal_score": -15,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 2381,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 2381 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Cartier Santos line overall has strong brand recognition and demand, but this is a different model than the specifically desired standard Santos medium/large with bracelet.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 4365.0,
+    "discount": -0.14868421052631578,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1786003485.2558475,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "santos:ebay:v1|287506273937|0",
+    "listing": {
+      "id": "ebay:v1|287506273937|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Cartier Santos Galbee Ref. 2319 LM Steel Automatic Watch Silver Roman Dial",
+      "url": "https://www.ebay.com/itm/287506273937?_skw=Cartier+Santos&hash=item42f0b59691:g:KlUAAeSwygVqc-cw",
+      "price": 5495.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/KlUAAeSwygVqc-cw/s-l225.jpg",
+      "image_urls": [],
+      "body": "Cartier Santos Galbee Ref. 2319 LM Steel Automatic Watch Silver Roman Dial",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "santos",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Hunter's criteria specified only brand/model (Cartier Santos, medium or large size, silver-tone with white dial) without a specific reference number requirement. The listing is a Cartier Santos Galbee LM (large model) in steel with a silver/white Roman numeral dial, which fits the size, color, and dial requirements.",
+      "estimated_value": 5200.0,
+      "confidence": 0.45,
+      "condition_summary": "Photo shows a Santos Galbee LM in steel with visible light surface wear typical of a pre-owned piece; dial and hands appear intact and correctly aligned, but no closeup of case back, clasp, or box/papers is shown.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only a single stock-style product photo is provided with no images of the case back, movement, serial number, clasp markings, or accompanying box/papers, which are typically needed to verify authenticity on a $5,000+ watch. No mention of papers, service history, or seller credentials/return policy, which is a moderate red flag for a piece at this price point. The price itself is roughly in line with market for a genuine Santos Galbee LM, so it's not suspiciously cheap, but lack of documentation and photo detail warrants caution.",
+      "rarity_notes": "The Santos Galbee ref. 2319 LM is a common, widely produced reference (discontinued but plentiful on the secondary market), so it is not rare or hard to find.",
+      "demand_tier": "High",
+      "demand_reasoning": "Cartier Santos is a highly recognized, actively collected model with strong resale demand, and steel Galbee models are a perennial favorite among buyers seeking a classic silver/white dial Cartier."
+    },
+    "deal_score": -6,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 2381,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 2381 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Cartier Santos is a highly recognized, actively collected model with strong resale demand, and steel Galbee models are a perennial favorite among buyers seeking a classic silver/white dial Cartier.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 5495.0,
+    "discount": -0.05673076923076923,
+    "notified": false,
+    "duplicate_of": "santos:ebay:v1|136856331730|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1786003485.7128685,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "santos:ebay:v1|366543310148|0",
+    "listing": {
+      "id": "ebay:v1|366543310148|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Cartier Santos de Cartier LM WSSA0037 47.5mm Gray Dial Full Set",
+      "url": "https://www.ebay.com/itm/366543310148?_skw=Cartier+Santos&hash=item5557af0d44:g:8gAAAeSw24RqVzA6&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGZiDCvdusHWQ7kl8gIC--qgxhUy92ZsZn44xAVnYsAzBD9uaVa9wb%2F01rOTFJMsbnBYZ8%2FFrAdXvxuvj9A2xSRD6HEfWxrmbRDqK36W7iJE3xYBsz%2BboQxv7YqEAdLmraF5z%2FYgdcMB9U0JM1KgtAMHGup%2B381UzjJ9ZDagRlKHU%2BxOtLAXx3KdCED6xuaZhv8olPzVxqf3eCLLNLLjoys%2BRVGRN4nHg0pa%2BuhrWMPxKO8KaO5KkdqhP2jEujKVHKQ8njFzWwBysZQjp3nZxJ5WAfauQX9zesbzjzKf0HyClQ%3D%3D",
+      "price": 6575.92,
+      "shipping_price": 854.87,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/8gAAAeSw24RqVzA6/s-l225.jpg",
+      "image_urls": [],
+      "body": "Cartier Santos de Cartier LM WSSA0037 47.5mm Gray Dial Full Set",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "santos",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Hunter requires a silver-tone case/bracelet with WHITE dial in medium or large size. This listing is the WSSA0037 Santos Large Model with a GRAY dial, not white - a clear mismatch on dial color, which was an explicit requirement.",
+      "estimated_value": 7400.0,
+      "confidence": 0.55,
+      "condition_summary": "Photo shows a steel Santos LM with gray/black dial; case and bracelet appear to have light wear, no major visible damage. \"Full Set\" claimed but only one image shown, no box/papers visible in photo.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "Reference number, dial design, and case shape are consistent with a genuine Cartier Santos LM; no obvious red flags like mismatched fonts or incorrect logo placement visible in the single photo. However, only one photo provided despite \"Full Set\" claim, and no box/papers/serial shown to verify authenticity or completeness - this is a moderate documentation gap rather than a fraud indicator.",
+      "rarity_notes": "WSSA0037 is a current-production, widely available reference in the Santos de Cartier Large steel line - not rare or limited.",
+      "demand_tier": "High",
+      "demand_reasoning": "Cartier Santos is a highly recognized, in-demand model with strong resale market presence, though this specific gray-dial variant is slightly less sought-after than the classic white-dial version."
+    },
+    "deal_score": 0,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 2381,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 2381 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Cartier Santos is a highly recognized, in-demand model with strong resale market presence, though this specific gray-dial variant is slightly less sought-after than the classic white-dial version.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 7430.79,
+    "discount": -0.004160810810810806,
+    "notified": false,
+    "duplicate_of": "santos:ebay:v1|198535540337|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1786003484.4483337,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "santos:ebay:v1|227464288316|0",
+    "listing": {
+      "id": "ebay:v1|227464288316|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Cartier Santos Quartz Square White Roman Dial w/ Pouch & Booklet",
+      "url": "https://www.ebay.com/itm/227464288316?_skw=Cartier+Santos&hash=item34f5ed983c:g:3OQAAeSwzOhqdBhP",
+      "price": 6900.0,
+      "shipping_price": null,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/3OQAAeSwzOhqdBhP/s-l225.jpg",
+      "image_urls": [],
+      "body": "Cartier Santos Quartz Square White Roman Dial w/ Pouch & Booklet",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Seller refurbished"
+      }
+    },
+    "watch_item_id": "santos",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Hunter accepts Santos medium or large in steel/silver-tone with white dial, no specific reference required. Listing describes a Cartier Santos quartz with white Roman dial, appears steel/silver-tone case and bracelet, consistent with medium or large size.",
+      "estimated_value": 6200.0,
+      "confidence": 0.35,
+      "condition_summary": "Watch appears to be in good cosmetic condition from the single photo (case/bracelet look clean, no visible major scratches), but only pouch and booklet are shown/claimed - no box, no full papers/warranty card visible, and no close-up shots of dial, case back, or clasp to verify wear.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only one photo provided, showing the watch partially tucked in a pouch - no clear shots of the dial signature, case back engravings, movement, or serial numbers, which are needed to verify authenticity. Price of $6,900 is plausible for a genuine Santos but the lack of detailed photos and full documentation (no box, no warranty card) is a yellow flag; seller history not mentioned. Recommend requesting additional photos (dial close-up, case back, serial/reference numbers, clasp) before purchase.",
+      "rarity_notes": "Santos quartz with white Roman dial is a common, widely available reference (not limited edition), so rarity is low; value driven mainly by size/model and condition rather than scarcity.",
+      "demand_tier": "High",
+      "demand_reasoning": "Cartier Santos is a highly recognized, in-demand model in the current luxury watch market with strong resale demand, especially in steel with white dial."
+    },
+    "deal_score": -11,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 2381,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 2381 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Cartier Santos is a highly recognized, in-demand model in the current luxury watch market with strong resale demand, especially in steel with white dial.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 6900.0,
+    "discount": -0.11290322580645161,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1786003484.8239372,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "santos:ebay:v1|389792213607|0",
+    "listing": {
+      "id": "ebay:v1|389792213607|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "CARTIER UNISEX SANTOS 100 W20126X8 33MM WHITE ROMAN DIAL STEEL LEATHER WATCH",
+      "url": "https://www.ebay.com/itm/389792213607?_skw=Cartier+Santos&hash=item5ac16d2a67:g:4HoAAeSwPL5p3FV6",
+      "price": 3690.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/4HoAAeSwPL5p3FV6/s-l225.jpg",
+      "image_urls": [],
+      "body": "CARTIER UNISEX SANTOS 100 W20126X8 33MM WHITE ROMAN DIAL STEEL LEATHER WATCH",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "santos",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Hunter's criteria specify Cartier Santos, medium or large, silver-tone with white dial, no specific reference required. This is a Santos 100 (33mm, which is the \"medium\" size for Santos 100 line) in steel with white dial - fits the generic size/color requirements. Note it's on a leather strap rather than a steel bracelet, which the hunter didn't explicitly require, so still counts as a match, though buyer may want to confirm bracelet preference.",
+      "estimated_value": 3200.0,
+      "confidence": 0.45,
+      "condition_summary": "Watch appears in good cosmetic condition from the photo with clean dial and case, but the leather strap shows some wear/discoloration; no box or papers shown or mentioned.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only a single photo provided and listing text is extremely minimal (just a restated title, no description of condition, provenance, box/papers, or seller history). No close-up of case back, serial number, or clasp/hallmarks to verify authenticity. Price is plausible for a genuine Santos 100 but the lack of detail and single generic-looking image is a mild red flag; buyer should request serial number photos, hallmark close-ups, and box/papers status before purchase.",
+      "rarity_notes": "Santos 100 33mm (mid-size, sometimes marketed as women's/unisex) in steel with white Roman dial is a fairly common reference on the secondary market, not particularly rare.",
+      "demand_tier": "High",
+      "demand_reasoning": "Cartier Santos is a highly recognized, in-demand luxury watch model with strong resale demand across sizes."
+    },
+    "deal_score": -15,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 2381,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 2381 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Cartier Santos is a highly recognized, in-demand luxury watch model with strong resale demand across sizes.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 3690.0,
+    "discount": -0.153125,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1786003494.4202514,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "santos:ebay:v1|127981846441|0",
+    "listing": {
+      "id": "ebay:v1|127981846441|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Cartier Santos Octagon White Roman Dial 30mm Circa 1990's in Excellent Condition",
+      "url": "https://www.ebay.com/itm/127981846441?_skw=Cartier+Santos&hash=item1dcc4fffa9:g:luQAAeSwXiNqW6uD",
+      "price": 3700.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/luQAAeSwXiNqW6uD/s-l225.jpg",
+      "image_urls": [],
+      "body": "Cartier Santos Octagon White Roman Dial 30mm Circa 1990's in Excellent Condition",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "santos",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Hunter's criteria did not specify an exact reference number, just Cartier Santos, medium or large, silver-tone with white dial. This listing is a Cartier Santos Octagon (Santos Octagon/Ronde model line), steel case, white Roman dial, 30mm which corresponds to the 'medium' Santos size (often called Santos Ronde/Octagon medium ~29-30mm). This fits the generic description given.",
+      "estimated_value": 4200.0,
+      "confidence": 0.55,
+      "condition_summary": "Listed as \"Excellent Condition\"; photo shows a clean steel Santos Octagon with white Roman dial, bracelet and bezel screws appear intact with no obvious major scratches, though image resolution is low and only one angle is shown.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only a single stock-like photo is provided with no close-ups of the caseback, movement, serial number, or clasp hallmarks, which are typically needed to verify authenticity on a vintage Santos. No mention of box/papers, service history, or serial number in the text. Price is within plausible market range but the lack of verification photos (case back, clasp stamps) is a moderate red flag for a $3,700 purchase.",
+      "rarity_notes": "The 1990s steel Santos Octagon medium (30mm) is a fairly common reference in the secondary market - not rare, but a desirable classic size that is easier to find than larger/complicated Santos references.",
+      "demand_tier": "High",
+      "demand_reasoning": "Cartier Santos is a globally recognized icon with strong sustained demand in this steel/white dial configuration, especially in the versatile medium size."
+    },
+    "deal_score": 12,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 2381,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 2381 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Cartier Santos is a globally recognized icon with strong sustained demand in this steel/white dial configuration, especially in the versatile medium size.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 3700.0,
+    "discount": 0.11904761904761904,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1786003494.8802145,
+    "analysis_depth": "quick"
   }
 ]
