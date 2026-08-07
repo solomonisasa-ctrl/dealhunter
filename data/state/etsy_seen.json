@@ -237,6 +237,13 @@
       "santos"
     ]
   },
+  "etsy:1765679397": {
+    "first_seen": 1786095668.524062,
+    "status": "active",
+    "watch_item_ids": [
+      "submariner"
+    ]
+  },
   "etsy:1768433668": {
     "first_seen": 1785024062.966965,
     "status": "active",
@@ -1499,7 +1506,7 @@
   },
   "etsy:4543985912": {
     "first_seen": 1785015207.387385,
-    "status": "active",
+    "status": "sold",
     "watch_item_ids": [
       "Omega Constellation"
     ]
@@ -1915,6 +1922,27 @@
     "status": "active",
     "watch_item_ids": [
       "santos"
+    ]
+  },
+  "etsy:4551343613": {
+    "first_seen": 1786095608.6329129,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "etsy:4551352802": {
+    "first_seen": 1786095608.47115,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "etsy:4551425568": {
+    "first_seen": 1786095608.3380005,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
     ]
   },
   "etsy:579354182": {
