@@ -657,7 +657,7 @@
       "category": "watches",
       "title": "Grand Seiko Red Elegance Collection 20th Anniversary Limited SBGA499 Nice Minty!",
       "url": "https://www.ebay.com/itm/117034719312?_skw=Grand+Seiko+Shunbun+Grand+Seiko+Shunbun+Spring+Equinox+GS+Shunbun+limited+edition+Grand+Seiko+Shunbun+box+papers+Shunbun+Grand+Seiko+watch&hash=item1b3fd01850:g:r98AAeSwrilpjo9J&amdata=enc%3AAQALAAABcACCtXRWQnOEpyOqnQQ8KGZEJU34P0glmnGayfBChl%2FTskxk67PMYGlAg6Kpzrz1zqTT2%2BcyqGG4iyHha%2BPcFzRDdmcvIF0c6o%2Bs3qB9ayT2Kwq7OKf4sV1LOgvuKzsilxXWD%2BRz52RXgNMfU%2FnKcR%2FmBiXxDmrgab9lGuJBkDmoCfseV0hxAJTesWFiPkpM19tY0lx1ximqr6mS2q0KJM4DFLC1QwBT%2BUEu5C4G5Yy5sZZVYoFSqT2ZwicoCPxI4Wyfc4ifGbfY00VicDTTXs3ZcOVeucT%2BBNy5wo5%2FgELuUSqZoxQgK8aaq2YaXNuP1PQuDBrmOJKmPA8lAKKxyqtCerq6xKrY%2FrUKLZCP8meJYBsgMsAPDvd6d4UkATRTXJsDNff6JuDeeObrIjNNxHwEhYZ8CXRjsFS3%2F9UHTdJDIbvt0EOzXiV%2BVYdU8ktBNHPMPzDuNfNl9p4KrRHjfEiX2g9eo1xR3iZ1O3D3R7V7",
-      "price": 5734.0,
+      "price": 6100.0,
       "shipping_price": 0.0,
       "currency": "USD",
       "image_url": "https://i.ebayimg.com/images/g/r98AAeSwrilpjo9J/s-l225.jpg",
@@ -682,7 +682,7 @@
       "demand_tier": "Medium",
       "demand_reasoning": "Grand Seiko has strong collector demand overall, but this specific limited edition is a niche variant with a smaller enthusiast base compared to core Spring Drive or Hi-Beat lines."
     },
-    "deal_score": 1,
+    "deal_score": -5,
     "liquidity": {
       "rating": "Medium",
       "comparable_count": 97,
@@ -690,8 +690,8 @@
       "claude_tier": "Medium",
       "reasoning": "Algorithmic signal: 97 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko has strong collector demand overall, but this specific limited edition is a niche variant with a smaller enthusiast base compared to core Spring Drive or Hi-Beat lines.). Final rating uses the more conservative of the two: Medium."
     },
-    "all_in_price": 5734.0,
-    "discount": 0.011379310344827587,
+    "all_in_price": 6100.0,
+    "discount": -0.05172413793103448,
     "notified": false,
     "duplicate_of": "gs-shunbun:ebay:v1|147344052256|0",
     "dismissed": false,
@@ -13685,7 +13685,7 @@
       "category": "watches",
       "title": "Grand Seiko Red Elegance Collection 20th Anniversary Limited SBGA499 Nice Minty!",
       "url": "https://www.ebay.com/itm/117034719312?_skw=Grand+Seiko+Shunbun&hash=item1b3fd01850:g:r98AAeSwrilpjo9J&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGZEJU34P0glmnGayfBChl%2FTskxk67PMYGlAg6Kpzrz1zqTT2%2BcyqGG4iyHha%2BPcFzRDdmcvIF0c6o%2Bs3qB9ayT2Kwq7OKf4sV1LOgvuKzsilxXWD%2BRz52RXgNMfU%2FnKcR%2B7w8dzZzKSAKWjwtkeKm%2BOlzA43gTGY7iFK76dk2ot11Y%2F12qE3wuTl9L6vVN4nX%2BlV8btr8juF2%2BMAKn8IskvDwQbgRHZCTKz1DIcAiE77gDoiEr6sgd3ZWWFZS79MAY193LKx2MIJ8YHIPZVQSeH%2FSRCzbtyajtHa11ZIae1Gg%3D%3D",
-      "price": 5734.0,
+      "price": 6100.0,
       "shipping_price": 0.0,
       "currency": "USD",
       "image_url": "https://i.ebayimg.com/images/g/r98AAeSwrilpjo9J/s-l225.jpg",
@@ -13710,7 +13710,7 @@
       "demand_tier": "Medium",
       "demand_reasoning": "Grand Seiko limited editions have a devoted collector base, but this specific model is less universally recognized than mainstream Spring Drive models, giving it medium demand."
     },
-    "deal_score": 4,
+    "deal_score": -2,
     "liquidity": {
       "rating": "Medium",
       "comparable_count": 861,
@@ -13718,8 +13718,8 @@
       "claude_tier": "Medium",
       "reasoning": "Algorithmic signal: 861 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko limited editions have a devoted collector base, but this specific model is less universally recognized than mainstream Spring Drive models, giving it medium demand.). Final rating uses the more conservative of the two: Medium."
     },
-    "all_in_price": 5734.0,
-    "discount": 0.044333333333333336,
+    "all_in_price": 6100.0,
+    "discount": -0.016666666666666666,
     "notified": false,
     "duplicate_of": null,
     "dismissed": false,
