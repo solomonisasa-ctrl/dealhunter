@@ -21,24 +21,11 @@
 
 - id: Omega Constellation
   category: watches
-  description: omega constellation
+  description: omega constellation, automatic movement
   discount_threshold: 0.2
   lookback_days: 30
   enabled: true
-  parsed_criteria:
-    brand: Omega
-    model: Constellation
-    reference_number: null
-    condition_min: null
-    box_and_papers_required: null
-    max_price_all_in: null
-    other_requirements: null
-    search_keywords:
-    - Omega Constellation
-    - Omega Constellation watch
-    - Constellation automatic
-    - Omega Constellation vintage
-    - Omega Constellation chronometer
+  parsed_criteria: null
 - id: shunbun
   category: watches
   description: grand seiko shunbun
@@ -105,24 +92,11 @@
     - James Bond Omega watch
 - id: aqua terra
   category: watches
-  description: like new 38mm aqua terra, simple dial
+  description: like new 38mm aqua terra, simple dial, automatic movement
   discount_threshold: 0.25
   lookback_days: 30
   enabled: true
-  parsed_criteria:
-    brand: Omega
-    model: Aqua Terra
-    reference_number: null
-    condition_min: like new
-    box_and_papers_required: null
-    max_price_all_in: null
-    other_requirements: 38mm case size, simple (uncluttered) dial design
-    search_keywords:
-    - Aqua Terra 38mm
-    - Omega Aqua Terra
-    - Aqua Terra simple dial
-    - Omega Seamaster Aqua Terra 38
-    - Aqua Terra 150M
+  parsed_criteria: null
 - id: submariner
   category: watches
   description: authentic vintage rolex submariner black dial
@@ -146,22 +120,9 @@
     - Rolex Sub black face
 - id: santos
   category: watches
-  description: authentic cartier santos medium or large, silver with white dial.
+  description: authentic cartier santos medium or large, silver with white dial, automatic
+    movement
   discount_threshold: 0.25
   lookback_days: 30
   enabled: true
-  parsed_criteria:
-    brand: Cartier
-    model: Santos
-    reference_number: null
-    condition_min: null
-    box_and_papers_required: null
-    max_price_all_in: null
-    other_requirements: Must be authentic; silver-tone case/bracelet with white dial;
-      medium or large size accepted
-    search_keywords:
-    - Cartier Santos
-    - Santos medium
-    - Santos large
-    - Cartier Santos silver white dial
-    - Cartier Santos steel
+  parsed_criteria: null
