@@ -1,9 +1,30 @@
 {
+  "ebay:v1|116035808332|0": {
+    "first_seen": 1785860703.1631572,
+    "status": "active",
+    "watch_item_ids": [
+      "submariner"
+    ]
+  },
+  "ebay:v1|116580214190|0": {
+    "first_seen": 1785225024.9369779,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch"
+    ]
+  },
   "ebay:v1|116665052030|0": {
     "first_seen": 1785023983.4146066,
     "status": "active",
     "watch_item_ids": [
       "aqua terra"
+    ]
+  },
+  "ebay:v1|116668908436|0": {
+    "first_seen": 1785109150.2945185,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch"
     ]
   },
   "ebay:v1|116929152309|0": {
@@ -18,6 +39,13 @@
     "status": "active",
     "watch_item_ids": [
       "gs-shunbun",
+      "shunbun"
+    ]
+  },
+  "ebay:v1|117211954008|0": {
+    "first_seen": 1785671181.3559635,
+    "status": "active",
+    "watch_item_ids": [
       "shunbun"
     ]
   },
@@ -56,11 +84,25 @@
       "submariner"
     ]
   },
+  "ebay:v1|117293002195|0": {
+    "first_seen": 1785515171.987054,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
   "ebay:v1|117309650676|0": {
     "first_seen": 1784923627.692182,
     "status": "active",
     "watch_item_ids": [
       "Omega Constellation"
+    ]
+  },
+  "ebay:v1|117311679306|0": {
+    "first_seen": 1785492232.4834688,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch"
     ]
   },
   "ebay:v1|117312156110|0": {
@@ -77,11 +119,116 @@
       "vostok"
     ]
   },
+  "ebay:v1|117317278360|0": {
+    "first_seen": 1785175328.1147296,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|117318063769|0": {
+    "first_seen": 1785356226.4083877,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
   "ebay:v1|117319446186|0": {
     "first_seen": 1785024039.2322025,
     "status": "active",
     "watch_item_ids": [
       "submariner"
+    ]
+  },
+  "ebay:v1|117324930578|0": {
+    "first_seen": 1785175423.8299756,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch"
+    ]
+  },
+  "ebay:v1|117327579439|0": {
+    "first_seen": 1785398466.5051072,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|117330401894|0": {
+    "first_seen": 1785425721.2080991,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|117331486953|0": {
+    "first_seen": 1785455267.8065448,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|117331536037|0": {
+    "first_seen": 1785831087.5237975,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|117335108167|0": {
+    "first_seen": 1785627274.2205184,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|117335156710|0": {
+    "first_seen": 1785627339.8893285,
+    "status": "active",
+    "watch_item_ids": [
+      "submariner"
+    ]
+  },
+  "ebay:v1|117338800598|0": {
+    "first_seen": 1785831013.3155284,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch"
+    ]
+  },
+  "ebay:v1|117338896390|0": {
+    "first_seen": 1785831013.6298347,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch"
+    ]
+  },
+  "ebay:v1|117339210779|0": {
+    "first_seen": 1785831013.495923,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch"
+    ]
+  },
+  "ebay:v1|117341187635|0": {
+    "first_seen": 1785910595.5094883,
+    "status": "active",
+    "watch_item_ids": [
+      "submariner"
+    ]
+  },
+  "ebay:v1|117347304763|0": {
+    "first_seen": 1786211398.1224597,
+    "status": "active",
+    "watch_item_ids": [
+      "submariner"
+    ]
+  },
+  "ebay:v1|126226053437|0": {
+    "first_seen": 1785050507.742803,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch"
     ]
   },
   "ebay:v1|126232458314|0": {
@@ -91,6 +238,13 @@
       "james bond watch"
     ]
   },
+  "ebay:v1|126358686459|0": {
+    "first_seen": 1785109114.415576,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
   "ebay:v1|126807558226|0": {
     "first_seen": 1785023982.6695483,
     "status": "active",
@@ -98,11 +252,39 @@
       "aqua terra"
     ]
   },
-  "ebay:v1|127184621811|0": {
-    "first_seen": 1784760324.662345,
+  "ebay:v1|127039156785|0": {
+    "first_seen": 1785831087.9900444,
     "status": "active",
     "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|127184621811|0": {
+    "first_seen": 1784760324.662345,
+    "status": "sold",
+    "watch_item_ids": [
       "gs-shunbun",
+      "shunbun"
+    ]
+  },
+  "ebay:v1|127533231121|0": {
+    "first_seen": 1785320270.2226968,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch"
+    ]
+  },
+  "ebay:v1|127624482824|0": {
+    "first_seen": 1785627340.0493758,
+    "status": "active",
+    "watch_item_ids": [
+      "submariner"
+    ]
+  },
+  "ebay:v1|127703327891|0": {
+    "first_seen": 1785283730.5849135,
+    "status": "active",
+    "watch_item_ids": [
       "shunbun"
     ]
   },
@@ -120,11 +302,39 @@
       "james bond watch"
     ]
   },
+  "ebay:v1|127914409016|0": {
+    "first_seen": 1786003402.1898835,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|127919384050|0": {
+    "first_seen": 1785573776.3669217,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|127925495485|0": {
+    "first_seen": 1785830953.5369096,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
   "ebay:v1|127925666704|0": {
     "first_seen": 1784842785.3304,
     "status": "active",
     "watch_item_ids": [
       "gs-shunbun"
+    ]
+  },
+  "ebay:v1|127940658246|0": {
+    "first_seen": 1785175446.9627926,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
     ]
   },
   "ebay:v1|127946367513|0": {
@@ -159,7 +369,8 @@
     "first_seen": 1784760369.878586,
     "status": "active",
     "watch_item_ids": [
-      "gs-shunbun"
+      "gs-shunbun",
+      "shunbun"
     ]
   },
   "ebay:v1|127970429854|0": {
@@ -183,11 +394,25 @@
       "aqua terra"
     ]
   },
+  "ebay:v1|127976609375|0": {
+    "first_seen": 1785050546.0269983,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
   "ebay:v1|127980583767|0": {
     "first_seen": 1784944612.4491735,
     "status": "active",
     "watch_item_ids": [
       "vostok"
+    ]
+  },
+  "ebay:v1|127981846441|0": {
+    "first_seen": 1786003495.8416312,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
     ]
   },
   "ebay:v1|127982373178|0": {
@@ -204,11 +429,19 @@
       "shunbun"
     ]
   },
+  "ebay:v1|127987400897|0": {
+    "first_seen": 1785831087.6897314,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
   "ebay:v1|127990210612|0": {
     "first_seen": 1784842769.0563755,
     "status": "active",
     "watch_item_ids": [
-      "gs-shunbun"
+      "gs-shunbun",
+      "shunbun"
     ]
   },
   "ebay:v1|127990430684|0": {
@@ -232,8 +465,213 @@
       "Omega Constellation"
     ]
   },
+  "ebay:v1|127993389662|0": {
+    "first_seen": 1785080742.5192676,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|127993655226|0": {
+    "first_seen": 1785080806.326831,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
   "ebay:v1|127993873111|0": {
     "first_seen": 1785015522.9036293,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|127996835069|0": {
+    "first_seen": 1785320322.7237582,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|127997067144|0": {
+    "first_seen": 1785254159.8948534,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|127997167418|0": {
+    "first_seen": 1785175423.699252,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch",
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|127997399707|0": {
+    "first_seen": 1785225054.2268944,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|127997410612|0": {
+    "first_seen": 1785225125.680455,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|127997654239|0": {
+    "first_seen": 1785225054.5773818,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|127997991775|0": {
+    "first_seen": 1785224998.8643935,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|128000892258|0": {
+    "first_seen": 1785356310.6228628,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|128001239135|0": {
+    "first_seen": 1785398398.8926432,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|128002158378|0": {
+    "first_seen": 1785425816.4829319,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|128002533071|0": {
+    "first_seen": 1785455184.1470833,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch",
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|128004093317|0": {
+    "first_seen": 1785627295.273429,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|128004101369|0": {
+    "first_seen": 1785543235.97636,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch"
+    ]
+  },
+  "ebay:v1|128004167686|0": {
+    "first_seen": 1785627328.1028483,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|128004327909|0": {
+    "first_seen": 1785573851.5995483,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|128005895701|0": {
+    "first_seen": 1785760836.489921,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|128006806413|0": {
+    "first_seen": 1785760716.6660404,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|128008665693|0": {
+    "first_seen": 1785783593.3003628,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|128009205394|0": {
+    "first_seen": 1785910632.064678,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|128011173089|0": {
+    "first_seen": 1785910595.7129395,
+    "status": "active",
+    "watch_item_ids": [
+      "submariner"
+    ]
+  },
+  "ebay:v1|128011209258|0": {
+    "first_seen": 1785910576.0548563,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|128012217432|0": {
+    "first_seen": 1785968576.0177364,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch"
+    ]
+  },
+  "ebay:v1|128014754252|0": {
+    "first_seen": 1786067092.1099799,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|128014754493|0": {
+    "first_seen": 1786067092.5792193,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|128015655666|0": {
+    "first_seen": 1786125933.571102,
+    "status": "active",
+    "watch_item_ids": [
+      "submariner"
+    ]
+  },
+  "ebay:v1|128015754953|0": {
+    "first_seen": 1786125936.8391654,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|128015822523|0": {
+    "first_seen": 1786162663.7465205,
     "status": "active",
     "watch_item_ids": [
       "aqua terra"
@@ -253,11 +691,32 @@
       "Omega Constellation"
     ]
   },
+  "ebay:v1|136856331730|0": {
+    "first_seen": 1785455267.943653,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
   "ebay:v1|137010964887|0": {
     "first_seen": 1784924973.7351403,
     "status": "active",
     "watch_item_ids": [
       "Omega Constellation"
+    ]
+  },
+  "ebay:v1|137239695557|0": {
+    "first_seen": 1785050434.066941,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|137302949229|0": {
+    "first_seen": 1786003415.281208,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
     ]
   },
   "ebay:v1|137338927294|0": {
@@ -269,6 +728,20 @@
   },
   "ebay:v1|137355112464|0": {
     "first_seen": 1784924954.8658223,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|137359605251|0": {
+    "first_seen": 1785254114.172559,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|137365309987|0": {
+    "first_seen": 1785492172.0703166,
     "status": "active",
     "watch_item_ids": [
       "Omega Constellation"
@@ -337,6 +810,20 @@
       "aqua terra"
     ]
   },
+  "ebay:v1|137512695025|0": {
+    "first_seen": 1785783548.3592196,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|137517299911|0": {
+    "first_seen": 1785080676.2474306,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
   "ebay:v1|137523318853|0": {
     "first_seen": 1785024042.6370373,
     "status": "active",
@@ -358,6 +845,13 @@
       "shunbun"
     ]
   },
+  "ebay:v1|137541451625|0": {
+    "first_seen": 1785573764.9393218,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
   "ebay:v1|137544597640|0": {
     "first_seen": 1784938731.810052,
     "status": "active",
@@ -372,11 +866,130 @@
       "Omega Constellation"
     ]
   },
+  "ebay:v1|137550774296|0": {
+    "first_seen": 1785175327.9141543,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|137553730981|0": {
+    "first_seen": 1785109087.626272,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|137557112351|0": {
+    "first_seen": 1785225080.518082,
+    "status": "active",
+    "watch_item_ids": [
+      "submariner"
+    ]
+  },
+  "ebay:v1|137557229943|0": {
+    "first_seen": 1785224928.9740398,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|137557394271|0": {
+    "first_seen": 1785224974.0921137,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|137558676257|0": {
+    "first_seen": 1785225125.3353183,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|137559905528|0": {
+    "first_seen": 1785283699.6097593,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|137564612247|0": {
+    "first_seen": 1785356206.11863,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|137564960499|0": {
+    "first_seen": 1785398398.9956126,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|137565042482|0": {
+    "first_seen": 1785398398.6538398,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|137565519792|0": {
+    "first_seen": 1785398422.7700276,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch"
+    ]
+  },
+  "ebay:v1|137572194504|0": {
+    "first_seen": 1785543255.9919631,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|137572837706|0": {
+    "first_seen": 1785671151.7875288,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|137577414572|0": {
+    "first_seen": 1785831044.2402048,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|137582743818|0": {
+    "first_seen": 1785830924.8034372,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|137586451919|0": {
+    "first_seen": 1785910500.2167232,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
   "ebay:v1|145056525533|0": {
     "first_seen": 1785023926.995986,
     "status": "active",
     "watch_item_ids": [
       "james bond watch"
+    ]
+  },
+  "ebay:v1|146865321821|0": {
+    "first_seen": 1785080766.6266792,
+    "status": "active",
+    "watch_item_ids": [
+      "submariner"
     ]
   },
   "ebay:v1|146977250756|0": {
@@ -421,6 +1034,20 @@
       "gs-shunbun"
     ]
   },
+  "ebay:v1|147241602400|0": {
+    "first_seen": 1785425761.9589975,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch"
+    ]
+  },
+  "ebay:v1|147256376908|0": {
+    "first_seen": 1785109087.9247358,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
   "ebay:v1|147263834653|0": {
     "first_seen": 1785024110.7788782,
     "status": "active",
@@ -433,6 +1060,13 @@
     "status": "active",
     "watch_item_ids": [
       "gs-shunbun"
+    ]
+  },
+  "ebay:v1|147346188246|0": {
+    "first_seen": 1785671151.9631433,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
     ]
   },
   "ebay:v1|147350656103|0": {
@@ -470,6 +1104,13 @@
       "seiko willard"
     ]
   },
+  "ebay:v1|147394264048|0": {
+    "first_seen": 1785224974.5688791,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
   "ebay:v1|147410554351|0": {
     "first_seen": 1784760692.5471945,
     "status": "active",
@@ -479,6 +1120,13 @@
   },
   "ebay:v1|147412628359|0": {
     "first_seen": 1784923554.3711133,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|147412868089|0": {
+    "first_seen": 1785573764.6457317,
     "status": "active",
     "watch_item_ids": [
       "Omega Constellation"
@@ -509,11 +1157,26 @@
     "first_seen": 1784760451.6861882,
     "status": "active",
     "watch_item_ids": [
-      "gs-shunbun"
+      "gs-shunbun",
+      "shunbun"
+    ]
+  },
+  "ebay:v1|147428011062|0": {
+    "first_seen": 1785224928.7368684,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
     ]
   },
   "ebay:v1|147430463465|0": {
     "first_seen": 1785015154.129264,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|147431268200|0": {
+    "first_seen": 1785573764.8160908,
     "status": "active",
     "watch_item_ids": [
       "Omega Constellation"
@@ -544,7 +1207,8 @@
     "first_seen": 1784760702.4593558,
     "status": "active",
     "watch_item_ids": [
-      "gs-shunbun"
+      "gs-shunbun",
+      "shunbun"
     ]
   },
   "ebay:v1|147444188456|0": {
@@ -559,6 +1223,13 @@
     "status": "active",
     "watch_item_ids": [
       "Omega Constellation"
+    ]
+  },
+  "ebay:v1|147446014793|0": {
+    "first_seen": 1785573776.2003016,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
     ]
   },
   "ebay:v1|147450582247|0": {
@@ -576,6 +1247,13 @@
       "shunbun"
     ]
   },
+  "ebay:v1|147451466150|0": {
+    "first_seen": 1785425698.4173965,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
   "ebay:v1|147452016840|0": {
     "first_seen": 1784924945.492692,
     "status": "active",
@@ -587,7 +1265,8 @@
     "first_seen": 1784760479.647884,
     "status": "active",
     "watch_item_ids": [
-      "gs-shunbun"
+      "gs-shunbun",
+      "shunbun"
     ]
   },
   "ebay:v1|147453334236|0": {
@@ -595,6 +1274,13 @@
     "status": "active",
     "watch_item_ids": [
       "gs-shunbun"
+    ]
+  },
+  "ebay:v1|147455035982|0": {
+    "first_seen": 1785283699.828853,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
     ]
   },
   "ebay:v1|147458066828|0": {
@@ -618,6 +1304,209 @@
       "Omega Constellation"
     ]
   },
+  "ebay:v1|147459814019|0": {
+    "first_seen": 1785224974.4307225,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|147462259519|0": {
+    "first_seen": 1785109114.47866,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|147463389687|0": {
+    "first_seen": 1785175372.2618372,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|147463774404|0": {
+    "first_seen": 1785254114.0719483,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|147464616723|0": {
+    "first_seen": 1785175327.8260496,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|147465600954|0": {
+    "first_seen": 1785224928.872427,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|147465852442|0": {
+    "first_seen": 1785283730.801718,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|147466068181|0": {
+    "first_seen": 1785224928.4896636,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|147467666763|0": {
+    "first_seen": 1785283751.6368399,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch"
+    ]
+  },
+  "ebay:v1|147470188408|0": {
+    "first_seen": 1785356274.192697,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|147470701887|0": {
+    "first_seen": 1785398371.13593,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|147471577026|0": {
+    "first_seen": 1785455158.5384715,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|147472167337|0": {
+    "first_seen": 1785455225.5332265,
+    "status": "active",
+    "watch_item_ids": [
+      "submariner"
+    ]
+  },
+  "ebay:v1|147473542321|0": {
+    "first_seen": 1785492232.3661394,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch"
+    ]
+  },
+  "ebay:v1|147474300809|0": {
+    "first_seen": 1785543255.5679312,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|147474983221|0": {
+    "first_seen": 1785573821.8289254,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|147477176511|0": {
+    "first_seen": 1785671151.0958338,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|147477342667|0": {
+    "first_seen": 1786095665.062151,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|147477357271|0": {
+    "first_seen": 1785700901.4290242,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|147477904566|0": {
+    "first_seen": 1785671191.4504168,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|147479438384|0": {
+    "first_seen": 1785760716.8406823,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|147480505897|0": {
+    "first_seen": 1785860595.4210255,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|147482362617|0": {
+    "first_seen": 1785860642.3146827,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|147482437486|0": {
+    "first_seen": 1785860608.525645,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|147483784340|0": {
+    "first_seen": 1785932925.2204823,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|147485181116|0": {
+    "first_seen": 1786003378.4437404,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|147489137785|0": {
+    "first_seen": 1786211400.6783493,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|147490270169|0": {
+    "first_seen": 1786189418.5299084,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|147490271100|0": {
+    "first_seen": 1786162657.6052606,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
   "ebay:v1|154261836012|0": {
     "first_seen": 1785025452.4716682,
     "status": "active",
@@ -632,8 +1521,22 @@
       "submariner"
     ]
   },
+  "ebay:v1|157134358800|0": {
+    "first_seen": 1785050388.745339,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
   "ebay:v1|157327249991|0": {
     "first_seen": 1784924987.6283147,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|157423888815|0": {
+    "first_seen": 1785080676.1543872,
     "status": "active",
     "watch_item_ids": [
       "Omega Constellation"
@@ -652,6 +1555,13 @@
     "watch_item_ids": [
       "gs-shunbun",
       "shunbun"
+    ]
+  },
+  "ebay:v1|157837276394|0": {
+    "first_seen": 1785050577.1531024,
+    "status": "active",
+    "watch_item_ids": [
+      "submariner"
     ]
   },
   "ebay:v1|157902850680|0": {
@@ -673,6 +1583,13 @@
     "status": "active",
     "watch_item_ids": [
       "seiko willard"
+    ]
+  },
+  "ebay:v1|157947801031|0": {
+    "first_seen": 1785080766.4466355,
+    "status": "active",
+    "watch_item_ids": [
+      "submariner"
     ]
   },
   "ebay:v1|157949367355|0": {
@@ -703,11 +1620,39 @@
       "james bond watch"
     ]
   },
+  "ebay:v1|158026339348|0": {
+    "first_seen": 1786162665.8637097,
+    "status": "active",
+    "watch_item_ids": [
+      "submariner"
+    ]
+  },
   "ebay:v1|158027138660|0": {
     "first_seen": 1785015707.4527256,
     "status": "active",
     "watch_item_ids": [
       "santos"
+    ]
+  },
+  "ebay:v1|158029472110|0": {
+    "first_seen": 1786067264.9182508,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|158030716700|0": {
+    "first_seen": 1785109087.8619316,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|158096836438|0": {
+    "first_seen": 1785425698.6762726,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
     ]
   },
   "ebay:v1|158100442432|0": {
@@ -738,6 +1683,13 @@
       "Omega Constellation"
     ]
   },
+  "ebay:v1|158108538396|0": {
+    "first_seen": 1785573822.1397066,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
   "ebay:v1|158108675294|0": {
     "first_seen": 1785024111.7978396,
     "status": "active",
@@ -750,6 +1702,13 @@
     "status": "active",
     "watch_item_ids": [
       "shunbun"
+    ]
+  },
+  "ebay:v1|158111757904|0": {
+    "first_seen": 1786067092.820035,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
     ]
   },
   "ebay:v1|158113779202|0": {
@@ -771,6 +1730,230 @@
     "status": "active",
     "watch_item_ids": [
       "aqua terra"
+    ]
+  },
+  "ebay:v1|158119815362|0": {
+    "first_seen": 1785050664.8060064,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|158122428248|0": {
+    "first_seen": 1785109114.3278074,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|158124998540|0": {
+    "first_seen": 1785175502.6604433,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|158126258414|0": {
+    "first_seen": 1785224929.5779614,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|158126262826|0": {
+    "first_seen": 1785254090.662007,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|158126262895|0": {
+    "first_seen": 1785224928.6366298,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|158126262921|0": {
+    "first_seen": 1785224929.221003,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|158126262950|0": {
+    "first_seen": 1785254090.5319686,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|158128680155|0": {
+    "first_seen": 1785283813.2799425,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|158128984878|0": {
+    "first_seen": 1785320213.1801682,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|158136615690|0": {
+    "first_seen": 1785455171.5567677,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|158136838529|0": {
+    "first_seen": 1785492244.9789157,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|158137301978|0": {
+    "first_seen": 1785492171.7389998,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|158140883549|0": {
+    "first_seen": 1785543175.134682,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|158140883630|0": {
+    "first_seen": 1785543174.8670936,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|158140883654|0": {
+    "first_seen": 1785543174.5943098,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|158140883736|0": {
+    "first_seen": 1785543174.438822,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|158144205168|0": {
+    "first_seen": 1785627327.782445,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|158148004845|0": {
+    "first_seen": 1785760836.1860876,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|158151891197|0": {
+    "first_seen": 1785830924.6348996,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|158154634972|0": {
+    "first_seen": 1785968633.5074098,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|158155326853|0": {
+    "first_seen": 1785910575.8925164,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|158155526412|0": {
+    "first_seen": 1786095588.4009056,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|158159071705|0": {
+    "first_seen": 1786003378.041594,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|158160654113|0": {
+    "first_seen": 1786067264.5184734,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|158164437387|0": {
+    "first_seen": 1786233828.874857,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|158164943824|0": {
+    "first_seen": 1786162668.3300395,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|158165189245|0": {
+    "first_seen": 1786162654.9002545,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|158165625905|0": {
+    "first_seen": 1786162663.7465117,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|158165986912|0": {
+    "first_seen": 1786189424.3647246,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|158166999635|0": {
+    "first_seen": 1786211391.6851883,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|164908160271|0": {
+    "first_seen": 1785860655.3739371,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
     ]
   },
   "ebay:v1|166174155433|0": {
@@ -808,11 +1991,53 @@
       "aqua terra"
     ]
   },
+  "ebay:v1|168504322602|0": {
+    "first_seen": 1785356274.192701,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
   "ebay:v1|168518652730|0": {
     "first_seen": 1784924989.2315507,
     "status": "active",
     "watch_item_ids": [
       "Omega Constellation"
+    ]
+  },
+  "ebay:v1|168523791955|0": {
+    "first_seen": 1785050388.5899792,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|168532884014|0": {
+    "first_seen": 1785175503.448471,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|168536260028|0": {
+    "first_seen": 1785783548.2020721,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|168540753454|0": {
+    "first_seen": 1785760794.1360452,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|168543273247|0": {
+    "first_seen": 1785225080.7708004,
+    "status": "active",
+    "watch_item_ids": [
+      "submariner"
     ]
   },
   "ebay:v1|168543407878|0": {
@@ -878,6 +2103,20 @@
       "submariner"
     ]
   },
+  "ebay:v1|168553231573|0": {
+    "first_seen": 1785080676.6887832,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|168555719145|0": {
+    "first_seen": 1785283813.8221831,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
   "ebay:v1|168558764621|0": {
     "first_seen": 1784938742.4018316,
     "status": "active",
@@ -899,6 +2138,125 @@
       "vostok"
     ]
   },
+  "ebay:v1|168564058070|0": {
+    "first_seen": 1785050665.5526881,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|168565396983|0": {
+    "first_seen": 1785109150.0483391,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch"
+    ]
+  },
+  "ebay:v1|168567482735|0": {
+    "first_seen": 1785175459.126598,
+    "status": "active",
+    "watch_item_ids": [
+      "submariner"
+    ]
+  },
+  "ebay:v1|168567508750|0": {
+    "first_seen": 1785175397.0463898,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|168568186396|0": {
+    "first_seen": 1785254190.0782077,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|168569288550|0": {
+    "first_seen": 1785225054.3291073,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|168570402620|0": {
+    "first_seen": 1785320213.0102088,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|168570966422|0": {
+    "first_seen": 1785425774.2776139,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|168574120843|0": {
+    "first_seen": 1785398466.615844,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|168577746729|0": {
+    "first_seen": 1785515150.9766908,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|168585815532|0": {
+    "first_seen": 1785783583.8613284,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch"
+    ]
+  },
+  "ebay:v1|168592125377|0": {
+    "first_seen": 1786003494.8805597,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|168593208904|0": {
+    "first_seen": 1786067091.4606109,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|168593993243|0": {
+    "first_seen": 1786095670.6446633,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|168594179422|0": {
+    "first_seen": 1786067154.6274378,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|168595673058|0": {
+    "first_seen": 1786125931.2792575,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|168597551357|0": {
+    "first_seen": 1786189424.364721,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
   "ebay:v1|175202461664|0": {
     "first_seen": 1784880056.2324922,
     "status": "active",
@@ -917,7 +2275,8 @@
     "first_seen": 1784760498.4022627,
     "status": "active",
     "watch_item_ids": [
-      "gs-shunbun"
+      "gs-shunbun",
+      "shunbun"
     ]
   },
   "ebay:v1|175391217334|0": {
@@ -948,8 +2307,22 @@
       "seiko willard"
     ]
   },
+  "ebay:v1|177278602405|0": {
+    "first_seen": 1785398466.3434238,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
   "ebay:v1|177384328482|0": {
     "first_seen": 1784936222.1875782,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|177384817635|0": {
+    "first_seen": 1785080687.4695733,
     "status": "active",
     "watch_item_ids": [
       "shunbun"
@@ -990,11 +2363,19 @@
       "santos"
     ]
   },
+  "ebay:v1|177830318536|0": {
+    "first_seen": 1785627368.5270505,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
   "ebay:v1|177920773595|0": {
     "first_seen": 1784880023.1324224,
     "status": "active",
     "watch_item_ids": [
-      "gs-shunbun"
+      "gs-shunbun",
+      "shunbun"
     ]
   },
   "ebay:v1|177921839142|0": {
@@ -1018,11 +2399,32 @@
       "shunbun"
     ]
   },
+  "ebay:v1|177999063714|0": {
+    "first_seen": 1785283699.734569,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|178001676941|0": {
+    "first_seen": 1785573787.7034457,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
   "ebay:v1|178137517130|0": {
     "first_seen": 1785025355.8019261,
     "status": "active",
     "watch_item_ids": [
       "submariner"
+    ]
+  },
+  "ebay:v1|178140159589|0": {
+    "first_seen": 1786162668.3300478,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
     ]
   },
   "ebay:v1|178240274196|0": {
@@ -1032,11 +2434,39 @@
       "seiko willard"
     ]
   },
+  "ebay:v1|178253565243|0": {
+    "first_seen": 1785225055.0777946,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|178260208255|0": {
+    "first_seen": 1785599315.3326716,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|178269966443|0": {
+    "first_seen": 1785455225.6838953,
+    "status": "active",
+    "watch_item_ids": [
+      "submariner"
+    ]
+  },
   "ebay:v1|178274409206|0": {
     "first_seen": 1785024041.8417296,
     "status": "active",
     "watch_item_ids": [
       "submariner"
+    ]
+  },
+  "ebay:v1|178302375710|0": {
+    "first_seen": 1785320236.3556929,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
     ]
   },
   "ebay:v1|178308248607|0": {
@@ -1137,6 +2567,153 @@
       "santos"
     ]
   },
+  "ebay:v1|178342277829|0": {
+    "first_seen": 1786095588.7292624,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|178346461212|0": {
+    "first_seen": 1785109114.2591403,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|178347719499|0": {
+    "first_seen": 1785254172.2551515,
+    "status": "active",
+    "watch_item_ids": [
+      "submariner"
+    ]
+  },
+  "ebay:v1|178348743224|0": {
+    "first_seen": 1785224973.955911,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|178349183682|0": {
+    "first_seen": 1785224929.477373,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|178349867194|0": {
+    "first_seen": 1785224929.3761353,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|178356396271|0": {
+    "first_seen": 1785425817.4083388,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|178356852797|0": {
+    "first_seen": 1785425698.8256826,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|178362445156|0": {
+    "first_seen": 1785627274.5177152,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|178362837826|0": {
+    "first_seen": 1785599228.7747078,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|178363906627|0": {
+    "first_seen": 1785627295.1083012,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|178365229602|0": {
+    "first_seen": 1785671151.281915,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|178371094706|0": {
+    "first_seen": 1785831087.8236783,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|178372782457|0": {
+    "first_seen": 1785860642.0167491,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|178373031416|0": {
+    "first_seen": 1785860641.8485029,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|178373044472|0": {
+    "first_seen": 1785860642.1924105,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|178375141287|0": {
+    "first_seen": 1785910501.4618025,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|178377744848|0": {
+    "first_seen": 1785968633.000177,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|178380508317|0": {
+    "first_seen": 1786067265.3715587,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|178383770526|0": {
+    "first_seen": 1786162661.427996,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch"
+    ]
+  },
+  "ebay:v1|186378232776|694428381887": {
+    "first_seen": 1785910631.545184,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
   "ebay:v1|186505600828|0": {
     "first_seen": 1785015424.1103227,
     "status": "active",
@@ -1149,6 +2726,13 @@
     "status": "active",
     "watch_item_ids": [
       "seiko willard"
+    ]
+  },
+  "ebay:v1|187581416005|0": {
+    "first_seen": 1785109192.8074586,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
     ]
   },
   "ebay:v1|187866417855|0": {
@@ -1172,6 +2756,27 @@
       "santos"
     ]
   },
+  "ebay:v1|187949012780|0": {
+    "first_seen": 1785425816.5950806,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|188088618894|0": {
+    "first_seen": 1785109173.1404374,
+    "status": "active",
+    "watch_item_ids": [
+      "submariner"
+    ]
+  },
+  "ebay:v1|188089823630|0": {
+    "first_seen": 1786067154.8763676,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
   "ebay:v1|188098467705|0": {
     "first_seen": 1785015706.6588593,
     "status": "active",
@@ -1191,6 +2796,13 @@
     "status": "active",
     "watch_item_ids": [
       "seiko willard"
+    ]
+  },
+  "ebay:v1|188461553426|0": {
+    "first_seen": 1785050665.4608276,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
     ]
   },
   "ebay:v1|188548025569|0": {
@@ -1215,6 +2827,27 @@
       "aqua terra"
     ]
   },
+  "ebay:v1|188645676814|0": {
+    "first_seen": 1785515092.9146163,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|188646506370|0": {
+    "first_seen": 1785050546.1762896,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|188652852762|0": {
+    "first_seen": 1785320235.8443105,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
   "ebay:v1|188668352363|0": {
     "first_seen": 1784944727.874449,
     "status": "active",
@@ -1227,6 +2860,13 @@
     "status": "active",
     "watch_item_ids": [
       "gs-shunbun"
+    ]
+  },
+  "ebay:v1|188677156182|0": {
+    "first_seen": 1785080742.7504632,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
     ]
   },
   "ebay:v1|188678676824|0": {
@@ -1278,11 +2918,144 @@
       "shunbun"
     ]
   },
+  "ebay:v1|188696346431|0": {
+    "first_seen": 1785050665.0269356,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|188696372649|0": {
+    "first_seen": 1785050434.2293904,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|188704309877|0": {
+    "first_seen": 1785283781.4649637,
+    "status": "active",
+    "watch_item_ids": [
+      "submariner"
+    ]
+  },
+  "ebay:v1|188705462935|0": {
+    "first_seen": 1785225125.581933,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|188707791037|0": {
+    "first_seen": 1785254189.9498386,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|188717438622|0": {
+    "first_seen": 1785425816.8929508,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|188719322188|0": {
+    "first_seen": 1785671152.1044912,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|188733349478|0": {
+    "first_seen": 1785700951.7623487,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|188735119566|0": {
+    "first_seen": 1785760836.9869192,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|188737800550|0": {
+    "first_seen": 1785910522.0586548,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|188742916054|0": {
+    "first_seen": 1785860703.0140674,
+    "status": "active",
+    "watch_item_ids": [
+      "submariner"
+    ]
+  },
+  "ebay:v1|188745209350|0": {
+    "first_seen": 1785910535.9558034,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|188745969730|0": {
+    "first_seen": 1785910575.4542632,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|188748832234|0": {
+    "first_seen": 1786067266.012245,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|188749035452|0": {
+    "first_seen": 1785968632.817277,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|188760407296|0": {
+    "first_seen": 1786189427.7407403,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
   "ebay:v1|196069699243|0": {
     "first_seen": 1784924205.4190912,
     "status": "active",
     "watch_item_ids": [
       "seiko willard"
+    ]
+  },
+  "ebay:v1|197640478081|0": {
+    "first_seen": 1785283781.5978775,
+    "status": "active",
+    "watch_item_ids": [
+      "submariner"
+    ]
+  },
+  "ebay:v1|198079945949|0": {
+    "first_seen": 1785175372.4624932,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|198180969075|0": {
+    "first_seen": 1786095588.5695956,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
     ]
   },
   "ebay:v1|198303112577|0": {
@@ -1314,6 +3087,13 @@
       "james bond watch"
     ]
   },
+  "ebay:v1|198395549322|0": {
+    "first_seen": 1785283813.499307,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
   "ebay:v1|198454366685|0": {
     "first_seen": 1785015602.4923208,
     "status": "active",
@@ -1342,11 +3122,137 @@
       "santos"
     ]
   },
+  "ebay:v1|198510556704|0": {
+    "first_seen": 1785080766.3528354,
+    "status": "active",
+    "watch_item_ids": [
+      "submariner"
+    ]
+  },
   "ebay:v1|198523947873|0": {
     "first_seen": 1785023810.2802198,
     "status": "active",
     "watch_item_ids": [
       "Omega Constellation"
+    ]
+  },
+  "ebay:v1|198526697198|0": {
+    "first_seen": 1785175502.8888202,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|198527360656|0": {
+    "first_seen": 1785175327.6209357,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|198529666830|0": {
+    "first_seen": 1785225054.4740357,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|198529666861|0": {
+    "first_seen": 1785225054.7254338,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|198530893235|0": {
+    "first_seen": 1785283751.5436397,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch"
+    ]
+  },
+  "ebay:v1|198531199117|0": {
+    "first_seen": 1785283700.0412319,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|198534881925|0": {
+    "first_seen": 1785425761.2981071,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch"
+    ]
+  },
+  "ebay:v1|198535540337|0": {
+    "first_seen": 1785492276.1083925,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|198535962313|0": {
+    "first_seen": 1785455266.2037246,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|198544857201|0": {
+    "first_seen": 1785831087.2258382,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|198546512583|0": {
+    "first_seen": 1785860690.2025192,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|198547997918|0": {
+    "first_seen": 1786003458.6558888,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|198554411890|0": {
+    "first_seen": 1786125925.637998,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|198555324064|0": {
+    "first_seen": 1786162661.427952,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch"
+    ]
+  },
+  "ebay:v1|198555345931|0": {
+    "first_seen": 1786162668.329981,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|198555403704|0": {
+    "first_seen": 1786162668.3300421,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|198556801207|0": {
+    "first_seen": 1786211394.8184876,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch"
     ]
   },
   "ebay:v1|202716530031|0": {
@@ -1468,6 +3374,13 @@
       "vostok"
     ]
   },
+  "ebay:v1|205256623586|0": {
+    "first_seen": 1785254129.1949754,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
   "ebay:v1|205892262428|0": {
     "first_seen": 1784924229.2981737,
     "status": "active",
@@ -1480,6 +3393,20 @@
     "status": "active",
     "watch_item_ids": [
       "seiko willard"
+    ]
+  },
+  "ebay:v1|206120408044|0": {
+    "first_seen": 1785356226.4083843,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|206180525941|0": {
+    "first_seen": 1785224999.3636367,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
     ]
   },
   "ebay:v1|206184108720|0": {
@@ -1503,6 +3430,20 @@
       "vostok"
     ]
   },
+  "ebay:v1|206252131348|0": {
+    "first_seen": 1785283700.1617513,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|206262010166|0": {
+    "first_seen": 1785225080.8758228,
+    "status": "active",
+    "watch_item_ids": [
+      "submariner"
+    ]
+  },
   "ebay:v1|206308223825|0": {
     "first_seen": 1785015523.1760929,
     "status": "active",
@@ -1517,11 +3458,32 @@
       "submariner"
     ]
   },
+  "ebay:v1|206337680941|0": {
+    "first_seen": 1785515093.061515,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|206340981239|0": {
+    "first_seen": 1785050388.4714768,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
   "ebay:v1|206359267654|0": {
     "first_seen": 1785024042.1456184,
     "status": "active",
     "watch_item_ids": [
       "submariner"
+    ]
+  },
+  "ebay:v1|206367906161|0": {
+    "first_seen": 1785224974.194918,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
     ]
   },
   "ebay:v1|206368133628|0": {
@@ -1531,11 +3493,32 @@
       "Omega Constellation"
     ]
   },
+  "ebay:v1|206374801836|0": {
+    "first_seen": 1785225126.4177065,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|206395443081|0": {
+    "first_seen": 1785760794.2721708,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
   "ebay:v1|206396152867|0": {
     "first_seen": 1784923768.4918442,
     "status": "active",
     "watch_item_ids": [
       "Omega Constellation"
+    ]
+  },
+  "ebay:v1|206403452539|0": {
+    "first_seen": 1785109192.7115781,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
     ]
   },
   "ebay:v1|206403459920|0": {
@@ -1547,6 +3530,13 @@
   },
   "ebay:v1|206403604994|0": {
     "first_seen": 1785023810.4083972,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|206405935584|0": {
+    "first_seen": 1785320213.3000078,
     "status": "active",
     "watch_item_ids": [
       "Omega Constellation"
@@ -1573,6 +3563,48 @@
       "james bond watch"
     ]
   },
+  "ebay:v1|206415726273|0": {
+    "first_seen": 1785050473.5157704,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|206416294517|0": {
+    "first_seen": 1785080806.4596388,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|206418877243|0": {
+    "first_seen": 1785627307.056167,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|206419094143|0": {
+    "first_seen": 1785283770.1957269,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|206419274254|0": {
+    "first_seen": 1785968602.024262,
+    "status": "active",
+    "watch_item_ids": [
+      "submariner"
+    ]
+  },
+  "ebay:v1|206419840049|0": {
+    "first_seen": 1785671152.2844229,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
   "ebay:v1|206419843677|0": {
     "first_seen": 1784923410.7893598,
     "status": "active",
@@ -1582,6 +3614,20 @@
   },
   "ebay:v1|206419892059|0": {
     "first_seen": 1784924988.469051,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|206422337791|0": {
+    "first_seen": 1785356206.1186953,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|206422421121|0": {
+    "first_seen": 1785356206.1187065,
     "status": "active",
     "watch_item_ids": [
       "Omega Constellation"
@@ -1620,6 +3666,27 @@
     "status": "active",
     "watch_item_ids": [
       "james bond watch"
+    ]
+  },
+  "ebay:v1|206431301830|0": {
+    "first_seen": 1785050507.655908,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch"
+    ]
+  },
+  "ebay:v1|206433841250|0": {
+    "first_seen": 1785425774.1210907,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|206435076263|0": {
+    "first_seen": 1785968522.10453,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
     ]
   },
   "ebay:v1|206435260030|0": {
@@ -1671,6 +3738,125 @@
       "vostok"
     ]
   },
+  "ebay:v1|206443466977|0": {
+    "first_seen": 1785109126.5912874,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|206445982595|0": {
+    "first_seen": 1785175327.5339322,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|206446676311|0": {
+    "first_seen": 1785224929.1134295,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|206447687337|0": {
+    "first_seen": 1785254189.8496351,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|206450555609|0": {
+    "first_seen": 1785356206.11869,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|206450803642|0": {
+    "first_seen": 1785515093.2635608,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|206452287333|0": {
+    "first_seen": 1785425761.186963,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch"
+    ]
+  },
+  "ebay:v1|206452575193|0": {
+    "first_seen": 1785425733.660103,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|206453078630|0": {
+    "first_seen": 1786067231.3415885,
+    "status": "active",
+    "watch_item_ids": [
+      "submariner"
+    ]
+  },
+  "ebay:v1|206453252316|0": {
+    "first_seen": 1785455211.5640187,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|206453813413|0": {
+    "first_seen": 1785492171.9095454,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|206460322165|0": {
+    "first_seen": 1785700928.365232,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|206462615349|0": {
+    "first_seen": 1785968521.9300017,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|206467349372|0": {
+    "first_seen": 1785932936.689345,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|206468047367|0": {
+    "first_seen": 1785968588.5439475,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|206473324129|0": {
+    "first_seen": 1786189414.628175,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|206475920363|0": {
+    "first_seen": 1786233814.8459632,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
   "ebay:v1|226982926164|0": {
     "first_seen": 1784924078.9646692,
     "status": "active",
@@ -1680,6 +3866,13 @@
   },
   "ebay:v1|227103016650|0": {
     "first_seen": 1785015705.9582634,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|227103020425|0": {
+    "first_seen": 1785455267.6956131,
     "status": "active",
     "watch_item_ids": [
       "santos"
@@ -1706,6 +3899,20 @@
       "Omega Constellation"
     ]
   },
+  "ebay:v1|227389633779|0": {
+    "first_seen": 1785543295.5705721,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|227401629220|0": {
+    "first_seen": 1785543175.014418,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
   "ebay:v1|227403652450|0": {
     "first_seen": 1784923676.8664076,
     "status": "active",
@@ -1718,6 +3925,13 @@
     "status": "active",
     "watch_item_ids": [
       "Omega Constellation"
+    ]
+  },
+  "ebay:v1|227408723740|0": {
+    "first_seen": 1785543196.3219197,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
     ]
   },
   "ebay:v1|227410754970|0": {
@@ -1748,11 +3962,32 @@
       "gs-shunbun"
     ]
   },
+  "ebay:v1|227424213971|0": {
+    "first_seen": 1785783614.9126737,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|227427357642|0": {
+    "first_seen": 1785050434.004355,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
   "ebay:v1|227429285729|0": {
     "first_seen": 1785015421.709644,
     "status": "active",
     "watch_item_ids": [
       "james bond watch"
+    ]
+  },
+  "ebay:v1|227434672646|0": {
+    "first_seen": 1785968633.1764743,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
     ]
   },
   "ebay:v1|227437252449|0": {
@@ -1767,6 +4002,13 @@
     "status": "active",
     "watch_item_ids": [
       "aqua terra"
+    ]
+  },
+  "ebay:v1|227439455195|0": {
+    "first_seen": 1785050473.33686,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
     ]
   },
   "ebay:v1|227440929037|0": {
@@ -1818,11 +4060,214 @@
       "Omega Constellation"
     ]
   },
+  "ebay:v1|227446123888|0": {
+    "first_seen": 1785080706.997849,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|227446123891|0": {
+    "first_seen": 1785109126.6779265,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
   "ebay:v1|227446372449|0": {
     "first_seen": 1784935985.7831652,
     "status": "active",
     "watch_item_ids": [
       "Omega Constellation"
+    ]
+  },
+  "ebay:v1|227448613945|0": {
+    "first_seen": 1785080806.2285018,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|227448720076|0": {
+    "first_seen": 1785109161.710922,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|227452780643|0": {
+    "first_seen": 1785320322.6055646,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|227454066671|0": {
+    "first_seen": 1785671151.6044002,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|227454593408|0": {
+    "first_seen": 1785599229.1050646,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|227454679931|0": {
+    "first_seen": 1785425761.560106,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch"
+    ]
+  },
+  "ebay:v1|227455445434|0": {
+    "first_seen": 1785455267.5571616,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|227455512931|0": {
+    "first_seen": 1785492172.499328,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|227456870148|0": {
+    "first_seen": 1785543235.8573067,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch"
+    ]
+  },
+  "ebay:v1|227456889185|0": {
+    "first_seen": 1785543255.4188287,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|227457028172|0": {
+    "first_seen": 1785573821.659519,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|227457290324|0": {
+    "first_seen": 1785573821.1944292,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|227458264408|0": {
+    "first_seen": 1785671151.4675088,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|227459782721|0": {
+    "first_seen": 1785760836.3549051,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|227462072912|0": {
+    "first_seen": 1786095630.405682,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|227462135920|0": {
+    "first_seen": 1785910576.4619033,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|227462135935|0": {
+    "first_seen": 1785910595.2995057,
+    "status": "active",
+    "watch_item_ids": [
+      "submariner"
+    ]
+  },
+  "ebay:v1|227464288316|0": {
+    "first_seen": 1786003495.471567,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|227465039379|0": {
+    "first_seen": 1786067263.8452985,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|227465104268|0": {
+    "first_seen": 1786067079.1076164,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|227465375686|0": {
+    "first_seen": 1786067264.0749497,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|227465582667|0": {
+    "first_seen": 1786162661.4280012,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch"
+    ]
+  },
+  "ebay:v1|227465680707|0": {
+    "first_seen": 1786095665.0621269,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|236279072615|0": {
+    "first_seen": 1785080766.082309,
+    "status": "active",
+    "watch_item_ids": [
+      "submariner"
+    ]
+  },
+  "ebay:v1|236692490585|0": {
+    "first_seen": 1785254190.177447,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|236707372059|0": {
+    "first_seen": 1786233828.8748612,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|236800606302|0": {
+    "first_seen": 1785783584.0124137,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch"
     ]
   },
   "ebay:v1|236822115674|0": {
@@ -1839,11 +4284,39 @@
       "james bond watch"
     ]
   },
+  "ebay:v1|236894804898|0": {
+    "first_seen": 1785320290.6016746,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
   "ebay:v1|236908164794|0": {
     "first_seen": 1785015599.778419,
     "status": "active",
     "watch_item_ids": [
       "submariner"
+    ]
+  },
+  "ebay:v1|236935918120|0": {
+    "first_seen": 1785050473.401599,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|236954429820|0": {
+    "first_seen": 1785080676.0908892,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|236958401540|0": {
+    "first_seen": 1785254190.3110313,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
     ]
   },
   "ebay:v1|236958798396|0": {
@@ -1867,11 +4340,88 @@
       "Omega Constellation"
     ]
   },
+  "ebay:v1|236970470402|0": {
+    "first_seen": 1785320213.6042106,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|236971376760|0": {
+    "first_seen": 1785356310.6229095,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|236975558102|0": {
+    "first_seen": 1785543174.7474527,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|236975633889|0": {
+    "first_seen": 1785543268.364844,
+    "status": "active",
+    "watch_item_ids": [
+      "submariner"
+    ]
+  },
+  "ebay:v1|236983520162|0": {
+    "first_seen": 1786095665.0621483,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|236988223633|0": {
+    "first_seen": 1786003458.4536266,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|236989852228|0": {
+    "first_seen": 1786067079.3482153,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|236994212283|0": {
+    "first_seen": 1786233828.87479,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|256516529506|0": {
+    "first_seen": 1785932937.2985537,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
   "ebay:v1|256576463947|0": {
     "first_seen": 1785015302.8505669,
     "status": "active",
     "watch_item_ids": [
       "vostok"
+    ]
+  },
+  "ebay:v1|256620961392|0": {
+    "first_seen": 1785224999.606954,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|257038442234|0": {
+    "first_seen": 1785080676.430144,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
     ]
   },
   "ebay:v1|257375028116|0": {
@@ -1881,11 +4431,39 @@
       "Omega Constellation"
     ]
   },
+  "ebay:v1|257375291941|0": {
+    "first_seen": 1786211391.6852436,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|257380791364|0": {
+    "first_seen": 1785910536.475946,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|257406005257|0": {
+    "first_seen": 1785050507.4381027,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch"
+    ]
+  },
   "ebay:v1|257444358351|0": {
     "first_seen": 1785015303.9672635,
     "status": "active",
     "watch_item_ids": [
       "vostok"
+    ]
+  },
+  "ebay:v1|257472013967|0": {
+    "first_seen": 1785831044.8995938,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
     ]
   },
   "ebay:v1|257483778630|0": {
@@ -1895,11 +4473,46 @@
       "submariner"
     ]
   },
+  "ebay:v1|257540677895|0": {
+    "first_seen": 1785425761.7005365,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch"
+    ]
+  },
   "ebay:v1|257556344884|0": {
     "first_seen": 1785023927.571293,
     "status": "active",
     "watch_item_ids": [
       "james bond watch"
+    ]
+  },
+  "ebay:v1|257557074387|0": {
+    "first_seen": 1785831013.7930732,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch"
+    ]
+  },
+  "ebay:v1|257563074740|0": {
+    "first_seen": 1785254160.233131,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|257569339986|0": {
+    "first_seen": 1786095630.2171595,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|257569398863|0": {
+    "first_seen": 1786003415.4735627,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
     ]
   },
   "ebay:v1|257571156725|0": {
@@ -1916,11 +4529,39 @@
       "santos"
     ]
   },
+  "ebay:v1|257583672722|0": {
+    "first_seen": 1785573787.8568664,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|257584718400|0": {
+    "first_seen": 1785910536.3199189,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|257584744030|0": {
+    "first_seen": 1785050434.1282191,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
   "ebay:v1|257585798754|0": {
     "first_seen": 1785015705.2695243,
     "status": "active",
     "watch_item_ids": [
       "santos"
+    ]
+  },
+  "ebay:v1|257586501362|0": {
+    "first_seen": 1785224999.4681633,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
     ]
   },
   "ebay:v1|257586545531|0": {
@@ -1930,6 +4571,34 @@
       "vostok"
     ]
   },
+  "ebay:v1|257587412900|0": {
+    "first_seen": 1785050546.1157842,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|257589371553|0": {
+    "first_seen": 1785492275.9398446,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|257592578321|0": {
+    "first_seen": 1785080707.1550045,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|257595067360|0": {
+    "first_seen": 1786003472.700491,
+    "status": "active",
+    "watch_item_ids": [
+      "submariner"
+    ]
+  },
   "ebay:v1|257611112593|0": {
     "first_seen": 1785025355.2273316,
     "status": "active",
@@ -1937,11 +4606,39 @@
       "submariner"
     ]
   },
+  "ebay:v1|257612160172|0": {
+    "first_seen": 1785356284.4979963,
+    "status": "active",
+    "watch_item_ids": [
+      "submariner"
+    ]
+  },
+  "ebay:v1|257612735439|0": {
+    "first_seen": 1785455146.4074898,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|257612757014|0": {
+    "first_seen": 1785356244.0046868,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
   "ebay:v1|257613092268|0": {
     "first_seen": 1785015303.0525239,
     "status": "active",
     "watch_item_ids": [
       "vostok"
+    ]
+  },
+  "ebay:v1|257614445768|0": {
+    "first_seen": 1785425817.5218654,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
     ]
   },
   "ebay:v1|257615031671|0": {
@@ -1956,6 +4653,13 @@
     "status": "active",
     "watch_item_ids": [
       "santos"
+    ]
+  },
+  "ebay:v1|257628213835|0": {
+    "first_seen": 1785492219.331871,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
     ]
   },
   "ebay:v1|257628839962|0": {
@@ -1979,6 +4683,27 @@
       "shunbun"
     ]
   },
+  "ebay:v1|257635260118|0": {
+    "first_seen": 1785080731.7062461,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch"
+    ]
+  },
+  "ebay:v1|257640408388|0": {
+    "first_seen": 1785080806.5517597,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|257640452939|0": {
+    "first_seen": 1785109192.8728821,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
   "ebay:v1|257640475692|0": {
     "first_seen": 1785015706.0932884,
     "status": "active",
@@ -1991,6 +4716,146 @@
     "status": "active",
     "watch_item_ids": [
       "shunbun"
+    ]
+  },
+  "ebay:v1|257642612255|0": {
+    "first_seen": 1785050433.9076347,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|257644129551|0": {
+    "first_seen": 1785968588.7174416,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|257647307150|0": {
+    "first_seen": 1785515092.7165203,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|257648293170|0": {
+    "first_seen": 1785599315.1750057,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|257648732784|0": {
+    "first_seen": 1785320303.8327413,
+    "status": "active",
+    "watch_item_ids": [
+      "submariner"
+    ]
+  },
+  "ebay:v1|257649804445|0": {
+    "first_seen": 1785356244.0046809,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|257649898888|0": {
+    "first_seen": 1785398410.1243052,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|257651682517|0": {
+    "first_seen": 1785783614.724106,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|257651962241|0": {
+    "first_seen": 1785968633.8656874,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|257653691397|0": {
+    "first_seen": 1785599261.359169,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|257655025743|0": {
+    "first_seen": 1785671237.5735729,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|257655029101|0": {
+    "first_seen": 1785627368.2340443,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|257655441007|0": {
+    "first_seen": 1785627368.396341,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|257655937205|0": {
+    "first_seen": 1785671180.7363346,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|257658020950|0": {
+    "first_seen": 1785760768.380842,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|257664182332|0": {
+    "first_seen": 1785968633.3577397,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|257667244739|0": {
+    "first_seen": 1786125925.6379895,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|257667853567|0": {
+    "first_seen": 1786162668.3300366,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|264278121164|0": {
+    "first_seen": 1785515162.196789,
+    "status": "active",
+    "watch_item_ids": [
+      "submariner"
+    ]
+  },
+  "ebay:v1|267283882913|0": {
+    "first_seen": 1785050507.5954542,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch"
     ]
   },
   "ebay:v1|267292185192|0": {
@@ -2007,11 +4872,53 @@
       "james bond watch"
     ]
   },
+  "ebay:v1|267354052497|0": {
+    "first_seen": 1785225080.3713374,
+    "status": "active",
+    "watch_item_ids": [
+      "submariner"
+    ]
+  },
+  "ebay:v1|267593252703|0": {
+    "first_seen": 1785109161.7752497,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
   "ebay:v1|267631850888|0": {
     "first_seen": 1785025354.3561652,
     "status": "active",
     "watch_item_ids": [
       "submariner"
+    ]
+  },
+  "ebay:v1|267639930198|0": {
+    "first_seen": 1785700928.5454578,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|267647415808|0": {
+    "first_seen": 1785356284.4980633,
+    "status": "active",
+    "watch_item_ids": [
+      "submariner"
+    ]
+  },
+  "ebay:v1|267649081299|0": {
+    "first_seen": 1785320323.1917608,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|267656639148|0": {
+    "first_seen": 1785254090.8926916,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
     ]
   },
   "ebay:v1|267658796879|0": {
@@ -2035,6 +4942,13 @@
       "vostok"
     ]
   },
+  "ebay:v1|267683144342|0": {
+    "first_seen": 1785050577.247807,
+    "status": "active",
+    "watch_item_ids": [
+      "submariner"
+    ]
+  },
   "ebay:v1|267686002019|0": {
     "first_seen": 1785015705.4022243,
     "status": "active",
@@ -2056,6 +4970,27 @@
       "aqua terra"
     ]
   },
+  "ebay:v1|267708577890|0": {
+    "first_seen": 1785968633.683801,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|267709031133|0": {
+    "first_seen": 1786211400.6783872,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|267713817652|0": {
+    "first_seen": 1785109193.017392,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
   "ebay:v1|267716772486|0": {
     "first_seen": 1784760344.182757,
     "status": "active",
@@ -2069,6 +5004,20 @@
     "status": "active",
     "watch_item_ids": [
       "santos"
+    ]
+  },
+  "ebay:v1|267726411864|0": {
+    "first_seen": 1785398410.233494,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|267726414106|0": {
+    "first_seen": 1785573787.390917,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
     ]
   },
   "ebay:v1|267727743051|0": {
@@ -2106,6 +5055,13 @@
       "james bond watch"
     ]
   },
+  "ebay:v1|267733447500|0": {
+    "first_seen": 1785225125.9195483,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
   "ebay:v1|267734449253|0": {
     "first_seen": 1784944669.2591426,
     "status": "active",
@@ -2118,6 +5074,13 @@
     "status": "active",
     "watch_item_ids": [
       "shunbun"
+    ]
+  },
+  "ebay:v1|267735707278|0": {
+    "first_seen": 1785760855.7701435,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
     ]
   },
   "ebay:v1|267735849636|0": {
@@ -2155,6 +5118,153 @@
       "aqua terra"
     ]
   },
+  "ebay:v1|267740060164|0": {
+    "first_seen": 1785700965.1044378,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|267740600396|0": {
+    "first_seen": 1785455146.153054,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|267741102463|0": {
+    "first_seen": 1785283730.7060344,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|267741527691|0": {
+    "first_seen": 1785283769.988125,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|267742106233|0": {
+    "first_seen": 1785356255.5807028,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch"
+    ]
+  },
+  "ebay:v1|267742848968|0": {
+    "first_seen": 1785398410.4892604,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|267742974462|0": {
+    "first_seen": 1785425761.0357475,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch"
+    ]
+  },
+  "ebay:v1|267743794004|0": {
+    "first_seen": 1785515092.5150657,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|267744114607|0": {
+    "first_seen": 1785543255.298644,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|267744141392|0": {
+    "first_seen": 1785543295.8500707,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|267744395135|0": {
+    "first_seen": 1785573821.5285542,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|267745210972|0": {
+    "first_seen": 1785671222.260013,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|267746451188|0": {
+    "first_seen": 1785831044.7298884,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|267747878062|0": {
+    "first_seen": 1785910501.038683,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|267748971244|0": {
+    "first_seen": 1786003402.029557,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|267749538622|0": {
+    "first_seen": 1786067264.699375,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|267749777113|0": {
+    "first_seen": 1786162654.9002364,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|267750250428|0": {
+    "first_seen": 1786095630.0464094,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|267750776273|0": {
+    "first_seen": 1786233824.301748,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|267750947828|0": {
+    "first_seen": 1786211387.7463956,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|267751299652|0": {
+    "first_seen": 1786211387.746436,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
   "ebay:v1|277043077114|0": {
     "first_seen": 1784924988.1400151,
     "status": "active",
@@ -2174,6 +5284,13 @@
     "status": "active",
     "watch_item_ids": [
       "submariner"
+    ]
+  },
+  "ebay:v1|277749214760|0": {
+    "first_seen": 1785050473.579529,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
     ]
   },
   "ebay:v1|277833956131|0": {
@@ -2204,11 +5321,32 @@
       "submariner"
     ]
   },
+  "ebay:v1|278072263594|0": {
+    "first_seen": 1785175447.0954232,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
   "ebay:v1|278122612941|0": {
     "first_seen": 1785024109.6709645,
     "status": "active",
     "watch_item_ids": [
       "santos"
+    ]
+  },
+  "ebay:v1|278128881123|0": {
+    "first_seen": 1785356226.4083796,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|278146235737|0": {
+    "first_seen": 1785425761.8107958,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch"
     ]
   },
   "ebay:v1|278162724723|0": {
@@ -2232,11 +5370,32 @@
       "aqua terra"
     ]
   },
+  "ebay:v1|278185094512|0": {
+    "first_seen": 1785175397.4744358,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
   "ebay:v1|278190181504|0": {
     "first_seen": 1785015597.3001933,
     "status": "active",
     "watch_item_ids": [
       "submariner"
+    ]
+  },
+  "ebay:v1|278195308635|0": {
+    "first_seen": 1785225054.972242,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|278195344472|0": {
+    "first_seen": 1785080806.3925602,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
     ]
   },
   "ebay:v1|278195423954|0": {
@@ -2253,11 +5412,200 @@
       "vostok"
     ]
   },
+  "ebay:v1|278210918319|0": {
+    "first_seen": 1785080806.7815852,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
   "ebay:v1|278214216469|0": {
     "first_seen": 1785015707.1553688,
     "status": "active",
     "watch_item_ids": [
       "santos"
+    ]
+  },
+  "ebay:v1|278214587466|0": {
+    "first_seen": 1785050576.999057,
+    "status": "active",
+    "watch_item_ids": [
+      "submariner"
+    ]
+  },
+  "ebay:v1|278214664517|0": {
+    "first_seen": 1785050664.8730426,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|278215703568|0": {
+    "first_seen": 1785225054.8264468,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|278219643589|0": {
+    "first_seen": 1785109161.6197019,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|278219859734|0": {
+    "first_seen": 1785109087.7212424,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|278222119694|0": {
+    "first_seen": 1785175502.7563925,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|278223170506|0": {
+    "first_seen": 1785225024.836901,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch"
+    ]
+  },
+  "ebay:v1|278228853682|0": {
+    "first_seen": 1785356274.1926897,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|278231777928|0": {
+    "first_seen": 1785455210.8124552,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|278232483455|0": {
+    "first_seen": 1785455211.0600162,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|278232982357|0": {
+    "first_seen": 1785515141.5046513,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch"
+    ]
+  },
+  "ebay:v1|278234652998|0": {
+    "first_seen": 1785573822.0071008,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|278235513852|0": {
+    "first_seen": 1785543236.1244457,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch"
+    ]
+  },
+  "ebay:v1|278235890699|0": {
+    "first_seen": 1785573801.0983245,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch"
+    ]
+  },
+  "ebay:v1|278237047395|0": {
+    "first_seen": 1785599315.0458465,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|278239236051|0": {
+    "first_seen": 1785671212.9477358,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch"
+    ]
+  },
+  "ebay:v1|278241229368|0": {
+    "first_seen": 1785760717.169302,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|278242972908|0": {
+    "first_seen": 1785783537.7802048,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|278242973514|0": {
+    "first_seen": 1785760717.3319268,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|278242976299|0": {
+    "first_seen": 1785910501.8425756,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|278242996441|0": {
+    "first_seen": 1785830924.9648666,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|278246722385|0": {
+    "first_seen": 1785860717.1604536,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|278247114076|0": {
+    "first_seen": 1785910575.6762457,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|278249346019|0": {
+    "first_seen": 1785932950.2685459,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|278250642821|0": {
+    "first_seen": 1785968602.181152,
+    "status": "active",
+    "watch_item_ids": [
+      "submariner"
+    ]
+  },
+  "ebay:v1|286488988032|0": {
+    "first_seen": 1785356255.5807073,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch"
     ]
   },
   "ebay:v1|286711267767|0": {
@@ -2309,6 +5657,13 @@
       "Omega Constellation"
     ]
   },
+  "ebay:v1|287414522667|0": {
+    "first_seen": 1785320270.4097767,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch"
+    ]
+  },
   "ebay:v1|287419578870|0": {
     "first_seen": 1785015303.2328024,
     "status": "active",
@@ -2323,8 +5678,36 @@
       "Omega Constellation"
     ]
   },
+  "ebay:v1|287431614140|0": {
+    "first_seen": 1785080676.4951544,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
   "ebay:v1|287434518905|0": {
     "first_seen": 1785024112.355552,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|287450290876|0": {
+    "first_seen": 1785425733.7798235,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|287451035638|0": {
+    "first_seen": 1785080806.846883,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|287454555201|0": {
+    "first_seen": 1785968634.0445487,
     "status": "active",
     "watch_item_ids": [
       "santos"
@@ -2344,15 +5727,36 @@
       "aqua terra"
     ]
   },
-  "ebay:v1|287481213789|0": {
-    "first_seen": 1785015704.3180606,
+  "ebay:v1|287474912963|0": {
+    "first_seen": 1786003458.8522484,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|287474921819|0": {
+    "first_seen": 1785425774.436934,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|287476822940|0": {
+    "first_seen": 1785080806.714967,
     "status": "active",
     "watch_item_ids": [
       "santos"
     ]
   },
-  "ebay:v1|287481800480|0": {
-    "first_seen": 1785025451.7996268,
+  "ebay:v1|287478281546|0": {
+    "first_seen": 1785225126.1727862,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|287481213789|0": {
+    "first_seen": 1785015704.3180606,
     "status": "active",
     "watch_item_ids": [
       "santos"
@@ -2365,11 +5769,291 @@
       "santos"
     ]
   },
+  "ebay:v1|287483745788|0": {
+    "first_seen": 1785050388.3758218,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|287483805271|0": {
+    "first_seen": 1785050388.531702,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
   "ebay:v1|287484007537|0": {
     "first_seen": 1785015304.1855335,
     "status": "active",
     "watch_item_ids": [
       "vostok"
+    ]
+  },
+  "ebay:v1|287484365193|0": {
+    "first_seen": 1785050545.7783778,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|287485341250|0": {
+    "first_seen": 1785080675.9942646,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|287486106870|0": {
+    "first_seen": 1785254090.7595792,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|287487178239|0": {
+    "first_seen": 1785175502.9810839,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|287488416651|0": {
+    "first_seen": 1785254172.1525195,
+    "status": "active",
+    "watch_item_ids": [
+      "submariner"
+    ]
+  },
+  "ebay:v1|287489645916|0": {
+    "first_seen": 1785283813.7229776,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|287490645966|0": {
+    "first_seen": 1786067091.9287298,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|287491466556|0": {
+    "first_seen": 1785356206.1186838,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|287492117271|0": {
+    "first_seen": 1785398410.3784668,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|287493432148|0": {
+    "first_seen": 1785455211.4511237,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|287493462069|0": {
+    "first_seen": 1785543235.7087893,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch"
+    ]
+  },
+  "ebay:v1|287493714090|0": {
+    "first_seen": 1785455146.2975965,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|287497176459|0": {
+    "first_seen": 1785627306.7346518,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|287498833412|0": {
+    "first_seen": 1785700951.6167529,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|287499172488|0": {
+    "first_seen": 1785700964.7674506,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|287500458714|0": {
+    "first_seen": 1785760793.967416,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|287501121377|0": {
+    "first_seen": 1785860689.4628105,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|287501211386|0": {
+    "first_seen": 1785783614.5370655,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|287501551718|0": {
+    "first_seen": 1785830925.2806098,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|287501551754|0": {
+    "first_seen": 1785830925.6155503,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|287502031577|0": {
+    "first_seen": 1785831043.8669813,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|287503270510|0": {
+    "first_seen": 1785860717.3480418,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|287503650552|0": {
+    "first_seen": 1785910595.1381645,
+    "status": "active",
+    "watch_item_ids": [
+      "submariner"
+    ]
+  },
+  "ebay:v1|287504142341|0": {
+    "first_seen": 1785910502.2571242,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|287504290027|0": {
+    "first_seen": 1785910500.4367476,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|287506273937|0": {
+    "first_seen": 1786003495.076679,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|287506632939|0": {
+    "first_seen": 1786003401.818498,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|287507950552|0": {
+    "first_seen": 1786067216.424426,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|287508254316|0": {
+    "first_seen": 1786162661.4279995,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch"
+    ]
+  },
+  "ebay:v1|287508358089|0": {
+    "first_seen": 1786067231.1689954,
+    "status": "active",
+    "watch_item_ids": [
+      "submariner"
+    ]
+  },
+  "ebay:v1|287509847871|0": {
+    "first_seen": 1786095670.6446185,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|287510376521|0": {
+    "first_seen": 1786125931.2793238,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|287510543476|0": {
+    "first_seen": 1786162668.3300319,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|287510884491|0": {
+    "first_seen": 1786125936.8392162,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|287512126433|0": {
+    "first_seen": 1786189424.3647265,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|287513070246|0": {
+    "first_seen": 1786233817.5005322,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|287513168047|0": {
+    "first_seen": 1786233824.3016984,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|287513500320|0": {
+    "first_seen": 1786233821.99216,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch"
     ]
   },
   "ebay:v1|297706191232|0": {
@@ -2381,6 +6065,20 @@
   },
   "ebay:v1|297781711534|0": {
     "first_seen": 1785024040.7304087,
+    "status": "active",
+    "watch_item_ids": [
+      "submariner"
+    ]
+  },
+  "ebay:v1|298250517591|0": {
+    "first_seen": 1785573840.6558645,
+    "status": "active",
+    "watch_item_ids": [
+      "submariner"
+    ]
+  },
+  "ebay:v1|298270315331|0": {
+    "first_seen": 1785492257.116781,
     "status": "active",
     "watch_item_ids": [
       "submariner"
@@ -2404,7 +6102,22 @@
     "first_seen": 1784760533.086131,
     "status": "active",
     "watch_item_ids": [
-      "gs-shunbun"
+      "gs-shunbun",
+      "shunbun"
+    ]
+  },
+  "ebay:v1|298429425189|0": {
+    "first_seen": 1786233828.8748643,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|298479691893|0": {
+    "first_seen": 1785080731.8751678,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch"
     ]
   },
   "ebay:v1|298482406627|0": {
@@ -2412,6 +6125,34 @@
     "status": "active",
     "watch_item_ids": [
       "gs-shunbun"
+    ]
+  },
+  "ebay:v1|298502124559|0": {
+    "first_seen": 1786125936.8392246,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|298502608769|0": {
+    "first_seen": 1785109193.082032,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|298507653883|0": {
+    "first_seen": 1785320323.0116432,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|298512395665|0": {
+    "first_seen": 1785109087.9872363,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
     ]
   },
   "ebay:v1|298513481004|0": {
@@ -2428,8 +6169,22 @@
       "gs-shunbun"
     ]
   },
+  "ebay:v1|298515669076|0": {
+    "first_seen": 1785050545.966364,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
   "ebay:v1|298518409547|0": {
     "first_seen": 1785024111.281031,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|298523364060|0": {
+    "first_seen": 1785175503.2175426,
     "status": "active",
     "watch_item_ids": [
       "santos"
@@ -2484,11 +6239,187 @@
       "aqua terra"
     ]
   },
+  "ebay:v1|298538708801|0": {
+    "first_seen": 1785225125.4384224,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|298540199501|0": {
+    "first_seen": 1785283804.291143,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|298540502000|0": {
+    "first_seen": 1785283769.8933115,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra",
+      "james bond watch"
+    ]
+  },
+  "ebay:v1|298545256797|0": {
+    "first_seen": 1785455210.9237022,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|298546456981|0": {
+    "first_seen": 1785492206.9266894,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|298548672795|0": {
+    "first_seen": 1785599297.6681337,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|298551269565|0": {
+    "first_seen": 1785627328.2331824,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|298551452408|0": {
+    "first_seen": 1785760836.817403,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|298553977904|0": {
+    "first_seen": 1785760855.953424,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|298553986147|0": {
+    "first_seen": 1785831087.3614953,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|298556262837|0": {
+    "first_seen": 1785830925.146574,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|298560081887|0": {
+    "first_seen": 1785910631.3513165,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|298562561707|0": {
+    "first_seen": 1785968575.8373642,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch"
+    ]
+  },
+  "ebay:v1|298565252575|0": {
+    "first_seen": 1786067152.2139459,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|298565849290|0": {
+    "first_seen": 1786189427.7407084,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|298566746877|0": {
+    "first_seen": 1786125923.7597983,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|298568328981|0": {
+    "first_seen": 1786162654.9002337,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|298570451507|0": {
+    "first_seen": 1786233824.3017519,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|304057517688|0": {
+    "first_seen": 1785627328.3995392,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|304873027954|0": {
+    "first_seen": 1785224999.2592335,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|306361229047|0": {
+    "first_seen": 1785515115.721982,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
   "ebay:v1|306566922226|0": {
     "first_seen": 1784944613.7639353,
     "status": "active",
     "watch_item_ids": [
       "vostok"
+    ]
+  },
+  "ebay:v1|306699115468|0": {
+    "first_seen": 1785830969.3074558,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|306788811651|0": {
+    "first_seen": 1785050665.6823115,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|306844735296|0": {
+    "first_seen": 1785573787.5769656,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|306914423035|0": {
+    "first_seen": 1785254142.0884523,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch"
     ]
   },
   "ebay:v1|306984859097|0": {
@@ -2503,6 +6434,13 @@
     "status": "active",
     "watch_item_ids": [
       "gs-shunbun"
+    ]
+  },
+  "ebay:v1|307008670001|0": {
+    "first_seen": 1785320256.7855058,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
     ]
   },
   "ebay:v1|307008700147|0": {
@@ -2547,6 +6485,90 @@
       "Omega Constellation"
     ]
   },
+  "ebay:v1|307087070184|0": {
+    "first_seen": 1785080687.3445396,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|307087595179|0": {
+    "first_seen": 1785175446.6325548,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|307088684125|0": {
+    "first_seen": 1785175372.5509467,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|307095809354|0": {
+    "first_seen": 1785425817.1529806,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|307098303274|0": {
+    "first_seen": 1785543295.4215925,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|307100300883|0": {
+    "first_seen": 1785760855.598804,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|307100330978|0": {
+    "first_seen": 1785627339.7581103,
+    "status": "active",
+    "watch_item_ids": [
+      "submariner"
+    ]
+  },
+  "ebay:v1|307100891028|0": {
+    "first_seen": 1785671181.1925702,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|307101031378|0": {
+    "first_seen": 1785671181.0591345,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|307102493679|0": {
+    "first_seen": 1785910501.2491884,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|307107286598|0": {
+    "first_seen": 1785910576.2536595,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|307113175345|0": {
+    "first_seen": 1786162654.9002306,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
   "ebay:v1|314705337273|0": {
     "first_seen": 1784944670.0188022,
     "status": "active",
@@ -2561,11 +6583,39 @@
       "gs-shunbun"
     ]
   },
+  "ebay:v1|317104424481|0": {
+    "first_seen": 1785356244.0046923,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|317679581403|0": {
+    "first_seen": 1785109150.2164803,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch"
+    ]
+  },
+  "ebay:v1|317828002446|0": {
+    "first_seen": 1785175397.6002274,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
   "ebay:v1|318279924755|0": {
     "first_seen": 1785023861.8739462,
     "status": "active",
     "watch_item_ids": [
       "vostok"
+    ]
+  },
+  "ebay:v1|318289318107|0": {
+    "first_seen": 1785224974.33491,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
     ]
   },
   "ebay:v1|318290100807|0": {
@@ -2596,8 +6646,29 @@
       "Omega Constellation"
     ]
   },
+  "ebay:v1|318537468015|0": {
+    "first_seen": 1785492219.492609,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|318576394934|0": {
+    "first_seen": 1785050664.9667506,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
   "ebay:v1|318580368735|0": {
     "first_seen": 1784923594.5018275,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|318580379040|0": {
+    "first_seen": 1785356206.1186998,
     "status": "active",
     "watch_item_ids": [
       "Omega Constellation"
@@ -2608,6 +6679,20 @@
     "status": "active",
     "watch_item_ids": [
       "gs-shunbun"
+    ]
+  },
+  "ebay:v1|318593183188|0": {
+    "first_seen": 1786095588.2347863,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|318593524324|0": {
+    "first_seen": 1785283770.3129907,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
     ]
   },
   "ebay:v1|318595245939|0": {
@@ -2626,6 +6711,13 @@
   },
   "ebay:v1|318596355566|0": {
     "first_seen": 1784923821.2325082,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|318598794511|0": {
+    "first_seen": 1785109087.7835472,
     "status": "active",
     "watch_item_ids": [
       "Omega Constellation"
@@ -2687,6 +6779,20 @@
       "shunbun"
     ]
   },
+  "ebay:v1|318608529895|0": {
+    "first_seen": 1785398371.5280983,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|318611373167|0": {
+    "first_seen": 1786233819.5263429,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
   "ebay:v1|318619757115|0": {
     "first_seen": 1785023928.0982246,
     "status": "active",
@@ -2722,6 +6828,13 @@
       "vostok"
     ]
   },
+  "ebay:v1|318632217071|0": {
+    "first_seen": 1785050546.235839,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
   "ebay:v1|318634594420|0": {
     "first_seen": 1785015153.2349012,
     "status": "active",
@@ -2736,11 +6849,221 @@
       "Omega Constellation"
     ]
   },
+  "ebay:v1|318637441673|0": {
+    "first_seen": 1785080706.8359616,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|318641940163|0": {
+    "first_seen": 1785175327.403071,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|318646556928|0": {
+    "first_seen": 1786003402.780884,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|318648892655|0": {
+    "first_seen": 1785398465.9479861,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|318649313240|0": {
+    "first_seen": 1785398436.8328097,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|318651282838|0": {
+    "first_seen": 1785425761.4499357,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch"
+    ]
+  },
+  "ebay:v1|318652903437|0": {
+    "first_seen": 1785398436.973219,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|318656396397|0": {
+    "first_seen": 1785455158.2814202,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|318660166469|0": {
+    "first_seen": 1785830925.7456295,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|318660252920|0": {
+    "first_seen": 1785860690.6112874,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|318663923895|0": {
+    "first_seen": 1785831013.9582143,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch"
+    ]
+  },
+  "ebay:v1|318664500180|0": {
+    "first_seen": 1785627273.898425,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|318664564158|0": {
+    "first_seen": 1785627274.0619771,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|318668771887|0": {
+    "first_seen": 1785700901.8258913,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|318673193117|0": {
+    "first_seen": 1785830969.1095335,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|318678484048|0": {
+    "first_seen": 1785910631.1632197,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|318681560650|0": {
+    "first_seen": 1785932936.892163,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|318685314212|0": {
+    "first_seen": 1786003444.8073516,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch"
+    ]
+  },
+  "ebay:v1|318686519570|0": {
+    "first_seen": 1786067153.9331193,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|318686519860|0": {
+    "first_seen": 1786067153.6324522,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|318686520028|0": {
+    "first_seen": 1786067154.3728585,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|318686520099|0": {
+    "first_seen": 1786067153.388841,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|318686520294|0": {
+    "first_seen": 1786067152.895277,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|318686520494|0": {
+    "first_seen": 1786067154.1247547,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|318686520565|0": {
+    "first_seen": 1786067153.1324756,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|318686520809|0": {
+    "first_seen": 1786067152.7012858,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|318686924804|0": {
+    "first_seen": 1786067200.992268,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch"
+    ]
+  },
+  "ebay:v1|318687728649|0": {
+    "first_seen": 1786067216.193074,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|325917672924|0": {
+    "first_seen": 1785320303.9612439,
+    "status": "active",
+    "watch_item_ids": [
+      "submariner"
+    ]
+  },
   "ebay:v1|326005350088|0": {
     "first_seen": 1784924191.1948755,
     "status": "active",
     "watch_item_ids": [
       "seiko willard"
+    ]
+  },
+  "ebay:v1|326885219488|0": {
+    "first_seen": 1785671237.8713865,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
     ]
   },
   "ebay:v1|326982719778|0": {
@@ -2757,6 +7080,20 @@
       "shunbun"
     ]
   },
+  "ebay:v1|327100245113|0": {
+    "first_seen": 1785175372.347188,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|327149475028|0": {
+    "first_seen": 1785050388.685128,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
   "ebay:v1|327155484324|0": {
     "first_seen": 1785024110.1628463,
     "status": "active",
@@ -2771,11 +7108,25 @@
       "Omega Constellation"
     ]
   },
+  "ebay:v1|327217885527|0": {
+    "first_seen": 1785320290.4270656,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
   "ebay:v1|327227208492|0": {
     "first_seen": 1784923965.4557545,
     "status": "active",
     "watch_item_ids": [
       "seiko willard"
+    ]
+  },
+  "ebay:v1|327230584682|0": {
+    "first_seen": 1785175503.1198707,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
     ]
   },
   "ebay:v1|327240463098|0": {
@@ -2820,6 +7171,90 @@
       "shunbun"
     ]
   },
+  "ebay:v1|327280398352|0": {
+    "first_seen": 1785254160.131334,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|327282412875|0": {
+    "first_seen": 1785225125.8183608,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|327283470403|0": {
+    "first_seen": 1785599228.9414496,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|327285795942|0": {
+    "first_seen": 1785398436.7232096,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|327286148901|0": {
+    "first_seen": 1785398466.202668,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|327287123781|0": {
+    "first_seen": 1785492172.3735693,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|327288012510|0": {
+    "first_seen": 1785573851.8947248,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|327294943734|0": {
+    "first_seen": 1785910631.8825488,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|327295309349|0": {
+    "first_seen": 1785910500.8702312,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|327296937283|0": {
+    "first_seen": 1786003458.2878907,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|327298707838|0": {
+    "first_seen": 1786095665.0621452,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|327301139163|0": {
+    "first_seen": 1786233814.8458982,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
   "ebay:v1|334315876900|0": {
     "first_seen": 1785025356.0310714,
     "status": "active",
@@ -2834,11 +7269,25 @@
       "james bond watch"
     ]
   },
+  "ebay:v1|334386692546|0": {
+    "first_seen": 1785050576.8755515,
+    "status": "active",
+    "watch_item_ids": [
+      "submariner"
+    ]
+  },
   "ebay:v1|334946158308|0": {
     "first_seen": 1785015421.3272004,
     "status": "active",
     "watch_item_ids": [
       "james bond watch"
+    ]
+  },
+  "ebay:v1|335894255722|0": {
+    "first_seen": 1785109192.9534628,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
     ]
   },
   "ebay:v1|335896169153|0": {
@@ -2848,11 +7297,67 @@
       "santos"
     ]
   },
+  "ebay:v1|335925892024|0": {
+    "first_seen": 1785455268.0580833,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|336176815308|0": {
+    "first_seen": 1785254129.295529,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|336180814631|0": {
+    "first_seen": 1785080706.902747,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|336180819025|0": {
+    "first_seen": 1785356244.00469,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|336180819418|0": {
+    "first_seen": 1785224999.0084546,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
   "ebay:v1|336180835333|0": {
     "first_seen": 1784944613.5768454,
     "status": "active",
     "watch_item_ids": [
       "vostok"
+    ]
+  },
+  "ebay:v1|336255733884|0": {
+    "first_seen": 1785283740.8597388,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|336262760565|0": {
+    "first_seen": 1785398466.7606068,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|336313309386|0": {
+    "first_seen": 1785968634.2277534,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
     ]
   },
   "ebay:v1|336315131724|0": {
@@ -2862,8 +7367,43 @@
       "santos"
     ]
   },
+  "ebay:v1|336339187029|0": {
+    "first_seen": 1785455171.6945426,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
   "ebay:v1|336455451954|0": {
     "first_seen": 1785015302.4297645,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|336455452985|0": {
+    "first_seen": 1785356244.0046768,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|336474268052|0": {
+    "first_seen": 1786067265.5935602,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|336500193019|0": {
+    "first_seen": 1785320256.9921503,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|336511184643|0": {
+    "first_seen": 1785050461.5883014,
     "status": "active",
     "watch_item_ids": [
       "vostok"
@@ -2883,11 +7423,32 @@
       "Omega Constellation"
     ]
   },
+  "ebay:v1|336581201792|0": {
+    "first_seen": 1785425817.2655437,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|336595153522|0": {
+    "first_seen": 1786095629.8729832,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
   "ebay:v1|336633672167|0": {
     "first_seen": 1785015306.491122,
     "status": "active",
     "watch_item_ids": [
       "vostok"
+    ]
+  },
+  "ebay:v1|336639358402|0": {
+    "first_seen": 1785109114.5406218,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
     ]
   },
   "ebay:v1|336652049890|0": {
@@ -2932,6 +7493,13 @@
       "seiko willard"
     ]
   },
+  "ebay:v1|336681228567|0": {
+    "first_seen": 1785225126.3147404,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
   "ebay:v1|336696958743|0": {
     "first_seen": 1784923654.0637987,
     "status": "active",
@@ -2960,6 +7528,111 @@
       "james bond watch"
     ]
   },
+  "ebay:v1|336709841130|0": {
+    "first_seen": 1785109173.0462737,
+    "status": "active",
+    "watch_item_ids": [
+      "submariner"
+    ]
+  },
+  "ebay:v1|336713262702|0": {
+    "first_seen": 1785254159.759763,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|336713970324|0": {
+    "first_seen": 1785283699.9492636,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|336715312490|0": {
+    "first_seen": 1785356274.192694,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|336715562331|0": {
+    "first_seen": 1785356310.6227922,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|336715568542|0": {
+    "first_seen": 1785356274.1926353,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|336715575110|0": {
+    "first_seen": 1785425817.0043125,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|336717006471|0": {
+    "first_seen": 1785455184.035174,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch"
+    ]
+  },
+  "ebay:v1|336717370205|0": {
+    "first_seen": 1785455210.5608158,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|336718538506|0": {
+    "first_seen": 1785543296.2841635,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|336720845945|0": {
+    "first_seen": 1785671180.8977063,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|336725782114|0": {
+    "first_seen": 1785860595.2486005,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|336729802828|0": {
+    "first_seen": 1786067265.1485136,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|336730049932|0": {
+    "first_seen": 1786067200.7466598,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch"
+    ]
+  },
+  "ebay:v1|336730505469|0": {
+    "first_seen": 1786067091.6933997,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
   "ebay:v1|353481106200|0": {
     "first_seen": 1785023983.0286822,
     "status": "active",
@@ -2972,6 +7645,13 @@
     "status": "active",
     "watch_item_ids": [
       "james bond watch"
+    ]
+  },
+  "ebay:v1|356176358026|0": {
+    "first_seen": 1785320256.6701949,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
     ]
   },
   "ebay:v1|356739940872|0": {
@@ -2988,6 +7668,20 @@
       "seiko willard"
     ]
   },
+  "ebay:v1|357869727911|0": {
+    "first_seen": 1785398371.284082,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|358204043967|0": {
+    "first_seen": 1785050546.3848388,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
   "ebay:v1|358264272675|0": {
     "first_seen": 1785023982.2662168,
     "status": "active",
@@ -3002,11 +7696,53 @@
       "shunbun"
     ]
   },
+  "ebay:v1|358426074818|0": {
+    "first_seen": 1785320270.094205,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch"
+    ]
+  },
+  "ebay:v1|358511327202|0": {
+    "first_seen": 1785224999.110559,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|358583184330|0": {
+    "first_seen": 1786162668.330045,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
   "ebay:v1|358585948283|0": {
     "first_seen": 1784760506.967725,
     "status": "active",
     "watch_item_ids": [
       "gs-shunbun"
+    ]
+  },
+  "ebay:v1|358698075046|0": {
+    "first_seen": 1785860655.5666327,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|358699376073|0": {
+    "first_seen": 1786067169.1379666,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|358701133991|0": {
+    "first_seen": 1785760768.54975,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
     ]
   },
   "ebay:v1|358705577462|0": {
@@ -3030,11 +7766,32 @@
       "shunbun"
     ]
   },
+  "ebay:v1|358731689707|0": {
+    "first_seen": 1785700964.9564476,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|358736042898|0": {
+    "first_seen": 1785080731.7750742,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch"
+    ]
+  },
   "ebay:v1|358774677937|0": {
     "first_seen": 1785023927.1414616,
     "status": "active",
     "watch_item_ids": [
       "james bond watch"
+    ]
+  },
+  "ebay:v1|358776882467|0": {
+    "first_seen": 1785356310.6229067,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
     ]
   },
   "ebay:v1|358781427907|0": {
@@ -3105,6 +7862,13 @@
     "status": "active",
     "watch_item_ids": [
       "Omega Constellation"
+    ]
+  },
+  "ebay:v1|358830919740|0": {
+    "first_seen": 1785175503.5459294,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
     ]
   },
   "ebay:v1|358830930366|0": {
@@ -3212,11 +7976,270 @@
       "shunbun"
     ]
   },
+  "ebay:v1|358841545559|0": {
+    "first_seen": 1785175446.8659077,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
   "ebay:v1|358843048265|0": {
     "first_seen": 1785015153.0304651,
     "status": "active",
     "watch_item_ids": [
       "Omega Constellation"
+    ]
+  },
+  "ebay:v1|358856859413|0": {
+    "first_seen": 1785860642.467072,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|358858799256|0": {
+    "first_seen": 1785356310.6229036,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|358858945890|0": {
+    "first_seen": 1785425816.738027,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|358860324091|0": {
+    "first_seen": 1785398398.518977,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|358860353661|0": {
+    "first_seen": 1785398398.7579322,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|358861286464|0": {
+    "first_seen": 1785573764.4796526,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|358861371606|0": {
+    "first_seen": 1785425720.9450376,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|358861410463|0": {
+    "first_seen": 1785425721.0977051,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|358862635607|0": {
+    "first_seen": 1785515151.1717982,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|358863715928|0": {
+    "first_seen": 1785455171.4272325,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|358865229703|0": {
+    "first_seen": 1785492245.2374122,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|358865229709|0": {
+    "first_seen": 1785492245.1233413,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|358867795793|0": {
+    "first_seen": 1785627327.9432642,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|358875320835|0": {
+    "first_seen": 1785700951.2384927,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|358884232560|0": {
+    "first_seen": 1785968588.3605652,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|358884348848|0": {
+    "first_seen": 1785910536.1341805,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|358885217817|0": {
+    "first_seen": 1785910502.0502646,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|358887830567|0": {
+    "first_seen": 1786067265.8287876,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|358889814878|0": {
+    "first_seen": 1786095661.8739867,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch"
+    ]
+  },
+  "ebay:v1|358890505529|0": {
+    "first_seen": 1786003444.596658,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch"
+    ]
+  },
+  "ebay:v1|358891273178|0": {
+    "first_seen": 1786067152.4584358,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|358892571163|0": {
+    "first_seen": 1786067215.9703484,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|358895134243|0": {
+    "first_seen": 1786125936.8392198,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|358895349634|0": {
+    "first_seen": 1786095661.734323,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch"
+    ]
+  },
+  "ebay:v1|358896326179|0": {
+    "first_seen": 1786125925.6379294,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|358897465183|0": {
+    "first_seen": 1786162663.7465262,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|358897913266|0": {
+    "first_seen": 1786162663.7465303,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|358899315878|0": {
+    "first_seen": 1786189419.935745,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|366025533212|0": {
+    "first_seen": 1785860667.6073687,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch"
+    ]
+  },
+  "ebay:v1|366055994596|0": {
+    "first_seen": 1785671213.1201198,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch"
+    ]
+  },
+  "ebay:v1|366126066900|0": {
+    "first_seen": 1785700901.629983,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|366142830101|0": {
+    "first_seen": 1785175503.3156328,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|366411619122|0": {
+    "first_seen": 1785283813.9516792,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|366497301735|0": {
+    "first_seen": 1785515115.5302997,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|366530658480|0": {
+    "first_seen": 1786233819.526398,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|366531916089|0": {
+    "first_seen": 1785050473.644712,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
     ]
   },
   "ebay:v1|366535459186|0": {
@@ -3226,11 +8249,25 @@
       "Omega Constellation"
     ]
   },
+  "ebay:v1|366543310148|0": {
+    "first_seen": 1786003495.2727773,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
   "ebay:v1|366546657074|0": {
     "first_seen": 1784944612.1519048,
     "status": "active",
     "watch_item_ids": [
       "vostok"
+    ]
+  },
+  "ebay:v1|366548767641|0": {
+    "first_seen": 1785283770.104268,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
     ]
   },
   "ebay:v1|366552758068|0": {
@@ -3261,11 +8298,130 @@
       "Omega Constellation"
     ]
   },
+  "ebay:v1|366563065278|0": {
+    "first_seen": 1785671237.7076054,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
   "ebay:v1|366563287850|0": {
     "first_seen": 1784944597.646196,
     "status": "active",
     "watch_item_ids": [
       "vostok"
+    ]
+  },
+  "ebay:v1|366569059723|0": {
+    "first_seen": 1785175328.0281472,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|366572052105|0": {
+    "first_seen": 1785320289.8403635,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|366575432470|0": {
+    "first_seen": 1785455158.4251711,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|366575530208|0": {
+    "first_seen": 1785492244.8647318,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|366581338743|0": {
+    "first_seen": 1785700951.4253597,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|366581902798|0": {
+    "first_seen": 1785760793.6399083,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|366581927797|0": {
+    "first_seen": 1785760793.8030624,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|366583577096|0": {
+    "first_seen": 1785783614.3862987,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|366583894885|0": {
+    "first_seen": 1785783537.5798585,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|366584410047|0": {
+    "first_seen": 1785860690.4058425,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|366584734264|0": {
+    "first_seen": 1786003402.5802875,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|366586900389|0": {
+    "first_seen": 1785910631.7288265,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|366592875195|0": {
+    "first_seen": 1786162663.746464,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|366592911496|0": {
+    "first_seen": 1786233814.8459659,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|366593094647|0": {
+    "first_seen": 1786162654.9001794,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|373735552898|0": {
+    "first_seen": 1785831059.8342156,
+    "status": "active",
+    "watch_item_ids": [
+      "submariner"
     ]
   },
   "ebay:v1|376226968912|0": {
@@ -3275,11 +8431,19 @@
       "submariner"
     ]
   },
+  "ebay:v1|377115329095|0": {
+    "first_seen": 1786003378.2470822,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
   "ebay:v1|377194485493|0": {
     "first_seen": 1784760460.621934,
     "status": "active",
     "watch_item_ids": [
-      "gs-shunbun"
+      "gs-shunbun",
+      "shunbun"
     ]
   },
   "ebay:v1|377259280684|0": {
@@ -3317,8 +8481,22 @@
       "Omega Constellation"
     ]
   },
+  "ebay:v1|377354506593|0": {
+    "first_seen": 1785320236.043551,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
   "ebay:v1|377357390424|0": {
     "first_seen": 1784936553.0905352,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|377362164880|0": {
+    "first_seen": 1785175397.2423222,
     "status": "active",
     "watch_item_ids": [
       "vostok"
@@ -3394,6 +8572,13 @@
       "aqua terra"
     ]
   },
+  "ebay:v1|377369614142|0": {
+    "first_seen": 1785109150.1538353,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch"
+    ]
+  },
   "ebay:v1|377369625179|0": {
     "first_seen": 1785015153.535295,
     "status": "active",
@@ -3401,11 +8586,158 @@
       "Omega Constellation"
     ]
   },
+  "ebay:v1|377370305617|0": {
+    "first_seen": 1785050461.5240107,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|377371594354|0": {
+    "first_seen": 1785109126.5239723,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|377375524873|0": {
+    "first_seen": 1785425698.5658607,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|377376489741|0": {
+    "first_seen": 1785515115.8600137,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|377376677602|0": {
+    "first_seen": 1785671213.2575238,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch"
+    ]
+  },
+  "ebay:v1|377376843067|0": {
+    "first_seen": 1785283730.3640807,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|377379357407|0": {
+    "first_seen": 1785356244.004684,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|377381707731|0": {
+    "first_seen": 1785831044.0396945,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|377383531826|0": {
+    "first_seen": 1785831044.402276,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|377386658119|0": {
+    "first_seen": 1786211400.6783917,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|377387344742|0": {
+    "first_seen": 1785627368.0704956,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|377388457481|0": {
+    "first_seen": 1785831044.5616932,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|377390554140|0": {
+    "first_seen": 1785830925.446364,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|377390683731|0": {
+    "first_seen": 1785760768.2133768,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|377393391424|0": {
+    "first_seen": 1785860690.0099456,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|377394860895|0": {
+    "first_seen": 1785968576.1702347,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch"
+    ]
+  },
+  "ebay:v1|377402246009|0": {
+    "first_seen": 1786162657.6052566,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|377402676049|0": {
+    "first_seen": 1786162665.8636527,
+    "status": "active",
+    "watch_item_ids": [
+      "submariner"
+    ]
+  },
+  "ebay:v1|377402704491|0": {
+    "first_seen": 1786162663.746523,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|377404350096|0": {
+    "first_seen": 1786233817.5004535,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
   "ebay:v1|388869400350|0": {
     "first_seen": 1784760426.0991163,
     "status": "active",
     "watch_item_ids": [
       "gs-shunbun"
+    ]
+  },
+  "ebay:v1|389306927876|0": {
+    "first_seen": 1785320257.1238284,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
     ]
   },
   "ebay:v1|389314685886|0": {
@@ -3422,6 +8754,34 @@
       "seiko willard"
     ]
   },
+  "ebay:v1|389756901567|0": {
+    "first_seen": 1785543268.5159712,
+    "status": "active",
+    "watch_item_ids": [
+      "submariner"
+    ]
+  },
+  "ebay:v1|389792213607|0": {
+    "first_seen": 1786003495.6778367,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|389811405209|0": {
+    "first_seen": 1786125925.638001,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|389896399287|0": {
+    "first_seen": 1786067092.3472,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
   "ebay:v1|394860097145|0": {
     "first_seen": 1784924164.8059921,
     "status": "active",
@@ -3431,6 +8791,13 @@
   },
   "ebay:v1|397200556329|0": {
     "first_seen": 1785023926.6695964,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch"
+    ]
+  },
+  "ebay:v1|397311200349|0": {
+    "first_seen": 1786095662.0437038,
     "status": "active",
     "watch_item_ids": [
       "james bond watch"
@@ -3447,11 +8814,26 @@
     "first_seen": 1784760516.631862,
     "status": "active",
     "watch_item_ids": [
-      "gs-shunbun"
+      "gs-shunbun",
+      "shunbun"
+    ]
+  },
+  "ebay:v1|397636911258|0": {
+    "first_seen": 1785783560.9073658,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
     ]
   },
   "ebay:v1|397806116599|0": {
     "first_seen": 1785015302.3315313,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|397821921164|0": {
+    "first_seen": 1785080707.0612547,
     "status": "active",
     "watch_item_ids": [
       "vostok"
@@ -3471,6 +8853,13 @@
       "gs-shunbun"
     ]
   },
+  "ebay:v1|398034500621|0": {
+    "first_seen": 1785932961.9310386,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
   "ebay:v1|398056609885|0": {
     "first_seen": 1785024041.3484707,
     "status": "active",
@@ -3485,6 +8874,34 @@
       "gs-shunbun"
     ]
   },
+  "ebay:v1|398119014395|0": {
+    "first_seen": 1785320256.4875796,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|398130786483|0": {
+    "first_seen": 1785225055.2288585,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|398152328179|0": {
+    "first_seen": 1785283813.5949128,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|398174847114|0": {
+    "first_seen": 1785225080.9807959,
+    "status": "active",
+    "watch_item_ids": [
+      "submariner"
+    ]
+  },
   "ebay:v1|398184855918|0": {
     "first_seen": 1785015153.733389,
     "status": "active",
@@ -3497,6 +8914,13 @@
     "status": "active",
     "watch_item_ids": [
       "vostok"
+    ]
+  },
+  "ebay:v1|398196668646|0": {
+    "first_seen": 1785492172.2003524,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
     ]
   },
   "ebay:v1|398199849981|0": {
@@ -3555,11 +8979,214 @@
       "Omega Constellation"
     ]
   },
+  "ebay:v1|398220529411|0": {
+    "first_seen": 1785175397.1422133,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|398225238793|0": {
+    "first_seen": 1785283813.3764963,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|398225753536|0": {
+    "first_seen": 1785573851.7347314,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|398226931781|0": {
+    "first_seen": 1785356244.004622,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|398229124046|0": {
+    "first_seen": 1785492275.646331,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|398230067805|0": {
+    "first_seen": 1785599297.5112708,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|398231841811|0": {
+    "first_seen": 1785492207.0843604,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|398233315366|0": {
+    "first_seen": 1785573821.3601284,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|398235314721|0": {
+    "first_seen": 1785543196.1971858,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|398240714343|0": {
+    "first_seen": 1785671191.3186965,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|398244424212|0": {
+    "first_seen": 1785860689.6625829,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|398244443314|0": {
+    "first_seen": 1785860689.8667076,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|398245996466|0": {
+    "first_seen": 1785831060.0723026,
+    "status": "active",
+    "watch_item_ids": [
+      "submariner"
+    ]
+  },
+  "ebay:v1|398246603435|0": {
+    "first_seen": 1785831086.9963229,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|398247978772|0": {
+    "first_seen": 1785831086.775822,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|398253032875|0": {
+    "first_seen": 1785968550.8184571,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|398253710615|0": {
+    "first_seen": 1786067264.2892084,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|398254315336|0": {
+    "first_seen": 1785968521.7481909,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|398255209569|0": {
+    "first_seen": 1786003472.4965806,
+    "status": "active",
+    "watch_item_ids": [
+      "submariner"
+    ]
+  },
+  "ebay:v1|398255343082|0": {
+    "first_seen": 1786003402.3884618,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|398257023460|0": {
+    "first_seen": 1786067230.723711,
+    "status": "active",
+    "watch_item_ids": [
+      "submariner"
+    ]
+  },
+  "ebay:v1|398258027639|0": {
+    "first_seen": 1786162663.746528,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|398258451425|0": {
+    "first_seen": 1786095670.64466,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|398260380811|0": {
+    "first_seen": 1786125936.8392224,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|398264590749|0": {
+    "first_seen": 1786233814.845948,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|398264843946|0": {
+    "first_seen": 1786233814.845943,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
   "ebay:v1|406215811405|0": {
     "first_seen": 1785015521.849452,
     "status": "active",
     "watch_item_ids": [
       "aqua terra"
+    ]
+  },
+  "ebay:v1|406219620079|0": {
+    "first_seen": 1785320322.8926728,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|406455921856|0": {
+    "first_seen": 1785700939.5089917,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch"
+    ]
+  },
+  "ebay:v1|406567248198|0": {
+    "first_seen": 1785320213.4817195,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
     ]
   },
   "ebay:v1|406581013120|0": {
@@ -3576,11 +9203,25 @@
       "james bond watch"
     ]
   },
+  "ebay:v1|406840715505|0": {
+    "first_seen": 1785543296.1355622,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
   "ebay:v1|406870689698|0": {
     "first_seen": 1784760673.5853984,
     "status": "active",
     "watch_item_ids": [
       "gs-shunbun"
+    ]
+  },
+  "ebay:v1|406911638251|0": {
+    "first_seen": 1785398371.392441,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
     ]
   },
   "ebay:v1|406970081292|0": {
@@ -3595,6 +9236,13 @@
     "status": "active",
     "watch_item_ids": [
       "vostok"
+    ]
+  },
+  "ebay:v1|406983935214|0": {
+    "first_seen": 1785175459.2551987,
+    "status": "active",
+    "watch_item_ids": [
+      "submariner"
     ]
   },
   "ebay:v1|407006012428|0": {
@@ -3702,6 +9350,13 @@
       "aqua terra"
     ]
   },
+  "ebay:v1|407093853339|0": {
+    "first_seen": 1785050507.8037522,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch"
+    ]
+  },
   "ebay:v1|407095520055|0": {
     "first_seen": 1785015154.2364557,
     "status": "active",
@@ -3709,11 +9364,242 @@
       "Omega Constellation"
     ]
   },
+  "ebay:v1|407098178784|0": {
+    "first_seen": 1785356274.1926992,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|407099519311|0": {
+    "first_seen": 1785175328.233887,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|407104214097|0": {
+    "first_seen": 1785254159.9946194,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|407104649567|0": {
+    "first_seen": 1785320290.1291652,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|407104653985|0": {
+    "first_seen": 1785320290.3097925,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|407104656042|0": {
+    "first_seen": 1785320290.0186384,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|407104692308|0": {
+    "first_seen": 1785283730.4908252,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|407105200937|0": {
+    "first_seen": 1785398466.0911624,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|407105201473|0": {
+    "first_seen": 1785398465.8383129,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|407105211937|0": {
+    "first_seen": 1785398465.69913,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|407105214764|0": {
+    "first_seen": 1785320323.3145535,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|407106395441|0": {
+    "first_seen": 1785455266.091007,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|407106781013|0": {
+    "first_seen": 1785356310.6228971,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|407107403872|0": {
+    "first_seen": 1785492275.7718418,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|407108660371|0": {
+    "first_seen": 1785455211.31366,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|407109283573|0": {
+    "first_seen": 1785455211.2032402,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|407109319806|0": {
+    "first_seen": 1785543295.7262347,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|407109327873|0": {
+    "first_seen": 1785543296.0107055,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|407113198742|0": {
+    "first_seen": 1785627274.3510897,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|407115009964|0": {
+    "first_seen": 1785783614.1855836,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|407115201920|0": {
+    "first_seen": 1785760836.6530514,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|407118418729|0": {
+    "first_seen": 1785910575.2458498,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|407119854236|0": {
+    "first_seen": 1785860608.3708258,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|407120820504|0": {
+    "first_seen": 1785910500.652291,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|407121156622|0": {
+    "first_seen": 1785910576.6718698,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|407125749333|0": {
+    "first_seen": 1786067230.9516752,
+    "status": "active",
+    "watch_item_ids": [
+      "submariner"
+    ]
+  },
+  "ebay:v1|407126908479|0": {
+    "first_seen": 1786125931.2793198,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|407127910902|0": {
+    "first_seen": 1786162657.605208,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|407128007275|0": {
+    "first_seen": 1786162663.7465186,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|407128043536|0": {
+    "first_seen": 1786162663.7465246,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|407128110754|0": {
+    "first_seen": 1786162654.9002256,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|800084215205|0": {
+    "first_seen": 1785627306.896098,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
   "ebay:v1|800243586806|0": {
     "first_seen": 1784944508.1009161,
     "status": "active",
     "watch_item_ids": [
       "Omega Constellation"
+    ]
+  },
+  "ebay:v1|800272203071|0": {
+    "first_seen": 1785599287.396863,
+    "status": "active",
+    "watch_item_ids": [
+      "james bond watch"
     ]
   },
   "ebay:v1|800277847373|0": {
@@ -3728,6 +9614,20 @@
     "status": "active",
     "watch_item_ids": [
       "gs-shunbun"
+    ]
+  },
+  "ebay:v1|800349027701|0": {
+    "first_seen": 1785080742.5894403,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|800349707933|0": {
+    "first_seen": 1785080742.6839855,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
     ]
   },
   "ebay:v1|800356956621|0": {
@@ -3770,6 +9670,153 @@
     "status": "active",
     "watch_item_ids": [
       "Omega Constellation"
+    ]
+  },
+  "ebay:v1|800411303528|0": {
+    "first_seen": 1785175327.740477,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|800414305554|0": {
+    "first_seen": 1785175372.136635,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|800417531476|0": {
+    "first_seen": 1785225080.623161,
+    "status": "active",
+    "watch_item_ids": [
+      "submariner"
+    ]
+  },
+  "ebay:v1|800434335614|0": {
+    "first_seen": 1785455267.0063713,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|800434351859|0": {
+    "first_seen": 1785455266.344795,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|800437346879|0": {
+    "first_seen": 1785492276.24101,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|800439229436|0": {
+    "first_seen": 1785543295.2996962,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|800439237192|0": {
+    "first_seen": 1785543255.844139,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|800439237947|0": {
+    "first_seen": 1785543296.4379506,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
+    ]
+  },
+  "ebay:v1|800439244883|0": {
+    "first_seen": 1785543255.7246284,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|800439248083|0": {
+    "first_seen": 1785910501.6779344,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|800440353660|0": {
+    "first_seen": 1785760717.0308394,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|800444403956|0": {
+    "first_seen": 1785627295.4661894,
+    "status": "active",
+    "watch_item_ids": [
+      "shunbun"
+    ]
+  },
+  "ebay:v1|800464935094|0": {
+    "first_seen": 1785932937.0896647,
+    "status": "active",
+    "watch_item_ids": [
+      "vostok"
+    ]
+  },
+  "ebay:v1|800471373033|0": {
+    "first_seen": 1786067215.7925968,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|800472011822|0": {
+    "first_seen": 1786162663.7465158,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|800473446632|0": {
+    "first_seen": 1786095588.8950071,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|800474879581|0": {
+    "first_seen": 1786189424.3644192,
+    "status": "active",
+    "watch_item_ids": [
+      "aqua terra"
+    ]
+  },
+  "ebay:v1|800479404031|0": {
+    "first_seen": 1786233814.8459597,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|800479639129|0": {
+    "first_seen": 1786233814.8459513,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
+  "ebay:v1|287481800480|0": {
+    "first_seen": 1785025451.7996268,
+    "status": "active",
+    "watch_item_ids": [
+      "santos"
     ]
   }
 }
