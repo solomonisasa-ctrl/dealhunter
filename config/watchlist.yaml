@@ -19,110 +19,11 @@
 #                                  the first time this hunt runs; safe to leave
 #                                  blank when you add a new item by hand.
 
-- id: Omega Constellation
+- id: rolex
   category: watches
-  description: omega constellation, automatic movement
-  discount_threshold: 0.2
-  lookback_days: 30
-  enabled: true
-  parsed_criteria: null
-- id: shunbun
-  category: watches
-  description: grand seiko shunbun
-  discount_threshold: 0.2
-  lookback_days: 30
-  enabled: true
-  parsed_criteria:
-    brand: Grand Seiko
-    model: Shunbun
-    reference_number: null
-    condition_min: null
-    box_and_papers_required: null
-    max_price_all_in: null
-    other_requirements: null
-    search_keywords:
-    - Grand Seiko Shunbun
-    - Shunbun Spring Equinox
-    - Grand Seiko Season's watch Shunbun
-    - GS Shunbun limited edition
-    - Grand Seiko Shunbun SBGA
-- id: vostok
-  category: watches
-  description: vintage only vostok amphibia, no crazy dials just classic military
-    feel. no current models
-  discount_threshold: 0.1
-  lookback_days: 30
-  enabled: true
-  parsed_criteria:
-    brand: Vostok
-    model: Amphibia
-    reference_number: null
-    condition_min: null
-    box_and_papers_required: null
-    max_price_all_in: null
-    other_requirements: Vintage only, no current/modern production models; classic
-      military-style look; no unusual or flashy dials, prefer standard/classic dial
-      designs
-    search_keywords:
-    - vintage Vostok Amphibia
-    - Vostok Amphibia military
-    - Soviet Vostok diver
-    - classic Vostok Amphibia dial
-    - vintage Russian military watch
-    - Vostok Amphibia USSR
-- id: james bond watch
-  category: watches
-  description: any james bond seamaster
-  discount_threshold: 0.35
-  lookback_days: 30
-  enabled: true
-  parsed_criteria:
-    brand: Omega
-    model: Seamaster
-    reference_number: null
-    condition_min: null
-    box_and_papers_required: null
-    max_price_all_in: null
-    other_requirements: James Bond edition/theme
-    search_keywords:
-    - Omega Seamaster James Bond
-    - Seamaster 007
-    - Omega Seamaster Bond edition
-    - Seamaster Diver 300M Bond
-    - James Bond Omega watch
-- id: aqua terra
-  category: watches
-  description: like new 38mm aqua terra, simple dial, automatic movement
-  discount_threshold: 0.25
-  lookback_days: 30
-  enabled: true
-  parsed_criteria: null
-- id: submariner
-  category: watches
-  description: authentic vintage rolex submariner black dial
-  discount_threshold: 0.3
-  lookback_days: 30
-  enabled: true
-  parsed_criteria:
-    brand: Rolex
-    model: Submariner
-    reference_number: null
-    condition_min: null
-    box_and_papers_required: null
-    max_price_all_in: null
-    other_requirements: authentic, vintage, black dial
-    search_keywords:
-    - vintage Rolex Submariner
-    - Rolex Submariner black dial
-    - authentic Rolex Submariner
-    - Rolex Submariner vintage
-    - Submariner black dial vintage
-    - Rolex Sub black face
-- id: santos
-  category: watches
-  description: authentic cartier santos medium or large, silver with white dial, automatic
-    movement
-  discount_threshold: 0.25
+  description: rolex submariner black dial 1992 or newer. less than $11000. excellent
+    condition
+  discount_threshold: null
   lookback_days: 30
   enabled: true
   parsed_criteria: null

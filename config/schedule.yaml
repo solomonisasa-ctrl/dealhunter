@@ -11,5 +11,5 @@
 # Edit here by hand, or use the dashboard's controls (write here directly).
 # Either way, local runs see the change immediately - the scheduled GitHub
 # Actions run needs `git push` before it does too.
-poll_interval_minutes: 360
+poll_interval_minutes: 180
 paused: false

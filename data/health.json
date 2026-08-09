@@ -1,90 +1,5 @@
 [
   {
-    "timestamp": 1784919052.6653786,
-    "overall_status": "ok",
-    "duration_seconds": 3.6182923316955566,
-    "sources": {
-      "ebay": {
-        "status": "ok",
-        "fetched": 0,
-        "new": 0,
-        "errors": []
-      }
-    },
-    "findings_count": 0,
-    "sold_detected": 0,
-    "repriced_detected": 0,
-    "error_message": null
-  },
-  {
-    "timestamp": 1784919243.9028292,
-    "overall_status": "ok",
-    "duration_seconds": 17.965181827545166,
-    "sources": {
-      "ebay": {
-        "status": "ok",
-        "fetched": 1,
-        "new": 1,
-        "errors": []
-      }
-    },
-    "findings_count": 1,
-    "sold_detected": 0,
-    "repriced_detected": 0,
-    "error_message": null
-  },
-  {
-    "timestamp": 1784923293.8233285,
-    "overall_status": "ok",
-    "duration_seconds": 591.8417665958405,
-    "sources": {
-      "ebay": {
-        "status": "ok",
-        "fetched": 49,
-        "new": 49,
-        "errors": []
-      }
-    },
-    "findings_count": 49,
-    "sold_detected": 0,
-    "repriced_detected": 0,
-    "error_message": null
-  },
-  {
-    "timestamp": 1784923404.7820594,
-    "overall_status": "ok",
-    "duration_seconds": 73.28247547149658,
-    "sources": {
-      "ebay": {
-        "status": "ok",
-        "fetched": 6,
-        "new": 6,
-        "errors": []
-      }
-    },
-    "findings_count": 6,
-    "sold_detected": 0,
-    "repriced_detected": 0,
-    "error_message": null
-  },
-  {
-    "timestamp": 1784923580.644469,
-    "overall_status": "ok",
-    "duration_seconds": 3.2474918365478516,
-    "sources": {
-      "ebay": {
-        "status": "ok",
-        "fetched": 0,
-        "new": 0,
-        "errors": []
-      }
-    },
-    "findings_count": 0,
-    "sold_detected": 0,
-    "repriced_detected": 0,
-    "error_message": null
-  },
-  {
     "timestamp": 1784923893.8601115,
     "overall_status": "ok",
     "duration_seconds": 18.758081436157227,
@@ -1235,6 +1150,125 @@
         "fetched": 0,
         "new": 0,
         "errors": []
+      }
+    },
+    "findings_count": 0,
+    "sold_detected": 0,
+    "repriced_detected": 0,
+    "error_message": null
+  },
+  {
+    "timestamp": 1786242546.4856718,
+    "overall_status": "warning",
+    "duration_seconds": 30.505614757537842,
+    "sources": {
+      "ebay": {
+        "status": "warning",
+        "fetched": 1,
+        "new": 1,
+        "errors": [
+          "ebay:v1|188082688922|0: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CdrPN9uYNbiCTGnbQ1sHR'}"
+        ]
+      },
+      "etsy": {
+        "status": "ok",
+        "fetched": 0,
+        "new": 0,
+        "errors": []
+      }
+    },
+    "findings_count": 0,
+    "sold_detected": 0,
+    "repriced_detected": 6,
+    "error_message": null
+  },
+  {
+    "timestamp": 1786242649.4908488,
+    "overall_status": "ok",
+    "duration_seconds": 27.781975984573364,
+    "sources": {
+      "ebay": {
+        "status": "ok",
+        "fetched": 0,
+        "new": 0,
+        "errors": []
+      },
+      "etsy": {
+        "status": "ok",
+        "fetched": 0,
+        "new": 0,
+        "errors": []
+      }
+    },
+    "findings_count": 0,
+    "sold_detected": 0,
+    "repriced_detected": 0,
+    "error_message": null
+  },
+  {
+    "timestamp": 1786242855.393622,
+    "overall_status": "ok",
+    "duration_seconds": 27.068487882614136,
+    "sources": {
+      "ebay": {
+        "status": "ok",
+        "fetched": 0,
+        "new": 0,
+        "errors": []
+      },
+      "etsy": {
+        "status": "ok",
+        "fetched": 0,
+        "new": 0,
+        "errors": []
+      }
+    },
+    "findings_count": 0,
+    "sold_detected": 0,
+    "repriced_detected": 0,
+    "error_message": null
+  },
+  {
+    "timestamp": 1786242892.7319753,
+    "overall_status": "ok",
+    "duration_seconds": 0.6426923274993896,
+    "sources": {
+      "ebay": {
+        "status": "ok",
+        "fetched": 0,
+        "new": 0,
+        "errors": []
+      },
+      "etsy": {
+        "status": "ok",
+        "fetched": 0,
+        "new": 0,
+        "errors": []
+      }
+    },
+    "findings_count": 0,
+    "sold_detected": 0,
+    "repriced_detected": 0,
+    "error_message": null
+  },
+  {
+    "timestamp": 1786242900.2424843,
+    "overall_status": "warning",
+    "duration_seconds": 0.657834529876709,
+    "sources": {
+      "ebay": {
+        "status": "ok",
+        "fetched": 0,
+        "new": 0,
+        "errors": []
+      },
+      "etsy": {
+        "status": "warning",
+        "fetched": 0,
+        "new": 0,
+        "errors": [
+          "No new listings from etsy in the last several runs - worth checking subreddit/category config is still correct."
+        ]
       }
     },
     "findings_count": 0,

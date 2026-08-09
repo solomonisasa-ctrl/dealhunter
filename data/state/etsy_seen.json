@@ -1315,6 +1315,13 @@
       "james bond watch"
     ]
   },
+  "etsy:4540331187": {
+    "first_seen": 1785025248.5853202,
+    "status": "active",
+    "watch_item_ids": [
+      "Omega Constellation"
+    ]
+  },
   "etsy:4540543189": {
     "first_seen": 1785025248.3695185,
     "status": "active",
@@ -2122,13 +2129,6 @@
   },
   "etsy:890675653": {
     "first_seen": 1785515102.7167547,
-    "status": "active",
-    "watch_item_ids": [
-      "Omega Constellation"
-    ]
-  },
-  "etsy:4540331187": {
-    "first_seen": 1785025248.5853202,
     "status": "active",
     "watch_item_ids": [
       "Omega Constellation"
