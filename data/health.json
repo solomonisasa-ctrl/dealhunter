@@ -1,31 +1,5 @@
 [
   {
-    "timestamp": 1785015789.084716,
-    "overall_status": "warning",
-    "duration_seconds": 673.6187920570374,
-    "sources": {
-      "ebay": {
-        "status": "ok",
-        "fetched": 207,
-        "new": 123,
-        "errors": []
-      },
-      "etsy": {
-        "status": "warning",
-        "fetched": 128,
-        "new": 103,
-        "errors": [
-          "etsy:4476497875: 2 validation errors for AnalysisResult\nauthenticity_risk\n  Input should be 'none', 'low', 'medium' or 'high' [type=enum, input_value='low</authenticity_risk>\\...ing for the real watch.', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/enum\nauthenticity_notes\n  Field required [type=missing, input_value={'matches_criteria': Fals...emorabilia collectors.'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/missing",
-          "etsy:4343281502: 2 validation errors for AnalysisResult\nauthenticity_risk\n  Input should be 'none', 'low', 'medium' or 'high' [type=enum, input_value='high</authenticity_risk>...l Bond Seamaster watch.', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/enum\nauthenticity_notes\n  Field required [type=missing, input_value={'matches_criteria': Fals...edition watch hunters.'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/missing"
-        ]
-      }
-    },
-    "findings_count": 224,
-    "sold_detected": 0,
-    "repriced_detected": 1,
-    "error_message": null
-  },
-  {
     "timestamp": 1785024185.835715,
     "overall_status": "ok",
     "duration_seconds": 388.6659140586853,
@@ -1316,6 +1290,29 @@
     "findings_count": 6,
     "sold_detected": 0,
     "repriced_detected": 1,
+    "error_message": null
+  },
+  {
+    "timestamp": 1786376770.2475853,
+    "overall_status": "ok",
+    "duration_seconds": 92.51517915725708,
+    "sources": {
+      "ebay": {
+        "status": "ok",
+        "fetched": 5,
+        "new": 5,
+        "errors": []
+      },
+      "etsy": {
+        "status": "ok",
+        "fetched": 1,
+        "new": 1,
+        "errors": []
+      }
+    },
+    "findings_count": 6,
+    "sold_detected": 0,
+    "repriced_detected": 0,
     "error_message": null
   }
 ]
