@@ -2243,7 +2243,8 @@
     "first_seen": 1785025354.8251743,
     "status": "active",
     "watch_item_ids": [
-      "submariner"
+      "submariner",
+      "rolex"
     ]
   },
   "ebay:v1|168553231573|0": {
@@ -3550,6 +3551,13 @@
     "status": "active",
     "watch_item_ids": [
       "vostok"
+    ]
+  },
+  "ebay:v1|202974859077|0": {
+    "first_seen": 1786436063.0686557,
+    "status": "active",
+    "watch_item_ids": [
+      "rolex"
     ]
   },
   "ebay:v1|203192246446|0": {
