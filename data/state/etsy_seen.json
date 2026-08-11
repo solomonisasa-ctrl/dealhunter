@@ -380,6 +380,13 @@
       "vostok"
     ]
   },
+  "etsy:1888890822": {
+    "first_seen": 1786471701.7934844,
+    "status": "active",
+    "watch_item_ids": [
+      "rolex"
+    ]
+  },
   "etsy:1890007307": {
     "first_seen": 1785015365.3007288,
     "status": "active",
@@ -673,7 +680,8 @@
     "first_seen": 1785025425.6862137,
     "status": "active",
     "watch_item_ids": [
-      "submariner"
+      "submariner",
+      "rolex"
     ]
   },
   "etsy:4448517403": {
