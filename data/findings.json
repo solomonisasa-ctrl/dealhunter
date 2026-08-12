@@ -73901,7 +73901,7 @@
       "title": "Rolex Submariner Date Black Dial on Oyster 16610 Complete 1994",
       "url": "https://www.ebay.com/itm/227462135935?_skw=vintage+Rolex+Submariner&hash=item34f5ccc07f:g:ywoAAeSwvA9qcjTk",
       "price": 9944.0,
-      "shipping_price": 0.0,
+      "shipping_price": 55.0,
       "currency": "USD",
       "image_url": "https://i.ebayimg.com/images/g/ywoAAeSwvA9qcjTk/s-l225.jpg",
       "image_urls": [],
@@ -73925,7 +73925,7 @@
       "demand_tier": "High",
       "demand_reasoning": "Rolex Submariner is one of the most sought-after watch models globally, and the 16610 black dial variant is a classic, highly liquid reference with strong resale demand."
     },
-    "deal_score": -8,
+    "deal_score": -9,
     "liquidity": {
       "rating": "High",
       "comparable_count": 490,
@@ -73933,8 +73933,8 @@
       "claude_tier": "High",
       "reasoning": "Algorithmic signal: 490 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most sought-after watch models globally, and the 16610 black dial variant is a classic, highly liquid reference with strong resale demand.). Final rating uses the more conservative of the two: High."
     },
-    "all_in_price": 9944.0,
-    "discount": -0.0808695652173913,
+    "all_in_price": 9999.0,
+    "discount": -0.08684782608695653,
     "notified": false,
     "duplicate_of": null,
     "dismissed": false,
@@ -86942,7 +86942,7 @@
       "title": "Rolex Submariner Date Black Dial on Oyster 16610 Complete 1994",
       "url": "https://www.ebay.com/itm/227462135935?_skw=Rolex+Submariner&hash=item34f5ccc07f:g:ywoAAeSwvA9qcjTk",
       "price": 9944.0,
-      "shipping_price": 0.0,
+      "shipping_price": 55.0,
       "currency": "USD",
       "image_url": "https://i.ebayimg.com/images/g/ywoAAeSwvA9qcjTk/s-l225.jpg",
       "image_urls": [
@@ -86981,8 +86981,8 @@
       "claude_tier": "High",
       "reasoning": "Algorithmic signal: 5787 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is among the most recognized and sought-after watches in the world, with the 16610 being a benchmark reference for collectors and enthusiasts alike, ensuring strong resale liquidity.). Final rating uses the more conservative of the two: High."
     },
-    "all_in_price": 9944.0,
-    "discount": -0.04673684210526316,
+    "all_in_price": 9999.0,
+    "discount": -0.052526315789473685,
     "notified": false,
     "duplicate_of": "rolex:ebay:v1|287511198682|0",
     "dismissed": false,
@@ -90940,6 +90940,383 @@
     "dismissed": false,
     "qa_history": [],
     "created_at": 1786527713.2862356,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|298582546396|0",
+    "listing": {
+      "id": "ebay:v1|298582546396|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex Submariner Date Two-Tone Bracelet Blue Dial/Bezel 40mm Auto 300m",
+      "url": "https://www.ebay.com/itm/298582546396?_skw=Rolex+Submariner&hash=item4584e817dc:g:7zMAAeSwJtNqfLrD",
+      "price": 8200.0,
+      "shipping_price": null,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/7zMAAeSwJtNqfLrD/s-l225.jpg",
+      "image_urls": [],
+      "body": "Rolex Submariner Date Two-Tone Bracelet Blue Dial/Bezel 40mm Auto 300m",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Fair"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Hunter requires a black dial Submariner, but this listing is a two-tone Submariner Date with a blue dial/bezel, not black. This fails the specific dial requirement stated by the hunter.",
+      "estimated_value": 8200.0,
+      "confidence": 0.3,
+      "condition_summary": "Watch appears worn with visible wear on bezel/case in the photo; no close-up shots of dial, clasp, or case back to verify condition claims. Listing text provides no condition description at all.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only one low-quality photo provided, no box/papers shown or mentioned, no serial/reference number given, and no seller history or detailed description - all of these are red flags for an $8,200 luxury watch purchase. Price is plausible for a two-tone blue Submariner but lack of documentation raises concern.",
+      "rarity_notes": "Two-tone blue dial/bezel Submariner Date (likely ref 116613LB \"Bluesy\") is a well-known, moderately available model, not particularly rare.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and sought-after watch models, with strong consistent demand regardless of dial color variant."
+    },
+    "deal_score": 0,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 5868,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 5868 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and sought-after watch models, with strong consistent demand regardless of dial color variant.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 8200.0,
+    "discount": 0.0,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|358905216308|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1786559980.894503,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|128023160963|0",
+    "listing": {
+      "id": "ebay:v1|128023160963|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex Sea-Dweller 16600 Silver Oyster Bracelet with Black Bezel",
+      "url": "https://www.ebay.com/itm/128023160963?_skw=Rolex+Submariner&hash=item1dcec66883:g:hWgAAeSwgGdqeLn0",
+      "price": 8500.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/hWgAAeSwgGdqeLn0/s-l225.jpg",
+      "image_urls": [],
+      "body": "Rolex Sea-Dweller 16600 Silver Oyster Bracelet with Black Bezel",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Hunter specifically wants a Rolex Submariner (black dial, 1992+), but this listing is a Rolex Sea-Dweller reference 16600, a different model line entirely despite visual similarity. This does not satisfy the model requirement.",
+      "estimated_value": 8000.0,
+      "confidence": 0.3,
+      "condition_summary": "Photo shows a worn Sea-Dweller with visible scratches on the bezel and bracelet, dial and hands appear intact; no box or papers shown. Overall looks like an honestly used piece, not pristine.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only a single low-quality hand-held photo provided; no close-up of serial/reference numbers, caseback, or dial details to verify authenticity. No box/papers mentioned. Title claims 16600 but visual confirmation of engravings is not possible from this image alone.",
+      "rarity_notes": "The 16600 Sea-Dweller is a fairly common vintage/modern Rolex model, not rare, but is a different collection from the Submariner the hunter is seeking.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Sea-Dweller and Submariner are both highly recognized, high-demand models, but this is not the model the hunter is targeting."
+    },
+    "deal_score": -6,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 5868,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 5868 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Sea-Dweller and Submariner are both highly recognized, high-demand models, but this is not the model the hunter is targeting.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 8500.0,
+    "discount": -0.0625,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|236973759426|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1786559979.5048587,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|267755214215|0",
+    "listing": {
+      "id": "ebay:v1|267755214215|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex Submariner 16613T Blue Dial & Bezel Two-Tone 40mm Oyster Band Circa 2006",
+      "url": "https://www.ebay.com/itm/267755214215?_skw=Rolex+Submariner&hash=item3e57745587:g:gkEAAeSw~uRqfKT5",
+      "price": 11599.95,
+      "shipping_price": 65.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/gkEAAeSw~uRqfKT5/s-l225.jpg",
+      "image_urls": [],
+      "body": "Rolex Submariner 16613T Blue Dial & Bezel Two-Tone 40mm Oyster Band Circa 2006",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Hunter requires a black dial Submariner under $11,000. This listing is a blue dial/blue bezel two-tone 16613T priced at $11,664.95 all-in, which fails both the dial color requirement and the price ceiling.",
+      "estimated_value": 10500.0,
+      "confidence": 0.45,
+      "condition_summary": "Photo shows a two-tone Submariner with blue dial/bezel in apparently clean, glossy condition, but only one stock-style image is provided with no closeups of clasp, case back, or serial for verification.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only a single, somewhat generic-looking photo is provided; no box/papers, serial, or hallmark close-ups shown despite this being a ~$11k watch. No mention of provenance, service history, or included documents. Not necessarily fraudulent, but insufficient verification detail for this price point.",
+      "rarity_notes": "16613T two-tone blue Submariners are fairly common on the pre-owned market, not a rare or limited variant.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is a top-demand model overall, though this specific two-tone blue configuration is less sought after than black dial/steel versions among purists."
+    },
+    "deal_score": -11,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 5868,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 5868 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is a top-demand model overall, though this specific two-tone blue configuration is less sought after than black dial/steel versions among purists.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 11664.95,
+    "discount": -0.11094761904761911,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|116070010862|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1786559978.114486,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|318719063891|0",
+    "listing": {
+      "id": "ebay:v1|318719063891|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex 116610LN Submariner Date 40MM Black Ceramic Bezel 2013 Box & Papers",
+      "url": "https://www.ebay.com/itm/318719063891?_skw=Rolex+Submariner&hash=item4a3522f753:g:IfQAAeSwoUJqfJUp",
+      "price": 13348.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/IfQAAeSwoUJqfJUp/s-l225.jpg",
+      "image_urls": [],
+      "body": "Rolex 116610LN Submariner Date 40MM Black Ceramic Bezel 2013 Box & Papers",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The item is a genuine Rolex Submariner with black dial from 2013, which satisfies the model/date criteria, but the all-in price of $13,348 exceeds the hunter's stated ceiling of $11,000.",
+      "estimated_value": 12500.0,
+      "confidence": 0.55,
+      "condition_summary": "Described only via title; photo shows a clean, seemingly well-kept Submariner with box, but no close-up wear details provided.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "Listing includes box & papers claim and a reputable-looking dealer name (AJS Watches) visible in photo watermark, which is a positive sign; however, only one stock-style photo is shown and no serial/close-up shots are provided, so full authenticity can't be confirmed from this listing alone.",
+      "rarity_notes": "116610LN is a widely produced, highly recognizable reference (2010-2020 production run), not rare, but consistently in high demand.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner black ceramic bezel models are among the most sought-after watches in the market, with strong resale demand and liquidity."
+    },
+    "deal_score": -7,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 5868,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 5868 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner black ceramic bezel models are among the most sought-after watches in the market, with strong resale demand and liquidity.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 13348.0,
+    "discount": -0.06784,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|127962808383|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1786559978.5741596,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|307081237761|0",
+    "listing": {
+      "id": "ebay:v1|307081237761|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "PAPERS MINT Rolex Submariner 16613LN Gold Steel Two Tone Yellow Gold Watch Box",
+      "url": "https://www.ebay.com/itm/307081237761?_skw=Rolex+Submariner&hash=item477f77d501:g:W1sAAeSwPd5qfKno",
+      "price": 10900.05,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/W1sAAeSwPd5qfKno/s-l225.jpg",
+      "image_urls": [
+        "https://i.ebayimg.com/images/g/W1sAAeSwPd5qfKno/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/XUgAAeSwv-JqfKno/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/k6wAAeSwR-FqfKno/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/9A8AAeSwlC5qfKno/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/CN4AAeSw-wlqfKno/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/xd0AAeSwwhdqfKno/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/j2UAAeSwEi9qfKnq/s-l1600.jpg"
+      ],
+      "body": "PAPERS MINT Rolex Submariner 16613LN Gold Steel Two Tone Yellow Gold Watch Box",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Hunter's criteria was generic (brand Rolex, model Submariner, black dial, 1992+, excellent condition, under $11,000) with no specific reference required. The 16613LN is a two-tone Submariner with black dial produced from the early 1990s into the 2000s, satisfying the era and dial color requirements, and the $10,900.05 all-in price is under the $11,000 ceiling.",
+      "estimated_value": 10800.0,
+      "confidence": 0.6,
+      "condition_summary": "Photos show a clean, glossy black dial and bezel insert with minimal visible wear on the case and bracelet; seller claims \"MINT\" condition with full box and papers shown in photos.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Photos appear to be generic dealer/stock-style studio images (consistent lighting/background across multiple listings of this type), which is common for reputable dealers but also means they can't be fully verified as this specific physical watch beyond the images shown. Papers shown include a Taiwan import tax slip rather than a standard warranty card, which is unusual but not inherently fraudulent - just a secondary market detail worth verifying. No visible serial/reference mismatch in the images, and the case, dial, and clasp details look consistent with a genuine 16613LN. Price is not suspiciously low for the segment, which reduces (but doesn't eliminate) scam risk.",
+      "rarity_notes": "The 16613LN is a common two-tone Submariner reference produced in large numbers from the early-1990s through 2010, so it's not rare, but full box/papers sets in top condition are less commonly found and command a premium.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and sought-after watch models globally, with strong consistent demand across two-tone and steel variants."
+    },
+    "deal_score": -1,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 5868,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 5868 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and sought-after watch models globally, with strong consistent demand across two-tone and steel variants.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 10900.05,
+    "discount": -0.009263888888888822,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|406914012403|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1786560004.7741466,
+    "analysis_depth": "full"
+  },
+  {
+    "id": "rolex:etsy:4461201281",
+    "listing": {
+      "id": "etsy:4461201281",
+      "source": "etsy",
+      "category": "watches",
+      "title": "Automatic Dive Watch with Blue Bezel, Gift for Him",
+      "url": "https://www.etsy.com/listing/4461201281/automatic-dive-watch-with-blue-bezel",
+      "price": 329.0,
+      "shipping_price": null,
+      "currency": "AUD",
+      "image_url": "https://i.etsystatic.com/64123988/r/il/89e4c0/7781861159/il_fullxfull.7781861159_fbof.jpg",
+      "image_urls": [
+        "https://i.etsystatic.com/64123988/r/il/89e4c0/7781861159/il_fullxfull.7781861159_fbof.jpg",
+        "https://i.etsystatic.com/64123988/r/il/232940/7781858963/il_fullxfull.7781858963_py9u.jpg",
+        "https://i.etsystatic.com/64123988/r/il/dfccfd/7781859325/il_fullxfull.7781859325_rw22.jpg",
+        "https://i.etsystatic.com/64123988/r/il/f0c30e/7733910726/il_fullxfull.7733910726_5bei.jpg",
+        "https://i.etsystatic.com/64123988/r/il/1714e4/7781858775/il_fullxfull.7781858775_10ov.jpg",
+        "https://i.etsystatic.com/64123988/r/il/bfc8ee/7781858817/il_fullxfull.7781858817_rzps.jpg",
+        "https://i.etsystatic.com/64123988/r/il/453a6e/7733910976/il_fullxfull.7733910976_jxnu.jpg",
+        "https://i.etsystatic.com/64123988/r/il/54d9d7/7733911014/il_fullxfull.7733911014_hli4.jpg"
+      ],
+      "body": "ABYSSNAUT \u2014 dive into the unknown.\n\nA perfect everyday watch anyone would appreciate.\n\n-Hand-assembled with extreme delicacy and care.\n-Sapphire crystal, ceramic bezel, and solid stainless steel resist daily wear and scratches.\n-40mm case and oyster style bracelet wear comfortably all day on any wrist size.\n-Deep black enamel dial keeps it clean and premium, while the stunning blue ceramic bezel gives it that bold diver character.\n-Blue lume on dial and hands makes it easy to read at night.\n-Japanese NH35A movement a powerhouse that runs reliably and accurately without a battery.\n-100m water resistance rating and screw-down crown keep it worry-free during water activities.\n\nIncluded\n\u2022 Impact resistant box\n\u2022 Bracelet sizing/adjustment tools\n\u2022 Cleaning cloth\n\nSpecifications\n\u2022 Case Diameter: 40mm\n\u2022 Case Thickness: 13mm\n\u2022 Case Material: 316L Stainless Steel\n\u2022 Finish: Brushed\n\u2022 Bezel: 120-Click Unidirectional Ceramic Bezel\n\u2022 Crystal: Flat Sapphire Crystal\n\u2022 Movement: Japanese NH35A Automatic Mechanical\n\u2022 Crown: Screw-Down\n\u2022 Water Resistance: 100 Metres/300ft\n\u2022 Dial: Deep Black Enamel with Blue Luminous Indices and Hands\n\u2022 Date: Date Window with Cyclops\n\u2022 Bracelet: 316L Stainless Steel Oyster Bracelet\n\u2022 Lug Width: 20mm\n\nOrder Information\n\u2022 Free tracked international shipping, delivery within 5\u201311 business days\n\u2022 Orders processed within 1\u20132 business days\n\u2022 Returns accepted within 14 days of delivery (see shop policies for details)\n\nInternational Buyers:\nOrders shipped outside Australia may be subject to import VAT, duties, or customs fees depending on your country&#39;s regulations. These charges are determined by your local customs authority and are the buyer&#39;s responsibility.",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "taxonomy_id": 6076
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "This is not a Rolex at all - it's a homage/microbrand \"AURYX Abyssnaut\" watch with a Japanese NH35A automatic movement, clearly labeled on the dial and in the listing text. It has no relation to Rolex Submariner production, reference numbers, or authenticity.",
+      "estimated_value": 329.0,
+      "confidence": 0.95,
+      "condition_summary": "Appears to be a brand-new, unworn homage dive watch sold with box and accessories; no wear visible in photo.",
+      "authenticity_risk": "none",
+      "authenticity_notes": "Not a fraud/counterfeit concern since the listing openly identifies itself as an \"AURYX Abyssnaut\" branded homage watch with a Japanese NH35A movement, not a Rolex. No attempt to pass it off as genuine Rolex.",
+      "rarity_notes": "Common mass-produced homage/microbrand dive watch style; not rare or collectible in the Rolex sense.",
+      "demand_tier": "Low",
+      "demand_reasoning": "Generic microbrand homage watches have niche appeal but no significant resale demand or brand recognition compared to genuine Rolex Submariners."
+    },
+    "deal_score": 0,
+    "liquidity": {
+      "rating": "Low",
+      "comparable_count": 43,
+      "algorithmic_tier": "High",
+      "claude_tier": "Low",
+      "reasoning": "Algorithmic signal: 43 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Low (Generic microbrand homage watches have niche appeal but no significant resale demand or brand recognition compared to genuine Rolex Submariners.). Final rating uses the more conservative of the two: Low."
+    },
+    "all_in_price": 329.0,
+    "discount": 0.0,
+    "notified": false,
+    "duplicate_of": "rolex:etsy:4461203151",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1786560016.1274788,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:etsy:4461193053",
+    "listing": {
+      "id": "etsy:4461193053",
+      "source": "etsy",
+      "category": "watches",
+      "title": "Automatic Green Dive Watch, Gift for Him",
+      "url": "https://www.etsy.com/listing/4461193053/automatic-green-dive-watch-gift-for-him",
+      "price": 329.0,
+      "shipping_price": null,
+      "currency": "AUD",
+      "image_url": "https://i.etsystatic.com/64123988/r/il/61e4be/7781784757/il_fullxfull.7781784757_82cu.jpg",
+      "image_urls": [
+        "https://i.etsystatic.com/64123988/r/il/61e4be/7781784757/il_fullxfull.7781784757_82cu.jpg",
+        "https://i.etsystatic.com/64123988/r/il/3caa41/7733834432/il_fullxfull.7733834432_5i0k.jpg",
+        "https://i.etsystatic.com/64123988/r/il/d06b4b/7781781857/il_fullxfull.7781781857_pa4o.jpg",
+        "https://i.etsystatic.com/64123988/r/il/52b72e/7781782163/il_fullxfull.7781782163_1gr4.jpg",
+        "https://i.etsystatic.com/64123988/r/il/4eb631/7781782055/il_fullxfull.7781782055_316o.jpg",
+        "https://i.etsystatic.com/64123988/r/il/7cb679/7781782331/il_fullxfull.7781782331_19wv.jpg",
+        "https://i.etsystatic.com/64123988/r/il/c88d85/7733834916/il_fullxfull.7733834916_px8w.jpg",
+        "https://i.etsystatic.com/64123988/r/il/d0ceb4/7781782147/il_fullxfull.7781782147_st4o.jpg",
+        "https://i.etsystatic.com/64123988/r/il/2b17c2/7733835716/il_fullxfull.7733835716_jyvu.jpg"
+      ],
+      "body": "ABYSSNAUT \u2014 dive into the unknown.\n\nA perfect everyday watch anyone would appreciate.\n\n-Hand-assembled with extreme delicacy and care.\n-Sapphire crystal, ceramic bezel, and solid stainless steel resist daily wear and scratches.\n-40mm case and oyster style bracelet wear comfortably all day on any wrist size.\n-Emerald green sunburst enamel dial keeps it clean and premium, while the stunning green ceramic bezel gives it that bold diver character.\n-Blue lume on dial and hands makes it easy to read at night.\n-Japanese NH35A movement a powerhouse that runs reliably and accurately without a battery.\n-100m water resistance rating and screw-down crown keep it worry-free during water activities.\n\nIncluded\n\u2022 Impact resistant box\n\u2022 Bracelet sizing/adjustment tools\n\u2022 Cleaning cloth\n\nSpecifications\n\u2022 Case Diameter: 40mm\n\u2022 Case Thickness: 13mm\n\u2022 Case Material: 316L Stainless Steel\n\u2022 Finish: Brushed\n\u2022 Bezel: 120-Click Unidirectional Ceramic Bezel\n\u2022 Crystal: Flat Sapphire Crystal\n\u2022 Movement: Japanese NH35A Automatic Mechanical\n\u2022 Crown: Screw-Down\n\u2022 Water Resistance: 100 Metres/300ft\n\u2022 Dial: Emerald Green Sunburst Enamel with Blue Luminous Indices and Hands\n\u2022 Date: Date Window with Cyclops\n\u2022 Bracelet: 316L Stainless Steel Oyster Bracelet\n\u2022 Lug Width: 20mm\n\nOrder Information\n\u2022 Free tracked international shipping, delivery within 5\u201311 business days\n\u2022 Orders processed within 1\u20132 business days\n\u2022 Returns accepted within 14 days of delivery (see shop policies for details)\n\nInternational Buyers:\nOrders shipped outside Australia may be subject to import VAT, duties, or customs fees depending on your country&#39;s regulations. These charges are determined by your local customs authority and are the buyer&#39;s responsibility.",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "taxonomy_id": 6076
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "This is a homage/microbrand watch (\"Auryx Abyssnaut\") that copies Submariner styling but is not a Rolex at all - it uses a Japanese NH35A automatic movement, not a Rolex caliber. It also has a green dial, not black. Does not match brand, model, or dial color requirements.",
+      "estimated_value": 329.0,
+      "confidence": 0.9,
+      "condition_summary": "Appears new/unworn based on photo and listing, sold as a new homage dive watch with box and accessories included.",
+      "authenticity_risk": "none",
+      "authenticity_notes": "Not a fraud risk in the sense of fake Rolex - the listing is transparent that this is a \"Auryx\" branded homage watch (dial signed \"Auryx\", NH35A movement), not attempting to pass as genuine Rolex. However it is completely irrelevant to a Rolex Submariner search.",
+      "rarity_notes": "Mass-produced modern microbrand dive watch; not rare or collectible in the Rolex sense.",
+      "demand_tier": "Low",
+      "demand_reasoning": "Generic microbrand homage watches have niche demand and no resale premium compared to genuine Rolex Submariners."
+    },
+    "deal_score": 0,
+    "liquidity": {
+      "rating": "Low",
+      "comparable_count": 43,
+      "algorithmic_tier": "High",
+      "claude_tier": "Low",
+      "reasoning": "Algorithmic signal: 43 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Low (Generic microbrand homage watches have niche demand and no resale premium compared to genuine Rolex Submariners.). Final rating uses the more conservative of the two: Low."
+    },
+    "all_in_price": 329.0,
+    "discount": 0.0,
+    "notified": false,
+    "duplicate_of": "rolex:etsy:4461203151",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1786560016.2332942,
     "analysis_depth": "quick"
   }
 ]
