@@ -2952,6 +2952,13 @@
       "Omega Constellation"
     ]
   },
+  "ebay:v1|178377236248|0": {
+    "first_seen": 1786527713.920604,
+    "status": "active",
+    "watch_item_ids": [
+      "rolex"
+    ]
+  },
   "ebay:v1|178377744848|0": {
     "first_seen": 1785968633.000177,
     "status": "active",
@@ -7522,7 +7529,8 @@
     "first_seen": 1785015596.3130896,
     "status": "active",
     "watch_item_ids": [
-      "submariner"
+      "submariner",
+      "rolex"
     ]
   },
   "ebay:v1|318628228830|0": {
@@ -8409,6 +8417,13 @@
   },
   "ebay:v1|336736025711|0": {
     "first_seen": 1786459562.8917542,
+    "status": "active",
+    "watch_item_ids": [
+      "rolex"
+    ]
+  },
+  "ebay:v1|336738083123|0": {
+    "first_seen": 1786527713.6969402,
     "status": "active",
     "watch_item_ids": [
       "rolex"
