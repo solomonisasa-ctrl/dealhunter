@@ -1,70 +1,5 @@
 [
   {
-    "timestamp": 1785356327.3709438,
-    "overall_status": "warning",
-    "duration_seconds": 137.94393706321716,
-    "sources": {
-      "ebay": {
-        "status": "warning",
-        "fetched": 34,
-        "new": 34,
-        "errors": [
-          "ebay:v1|137564612247|0: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CdWxtVLwRAub7gSQAEhML'}",
-          "ebay:v1|287491466556|0: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CdWxtbBg7Kr1AK9bf3RmD'}",
-          "ebay:v1|206450555609|0: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CdWxtXYecPVQ1CBppKr3o'}",
-          "ebay:v1|206422337791|0: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CdWxtZoL4puPvULnHeoLF'}",
-          "ebay:v1|318580379040|0: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CdWxu1PTgXnSTJrYhBQRs'}",
-          "ebay:v1|206422421121|0: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CdWxu4XivhNxKYPS2iUnc'}",
-          "ebay:v1|298365709892|0: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CdWxvZhgRay2sRWhQchtU'}",
-          "ebay:v1|278128881123|0: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CdWxvUjnWTayeSWL7GpeU'}",
-          "ebay:v1|206120408044|0: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CdWxvWHo6rGuhB72ExA9H'}",
-          "ebay:v1|117318063769|0: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CdWxvVnHuxpgSgSB8Ug7g'}",
-          "ebay:v1|398226931781|0: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CdWxwFZoFzHUrqxtuKkXW'}",
-          "ebay:v1|336455452985|0: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CdWxwD1kxpCtj9vmjsL1a'}",
-          "ebay:v1|257649804445|0: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CdWxwE13YbfaZVXHQ4PTX'}",
-          "ebay:v1|377379357407|0: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CdWxwH7Zp1gGnyQvmSfo6'}",
-          "ebay:v1|257612757014|0: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CdWxwoywh2erkmQhvkYZq'}",
-          "ebay:v1|336180819025|0: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CdWxwmKi8wqk8syXf6wjy'}",
-          "ebay:v1|317104424481|0: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CdWxwq1DRrHE9HanrjCp4'}",
-          "ebay:v1|298540502000|0: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CdWxxaRQ6s71AND1WYq94'}",
-          "ebay:v1|267742106233|0: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CdWxxbgJXGe8fFzMmc6bs'}",
-          "ebay:v1|286488988032|0: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CdWxxijTrmaooVqHB2neb'}",
-          "ebay:v1|336715568542|0: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CdWxyXjwbUrgSKFiwMYRL'}",
-          "ebay:v1|278228853682|0: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CdWxyNwcTeY5BUit4tACh'}",
-          "ebay:v1|336715312490|0: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CdWxyQ4qGUrgZEYN9PnBE'}",
-          "ebay:v1|147470188408|0: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CdWxyScdCpymckfcm6Pui'}",
-          "ebay:v1|407098178784|0: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CdWxz2aY1BrWSdHbUBZFn'}",
-          "ebay:v1|168504322602|0: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CdWxz63Pm5BUdxfBDZUz9'}",
-          "ebay:v1|257612160172|0: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CdWxzrJvdRAxGGLoxewzL'}",
-          "ebay:v1|267647415808|0: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CdWxzqY3kTpMwtB7gL8XK'}",
-          "ebay:v1|336715562331|0: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CdWy2DA5sEqukhrYVQRZu'}",
-          "ebay:v1|128000892258|0: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CdWy1uvjqRrd4NESdfnwq'}",
-          "ebay:v1|407106781013|0: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CdWy2CHVUxZeMxAakuPdB'}",
-          "ebay:v1|358858799256|0: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CdWy2CnWFFXA3ChagkB7e'}",
-          "ebay:v1|358776882467|0: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CdWy2VYpBe2rHnF3Xzgg5'}",
-          "ebay:v1|236971376760|0: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CdWy2mkPmGRXN5V5qEVfN'}"
-        ]
-      },
-      "etsy": {
-        "status": "warning",
-        "fetched": 6,
-        "new": 6,
-        "errors": [
-          "etsy:4546178044: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CdWxuk4FfRvXR1SjixC3B'}",
-          "etsy:4546177908: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CdWxum9ywqSA7vSoek2z9'}",
-          "etsy:4546161329: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CdWxunphCrkNiRxKjYm2f'}",
-          "etsy:4412864367: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CdWxupSfpKYX1LbvezwEs'}",
-          "etsy:1624823728: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CdWy1XmjeRGVEaRwm1QCj'}",
-          "etsy:1714375068: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CdWy1YdppKTR9FmzAWsku'}"
-        ]
-      }
-    },
-    "findings_count": 0,
-    "sold_detected": 0,
-    "repriced_detected": 0,
-    "error_message": null
-  },
-  {
     "timestamp": 1785398493.877616,
     "overall_status": "ok",
     "duration_seconds": 138.65649795532227,
@@ -1311,6 +1246,29 @@
       }
     },
     "findings_count": 8,
+    "sold_detected": 0,
+    "repriced_detected": 0,
+    "error_message": null
+  },
+  {
+    "timestamp": 1786598650.6425536,
+    "overall_status": "ok",
+    "duration_seconds": 37.15249443054199,
+    "sources": {
+      "ebay": {
+        "status": "ok",
+        "fetched": 3,
+        "new": 3,
+        "errors": []
+      },
+      "etsy": {
+        "status": "ok",
+        "fetched": 0,
+        "new": 0,
+        "errors": []
+      }
+    },
+    "findings_count": 3,
     "sold_detected": 0,
     "repriced_detected": 0,
     "error_message": null
