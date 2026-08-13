@@ -91890,5 +91890,72 @@
     "qa_history": [],
     "created_at": 1786598626.8632865,
     "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|277873610493|0",
+    "listing": {
+      "id": "ebay:v1|277873610493|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Mens Rolex No Date Submariner 14060 Stainless Steel 2-Liner 40MM Watch W Serial",
+      "url": "https://www.ebay.com/itm/277873610493?_skw=Rolex+Submariner&hash=item40b28ecefd:g:ZdUAAeSwHe5ozM3C",
+      "price": 8690.0,
+      "shipping_price": 55.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/ZdUAAeSwHe5ozM3C/s-l225.jpg",
+      "image_urls": [
+        "https://i.ebayimg.com/images/g/ZdUAAeSwHe5ozM3C/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/2WgAAeSwGetozM3C/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/wO0AAeSw5kJp1Zrn/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/Ya8AAeSwvDZozM3C/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/c7EAAeSwrApozM3D/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/YJ4AAeSwX-xozM3D/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/qhUAAeSwlJBozM3E/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/ISsAAeSwNh9ozM3E/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/2wAAAeSwkwpozM3E/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/C2oAAeSwYfpozM3F/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/XI0AAeSwH-FozM3F/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/WhwAAeSwN~lozM3G/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/aSgAAeSwRMJozM3G/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/b18AAeSw7KZozM3G/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/BmIAAeSwMmNozM3H/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/jIoAAeSwHVxozM3H/s-l1600.jpg"
+      ],
+      "body": "Mens Rolex No Date Submariner 14060 Stainless Steel 2-Liner 40MM Watch W Serial",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Hunter's criteria is generic (any Submariner black dial, 1992+, under $11k, excellent condition) rather than a specific reference. The 14060 is a no-date Submariner produced from 1990-2000s, so it could be within the 1992+ range depending on actual serial/production year, and price ($8,745) is under the $11,000 ceiling.",
+      "estimated_value": 9000.0,
+      "confidence": 0.45,
+      "condition_summary": "Watch shows visible wear consistent with age - lume plots appear aged/yellowed (possible tritium or aged luminova), bezel insert has light scratches, and dial has some texture/imperfections visible in close-up shots. Case and bracelet show typical honest wear for a vintage-ish piece, not a fresh/mint example.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Title claims \"W Serial\" (indicating a 1995 production year) and \"2-Liner\" dial text, which is a specific and verifiable detail collectors look for - this specificity is a positive sign. However, no box/papers/service history mentioned, no closeup of caseback/serial number/rehaut shown, and no seller reputation info given. Lume plots look slightly aged/yellowed which is consistent with an actual vintage piece, but without serial number verification or papers, authenticity can't be fully confirmed from listing alone.",
+      "rarity_notes": "14060 no-date Submariners with \"2-Liner\" dial text (post-1990 simplified dial print) are common on the pre-owned market; not especially rare, but the no-date model is somewhat less common than the date version and has a dedicated following among purists.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and highly demanded watch models in the world, and even the no-date 14060 variant maintains strong collector interest."
+    },
+    "deal_score": 3,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 5868,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 5868 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and highly demanded watch models in the world, and even the no-date 14060 variant maintains strong collector interest.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 8745.0,
+    "discount": 0.028333333333333332,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|267750396947|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1786635274.4730058,
+    "analysis_depth": "full"
   }
 ]
