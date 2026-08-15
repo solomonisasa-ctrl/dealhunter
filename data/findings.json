@@ -24891,7 +24891,7 @@
       "category": "watches",
       "title": "Vintage Rolex Submariner 5513 Matte Feet First Dial 40mm Steel Oyster Watch Box",
       "url": "https://www.ebay.com/itm/277833956131?_skw=vintage+Rolex+Submariner&hash=item40b031bb23:g:M1YAAeSw8OVqYYsa",
-      "price": 10092.05,
+      "price": 9892.13,
       "shipping_price": 0.0,
       "currency": "USD",
       "image_url": "https://i.ebayimg.com/images/g/M1YAAeSw8OVqYYsa/s-l225.jpg",
@@ -24916,7 +24916,7 @@
       "demand_tier": "High",
       "demand_reasoning": "Rolex Submariner 5513 is one of the most recognized and sought-after vintage watch references, with strong collector demand and deep market liquidity."
     },
-    "deal_score": 8,
+    "deal_score": 10,
     "liquidity": {
       "rating": "High",
       "comparable_count": 500,
@@ -24924,8 +24924,8 @@
       "claude_tier": "High",
       "reasoning": "Algorithmic signal: 500 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner 5513 is one of the most recognized and sought-after vintage watch references, with strong collector demand and deep market liquidity.). Final rating uses the more conservative of the two: High."
     },
-    "all_in_price": 10092.05,
-    "discount": 0.08254090909090915,
+    "all_in_price": 9892.13,
+    "discount": 0.10071545454545462,
     "notified": false,
     "duplicate_of": "submariner:ebay:v1|306984859097|0",
     "dismissed": false,
@@ -94324,6 +94324,106 @@
     "dismissed": false,
     "qa_history": [],
     "created_at": 1786762946.897701,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|398231488609|0",
+    "listing": {
+      "id": "ebay:v1|398231488609|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "MINT CONDITION 2025 Rolex Submariner Date 41mm 126610LN Black Bezel BOX & PAPERS",
+      "url": "https://www.ebay.com/itm/398231488609?_skw=Rolex+Submariner&hash=item5cb8724861:g:YTEAAeSwHjNqa0oo",
+      "price": 14888.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/YTEAAeSwHjNqa0oo/s-l225.jpg",
+      "image_urls": [],
+      "body": "MINT CONDITION 2025 Rolex Submariner Date 41mm 126610LN Black Bezel BOX & PAPERS",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The listing meets the black dial and post-1992 production requirements (2025 production), and condition (mint) exceeds the excellent floor. However, the all-in price of $14,888 exceeds the hunter's $11,000 ceiling by a significant margin, so it fails the price criterion.",
+      "estimated_value": 13500.0,
+      "confidence": 0.75,
+      "condition_summary": "Described as \"mint condition\" 2025 production; photo shows a clean, seemingly unworn black dial Submariner, consistent with new/mint claim, but only one image provided.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only a single generic stock-style photo showing watch on a pillow with no close-ups of serial/model engravings, hallmarks, or papers despite \"BOX & PAPERS\" claim. Listing text is minimal (just repeats title) with no seller narrative, purchase history, or detailed condition notes, which is a mild red flag for a $14k+ item. No obvious mismatch red flags visible, but lack of verification photos (case back, papers, serial) keeps risk elevated.",
+      "rarity_notes": "126610LN is the current-generation Submariner Date (post-2020 update with 41mm case), not rare but in strong demand with typical retail-to-market premiums; not a limited edition.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and sought-after luxury watch models globally, with consistently strong resale demand."
+    },
+    "deal_score": -10,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 5902,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 5902 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and sought-after luxury watch models globally, with consistently strong resale demand.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 14888.0,
+    "discount": -0.10281481481481482,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1786778283.1354113,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|277833956131|0",
+    "listing": {
+      "id": "ebay:v1|277833956131|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Vintage Rolex Submariner 5513 Matte Feet First Dial 40mm Steel Oyster Watch Box",
+      "url": "https://www.ebay.com/itm/277833956131?_skw=Rolex+Submariner&hash=item40b031bb23:g:UQUAAeSw-klqff~1",
+      "price": 9892.13,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/UQUAAeSw-klqff~1/s-l225.jpg",
+      "image_urls": [],
+      "body": "Vintage Rolex Submariner 5513 Matte Feet First Dial 40mm Steel Oyster Watch Box",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The hunter requires a black dial Submariner produced 1992 or newer. The reference 5513 was produced from approximately 1962 to 1989 and discontinued before 1992, so this watch cannot meet the 'newer than 1992' requirement regardless of condition or price.",
+      "estimated_value": 9500.0,
+      "confidence": 0.35,
+      "condition_summary": "Photos show a vintage matte-dial Submariner on a NATO strap with a wood presentation box; dial and bezel appear clean in the small images but no closeup of case edges, serial, or movement is provided to confirm 'excellent' condition claims.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only a couple of small, low-detail photos are shown (no case back, no serial/reference engraving, no movement shot, no close-up of dial printing/lume plots which are critical for verifying a genuine 'feet first' matte dial 5513 vs. a redial or franken-watch). Vintage Submariners, especially 5513s, are heavily faked/reprinted/franken'd, so lack of serial/case/movement verification is a meaningful gap. Price is plausible for a genuine example but that alone doesn't confirm authenticity.",
+      "rarity_notes": "The 5513 'Matte Feet First' dial variant is a desirable, moderately rare vintage configuration among collectors, but it is a different reference/era entirely from what the hunter is seeking.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner, especially vintage matte-dial 5513s, has very strong collector demand and brand recognition, though this specific listing doesn't satisfy the buyer's stated production-year requirement."
+    },
+    "deal_score": -4,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 5902,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 5902 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner, especially vintage matte-dial 5513s, has very strong collector demand and brand recognition, though this specific listing doesn't satisfy the buyer's stated production-year requirement.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 9892.13,
+    "discount": -0.04127684210526307,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|116070010862|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1786778284.9199407,
     "analysis_depth": "quick"
   }
 ]
