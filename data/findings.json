@@ -94681,5 +94681,184 @@
     "qa_history": [],
     "created_at": 1786805068.9829264,
     "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|158188574518|0",
+    "listing": {
+      "id": "ebay:v1|158188574518|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex Submariner 16613 Silver and Gold Oyster Bracelet with Black Bezel",
+      "url": "https://www.ebay.com/itm/158188574518?_skw=Rolex+Submariner&hash=item24d4c61736:g:bbIAAeSwbjtqf1zc",
+      "price": 8350.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/bbIAAeSwbjtqf1zc/s-l225.jpg",
+      "image_urls": [
+        "https://i.ebayimg.com/images/g/bbIAAeSwbjtqf1zc/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/L7wAAeSwEi9qf1zc/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/KLAAAeSwYTBqf1zc/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/a2sAAeSwU21qf1zc/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/ovwAAeSwFU5qf1zd/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/LuUAAeSwWXtqf1zd/s-l1600.jpg"
+      ],
+      "body": "Rolex Submariner 16613 Silver and Gold Oyster Bracelet with Black Bezel",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Hunter's criteria did not specify a reference number, just \"Rolex Submariner, black dial, 1992 or newer, under $11,000, excellent condition.\" The 16613 two-tone Submariner was produced from ~1988 into the early 2000s, fits the black dial requirement, and at $8,350 is well under budget. No specific model/reference was demanded by the hunter, so this generic Submariner criterion is satisfied assuming the actual production year (via serial) is 1992+.",
+      "estimated_value": 8500.0,
+      "confidence": 0.55,
+      "condition_summary": "Watch appears to be in good-to-very-good used condition with visible light scratches on the gold center links and bracelet, and a small mark on the crystal in one photo; no box/papers shown. Case and bezel look correctly proportioned with no obvious damage.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "No serial/model number close-up or case-back photo provided to verify authenticity or confirm production year (needed to confirm 1992+ requirement); listing text is minimal (just a title, no description of history, service records, or included accessories). Photos show a real physical watch (not stock), which is a positive sign, but lack of caseback/serial shot and papers is a gap. Price is reasonable for a two-tone 16613, not suspiciously low, which reduces scam risk somewhat.",
+      "rarity_notes": "The 16613 two-tone Submariner is a common, widely-produced reference (built from late 1980s through early 2000s), not rare, but consistently in demand.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and sought-after watch models in the world, with strong resale demand across dial/bezel/bracelet configurations."
+    },
+    "deal_score": 2,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 5920,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 5920 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and sought-after watch models in the world, with strong resale demand across dial/bezel/bracelet configurations.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 8350.0,
+    "discount": 0.01764705882352941,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|236973759426|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1786830032.2174675,
+    "analysis_depth": "full"
+  },
+  {
+    "id": "rolex:etsy:4454287425",
+    "listing": {
+      "id": "etsy:4454287425",
+      "source": "etsy",
+      "category": "watches",
+      "title": "Vintage Tudor oyster prince 94010 submariner watch, original Rolex 16610 Case,  circa 1980 restored",
+      "url": "https://www.etsy.com/listing/4454287425/vintage-tudor-submariner-9401-restored",
+      "price": 1800.0,
+      "shipping_price": null,
+      "currency": "GBP",
+      "image_url": "https://i.etsystatic.com/62941628/r/il/2a674c/7706334603/il_fullxfull.7706334603_rjrv.jpg",
+      "image_urls": [
+        "https://i.etsystatic.com/62941628/r/il/2a674c/7706334603/il_fullxfull.7706334603_rjrv.jpg",
+        "https://i.etsystatic.com/62941628/r/il/e0f337/7691373715/il_fullxfull.7691373715_cc4v.jpg",
+        "https://i.etsystatic.com/62941628/r/il/ef9081/7691353291/il_fullxfull.7691353291_qe4q.jpg",
+        "https://i.etsystatic.com/62941628/r/il/883494/7691353283/il_fullxfull.7691353283_tmpb.jpg",
+        "https://i.etsystatic.com/62941628/r/il/902586/7643400670/il_fullxfull.7643400670_fauk.jpg",
+        "https://i.etsystatic.com/62941628/r/il/f7b5cd/7643400664/il_fullxfull.7643400664_8415.jpg",
+        "https://i.etsystatic.com/62941628/r/il/2ed907/7643400674/il_fullxfull.7643400674_r5jg.jpg",
+        "https://i.etsystatic.com/62941628/r/il/e667fc/7691353281/il_fullxfull.7691353281_m8f7.jpg",
+        "https://i.etsystatic.com/62941628/r/il/61b0ee/7643400672/il_fullxfull.7643400672_88oc.jpg",
+        "https://i.etsystatic.com/62941628/r/il/c8bb8e/7691353285/il_fullxfull.7691353285_702b.jpg"
+      ],
+      "body": "Beautiful Tudor 9401 watch restored and recased into an original rolex 16610 watch case, rolex oyster steel rivet bracelet. Beautiful patina on the bezel that has made it hue/ greyish.\n\nPlease note that the watch dial has minor imperfections and damaged prints. Beautiful running condition but vintage and used.\n\nprice negotiable",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "taxonomy_id": 6076
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "This is a Tudor Oyster Prince Submariner (ref 9401), not a Rolex Submariner. It has been \"recased\" into a Rolex 16610 case, making it a franken-watch/composite - not a genuine Rolex Submariner as required by the hunter. Circa 1980 also predates the 1992+ requirement, and the case being a mismatched aftermarket recasing further disqualifies it.",
+      "estimated_value": 1800.0,
+      "confidence": 0.5,
+      "condition_summary": "Vintage Tudor dial with visible aging/patina, damaged/degraded print, yellowed lume plots; case is a genuine Rolex 16610 case that has been swapped in (not original to the watch), bracelet shows notable wear and scratches.",
+      "authenticity_risk": "high",
+      "authenticity_notes": "Seller openly admits this is a \"Frankenwatch\" - a Tudor Oyster Prince Submariner movement/dial recased into an authentic Rolex 16610 case, which is a composite/modified piece, not a factory-original watch of either brand. This kind of mixing significantly impacts collector value and legitimacy, and would not satisfy someone looking for a genuine, unmolested Rolex Submariner. Dial print damage further complicates authentication of the dial's originality.",
+      "rarity_notes": "Genuine vintage Tudor Oyster Prince Submariners (ref. 9401) are reasonably collectible on their own, but this example's value and rarity status is compromised by the non-original recasing into a Rolex case, making it a hybrid/franken piece rather than a rare correct-configuration watch.",
+      "demand_tier": "Low",
+      "demand_reasoning": "While Rolex Submariners have high demand, this listing is neither a Rolex model nor a correctly configured vintage Tudor - the franken-case construction significantly reduces desirability among serious collectors and does not meet the hunter's specific brand/model requirement."
+    },
+    "deal_score": 0,
+    "liquidity": {
+      "rating": "Low",
+      "comparable_count": 45,
+      "algorithmic_tier": "High",
+      "claude_tier": "Low",
+      "reasoning": "Algorithmic signal: 45 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Low (While Rolex Submariners have high demand, this listing is neither a Rolex model nor a correctly configured vintage Tudor - the franken-case construction significantly reduces desirability among serious collectors and does not meet the hunter's specific brand/model requirement.). Final rating uses the more conservative of the two: Low."
+    },
+    "all_in_price": 1800.0,
+    "discount": 0.0,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1786830044.5076146,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:etsy:4556127961",
+    "listing": {
+      "id": "etsy:4556127961",
+      "source": "etsy",
+      "category": "watches",
+      "title": "Vintage Rolex Submariner Automatic Watch \u2013 Authentic, Serviced, With Rolex Papers",
+      "url": "https://www.etsy.com/listing/4556127961/vintage-rolex-submariner-automatic-watch",
+      "price": 1198.0,
+      "shipping_price": null,
+      "currency": "USD",
+      "image_url": "https://i.etsystatic.com/64452365/r/il/50b04f/8432175481/il_fullxfull.8432175481_78o3.jpg",
+      "image_urls": [
+        "https://i.etsystatic.com/64452365/r/il/50b04f/8432175481/il_fullxfull.8432175481_78o3.jpg",
+        "https://i.etsystatic.com/64452365/r/il/855a77/8384306814/il_fullxfull.8384306814_6mds.jpg",
+        "https://i.etsystatic.com/64452365/r/il/18c4f3/8432175485/il_fullxfull.8432175485_59a8.jpg",
+        "https://i.etsystatic.com/64452365/r/il/a98e0d/8384306812/il_fullxfull.8384306812_owyg.jpg",
+        "https://i.etsystatic.com/64452365/r/il/0aca47/8384306832/il_fullxfull.8384306832_j961.jpg",
+        "https://i.etsystatic.com/64452365/r/il/1fc53e/8432175471/il_fullxfull.8432175471_kiub.jpg",
+        "https://i.etsystatic.com/64452365/r/il/b06549/8384306820/il_fullxfull.8384306820_popf.jpg",
+        "https://i.etsystatic.com/64452365/r/il/ff1796/8384306838/il_fullxfull.8384306838_tpzk.jpg",
+        "https://i.etsystatic.com/64452365/r/il/808022/8384306822/il_fullxfull.8384306822_5rso.jpg",
+        "https://i.etsystatic.com/64452365/r/il/c9114a/8384306824/il_fullxfull.8384306824_bygg.jpg"
+      ],
+      "body": "\ud83d\udd70 Vintage Rolex Submariner \u2013 Authentic & Serviced\n\n\nThis is an authentic vintage Rolex Submariner, a true classic and highly collectible Swiss timepiece. The watch has been professionally serviced by an official Rolex Service Center, as confirmed by the original Rolex Service Papers included.\n\n\n\u2728 Details\n\n\nBrand: Rolex\n\n\nModel: Submariner\n\n\nMovement: Automatic (Oyster Perpetual)\n\n\nCase Material: Stainless Steell\n\n\nDial: Black\n\n\nBezel: Black rotating bezel\n\n\nBracelet: Stainless Steel Oyster bracelet\n\n\nWater Resistance: Originally rated 660 ft / 200 m (vintage piece)\n\n\n\ud83e\uddfe Service & Authenticity\n\n\nRecently serviced by Rolex Service Division\n\n\nOriginal Rolex service box and documents included\n\n\nService paperwork shows official Rolex overhaul\n\n\nThe watch is running properly at the time of listing\n\n\n\ud83d\udce6 What&#39;s Included\n\n\nVintage Rolex Submariner watch\n\n\nRolex Service Division box\n\n\nOriginal Rolex service warranty paper\n\n\nRolex service booklet / card (as shown in photos)\n\n\n\ud83d\udccc Condition\n\n\nThis is a vintage watch, not a new one.\nThe watch shows normal signs of age consistent with its era, which add to its character and authenticity. Please review all photos carefully, as they are part of the description.\n\n\n\ud83d\ude9a Shipping\n\n\nCarefully packaged and fully insured shipping\n\n\n\n\n\u2757\ufe0f Important Notes\n\n\nThis item is 100% authentic\n\n\nNo aftermarket parts are claimed\n\n\nReturns accepted only within 30 days.\n\n\nIf you have any questions, feel free to message me.\nA timeless Rolex piece, perfect for collectors and enthusiasts",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "taxonomy_id": 6074
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Price ($1,198) is dramatically below any genuine vintage Rolex Submariner market value (typically $8,000-15,000+), which combined with other red flags strongly suggests this is a counterfeit, not an authentic Rolex. A real Submariner in excellent condition would never sell at this price on Etsy. Additionally, no reference number or specific year is given, so 1992+ compliance can't be verified.",
+      "estimated_value": null,
+      "confidence": 0.15,
+      "condition_summary": "Photo shows a Submariner-style watch with black dial/bezel next to a green \"Rolex Service\" box; claimed to have normal vintage wear, but image is a single close-up crop that doesn't show hallmarks, serial/model numbers, or bracelet clasp details needed to assess genuine condition.",
+      "authenticity_risk": "high",
+      "authenticity_notes": "Major red flags: (1) Price of $1,198 is far below the $8,000+ floor for any genuine vintage or modern Submariner - a massive unexplained discount; (2) Listing is on Etsy, a platform not typically used for authenticated luxury watch sales and known for counterfeit reproductions; (3) Text has awkward, generic, possibly templated phrasing (\"Case Material: Stainless Steell\" typo, repetitive filler like \"as shown in photos\"); (4) No reference number, serial number, or year provided anywhere; (5) \"Rolex Service Division box\" and \"service papers\" are easily reproduced/faked accessories and are not equivalent to authentication papers or a warranty card tied to a serial; (6) Dial text/font and hand style in the photo look inconsistent with a genuine vintage (pre-1992) No-Date Submariner - modern replica dials often have this exact layout; (7) Only one photo provided despite claim that \"all photos\" show details - no shot of caseback, serial between lugs, or hallmarks.",
+      "rarity_notes": "Cannot assess rarity without a reference number. Vintage No-Date Submariners (5513, 14060, etc.) are common in the vintage market but this listing gives no specifics to identify which reference, if genuine.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and highly demanded watch models in the world, but this specific listing's extreme red flags undermine any genuine demand-driven value."
+    },
+    "deal_score": 0,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 45,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 45 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and highly demanded watch models in the world, but this specific listing's extreme red flags undermine any genuine demand-driven value.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 1198.0,
+    "discount": null,
+    "notified": false,
+    "duplicate_of": "rolex:etsy:4555842895",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1786830046.6198156,
+    "analysis_depth": "quick"
   }
 ]
