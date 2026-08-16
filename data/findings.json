@@ -95192,5 +95192,64 @@
     "qa_history": [],
     "created_at": 1786888950.283172,
     "analysis_depth": "full"
+  },
+  {
+    "id": "rolex:ebay:v1|206495510478|0",
+    "listing": {
+      "id": "ebay:v1|206495510478|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex SUBMARINER DATE 16610 SS SS AT black dial",
+      "url": "https://www.ebay.com/itm/206495510478?_skw=Rolex+Submariner+black+dial&hash=item3014176fce:g:7scAAeSwMCBqgcMd",
+      "price": 9171.85,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/7scAAeSwMCBqgcMd/s-l225.jpg",
+      "image_urls": [
+        "https://i.ebayimg.com/images/g/7scAAeSwMCBqgcMd/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/6w8AAeSwg3NqgcMc/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/cysAAeSwA9FqgcMd/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/uzYAAeSwH-NqgcMd/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/DocAAeSwjZxqgcMd/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/3NgAAeSwmiFqgcMd/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/C08AAeSwvgtqgcMd/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/bCwAAeSw0hNqgcMd/s-l1600.jpg"
+      ],
+      "body": "Rolex SUBMARINER DATE 16610 SS SS AT black dial",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Hunter's criteria named no specific reference, just Submariner black dial 1992+, under $11,000, excellent condition. The 16610 is the standard Submariner Date produced from 1988-2010, so units from 1992+ fit; this listing is within price and appears to be a black dial, satisfying the stated (generic) requirements.",
+      "estimated_value": 9500.0,
+      "confidence": 0.45,
+      "condition_summary": "Photos show a clean, glossy black dial and bezel with no visible fading or major scratches; case and bracelet look well-preserved with sharp lug edges, though some case-back hairline marks are visible. No box/papers shown, and no visible serial/reference confirmation in photos.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Listing lacks serial number, production year, movement photos, or papers - only stock-style studio photos are shown, common for reseller listings but not verifiable for authenticity. Title format (\"SS SS AT\") suggests a possibly translated/templated listing (common with Japanese resellers), which is not inherently a red flag but reduces ability to verify specifics like actual year of manufacture, box/papers inclusion, and service history.",
+      "rarity_notes": "Ref. 16610 is one of the most common and widely available Submariner references (produced 1988\u20132010), not rare, but consistently in high demand.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and sought-after watch models globally, with consistent strong resale demand regardless of specific reference."
+    },
+    "deal_score": 3,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 3134,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 3134 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and sought-after watch models globally, with consistent strong resale demand regardless of specific reference.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 9171.85,
+    "discount": 0.03454210526315785,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|358905216308|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1786902109.3553698,
+    "analysis_depth": "full"
   }
 ]
