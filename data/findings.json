@@ -95133,5 +95133,64 @@
     "qa_history": [],
     "created_at": 1786877598.6051984,
     "analysis_depth": "full"
+  },
+  {
+    "id": "rolex:ebay:v1|116307093552|0",
+    "listing": {
+      "id": "ebay:v1|116307093552|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex Submariner Date 16610 Steel Holes None Ceramic Black Dial Watch B&P",
+      "url": "https://www.ebay.com/itm/116307093552?_skw=Rolex+Submariner+black+dial&hash=item1b14716830:g:lJ4AAeSwF~Noo4GW&amdata=enc%3AAQALAAABAACCtXRWQnOEpyOqnQQ8KGZN4WtHFcvctVbddAOv44KcWaf1g0WqZIDIkfca8RfwpvzsYuqU7EnssNdqy2mQ6ELrAIM7m6GaNndQZZdvRW13M%2BCE0xsbQkh1k6Tq3ntPUp%2BKAA4F%2FHIh8eZ9JWSZZWbZj4%2FpuHex%2FFtbzIBKTGnjnWnD410dseZYtVjxutmBnYVSx713Aw%2Fnp5ELITHhAbp9MhfDUUdlM2RPW3XkNSYRaFcp1EXKT8gzVZU8HAvmjVQj6GWyi%2Bs50c924vtY0lScTUJmKVIcQcValmDLYnRkob0Mm%2B476sfIPyReWsmmUoUL%2BmiIGW%2B%2FE1q6U5BpH%2BQ%3D",
+      "price": 10999.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/lJ4AAeSwF~Noo4GW/s-l225.jpg",
+      "image_urls": [
+        "https://i.ebayimg.com/images/g/lJ4AAeSwF~Noo4GW/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/uV0AAeSwldloo4GV/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/GFgAAeSwzeJoo4GV/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/7RAAAeSwDFVoo4GV/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/FtYAAeSw~s5oo4GV/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/vj0AAeSwzJ1oo4GV/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/Te8AAeSwPI9oo4GV/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/un8AAeSwufpoo4GV/s-l1600.jpg"
+      ],
+      "body": "Rolex Submariner Date 16610 Steel Holes None Ceramic Black Dial Watch B&P",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Hunter's criteria did not specify a reference number, only \"Submariner black dial, 1992 or newer, excellent condition, under $11000.\" The 16610 (produced 1988-2010) fits this generic description as a black dial Submariner Date, and the price ($10,999) is under the ceiling.",
+      "estimated_value": 10500.0,
+      "confidence": 0.6,
+      "condition_summary": "Watch appears well-kept with strong lume plots, clean dial, and minimal case wear visible in close-up photos; bezel insert shows minor fading/scratches consistent with light use. Bracelet shows some visible stretch/wear at links.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "Full box and papers shown in photos, including matching reference number (16610) on the paperwork tag and warranty card, which is a good sign. Serial number on the papers is redacted/blurred, which is common for privacy but prevents full verification. No visible caseback or serial on the watch itself shown, which would be useful to confirm authenticity further. Bracelet end-link and clasp visuals look consistent with genuine Rolex Oyster bracelet.",
+      "rarity_notes": "The 16610 is one of the most common modern Submariner references (produced 1988\u20132010), not rare, but highly desirable and easy to service/verify due to abundant market comps.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and demanded watches in the world; the 16610 black dial variant with box and papers is a strong seller in the pre-owned market."
+    },
+    "deal_score": -5,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 3131,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 3131 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and demanded watches in the world; the 16610 black dial variant with box and papers is a strong seller in the pre-owned market.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 10999.0,
+    "discount": -0.047523809523809524,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|407006012428|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1786888950.283172,
+    "analysis_depth": "full"
   }
 ]
