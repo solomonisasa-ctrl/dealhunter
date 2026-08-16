@@ -95072,5 +95072,66 @@
     "qa_history": [],
     "created_at": 1786866411.4751832,
     "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|407148489696|0",
+    "listing": {
+      "id": "ebay:v1|407148489696|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex Submariner No-Date \u2013 Ref. 114060 \u2013 Black Dial- 2010 40mm",
+      "url": "https://www.ebay.com/itm/407148489696?_skw=Rolex+Submariner&hash=item5ecbf0ebe0:g:SgEAAeSwR-FqgYIX",
+      "price": 10800.0,
+      "shipping_price": 150.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/SgEAAeSwR-FqgYIX/s-l225.jpg",
+      "image_urls": [
+        "https://i.ebayimg.com/images/g/SgEAAeSwR-FqgYIX/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/HSEAAeSwUulqgYIY/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/fS4AAeSw5ctqgYIY/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/QcoAAeSw~cFqgYIY/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/K3gAAeSwbEhqgYIY/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/UBIAAeSw3lhqgYIY/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/DdIAAeSwBCJqgYIY/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/bcwAAeSwqgRqgYIY/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/Qy0AAeSwv8xqgYIZ/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/fCAAAeSwTF5qgYIZ/s-l1600.jpg"
+      ],
+      "body": "Rolex Submariner No-Date \u2013 Ref. 114060 \u2013 Black Dial- 2010 40mm",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Hunter's criteria did not specify an exact reference number, only \"Rolex Submariner, black dial, 1992 or newer, excellent condition, under $11000.\" This 2010 ref. 114060 (no-date) is a genuine Submariner with black dial, made well after 1992, priced at $10,950 all-in, satisfying all stated requirements.",
+      "estimated_value": 10200.0,
+      "confidence": 0.55,
+      "condition_summary": "Watch appears to be in very good to excellent cosmetic condition in photos - clean bezel insert, crisp dial text/lume plots, bracelet shows only light handling marks with no major scratches visible on case or clasp. No box/papers shown or mentioned, and no wrist-wear/service history details given.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Photos show a consistent, correct-looking 114060 (ceramic bezel, correct dial font/logo, engraved rehaut visible, Rolex-signed clasp) with no obvious mismatches - a good sign. However, listing text is extremely sparse (no serial/full-set details, no mention of box/papers, service history, or seller credentials), which is a red flag for a nearly $11k transaction. Price is close to but slightly under typical market for this reference, not suspiciously low, which is reassuring but doesn't rule out risk. Recommend requesting serial number, full papers/box status, and seller feedback/return policy before purchase.",
+      "rarity_notes": "Ref. 114060 (no-date Submariner, ceramic bezel version, produced ~2010-2012) is a well-known, plentiful reference on the market - not rare, but highly desirable and liquid.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and demanded watch models globally; the ceramic no-date 114060 is especially popular for its simplicity and robustness, ensuring strong resale demand."
+    },
+    "deal_score": -7,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 5926,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 5926 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and demanded watch models globally; the ceramic no-date 114060 is especially popular for its simplicity and robustness, ensuring strong resale demand.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 10950.0,
+    "discount": -0.07352941176470588,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|127962808383|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1786877598.6051984,
+    "analysis_depth": "full"
   }
 ]
