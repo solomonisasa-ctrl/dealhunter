@@ -64397,7 +64397,7 @@
       ],
       "body": "Up for sale is a 2020\u2018s WMT Royal Marine. This watch is a real insider tip for watch enthusiasts, combining the authentic look of iconic mid-20th-century vintage watches with the reliability and robustness of modern standards.\n\nThe absolute highlight of this watch is the highly detailed, hand-crafted finish. The fantastic patina look with a ghost bezel and artificially aged luminous material gives it the unmistakable character of a historical timepiece.\n\nSpecifications:\n\nBrand: WMT (Watch Experimental Unit)\n\nModel: Royal Marine | Ref. 13920\n\nMovement: Seiko NH35 Automatic\n\nCase diameter: 39.5 mm without crown\n\nCase thickness: 14.8 mm\n\nLug width: 20 mm\n\nCrystal: Acrylic, domed\n\nBracelet: Stainless Steel; suitable for wrists up to approx. 19 cm\n\nCondition:\nGood worn condition, with only some signs of wear on the metal bracelet.\n\nImportant Note:\nThe visible &quot;signs of wear&quot; on the case, bezel, and dial are part of the &#39;Aged Finish&#39; (artificial aging) applied by WMT; they do not constitute damage!\n\nThe item is being sold as a full set (see pictures).",
       "posted_at": null,
-      "status": "active",
+      "status": "sold",
       "raw": {
         "taxonomy_id": 6074
       }
@@ -82767,7 +82767,7 @@
       ],
       "body": "Up for sale is a 2020\u2018s WMT Royal Marine. This watch is a real insider tip for watch enthusiasts, combining the authentic look of iconic mid-20th-century vintage watches with the reliability and robustness of modern standards.\n\nThe absolute highlight of this watch is the highly detailed, hand-crafted finish. The fantastic patina look with a ghost bezel and artificially aged luminous material gives it the unmistakable character of a historical timepiece.\n\nSpecifications:\n\nBrand: WMT (Watch Experimental Unit)\n\nModel: Royal Marine | Ref. 13920\n\nMovement: Seiko NH35 Automatic\n\nCase diameter: 39.5 mm without crown\n\nCase thickness: 14.8 mm\n\nLug width: 20 mm\n\nCrystal: Acrylic, domed\n\nBracelet: Stainless Steel; suitable for wrists up to approx. 19 cm\n\nCondition:\nGood worn condition, with only some signs of wear on the metal bracelet.\n\nImportant Note:\nThe visible &quot;signs of wear&quot; on the case, bezel, and dial are part of the &#39;Aged Finish&#39; (artificial aging) applied by WMT; they do not constitute damage!\n\nThe item is being sold as a full set (see pictures).",
       "posted_at": null,
-      "status": "active",
+      "status": "sold",
       "raw": {
         "taxonomy_id": 6074
       }
@@ -95251,5 +95251,110 @@
     "qa_history": [],
     "created_at": 1786902109.3553698,
     "analysis_depth": "full"
+  },
+  {
+    "id": "rolex:ebay:v1|158195432310|0",
+    "listing": {
+      "id": "ebay:v1|158195432310|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex Submariner Date Auto 40mm Black Dial Two-Tone Steel Bracelet Box Papers",
+      "url": "https://www.ebay.com/itm/158195432310?_skw=Rolex+Submariner+black+dial&hash=item24d52ebb76:g:56MAAeSwsnZqghBn",
+      "price": 10500.0,
+      "shipping_price": null,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/56MAAeSwsnZqghBn/s-l225.jpg",
+      "image_urls": [
+        "https://i.ebayimg.com/images/g/56MAAeSwsnZqghBn/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/Rc4AAeSw3lhqghBX/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/Rc8AAeSw3lhqghBX/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/fD0AAeSwsJVqghBX/s-l1600.jpg"
+      ],
+      "body": "Rolex Submariner Date Auto 40mm Black Dial Two-Tone Steel Bracelet Box Papers",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Hunter's criteria is generic (any Submariner black dial, 1992+, excellent condition, under $11k) with no specific reference required. This appears to be a two-tone Submariner Date (ref 16613 family, produced from early 1990s onward), black dial, priced at $10,500 all-in, which fits within budget and era.",
+      "estimated_value": 10500.0,
+      "confidence": 0.45,
+      "condition_summary": "Watch appears lightly worn with clean bracelet links, crisp bezel insert, and legible dial/hands in photos; box and a papers-style pouch/tag shown, though no actual warranty card/paper with serial is visible in photos.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Listing claims \"Box Papers\" but the only paper-like item shown is a small plastic-wrapped tag/hologram sticker, not an actual Rolex warranty card - no serial/reference visible in any photo to confirm authenticity or exact reference. No close-up of case back, serial between lugs, or bracelet clasp markings. Photos look like genuine amateur photos (not stock), which is a mild positive, but lack of key verification photos (serial, papers) and vague reference number in title are notable gaps for a $10.5k purchase.",
+      "rarity_notes": "Two-tone Submariner Date black dial (16613-style) is a common, widely-produced reference, not rare, but consistently in demand on the secondary market.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and sought-after watch models globally, with strong consistent resale demand."
+    },
+    "deal_score": 0,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 3132,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 3132 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and sought-after watch models globally, with strong consistent resale demand.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 10500.0,
+    "discount": 0.0,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|267755407971|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1786913644.826825,
+    "analysis_depth": "full"
+  },
+  {
+    "id": "rolex:ebay:v1|287529148602|0",
+    "listing": {
+      "id": "ebay:v1|287529148602|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "1985 Rolex Submariner 16803 18K Gold Two Tone Black Original Dial Automatic",
+      "url": "https://www.ebay.com/itm/287529148602?_skw=Rolex+Submariner+black+dial&hash=item42f212a0ba:g:CnMAAeSwuvdqghYJ",
+      "price": 7800.0,
+      "shipping_price": 21.99,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/CnMAAeSwuvdqghYJ/s-l225.jpg",
+      "image_urls": [],
+      "body": "1985 Rolex Submariner 16803 18K Gold Two Tone Black Original Dial Automatic",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Hunter requires a Submariner from 1992 or newer, but this listing is a 1985 Rolex Submariner ref. 16803, which predates the required range by 7 years. Price and black dial otherwise fit, but the year requirement is not met.",
+      "estimated_value": 7800.0,
+      "confidence": 0.5,
+      "condition_summary": "Watch appears to be on a non-original leather strap (not the stock bracelet), with a black dial and bezel showing typical wear for age; photo shows only one wrist shot, limiting condition assessment.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only a single wrist photo is provided with no close-ups of caseback, serial/model numbers, movement, or dial text for verification; no box/papers mentioned. The watch is on an aftermarket strap rather than its original Jubilee/Oyster bracelet, which is common but reduces ability to verify authenticity from photos alone. No red flags like mismatched serials are evident, but the lack of documentation and detailed photos warrants caution.",
+      "rarity_notes": "The 16803 two-tone Submariner (early two-tone gold/steel model with black dial) is a fairly common vintage reference, not rare, and readily available on the secondary market.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and sought-after watch models in the world, ensuring strong demand regardless of specific reference or era."
+    },
+    "deal_score": 0,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 3132,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 3132 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and sought-after watch models in the world, ensuring strong demand regardless of specific reference or era.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 7821.99,
+    "discount": -0.0028192307692307414,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|800504668440|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1786913633.4788907,
+    "analysis_depth": "quick"
   }
 ]
