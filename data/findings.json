@@ -95012,5 +95012,65 @@
     "qa_history": [],
     "created_at": 1786850891.2010055,
     "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:etsy:4556300564",
+    "listing": {
+      "id": "etsy:4556300564",
+      "source": "etsy",
+      "category": "watches",
+      "title": "Pre-Owned Rolex Submariner Date 16800 40mm Black Gloss Dial Automatic Dive Watch with Original Warranty Card",
+      "url": "https://www.etsy.com/listing/4556300564/pre-owned-rolex-submariner-date-16800",
+      "price": 29800.0,
+      "shipping_price": null,
+      "currency": "MYR",
+      "image_url": "https://i.etsystatic.com/65185495/r/il/c50e4c/8385555264/il_fullxfull.8385555264_19zc.jpg",
+      "image_urls": [
+        "https://i.etsystatic.com/65185495/r/il/c50e4c/8385555264/il_fullxfull.8385555264_19zc.jpg",
+        "https://i.etsystatic.com/65185495/r/il/747544/8385554106/il_fullxfull.8385554106_juol.jpg",
+        "https://i.etsystatic.com/65185495/r/il/bfddc7/8385554104/il_fullxfull.8385554104_fd10.jpg",
+        "https://i.etsystatic.com/65185495/r/il/a48c14/8433425533/il_fullxfull.8433425533_rna2.jpg",
+        "https://i.etsystatic.com/65185495/r/il/d8656f/8433425539/il_fullxfull.8433425539_heua.jpg",
+        "https://i.etsystatic.com/65185495/r/il/49b91b/8433425569/il_fullxfull.8433425569_5r5c.jpg",
+        "https://i.etsystatic.com/65185495/r/il/4a14d1/8385554140/il_fullxfull.8385554140_t3v5.jpg",
+        "https://i.etsystatic.com/65185495/r/il/fb10b0/8433425601/il_fullxfull.8433425601_8ztu.jpg",
+        "https://i.etsystatic.com/65185495/r/il/1b2082/8433425599/il_fullxfull.8433425599_o3bt.jpg"
+      ],
+      "body": "Authentic pre-owned Rolex Submariner Date reference 16800 featuring a classic black gloss dial, stainless steel case, and iconic professional dive watch design.\n\nProduced during the important transitional era of the Submariner collection, the reference 16800 combines vintage character with modern features, including a sapphire crystal, 300m water resistance rating, and automatic mechanical movement.\n\nThis watch features a black gloss dial with luminous hour markers, black aluminum bezel insert, Oyster bracelet, and date display with Cyclops magnifier.\n\nAccompanied by its original Rolex warranty card.\n\nSPECIFICATIONS\nBrand: Rolex\nCollection: Submariner Date\nReference: 16800\nCase Material: Stainless Steel\nCase Size: 40mm\nDial Color: Black Gloss Dial\nBezel: Black Aluminum Rotating Bezel\nBracelet: Stainless Steel Oyster Bracelet\nMovement: Automatic Mechanical\nCaliber: Rolex 3035\nFunctions: Hours, Minutes, Seconds, Date Display\nCrystal: Sapphire Crystal\nWater Resistance: 300m / 1000ft\nCONDITION\nPre-owned condition\nOriginal configuration with no known modifications or aftermarket parts\nService history unknown\nBlack gloss dial remains in good visual condition\nLight scratches and surface marks consistent with previous use\nCase and bracelet show age-appropriate wear\nWatch is currently running smoothly\nAll stated functions are currently operating\n\nPlease review all photographs carefully, as they form an important part of the condition description.\n\nINCLUDED\nOriginal Rolex warranty card\nWatch only\nOriginal box not included\n\nPersonal and identifying information shown on the warranty card has been concealed in listing photographs for privacy and security.\n\nAUTHENTICITY\n\nThis is an authentic Rolex Submariner Date reference 16800 accompanied by its original Rolex warranty card.\n\nDetailed photographs of the dial, case, bracelet, and identifying features are provided for buyer reference.\n\nBuyer is welcome to arrange inspection by a qualified independent watchmaker, professional authentication service, or authorized Rolex dealer for additional verification.\n\nRolex names and trademarks are used solely to identify the item being offered for sale. This listing is not affiliated with, sponsored by, or endorsed by Rolex.\n\nIMPORTANT INFORMATION\n\nThis watch is sold as a pre-owned timepiece in its current condition.\n\nMinor scratches, surface marks, patina, and signs of previous wear are normal characteristics of a previously worn luxury watch and are not considered defects.\n\nWater resistance has not been professionally tested, and no guarantee of current water resistance is provided.\n\nPlease review all photographs carefully and ask any questions regarding condition, operation, measurements, or documentation before purchasing.",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "taxonomy_id": 6074
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Ref 16800 is a Submariner Date with black dial, production era 1983-1988, so it could predate the 1992+ requirement (16800 was succeeded by 16610 in 1988/89). More critically, price is $29,800, nearly triple the $11,000 ceiling, so it fails on price regardless of reference/year.",
+      "estimated_value": 8500.0,
+      "confidence": 0.55,
+      "condition_summary": "Watch shows light scratches and age-appropriate wear on case/bracelet; dial appears glossy black and clean in photo with no obvious damage, but seller states service history unknown and no box included.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only one photo provided despite listing claiming 'detailed photographs' of dial, case, bracelet, and identifying features - no caseback, serial/reference number engraving, or warranty card image shown, which is a red flag for a $29,800 item. Warranty card details are concealed, limiting verification. No independent authentication mentioned as completed. Price is drastically above the hunter's budget and also seems high relative to typical 16800 market value (~$8-12k for good condition), which itself is unusual and worth scrutiny.",
+      "rarity_notes": "Ref 16800 is a well-known transitional Submariner (1983-1988) with sapphire crystal and quickset date; not rare but desirable among collectors of vintage-modern transitional models. However it predates the hunter's 1992+ requirement.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and sought-after watch models in the world, with strong consistent demand across all reference variants."
+    },
+    "deal_score": -251,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 45,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 45 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and sought-after watch models in the world, with strong consistent demand across all reference variants.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 29800.0,
+    "discount": -2.5058823529411764,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1786866411.4751832,
+    "analysis_depth": "quick"
   }
 ]
