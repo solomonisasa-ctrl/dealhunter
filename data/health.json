@@ -1,65 +1,5 @@
 [
   {
-    "timestamp": 1786162682.613635,
-    "overall_status": "warning",
-    "duration_seconds": 29.53210997581482,
-    "sources": {
-      "ebay": {
-        "status": "warning",
-        "fetched": 33,
-        "new": 33,
-        "errors": [
-          "ebay:v1|366593094647|0: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cdpdqup7ukfCnsPyWgPGx'}",
-          "ebay:v1|407128110754|0: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cdpdqusbf8GWsXFavipq2'}",
-          "ebay:v1|307113175345|0: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CdpdquZzRVbJV1vbzQKKG'}",
-          "ebay:v1|298568328981|0: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CdpdqufhMGMq4fEhPaqpi'}",
-          "ebay:v1|267749777113|0: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CdpdqvGANFeECtYFttif3'}",
-          "ebay:v1|158165189245|0: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CdpdqvS5Th7KaA1P46eQA'}",
-          "ebay:v1|407127910902|0: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cdpdr7zrJ4uLxd1ZMt7sz'}",
-          "ebay:v1|377402246009|0: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cdpdr7sfEjriMnRnoVoji'}",
-          "ebay:v1|147490271100|0: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cdpdr7rv1U3Hrjfhc8bKf'}",
-          "ebay:v1|177920773595|0: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cdpdr7wt1p8U26z93hD3j'}",
-          "ebay:v1|198555324064|0: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CdpdrQ6ET8Pq1SLzm5Kfk'}",
-          "ebay:v1|178383770526|0: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CdpdrQ8DUz8jiB9UGYqxN'}",
-          "ebay:v1|287508254316|0: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CdpdrQEAUQzqbSBuriZZm'}",
-          "ebay:v1|227465582667|0: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CdpdrQ4zLm32pzrw3uTFN'}",
-          "ebay:v1|366592875195|0: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CdpdrYJqVW5im6Cx7JEXw'}",
-          "ebay:v1|158165625905|0: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CdpdrYAuCNPEsE3YkGCRW'}",
-          "ebay:v1|800472011822|0: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CdpdrYC9M13jwbNF8CoK7'}",
-          "ebay:v1|407128007275|0: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CdpdrYVkMK1jr5pu7rSyK'}",
-          "ebay:v1|128015822523|0: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CdpdrZ4V5NdSir5eD8ZoE'}",
-          "ebay:v1|377402704491|0: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CdpdrZYkUBkuZGukrAy6V'}",
-          "ebay:v1|407128043536|0: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CdpdrZTHrkqhFLZmM2Qew'}",
-          "ebay:v1|358897465183|0: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cdpdra51GcAGJVUoSQubD'}",
-          "ebay:v1|398258027639|0: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CdpdrZodYgeZ8pm3rCcGb'}",
-          "ebay:v1|358897913266|0: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CdpdraH9w1o37rZpnDaHS'}",
-          "ebay:v1|377402676049|0: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CdpdrhRmJRhK5xMU463AP'}",
-          "ebay:v1|158026339348|0: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CdpdrjNM43DbC2o1fnP8R'}",
-          "ebay:v1|198555345931|0: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CdpdrtZzXgWjpCJ7LMtfk'}",
-          "ebay:v1|287510543476|0: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CdpdrtndvX1qUwsVbBRzt'}",
-          "ebay:v1|257667853567|0: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cdpdrtcy9JxLjpH4euu2q'}",
-          "ebay:v1|158164943824|0: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CdpdruADFjvezoeE7f1M1'}",
-          "ebay:v1|198555403704|0: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CdpdruQM2DivJprRyjh5a'}",
-          "ebay:v1|358583184330|0: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CdpdruQ6QjwwPJtTYUrwg'}",
-          "ebay:v1|178140159589|0: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cdpdrub1bZ1zPoYqzzqt6'}"
-        ]
-      },
-      "etsy": {
-        "status": "warning",
-        "fetched": 2,
-        "new": 2,
-        "errors": [
-          "etsy:4551968763: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cdpdr2bAT5bHNwVGAXkc8'}",
-          "etsy:678238644: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CdpdrJGEiQjRZTLZjh5Sk'}"
-        ]
-      }
-    },
-    "findings_count": 0,
-    "sold_detected": 0,
-    "repriced_detected": 2,
-    "error_message": null
-  },
-  {
     "timestamp": 1786189440.4796484,
     "overall_status": "warning",
     "duration_seconds": 27.4308819770813,
@@ -1241,6 +1181,31 @@
       }
     },
     "findings_count": 3,
+    "sold_detected": 0,
+    "repriced_detected": 0,
+    "error_message": null
+  },
+  {
+    "timestamp": 1786937335.443198,
+    "overall_status": "warning",
+    "duration_seconds": 27.392200469970703,
+    "sources": {
+      "ebay": {
+        "status": "ok",
+        "fetched": 1,
+        "new": 1,
+        "errors": []
+      },
+      "etsy": {
+        "status": "warning",
+        "fetched": 0,
+        "new": 0,
+        "errors": [
+          "No new listings from etsy in the last several runs - worth checking subreddit/category config is still correct."
+        ]
+      }
+    },
+    "findings_count": 1,
     "sold_detected": 0,
     "repriced_detected": 0,
     "error_message": null

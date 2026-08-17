@@ -95520,5 +95520,55 @@
     "qa_history": [],
     "created_at": 1786924847.6466634,
     "analysis_depth": "full"
+  },
+  {
+    "id": "rolex:ebay:v1|128019861781|0",
+    "listing": {
+      "id": "ebay:v1|128019861781|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex Submariner 16613 40mm Black Dial 18KY Gold Steel Oyster Auto Box Cert 1992",
+      "url": "https://www.ebay.com/itm/128019861781?_skw=Rolex+Submariner+black+dial&hash=item1dce941115:g:z1UAAeSwH-NqekUO&amdata=enc%3AAQALAAABAACCtXRWQnOEpyOqnQQ8KGZRk%2B0ge6YdyOOJlyQVVEPAG3xiZ%2F427LF80Ig2LBFCxJ6I8rGi0EqPlohsojpHHdemDJKMg2UE5RnKMV7V5FLgnKletoNElC2xnTYNTCZjrp1tPo%2BaoZM6%2BdQp5MnCkt%2BpV3gbmcetqX7n1Xey5h9PucXivpKTzHGI6so4p3J85z1f1EIFx2tkyrzKzFU2%2BOhjnSj2OHyM6BXGiJ6hShmte7%2BNLKquxjddN0r6KcMSiAeyE7EQZRAW3%2BjdoFasuirGx%2FGMWuIEfInvHdFRL2nsjOw88vXjie7cgMM7rd98ziuvE71eJ%2BTIzwzn8M26BiQ%3D",
+      "price": 12820.25,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/z1UAAeSwH-NqekUO/s-l225.jpg",
+      "image_urls": [],
+      "body": "Rolex Submariner 16613 40mm Black Dial 18KY Gold Steel Oyster Auto Box Cert 1992",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The watch is a genuine Rolex Submariner 16613 (two-tone) from 1992, meeting the model and year requirement, but the price of $12,820.25 all-in exceeds the buyer's stated ceiling of $11,000, so it fails the price criterion.",
+      "estimated_value": 10500.0,
+      "confidence": 0.55,
+      "condition_summary": "Image shows a two-tone Submariner with blue (not black) bezel insert and dial appears dark blue/black in photo; watch looks clean with minimal visible wear, but only one stock-like photo is provided with no close-up of case, clasp, or papers despite \"Cert\" being mentioned in title.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only a single, somewhat generic-looking product photo is shown despite the title claiming \"Box Cert\" - no images of the actual box, papers, caseback, or serial/reference numbers engraved on the watch are provided, which is a common red flag. The bezel in the photo looks blue rather than black, raising a question about whether this is truly the black dial/black bezel variant or a blue dial/bezel 16613 (a different, distinct variant), which would not match the \"black dial\" requirement even before considering price.",
+      "rarity_notes": "The 16613 two-tone Submariner is a common, widely-produced reference (not limited or rare), though the black dial/black bezel version is generally more desired than the blue variant.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and sought-after watch models in the world, with consistently strong demand and liquidity in the resale market."
+    },
+    "deal_score": -22,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 3122,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 3122 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and sought-after watch models in the world, with consistently strong demand and liquidity in the resale market.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 12820.25,
+    "discount": -0.22097619047619046,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|267755407971|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1786937321.072819,
+    "analysis_depth": "quick"
   }
 ]
