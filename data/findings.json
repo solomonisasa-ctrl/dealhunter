@@ -95732,5 +95732,105 @@
     "qa_history": [],
     "created_at": 1786953803.700547,
     "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|366610439579|0",
+    "listing": {
+      "id": "ebay:v1|366610439579|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex Submariner No Date 114060 Mens Mint Watch w/ Papers",
+      "url": "https://www.ebay.com/itm/366610439579?_skw=Rolex+Submariner&hash=item555baf5d9b:g:d~IAAeSw4PZqgo8X",
+      "price": 11632.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/d~IAAeSw4PZqgo8X/s-l225.jpg",
+      "image_urls": [],
+      "body": "Rolex Submariner No Date 114060 Mens Mint Watch w/ Papers",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The listing is a genuine Rolex Submariner No Date 114060, which fits the brand/model/black dial/year (114060 post-dates 2010) requirement, but the all-in price of $11,632 exceeds the hunter's $11,000 ceiling, so it fails the price criterion.",
+      "estimated_value": 10500.0,
+      "confidence": 0.5,
+      "condition_summary": "Described as \"Mint\" with papers; photo shows a stock-style product image with no visible wear, but no close-up shots of case, clasp, or papers are provided to verify condition claims.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "The image appears to be a generic stock/catalog photo rather than an actual photo of the specific watch being sold, which is a common red flag on eBay listings claiming \"mint\" condition with papers. No serial/case-back photos, no papers shown despite being claimed, and no seller history or provenance details are given. Price is also above typical market for this reference, which is unusual for a listing with weak photo evidence.",
+      "rarity_notes": "The 114060 (no-date Submariner) is a very commonly available modern reference, not rare or limited, with strong ongoing supply in the market.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and demanded watch models in the world, with the 114060 being a modern, widely sought reference."
+    },
+    "deal_score": -11,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 5896,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 5896 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and demanded watch models in the world, with the 114060 being a modern, widely sought reference.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 11632.0,
+    "discount": -0.10780952380952381,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|407006012428|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1786967775.04978,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|366610439678|0",
+    "listing": {
+      "id": "ebay:v1|366610439678|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex Submariner No Date 114060 Mens Pre-Owned Watch w/ Papers",
+      "url": "https://www.ebay.com/itm/366610439678?_skw=Rolex+Submariner&hash=item555baf5dfe:g:o9QAAeSwqXxqgo8Z",
+      "price": 11632.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/o9QAAeSwqXxqgo8Z/s-l225.jpg",
+      "image_urls": [],
+      "body": "Rolex Submariner No Date 114060 Mens Pre-Owned Watch w/ Papers",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The 114060 is a modern ceramic-bezel no-date Submariner (post-2012), which satisfies the '1992 or newer' and black dial requirements, but the all-in price of $11,632 exceeds the buyer's $11,000 ceiling, so it fails on price alone.",
+      "estimated_value": 10500.0,
+      "confidence": 0.55,
+      "condition_summary": "Described as pre-owned; only a single stock-style catalog photo is provided with no visible wear, scratches, or close-up detail to verify actual condition.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only one generic/stock-looking product photo is shown despite claiming papers are included - no image of papers, box, serial/reference engraving, or case back, which is a mild red flag for a $11k+ purchase. No seller history or return policy details given.",
+      "rarity_notes": "The 114060 is a common, widely produced modern no-date Submariner reference, not rare, but consistently in high demand.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and sought-after luxury sports watches, with the 114060 being a very popular, easily tradable modern reference."
+    },
+    "deal_score": -11,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 5896,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 5896 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and sought-after luxury sports watches, with the 114060 being a very popular, easily tradable modern reference.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 11632.0,
+    "discount": -0.10780952380952381,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1786967773.7326543,
+    "analysis_depth": "quick"
   }
 ]
