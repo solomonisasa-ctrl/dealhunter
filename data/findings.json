@@ -95832,5 +95832,105 @@
     "qa_history": [],
     "created_at": 1786967773.7326543,
     "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|233790312290|0",
+    "listing": {
+      "id": "ebay:v1|233790312290|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex Submariner Date Black 126613LN 41mm Yellow Gold Ceramic Steel Oyster",
+      "url": "https://www.ebay.com/itm/233790312290?_skw=Rolex+Submariner&hash=item366efd0f62:g:138AAOSwe61fuGPc",
+      "price": 13599.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/138AAOSwe61fuGPc/s-l225.jpg",
+      "image_urls": [],
+      "body": "Rolex Submariner Date Black 126613LN 41mm Yellow Gold Ceramic Steel Oyster",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "This is the modern two-tone 126613LN Submariner, which does satisfy 'black dial' and 'post-1992', but the price of $13,599 exceeds the buyer's $11,000 all-in ceiling, so it fails the price criterion regardless of model fit.",
+      "estimated_value": 13500.0,
+      "confidence": 0.65,
+      "condition_summary": "Photo shows a clean, seemingly new/lightly worn two-tone Submariner with no visible scratches; appears to be a retailer stock photo rather than an actual unit photo.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "Listed by what appears to be an established dealer (Jaztime watermark), using a professional stock-style photo rather than photos of the actual watch, which is common for authorized/gray market dealers but means condition can't be independently verified from the image alone. No obvious red flags like mismatched serials or below-market pricing.",
+      "rarity_notes": "126613LN is a current production two-tone Submariner reference, widely available - not rare, but in strong demand.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and sought-after watch models globally, with strong resale demand especially in two-tone configurations."
+    },
+    "deal_score": -1,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 5892,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 5892 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and sought-after watch models globally, with strong resale demand especially in two-tone configurations.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 13599.0,
+    "discount": -0.007333333333333333,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1786978689.5929801,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|277800866385|0",
+    "listing": {
+      "id": "ebay:v1|277800866385|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex Submariner Date 40mm 116610LN Black Ceramic Bezel Dial Box & Papers",
+      "url": "https://www.ebay.com/itm/277800866385?_skw=Rolex+Submariner&hash=item40ae38d251:g:7woAAeSwKXpqNBt~",
+      "price": 12995.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/7woAAeSwKXpqNBt~/s-l225.jpg",
+      "image_urls": [],
+      "body": "Rolex Submariner Date 40mm 116610LN Black Ceramic Bezel Dial Box & Papers",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The listing is a genuine Rolex Submariner Date 116610LN with black dial, which post-dates 1992 (this reference launched circa 2010), so it satisfies the model/year requirement. However, the all-in price of $12,995 exceeds the buyer's stated ceiling of $11,000, so it fails the price criterion.",
+      "estimated_value": 11500.0,
+      "confidence": 0.55,
+      "condition_summary": "Photo shows box, papers, and hang tags present, suggesting a complete set; watch itself is not shown out of the box, so wear/condition of the case and bracelet cannot be directly assessed from the image.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "No obvious red flags - box and papers are shown, consistent with a full-set claim. However, the watch itself isn't pictured on the wrist or out of the box, so serial/case/dial details can't be verified visually; recommend requesting close-up photos of the watch itself, case back, and serial numbers before purchase.",
+      "rarity_notes": "116610LN is a very common, mass-produced reference (discontinued ~2020) with strong secondary market supply; box and papers add some value but it's not a rare or limited variant.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and sought-after watch models globally, with the ceramic bezel 116610LN being a particularly popular reference among collectors and buyers."
+    },
+    "deal_score": -13,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 5892,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 5892 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and sought-after watch models globally, with the ceramic bezel 116610LN being a particularly popular reference among collectors and buyers.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 12995.0,
+    "discount": -0.13,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|267755407971|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1786978691.5040135,
+    "analysis_depth": "quick"
   }
 ]
