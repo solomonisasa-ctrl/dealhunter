@@ -1,28 +1,5 @@
 [
   {
-    "timestamp": 1786242855.393622,
-    "overall_status": "ok",
-    "duration_seconds": 27.068487882614136,
-    "sources": {
-      "ebay": {
-        "status": "ok",
-        "fetched": 0,
-        "new": 0,
-        "errors": []
-      },
-      "etsy": {
-        "status": "ok",
-        "fetched": 0,
-        "new": 0,
-        "errors": []
-      }
-    },
-    "findings_count": 0,
-    "sold_detected": 0,
-    "repriced_detected": 0,
-    "error_message": null
-  },
-  {
     "timestamp": 1786242892.7319753,
     "overall_status": "ok",
     "duration_seconds": 0.6426923274993896,
@@ -1167,6 +1144,31 @@
     "findings_count": 3,
     "sold_detected": 0,
     "repriced_detected": 0,
+    "error_message": null
+  },
+  {
+    "timestamp": 1787022598.305321,
+    "overall_status": "warning",
+    "duration_seconds": 53.00497007369995,
+    "sources": {
+      "ebay": {
+        "status": "ok",
+        "fetched": 3,
+        "new": 3,
+        "errors": []
+      },
+      "etsy": {
+        "status": "warning",
+        "fetched": 0,
+        "new": 0,
+        "errors": [
+          "No new listings from etsy in the last several runs - worth checking subreddit/category config is still correct."
+        ]
+      }
+    },
+    "findings_count": 3,
+    "sold_detected": 0,
+    "repriced_detected": 1,
     "error_message": null
   }
 ]
