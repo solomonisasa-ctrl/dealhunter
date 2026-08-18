@@ -96680,5 +96680,55 @@
     "qa_history": [],
     "created_at": 1787040157.7633474,
     "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|307132089917|0",
+    "listing": {
+      "id": "ebay:v1|307132089917|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "1996 MINT PAPERS Rolex Submariner 16613LB Two Tone Yellow Gold Sunburst Blue",
+      "url": "https://www.ebay.com/itm/307132089917?_skw=Rolex+Submariner&hash=item47827fc63d:g:hRYAAeSw2G9qg23B",
+      "price": 11992.13,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/hRYAAeSw2G9qg23B/s-l225.jpg",
+      "image_urls": [],
+      "body": "1996 MINT PAPERS Rolex Submariner 16613LB Two Tone Yellow Gold Sunburst Blue",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Hunter requires a black dial Submariner under $11,000. This listing is reference 16613LB, a two-tone model with a blue dial/blue bezel, not black, and priced at $11,992.13 which exceeds the $11,000 ceiling.",
+      "estimated_value": 10500.0,
+      "confidence": 0.55,
+      "condition_summary": "Described as 'MINT' with papers; photos show a clean two-tone bracelet and blue sunburst dial, but only stock-style/promotional images are shown with no close-up wear shots.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "No close-up of serial/case engravings, hologram sticker, or full paperwork set shown\u2014only a partial box/papers photo. 'MINT PAPERS' claim in title is a common phrase but unverified by clear photos of the actual card/serial matching the watch.",
+      "rarity_notes": "16613LB (two-tone, blue dial/bezel) is a well-known, commonly available Submariner variant from the mid-90s, not particularly rare, but distinct from the black dial version the hunter wants.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and sought-after watch models, with strong consistent demand across variants."
+    },
+    "deal_score": -14,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 5837,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 5837 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and sought-after watch models, with strong consistent demand across variants.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 11992.13,
+    "discount": -0.14210761904761898,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|233790312290|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1787054228.304932,
+    "analysis_depth": "quick"
   }
 ]
