@@ -97959,5 +97959,105 @@
     "qa_history": [],
     "created_at": 1787126681.768293,
     "analysis_depth": "full"
+  },
+  {
+    "id": "rolex:ebay:v1|158205863851|0",
+    "listing": {
+      "id": "ebay:v1|158205863851|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "2017 Rolex Submariner Date 116610 LN Black Stainless Steel 40mm Watch Box Papers",
+      "url": "https://www.ebay.com/itm/158205863851?_skw=Rolex+Submariner+black+dial&hash=item24d5cde7ab:g:u8MAAeSwcJ1qhceH",
+      "price": 12539.07,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/u8MAAeSwcJ1qhceH/s-l225.jpg",
+      "image_urls": [],
+      "body": "2017 Rolex Submariner Date 116610 LN Black Stainless Steel 40mm Watch Box Papers",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "This is a genuine Rolex Submariner Date 116610LN with black dial from 2017, which satisfies brand/model/year/dial requirements. However, the all-in price of $12,539.07 exceeds the hunter's stated ceiling of $11,000, so it fails the price criterion.",
+      "estimated_value": 10500.0,
+      "confidence": 0.6,
+      "condition_summary": "Image shows a clean, well-kept 116610LN with no visible scratches or wear on the bracelet or bezel; described as complete with box and papers, though only a stock-style product photo is provided rather than actual item photos.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "The single image appears to be a generic/stock catalog photo rather than an actual photograph of the specific watch being sold, which is a common red flag on eBay listings claiming box and papers. No serial/close-up photos, no visible papers/box in the image, and no seller history or condition details are provided in the text, making it hard to verify authenticity or actual condition.",
+      "rarity_notes": "116610LN is a widely produced, extremely common reference - not rare, but consistently high demand on the secondary market.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner Date is one of the most recognized and sought-after luxury watch models, with strong consistent resale demand."
+    },
+    "deal_score": -19,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 3120,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 3120 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner Date is one of the most recognized and sought-after luxury watch models, with strong consistent resale demand.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 12539.07,
+    "discount": -0.19419714285714282,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|366610439678|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1787154633.94575,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|298164282939|0",
+    "listing": {
+      "id": "ebay:v1|298164282939|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex Submariner 1680 Stainless Steel Black Dial Automatic Mens Watch",
+      "url": "https://www.ebay.com/itm/298164282939?_skw=Rolex+Submariner+black+dial&hash=item456bf9e63b:g:A-MAAeSwzkppxZlg",
+      "price": 9750.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/A-MAAeSwzkppxZlg/s-l225.jpg",
+      "image_urls": [],
+      "body": "Rolex Submariner 1680 Stainless Steel Black Dial Automatic Mens Watch",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The reference 1680 Submariner was produced from approximately 1965 to 1979, well before the hunter's requirement of 1992 or newer. Even though brand/model/dial color match, the production era does not meet the 'other_requirements' constraint.",
+      "estimated_value": 9500.0,
+      "confidence": 0.35,
+      "condition_summary": "Photo shows a vintage-style Submariner with acrylic crystal and aged dial/bezel typical of a 1680; condition appears used with visible wear consistent with age, not clearly 'excellent' as claimed with no detailed condition notes.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Listing lacks serial/reference verification details, box/papers, or close-up photos of hallmarks, caseback, or movement. Single stock-like image with no close-ups is a moderate red flag for a $9,750 vintage Rolex. No mention of service history or provenance.",
+      "rarity_notes": "Ref. 1680 is a well-known vintage Submariner (1965-1979), moderately available in the vintage market but increasingly sought after; not particularly rare but desirable for vintage collectors.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and demanded watch models globally, including vintage references like the 1680."
+    },
+    "deal_score": -3,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 3120,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 3120 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and demanded watch models globally, including vintage references like the 1680.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 9750.0,
+    "discount": -0.02631578947368421,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|267755407971|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1787154634.35721,
+    "analysis_depth": "quick"
   }
 ]
