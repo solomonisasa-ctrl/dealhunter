@@ -24941,7 +24941,7 @@
       "category": "watches",
       "title": "VINTAGE 1986 Rolex Submariner No-Date Black SPIDER DIAL 40mm Steel 5513 Watch",
       "url": "https://www.ebay.com/itm/267728529099?_skw=vintage+Rolex+Submariner&hash=item3e55dd26cb:g:AZ4AAeSwshpqGFxd",
-      "price": 10193.87,
+      "price": 10393.75,
       "shipping_price": 195.0,
       "currency": "USD",
       "image_url": "https://i.ebayimg.com/images/g/AZ4AAeSwshpqGFxd/s-l225.jpg",
@@ -24966,7 +24966,7 @@
       "demand_tier": "High",
       "demand_reasoning": "Vintage Rolex Submariner 5513 is one of the most recognized and desired vintage watch references, and the spider dial variant specifically has cult status among collectors, driving strong demand."
     },
-    "deal_score": -9,
+    "deal_score": -11,
     "liquidity": {
       "rating": "High",
       "comparable_count": 500,
@@ -24974,8 +24974,8 @@
       "claude_tier": "High",
       "reasoning": "Algorithmic signal: 500 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Vintage Rolex Submariner 5513 is one of the most recognized and desired vintage watch references, and the spider dial variant specifically has cult status among collectors, driving strong demand.). Final rating uses the more conservative of the two: High."
     },
-    "all_in_price": 10388.87,
-    "discount": -0.09356526315789482,
+    "all_in_price": 10588.75,
+    "discount": -0.11460526315789474,
     "notified": false,
     "duplicate_of": "submariner:ebay:v1|306984859097|0",
     "dismissed": false,
@@ -47507,8 +47507,8 @@
       "category": "watches",
       "title": "VINTAGE Rolex Submariner Black METERS FIRST Patina Stainless NEAT FONT 40mm 5512",
       "url": "https://www.ebay.com/itm/267354052497?_skw=vintage+Rolex+Submariner&hash=item3e3f8b1791:g:ED8AAeSwBYJpOJCY",
-      "price": 11213.79,
-      "shipping_price": 74.0,
+      "price": 11433.67,
+      "shipping_price": 195.0,
       "currency": "USD",
       "image_url": "https://i.ebayimg.com/images/g/ED8AAeSwBYJpOJCY/s-l225.jpg",
       "image_urls": [],
@@ -47532,7 +47532,7 @@
       "demand_tier": "High",
       "demand_reasoning": "Vintage Rolex Submariner 5512 is one of the most recognized and desired vintage watch references among collectors, with strong consistent demand and appreciation."
     },
-    "deal_score": 19,
+    "deal_score": 17,
     "liquidity": {
       "rating": "High",
       "comparable_count": 491,
@@ -47540,8 +47540,8 @@
       "claude_tier": "High",
       "reasoning": "Algorithmic signal: 491 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Vintage Rolex Submariner 5512 is one of the most recognized and desired vintage watch references among collectors, with strong consistent demand and appreciation.). Final rating uses the more conservative of the two: High."
     },
-    "all_in_price": 11287.79,
-    "discount": 0.19372928571428566,
+    "all_in_price": 11628.67,
+    "discount": 0.16938071428571427,
     "notified": false,
     "duplicate_of": "submariner:ebay:v1|376226968912|0",
     "dismissed": false,
@@ -89473,7 +89473,7 @@
       "category": "watches",
       "title": "VINTAGE 1986 Rolex Submariner No-Date Black SPIDER DIAL 40mm Steel 5513 Watch",
       "url": "https://www.ebay.com/itm/267728529099?_skw=Rolex+Submariner+black+dial&hash=item3e55dd26cb:g:AZ4AAeSwshpqGFxd",
-      "price": 10193.87,
+      "price": 10393.75,
       "shipping_price": 195.0,
       "currency": "USD",
       "image_url": "https://i.ebayimg.com/images/g/AZ4AAeSwshpqGFxd/s-l225.jpg",
@@ -89498,7 +89498,7 @@
       "demand_tier": "High",
       "demand_reasoning": "Rolex Submariner is one of the most recognized and highly demanded watch models in the world, and vintage 5513 spider dial variants attract strong collector interest."
     },
-    "deal_score": -4,
+    "deal_score": -6,
     "liquidity": {
       "rating": "High",
       "comparable_count": 3050,
@@ -89506,8 +89506,8 @@
       "claude_tier": "High",
       "reasoning": "Algorithmic signal: 3050 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and highly demanded watch models in the world, and vintage 5513 spider dial variants attract strong collector interest.). Final rating uses the more conservative of the two: High."
     },
-    "all_in_price": 10388.87,
-    "discount": -0.03888700000000008,
+    "all_in_price": 10588.75,
+    "discount": -0.058875,
     "notified": false,
     "duplicate_of": "rolex:ebay:v1|188623122260|0",
     "dismissed": false,
@@ -99731,6 +99731,106 @@
     "dismissed": false,
     "qa_history": [],
     "created_at": 1787253502.2283258,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|206470709887|0",
+    "listing": {
+      "id": "ebay:v1|206470709887|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Vintage Rolex Submariner No Date 5513 Matte Patina Dial 40mm Stainless Steel",
+      "url": "https://www.ebay.com/itm/206470709887?_skw=Rolex+Submariner+black+dial&hash=item30129d027f:g:PPYAAeSwvSNqh4IC",
+      "price": 10995.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/PPYAAeSwvSNqh4IC/s-l225.jpg",
+      "image_urls": [],
+      "body": "Vintage Rolex Submariner No Date 5513 Matte Patina Dial 40mm Stainless Steel",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The hunter requires a Submariner from 1992 or newer. The reference 5513 was produced from roughly 1962 to 1989, so it predates the required production era, making this a mismatch on year despite matching brand/model family and price.",
+      "estimated_value": 10500.0,
+      "confidence": 0.45,
+      "condition_summary": "Photo shows a vintage 5513 with a matte black dial showing patina/aging, steel case and bracelet appear original with expected vintage wear; no close-up of case edges, movement, or papers shown.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only a single stock-style photo provided; no shots of caseback, serial/reference numbers, movement, or accompanying box/papers to verify authenticity. Vintage Submariners like the 5513 are frequently subject to dial swaps, redials, and Frankenstein builds, so lack of detailed photos and provenance is a notable gap for a $11k purchase.",
+      "rarity_notes": "The 5513 no-date Submariner is a well-known vintage reference, moderately available in the vintage market, with matte dial and patina examples being desirable to collectors but not exceptionally rare.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and sought-after watch lines, and vintage patina-dial 5513s have strong collector demand."
+    },
+    "deal_score": -5,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 3110,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 3110 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and sought-after watch lines, and vintage patina-dial 5513s have strong collector demand.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 10995.0,
+    "discount": -0.047142857142857146,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|358923528350|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1787266888.6325297,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|267354052497|0",
+    "listing": {
+      "id": "ebay:v1|267354052497|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "VINTAGE Rolex Submariner Black METERS FIRST Patina Stainless NEAT FONT 40mm 5512",
+      "url": "https://www.ebay.com/itm/267354052497?_skw=Rolex+Submariner+black+dial&hash=item3e3f8b1791:g:ED8AAeSwBYJpOJCY",
+      "price": 11433.67,
+      "shipping_price": 195.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/ED8AAeSwBYJpOJCY/s-l225.jpg",
+      "image_urls": [],
+      "body": "VINTAGE Rolex Submariner Black METERS FIRST Patina Stainless NEAT FONT 40mm 5512",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The listing is a vintage Rolex Submariner ref. 5512 \"Meters First\" with a \"neat font\" - this is a 1960s-era model (meters-first dials were used roughly 1966-1967), far predating the hunter's 1992-or-newer requirement. It also exceeds the $11,000 all-in price ceiling.",
+      "estimated_value": 14000.0,
+      "confidence": 0.4,
+      "condition_summary": "Vintage dial shows patina (aging lume/markers), case appears original but photo is a generic stock-style image without close-up wear shots; no serial or movement photos provided.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only one stock-like photo provided; no close-ups of case back, movement, or serial numbers to verify authenticity of a highly collectible and frequently faked vintage reference. Vintage \"meters first\" 5512 dials are among the most replicated/franken-watch prone pieces, so lack of detailed photos and papers is a concern.",
+      "rarity_notes": "The 5512 Meters First with Neat Font is a genuinely rare and highly sought-after vintage configuration, commanding premium prices well above the hunter's budget.",
+      "demand_tier": "High",
+      "demand_reasoning": "Vintage Rolex Submariner 5512 in this rare dial configuration has very high collector demand, but this is a different product era/model than what the hunter is seeking."
+    },
+    "deal_score": 17,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 3110,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 3110 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Vintage Rolex Submariner 5512 in this rare dial configuration has very high collector demand, but this is a different product era/model than what the hunter is seeking.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 11628.67,
+    "discount": 0.16938071428571427,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1787266889.0229745,
     "analysis_depth": "quick"
   }
 ]
