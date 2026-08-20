@@ -99525,5 +99525,55 @@
     "qa_history": [],
     "created_at": 1787227280.7386806,
     "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|267762693328|0",
+    "listing": {
+      "id": "ebay:v1|267762693328|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "ROLEX VINTAGE 16613 TWO TONE SUBMARINER DATE WATCH 40 MM (GOOD & 100% ORIGINAL)",
+      "url": "https://www.ebay.com/itm/267762693328?_skw=Rolex+Submariner&hash=item3e57e674d0:g:OPcAAeSwKVhqhwJI",
+      "price": 9800.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/OPcAAeSwKVhqhwJI/s-l225.jpg",
+      "image_urls": [],
+      "body": "ROLEX VINTAGE 16613 TWO TONE SUBMARINER DATE WATCH 40 MM (GOOD & 100% ORIGINAL)",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The hunter requires a black dial Submariner, but this listing is a two-tone Submariner ref. 16613 with a blue dial and blue bezel, not black. Also, condition is described as only \"Good\" rather than \"Excellent\" as required.",
+      "estimated_value": 9500.0,
+      "confidence": 0.5,
+      "condition_summary": "Seller describes it as \"GOOD\" condition, two-tone case with blue dial/bezel; photo shows a clean-looking watch but limited angles and no close-up of case edges, clasp, or box/papers.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only one stock-like photo provided, no serial/reference engraving shown, no box or papers pictured despite \"100% original\" claim in title; such claims without documentation are a common red flag. Price is plausible for a real 16613 but the lack of detailed photos (caseback, hologram sticker, papers) limits verification.",
+      "rarity_notes": "Ref. 16613 (blue dial/bezel two-tone) is a common, widely produced Submariner variant from the 1990s-2000s, not rare, and readily available on the market.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is a top-tier, highly recognized and sought-after model with strong resale demand, though this specific two-tone blue variant is less desirable than steel black-dial versions."
+    },
+    "deal_score": -3,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 5749,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 5749 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is a top-tier, highly recognized and sought-after model with strong resale demand, though this specific two-tone blue variant is less desirable than steel black-dial versions.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 9800.0,
+    "discount": -0.031578947368421054,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1787241584.7428863,
+    "analysis_depth": "quick"
   }
 ]
