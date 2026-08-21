@@ -100289,5 +100289,61 @@
     "qa_history": [],
     "created_at": 1787295906.5966713,
     "analysis_depth": "full"
+  },
+  {
+    "id": "rolex:ebay:v1|206507579700|0",
+    "listing": {
+      "id": "ebay:v1|206507579700|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex Submariner 14060 Oyster Stainless Steel Black Index Automatic 40mm",
+      "url": "https://www.ebay.com/itm/206507579700?_skw=Rolex+Submariner&hash=item3014cf9934:g:BtcAAeSw0jpqh9L~",
+      "price": 9495.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/BtcAAeSw0jpqh9L~/s-l225.jpg",
+      "image_urls": [
+        "https://i.ebayimg.com/images/g/BtcAAeSw0jpqh9L~/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/KVUAAeSwBO5qh9L~/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/GF4AAeSwy-Zqh9L~/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/DF8AAeSw~gJqh9L~/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/C6QAAeSw7RNqh9L~/s-l1600.jpg"
+      ],
+      "body": "Rolex Submariner 14060 Oyster Stainless Steel Black Index Automatic 40mm",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Hunter's criteria did not specify a reference number, just \"black dial Submariner, 1992 or newer, excellent condition, under $11,000.\" The Rolex Submariner 14060 is a no-date Submariner produced roughly 1990-1999 (later succeeded by 14060M until 2012), fits black dial/steel/automatic description, and at $9,495 all-in is under budget. Since no specific reference was named by the hunter, this generic model match qualifies, though exact production year of this specific piece (serial) isn't given, so it needs verification it's 1992+.",
+      "estimated_value": 9200.0,
+      "confidence": 0.55,
+      "condition_summary": "Photos show a clean, seemingly polished/refinished case with sharp bevels and a glossy bracelet - looks like a used but well-kept example, though the case edges appear quite sharp/possibly polished which could mean prior servicing softened original finishing. No visible scratches on dial or bezel; lume plots look consistent.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "Photos appear to be professional stock-style catalog images (white background, studio lighting) typical of a reputable dealer listing rather than a private seller's own photos - not necessarily a red flag but reduces ability to verify condition firsthand. No visible serial/reference engraving between lugs shown, no box/papers depicted or mentioned, and no confirmation of exact production year (14060 spans 1990-1999) - buyer should request serial number verification to confirm 1992+ production and confirm papers/service history.",
+      "rarity_notes": "The 14060 is a fairly common \"no-date\" Submariner reference, well-regarded among purists for its clean dial but not rare - many were produced over its ~9-year run (later replaced by the 14060M with a sapphire-friendly movement).",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and sought-after watches in the world; even the no-date 14060 variant has strong, consistent demand and liquidity in the resale market."
+    },
+    "deal_score": -3,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 5783,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 5783 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and sought-after watches in the world; even the no-date 14060 variant has strong, consistent demand and liquidity in the resale market.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 9495.0,
+    "discount": -0.03206521739130435,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|178274409206|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1787308459.3633523,
+    "analysis_depth": "full"
   }
 ]
