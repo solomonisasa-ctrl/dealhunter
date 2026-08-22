@@ -101036,5 +101036,55 @@
     "qa_history": [],
     "created_at": 1787366546.9930506,
     "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|335891208314|0",
+    "listing": {
+      "id": "ebay:v1|335891208314|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "2026 Rolex Submariner Date Gold & Steel Blue Dial 41mm Men Watch 126613LB Unworn",
+      "url": "https://www.ebay.com/itm/335891208314?_skw=Rolex+Submariner&hash=item4e34ad187a:g:NfgAAeSwl0ln7Cv-&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGb9%2F5iFXL2jET2PNwYVokdLLDjvUI%2F4BtX03Srxkgx4nhbNcpkIA2rI65RAyYn7UPeqUqQRMsQQeRnfx1EimdvgnrNBYwF6vF68H08uhGqad4puV0rzxcE%2F719k3m1hRZnce9igDagYKKuvgkyZQ9bmmKvn1mPUz9d%2FsBuun44gC9drERxhW7RBU74X4zPA%2BNqCpn0%2BW7%2FBO3AVKUCUDHsLlWjGnoKYvF38oeG%2Bk10ToJ0wPekvNxKi5wsciEm%2FspM8yhFdCQ%2BRK4uQvs5nCANh0PSit4n3G1e5nxwmF4zBjQ%3D%3D",
+      "price": 22450.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/NfgAAeSwl0ln7Cv-/s-l225.jpg",
+      "image_urls": [],
+      "body": "2026 Rolex Submariner Date Gold & Steel Blue Dial 41mm Men Watch 126613LB Unworn",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "New with box and papers"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Hunter wants a black dial Submariner under $11,000. This listing is a two-tone gold/steel Submariner with a blue dial (ref 126613LB), priced at $22,450 - wrong dial color, wrong case material combo, and more than double the budget.",
+      "estimated_value": 22450.0,
+      "confidence": 0.4,
+      "condition_summary": "Described as unworn/new, consistent with the single stock-style photo showing a pristine two-tone blue dial Submariner with box visible in background.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Listing claims a '2026' model year, which is suspicious/impossible framing for a current listing and suggests either a typo or careless/templated listing text. Only one photo provided, no close-ups of serial, hallmarks, or papers despite 'unworn' claim, which is a minor red flag for verifying authenticity.",
+      "rarity_notes": "126613LB (blue dial two-tone Submariner) is a well-known, widely produced current-generation reference, not rare, but is not the reference the hunter is seeking.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner two-tone blue dial is a highly recognized, in-demand model, but demand relevance here is moot since it doesn't match the hunter's black dial requirement."
+    },
+    "deal_score": 0,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 5775,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 5775 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner two-tone blue dial is a highly recognized, in-demand model, but demand relevance here is moot since it doesn't match the hunter's black dial requirement.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 22450.0,
+    "discount": 0.0,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1787377574.5826533,
+    "analysis_depth": "quick"
   }
 ]
