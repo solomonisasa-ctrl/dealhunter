@@ -101144,5 +101144,58 @@
     "qa_history": [],
     "created_at": 1787403318.9709191,
     "analysis_depth": "full"
+  },
+  {
+    "id": "rolex:etsy:4560624685",
+    "listing": {
+      "id": "etsy:4560624685",
+      "source": "etsy",
+      "category": "watches",
+      "title": "Rolex Submariner 124060 no date",
+      "url": "https://www.etsy.com/listing/4560624685/rolex-submariner-124060-no-date",
+      "price": 3245.63,
+      "shipping_price": null,
+      "currency": "AUD",
+      "image_url": "https://i.etsystatic.com/64922720/r/il/7e8359/8417121390/il_fullxfull.8417121390_of0a.jpg",
+      "image_urls": [
+        "https://i.etsystatic.com/64922720/r/il/7e8359/8417121390/il_fullxfull.8417121390_of0a.jpg",
+        "https://i.etsystatic.com/64922720/r/il/bb294e/8464998973/il_fullxfull.8464998973_p03q.jpg"
+      ],
+      "body": "**Rolex Submariner No Date 124060**\n\nRolex Submariner No Date\n\nThe watch is being sold **without box, papers, or additional packaging**. The watch itself is included as pictured.\n\n**Details:**\n\n* Model: Rolex Submariner No Date\n* Reference: 124060\n* Dial: Black\n* Case: Stainless steel\n* Bracelet: Oyster\n\n\nPlease carefully review all photos and listing details before purchasing. Any visible wear or imperfections are shown in the photographs.\n\n**Please note:** This listing is for the watch only and does not include Rolex box, warranty card/papers, or other accessories.",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "taxonomy_id": 6074
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Hunter's criteria are generic (any Rolex Submariner, black dial, 1992+, excellent condition, under $11,000) with no specific reference required. The 124060 is a current-generation black dial no-date Submariner, satisfying brand, model line, dial color, and modern production year requirements.",
+      "estimated_value": 7800.0,
+      "confidence": 0.35,
+      "condition_summary": "Photos show a clean, seemingly lightly worn or near-mint case, bezel, and bracelet with no obvious deep scratches; watch only, no box or papers included.",
+      "authenticity_risk": "high",
+      "authenticity_notes": "Price of ~$3,245 is drastically below typical market value for a genuine 124060 (which usually trades $7,500-$9,500+ even without box/papers) - this is a major red flag for counterfeit, misrepresentation, stolen goods, or a scam listing. No box/papers, no serial/case-back photos shown, and Etsy is an atypical/uncommon platform for luxury watch sales, which further elevates risk. Photos alone cannot confirm authenticity of movement or verify serial numbers.",
+      "rarity_notes": "The 124060 is a current production, non-limited model and is readily available new or used through ADs, gray market dealers, and resale platforms - not rare.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and sought-after luxury watch models globally, with consistently strong demand and liquidity in the resale market."
+    },
+    "deal_score": 30,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 44,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 44 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and sought-after luxury watch models globally, with consistently strong demand and liquidity in the resale market.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 3245.63,
+    "discount": 0.5838935897435897,
+    "notified": true,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1787415334.300071,
+    "analysis_depth": "full"
   }
 ]
