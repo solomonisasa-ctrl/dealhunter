@@ -101086,5 +101086,63 @@
     "qa_history": [],
     "created_at": 1787377574.5826533,
     "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|287534941224|0",
+    "listing": {
+      "id": "ebay:v1|287534941224|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "2000 MINT PAPERS & RSC Rolex 16610LN Submariner Date Steel Black 40mm Watch Box",
+      "url": "https://www.ebay.com/itm/287534941224?_skw=Rolex+Submariner&hash=item42f26b0428:g:UDEAAeSw9fJqhhLT",
+      "price": 10792.13,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/UDEAAeSw9fJqhhLT/s-l225.jpg",
+      "image_urls": [
+        "https://i.ebayimg.com/images/g/UDEAAeSw9fJqhhLT/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/W8sAAeSwzadqhhLU/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/KbYAAeSwR-1qhhLU/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/Q70AAeSwaGNqhhLU/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/Y60AAeSwLrNqhhLT/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/XVYAAeSwvFJqhhLU/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/WLkAAeSwzMRqhhLU/s-l1600.jpg"
+      ],
+      "body": "2000 MINT PAPERS & RSC Rolex 16610LN Submariner Date Steel Black 40mm Watch Box",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Hunter's criteria was generic (Rolex Submariner, black dial, 1992+, no specific reference required). This is a Rolex Submariner Date 16610LN, black dial, dated 2000, well within the year range, and priced at $10,792.13 all-in, under the $11,000 ceiling. Condition is described as MINT.",
+      "estimated_value": 10500.0,
+      "confidence": 0.75,
+      "condition_summary": "Listed as \"MINT\" with full set including box, papers, and service card (RSC); photos show a clean dial, bezel, and bracelet with no obvious major wear, consistent with a well-kept 2000 16610LN.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "Photos show matching model number (16610) on the service card, genuine-looking Rolex box and papers, and consistent case/bracelet/dial details typical of an authentic 16610LN. No obvious red flags like mismatched serials or stock photos - images appear to be actual listing photos of the specific watch. Buyer should still verify serial number matches papers and check movement/case engravings in person or via high-res photos before purchase.",
+      "rarity_notes": "16610LN is one of the most common modern Submariner references, not rare, but full box/papers/service card sets in mint condition are more desirable and command a premium over watch-only examples.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and highly demanded watch models in the world, and the 16610LN black dial/bezel version is a classic, widely sought reference."
+    },
+    "deal_score": -3,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 5790,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 5790 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and highly demanded watch models in the world, and the 16610LN black dial/bezel version is a classic, widely sought reference.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 10792.13,
+    "discount": -0.027821904761904687,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|406914029742|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1787403318.9709191,
+    "analysis_depth": "full"
   }
 ]
