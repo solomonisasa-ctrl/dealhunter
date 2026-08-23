@@ -101680,5 +101680,105 @@
     "qa_history": [],
     "created_at": 1787487275.2105174,
     "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|117326005494|0",
+    "listing": {
+      "id": "ebay:v1|117326005494|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex Submariner Date 16613LN Black 40mm 18K Yellow Gold Steel Watch w/ Paper",
+      "url": "https://www.ebay.com/itm/117326005494?_skw=Rolex+Submariner+black+dial&hash=item1b512cc4f6:g:aLAAAeSwDF1qaASe&amdata=enc%3AAQALAAABAACCtXRWQnOEpyOqnQQ8KGY7zFFysPNSUmiFy1cYffK5MN3w2ix6%2FnXCfaVpweC6k1YXiCbfc1XZTFFCjbXS%2FE7WBIoYiS5noZpD9w1P5XB3Z%2Ff0Bm%2BnWH5cxslA1R7HPsq9LYyk3GQEynPR9vdm1MvVwM%2FEyVsHvDaXCR6pUhhfqJHuyxJ9fcu5bj%2Bp%2FUJp7WMHjFpNc%2BcRi1qgwQD9VmYGhbig7haur7gr%2BDExqDjMo84cw1yyias%2FgtoqrisMiYhZE38Oz9AZVSpz1x7eEdS115bT%2B10%2FB0v7phSpxosHI6Hk1oMRdY%2BCd66NPBtmmngN9UF6UNOoyxXPz33x2Vs%3D",
+      "price": 11695.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/aLAAAeSwDF1qaASe/s-l225.jpg",
+      "image_urls": [],
+      "body": "Rolex Submariner Date 16613LN Black 40mm 18K Yellow Gold Steel Watch w/ Paper",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Price is $11,695 all-in, exceeding the $11,000 ceiling. Also this is the two-tone 16613LN with blue bezel/black dial, not a strict mismatch on model line (still a Submariner Date) but it fails the price criterion outright, and reference era must be verified (16613LN was produced roughly 1988-2010, so could satisfy 1992+ if confirmed, but price alone disqualifies it).",
+      "estimated_value": 10500.0,
+      "confidence": 0.5,
+      "condition_summary": "Photo shows a two-tone Submariner with black dial and blue bezel insert (unusual combo, possibly a bezel swap or listing error) in apparently good cosmetic condition with visible shine on bracelet; no close-up wear details or box shown despite \"w/ Paper\" claim.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Listing claims \"16613LN\" (LN denotes black bezel typically) but the photo shows a blue bezel insert, which is inconsistent - either a mismatched/swapped part or incorrect reference designation, both of which are red flags. Also \"w/ Paper\" is vague - only papers claimed, no box, and no images of papers/serial provided in text.",
+      "rarity_notes": "16613LN two-tone Submariner Date is a fairly common reference on the market, not rare, with many comparable listings available for cross-checking price and authenticity.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and highly demanded watch models in the world, ensuring strong resale liquidity."
+    },
+    "deal_score": -11,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 3160,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 3160 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and highly demanded watch models in the world, ensuring strong resale liquidity.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 11695.0,
+    "discount": -0.1138095238095238,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|366610439678|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1787499001.9989977,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|178338092662|0",
+    "listing": {
+      "id": "ebay:v1|178338092662|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "1965 Rolex Submariner 5513 Vintage 40mm Stainless Steel Faded Black Bezel Watch",
+      "url": "https://www.ebay.com/itm/178338092662?_skw=Rolex+Submariner+black+dial&hash=item2985c75676:g:MqIAAeSwbG9qYlJ9&amdata=enc%3AAQALAAABAACCtXRWQnOEpyOqnQQ8KGavmN3wCYKc6mBqY4es2Cer%2BN%2BwmRlS%2FELvy4bz4jEnOGwSB3iqz91MEG5OLwdlmxetGCTKCh5Addpfw5VaQqDNztv3la9ME%2B8wxSDjL7QYniVwM4vfspjXGagIgpp4Cy2qs%2FAQGSLAV%2BmMAJ%2FGGxRhSQDEYaXPoKIFiDy3UNMJZgdhxkgG77%2B4BY9oZhrWgG2Xnfr8v0nWtAuLVUt3tToe%2Bpt%2BAN7zX7dTbtZrtn7EqD7TJxcFYrMBbGO04lXOkI8Eao1c7u66igwzmjrHUTjQ1wgx3z4tn5DFCitD42We%2BHWXg%2FwqODxueIInENBs4BM%3D",
+      "price": 12950.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/MqIAAeSwbG9qYlJ9/s-l225.jpg",
+      "image_urls": [],
+      "body": "1965 Rolex Submariner 5513 Vintage 40mm Stainless Steel Faded Black Bezel Watch",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Hunter requires a Submariner from 1992 or newer, priced under $11,000. This listing is a vintage 1965 Rolex Submariner 5513 priced at $12,950 all-in, failing both the year requirement and the price ceiling.",
+      "estimated_value": 12000.0,
+      "confidence": 0.35,
+      "condition_summary": "Listing shows a single photo of a vintage 5513 with faded/aged bezel insert consistent with age; no close-up shots of case edges, dial, or movement to verify condition claims.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only one photo provided, no shots of caseback, movement, or papers; vintage Submariners like the 5513 are commonly targeted for franken-watch builds (mixed parts, aftermarket dials/hands/bezels), so lack of detailed photos and documentation is a concern. No mention of box/papers or service history.",
+      "rarity_notes": "The 5513 is a widely produced vintage reference (made from the 1960s-1980s), not particularly rare, but genuine well-preserved examples with original parts command a premium.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and sought-after watch models globally, with strong collector demand for vintage references like the 5513."
+    },
+    "deal_score": -8,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 3160,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 3160 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and sought-after watch models globally, with strong collector demand for vintage references like the 5513.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 12950.0,
+    "discount": -0.07916666666666666,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|198582910690|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1787499000.3592322,
+    "analysis_depth": "quick"
   }
 ]
