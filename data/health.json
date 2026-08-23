@@ -1,28 +1,5 @@
 [
   {
-    "timestamp": 1786815988.4482243,
-    "overall_status": "ok",
-    "duration_seconds": 18.557379007339478,
-    "sources": {
-      "ebay": {
-        "status": "ok",
-        "fetched": 0,
-        "new": 0,
-        "errors": []
-      },
-      "etsy": {
-        "status": "ok",
-        "fetched": 0,
-        "new": 0,
-        "errors": []
-      }
-    },
-    "findings_count": 0,
-    "sold_detected": 0,
-    "repriced_detected": 0,
-    "error_message": null
-  },
-  {
     "timestamp": 1786830060.9094622,
     "overall_status": "ok",
     "duration_seconds": 50.46551823616028,
@@ -1203,6 +1180,29 @@
       }
     },
     "findings_count": 0,
+    "sold_detected": 0,
+    "repriced_detected": 0,
+    "error_message": null
+  },
+  {
+    "timestamp": 1787487288.849229,
+    "overall_status": "ok",
+    "duration_seconds": 24.797596216201782,
+    "sources": {
+      "ebay": {
+        "status": "ok",
+        "fetched": 1,
+        "new": 1,
+        "errors": []
+      },
+      "etsy": {
+        "status": "ok",
+        "fetched": 0,
+        "new": 0,
+        "errors": []
+      }
+    },
+    "findings_count": 1,
     "sold_detected": 0,
     "repriced_detected": 0,
     "error_message": null
