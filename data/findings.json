@@ -87257,7 +87257,7 @@
       "category": "watches",
       "title": "1986 Rolex Submariner Bluesy 16803",
       "url": "https://www.ebay.com/itm/117347304763?_skw=Rolex+Submariner&hash=item1b5271c53b:g:3k0AAeSwdbtqcoJ1",
-      "price": 9299.0,
+      "price": 8999.0,
       "shipping_price": 0.0,
       "currency": "USD",
       "image_url": "https://i.ebayimg.com/images/g/3k0AAeSwdbtqcoJ1/s-l225.jpg",
@@ -87282,7 +87282,7 @@
       "demand_tier": "High",
       "demand_reasoning": "Rolex Submariner is one of the most recognized and demanded watch models globally; even off-criteria variants like the 16803 Bluesy have strong collector interest."
     },
-    "deal_score": -3,
+    "deal_score": 0,
     "liquidity": {
       "rating": "High",
       "comparable_count": 5774,
@@ -87290,8 +87290,8 @@
       "claude_tier": "High",
       "reasoning": "Algorithmic signal: 5774 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and demanded watch models globally; even off-criteria variants like the 16803 Bluesy have strong collector interest.). Final rating uses the more conservative of the two: High."
     },
-    "all_in_price": 9299.0,
-    "discount": -0.03322222222222222,
+    "all_in_price": 8999.0,
+    "discount": 0.00011111111111111112,
     "notified": false,
     "duplicate_of": null,
     "dismissed": false,
@@ -101780,5 +101780,62 @@
     "qa_history": [],
     "created_at": 1787499000.3592322,
     "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|407165016578|0",
+    "listing": {
+      "id": "ebay:v1|407165016578|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex Submariner 114060 Silver Oyster Bracelet with Black Bezel",
+      "url": "https://www.ebay.com/itm/407165016578?_skw=Rolex+Submariner&hash=item5ecced1a02:g:mbEAAeSw7zhqizzi",
+      "price": 10250.0,
+      "shipping_price": 20.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/mbEAAeSw7zhqizzi/s-l225.jpg",
+      "image_urls": [
+        "https://i.ebayimg.com/images/g/mbEAAeSw7zhqizzi/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/qLgAAeSwMk1qizzi/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/7nwAAeSwSytqizzi/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/30oAAeSwehZqizzi/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/7AsAAeSwLrNqizzj/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/330AAeSwX4xqizzj/s-l1600.jpg"
+      ],
+      "body": "Rolex Submariner 114060 Silver Oyster Bracelet with Black Bezel",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Hunter's criteria is generic (no specific reference required, just Submariner black dial, 1992+, excellent condition, under $11,000). The 114060 is a no-date Submariner produced c. 2012-2020, well within the year range, has a black dial, and price ($10,270) is under the $11,000 ceiling.",
+      "estimated_value": 9800.0,
+      "confidence": 0.6,
+      "condition_summary": "Watch appears to be in very good condition with box and papers/attestation card shown; close-up photos reveal light hairline scratches on the bracelet and case side consistent with light wear, not heavy damage.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "Photos show actual item (not stock photos) with matching box, hangtag, and attestation/warranty card with a shop name, which is a good sign. No visible serial/reference number close-up shown, and full papers are not clearly displayed (only a partial warranty card), which is a minor gap. Price is reasonable/market-consistent rather than suspiciously low, reducing scam risk.",
+      "rarity_notes": "114060 is a common, widely-produced ceramic bezel no-date Submariner (2012-2020), not rare, but consistently in high demand on the secondary market.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and sought-after watch models globally, with consistent strong resale demand."
+    },
+    "deal_score": -5,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 5828,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 5828 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and sought-after watch models globally, with consistent strong resale demand.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 10270.0,
+    "discount": -0.04795918367346939,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|188823015818|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1787511354.0394418,
+    "analysis_depth": "full"
   }
 ]
