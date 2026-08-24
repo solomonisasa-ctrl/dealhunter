@@ -101837,5 +101837,112 @@
     "qa_history": [],
     "created_at": 1787511354.0394418,
     "analysis_depth": "full"
+  },
+  {
+    "id": "rolex:ebay:v1|237025560185|0",
+    "listing": {
+      "id": "ebay:v1|237025560185|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex Submariner R166133/B9315 Silver & 18k Gold bracelet with Blue Bezel & Face",
+      "url": "https://www.ebay.com/itm/237025560185?_skw=Rolex+Submariner&hash=item372fd30679:g:MXMAAeSw2G9qiyuB",
+      "price": 11500.0,
+      "shipping_price": 45.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/MXMAAeSw2G9qiyuB/s-l225.jpg",
+      "image_urls": [],
+      "body": "Rolex Submariner R166133/B9315 Silver & 18k Gold bracelet with Blue Bezel & Face",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Hunter requires a black dial Submariner under $11,000. This listing is a two-tone (steel/18k gold) Submariner with a blue bezel and blue dial, not black, and priced at $11,545 which exceeds the $11,000 ceiling. Both the dial color and price disqualify it.",
+      "estimated_value": 10500.0,
+      "confidence": 0.3,
+      "condition_summary": "Photo shows watch with box and papers, appears to have moderate wear typical of a pre-owned two-tone Submariner; no close-up shots of dial, case, or bracelet condition provided.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Reference number format \"R166133/B9315\" is unusual and not a standard Rolex reference naming convention, which raises a flag. No close-up photos of case back, movement, or dial markings to verify authenticity; only box/papers shown, which can be easily separated from an actual watch.",
+      "rarity_notes": "Two-tone Submariners with blue dial/bezel (likely ref. 16613) are fairly common on the market, not rare.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and sought-after watch models, maintaining strong demand regardless of exact variant."
+    },
+    "deal_score": -10,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 5853,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 5853 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and sought-after watch models, maintaining strong demand regardless of exact variant.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 11545.0,
+    "discount": -0.09952380952380953,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|198582910690|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1787536128.0655923,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:etsy:4561373912",
+    "listing": {
+      "id": "etsy:4561373912",
+      "source": "etsy",
+      "category": "watches",
+      "title": "Vintage Rolex Submariner Automatic Watch | Black Dial, Stainless Steel, No Date, Original Box",
+      "url": "https://www.etsy.com/listing/4561373912/vintage-rolex-submariner-automatic-watch",
+      "price": 8399.0,
+      "shipping_price": null,
+      "currency": "USD",
+      "image_url": "https://i.etsystatic.com/65956136/r/il/a86840/8470337141/il_fullxfull.8470337141_pt20.jpg",
+      "image_urls": [
+        "https://i.etsystatic.com/65956136/r/il/a86840/8470337141/il_fullxfull.8470337141_pt20.jpg",
+        "https://i.etsystatic.com/65956136/r/il/eec3c5/8470336473/il_fullxfull.8470336473_hmnu.jpg",
+        "https://i.etsystatic.com/65956136/r/il/3f595c/8422464542/il_fullxfull.8422464542_e2tg.jpg",
+        "https://i.etsystatic.com/65956136/r/il/0683d6/8422464534/il_fullxfull.8422464534_shot.jpg",
+        "https://i.etsystatic.com/65956136/r/il/a1e50e/8422464538/il_fullxfull.8422464538_f1ic.jpg",
+        "https://i.etsystatic.com/65956136/r/il/75153c/8470336503/il_fullxfull.8470336503_cgyg.jpg"
+      ],
+      "body": "Vintage Rolex Submariner Automatic \u2013 Authentic Swiss Made\n\nA beautiful vintage authentic Rolex Submariner automatic wristwatch featuring the iconic black dial, black rotating dive bezel, stainless-steel Oyster bracelet, and classic Submariner styling.\n\nThe watch features the signature Rolex Oyster Perpetual dial, luminous hour markers, Mercedes-style hour hand, rotating dive bezel, and the classic Submariner 1000 ft / 300 m depth rating shown on the dial.\n\nThis is a vintage original Rolex and is offered together with its original Rolex presentation box, making it an excellent piece for collectors and enthusiasts of vintage Swiss watches.\n\n\u2728 Features\nCollection: Submariner\nModel: Submariner No-Date\nMovement: Automatic\nPower: Mechanical\nDial: Black\nClassic luminous hour markers\nMercedes-style hour hand\nBlack rotating dive bezel\nStainless-steel case\nStainless-steel Oyster bracelet\nRolex Oyster Perpetual dial\nSubmariner 1000 ft / 300 m dial marking\nSwiss Made\nVintage authentic Rolex\nOriginal Rolex presentation box included\nClassic diver / collector styling",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "taxonomy_id": 6074
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The hunter requires a black dial Submariner from 1992 or newer. The photo shows a ceramic-bezel no-date Submariner (ref. 114060 style, with \"Superlative Chronometer Officially Certified\" in green on dial and modern Maxi-case/hands), which is a 2012+ production model, not a vintage piece as the listing claims. While it could technically satisfy \"1992 or newer,\" the listing is titled and described as \"Vintage\" with no reference number, year, or serial provided, making it impossible to confirm the actual production date. The mismatch between the described \"vintage\" watch and the clearly modern ceramic-bezel photo is a major red flag that undermines confidence this is an accurately represented, verifiable match.",
+      "estimated_value": 8200.0,
+      "confidence": 0.3,
+      "condition_summary": "Photo shows a modern-style no-date Submariner in apparently excellent, lightly-used condition with box; however, listing provides no reference number, serial, or year, so actual age/condition claims can't be verified.",
+      "authenticity_risk": "high",
+      "authenticity_notes": "Major inconsistency: text repeatedly calls this a \"vintage\" Rolex, but the photo depicts a modern ceramic-bezel no-date Submariner (post-2012 design language), not a vintage one. No reference number, serial number, papers, or purchase provenance given. Price is notably below typical market for a genuine modern no-date Submariner (114060 typically $9,500-$11,500), which combined with vague generic description and stock-catalog-style photo (single professional box shot, no wrist shots, no case-back/serial photos) raises real counterfeit/misrepresentation concern. Etsy is also an atypical/higher-risk platform for luxury watch sales.",
+      "rarity_notes": "If genuine, a ceramic no-date Submariner (114060-style) is a current/recently-discontinued production model, not rare - fairly common on the pre-owned market.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most in-demand watch models worldwide regardless of specific reference."
+    },
+    "deal_score": -2,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 45,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 45 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most in-demand watch models worldwide regardless of specific reference.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 8399.0,
+    "discount": -0.02426829268292683,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|178274409206|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1787536141.725571,
+    "analysis_depth": "quick"
   }
 ]
