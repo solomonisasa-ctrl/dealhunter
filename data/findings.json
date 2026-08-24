@@ -102398,5 +102398,115 @@
     "qa_history": [],
     "created_at": 1787573847.2870102,
     "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|227489018109|0",
+    "listing": {
+      "id": "ebay:v1|227489018109|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex Submariner Date Black Dial 40mm Steel Bracelet Automatic 200m Bezel",
+      "url": "https://www.ebay.com/itm/227489018109?_skw=Rolex+Submariner+black+dial&hash=item34f766f0fd:g:ruYAAeSwNSNqenzK&amdata=enc%3AAQALAAABAACCtXRWQnOEpyOqnQQ8KGYgU7JgUlquih6tnW3%2B1DSgYyHphir0%2BMsn%2BhxCDErc1%2FhWe%2BZLFHIOuRtWTePhPTcsYMGJWw7CD9et%2FjxIgTBe9%2B6aUsEEKnKDEEYuZTRs7VkxLWsqkZu2H3U%2BNvayGkKEXaWFTT8OYpgqir%2F0Hif0d1k9CwJgxu%2BEFAqnkLivmKtYYQTbxMmWe3sAPyU4Zuj5wvvZwC5bKn9zcZslJ%2FpufWkGwzG1J%2FQhQ%2FgmGdgE1RJ8naWUn%2FXfirF4XPNyJANQ%2Fa52nw%2BmdhpY9sMYPfL5mlfiQk3Oaos2qkowX46GODi%2BPYRWntW4WEq1Ujp7%2B4U%3D",
+      "price": 12500.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/ruYAAeSwNSNqenzK/s-l225.jpg",
+      "image_urls": [],
+      "body": "Rolex Submariner Date Black Dial 40mm Steel Bracelet Automatic 200m Bezel",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Price ($12,500) exceeds the $11,000 ceiling. Additionally, the photo appears to show a vintage-era Submariner (pre-1992) rather than a 1992-or-newer model as required, and condition looks aged rather than excellent - both criteria fail.",
+      "estimated_value": 9500.0,
+      "confidence": 0.25,
+      "condition_summary": "Watch shown has visible age/patina on dial and bezel typical of a decades-old piece, with light case wear visible; not clearly \"excellent\" condition, and photo doesn't match the modern description in the title.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Photo shows a vintage-style Submariner (thick acrylic crystal, faded/aged \"nipple\" dial markers, matte black bezel insert, dot-over-90 style, aged patina) consistent with a 1960s-70s reference like 1680, not a modern 1992+ model. No serial/reference number, no box/papers, no close-up of caseback or clasp shown. Title and photo appear mismatched (title implies modern 200m ceramic-style description but photo is clearly vintage). This inconsistency is a red flag.",
+      "rarity_notes": "If genuinely a vintage 1960s-70s Submariner (e.g., ref 1680), it would be a desirable collector piece, but that's a different category than the requested 1992+ black dial Submariner and typically carries its own distinct valuation.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and sought-after luxury watch models in the world, with strong consistent demand across all eras."
+    },
+    "deal_score": -32,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 3174,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 3174 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and sought-after luxury watch models in the world, with strong consistent demand across all eras.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 12500.0,
+    "discount": -0.3157894736842105,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|198582910690|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1787598221.8675654,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|178313790346|0",
+    "listing": {
+      "id": "ebay:v1|178313790346|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Authentic Rolex Submariner Date 16610 Stainless Steel Mechanical Automatic P...",
+      "url": "https://www.ebay.com/itm/178313790346?_skw=Rolex+Submariner+black+dial&hash=item298454838a:g:k54AAeSwUIlqWgjY&amdata=enc%3AAQALAAABAACCtXRWQnOEpyOqnQQ8KGYViA4xDceNZmErmXQuYVahVbrigLh9GrNaXHLZzpEJnYPfS8AwV6LLm81eFEFLkiaYnfiIXXoq5z309hWL23QMiuZrME2Y4fHWpK471C0T3CS1zbB7AHsbGSDh5VdW3Qkd320WoQ0P2TUbJIPh9lrxi3b7lULrcy5bwz7NUs6O6fvxHfHOVLf3pxpnViQ8%2FpXFYZHnwoiXd2GHSZHvrti%2FvRKdllr1jq6FNSHeK992bkyIx8FHYi21x6bSc78iy%2FILL66hXTgLurxohG7eMd4x%2F5b8SavgAbQU9ZvE0PVGbCFPkiwHLsc6EzWFlaJtHNk%3D",
+      "price": 10592.77,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/k54AAeSwUIlqWgjY/s-l225.jpg",
+      "image_urls": [
+        "https://i.ebayimg.com/images/g/k54AAeSwUIlqWgjY/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/9bMAAeSwflRqWgjZ/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/4TYAAeSwPFVqWgjY/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/7nQAAeSw87xqWgjZ/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/3REAAeSwYwRqWgjZ/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/TYYAAeSwDCFqWgjY/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/Cq4AAeSw4VJqWgjY/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/FsgAAeSwxMpqWgjY/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/Ei0AAeSwt25qWgjY/s-l1600.jpg"
+      ],
+      "body": "Authentic Rolex Submariner Date 16610 Stainless Steel Mechanical Automatic P...",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Hunter's criteria did not specify a reference number, just \"Submariner black dial, 1992 or newer.\" The 16610 is the correct generation (produced 1988/1989-2010), stainless steel with black dial, fitting the \"1992 or newer\" era. Price at $10,592.77 is under the $11,000 ceiling.",
+      "estimated_value": 9500.0,
+      "confidence": 0.55,
+      "condition_summary": "Photos show a well-preserved 16610 with clean dial/lume plots, minor bracelet stretch/brushing visible, no visible box/papers or full serial confirmation shown; overall appears to be in solid, \"excellent\" cosmetic condition from images but no wrist/case-back close-up or serial verification provided.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Photos look like generic dealer stock catalog images rather than a specific real-time listing photo set (uniform white background, no timestamp, no visible engraved serial/rehaut, no papers/box shown despite claims of \"Authentic\"). Title is oddly truncated (\"P...\") suggesting a possibly copy-pasted or incomplete listing. No mention of full set, service history, or box/papers, which is typical for this price range but adds uncertainty. No serial number or case-back shot to verify authenticity markers.",
+      "rarity_notes": "The 16610 is one of the most common modern Submariner references (produced from ~1988 to 2010), not rare, but highly recognizable and desirable in the black dial no-date/date configuration.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most in-demand watch models globally, and the 16610 black dial variant remains a strong seller with consistent secondary market liquidity."
+    },
+    "deal_score": -12,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 3174,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 3174 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most in-demand watch models globally, and the 16610 black dial variant remains a strong seller with consistent secondary market liquidity.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 10592.77,
+    "discount": -0.11502842105263163,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|127965541189|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1787598233.5612595,
+    "analysis_depth": "full"
   }
 ]
