@@ -102940,5 +102940,155 @@
     "qa_history": [],
     "created_at": 1787609483.9188645,
     "analysis_depth": "full"
+  },
+  {
+    "id": "rolex:ebay:v1|188837049317|0",
+    "listing": {
+      "id": "ebay:v1|188837049317|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex Submariner Date Black Dial 300m Diver Unidirectional Bezel Box Papers",
+      "url": "https://www.ebay.com/itm/188837049317?_skw=Rolex+Submariner+black+dial&hash=item2bf790b3e5:g:IyYAAeSwXSZqjOsZ",
+      "price": 8000.0,
+      "shipping_price": null,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/IyYAAeSwXSZqjOsZ/s-l225.jpg",
+      "image_urls": [],
+      "body": "Rolex Submariner Date Black Dial 300m Diver Unidirectional Bezel Box Papers",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "While the listing appears to be a black dial Submariner Date, there is no information confirming the year of manufacture (must be 1992 or newer), no reference number given, and no serial/date evidence. Additionally, the price of $8,000 for a genuine Rolex Submariner with box and papers is suspiciously low (market value for genuine examples is typically $9,500-$13,000+), raising authenticity concerns that undermine confidence this is a genuine match.",
+      "estimated_value": 8000.0,
+      "confidence": 0.2,
+      "condition_summary": "Photo shows a seemingly unworn or lightly used black dial Submariner with bezel and bracelet intact; no close-up of case back, serial, or clasp wear is provided to verify condition claims.",
+      "authenticity_risk": "high",
+      "authenticity_notes": "Price is significantly below typical market value for a genuine Rolex Submariner Date with box and papers, which is a major red flag for counterfeit or misrepresented item. The photo looks like a generic stock/catalog image rather than an actual in-hand photo of the specific watch (no timestamp, no personal background, overly clean studio-style shot). No reference number, serial number, or date code visible/mentioned. No confirmation of 1992+ production year. Text is minimal and reads like a copy-paste listing title rather than a detailed description from an actual owner.",
+      "rarity_notes": "Standard black dial Submariner Date models are common and highly produced across decades, not rare, but specific vintage references (e.g., 16610, 116610) do have varying collector interest.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and highly demanded watch models in the world, ensuring strong demand regardless of specific reference, assuming authenticity."
+    },
+    "deal_score": 0,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 3173,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 3173 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and highly demanded watch models in the world, ensuring strong demand regardless of specific reference, assuming authenticity.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 8000.0,
+    "discount": 0.0,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1787620617.1832213,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|227359394927|0",
+    "listing": {
+      "id": "ebay:v1|227359394927|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "New 2026 Rolex Submariner 41mm No Date - Steel - Black Dial - Reference 124060.",
+      "url": "https://www.ebay.com/itm/227359394927?_skw=Rolex+Submariner+black+dial&hash=item34efad0c6f:g:QEMAAeSwAllqFbSP",
+      "price": 13999.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/QEMAAeSwAllqFbSP/s-l225.jpg",
+      "image_urls": [],
+      "body": "New 2026 Rolex Submariner 41mm No Date - Steel - Black Dial - Reference 124060.",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "New with box and papers"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "While this is a genuine Rolex Submariner black dial (ref 124060) meeting the year requirement, the price of $13,999 exceeds the buyer's $11,000 all-in ceiling, so it fails the price criterion.",
+      "estimated_value": 10500.0,
+      "confidence": 0.55,
+      "condition_summary": "Listed as new, photo shows a clean, unworn-looking Submariner 124060 with box, consistent with new/excellent condition.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Listing title claims 'New 2026' which is suspicious since 2026 has not occurred yet at time of listing (likely a typo, but still a red flag worth flagging). Only one stock-style photo provided, no close-up of serial/engravings or full box/papers set shown, making authenticity harder to verify. Current retail/market price for a new 124060 is typically $9,000-$10,500, so this listing at $13,999 is priced well above typical secondary market value, another inconsistency worth questioning.",
+      "rarity_notes": "124060 is the current production no-date Submariner, not rare - widely available new and used.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and demanded watch models in the world, with strong resale liquidity."
+    },
+    "deal_score": -33,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 3173,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 3173 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and demanded watch models in the world, with strong resale liquidity.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 13999.0,
+    "discount": -0.3332380952380952,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1787620614.916164,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|168553160939|0",
+    "listing": {
+      "id": "ebay:v1|168553160939|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "1986 Rolex Submariner 16800 Black Spider Dial Oyster Bracelet No Papers 40mm",
+      "url": "https://www.ebay.com/itm/168553160939?_skw=Rolex+Submariner+black+dial&hash=item273e8d20eb:g:iRAAAeSwz-BqcM3R",
+      "price": 10000.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/iRAAAeSwz-BqcM3R/s-l225.jpg",
+      "image_urls": [],
+      "body": "1986 Rolex Submariner 16800 Black Spider Dial Oyster Bracelet No Papers 40mm",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The hunter requires a Submariner from 1992 or newer, but this listing is a 1986 Rolex Submariner ref. 16800, which predates the cutoff by 6 years. Price ($10,000) is under the ceiling and it's a black dial, but the year requirement is not met.",
+      "estimated_value": 9500.0,
+      "confidence": 0.45,
+      "condition_summary": "Single stock-style photo shows a black dial Submariner with visible 'spider' dial texture and steel Oyster bracelet; no close-up of case edges, clasp, or bezel wear, so true condition can't be fully verified from the image alone.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "No papers included, only one generic-looking photo (appears to be a stock/catalog-style image rather than an in-hand photo of the actual watch), and no serial/case-back photos provided. \"Spider dial\" claims are often used to inflate value on aged tritium dials and should be verified with close-up photos and serial number matching before purchase.",
+      "rarity_notes": "The 16800 (1983-1988) with a genuine 'spider' (cracked/aged) dial is a desirable vintage variant among collectors, but it is a different generation/reference from the newer black dial Submariners the hunter is seeking.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and sought-after watch models globally, and vintage spider-dial 16800s command strong collector interest."
+    },
+    "deal_score": -5,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 3173,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 3173 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and sought-after watch models globally, and vintage spider-dial 16800s command strong collector interest.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 10000.0,
+    "discount": -0.05263157894736842,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|298602122651|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1787620615.9460402,
+    "analysis_depth": "quick"
   }
 ]
