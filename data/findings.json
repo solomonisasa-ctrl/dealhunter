@@ -103214,5 +103214,55 @@
     "qa_history": [],
     "created_at": 1787633761.307494,
     "analysis_depth": "full"
+  },
+  {
+    "id": "rolex:ebay:v1|336654905026|0",
+    "listing": {
+      "id": "ebay:v1|336654905026|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "2011 Rolex Submariner Date 40mm Black Dial Steel Watch 116610 Box Papers",
+      "url": "https://www.ebay.com/itm/336654905026?_skw=Rolex+Submariner+black+dial&hash=item4e62322ec2:g:7RAAAeSwlv5qPAA0&amdata=enc%3AAQALAAABAACCtXRWQnOEpyOqnQQ8KGY5LTqxVoVn8CqvbYeKCD7OpRwdOXExkdXby9dZyRMpt5PLlJR0JCufOe0RC%2Bmv4an3f5FgH0OF1ijWXO3FoANJOsnstNB2pW15%2FhPFlfIWqN95fcC2nCtA5krOfngMiKXtc7Ck%2FTDuiGtXAKTci1ND6pD9Tkl73YfQdI9eAhXLqHwHbQZzV%2BZjhJ8JYndfcEMo1I5g%2Ft3frXLfCyr1q3DYui5%2FjdD8153KH7Wpp6WThZ7pmXEBmlDGl4ZoK38vwIveHNEpbktWNZNrFjS4xJdxVXSGCziuBE0waWzEiBCUwx--po5%2BAIjHga60HaunLvM%3D",
+      "price": 12590.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/7RAAAeSwlv5qPAA0/s-l225.jpg",
+      "image_urls": [],
+      "body": "2011 Rolex Submariner Date 40mm Black Dial Steel Watch 116610 Box Papers",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The watch itself (2011 Submariner 116610, black dial) matches brand/model/year/condition criteria, but the all-in price of $12,590 exceeds the buyer's $11,000 ceiling.",
+      "estimated_value": 10500.0,
+      "confidence": 0.6,
+      "condition_summary": "Appears to be a well-kept 116610LN with box and papers shown in photo; no visible major wear in the image, but only stock-style photos provided with no close-up condition shots (case back, clasp, crystal).",
+      "authenticity_risk": "low",
+      "authenticity_notes": "Box and papers are shown, dial and bezel design consistent with genuine 116610LN. No serial number close-up or additional angles provided, which is a minor gap for full authentication, but no overt red flags like mismatched fonts, blurry stock photos, or suspiciously low price.",
+      "rarity_notes": "116610LN is a very common, mass-produced reference, not rare, but consistently high demand on the secondary market.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and sought-after watch models globally, with strong consistent resale demand."
+    },
+    "deal_score": -20,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 3178,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 3178 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and sought-after watch models globally, with strong consistent resale demand.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 12590.0,
+    "discount": -0.19904761904761906,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|127965541189|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1787647269.5391016,
+    "analysis_depth": "quick"
   }
 ]
