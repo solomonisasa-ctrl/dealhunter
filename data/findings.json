@@ -103424,5 +103424,459 @@
     "qa_history": [],
     "created_at": 1787673109.7838755,
     "analysis_depth": "full"
+  },
+  {
+    "id": "rolex:ebay:v1|188840352480|0",
+    "listing": {
+      "id": "ebay:v1|188840352480|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex Submariner Black Dial on Oyster 116610LN Complete",
+      "url": "https://www.ebay.com/itm/188840352480?_skw=Rolex+Submariner&hash=item2bf7c31ae0:g:vV8AAeSwpN5qjeE9",
+      "price": 11500.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/vV8AAeSwpN5qjeE9/s-l225.jpg",
+      "image_urls": [],
+      "body": "Rolex Submariner Black Dial on Oyster 116610LN Complete",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The reference 116610LN Submariner Date matches brand/model/black dial/post-1992 requirement, but the listing price of $11,500 all-in exceeds the buyer's stated ceiling of $11,000.",
+      "estimated_value": 10500.0,
+      "confidence": 0.45,
+      "condition_summary": "Stock-style catalog photo shows a clean, seemingly unworn 116610LN with no visible scratches, but no real-world condition photos (case back, clasp, dial close-up) are provided to confirm actual wear.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Image appears to be a generic/stock product photo rather than an actual photo of the specific watch being sold, which is a common red flag; no serial/case-back photos, no box/papers images despite \"Complete\" claim, and no seller history or detailed condition notes provided.",
+      "rarity_notes": "116610LN is a widely produced, commonly available modern Submariner reference (discontinued ~2020) - not rare, but consistently in high demand.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and sought-after watch models globally, with strong consistent resale demand."
+    },
+    "deal_score": -10,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 5844,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 5844 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and sought-after watch models globally, with strong consistent resale demand.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 11500.0,
+    "discount": -0.09523809523809523,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|188827539139|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1787684575.7792625,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|267766946381|0",
+    "listing": {
+      "id": "ebay:v1|267766946381|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "1993 Rolex Submariner Date 16610 Black Stainless Steel Automatic 40mm Watch",
+      "url": "https://www.ebay.com/itm/267766946381?_skw=Rolex+Submariner&hash=item3e58275a4d:g:fwQAAeSwy-ZqjbzN",
+      "price": 9145.53,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/fwQAAeSwy-ZqjbzN/s-l225.jpg",
+      "image_urls": [
+        "https://i.ebayimg.com/images/g/fwQAAeSwy-ZqjbzN/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/ubEAAeSwU~lqjbzO/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/lOEAAeSwSytqjbzO/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/dLUAAeSwBD9qjbzP/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/l70AAeSwwTlqjbzP/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/jaEAAeSw~gJqjbzQ/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/T84AAeSwiX1qjbzR/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/eB4AAeSwpEtqjbzR/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/jrIAAeSw8rhqjbzS/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/uv4AAeSw9fJqjbzT/s-l1600.jpg"
+      ],
+      "body": "1993 Rolex Submariner Date 16610 Black Stainless Steel Automatic 40mm Watch",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Hunter wants a Rolex Submariner, black dial, 1992 or newer, under $11,000, excellent condition, no specific reference required. This is a 1993 Submariner Date ref 16610 with black dial, priced $9,145.53 all-in - satisfies brand, model type, year, price, and stated condition.",
+      "estimated_value": 9500.0,
+      "confidence": 0.55,
+      "condition_summary": "Photos show a clean, glossy black dial and bezel with sharp lume plots and minimal visible case wear; bracelet and clasp appear intact with normal stretch not clearly assessable from images. Seller claims excellent condition but provides only generic-style product photos rather than close-up detail shots of case sides, caseback, or clasp date codes.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "No box/papers shown despite a \"warranty card\" and case image included (third-party warranty, not Rolex papers) - this is a generic aftermarket/dealer warranty card, not proof of authenticity or original papers. No visible serial/model number close-ups, no movement or caseback photos, and no seller history/feedback details given in listing text. Photos have a studio/stock-like quality typical of dealer listings which is not inherently suspicious but reduces ability to verify this specific unit against described condition.",
+      "rarity_notes": "Ref 16610 is one of the most common and widely available Submariner references from 1988-2010, not rare, but perennially in high demand.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and sought-after luxury watch models, with consistently strong resale demand and liquidity."
+    },
+    "deal_score": 4,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 5844,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 5844 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and sought-after luxury watch models, with consistently strong resale demand and liquidity.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 9145.53,
+    "discount": 0.0373126315789473,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|257690494816|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1787684589.1301515,
+    "analysis_depth": "full"
+  },
+  {
+    "id": "rolex:ebay:v1|158219263645|0",
+    "listing": {
+      "id": "ebay:v1|158219263645|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex Submariner 16613LB 40mm Blue Dial And Bezel 2003 With Box And Manuals",
+      "url": "https://www.ebay.com/itm/158219263645?_skw=Rolex+Submariner&hash=item24d69a5e9d:g:mmMAAeSwTclqjIBV",
+      "price": 11000.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/mmMAAeSwTclqjIBV/s-l225.jpg",
+      "image_urls": [],
+      "body": "Rolex Submariner 16613LB 40mm Blue Dial And Bezel 2003 With Box And Manuals",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Hunter requires a black dial Submariner, but this listing is reference 16613LB with a blue dial and bezel (two-tone). Even though brand/model/year/price technically fit, the dial color explicitly required (black) is not met, so it does not match.",
+      "estimated_value": 10500.0,
+      "confidence": 0.55,
+      "condition_summary": "Watch shown in box with papers/manuals; appears to be a two-tone 16613LB with blue dial/bezel, presented in what looks like excellent, well-kept condition based on the photo, though only one image is provided.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "Box, hangtag, and papers pouch are shown, which is a good sign, but no close-up of the watch itself, serial/reference engravings, or dial details is provided to verify authenticity - only a boxed shot. No major red flags, but limited photo evidence.",
+      "rarity_notes": "16613LB (blue dial/bezel two-tone Submariner) is a well-known, fairly common reference on the market, not particularly rare.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and highly demanded watch models in the world, with strong resale liquidity regardless of dial color."
+    },
+    "deal_score": -5,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 5844,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 5844 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and highly demanded watch models in the world, with strong resale liquidity regardless of dial color.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 11000.0,
+    "discount": -0.047619047619047616,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|188827539139|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1787684577.7170684,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|257702180920|0",
+    "listing": {
+      "id": "ebay:v1|257702180920|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "2006 Rolex Submariner Date Steel Oyster 40mm Watch 16610 Box/Papers",
+      "url": "https://www.ebay.com/itm/257702180920?_skw=Rolex+Submariner&hash=item3c003f3838:g:jsIAAeSwmOBqjdSE",
+      "price": 10560.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/jsIAAeSwmOBqjdSE/s-l225.jpg",
+      "image_urls": [
+        "https://i.ebayimg.com/images/g/jsIAAeSwmOBqjdSE/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/uagAAeSwu3ZqjdSE/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/o30AAeSwk1JqjdSE/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/zSwAAeSw131qjdSE/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/oW8AAeSw5RdqjdSE/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/pqoAAeSwbr9qjdSE/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/3A0AAeSweY5qjdSE/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/FNoAAeSwEphqjdSE/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/KPsAAeSwbS9qjdSE/s-l1600.jpg"
+      ],
+      "body": "2006 Rolex Submariner Date Steel Oyster 40mm Watch 16610 Box/Papers",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Hunter's criteria was generic (any Rolex Submariner black dial, 1992+, under $11k, excellent condition) with no specific reference required. This is a 2006 Submariner Date 16610 with black dial, steel Oyster, box/papers, priced at $10,560 all-in, satisfying year, price, and condition requirements.",
+      "estimated_value": 10200.0,
+      "confidence": 0.65,
+      "condition_summary": "Watch appears to be in very good to excellent cosmetic condition in photos - clean dial, bezel insert glossy with no fading, lume dots consistent, case edges look sharp with no obvious deep gouges, though some light handling marks may be present typical of a pre-owned piece.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "Photos show matching dial/bezel/case details consistent with a genuine 16610, box and papers (guarantee card) shown with reference number 16610 printed on it matching the watch, and a lume shot which is a good authenticity practice sellers use to show original tritium/luminova application. No obvious red flags like mismatched serials or stock-only photos; multiple real angle photos including box, papers, and UV lume shot increase confidence. Price is reasonable/market-consistent, not suspiciously low, which also reduces fraud risk.",
+      "rarity_notes": "The 16610 is one of the most common and widely available Submariner references (produced 1988-2010), so not rare, but reliably in demand due to brand recognition and no-date/date Sub popularity.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most sought-after watch models globally, with the 16610 being a benchmark reference that maintains strong resale demand and liquidity."
+    },
+    "deal_score": -4,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 5844,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 5844 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most sought-after watch models globally, with the 16610 being a benchmark reference that maintains strong resale demand and liquidity.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 10560.0,
+    "discount": -0.03529411764705882,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|298602122651|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1787684601.918397,
+    "analysis_depth": "full"
+  },
+  {
+    "id": "rolex:etsy:4561927907",
+    "listing": {
+      "id": "etsy:4561927907",
+      "source": "etsy",
+      "category": "watches",
+      "title": "Jonah Automatic Dive Watch",
+      "url": "https://www.etsy.com/listing/4561927907/jonah-automatic-dive-watch",
+      "price": 449.0,
+      "shipping_price": null,
+      "currency": "USD",
+      "image_url": "https://i.etsystatic.com/67691834/r/il/31696c/8474604311/il_fullxfull.8474604311_kaxe.jpg",
+      "image_urls": [
+        "https://i.etsystatic.com/67691834/r/il/31696c/8474604311/il_fullxfull.8474604311_kaxe.jpg",
+        "https://i.etsystatic.com/67691834/r/il/b0b730/8474604287/il_fullxfull.8474604287_avj5.jpg",
+        "https://i.etsystatic.com/67691834/r/il/85826c/8474604301/il_fullxfull.8474604301_ger2.jpg",
+        "https://i.etsystatic.com/67691834/r/il/e8c915/8474604307/il_fullxfull.8474604307_rkwf.jpg",
+        "https://i.etsystatic.com/67691834/r/il/7784f2/8426733006/il_fullxfull.8426733006_mik6.jpg",
+        "https://i.etsystatic.com/67691834/r/il/28829f/8474604241/il_fullxfull.8474604241_r9a0.jpg",
+        "https://i.etsystatic.com/67691834/r/il/b26b61/8474604385/il_fullxfull.8474604385_lrp9.jpg"
+      ],
+      "body": "Jonah Diver \u2014 White Dial & Blue Bezel Automatic Watch\n\nGRACE REACHES DEEPER THAN THE SEA\n\nThe Jonah Diver is a faith-inspired automatic watch created as a reminder that no failure, distance, or darkness can place us beyond the reach of God\u2019s grace.\n\nJonah ran from God\u2019s calling and found himself in the depths of the sea. Yet even there, God heard his prayer, preserved his life, and gave him another opportunity to obey.\n\nJonah 2:9 declares:\n\n\u201cSalvation belongs to the Lord.\u201d\n\nThe Jonah Diver was created for those who have experienced second chances\u2014and for anyone who needs the reminder that God\u2019s grace does not stop at the shoreline. It reaches into the depths.\n\nA BRIGHTER NAUTICAL DESIGN\n\nThis version of the Jonah Diver pairs a clean white dial with a light-blue 60-minute bezel and a distinctive orange seconds hand. The bright nautical colorway gives the watch a crisp, energetic character while preserving the purposeful design of the Jonah collection.\n\nThe dial bears the words \u201cFrom the Depths,\u201d connecting the watch to Jonah\u2019s prayer and the truth that God hears us even in our lowest moments.\n\nIts luminous hands and hour markers provide strong visibility in low light. Inside is the dependable Japanese NH35 automatic movement, visible through the exhibition caseback. A custom rotor engraved with Galatians 4:4 connects the watch to the verse that inspired the Fullness of Time name.\n\nWATCH SPECIFICATIONS\n\nMovement: Japanese NH35 automatic\nCase: 40mm stainless steel\nCaseback: Exhibition caseback\nRotor: Custom Galatians 4:4 rotor\nCrystal: Sapphire\nDial: White\nBezel: Light-blue 60-minute bezel\nSeconds hand: Orange\nBracelet: Stainless steel\nFunctions: Hours, minutes, seconds, and date\nIllumination: Luminous hands, hour markers, and bezel pip\nWater resistance: Individually pressure tested to 5 ATM\nAssembly: Hand assembled and tested in the USA\n\nWeight - 5.453 oz\n\nINDIVIDUALLY TESTED\n\nEvery Jonah Diver is individually inspected, evaluated for accuracy on a timegrapher, and pressure tested to 5 ATM.\n\nThe specific rate, amplitude, beat error, and pressure-test result for this watch are recorded on its accompanying Certificate of Stewardship.\n\nAs with all mechanical watches, daily accuracy can vary depending on wearing habits, position, temperature, and winding state.\n\nTHE EXACT WATCH PICTURED\n\nThe watch shown in these photographs is the actual watch you will receive\u2014not a stock photograph or representative example.\n\nA HAND-FINISHED TIMEPIECE\n\nEach dial is hand finished using custom lettering created in-house. Because of this handmade process, minor edging from the dial application may be visible in certain lighting or under magnification. During normal wear and in natural lighting, these details are subtle and contribute to the individual character of a hand-finished timepiece.\n\nPRESENTED WITH PURPOSE\n\nYour Jonah Diver arrives with:\n\n\u2022 Presentation watch box\n\u2022 Certificate of Stewardship\n\u2022 Individually documented timegrapher results\n\u2022 Individually documented pressure-test result\n\nABOUT FULLNESS OF TIME\n\nFullness of Time Watch Company is a small Christian-owned watch brand created to share faith, encourage meaningful conversations, and point people to Jesus Christ.\n\nTime is one of God\u2019s greatest gifts. We pray this watch serves as a reminder to invest your days wisely, love generously, and walk faithfully.\n\nA watch tells you what time it is. Your calling tells you what to do with it.",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "taxonomy_id": 6074
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "This is not a Rolex at all - it's a homage/tribute \"Jonah Diver\" watch by a small Christian-owned microbrand (Fullness of Time Watch Company) using a generic NH35 Japanese movement in a Submariner-styled case. It does not match the hunter's requirement of an authentic Rolex Submariner.",
+      "estimated_value": 449.0,
+      "confidence": 0.9,
+      "condition_summary": "Appears new/unworn based on presentation photo on a watch stand; sold as a new handmade product with box and certificate.",
+      "authenticity_risk": "high",
+      "authenticity_notes": "Listing explicitly and openly presents this as a homage/tribute watch (not a Rolex), using Rolex Submariner/Sea-Dweller case design and dial layout but branded 'Fullness of Time' with 'Jonah Diver' text. Not fraudulent in the sense of misrepresenting itself as genuine Rolex, but it is a clone/homage case shape which could be confused at a glance - buyer must be aware this is NOT a Rolex and has zero relation to the hunter's request.",
+      "rarity_notes": "Not rare in the collectible watch sense - it's a small-batch microbrand novelty item, not a genuine Rolex reference.",
+      "demand_tier": "Low",
+      "demand_reasoning": "Niche faith-based microbrand homage watch with limited market recognition outside a small enthusiast/faith-based niche; no resale demand comparable to genuine Rolex Submariners."
+    },
+    "deal_score": 0,
+    "liquidity": {
+      "rating": "Low",
+      "comparable_count": 48,
+      "algorithmic_tier": "High",
+      "claude_tier": "Low",
+      "reasoning": "Algorithmic signal: 48 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Low (Niche faith-based microbrand homage watch with limited market recognition outside a small enthusiast/faith-based niche; no resale demand comparable to genuine Rolex Submariners.). Final rating uses the more conservative of the two: Low."
+    },
+    "all_in_price": 449.0,
+    "discount": 0.0,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1787684612.99809,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:etsy:4561937978",
+    "listing": {
+      "id": "etsy:4561937978",
+      "source": "etsy",
+      "category": "watches",
+      "title": "Jonah Automatic Dive Watch",
+      "url": "https://www.etsy.com/listing/4561937978/jonah-automatic-dive-watch",
+      "price": 449.0,
+      "shipping_price": null,
+      "currency": "USD",
+      "image_url": "https://i.etsystatic.com/67691834/r/il/d7c8a1/8426625694/il_fullxfull.8426625694_2tup.jpg",
+      "image_urls": [
+        "https://i.etsystatic.com/67691834/r/il/d7c8a1/8426625694/il_fullxfull.8426625694_2tup.jpg",
+        "https://i.etsystatic.com/67691834/r/il/ed433f/8474497635/il_fullxfull.8474497635_4thx.jpg",
+        "https://i.etsystatic.com/67691834/r/il/b66ca6/8426625668/il_fullxfull.8426625668_hr2m.jpg",
+        "https://i.etsystatic.com/67691834/r/il/aef1f4/8426625686/il_fullxfull.8426625686_rkm7.jpg",
+        "https://i.etsystatic.com/67691834/r/il/6fcb5b/8426625610/il_fullxfull.8426625610_5ulo.jpg",
+        "https://i.etsystatic.com/67691834/r/il/e6beb3/8474497641/il_fullxfull.8474497641_dibe.jpg"
+      ],
+      "body": "GRACE REACHES DEEPER THAN THE SEA\n\nThe Jonah Diver is a faith-inspired automatic watch created as a reminder that no failure, distance, or darkness can place us beyond the reach of God\u2019s grace.\n\nJonah ran from God\u2019s calling and found himself in the depths of the sea. Yet even there, God heard his prayer, preserved his life, and gave him another opportunity to obey.\n\nJonah 2:9 declares:\n\n\u201cSalvation belongs to the Lord.\u201d\n\nThe Jonah Diver was created for those who have experienced second chances\u2014and for anyone who needs the reminder that God\u2019s grace does not stop at the shoreline. It reaches into the depths.\n\nDESIGNED WITH PURPOSE\n\nThe Jonah Diver pairs a matte black dial with a black 60-minute bezel and a distinctive red seconds hand. Its bold luminous markers provide excellent visibility in low light, while the red accent represents urgency, rescue, and redemption.\n\nThe dial bears the words \u201cFrom the Depths,\u201d connecting the watch to Jonah\u2019s prayer and the truth that God hears us even in our lowest moments.\n\nInside is the dependable Japanese NH35 automatic movement, visible through the exhibition caseback. A custom rotor engraved with Galatians 4:4 connects the watch to the verse that inspired the Fullness of Time name.\n\nWATCH SPECIFICATIONS\n\nMovement: Japanese NH35 automatic\nCase: 40mm stainless steel\nCaseback: Exhibition caseback\nRotor: Custom Galatians 4:4 rotor\nCrystal: Sapphire\nDial: Matte black\nBezel: Black 60-minute bezel\nSeconds hand: Red\nBracelet: Stainless steel\nFunctions: Hours, minutes, seconds, and date\nIllumination: Luminous hands, hour markers, and bezel pip\nWater resistance: Individually pressure tested to 5 ATM\nAssembly: Hand assembled and tested in the USA\n\nWeight - 5.538 oz\n\nINDIVIDUALLY TESTED\n\nEvery Jonah Diver is individually inspected, evaluated for accuracy on a timegrapher, and pressure tested to 5 ATM.\n\nThe specific rate, amplitude, beat error, and pressure-test result for this watch are recorded on its accompanying Certificate of Stewardship.\n\nAs with all mechanical watches, daily accuracy can vary depending on wearing habits, position, temperature, and winding state.\n\nTHE EXACT WATCH PICTURED\n\nA HAND-FINISHED TIMEPIECE\n\nEach dial is hand finished using custom lettering created in-house. Because of this handmade process, minor edging from the dial application may be visible in certain lighting or under magnification. During normal wear and in natural lighting, these details are subtle and contribute to the individual character of a hand-finished timepiece.\n\nPRESENTED WITH PURPOSE\n\nYour Jonah Diver arrives with:\n\n\u2022 Presentation watch box\n\u2022 Certificate of Stewardship\n\u2022 Individually documented timegrapher results\n\u2022 Individually documented pressure-test result\n\nABOUT FULLNESS OF TIME\n\nFullness of Time Watch Company is a small Christian-owned watch brand created to share faith, encourage meaningful conversations, and point people to Jesus Christ.\n\nTime is one of God\u2019s greatest gifts. We pray this watch serves as a reminder to invest your days wisely, love generously, and walk faithfully.\n\nA watch tells you what time it is. Your calling tells you what to do with it.",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "taxonomy_id": 6074
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "This is not a Rolex Submariner at all - it's a homage/microbrand \"Jonah Diver\" by Fullness of Time Watch Company, using a generic Japanese NH35 automatic movement in a Submariner-style case. It only visually resembles a Submariner design; it is not the genuine brand/model the hunter requires.",
+      "estimated_value": 449.0,
+      "confidence": 0.9,
+      "condition_summary": "Brand new, hand-assembled homage dive watch with NH35 movement, sapphire crystal, exhibition caseback; sold new-in-box with certificate.",
+      "authenticity_risk": "none",
+      "authenticity_notes": "No fraud risk since the seller is transparent that this is an original microbrand (\"Fullness of Time Watch Company\") faith-themed homage, not a genuine Rolex - it doesn't claim to be a Rolex Submariner.",
+      "rarity_notes": "Not rare in the collectible-watch sense; it's a current-production small-batch microbrand item, unrelated to genuine Rolex rarity/reference considerations.",
+      "demand_tier": "Low",
+      "demand_reasoning": "As a niche faith-branded microbrand homage with a generic NH35 movement, demand and resale market are limited compared to an authentic Rolex Submariner."
+    },
+    "deal_score": 0,
+    "liquidity": {
+      "rating": "Low",
+      "comparable_count": 48,
+      "algorithmic_tier": "High",
+      "claude_tier": "Low",
+      "reasoning": "Algorithmic signal: 48 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Low (As a niche faith-branded microbrand homage with a generic NH35 movement, demand and resale market are limited compared to an authentic Rolex Submariner.). Final rating uses the more conservative of the two: Low."
+    },
+    "all_in_price": 449.0,
+    "discount": 0.0,
+    "notified": false,
+    "duplicate_of": "rolex:etsy:4561927907",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1787684612.118393,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:etsy:4561896765",
+    "listing": {
+      "id": "etsy:4561896765",
+      "source": "etsy",
+      "category": "watches",
+      "title": "Jonah Diver Automatic Watch w/Vintage Case",
+      "url": "https://www.etsy.com/listing/4561896765/jonah-diver-automatic-watch-wvintage",
+      "price": 449.0,
+      "shipping_price": null,
+      "currency": "USD",
+      "image_url": "https://i.etsystatic.com/67691834/r/il/44d2d4/8474383903/il_fullxfull.8474383903_apk7.jpg",
+      "image_urls": [
+        "https://i.etsystatic.com/67691834/r/il/44d2d4/8474383903/il_fullxfull.8474383903_apk7.jpg",
+        "https://i.etsystatic.com/67691834/r/il/d2289f/8426511954/il_fullxfull.8426511954_cf1y.jpg",
+        "https://i.etsystatic.com/67691834/r/il/03d15d/8474383891/il_fullxfull.8474383891_5vhi.jpg",
+        "https://i.etsystatic.com/67691834/r/il/24096c/8474383843/il_fullxfull.8474383843_o6o9.jpg",
+        "https://i.etsystatic.com/67691834/r/il/ee3c9d/8474383979/il_fullxfull.8474383979_fr06.jpg",
+        "https://i.etsystatic.com/67691834/r/il/18fa58/8426511944/il_fullxfull.8426511944_82t5.jpg",
+        "https://i.etsystatic.com/67691834/r/il/437717/8474383849/il_fullxfull.8474383849_ppf2.jpg",
+        "https://i.etsystatic.com/67691834/r/il/1fb25a/8426512054/il_fullxfull.8426512054_rdb0.jpg"
+      ],
+      "body": "GRACE REACHES DEEPER THAN THE SEA\n\nThe Jonah Diver is a faith-inspired automatic watch created as a reminder that no failure, distance, or darkness can place us beyond the reach of God\u2019s grace.\n\nJonah ran from God\u2019s calling and found himself in the depths of the sea. Yet even there, God heard his prayer, preserved his life, and gave him another opportunity to obey.\n\nJonah 2:9 declares:\n\n\u201cSalvation belongs to the Lord.\u201d\n\nThe Jonah Diver was created for those who have experienced second chances\u2014and for anyone who needs the reminder that God\u2019s grace does not stop at the shoreline. It reaches into the depths.\n\nDESIGNED WITH PURPOSE\n\nThe Jonah Diver pairs a matte black dial with a black 60-minute bezel and a distinctive red seconds hand. Its bold luminous markers provide excellent visibility in low light, while the red accent represents urgency, rescue, and redemption.\n\nThe dial bears the words \u201cFrom the Depths,\u201d connecting the watch to Jonah\u2019s prayer and the truth that God hears us even in our lowest moments.\n\nInside is the dependable Japanese NH35 automatic movement, visible through the exhibition caseback. A custom rotor engraved with Galatians 4:4 connects the watch to the verse that inspired the Fullness of Time name.\n\nWATCH SPECIFICATIONS\n\nMovement: Japanese NH35 automatic\nCase: 39mm stainless steel\nCaseback: Exhibition caseback\nRotor: Custom Galatians 4:4 rotor\nCrystal: Sapphire\nDial: Matte black\nBezel: Black 60-minute bezel\nSeconds hand: Silver\nBracelet: Stainless steel\nFunctions: Hours, minutes, seconds, and date\nIllumination: Luminous hands, hour markers, and bezel pip\nWater resistance: Individually pressure tested to 5 ATM\nAssembly: Hand assembled and tested in the USA\n\nINDIVIDUALLY TESTED\n\nEvery Jonah Diver is individually inspected, evaluated for accuracy on a timegrapher, and pressure tested to 5 ATM.\n\nThe specific rate, amplitude, beat error, and pressure-test result for this watch are recorded on its accompanying Certificate of Stewardship.\n\nAs with all mechanical watches, daily accuracy can vary depending on wearing habits, position, temperature, and winding state.\n\nTHE EXACT WATCH PICTURED\n\nThe watch shown in these photographs is the actual watch you will receive\u2014not a stock photograph or representative example.\n\nA HAND-FINISHED TIMEPIECE\n\nEach dial is hand finished using custom lettering created in-house. Because of this handmade process, minor edging from the dial application may be visible in certain lighting or under magnification. During normal wear and in natural lighting, these details are subtle and contribute to the individual character of a hand-finished timepiece.\n\nPRESENTED WITH PURPOSE\n\nYour Jonah Diver arrives with:\n\n\u2022 Presentation watch box\n\u2022 Certificate of Stewardship\n\u2022 Individually documented timegrapher results\n\u2022 Individually documented pressure-test result\n\nABOUT FULLNESS OF TIME\n\nFullness of Time Watch Company is a small Christian-owned watch brand created to share faith, encourage meaningful conversations, and point people to Jesus Christ.\n\nTime is one of God\u2019s greatest gifts. We pray this watch serves as a reminder to invest your days wisely, love generously, and walk faithfully.\n\nA watch tells you what time it is. Your calling tells you what to do with it.",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "taxonomy_id": 6074
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "This is not a Rolex at all - it's a homage/microbrand \"Jonah Diver\" watch by \"Fullness of Time Watch Company,\" using a Submariner-style case and dial design with a generic NH35 Japanese automatic movement. It does not match the hunter's requirement for a genuine Rolex Submariner.",
+      "estimated_value": 449.0,
+      "confidence": 0.9,
+      "condition_summary": "Appears to be a brand-new, hand-assembled homage watch in a Submariner-style case, sold with box and certificate; condition is new/excellent as a new product.",
+      "authenticity_risk": "none",
+      "authenticity_notes": "No fraud risk in the sense of counterfeiting since the seller is transparent that this is an original faith-branded microbrand watch, not a Rolex, and does not use Rolex branding or false claims. However, it is visually designed to closely mimic the Rolex Submariner aesthetic (case shape, bezel, hand style), which buyers should be aware of.",
+      "rarity_notes": "Not a rare collectible Rolex reference; it's a mass-produced-style microbrand watch using generic NH35 movement, readily available from the seller.",
+      "demand_tier": "Low",
+      "demand_reasoning": "Niche faith-branded microbrand with limited market recognition compared to genuine Rolex Submariner, which has very high demand and brand recognition."
+    },
+    "deal_score": 0,
+    "liquidity": {
+      "rating": "Low",
+      "comparable_count": 48,
+      "algorithmic_tier": "High",
+      "claude_tier": "Low",
+      "reasoning": "Algorithmic signal: 48 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Low (Niche faith-branded microbrand with limited market recognition compared to genuine Rolex Submariner, which has very high demand and brand recognition.). Final rating uses the more conservative of the two: Low."
+    },
+    "all_in_price": 449.0,
+    "discount": 0.0,
+    "notified": false,
+    "duplicate_of": "rolex:etsy:4561927907",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1787684612.7546527,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:etsy:4561928886",
+    "listing": {
+      "id": "etsy:4561928886",
+      "source": "etsy",
+      "category": "watches",
+      "title": "Jonah Diver Automatic Watch",
+      "url": "https://www.etsy.com/listing/4561928886/jonah-diver-automatic-watch",
+      "price": 449.0,
+      "shipping_price": null,
+      "currency": "USD",
+      "image_url": "https://i.etsystatic.com/67691834/r/il/898fd1/8474431469/il_fullxfull.8474431469_67f7.jpg",
+      "image_urls": [
+        "https://i.etsystatic.com/67691834/r/il/898fd1/8474431469/il_fullxfull.8474431469_67f7.jpg",
+        "https://i.etsystatic.com/67691834/r/il/a8f6b5/8426559464/il_fullxfull.8426559464_sc9v.jpg",
+        "https://i.etsystatic.com/67691834/r/il/cd9930/8474431499/il_fullxfull.8474431499_q889.jpg",
+        "https://i.etsystatic.com/67691834/r/il/48f6aa/8426559344/il_fullxfull.8426559344_3n3h.jpg",
+        "https://i.etsystatic.com/67691834/r/il/278a20/8426559450/il_fullxfull.8426559450_d9z8.jpg",
+        "https://i.etsystatic.com/67691834/r/il/15a646/8474431409/il_fullxfull.8474431409_czug.jpg",
+        "https://i.etsystatic.com/67691834/r/il/332bfb/8474431411/il_fullxfull.8474431411_4cqw.jpg",
+        "https://i.etsystatic.com/67691834/r/il/67a3e2/8474431551/il_fullxfull.8474431551_hbg7.jpg"
+      ],
+      "body": "GRACE REACHES DEEPER THAN THE SEA\n\nThe Jonah Diver is a faith-inspired automatic watch created as a reminder that no failure, distance, or darkness can place us beyond the reach of God\u2019s grace.\n\nJonah ran from God\u2019s calling and found himself in the depths of the sea. Yet even there, God heard his prayer, preserved his life, and gave him another opportunity to obey.\n\nJonah 2:9 declares:\n\n\u201cSalvation belongs to the Lord.\u201d\n\nThe Jonah Diver was created for those who have experienced second chances\u2014and for anyone who needs the reminder that God\u2019s grace does not stop at the shoreline. It reaches into the depths.\n\nA CLASSIC NAUTICAL DESIGN\n\nThis version of the Jonah Diver pairs a black dial with a vivid deep-blue 60-minute bezel. Its restrained silver handset gives the watch a traditional, versatile appearance, while the blue bezel adds a bold nautical character.\n\nThe dial bears the words \u201cFrom the Depths,\u201d connecting the watch to Jonah\u2019s prayer and the truth that God hears us even in our lowest moments.\n\nLuminous hands and hour markers provide strong visibility in low light. Inside is the dependable Japanese NH35 automatic movement, visible through the exhibition caseback. A custom rotor engraved with Galatians 4:4 connects the watch to the verse that inspired the Fullness of Time name.\n\nWATCH SPECIFICATIONS\n\nMovement: Japanese NH35 automatic\nCase: 40mm stainless steel\nCaseback: Exhibition caseback\nRotor: Custom Galatians 4:4 rotor\nCrystal: Sapphire\nDial: Matte Black\nBezel: Deep-blue 60-minute bezel\nHands: Silver with luminous inserts\nBracelet: Stainless steel\nFunctions: Hours, minutes, seconds, and date\nIllumination: Luminous hands, hour markers, and bezel pip\nWater resistance: Individually pressure tested to 5 ATM\nAssembly: Hand assembled and tested in the USA\n\nINDIVIDUALLY TESTED\n\nEvery Jonah Diver is individually inspected, evaluated for accuracy on a timegrapher, and pressure tested to 5 ATM.\n\nThe specific rate, amplitude, beat error, and pressure-test result for this watch are recorded on its accompanying Certificate of Stewardship.\n\nAs with all mechanical watches, daily accuracy can vary depending on wearing habits, position, temperature, and winding state.\n\nTHE EXACT WATCH PICTURED\n\nThe watch shown in these photographs is the actual watch you will receive\u2014not a stock photograph or representative example.\n\nA HAND-FINISHED TIMEPIECE\n\nEach dial is hand finished using custom lettering created in-house. Because of this handmade process, minor edging from the dial application may be visible in certain lighting or under magnification. During normal wear and in natural lighting, these details are subtle and contribute to the individual character of a hand-finished timepiece.\n\nPRESENTED WITH PURPOSE\n\nYour Jonah Diver arrives with:\n\n\u2022 Presentation watch box\n\u2022 Certificate of Stewardship\n\u2022 Individually documented timegrapher results\n\u2022 Individually documented pressure-test result\n\nABOUT FULLNESS OF TIME\n\nFullness of Time Watch Company is a small Christian-owned watch brand created to share faith, encourage meaningful conversations, and point people to Jesus Christ.\n\nTime is one of God\u2019s greatest gifts. We pray this watch serves as a reminder to invest your days wisely, love generously, and walk faithfully.\n\nA watch tells you what time it is. Your calling tells you what to do with it.",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "taxonomy_id": 6074
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "This is not a Rolex at all - it's a \"Jonah Diver\" homage/microbrand watch by \"Fullness of Time Watch Company\" with a generic Japanese NH35 automatic movement, styled to look like a Rolex Submariner. It fails every criterion: wrong brand, wrong movement, not a genuine Rolex Submariner reference.",
+      "estimated_value": 449.0,
+      "confidence": 0.9,
+      "condition_summary": "Appears to be a brand-new microbrand homage watch, sold new with box and 'Certificate of Stewardship'; photos show a clean, unworn example.",
+      "authenticity_risk": "none",
+      "authenticity_notes": "Not a counterfeit Rolex - the listing is transparent that this is an independent Christian-branded microbrand product ('Fullness of Time') using a Submariner-style case/dial design and an NH35 movement, sold openly as such. No fraud risk for what it is, but it is completely unrelated to an actual Rolex Submariner.",
+      "rarity_notes": "Not rare in the collectible-Rolex sense; it's a mass-produced microbrand homage piece, readily available from the maker.",
+      "demand_tier": "Low",
+      "demand_reasoning": "Microbrand homage watches like this have niche appeal but no meaningful demand or resale value in the vintage/luxury Rolex collector market the hunter is targeting."
+    },
+    "deal_score": 0,
+    "liquidity": {
+      "rating": "Low",
+      "comparable_count": 48,
+      "algorithmic_tier": "High",
+      "claude_tier": "Low",
+      "reasoning": "Algorithmic signal: 48 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Low (Microbrand homage watches like this have niche appeal but no meaningful demand or resale value in the vintage/luxury Rolex collector market the hunter is targeting.). Final rating uses the more conservative of the two: Low."
+    },
+    "all_in_price": 449.0,
+    "discount": 0.0,
+    "notified": false,
+    "duplicate_of": "rolex:etsy:4561927907",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1787684612.779573,
+    "analysis_depth": "quick"
   }
 ]
