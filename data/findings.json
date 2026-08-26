@@ -104386,5 +104386,55 @@
     "qa_history": [],
     "created_at": 1787761512.9611523,
     "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|145907662233|0",
+    "listing": {
+      "id": "ebay:v1|145907662233|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex Submariner Date 40mm Ceramic Stainless Steel Black Dial Watch 116610LN",
+      "url": "https://www.ebay.com/itm/145907662233?_skw=Rolex+Submariner+black+dial&hash=item21f8c63d99:g:PEoAAeSw1~lqdjQt",
+      "price": 12999.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/PEoAAeSw1~lqdjQt/s-l225.jpg",
+      "image_urls": [],
+      "body": "Rolex Submariner Date 40mm Ceramic Stainless Steel Black Dial Watch 116610LN",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The reference 116610LN is a genuine Rolex Submariner black dial model made after 1992, satisfying the year/model criteria, but the listing price of $12,999 all-in exceeds the hunter's $11,000 ceiling, so it fails on price.",
+      "estimated_value": 10500.0,
+      "confidence": 0.45,
+      "condition_summary": "Single stock-style photo shows a clean-looking Submariner with ceramic bezel and black dial, no visible major wear, but no close-up shots of case, clasp, or crystal to verify condition claims.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only one generic-looking photo provided (no box/papers, no serial/case back shots, no close-ups), which is a common red flag for eBay watch listings. No mention of box, papers, service history, or seller reputation/return policy, making it hard to verify authenticity or condition beyond the stock-like image.",
+      "rarity_notes": "116610LN is a widely produced, very common reference (discontinued ~2020), not rare, but consistently high demand on the secondary market.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner ceramic bezel models like the 116610LN are among the most sought-after watches in the pre-owned market, with strong liquidity and demand."
+    },
+    "deal_score": -24,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 3152,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 3152 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner ceramic bezel models like the 116610LN are among the most sought-after watches in the pre-owned market, with strong liquidity and demand.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 12999.0,
+    "discount": -0.238,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|406914029742|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1787775069.8904734,
+    "analysis_depth": "quick"
   }
 ]
