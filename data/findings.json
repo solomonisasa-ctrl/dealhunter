@@ -104186,5 +104186,105 @@
     "qa_history": [],
     "created_at": 1787737973.1613183,
     "analysis_depth": "full"
+  },
+  {
+    "id": "rolex:ebay:v1|128044808438|0",
+    "listing": {
+      "id": "ebay:v1|128044808438|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Vookum x Crave - Rolex Submariner Date 41mm Stainless Steel 126610LN Unworn 2026",
+      "url": "https://www.ebay.com/itm/128044808438?_skw=Rolex+Submariner&hash=item1dd010b8f6:g:JUEAAeSw0BpqjNos",
+      "price": 1.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/JUEAAeSw0BpqjNos/s-l225.jpg",
+      "image_urls": [],
+      "body": "Vookum x Crave - Rolex Submariner Date 41mm Stainless Steel 126610LN Unworn 2026",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "New with box and papers"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "This is a $1 auction-style listing (likely a raffle/giveaway or promotional listing by 'Vookum x Crave', not an actual sale at that price) for a 126610LN, a current-production model dated '2026' which is nonsensical and suspicious. The $1 price is not a genuine all-in price for a real Submariner, making this listing untrustworthy as a real match despite the model nominally fitting 'black dial Submariner post-1992'.",
+      "estimated_value": 10500.0,
+      "confidence": 0.2,
+      "condition_summary": "Photo shows a seemingly new/unworn black dial ceramic bezel Submariner Date, consistent with 126610LN, but this is a stock-style product photo with no evidence of the actual item being sold.",
+      "authenticity_risk": "high",
+      "authenticity_notes": "Major red flags: $1 price for a watch worth ~$10-14k, nonsensical future date '2026' in title, odd branding 'Vookum x Crave' suggesting a collab/reseller/promo account rather than a standard private seller, and no listing description beyond the title. This pattern is typical of scam listings, bait auctions, or non-genuine 'penny auction' gimmicks rather than an actual sale of a real watch.",
+      "rarity_notes": "126610LN is a modern, currently produced (or recently discontinued) Submariner reference - not rare, widely available at retail and gray market.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most in-demand watches on the market, with strong recognition and liquidity."
+    },
+    "deal_score": 30,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 5885,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 5885 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most in-demand watches on the market, with strong recognition and liquidity.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 1.0,
+    "discount": 0.9999047619047619,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1787749965.4924972,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|800561249861|0",
+    "listing": {
+      "id": "ebay:v1|800561249861|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex Submariner 114060 FULL SET fully serviced + w/warranty until 10/2027",
+      "url": "https://www.ebay.com/itm/800561249861?_skw=Rolex+Submariner&hash=itemba652b3e45:g:yfMAAeSwl01qjFqw",
+      "price": 11499.0,
+      "shipping_price": null,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/yfMAAeSwl01qjFqw/s-l225.jpg",
+      "image_urls": [],
+      "body": "Rolex Submariner 114060 FULL SET fully serviced + w/warranty until 10/2027",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "While the 114060 is a Rolex Submariner black dial (2012+, satisfies age requirement) and appears in excellent condition, the price is $11,499 all-in, which exceeds the hunter's stated $11,000 ceiling.",
+      "estimated_value": 10500.0,
+      "confidence": 0.45,
+      "condition_summary": "Photo shows watch in presentation box looking clean and well-kept with no visible major wear, consistent with \"excellent condition\" claim; only one photo provided so full condition (case back, clasp, bracelet stretch) can't be fully verified.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Claims \"FULL SET\" and \"fully serviced + warranty until 10/2027\" but only one photo is shown (box only, no close-up of watch dial, case back, papers, or service papers). No serial/reference confirmation photos, no hallmark close-ups. Seller history/reputation not mentioned. These are moderate red flags for a $11k+ purchase - buyer should request additional photos (papers, warranty card, serial number, movement) before proceeding.",
+      "rarity_notes": "The 114060 (no-date Submariner, ceramic bezel) is a well-known, widely available modern reference - not rare, but consistently in high demand on the secondary market.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and sought-after watch models globally, with the 114060 being a very popular modern reference with strong resale demand and liquidity."
+    },
+    "deal_score": -10,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 5885,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 5885 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and sought-after watch models globally, with the 114060 being a very popular modern reference with strong resale demand and liquidity.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 11499.0,
+    "discount": -0.09514285714285714,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|800557281923|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1787749964.6091938,
+    "analysis_depth": "quick"
   }
 ]
