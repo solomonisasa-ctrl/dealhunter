@@ -104741,5 +104741,55 @@
     "qa_history": [],
     "created_at": 1787787313.182527,
     "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|336761835620|0",
+    "listing": {
+      "id": "ebay:v1|336761835620|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex Submariner 16613 Serti Champagne Diamond Patina Dial Two Tone 40mm Watch",
+      "url": "https://www.ebay.com/itm/336761835620?_skw=Rolex+Submariner+black+dial&hash=item4e6891d064:g:7oQAAeSwrBFqjlh6",
+      "price": 7990.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/7oQAAeSwrBFqjlh6/s-l225.jpg",
+      "image_urls": [],
+      "body": "Rolex Submariner 16613 Serti Champagne Diamond Patina Dial Two Tone 40mm Watch",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Hunter requires a black dial Submariner, but this listing is explicitly a Serti Champagne Diamond dial (patina champagne, not black), on a two-tone 16613 model. Dial color mismatch disqualifies it regardless of price/year fit.",
+      "estimated_value": 7500.0,
+      "confidence": 0.4,
+      "condition_summary": "Watch shows a faded/patina'd champagne dial with diamond hour markers (serti), two-tone case/bezel; photo shows some wear consistent with age but overall presentable condition. No box/papers shown or mentioned.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only one photo provided, non-stock but limited angles; no close-up of serial/reference numbers, movement, or hallmarks to verify authenticity. Diamond serti dials are frequently subject to aftermarket alteration or fakes, so lack of detailed verification photos is a concern.",
+      "rarity_notes": "Serti diamond champagne dial 16613 two-tone Submariners are a known but less common variant compared to standard black dial Submariners; moderate collector interest but niche compared to classic black dial.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Rolex Submariner brand recognition is high, but this specific diamond dial two-tone variant appeals to a narrower buyer segment than the classic black dial, reducing overall demand relative to the hunter's stated preference."
+    },
+    "deal_score": -7,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 3148,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 3148 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Rolex Submariner brand recognition is high, but this specific diamond dial two-tone variant appeals to a narrower buyer segment than the classic black dial, reducing overall demand relative to the hunter's stated preference.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 7990.0,
+    "discount": -0.06533333333333333,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1787806849.9633791,
+    "analysis_depth": "quick"
   }
 ]
