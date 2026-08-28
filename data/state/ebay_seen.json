@@ -4281,6 +4281,13 @@
       "vostok"
     ]
   },
+  "ebay:v1|206212248027|0": {
+    "first_seen": 1787920933.2949452,
+    "status": "active",
+    "watch_item_ids": [
+      "rolex"
+    ]
+  },
   "ebay:v1|206245563166|0": {
     "first_seen": 1784934414.6235518,
     "status": "active",
@@ -4808,6 +4815,13 @@
   },
   "ebay:v1|206514754529|0": {
     "first_seen": 1787673099.0534658,
+    "status": "active",
+    "watch_item_ids": [
+      "rolex"
+    ]
+  },
+  "ebay:v1|206515021517|0": {
+    "first_seen": 1787920945.3083527,
     "status": "active",
     "watch_item_ids": [
       "rolex"
@@ -11648,7 +11662,8 @@
     "first_seen": 1785024039.4470022,
     "status": "active",
     "watch_item_ids": [
-      "submariner"
+      "submariner",
+      "rolex"
     ]
   },
   "ebay:v1|406982059481|0": {
@@ -12081,6 +12096,13 @@
   },
   "ebay:v1|407165016578|0": {
     "first_seen": 1787511344.3735762,
+    "status": "active",
+    "watch_item_ids": [
+      "rolex"
+    ]
+  },
+  "ebay:v1|407167766561|0": {
+    "first_seen": 1787920945.0177197,
     "status": "active",
     "watch_item_ids": [
       "rolex"
