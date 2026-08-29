@@ -1,55 +1,5 @@
 [
   {
-    "id": "gs-shunbun:ebay:v1|298365709892|0",
-    "listing": {
-      "id": "ebay:v1|298365709892|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "BRAND NEW 2026 Grand Seiko SBGA415G TAISETSU WINTER Factory Sealed FULL SET",
-      "url": "https://www.ebay.com/itm/298365709892?_skw=Grand+Seiko+Shunbun+Grand+Seiko+Shunbun+Spring+Equinox+GS+Shunbun+limited+edition+Grand+Seiko+Shunbun+box+papers+Shunbun+Grand+Seiko+watch&hash=item4577fb6e44:g:CBsAAeSwqExqGct1",
-      "price": 6795.0,
-      "shipping_price": 0.0,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/CBsAAeSwqExqGct1/s-l225.jpg",
-      "image_urls": [],
-      "body": "BRAND NEW 2026 Grand Seiko SBGA415G TAISETSU WINTER Factory Sealed FULL SET",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "New with box and papers"
-      }
-    },
-    "watch_item_id": "gs-shunbun",
-    "analysis": {
-      "matches_criteria": false,
-      "match_reasoning": "This listing is for the SBGA415G \"Taisetsu Winter\" model, not the requested \"Shunbun\" (Spring Equinox) model. It's also priced at $6,795 all-in, above the $6000 ceiling. Fails on both model identity and price.",
-      "estimated_value": 6200.0,
-      "confidence": 0.4,
-      "condition_summary": "Claimed \"brand new, factory sealed, full set\" but only one stock-style photo shown of the watch on wrist/holder against a plain background; no box, papers, or seals actually visible in the image.",
-      "authenticity_risk": "medium",
-      "authenticity_notes": "Title claims \"2026\" model year, which is unusual/suspicious phrasing for a listing (future-dated or possibly a typo/error). \"Factory Sealed FULL SET\" is asserted but the photo doesn't show box, papers, or seals - only the watch itself, which looks like a generic product/stock photo rather than seller's own item photos. No serial number, no images of papers or box, no seller history mentioned. These are notable red flags for a luxury watch listing.",
-      "rarity_notes": "SBGA415G Taisetsu is a seasonal Spring Drive limited/special edition, moderately available on secondary market. It is a different reference from the Shunbun the hunter is seeking, so it doesn't satisfy the rarity/model requirement regardless of its own scarcity.",
-      "demand_tier": "High",
-      "demand_reasoning": "Grand Seiko seasonal Spring Drive models (Taisetsu, Shunbun, etc.) are highly recognized and sought after among enthusiasts, driving strong demand and liquidity in the resale market."
-    },
-    "deal_score": -10,
-    "liquidity": {
-      "rating": "High",
-      "comparable_count": 97,
-      "algorithmic_tier": "High",
-      "claude_tier": "High",
-      "reasoning": "Algorithmic signal: 97 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Grand Seiko seasonal Spring Drive models (Taisetsu, Shunbun, etc.) are highly recognized and sought after among enthusiasts, driving strong demand and liquidity in the resale market.). Final rating uses the more conservative of the two: High."
-    },
-    "all_in_price": 6795.0,
-    "discount": -0.09596774193548387,
-    "notified": false,
-    "duplicate_of": null,
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784760541.3515244,
-    "analysis_depth": "quick"
-  },
-  {
     "id": "gs-shunbun:ebay:v1|188599726450|0",
     "listing": {
       "id": "ebay:v1|188599726450|0",
@@ -105417,5 +105367,61 @@
     "qa_history": [],
     "created_at": 1788028979.2183092,
     "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|142206836161|0",
+    "listing": {
+      "id": "ebay:v1|142206836161|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex Submariner Date Stainless Steel Watch Black Dial Bezel Mens Sub 16610",
+      "url": "https://www.ebay.com/itm/142206836161?_skw=Rolex+Submariner+black+dial&hash=item211c301dc1:g:isEAAOSwMJVbz0dE&amdata=enc%3AAQALAAABAACCtXRWQnOEpyOqnQQ8KGYlj02VP5tIm1PrmEBHyaCH9p%2BcuOyBp7tAnTx0Ilk%2BlVnSuWiDLXQgGzeog2K3kf9YcGltT67UtV7f7ImZUCdYNJdpnrkJpX%2BVxzjOhQBcCXz5nTHyuvAWLhZext%2FAOj5vufjwESZiZdEAkh%2BGc5%2FwXuf0ovP3ISuc0Akhf03yH6hI%2BUpu6Wy5%2BCFzM0Ipp2XISkyES29vD37hq5NhmQNeMIEVtQwaHxnu8ZTcWjYLricpoG3dch%2FiHxZNEwMx4sgiFfmGQJiC8%2FdW1vSyL97qtDdv0f7ZtyXytUXbEIwwDSsAk2H%2FmdfY3o1aAY7d8WM%3D",
+      "price": 10199.98,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/isEAAOSwMJVbz0dE/s-l225.jpg",
+      "image_urls": [
+        "https://i.ebayimg.com/images/g/isEAAOSwMJVbz0dE/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/CqYAAOSwnHZYSyYZ/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/-rcAAOSwA3dYSyYc/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/9rcAAOSw2xRYSyYf/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/ihEAAOSw4GVYSyYj/s-l1600.jpg"
+      ],
+      "body": "Rolex Submariner Date Stainless Steel Watch Black Dial Bezel Mens Sub 16610",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Hunter's criteria did not specify a reference number, only \"Rolex Submariner black dial, 1992 or newer.\" The 16610 is the correct Submariner Date reference produced from 1988-2010, with black dial being standard, so a post-1992 example fits. Price ($10,199.98) is under the $11,000 ceiling.",
+      "estimated_value": 9200.0,
+      "confidence": 0.45,
+      "condition_summary": "Photos show a clean, glossy bracelet and case with strong luster and sharp bezel markings, dial and hands appear intact with no visible scratches in these images; however, no serial/model number close-up, box/papers, or full set of angles (caseback, movement) are shown to confirm actual condition or specific production year.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Listing text is extremely sparse - just a title with no description of year, serial number, service history, box/papers, or seller details. Photos look like they could be stock/studio photos (dark velvet background, generic angles) rather than seller's own current photos of the actual unit, which is a common red flag pattern for reused/misrepresented listings. No close-up of caseback engravings, serial number between lugs, or papers to verify authenticity or production date.",
+      "rarity_notes": "The 16610 is one of the most common Submariner references, produced in high volume 1988-2010; not rare, but a perennial in-demand model.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and sought-after watch models globally, with consistently strong resale demand."
+    },
+    "deal_score": -11,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 3155,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 3155 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and sought-after watch models globally, with consistently strong resale demand.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 10199.98,
+    "discount": -0.10869347826086952,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|820058197561|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1788045983.289709,
+    "analysis_depth": "full"
   }
 ]
