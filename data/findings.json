@@ -1,155 +1,5 @@
 [
   {
-    "id": "gs-shunbun:ebay:v1|147452853876|0",
-    "listing": {
-      "id": "ebay:v1|147452853876|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "Grand Seiko Evolution 9 Collection Grand Seiko Salon Limited Spring Drive Ku...",
-      "url": "https://www.ebay.com/itm/147452853876?_skw=Grand+Seiko+Shunbun+Grand+Seiko+Shunbun+Spring+Equinox+GS+Shunbun+limited+edition+Grand+Seiko+Shunbun+box+papers+Shunbun+Grand+Seiko+watch&hash=item2254dffe74:g:G34AAeSwcUpqYC~B",
-      "price": 6782.0,
-      "shipping_price": 35.0,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/G34AAeSwcUpqYC~B/s-l225.jpg",
-      "image_urls": [],
-      "body": "Grand Seiko Evolution 9 Collection Grand Seiko Salon Limited Spring Drive Ku...",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "Pre-owned - Good"
-      }
-    },
-    "watch_item_id": "gs-shunbun",
-    "analysis": {
-      "matches_criteria": false,
-      "match_reasoning": "The listing title references a Grand Seiko Evolution 9 Salon Limited Spring Drive diver, not the Shunbun (Spring Equinox) model. The photo shows a black-dial dive watch, which does not match the Shunbun's known seasonal/textured dial aesthetic. Additionally, the price of $6,559 all-in exceeds the $6000 ceiling.",
-      "estimated_value": null,
-      "confidence": 0.2,
-      "condition_summary": "Photo shows a stainless steel dive-style Grand Seiko with black bezel/dial, appears new or lightly worn based on stock-like studio photo; no box/papers visible in the image despite text truncation preventing confirmation.",
-      "authenticity_risk": "medium",
-      "authenticity_notes": "Listing title is truncated and generic ('Ku...'), lacking a clear reference number; the photo appears to be a stock/catalog-style image rather than a personal photo of the actual item, which is a common red flag. No mention or visual confirmation of box and papers despite being a stated requirement. The model shown (diver) does not match the requested Shunbun, suggesting either a mislabeled listing or wrong item entirely.",
-      "rarity_notes": "The Shunbun (Spring Equinox) is a rare, limited seasonal Grand Seiko release with strong collector demand; this listing does not appear to be that model, so rarity assessment doesn't apply to the item actually shown.",
-      "demand_tier": "High",
-      "demand_reasoning": "Grand Seiko Evolution 9 Spring Drive divers and limited editions generally have high brand recognition and demand, but this is irrelevant to the specific Shunbun the hunter is seeking."
-    },
-    "deal_score": 0,
-    "liquidity": {
-      "rating": "High",
-      "comparable_count": 97,
-      "algorithmic_tier": "High",
-      "claude_tier": "High",
-      "reasoning": "Algorithmic signal: 97 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Grand Seiko Evolution 9 Spring Drive divers and limited editions generally have high brand recognition and demand, but this is irrelevant to the specific Shunbun the hunter is seeking.). Final rating uses the more conservative of the two: High."
-    },
-    "all_in_price": 6817.0,
-    "discount": null,
-    "notified": false,
-    "duplicate_of": "gs-shunbun:ebay:v1|227415041972|0",
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784760488.2231913,
-    "analysis_depth": "quick"
-  },
-  {
-    "id": "gs-shunbun:ebay:v1|398107886746|0",
-    "listing": {
-      "id": "ebay:v1|398107886746|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "SEIKO Grand Seiko Day-Date Men's Watch 130th Anniversary Limited Edition of ...",
-      "url": "https://www.ebay.com/itm/398107886746?_skw=Grand+Seiko+Shunbun+Grand+Seiko+Shunbun+Spring+Equinox+GS+Shunbun+limited+edition+Grand+Seiko+Shunbun+box+papers+Shunbun+Grand+Seiko+watch&hash=item5cb114449a:g:HlQAAeSwvTxqWy4w",
-      "price": 2250.9,
-      "shipping_price": 0.0,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/HlQAAeSwvTxqWy4w/s-l225.jpg",
-      "image_urls": [],
-      "body": "SEIKO Grand Seiko Day-Date Men's Watch 130th Anniversary Limited Edition of ...",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "Pre-owned - Excellent"
-      }
-    },
-    "watch_item_id": "gs-shunbun",
-    "analysis": {
-      "matches_criteria": false,
-      "match_reasoning": "The listing is for a \"130th Anniversary Limited Edition\" Grand Seiko Day-Date model, not the Shunbun (Spring Equinox) model the hunter is seeking. No mention of box/papers, and the title/text give no reference number or condition detail to confirm this is the correct model at all.",
-      "estimated_value": 2200.0,
-      "confidence": 0.25,
-      "condition_summary": "Photo shows a silver-dial Grand Seiko day-date on a steel bracelet appearing to be in good cosmetic condition with no obvious major wear, but this looks like a stock/catalog image rather than an actual photo of the specific watch for sale.",
-      "authenticity_risk": "medium",
-      "authenticity_notes": "Title is truncated and generic (\"...130th Anniversary Limited Edition of ...\"), no reference number, no box/papers mentioned or shown, and the image looks like a stock product photo rather than a real listing photo of the specific unit - all reduce confidence this is an authentic, accurately represented item matching the hunter's target model.",
-      "rarity_notes": "If genuinely a 130th Anniversary Limited Edition, it would be a distinct limited run from the Shunbun (Spring Equinox) line - these are different models entirely, so this listing does not fulfill the specific rarity target the hunter wants.",
-      "demand_tier": "Medium",
-      "demand_reasoning": "Grand Seiko limited editions have solid collector demand, but this specific 130th Anniversary Day-Date model is a different (and generally less sought-after) reference than the Shunbun, which has stronger niche demand due to its seasonal/spring theme and dial finish."
-    },
-    "deal_score": -2,
-    "liquidity": {
-      "rating": "Medium",
-      "comparable_count": 97,
-      "algorithmic_tier": "High",
-      "claude_tier": "Medium",
-      "reasoning": "Algorithmic signal: 97 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko limited editions have solid collector demand, but this specific 130th Anniversary Day-Date model is a different (and generally less sought-after) reference than the Shunbun, which has stronger niche demand due to its seasonal/spring theme and dial finish.). Final rating uses the more conservative of the two: Medium."
-    },
-    "all_in_price": 2250.9,
-    "discount": -0.023136363636363677,
-    "notified": false,
-    "duplicate_of": "gs-shunbun:ebay:v1|117260198991|0",
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784760498.3626885,
-    "analysis_depth": "quick"
-  },
-  {
-    "id": "gs-shunbun:ebay:v1|175340207742|0",
-    "listing": {
-      "id": "ebay:v1|175340207742|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "*Rare* NEW Grand Seiko Shinjuku Isetan Limited Edition Watch SBGN025 in Full Set",
-      "url": "https://www.ebay.com/itm/175340207742?_skw=Grand+Seiko+Shunbun+Grand+Seiko+Shunbun+Spring+Equinox+GS+Shunbun+limited+edition+Grand+Seiko+Shunbun+box+papers+Shunbun+Grand+Seiko+watch&hash=item28d3173e7e:g:N7kAAOSw6GFiwnxO",
-      "price": 6995.0,
-      "shipping_price": 65.0,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/N7kAAOSw6GFiwnxO/s-l225.jpg",
-      "image_urls": [],
-      "body": "*Rare* NEW Grand Seiko Shinjuku Isetan Limited Edition Watch SBGN025 in Full Set",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "New with box and papers"
-      }
-    },
-    "watch_item_id": "gs-shunbun",
-    "analysis": {
-      "matches_criteria": false,
-      "match_reasoning": "This listing is for the SBGN025 Shinjuku Isetan Limited Edition GMT, not the Grand Seiko Shunbun (Spring Equinox) model the hunter wants. Additionally, the price of $7,060 all-in exceeds the $6000 ceiling.",
-      "estimated_value": 3200.0,
-      "confidence": 0.4,
-      "condition_summary": "Photo shows a GMT model with black textured dial, steel bracelet, and rotating bezel - appears new/unworn based on image, but only one small stock-like photo is provided with no box/papers shown despite \"Full Set\" claim.",
-      "authenticity_risk": "medium",
-      "authenticity_notes": "Only a single small, low-detail photo is shown despite claiming \"Full Set\" (box and papers) - no images of box, papers, or caseback provided to substantiate this. Price also seems high relative to typical resale for this specific limited edition, which raises questions, though it could reflect boutique-exclusive scarcity. Buyer should request additional photos of full set contents and verify serial/warranty card before purchase.",
-      "rarity_notes": "SBGN025 is a Isetan department store boutique-exclusive limited edition GMT model, moderately rare but distinct from the Shunbun (Spring Equinox) seasonal limited edition line entirely - wrong model for this hunt.",
-      "demand_tier": "Medium",
-      "demand_reasoning": "Grand Seiko GMT models have solid collector demand, but store-exclusive limited editions like this Isetan piece have a narrower buyer pool than iconic references such as the Snowflake or Shunbun."
-    },
-    "deal_score": -121,
-    "liquidity": {
-      "rating": "Medium",
-      "comparable_count": 97,
-      "algorithmic_tier": "High",
-      "claude_tier": "Medium",
-      "reasoning": "Algorithmic signal: 97 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko GMT models have solid collector demand, but store-exclusive limited editions like this Isetan piece have a narrower buyer pool than iconic references such as the Snowflake or Shunbun.). Final rating uses the more conservative of the two: Medium."
-    },
-    "all_in_price": 7060.0,
-    "discount": -1.20625,
-    "notified": false,
-    "duplicate_of": "gs-shunbun:ebay:v1|267716772486|0",
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784760506.9551928,
-    "analysis_depth": "quick"
-  },
-  {
     "id": "gs-shunbun:ebay:v1|358585948283|0",
     "listing": {
       "id": "ebay:v1|358585948283|0",
@@ -36252,7 +36102,7 @@
       "image_urls": [],
       "body": "Welcome to another Restoration by BezelCreations\nNote that these are custom build watches and there is NO RETURNS under any circumstances.\n\nParts used for this build:\n\n- Original Rolex Datejust Two-tone dial in a rare silver sunburst finish and 18k yellow gold indices.\n\n- New Custom  made oyster case with silver crown.  Made to era correct specification and made to integrate with genuine parts.\n\n-Original Datejust hands, fashioned in gold.\n\n- Original sapphire crystal, with its iconic cycles at 3 o&#39;clock .\n\n- Original Datewheel \n\n- New Custom made bracelet.\n\n- A Custom serviced VR3135 Caliber movement.\n\nNote that colour may appear different on different screens, feel free to contact about any questions.\n\n\nFeel free to reach out with all questions and concerns.\nAll photos are my own and accurate depict what you will receive:)",
       "posted_at": null,
-      "status": "active",
+      "status": "sold",
       "raw": {
         "taxonomy_id": 6076
       }
@@ -104336,7 +104186,7 @@
       ],
       "body": "Welcome to another Restoration by BezelCreations\nNote that these are custom build watches and there is NO RETURNS under any circumstances.\n\nParts used for this build:\n\n- Original Rolex Datejust  Buckley  dial in a rare blue sunburst finish and applied indices.\n\n- New Custom  made oyster case with silver crown.  Made to era correct specification and made to integrate with genuine parts.\n\n-Original Datejust hands, fashioned in gold.\n\n- Original sapphire crystal, with its iconic cycles at 3 o&#39;clock .\n\n- Original Datewheel \n\n- Original Rolex jubilee bracelet.\n\n- Swiss custom endlinks\n\n- A Custom serviced Vs3135 Caliber movement.\n\nNote that colour may appear different on different screens, feel free to contact about any questions.\n\n\nFeel free to reach out with all questions and concerns.\nAll photos are my own and accurate depict what you will receive:)",
       "posted_at": null,
-      "status": "active",
+      "status": "sold",
       "raw": {
         "taxonomy_id": 6076
       }
@@ -105401,6 +105251,171 @@
     "dismissed": false,
     "qa_history": [],
     "created_at": 1787975654.7789538,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|206517702003|0",
+    "listing": {
+      "id": "ebay:v1|206517702003|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex Red Submariner 1680 Mk 4 Dial Steel Automatic Wristwatch",
+      "url": "https://www.ebay.com/itm/206517702003?_skw=Rolex+Submariner+black+dial&hash=item30156a0d73:g:SMAAAeSwOa9qj2Bx",
+      "price": 16950.0,
+      "shipping_price": 65.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/SMAAAeSwOa9qj2Bx/s-l225.jpg",
+      "image_urls": [],
+      "body": "Rolex Red Submariner 1680 Mk 4 Dial Steel Automatic Wristwatch",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The Rolex 1680 \"Red Submariner\" is a vintage model from the early-mid 1970s, well before the 1992+ requirement. It also far exceeds the $11,000 price ceiling ($17,015 all-in).",
+      "estimated_value": 17000.0,
+      "confidence": 0.45,
+      "condition_summary": "Vintage 1680 Red Submariner shown with a glossy black Mk4 dial and steel bracelet; photo shows a well-preserved example but only one image is provided, limiting full condition assessment (bezel insert, case edges, movement not detailed).",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Vintage Red Submariners are heavily faked/franken-watched (mixed dial, case, and movement parts from different eras is common). No serial number, papers, or movement photos shown, and only a single stock-like image is provided - insufficient to confirm matching case/dial/movement authenticity.",
+      "rarity_notes": "The 1680 Red Submariner (Mk4 dial) is a genuinely rare and highly collectible vintage variant, but it is a completely different model/era from a modern 1992+ black dial Submariner.",
+      "demand_tier": "High",
+      "demand_reasoning": "Red Submariners are iconic and highly sought after among vintage Rolex collectors, commanding strong premiums well above modern Submariner prices."
+    },
+    "deal_score": 0,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 3161,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 3161 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Red Submariners are iconic and highly sought after among vintage Rolex collectors, commanding strong premiums well above modern Submariner prices.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 17015.0,
+    "discount": -0.0008823529411764706,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1788000449.5822847,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|137672712310|0",
+    "listing": {
+      "id": "ebay:v1|137672712310|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "2024 Rolex Submariner No Date 124060 41MM Black Dial Steel Box Paper",
+      "url": "https://www.ebay.com/itm/137672712310?_skw=Rolex+Submariner+black+dial&hash=item200deee076:g:GbUAAeSw6o5qkgJi",
+      "price": 13250.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/GbUAAeSw6o5qkgJi/s-l225.jpg",
+      "image_urls": [],
+      "body": "2024 Rolex Submariner No Date 124060 41MM Black Dial Steel Box Paper",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Item is a genuine Rolex Submariner No Date 124060 (2024) with black dial, satisfying brand/model/year/condition generically, but the all-in price of $13,250 exceeds the hunter's stated ceiling of $11,000.",
+      "estimated_value": 10500.0,
+      "confidence": 0.6,
+      "condition_summary": "Appears new/unworn or near-mint based on photo showing clean case, bracelet, and included box/papers; no visible wear or scratches.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "Photo shows actual watch, box, and papers rather than stock images, which is a positive sign; no obvious mismatches in serial or engravings visible, though close-up of caseback/serial not shown to fully verify.",
+      "rarity_notes": "124060 is the current production no-date Submariner, widely available at retail and resale markets - not rare, but in high demand due to retail scarcity and waitlists.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most sought-after watches globally, with the current 124060 reference commanding strong secondary market premiums and demand."
+    },
+    "deal_score": -26,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 3161,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 3161 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most sought-after watches globally, with the current 124060 reference commanding strong secondary market premiums and demand.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 13250.0,
+    "discount": -0.2619047619047619,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|227359394927|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1788000450.0026157,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:etsy:4564742767",
+    "listing": {
+      "id": "etsy:4564742767",
+      "source": "etsy",
+      "category": "watches",
+      "title": "1989 Vintage Tudor Submariner Mini-Sub 73090 Rolex Crown Case, Black Dial Automatic Diver Watch, Luxury Wrist Watch , Gift for Him, On Sale",
+      "url": "https://www.etsy.com/listing/4564742767/1989-vintage-tudor-submariner-mini-sub",
+      "price": 6500.0,
+      "shipping_price": null,
+      "currency": "USD",
+      "image_url": "https://i.etsystatic.com/67400237/r/il/d85ed0/8495063015/il_fullxfull.8495063015_ivou.jpg",
+      "image_urls": [
+        "https://i.etsystatic.com/67400237/r/il/d85ed0/8495063015/il_fullxfull.8495063015_ivou.jpg",
+        "https://i.etsystatic.com/67400237/r/il/851510/8495063033/il_fullxfull.8495063033_mltd.jpg",
+        "https://i.etsystatic.com/67400237/r/il/761c5f/8495063003/il_fullxfull.8495063003_7ga5.jpg",
+        "https://i.etsystatic.com/67400237/r/il/a86dd1/8495063031/il_fullxfull.8495063031_o1xy.jpg",
+        "https://i.etsystatic.com/67400237/r/il/47c209/8495062999/il_fullxfull.8495062999_nnzc.jpg",
+        "https://i.etsystatic.com/67400237/r/il/ea374c/8447205408/il_fullxfull.8447205408_scpk.jpg",
+        "https://i.etsystatic.com/67400237/r/il/c5c5af/8495063007/il_fullxfull.8495063007_b3zl.jpg",
+        "https://i.etsystatic.com/67400237/r/il/dd2585/8447205412/il_fullxfull.8447205412_hffb.jpg",
+        "https://i.etsystatic.com/67400237/r/il/c4363b/8447205422/il_fullxfull.8447205422_op80.jpg",
+        "https://i.etsystatic.com/67400237/r/il/b7b788/8447205418/il_fullxfull.8447205418_mo5f.jpg",
+        "https://i.etsystatic.com/67400237/r/il/fcabb3/8447205428/il_fullxfull.8447205428_djnx.jpg",
+        "https://i.etsystatic.com/67400237/r/il/73c935/8447205424/il_fullxfull.8447205424_100r.jpg",
+        "https://i.etsystatic.com/67400237/r/il/761492/8447205436/il_fullxfull.8447205436_16z0.jpg",
+        "https://i.etsystatic.com/67400237/r/il/378750/8495063011/il_fullxfull.8495063011_s531.jpg"
+      ],
+      "body": "1989 Vintage Tudor Submariner Mini-Sub 73090 Rolex Crown Case, Black Dial Automatic Diver Watch, Luxury Wrist Watch , Gift for Him\n\nWristwatches\n\nWhen was it made: 1980s (Specifically 1989)\nMovement: Mechanical (Automatic)\nDisplay: Analog\nBand Material: Stainless Steel\nCase Material: Stainless Steel\nDial Color: Black\nBezel Color: Black Diver Bezel\nFeatures: Date Display, Cyclops Lens, Rolex Crown, Rolex Oyster Case back, Includes Box & Papers\nGender: Unisex / Men\n\n\u2728 1989 VINTAGE TUDOR PRINCE OYSTERDATE SUBMARINER &quot;MINI-SUB&quot; (Ref. 73090) \u2728\n | Rolex Case & Rolex Signed Crown\n\nAn exceptional collector\u2019s piece from 1989. The Tudor Submariner Mini-Sub (Ref. 73090) captures all the iconic design elements of the classic Rolex Submariner in a versatile 33mm case size. Featuring an original Rolex-signed crown and Rolex-signed Oyster case back, this reference represents the highly sought-after era of Tudor horology.\n\n---\n\n\ud83d\udccc WATCH SPECIFICATIONS & DETAILS:\n* Brand: Tudor (by Rolex)\n* Model: Prince Oysterdate Submariner &quot;Mini-Sub&quot;\n* Reference Number: 73090\n* Year of Production: 1989\n* Movement: Swiss Automatic (Self-Winding)\n* Case Diameter: 33 mm x 35 mm (Excluding Crown)\n* Dial: Original Matte Black Dial with Creamy Tritium Hour Markers\n* Bezel: Bi-directional Rotating Black Diver Bezel\n* Crown: Original Rolex Signed Screw-Down Crown\n* Case Back: Original Rolex Signed &quot;Original Oyster Case By Rolex Geneva&quot;\n* Crystal: Acrylic / Plexiglass with Magnified Date Cyclops\n* Bracelet: Stainless Steel Jubilee Bracelet with Fold Clasp\n* Scope of Delivery: Complete Collector Set \u2013 Includes Original Box & Papers\n\n---\n\n\u2699\ufe0f CONDITION & CRAFTSMANSHIP :\n* Mechanical Condition: Fully inspected, serviced, and tested by a professional watchmaker. Running strong and keeping precise time.\n* Cosmetic Condition: Authentic Vintage (Used - Good). Shows natural, subtle signs of era-appropriate wear (light surface marks) that preserve its original polish and vintage heritage.\n* Provenance: 100% Authentic vintage piece with matching papers from 1989.\n\n\n\n\ud83c\udf81 ULTIMATE VINTAGE GIFT:\nAn irreplaceable gift for serious collectors, luxury watch enthusiasts, or milestone celebrations like anniversaries, birthdays, and graduations. Comes complete with its original box and documentation.\n\n\n\n\ud83d\udce6 PACKAGING & SHIPPING:\n* Securely packaged with signature verification upon delivery.\n* Fast international express shipping with end-to-end tracking provided.\n\n\n\ntudor submariner, tudor mini sub 73090, vintage tudor watch, rolex crown tudor, gift for him,\nautomatic diver watch, 1989 vintage watch, black dial watch, tudor with box papers, mens mechanical watch, anniversary gift, vintage wrist watch, luxury vintage watch",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "taxonomy_id": 6074
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "This is a Tudor Prince Oysterdate Submariner \"Mini-Sub\" ref. 73090, not a Rolex Submariner. The hunter specifically required a Rolex Submariner. Tudor and Rolex are related but distinct brands, and this is a different manufacturer/model entirely, so it fails the brand/model requirement regardless of price or condition.",
+      "estimated_value": 3500.0,
+      "confidence": 0.45,
+      "condition_summary": "Vintage 1989 Tudor Mini-Sub with original matte black dial and creamy tritium markers, described as \"Used - Good\" with light surface wear; photo shows a clean, well-preserved example with legible dial and bezel.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Listing emphasizes \"Rolex crown/case\" branding heavily (likely to capture Rolex search traffic) despite this being a Tudor, which is a bit of a red flag in marketing tactics though technically accurate that Tudor used Rolex-signed crowns/case backs in this era. No close-up photos of caseback, serial, or papers are shown despite claiming \"matching papers\" and full box/papers set - this is a notable gap. Price seems plausible for a genuine Mini-Sub but lack of documentation photos raises some caution.",
+      "rarity_notes": "The Tudor Mini-Sub 73090 (33mm Submariner) is a somewhat uncommon vintage reference, moderately sought after by Tudor collectors, but it is not a Rolex and thus irrelevant to this hunter's specific Rolex Submariner search.",
+      "demand_tier": "Low",
+      "demand_reasoning": "While Tudor has growing collector interest, this small 33mm ladies/unisex-sized vintage reference has a narrower buyer pool than a full-size Rolex Submariner, and does not match the hunter's stated brand/model criteria at all."
+    },
+    "deal_score": -86,
+    "liquidity": {
+      "rating": "Low",
+      "comparable_count": 5,
+      "algorithmic_tier": "High",
+      "claude_tier": "Low",
+      "reasoning": "Algorithmic signal: 5 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Low (While Tudor has growing collector interest, this small 33mm ladies/unisex-sized vintage reference has a narrower buyer pool than a full-size Rolex Submariner, and does not match the hunter's stated brand/model criteria at all.). Final rating uses the more conservative of the two: Low."
+    },
+    "all_in_price": 6500.0,
+    "discount": -0.8571428571428571,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1788000461.1965635,
     "analysis_depth": "quick"
   }
 ]
