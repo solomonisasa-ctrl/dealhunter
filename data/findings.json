@@ -1,55 +1,5 @@
 [
   {
-    "id": "gs-shunbun:ebay:v1|358585948283|0",
-    "listing": {
-      "id": "ebay:v1|358585948283|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "SEIKO  Grand Seiko SBGV027/9F82-0AG0 Limited edition of 500 pieces worldwide...",
-      "url": "https://www.ebay.com/itm/358585948283?_skw=Grand+Seiko+Shunbun+Grand+Seiko+Shunbun+Spring+Equinox+GS+Shunbun+limited+edition+Grand+Seiko+Shunbun+box+papers+Shunbun+Grand+Seiko+watch&hash=item537d63587b:g:zGMAAeSwCVRqEFL2",
-      "price": 3093.0,
-      "shipping_price": 0.0,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/zGMAAeSwCVRqEFL2/s-l225.jpg",
-      "image_urls": [],
-      "body": "SEIKO  Grand Seiko SBGV027/9F82-0AG0 Limited edition of 500 pieces worldwide...",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "Pre-owned - Good"
-      }
-    },
-    "watch_item_id": "gs-shunbun",
-    "analysis": {
-      "matches_criteria": false,
-      "match_reasoning": "This is the SBGV027 (9F82 quartz movement), a limited edition of 500 with a maroon/burgundy dial, not the \"Shunbun\" (Spring Equinox) model the hunter is seeking. The Shunbun is a distinct seasonal limited edition (typically a specific SBGA/SBGH reference with autumn/spring themed dial), so this listing does not match the requested model despite being a Grand Seiko limited edition. Also no mention of box/papers is provided in the text.",
-      "estimated_value": 3000.0,
-      "confidence": 0.4,
-      "condition_summary": "Photo shows a clean stainless steel Grand Seiko with burgundy dial, gold-tone GS logo/hands, date window - appears to be in good cosmetic condition with no visible major scratches, but only one image provided and no explicit condition grading in text.",
-      "authenticity_risk": "medium",
-      "authenticity_notes": "Listing text is extremely sparse - just a title fragment with reference numbers, no description of condition, box/papers, service history, or seller details. No papers or box shown in the photo (only the watch on what looks like a plain background/pillow). Price is notably below typical secondary market prices for SBGV027 (often $3,500-$4,500+), which isn't necessarily fraudulent but combined with minimal listing detail is a caution flag. Photo appears to be a real product photo rather than a stock image, which is a positive sign.",
-      "rarity_notes": "SBGV027 is a limited edition of 500 pieces, reasonably sought after among GS collectors, but it is not the \"Shunbun\" model specifically requested - the hunter is looking for a different limited edition tied to the spring equinox theme.",
-      "demand_tier": "Medium",
-      "demand_reasoning": "Grand Seiko limited editions have solid collector demand, but this specific quartz reference (9F82) is less hyped than mechanical Hi-Beat or Spring Drive limited editions like the true Shunbun release."
-    },
-    "deal_score": -3,
-    "liquidity": {
-      "rating": "Medium",
-      "comparable_count": 97,
-      "algorithmic_tier": "High",
-      "claude_tier": "Medium",
-      "reasoning": "Algorithmic signal: 97 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko limited editions have solid collector demand, but this specific quartz reference (9F82) is less hyped than mechanical Hi-Beat or Spring Drive limited editions like the true Shunbun release.). Final rating uses the more conservative of the two: Medium."
-    },
-    "all_in_price": 3093.0,
-    "discount": -0.031,
-    "notified": false,
-    "duplicate_of": null,
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784760516.585688,
-    "analysis_depth": "quick"
-  },
-  {
     "id": "gs-shunbun:ebay:v1|397513273521|0",
     "listing": {
       "id": "ebay:v1|397513273521|0",
@@ -105416,6 +105366,56 @@
     "dismissed": false,
     "qa_history": [],
     "created_at": 1788000461.1965635,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|128048204472|0",
+    "listing": {
+      "id": "ebay:v1|128048204472|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "2026 Rolex Submariner Black Dial on Oyster 126610LN Complete",
+      "url": "https://www.ebay.com/itm/128048204472?_skw=Rolex+Submariner+black+dial&hash=item1dd0448ab8:g:vjAAAeSw2rZqkN4w",
+      "price": 16500.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/vjAAAeSw2rZqkN4w/s-l225.jpg",
+      "image_urls": [],
+      "body": "2026 Rolex Submariner Black Dial on Oyster 126610LN Complete",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "New with box and papers"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Price is $16,500, well over the $11,000 ceiling, immediately disqualifying it regardless of model/condition match.",
+      "estimated_value": 14500.0,
+      "confidence": 0.4,
+      "condition_summary": "Photo shows a glossy, seemingly new/unworn 126610LN with minimal to no visible wear; described as 'Complete' implying box/papers, but only one photo of the watch itself is shown, not the accessories.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Listing claims a '2026' dated Rolex, which is suspicious/impossible framing for a current listing (likely a typo or manipulative listing practice). No box/papers photos despite claiming 'Complete'. Single stock-like glamour photo with model's hand obscuring watch details makes it hard to verify serial/authenticity markers.",
+      "rarity_notes": "126610LN is the current-generation Submariner Date with black ceramic bezel - a widely produced, high-demand reference, not rare, but consistently in strong demand and often sells above retail on secondary market.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and sought-after luxury watch models globally, with the 126610LN being a flagship current reference commanding strong resale demand."
+    },
+    "deal_score": -14,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 3159,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 3159 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and sought-after luxury watch models globally, with the 126610LN being a flagship current reference commanding strong resale demand.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 16500.0,
+    "discount": -0.13793103448275862,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1788016863.7289014,
     "analysis_depth": "quick"
   }
 ]
