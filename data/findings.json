@@ -1,55 +1,5 @@
 [
   {
-    "id": "gs-shunbun:ebay:v1|306999752473|0",
-    "listing": {
-      "id": "ebay:v1|306999752473|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "Grand Seiko SBGA443 Spring Blossom Shunbun (USA SBGA413) Spring Edition",
-      "url": "https://www.ebay.com/itm/306999752473?_skw=Grand+Seiko+Shunbun+Grand+Seiko+Shunbun+Spring+Equinox+GS+Shunbun+limited+edition+Grand+Seiko+Shunbun+box+papers+Shunbun+Grand+Seiko+watch&hash=item477a9c7719:g:ZZYAAeSwwfFqLTvh",
-      "price": 6890.47,
-      "shipping_price": 490.0,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/ZZYAAeSwwfFqLTvh/s-l225.jpg",
-      "image_urls": [],
-      "body": "Grand Seiko SBGA443 Spring Blossom Shunbun (USA SBGA413) Spring Edition",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "Pre-owned - Good"
-      }
-    },
-    "watch_item_id": "gs-shunbun",
-    "analysis": {
-      "matches_criteria": false,
-      "match_reasoning": "Price is $7,380.47 all-in, well above the $6000 all-in ceiling. Also no mention of box/papers being included, and no condition description (new/used, wear) is given, so the excellent-condition and box/papers requirements can't be confirmed either.",
-      "estimated_value": 6500.0,
-      "confidence": 0.35,
-      "condition_summary": "No condition details provided in text; the image appears to be a manufacturer-style product shot rather than an actual photo of the specific watch for sale, so wear/condition cannot be assessed.",
-      "authenticity_risk": "medium",
-      "authenticity_notes": "The photo looks like a stock/catalog image (clean studio shot, no background, no box/papers/serial visible) rather than an actual photo of the item in hand, which is a common red flag. No mention of included box/papers, original receipt, or serial number verification despite papers being a stated requirement. Title conflates SBGA443 and SBGA413 references, which could be a genuine cross-market naming clarification or could indicate confusion/misrepresentation - buyer should verify exact reference and get real photos before purchasing.",
-      "rarity_notes": "Shunbun (Spring Equinox) Spring Blossom models are limited production Grand Seiko Spring Drive pieces with dial texture inspired by cherry blossoms; they are moderately rare and sought after by GS collectors, especially in excellent condition with full box/papers.",
-      "demand_tier": "Medium",
-      "demand_reasoning": "Grand Seiko has strong and growing collector demand, and limited \"Spring\" themed dials are popular, but it's a niche within the broader watch market compared to Rolex/Patek-tier demand."
-    },
-    "deal_score": -14,
-    "liquidity": {
-      "rating": "Medium",
-      "comparable_count": 97,
-      "algorithmic_tier": "High",
-      "claude_tier": "Medium",
-      "reasoning": "Algorithmic signal: 97 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko has strong and growing collector demand, and limited \"Spring\" themed dials are popular, but it's a niche within the broader watch market compared to Rolex/Patek-tier demand.). Final rating uses the more conservative of the two: Medium."
-    },
-    "all_in_price": 7380.47,
-    "discount": -0.1354569230769231,
-    "notified": false,
-    "duplicate_of": null,
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784760692.540195,
-    "analysis_depth": "quick"
-  },
-  {
     "id": "gs-shunbun:ebay:v1|147410554351|0",
     "listing": {
       "id": "ebay:v1|147410554351|0",
@@ -105494,6 +105444,56 @@
     "dismissed": false,
     "qa_history": [],
     "created_at": 1788185300.992864,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|158041235524|0",
+    "listing": {
+      "id": "ebay:v1|158041235524|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "2017 RSC Rolex Submariner Date 40mm BLACK 18K Yellow Gold NO-HOLES Steel 16613",
+      "url": "https://www.ebay.com/itm/158041235524?_skw=Rolex+Submariner&hash=item24cbfde044:g:yVIAAeSwnlxqQ84E",
+      "price": 11432.73,
+      "shipping_price": 195.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/yVIAAeSwnlxqQ84E/s-l225.jpg",
+      "image_urls": [],
+      "body": "2017 RSC Rolex Submariner Date 40mm BLACK 18K Yellow Gold NO-HOLES Steel 16613",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The listing is a genuine Rolex Submariner Date 16613 (two-tone, black dial, 2017), which meets the brand/model/black dial/year requirements, but the all-in price of $11,627.73 exceeds the hunter's stated ceiling of $11,000.",
+      "estimated_value": 10500.0,
+      "confidence": 0.55,
+      "condition_summary": "Photo shows a two-tone Submariner 16613 with black dial and bezel in apparently good cosmetic condition, but only a single stock-like image is provided with no close-ups of case edges, clasp, or dial detail to confirm \"excellent\" condition claims.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "No overt red flags (references RSC servicing, plausible reference number 16613 matching the two-tone design shown), but only one photo is provided, no box/papers shown, and no serial/case-back verification, so authenticity can't be fully confirmed from this listing alone.",
+      "rarity_notes": "The 16613 two-tone Submariner Date is a common, widely produced reference, not rare, with steady but not scarce supply on the secondary market.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and sought-after watch models, maintaining strong demand and liquidity in the resale market."
+    },
+    "deal_score": -11,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 6002,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 6002 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and sought-after watch models, maintaining strong demand and liquidity in the resale market.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 11627.73,
+    "discount": -0.1074028571428571,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|277483100156|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1788206602.0378869,
     "analysis_depth": "quick"
   }
 ]
