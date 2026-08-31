@@ -1,55 +1,5 @@
 [
   {
-    "id": "gs-shunbun:ebay:v1|137398091312|0",
-    "listing": {
-      "id": "ebay:v1|137398091312|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "SEIKO Grand Seiko Heritage Collection, Nihonbashi Mitsukoshi Limited Edition...",
-      "url": "https://www.ebay.com/itm/137398091312?_skw=Grand+Seiko+Shunbun+Grand+Seiko+Shunbun+Spring+Equinox+GS+Shunbun+limited+edition+Grand+Seiko+Shunbun+box+papers+Shunbun+Grand+Seiko+watch&hash=item1ffd907e30:g:p0MAAeSw94lqTcF5",
-      "price": 7210.0,
-      "shipping_price": 0.0,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/p0MAAeSw94lqTcF5/s-l225.jpg",
-      "image_urls": [],
-      "body": "SEIKO Grand Seiko Heritage Collection, Nihonbashi Mitsukoshi Limited Edition...",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "Pre-owned - Good"
-      }
-    },
-    "watch_item_id": "gs-shunbun",
-    "analysis": {
-      "matches_criteria": false,
-      "match_reasoning": "This listing is for a Nihonbashi Mitsukoshi Limited Edition Grand Seiko Heritage Collection watch, not the Shunbun (Spring Equinox) model the hunter is seeking. Additionally, the price of $7,210 all-in exceeds the $6000 ceiling.",
-      "estimated_value": null,
-      "confidence": 0.2,
-      "condition_summary": "Photo shows a blue-dial Grand Seiko Heritage Collection watch on a steel bracelet, appearing new/unworn with no visible scratches, but this is a stock-style product photo with no box/papers shown despite being claimed as a limited edition.",
-      "authenticity_risk": "medium",
-      "authenticity_notes": "No box or papers are visible in the photo despite the listing implying a special limited edition; only a generic product shot is provided. Title is truncated/incomplete ('...') suggesting missing details on reference number, condition specifics, and included accessories. No serial number or engraving verification shown.",
-      "rarity_notes": "Nihonbashi Mitsukoshi limited editions are boutique-exclusive Grand Seiko releases and can be hard to find, but this is a different model from the Shunbun (Spring Equinox) limited edition the hunter wants, so rarity of this specific piece is not directly relevant to the search.",
-      "demand_tier": "Medium",
-      "demand_reasoning": "Grand Seiko limited editions have solid collector demand, but this particular Mitsukoshi edition is a niche variant rather than the highly sought Shunbun model, and demand doesn't offset the criteria mismatch and price overage."
-    },
-    "deal_score": 0,
-    "liquidity": {
-      "rating": "Medium",
-      "comparable_count": 97,
-      "algorithmic_tier": "High",
-      "claude_tier": "Medium",
-      "reasoning": "Algorithmic signal: 97 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko limited editions have solid collector demand, but this particular Mitsukoshi edition is a niche variant rather than the highly sought Shunbun model, and demand doesn't offset the criteria mismatch and price overage.). Final rating uses the more conservative of the two: Medium."
-    },
-    "all_in_price": 7210.0,
-    "discount": null,
-    "notified": false,
-    "duplicate_of": null,
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784760640.6810327,
-    "analysis_depth": "quick"
-  },
-  {
     "id": "gs-shunbun:ebay:v1|137338927294|0",
     "listing": {
       "id": "ebay:v1|137338927294|0",
@@ -105461,5 +105411,61 @@
     "qa_history": [],
     "created_at": 1788129054.0810492,
     "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|168651927460|0",
+    "listing": {
+      "id": "ebay:v1|168651927460|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex Submariner Date Two-Tone Black Dial Auto Watch Rotating Bezel 300m",
+      "url": "https://www.ebay.com/itm/168651927460?_skw=Rolex+Submariner+black+dial&hash=item2744702fa4:g:c7oAAeSwSUlqlPiI",
+      "price": 7160.0,
+      "shipping_price": null,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/c7oAAeSwSUlqlPiI/s-l225.jpg",
+      "image_urls": [
+        "https://i.ebayimg.com/images/g/c7oAAeSwSUlqlPiI/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/OTIAAeSwX4xqlPh1/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/yMgAAeSw8NRqlPh1/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/ikEAAeSwpN5qlPh1/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/dxIAAeSw2bhqlPh1/s-l1600.jpg"
+      ],
+      "body": "Rolex Submariner Date Two-Tone Black Dial Auto Watch Rotating Bezel 300m",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Hunter did not name a specific reference, but the listing shows clear authenticity red flags (see below) suggesting this is not a genuine Rolex Submariner, so it cannot satisfy a 'Rolex Submariner' criteria. Even setting aside authenticity, price is within budget and it appears to be black dial, but the item itself is very likely counterfeit.",
+      "estimated_value": 150.0,
+      "confidence": 0.85,
+      "condition_summary": "Watch shown appears shiny/new-ish with some scuffing on the gold-tone links, but the case, bracelet, and clasp markings are inconsistent with genuine Rolex construction.",
+      "authenticity_risk": "high",
+      "authenticity_notes": "Multiple major red flags: the caseback/clasp area is engraved 'STEELINOX' and 'ROLEXSA' with 'ST9' markings - genuine Rolex does not use 'Steelinox' branding or 'ROLEXSA' stamps on the clasp; this is a known marking found on replica/homage watches. Genuine Rolex clasps say 'ROLEX' with the crown logo only, not paired with a separate 'Steelinox'/'RolexSA' plate. The dial print also looks slightly uneven (misaligned/thick text), and the case finishing looks inconsistent with Rolex's precision. This strongly suggests a counterfeit or franken-watch, not a genuine Submariner.",
+      "rarity_notes": "If genuine, a two-tone Submariner Date (ref. 116613LN or similar) would be a very common, high-production model, not rare. However, authenticity concerns override rarity considerations here.",
+      "demand_tier": "High",
+      "demand_reasoning": "Genuine Rolex Submariners have very high demand and brand recognition, but this specific listing's authenticity is highly suspect, which would tank real market interest once discovered."
+    },
+    "deal_score": -4673,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 3158,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 3158 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Genuine Rolex Submariners have very high demand and brand recognition, but this specific listing's authenticity is highly suspect, which would tank real market interest once discovered.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 7160.0,
+    "discount": -46.733333333333334,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|188837049317|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1788157100.2056985,
+    "analysis_depth": "full"
   }
 ]
