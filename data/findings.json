@@ -1,55 +1,5 @@
 [
   {
-    "id": "gs-shunbun:ebay:v1|175391217334|0",
-    "listing": {
-      "id": "ebay:v1|175391217334|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "GRAND SEIKO SBGE257 SPORT COLLECTION GREEN BOX AND PAPERS NEW",
-      "url": "https://www.ebay.com/itm/175391217334?_skw=Grand+Seiko+Shunbun+Grand+Seiko+Shunbun+Spring+Equinox+GS+Shunbun+limited+edition+Grand+Seiko+Shunbun+box+papers+Shunbun+Grand+Seiko+watch&hash=item28d62196b6:g:ZhcAAOSwlOpjAw49&amdata=enc%3AAQALAAABcACCtXRWQnOEpyOqnQQ8KGZlGI6lax6m6WK%2B2F1M%2FWI0J%2FH7sJ40DyxjyxxLYEfJfn%2Fo6X%2BPFm86%2FGHQwRBmXm3tfqK%2Fnmk7eMnr2LS0jrBxS4VUld4JOb3WSUAfv2Qm5qD6KgkW4znfr8RQHqpt2pDhgTX8a%2FyAdy2ScskI0tuPn%2Bro%2B4eMzthiFbqNPch612KYn%2F6tfZi%2Bb%2BB76I%2BwHHI8NCca23Zb3fPTG5GYGd8Bh6XzwH8iwVBx2APRppvHt%2BlzuikXvV3EIChuRpnGW%2BLYSbZTUSACEgy%2B6CxcPD0o9bxsXLscyABkpNdfQMjyCPyjqsmYo0nJjcbMS5MJn9fTay49c0lO4To6uUlYAWSrz%2FpceBtyz1F950QM3q7y15tbZRaCGyTyToOViFUsppa5wVJ8Qj6RRXHnlXtlqsOsTsU03AWJfwC%2FFihppe24fPZBbr60mack5GCYLWN6eGLa%2FBbflkqfGUeQj8KRmbHp",
-      "price": 6480.0,
-      "shipping_price": 0.0,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/ZhcAAOSwlOpjAw49/s-l225.jpg",
-      "image_urls": [],
-      "body": "GRAND SEIKO SBGE257 SPORT COLLECTION GREEN BOX AND PAPERS NEW",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "New with box and papers"
-      }
-    },
-    "watch_item_id": "gs-shunbun",
-    "analysis": {
-      "matches_criteria": false,
-      "match_reasoning": "This listing is for the Grand Seiko SBGE257 Sport Collection GMT (green dial/bezel Spring Drive GMT), not the Shunbun (Spring Equinox) limited edition the hunter is seeking. Additionally, the all-in price of $6,480 exceeds the $6000 ceiling.",
-      "estimated_value": 5800.0,
-      "confidence": 0.5,
-      "condition_summary": "Listed as new, box and papers included; photo shows a clean, unworn-looking green dial GMT sport watch consistent with 'new' claim, though it appears to be a stock/catalog-style image rather than an actual seller photo of the specific unit.",
-      "authenticity_risk": "medium",
-      "authenticity_notes": "The single photo looks like a generic product/stock image rather than a real photo of the actual item in hand (no visible serial, no photos of papers/box themselves, no imperfection or unique angle shots). No seller history, return policy, or additional detail provided. Title/model mismatch (SBGE257 vs Shunbun) also raises concern about listing accuracy or search-stuffing.",
-      "rarity_notes": "SBGE257 is a regular production Sport Collection GMT model, not a limited edition like the Shunbun (Spring Equinox), so it is far more common and not the rare piece being hunted.",
-      "demand_tier": "Medium",
-      "demand_reasoning": "Grand Seiko has strong brand recognition and the Sport GMT green is popular, but as a non-limited production model it doesn't carry the same demand/rarity premium as the Shunbun limited edition being sought."
-    },
-    "deal_score": -12,
-    "liquidity": {
-      "rating": "Medium",
-      "comparable_count": 105,
-      "algorithmic_tier": "High",
-      "claude_tier": "Medium",
-      "reasoning": "Algorithmic signal: 105 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko has strong brand recognition and the Sport GMT green is popular, but as a non-limited production model it doesn't carry the same demand/rarity premium as the Shunbun limited edition being sought.). Final rating uses the more conservative of the two: Medium."
-    },
-    "all_in_price": 6480.0,
-    "discount": -0.11724137931034483,
-    "notified": false,
-    "duplicate_of": null,
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784880048.0484388,
-    "analysis_depth": "quick"
-  },
-  {
     "id": "gs-shunbun:ebay:v1|175308902644|0",
     "listing": {
       "id": "ebay:v1|175308902644|0",
@@ -105547,6 +105497,56 @@
     "dismissed": false,
     "qa_history": [],
     "created_at": 1788266901.0156913,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|178457150403|0",
+    "listing": {
+      "id": "ebay:v1|178457150403|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex Sea-Dweller Date 16600 - X-Serial Black Dial Stainless Steel Oyster Watch",
+      "url": "https://www.ebay.com/itm/178457150403?_skw=Rolex+Submariner&hash=item298ce003c3:g:FXwAAeSw9OVqlhtM",
+      "price": 8399.0,
+      "shipping_price": 35.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/FXwAAeSw9OVqlhtM/s-l225.jpg",
+      "image_urls": [],
+      "body": "Rolex Sea-Dweller Date 16600 - X-Serial Black Dial Stainless Steel Oyster Watch",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The hunter specifically wants a Rolex Submariner, but this listing is a Rolex Sea-Dweller Date 16600 - a different model line entirely, despite sharing a similar dive-watch design and black dial. Per strict matching rules, a different model does not count even if visually similar.",
+      "estimated_value": 8000.0,
+      "confidence": 0.4,
+      "condition_summary": "Photo shows a black dial dive watch with steel bracelet in apparently good condition, but only one angle is provided and no closeups of case, clasp, or dial details are shown to confirm 'excellent' condition claims.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Listing text is extremely minimal (just repeats the title, no description of condition, papers, box, service history, or serial verification). Only one photo is provided, which is a common red flag for lower-effort or riskier listings. No close-up of caseback, movement, or papers to verify authenticity.",
+      "rarity_notes": "The 16600 Sea-Dweller (X-serial, made ~1991-1999) is a fairly common vintage-modern reference on the market, not rare, though X-serial examples are moderately sought after by collectors.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Sea-Dweller 16600 has solid brand recognition and collector interest, but is a step below Submariner in demand and is not what the hunter is searching for."
+    },
+    "deal_score": -5,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 5987,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 5987 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Sea-Dweller 16600 has solid brand recognition and collector interest, but is a step below Submariner in demand and is not what the hunter is searching for.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 8434.0,
+    "discount": -0.05425,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1788281998.4689837,
     "analysis_depth": "quick"
   }
 ]
