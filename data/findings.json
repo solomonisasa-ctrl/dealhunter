@@ -1,377 +1,5 @@
 [
   {
-    "id": "gs-shunbun:ebay:v1|175308902644|0",
-    "listing": {
-      "id": "ebay:v1|175308902644|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "GRAND SEIKO SBGA451G rare China Limited Edition Box and Papers White",
-      "url": "https://www.ebay.com/itm/175308902644?_skw=Grand+Seiko+Shunbun+Grand+Seiko+Shunbun+Spring+Equinox+GS+Shunbun+limited+edition+Grand+Seiko+Shunbun+box+papers+Shunbun+Grand+Seiko+watch&hash=item28d13990f4:g:B~EAAOSwbNxinWy6",
-      "price": 8280.0,
-      "shipping_price": 0.0,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/B~EAAOSwbNxinWy6/s-l225.jpg",
-      "image_urls": [],
-      "body": "GRAND SEIKO SBGA451G rare China Limited Edition Box and Papers White",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "New with box and papers"
-      }
-    },
-    "watch_item_id": "gs-shunbun",
-    "analysis": {
-      "matches_criteria": false,
-      "match_reasoning": "Price is $8,280 all-in, well above the $6000 ceiling. Also this is the SBGA451G 'China Limited Edition' (Spring Drive, snowflake-style dial), not the Shunbun (Spring Equinox) model the hunter is seeking - different reference and theme entirely.",
-      "estimated_value": 7500.0,
-      "confidence": 0.35,
-      "condition_summary": "Photo shown appears to be a stock/catalog-style image rather than an actual photo of the specific watch for sale; no visible wear or condition detail can be confirmed, and no box/papers are actually pictured despite being claimed in the title.",
-      "authenticity_risk": "medium",
-      "authenticity_notes": "Image looks like a generic manufacturer/catalog photo, not real photos of the actual item - a common red flag since buyers can't verify actual condition, serials, or that box/papers are truly included. Listing text is thin (just a title, no description of condition, serial verification, or seller provenance).",
-      "rarity_notes": "The SBGA451G is itself a limited edition (China-market release), so it can be hard to find, but it is a different model/reference from the Shunbun (SBGA413/SBGA407-style Spring Equinox limited editions) the hunter explicitly wants.",
-      "demand_tier": "Medium",
-      "demand_reasoning": "Grand Seiko limited editions have solid collector demand, but this specific China-market LE has a narrower audience than mainline Spring Drive Snowflake or Shunbun pieces, and it doesn't match the hunter's target model at all."
-    },
-    "deal_score": -10,
-    "liquidity": {
-      "rating": "Medium",
-      "comparable_count": 105,
-      "algorithmic_tier": "High",
-      "claude_tier": "Medium",
-      "reasoning": "Algorithmic signal: 105 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko limited editions have solid collector demand, but this specific China-market LE has a narrower audience than mainline Spring Drive Snowflake or Shunbun pieces, and it doesn't match the hunter's target model at all.). Final rating uses the more conservative of the two: Medium."
-    },
-    "all_in_price": 8280.0,
-    "discount": -0.104,
-    "notified": false,
-    "duplicate_of": null,
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784880056.226437,
-    "analysis_depth": "quick"
-  },
-  {
-    "id": "gs-shunbun:ebay:v1|175202461664|0",
-    "listing": {
-      "id": "ebay:v1|175202461664|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "Grand Seiko Ginza Tokyo Limited Edition SBGA447 Heritage Collection UNUSED",
-      "url": "https://www.ebay.com/itm/175202461664?_skw=Grand+Seiko+Shunbun+Grand+Seiko+Shunbun+Spring+Equinox+GS+Shunbun+limited+edition+Grand+Seiko+Shunbun+box+papers+Shunbun+Grand+Seiko+watch&hash=item28cae167e0:g:-~oAAOSwwoliMTrv",
-      "price": 8480.0,
-      "shipping_price": 0.0,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/-~oAAOSwwoliMTrv/s-l225.jpg",
-      "image_urls": [],
-      "body": "Grand Seiko Ginza Tokyo Limited Edition SBGA447 Heritage Collection UNUSED",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "New with box and papers"
-      }
-    },
-    "watch_item_id": "gs-shunbun",
-    "analysis": {
-      "matches_criteria": false,
-      "match_reasoning": "Listing is for the SBGA447 Ginza Tokyo Limited Edition, not the Shunbun (Spring Equinox) model the hunter wants. Additionally, price of $8,480 all-in far exceeds the $6000 ceiling, and there is no mention of box/papers.",
-      "estimated_value": 4200.0,
-      "confidence": 0.35,
-      "condition_summary": "Photo shows a clean, seemingly unworn Spring Drive dial watch on a bracelet with no visible scratches; title claims 'UNUSED' but only one stock-like photo is provided with no box/papers shown.",
-      "authenticity_risk": "medium",
-      "authenticity_notes": "Only a single generic-looking photo (appears staged/stock-like on a jewelry display pad) is provided; no closeups of case back, serial, or included box/papers despite 'Heritage Collection' branding claims. Price is also unusually high relative to typical SBGA447 market value (~$3800-4500), which is itself a red flag suggesting inflated or padded pricing, possibly to negotiate down, or listing details may be inaccurate/mismatched to the model.",
-      "rarity_notes": "SBGA447 is a known Grand Seiko Heritage Spring Drive GMT/moonphase-style reference, moderately available on the secondary market; it is NOT the Shunbun (Spring Equinox) limited edition the hunter is seeking, which is a distinct, rarer seasonal limited release.",
-      "demand_tier": "Medium",
-      "demand_reasoning": "Grand Seiko Heritage models have solid collector demand, but SBGA447 is not as sought-after or rare as the specific Shunbun limited edition, and mismatched model plus inflated price will reduce buyer interest for this specific hunt."
-    },
-    "deal_score": -102,
-    "liquidity": {
-      "rating": "Medium",
-      "comparable_count": 105,
-      "algorithmic_tier": "High",
-      "claude_tier": "Medium",
-      "reasoning": "Algorithmic signal: 105 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko Heritage models have solid collector demand, but SBGA447 is not as sought-after or rare as the specific Shunbun limited edition, and mismatched model plus inflated price will reduce buyer interest for this specific hunt.). Final rating uses the more conservative of the two: Medium."
-    },
-    "all_in_price": 8480.0,
-    "discount": -1.019047619047619,
-    "notified": false,
-    "duplicate_of": "gs-shunbun:ebay:v1|377194485493|0",
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784880065.1155834,
-    "analysis_depth": "quick"
-  },
-  {
-    "id": "gs-shunbun:ebay:v1|177941638271|0",
-    "listing": {
-      "id": "ebay:v1|177941638271|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "Grand Seiko SBGA443 Pink Heritage Collection with Box Papers",
-      "url": "https://www.ebay.com/itm/177941638271?_skw=Grand+Seiko+Shunbun+Grand+Seiko+Shunbun+Spring+Equinox+GS+Shunbun+limited+edition+Grand+Seiko+Shunbun+box+papers+Shunbun+Grand+Seiko+watch&hash=item296e25ec7f:g:DfcAAeSwrA1prk8B&amdata=enc%3AAQALAAABcACCtXRWQnOEpyOqnQQ8KGZX8A8nhM7tQHn4%2BBz5RSZw2kmUfe23u4ltDtn2eOYfDv136yTbeanzIjKBP7%2F9fJDjiiZhkRCMSw--DFxo3iqdNvhktzIFkP7BNd6NhfahR6baawAfH2ApsdK3s3ELvT0bTqPaPfbU2NNludm1hi%2FIpZFW37hW%2FXgMWSl9rrcz6VXgAe039U3JLuvDsXdXe9zRz1lU1bUX%2B1IeXJXQZu8GC5pjAMfKmmNXv%2FvzI8bFjfKguUQc4LqyRv%2BpPBUyB47LuRkH8YX4Q%2FuAWgYLifJPbadfbimwys9mzG34JOEMCHYPAvkXWGGrsFET7bn7K2umBgsErPWeeoRLnsqD5JbHqXb2rHGSjsKsVVBfbEjyXPUhiHk%2BHKCUVx%2Bx9qGrN2pYQBN3hvVbF9jR9acrVEJtLhbvOrOqKZy0p4b8YXpFJP3RMSEcvjFTeB5RPI6zukMPR4mHq5dw2lyKTru2eFBo",
-      "price": 8650.0,
-      "shipping_price": 0.0,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/DfcAAeSwrA1prk8B/s-l225.jpg",
-      "image_urls": [],
-      "body": "Grand Seiko SBGA443 Pink Heritage Collection with Box Papers",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "New with box and papers"
-      }
-    },
-    "watch_item_id": "gs-shunbun",
-    "analysis": {
-      "matches_criteria": false,
-      "match_reasoning": "This listing is for the SBGA443 \"Pink\" Heritage Collection Spring Drive, not the Grand Seiko Shunbun (Spring Equinox) model the hunter is seeking. It also exceeds the $6000 all-in price ceiling at $8,650.",
-      "estimated_value": 4200.0,
-      "confidence": 0.3,
-      "condition_summary": "Photo shows a used-looking SBGA443 with a mother-of-pearl-like pink dial; no visible major damage but the image is small/low-res, making detailed condition assessment difficult. Text gives no explicit condition grading.",
-      "authenticity_risk": "medium",
-      "authenticity_notes": "Photo appears to be a generic/stock-style product shot rather than an in-hand photo showing box, papers, or serial numbers, despite claiming \"Box Papers\" in the title - no images of the box or papers are shown, which is a mild red flag. No mention of serial number verification or additional angles.",
-      "rarity_notes": "SBGA443 is a relatively available Heritage Collection Spring Drive model, not a limited-edition Shunbun; not rare, and unrelated to the specific hunted reference.",
-      "demand_tier": "Medium",
-      "demand_reasoning": "Grand Seiko Spring Drive models have solid brand recognition and demand, but this specific model doesn't match the sought-after Shunbun limited edition, and price is above typical market value for SBGA443, likely due to a misleading title."
-    },
-    "deal_score": -106,
-    "liquidity": {
-      "rating": "Medium",
-      "comparable_count": 105,
-      "algorithmic_tier": "High",
-      "claude_tier": "Medium",
-      "reasoning": "Algorithmic signal: 105 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko Spring Drive models have solid brand recognition and demand, but this specific model doesn't match the sought-after Shunbun limited edition, and price is above typical market value for SBGA443, likely due to a misleading title.). Final rating uses the more conservative of the two: Medium."
-    },
-    "all_in_price": 8650.0,
-    "discount": -1.0595238095238095,
-    "notified": false,
-    "duplicate_of": "gs-shunbun:ebay:v1|176013474678|0",
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784880072.9419408,
-    "analysis_depth": "quick"
-  },
-  {
-    "id": "gs-shunbun:ebay:v1|147441690696|0",
-    "listing": {
-      "id": "ebay:v1|147441690696|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "Grand Seiko Heritage Collection Master Shop Limited Quartz SBGP001 second ha...",
-      "url": "https://www.ebay.com/itm/147441690696?_skw=Grand+Seiko+Shunbun+Grand+Seiko+Shunbun+Spring+Equinox+GS+Shunbun+limited+edition+Grand+Seiko+Shunbun+box+papers+Shunbun+Grand+Seiko+watch&hash=item225435a848:g:a9oAAeSw9ABqXym8",
-      "price": 2598.0,
-      "shipping_price": 0.0,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/a9oAAeSw9ABqXym8/s-l225.jpg",
-      "image_urls": [],
-      "body": "Grand Seiko Heritage Collection Master Shop Limited Quartz SBGP001 second ha...",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "Pre-owned - Good"
-      }
-    },
-    "watch_item_id": "gs-shunbun",
-    "analysis": {
-      "matches_criteria": false,
-      "match_reasoning": "This listing is for the Grand Seiko Heritage Collection Master Shop Limited Quartz SBGP001, not the Shunbun (Spring Equinox) limited edition the hunter is seeking. Different model/reference entirely, and there's no mention of box and papers being included.",
-      "estimated_value": 2400.0,
-      "confidence": 0.3,
-      "condition_summary": "Photo shows a standard silver-dial GS quartz bracelet watch with no visible major wear, but it's a plain stock-style product shot with no box/papers, case-back, or close-up condition detail shown.",
-      "authenticity_risk": "medium",
-      "authenticity_notes": "Listing title is truncated/garbled ('second ha...'), lacks reference to box/papers, and the photo appears to be a generic catalog-style image rather than an actual photo of the specific watch being sold - a common red flag. No serial/case-back or accessory photos provided.",
-      "rarity_notes": "SBGP001 is a Master Shop limited edition quartz model, different from the Shunbun (Spring Equinox) limited edition; not the item being hunted, so rarity of Shunbun itself cannot be assessed from this listing.",
-      "demand_tier": "Medium",
-      "demand_reasoning": "Grand Seiko has strong general brand recognition, but this specific Master Shop limited quartz model has a narrower niche audience compared to the more sought-after Shunbun spring/autumn equinox limited editions."
-    },
-    "deal_score": -8,
-    "liquidity": {
-      "rating": "Medium",
-      "comparable_count": 105,
-      "algorithmic_tier": "High",
-      "claude_tier": "Medium",
-      "reasoning": "Algorithmic signal: 105 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko has strong general brand recognition, but this specific Master Shop limited quartz model has a narrower niche audience compared to the more sought-after Shunbun spring/autumn equinox limited editions.). Final rating uses the more conservative of the two: Medium."
-    },
-    "all_in_price": 2598.0,
-    "discount": -0.0825,
-    "notified": false,
-    "duplicate_of": null,
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784916387.1377733,
-    "analysis_depth": "quick"
-  },
-  {
-    "id": "Omega Constellation:ebay:v1|206437713862|0",
-    "listing": {
-      "id": "ebay:v1|206437713862|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "Vintage Omega Constellation C-Shape 168.027 Cal 564 Gold Box 36mm Gerald Genta",
-      "url": "https://www.ebay.com/itm/206437713862?_skw=Omega+Constellation+vintage+Omega+Constellation+Gerald+Genta+Constellation+unpolished+Constellation+Omega+Constellation+vintage+unpolished+Genta+design+Omega&hash=item3010a587c6:g:xwEAAeSw6Z5qYzaN",
-      "price": 1189.15,
-      "shipping_price": 0.0,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/xwEAAeSw6Z5qYzaN/s-l225.jpg",
-      "image_urls": [
-        "https://i.ebayimg.com/images/g/xwEAAeSw6Z5qYzaN/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/AFAAAeSwx7pqYzaf/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/uJ8AAeSw17BqYzbx/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/0vgAAeSweXxqYzZV/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/6lkAAeSwf4JqYzZW/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/g3EAAeSw0-xqYzZW/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/7i8AAeSw5eRqYzZX/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/-NgAAeSwDCFqYzZY/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/a2cAAeSwPAZqYzZY/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/ufMAAeSwtD9qYzZY/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/ALAAAeSw0ttqYzZZ/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/9oEAAeSwcXdqYzZa/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/4bEAAeSwOzFqYzZa/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/a4IAAeSwPAZqYzZa/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/5SAAAeSw7EhqYzZa/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/HFUAAeSwhQNqYzaA/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/ylYAAeSwAbdqYzZb/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/734AAeSw75ZqYzZb/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/sfsAAeSwObdqYzaY/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/BqAAAeSwWXRqYzcN/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/sIUAAeSwrBNqYzcG/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/g0oAAeSwoi5qYzb9/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/G5AAAeSwYUhqYzb2/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/f1MAAeSwWEBqYzbs/s-l1600.jpg"
-      ],
-      "body": "Vintage Omega Constellation C-Shape 168.027 Cal 564 Gold Box 36mm Gerald Genta",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "Pre-owned - Good"
-      }
-    },
-    "watch_item_id": "Omega Constellation",
-    "analysis": {
-      "matches_criteria": true,
-      "match_reasoning": "Hunter's criteria is generic \"omega constellation\" with no specific reference/model named, so any authentic Constellation qualifies. This is a vintage Omega Constellation C-shape ref 168.027, which fits.",
-      "estimated_value": 1500.0,
-      "confidence": 0.55,
-      "condition_summary": "Dial shows noticeable speckling/spotting (age spots), case appears to be gold-capped/gold-filled (case wear visible at lugs) rather than solid gold as \"Gold Box\" title may imply just an included box; overall looks like an honest, worn vintage piece with a period-incorrect (or at least non-original-looking) aftermarket leather strap.",
-      "authenticity_risk": "medium",
-      "authenticity_notes": "No caseback, movement, or hallmark/serial photos provided - only dial-on-wrist shots and an outer box shot, so authenticity of case metal, movement (cal. 564 claimed), and serial cannot be verified. Dial condition (spotting) is consistent with genuine aged tritium/paint dials but could also mask a refinished or degraded dial. Price seems plausible for a gold-cap/gold-filled example but is on the low side for a solid 18k version, which is itself a red flag if solid gold is being implied.",
-      "rarity_notes": "The C-shape case Constellations (Gerald Genta-associated design) are desirable among collectors but not exceptionally rare; ref 168.027 with cal. 564 is a commonly seen reference, more available than some other C-shape variants.",
-      "demand_tier": "Medium",
-      "demand_reasoning": "Omega Constellation is a recognized, collectible vintage line with steady demand, especially C-shape/Genta design cases, but it doesn't command the intense demand of Speedmaster or top-tier Rolex vintage models."
-    },
-    "deal_score": 21,
-    "liquidity": {
-      "rating": "Low",
-      "comparable_count": 1,
-      "algorithmic_tier": "Low",
-      "claude_tier": "Medium",
-      "reasoning": "Algorithmic signal: 1 comparable listing(s) seen in the lookback window -> Low. Claude's qualitative read: Medium (Omega Constellation is a recognized, collectible vintage line with steady demand, especially C-shape/Genta design cases, but it doesn't command the intense demand of Speedmaster or top-tier Rolex vintage models.). Final rating uses the more conservative of the two: Low."
-    },
-    "all_in_price": 1189.15,
-    "discount": 0.20723333333333327,
-    "notified": true,
-    "duplicate_of": null,
-    "dismissed": false,
-    "qa_history": [
-      {
-        "question": "Is the crown likely original given only one photo is available?",
-        "answer": "Honestly, I can't make a reliable call on crown originality from this image. The single on-wrist photo shows the dial and case front reasonably well, but the crown itself is largely obscured/out of frame at this angle - I can't even confirm its shape, logo, or signing.\n\nFor what it's worth on Constellation 168.027 pieces, the correct crown is typically a signed Omega crown (often with the Constellation \"C\" logo or Omega symbol embossed), sometimes with a small dot or \"\u03a9\" motif depending on production year. Replacement crowns are common on vintage pieces that have seen service work, and unsigned or generic crowns are a frequent giveaway of a swap - but none of that can be verified here.\n\nTo actually assess this, you'd need:\n- A close-up photo of the crown itself (logo, shape, fluting pattern)\n- Ideally a shot showing the crown from the side to check tube fit/proportions\n\nWithout that, I'd treat crown originality as unconfirmed/unknown rather than assume it's fine - worth asking the seller directly for a macro shot before paying $1,399, especially since your authenticity risk is already medium due to the lack of movement/case-back photos.",
-        "asked_at": 1784921454.9654799
-      },
-      {
-        "question": "what movement is in this?",
-        "answer": "Based on the listing title, the seller states it's a Cal. 564 - Omega's automatic movement used in Constellation models during the mid-to-late 1960s. This is consistent with the 168.027 reference, as that case/dial combination was indeed paired with the 24-jewel Cal. 564 (part of Omega's 560-family, chronometer-grade) in period-correct production.\n\nThat said, a couple of caveats:\n\n- This is only stated in the title text - there's no photo of the movement itself (through a case-back or open case) to confirm the caliber is actually present and matches.\n- I can't verify from the single wrist photo whether the movement is original to the watch or a later service replacement, whether it's been re-signed, or whether it carries a proper chronometer certification stamp (168.027 examples often came in chronometer-rated versions, which affects value).\n\nIf confirming movement authenticity matters to you at this price point, ask the seller for a case-back photo and, ideally, a shot of the movement itself with the caliber number and serial visible.",
-        "asked_at": 1784923526.9144735
-      },
-      {
-        "question": "can you see more pictures?",
-        "answer": "No \u2014 I only have access to the single wrist-shot photo you see in the listing (and that's the same one shown here). There are no additional images provided in the listing data available to me \u2014 no case-back, movement, hallmark, or crown close-ups.\n\nFrom this one photo, I can add a bit more than before: the dial shows the pie-pan texture and the \"C\" case's fluted bezel/lugs are visible, and the case does appear to have a yellow-gold/rose-gold tone consistent with a Genta C-shape. But that's the extent of what's confirmable \u2014 case material (solid vs. gold-cap), case back engravings, movement, and crown all remain unverified.\n\nIf more photos matter to your decision (and they should, given the medium authenticity risk), you'll need to request them directly from the seller \u2014 particularly case-back, movement through the back or via full disassembly shot, and a macro of the crown.",
-        "asked_at": 1784923551.6962724
-      },
-      {
-        "question": "it is actually price cut to $1,189.15",
-        "answer": "That price cut actually improves the picture a bit. At $1,189, you're now roughly 15% below my original $1,500 estimate rather than at parity, which gives you some cushion for the unverified items still outstanding (crown originality, movement/case-back confirmation, solid vs. gold-cap case).\n\nA few things worth noting now that I can see the additional photos more clearly:\n\n- The dial/case shots confirm the \"pie-pan\" dial, chronometer text, applied indices, and fluted bezel consistent with a genuine 168.027 C-shape - this is looking more convincingly correct than a single wrist shot allowed for.\n- The crown is now visible in the third photo - it appears plain/unsigned from what I can make out, no visible Omega logo. That's a flag worth asking about directly, since a correct period crown should typically show the Omega symbol. Hard to be 100% certain from photo resolution, but I'd push the seller on this.\n- The box shown is a generic-style Omega vintage box (with the \"\u03a9\" embossed), not documentation of the watch's specific gold content or authenticity - it doesn't add much evidentiary value beyond \"seller has an Omega box.\"\n- Still no case-back or movement shot, so cal. 564 and solid-vs-filled gold case remain unconfirmed claims.\n\nBottom line: at $1,189 the deal math is more favorable - even if this turns out to be gold-capped/filled rather than solid gold, that price is reasonable for a good example, and if it is solid 18k, it'd be a genuine bargain. But the fundamental verification gaps (crown, case-back, hallmarks) haven't closed, so I'd still treat this as medium-risk and worth a quick message to the seller before committing.",
-        "asked_at": 1784936807.9352074
-      },
-      {
-        "question": "it is gold capped",
-        "answer": "Good, that confirms what the case wear at the lugs already suggested \u2014 thanks for clarifying.\n\nWith gold-capped (gold-filled) confirmed rather than solid 18k, here's how that adjusts things:\n\n- **Value**: My $1,500 estimate should come down. Solid 18k 168.027 examples in decent condition typically trade $1,800-2,800+ depending on dial/movement condition, while gold-capped versions of the same reference generally run $700-1,200 in comparable condition. Given the visible dial spotting and case wear at the lugs (cap wear is a real concern - once it wears through to base metal at edges, it can't be re-plated invisibly and refinishing gets expensive), I'd revise my estimate down to roughly **$900-1,100** for this specific piece.\n- **At $1,189**: that now puts you at or slightly above fair value for a gold-cap example, not the ~15% cushion I noted before when solid gold was still ambiguous. It's not a bad price, but it's no longer a clear bargain either.\n- **What doesn't change**: the crown concern (looked unsigned in the third photo) and lack of case-back/movement confirmation are still open items regardless of case material - those affect authenticity risk independent of gold content.\n\nBottom line: $1,189 is fair-ish for a worn gold-capped 168.027, not a steal. I'd use the gold-cap confirmation as leverage to push for another $100-150 off, or at minimum get the crown and case-back verified before paying full asking.",
-        "asked_at": 1784936883.8341916
-      },
-      {
-        "question": "to get it at a great deal what should i offer",
-        "answer": "Given where things stand, here's my reasoning on an offer:\n\n**Fair value range for this piece**: $900-1,100 (gold-capped, confirmed dial spotting/wear, unverified crown, no case-back/movement photos).\n\n**A \"great deal\" offer**: I'd start around **$750-800**. Here's the logic:\n\n- That's roughly 30-35% off the current $1,189 ask, and below the low end of my fair-value estimate \u2014 appropriate given you're still carrying real unresolved risk (likely unsigned/replaced crown, zero case-back or movement confirmation).\n- Frame the offer around specific, named concerns rather than just \"lower the price\" \u2014 sellers respond better to itemized reasoning: (1) crown appears unsigned in photos, suggesting a service replacement, not original; (2) no case-back/movement photos provided to confirm cal. 564 is present and untouched; (3) visible dial spotting/case wear at lugs affects resale.\n- Leave room to move \u2014 offer $750, be willing to settle around $850-900 if the seller pushes back or provides better photos (e.g., crown/case-back) that resolve some risk.\n- If the seller can produce a clear case-back and movement photo confirming cal. 564 and a properly signed crown, that closes your biggest gaps and $950-1,050 becomes reasonable \u2014 you'd have less leverage to lowball at that point.\n\n**Caveat**: This is a \"great deal\" price precisely because it compensates for unverified authenticity items. If you're not planning to get those confirmed before or shortly after purchase, treat $750-800 as pricing in a real chance of disappointment (replaced crown, service parts, etc.), not just a negotiation tactic.",
-        "asked_at": 1784936945.3187213
-      },
-      {
-        "question": "it has omega on the crown, movement looks good but probably needs a service",
-        "answer": "That resolves the crown concern in your favor \u2014 good catch, and I'll take your read on the movement (I don't actually have a movement/case-back photo in front of me, so I can't independently confirm \"looks good,\" but I'll work with your assessment since you're seeing it directly).\n\nHere's how this updates things:\n\n**Crown**: Confirmed Omega-signed. That closes one of the two open authenticity gaps I flagged earlier. Combined with the dial (correct pie-pan texture, chronometer text, applied indices, fluted bezel) and now the crown, this is looking like a consistent, honest example rather than a franken-watch with mismatched parts.\n\n**Movement**: \"Needs a service\" is normal and expected for a 1960s automatic that's likely gone years without attention \u2014 that's not a red flag, it's baseline maintenance. What it does mean practically: budget **$200-400** for a proper service (cleaning, oiling, timing regulation, possibly a mainspring or gasket) from someone experienced with vintage Omega cal. 560-family movements. Factor that into your total cost when comparing to the asking price.\n\n**Revised picture**:\n- Remaining open item: case-back photo to 100% confirm cal. 564 is actually inside (vs. what the seller/you can see through an open case or from movement style) \u2014 but if you've visually confirmed a 560-family movement layout, that's reasonably reassuring even without a serial photo.\n- Authenticity risk drops from medium to **low-medium** \u2014 the two biggest red flags (unsigned crown, no visible movement) are now addressed.\n\n**Value/offer impact**: This modestly supports paying toward the higher end of my $900-1,100 fair-value range rather than lowballing at $750-800, *provided* you bake in the ~$200-400 service cost. So all-in (purchase + service), you want to land around $1",
-        "asked_at": 1784937123.5588357
-      },
-      {
-        "question": "i see that it is a 564",
-        "answer": "Good to know, but I want to be precise about what \"seeing it's a 564\" actually means here: none of the four photos provided show a case-back or an open movement \u2014 they're all dial/wrist shots plus the box. So either you're going by the seller's word, or you've seen something in person/via another photo not included in this set.\n\nIf you've physically opened the case-back or the seller showed you a movement photo with \"Cal. 564\" stamped/engraved on the bridge, that's good confirmation and does close out the last major authenticity gap (dial \u2713, crown \u2713, movement \u2713). That would support being comfortable at the higher end of the $900\u20131,100 fair-value range, factoring in the ~$200\u2013400 service cost.\n\nBut if \"I see it's a 564\" just means the seller told you or it's inferred from the reference number, that's not independent verification \u2014 cases get married to wrong movements, and 560-family calibers (561, 564, 565) look similar to a non-specialist. The only way to actually confirm is the caliber number stamped on the movement itself, ideally with a serial number too (which also helps date the watch and cross-check against known 168.027 production ranges).\n\nSo: if you've seen it firsthand, great \u2014 treat authenticity risk as low now. If you're relying on someone's say-so without a photo of the stamped movement, I'd still flag that as unconfirmed.",
-        "asked_at": 1784937227.2891788
-      }
-    ],
-    "created_at": 1784919243.878932,
-    "analysis_depth": "full"
-  },
-  {
-    "id": "Omega Constellation:ebay:v1|327258710551|0",
-    "listing": {
-      "id": "ebay:v1|327258710551|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "OMEGA Vintage Constellation Battery Watch Stainless Steel WORKING",
-      "url": "https://www.ebay.com/itm/327258710551?_skw=vintage+Omega+Constellation&hash=item4c3223a217:g:3QQAAeSwdJpqVEGL",
-      "price": 700.0,
-      "shipping_price": null,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/3QQAAeSwdJpqVEGL/s-l225.jpg",
-      "image_urls": [
-        "https://i.ebayimg.com/images/g/3QQAAeSwdJpqVEGL/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/1s4AAeSwT55qVEGM/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/3wsAAeSwrsFqVEGM/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/3GYAAeSwxLNqVEGM/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/msUAAeSwMDlqVEGM/s-l1600.jpg"
-      ],
-      "body": "OMEGA Vintage Constellation Battery Watch Stainless Steel WORKING",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "Pre-owned - Good"
-      }
-    },
-    "watch_item_id": "Omega Constellation",
-    "analysis": {
-      "matches_criteria": true,
-      "match_reasoning": "Hunter's criteria is generic (brand Omega, model Constellation, \"vintage\" - no specific reference or limited edition named). This listing is an Omega Constellation, stainless steel, quartz (\"battery\") model with case back marked 1448 series, consistent with the 1980s-90s \"Manhattan\" Constellation line, which qualifies as vintage/vintage-adjacent Constellation. No specific reference was required, so this counts as a match.",
-      "estimated_value": 750.0,
-      "confidence": 0.55,
-      "condition_summary": "Watch appears in good cosmetic condition with visible fine surface scratches on the bracelet and bezel typical of wear; dial, hands, date window, and Constellation text look clean and correctly aligned with no obvious damage. Case back photo confirms Omega stainless steel markings and reference numbers, supporting authenticity.",
-      "authenticity_risk": "low",
-      "authenticity_notes": "Case back photo shows engraved Omega logo, \"STAINLESS STEEL\" text, and a reference/case number (partially legible, appears to be ST144.xxx style), which is a good sign versus stock photos. Bracelet clasp also shows the Omega logo stamped, another positive authenticity indicator. No major red flags, though the seller does not provide box/papers or full serial number legibility for independent verification, and there's no movement photo to confirm caliber.",
-      "rarity_notes": "This is the quartz \"battery\" Constellation \"Manhattan\" style (griffes/claws case) from the 1980s/90s, one of the most commonly produced Constellation variants - not a rare or limited reference, but a recognizable, desirable entry-level vintage Constellation.",
-      "demand_tier": "Medium",
-      "demand_reasoning": "Omega Constellation is a well-recognized vintage model line with steady collector interest, but this quartz stainless steel variant (non-limited, non-chronometer automatic) is common and trades in the low-mid hundreds rather than commanding premium prices like rarer automatic pie-pan dial models."
-    },
-    "deal_score": 7,
-    "liquidity": {
-      "rating": "Medium",
-      "comparable_count": 1256,
-      "algorithmic_tier": "High",
-      "claude_tier": "Medium",
-      "reasoning": "Algorithmic signal: 1256 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Omega Constellation is a well-recognized vintage model line with steady collector interest, but this quartz stainless steel variant (non-limited, non-chronometer automatic) is common and trades in the low-mid hundreds rather than commanding premium prices like rarer automatic pie-pan dial models.). Final rating uses the more conservative of the two: Medium."
-    },
-    "all_in_price": 700.0,
-    "discount": 0.06666666666666667,
-    "notified": false,
-    "duplicate_of": null,
-    "dismissed": true,
-    "qa_history": [],
-    "created_at": 1784923357.509447,
-    "analysis_depth": "quick"
-  },
-  {
     "id": "Omega Constellation:ebay:v1|307083492557|0",
     "listing": {
       "id": "ebay:v1|307083492557|0",
@@ -105548,5 +105176,319 @@
     "qa_history": [],
     "created_at": 1788281998.4689837,
     "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|227501523100|0",
+    "listing": {
+      "id": "ebay:v1|227501523100|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "ROLEX 114060 Submariner NO DATE Ceramic S/Steel 40mm Automatic Oyster Bracelet",
+      "url": "https://www.ebay.com/itm/227501523100?_skw=Rolex+Submariner+black+dial&hash=item34f825c09c:g:4MUAAeSw0FZql0rG",
+      "price": 9750.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/4MUAAeSw0FZql0rG/s-l225.jpg",
+      "image_urls": [
+        "https://i.ebayimg.com/images/g/4MUAAeSw0FZql0rG/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/gzoAAeSwptdql0rG/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/6qQAAeSwMtZql0rG/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/yeUAAeSwsDVql0rG/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/d3UAAeSwiCJql0rG/s-l1600.jpg"
+      ],
+      "body": "ROLEX 114060 Submariner NO DATE Ceramic S/Steel 40mm Automatic Oyster Bracelet",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Hunter's criteria named only brand/model (Submariner) with black dial, 1992+, no specific reference required. The 114060 is a modern Submariner (No Date) with black ceramic dial, produced well after 1992 (this ref introduced 2012), so it satisfies the generic 'Submariner black dial 1992+' requirement, is under $11,000, and is presented in excellent/like-new condition.",
+      "estimated_value": 9500.0,
+      "confidence": 0.55,
+      "condition_summary": "Photos show a Submariner 114060 with minimal wear on bracelet and bezel, appears close to new/excellent condition; presented with box and an authentication card showing matching ref/serial.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Watch and box appear consistent with genuine 114060 styling, and a third-party 'authenticated' card with serial/ref is shown, which is a positive sign. However, this is a third-party authentication card, not official Rolex papers, and no closeup of case back, hologram sticker, or movement is provided; price is somewhat below typical market for a well-kept 114060 with box, which combined with lack of full provenance details (service history, original purchase papers) warrants some caution.",
+      "rarity_notes": "The 114060 No-Date ceramic Submariner is a popular, high-demand modern reference, not rare, but well-regarded; discontinued in favor of newer 124060 so slightly harder to find new but common on secondary market.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and sought-after watch models globally, with consistently strong resale demand."
+    },
+    "deal_score": -3,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 3147,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 3147 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and sought-after watch models globally, with consistently strong resale demand.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 9750.0,
+    "discount": -0.02631578947368421,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|820058197561|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1788300940.9628344,
+    "analysis_depth": "full"
+  },
+  {
+    "id": "rolex:ebay:v1|257716939019|0",
+    "listing": {
+      "id": "ebay:v1|257716939019|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "2023 Rolex Submariner 41mm No Date Stainless Steel Black Dial 124060 Full Set",
+      "url": "https://www.ebay.com/itm/257716939019?_skw=Rolex+Submariner+black+dial&hash=item3c0120690b:g:qTAAAeSwmKhqlzRS",
+      "price": 13249.99,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/qTAAAeSwmKhqlzRS/s-l225.jpg",
+      "image_urls": [],
+      "body": "2023 Rolex Submariner 41mm No Date Stainless Steel Black Dial 124060 Full Set",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Price is $13,249.99 all-in, which exceeds the hunter's $11,000 ceiling by over $2,200, so it fails the price criterion despite matching brand, model, black dial, and modern production year.",
+      "estimated_value": 11800.0,
+      "confidence": 0.55,
+      "condition_summary": "Described as a 2023 model (essentially new/recent), black dial, no date, appears in the single photo to be in excellent, unworn-looking condition with no visible scratches.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "Single stock-style photo of watch on wrist, no shots of box, papers, caseback, or serial despite \"Full Set\" claim. No seller history or return policy mentioned. Nothing overtly fraudulent, but lack of supporting photos for the claimed full set is a mild flag worth requesting more images/serial verification before purchase.",
+      "rarity_notes": "Reference 124060 (no-date Submariner) is current production and readily available through ADs and secondary market; not a rare or limited variant, though demand keeps prices firm.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and sought-after luxury watch models globally, with consistently strong resale demand, especially current production references like the 124060."
+    },
+    "deal_score": -12,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 3147,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 3147 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and sought-after luxury watch models globally, with consistently strong resale demand, especially current production references like the 124060.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 13249.99,
+    "discount": -0.12288050847457625,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|267768858576|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1788300919.8453708,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|336773453771|0",
+    "listing": {
+      "id": "ebay:v1|336773453771|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Unpolished Rolex Submariner Engraved Rehaut Black Dial 14060 Steel 40mm Box/Apr",
+      "url": "https://www.ebay.com/itm/336773453771?_skw=Rolex+Submariner+black+dial&hash=item4e694317cb:g:0W8AAeSw2HNql0Ev",
+      "price": 11390.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/0W8AAeSw2HNql0Ev/s-l225.jpg",
+      "image_urls": [],
+      "body": "Unpolished Rolex Submariner Engraved Rehaut Black Dial 14060 Steel 40mm Box/Apr",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The 14060 is a no-date Submariner produced from roughly 1990-2007, with engraved rehaut versions dating from 2005-2007. While it could technically be 1992+, the listing price ($11,390) exceeds the hunter's $11,000 all-in ceiling, disqualifying it on price alone regardless of model fit.",
+      "estimated_value": 10500.0,
+      "confidence": 0.55,
+      "condition_summary": "Described as unpolished with box, sharp bevels visible in the stock-style photo; no close-up wear shots, caseback, or papers/serial images provided to verify condition claims.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only one generic-looking photo (appears to be a stock/reused catalog image) is shown despite claims of box and papers (\"Box/Apr\" implies appraisal/papers) - no actual photo of papers, box, caseback, or serial/rehaut engraving close-up to confirm authenticity or the specific engraved rehaut feature claimed in the title. Lack of detailed real photos for a $11k+ watch is a moderate red flag.",
+      "rarity_notes": "14060 no-date Submariners, especially unpolished examples with engraved rehaut (2005-2007 production), are moderately sought after by purists but not exceptionally rare - production numbers were substantial.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and demanded watch models in the world, and the no-date 14060 with engraved rehaut has a dedicated following among collectors."
+    },
+    "deal_score": -8,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 3147,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 3147 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and demanded watch models in the world, and the no-date 14060 with engraved rehaut has a dedicated following among collectors.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 11390.0,
+    "discount": -0.08476190476190476,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|267768858576|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1788300920.571675,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|128053427878|0",
+    "listing": {
+      "id": "ebay:v1|128053427878|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "2026 Rolex Submariner Black Dial on Oyster 126610LN Complete",
+      "url": "https://www.ebay.com/itm/128053427878?_skw=Rolex+Submariner+black+dial&hash=item1dd0943ea6:g:2ToAAeSwUkpqlUEn",
+      "price": 16500.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/2ToAAeSwUkpqlUEn/s-l225.jpg",
+      "image_urls": [],
+      "body": "2026 Rolex Submariner Black Dial on Oyster 126610LN Complete",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "New with box and papers"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Price is $16,500, well above the $11,000 ceiling, so it fails on price alone regardless of model/condition fit.",
+      "estimated_value": 14500.0,
+      "confidence": 0.4,
+      "condition_summary": "Photo shows a seemingly new/lightly used 126610LN with gloved handling (suggesting dealer care), no visible scratches, but only one angle shown and no box/papers photographed despite 'Complete' claim.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Listing claims a '2026' dated Rolex, which is a future/impossible production year for a current listing - this is a significant red flag suggesting either a typo or careless/fraudulent listing. 'Complete' is claimed but no box/papers photos are provided, only a single wrist shot with a glove (common in reseller stock photos, not necessarily fraudulent but reduces verifiability).",
+      "rarity_notes": "126610LN is the current-generation ceramic bezel Submariner, common and widely available - not rare, but in high demand.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner 126610LN is one of the most sought-after modern watches, with strong resale demand and liquidity."
+    },
+    "deal_score": -14,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 3147,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 3147 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner 126610LN is one of the most sought-after modern watches, with strong resale demand and liquidity.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 16500.0,
+    "discount": -0.13793103448275862,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|128048204472|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1788300919.003076,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|188868740295|0",
+    "listing": {
+      "id": "ebay:v1|188868740295|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "ROLEX SUBMARINER DATE 16613LN 40MM 18K YELLOW GOLD STEEL BLACK WATCH w/ PAPER",
+      "url": "https://www.ebay.com/itm/188868740295?_skw=Rolex+Submariner+black+dial&hash=item2bf97444c7:g:rbEAAeSwCPVqPNlA",
+      "price": 12090.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/rbEAAeSwCPVqPNlA/s-l225.jpg",
+      "image_urls": [],
+      "body": "ROLEX SUBMARINER DATE 16613LN 40MM 18K YELLOW GOLD STEEL BLACK WATCH w/ PAPER",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The reference 16613LN is a two-tone (steel/18k gold) Submariner Date with black dial, which does satisfy the black dial and post-1992 production requirement (16613LN was produced roughly 1988-2010, and this could be post-1992). However, the all-in price of $12,090 exceeds the buyer's $11,000 ceiling, so it fails on price alone.",
+      "estimated_value": 10500.0,
+      "confidence": 0.45,
+      "condition_summary": "Photo shows a clean two-tone Submariner with black dial and bezel insert in apparently good cosmetic condition; no visible major scratches in the single stock-style image, but only one angle is shown so wear on case/bracelet can't be fully assessed.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only one photo provided (appears to be a stock/catalog-style image rather than an in-hand photo of the actual watch), no close-ups of caseback, serial/reference engravings, movement, or papers despite \"w/ PAPER\" claim in title - papers are not shown. No seller history or return policy details given. Listing text is minimal (just the title, no description of condition, box contents, or service history), which is a mild red flag for a $12k item.",
+      "rarity_notes": "16613LN is a common two-tone Submariner reference, produced in large numbers over two decades - not rare, but perennially popular.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and sought-after watch models in the world, with consistently strong resale demand, especially two-tone black dial variants."
+    },
+    "deal_score": -15,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 3147,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 3147 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and sought-after watch models in the world, with consistently strong resale demand, especially two-tone black dial variants.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 12090.0,
+    "discount": -0.15142857142857144,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|287549880217|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1788300927.2333522,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|287466013008|0",
+    "listing": {
+      "id": "ebay:v1|287466013008|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "PAPERS 2000 MINT Rolex Submariner No-Date 2 Line Dial 14060 Steel Black Watch",
+      "url": "https://www.ebay.com/itm/287466013008?_skw=Rolex+Submariner+black+dial&hash=item42ee4f4150:g:z7UAAeSwF-Zqld16",
+      "price": 11102.05,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/z7UAAeSwF-Zqld16/s-l225.jpg",
+      "image_urls": [
+        "https://i.ebayimg.com/images/g/z7UAAeSwF-Zqld16/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/aDgAAeSwM89qld16/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/oCsAAeSwJK9qld16/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/XuAAAeSwEphqld16/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/R1IAAeSwKVhqld16/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/RTYAAeSwuQVqld16/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/3UAAAeSwD~1qld16/s-l1600.jpg"
+      ],
+      "body": "PAPERS 2000 MINT Rolex Submariner No-Date 2 Line Dial 14060 Steel Black Watch",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Hunter's criteria were generic (brand: Rolex, model: Submariner, no specific reference number required), just black dial, 1992+, under $11,000, excellent condition. This is a 2000 Rolex Submariner ref 14060 (no-date), steel, black dial, with papers, priced at $11,102.05 all-in which is slightly over the $11,000 ceiling - a minor overage but technically fails the price criterion.",
+      "estimated_value": 10500.0,
+      "confidence": 0.7,
+      "condition_summary": "Watch appears to be in very good/mint condition in photos - clean dial, sharp bezel insert, minimal case wear visible on bracelet and lugs; seller claims \"MINT.\"",
+      "authenticity_risk": "low",
+      "authenticity_notes": "Photos show consistent case, bracelet, and dial detailing typical of genuine 14060; box and papers (Garantie card with reference 14060M) are shown, which is a good sign. No visible mismatched serials or obvious red flags, though full serial/case-back verification isn't possible from photos alone.",
+      "rarity_notes": "Ref 14060 (no-date Submariner) is a fairly common vintage/modern Rolex sports model, not rare, but full-set (box+papers) examples from 2000 in excellent condition are desirable.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and highly demanded watch models in the world, with strong resale liquidity."
+    },
+    "deal_score": -6,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 3147,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 3147 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and highly demanded watch models in the world, with strong resale liquidity.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 11102.05,
+    "discount": -0.05733809523809517,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|820058197561|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1788300951.8363461,
+    "analysis_depth": "full"
   }
 ]
