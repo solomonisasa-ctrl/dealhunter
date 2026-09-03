@@ -1,257 +1,5 @@
 [
   {
-    "id": "Omega Constellation:ebay:v1|227403652450|0",
-    "listing": {
-      "id": "ebay:v1|227403652450|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "Vintage OMEGA Constellation Cal.1455 Qz Roman 22mm Womens ~ Box & Papers",
-      "url": "https://www.ebay.com/itm/227403652450?_skw=vintage+Omega+Constellation&hash=item34f2505d62:g:lHUAAeSwz6xqPTxN&amdata=enc%3AAQALAAABAACCtXRWQnOEpyOqnQQ8KGYfk%2Bypj23UbgPJPxoIAigXsEphfH5OPwxEyrbMMmwmriE65EHbd62oaDo2hxTWzBC4uiJiu%2B2d%2FQoh1M0LQqQn1x0jCB0bLlzX2lnU50r0fWZeRLVvt8Ln6OsRRKGmoeNR2uPrHVIM8tc%2B%2BmxtC0igRBMm18YeJoCbrZM0QrXc9ThzwU%2FHHdaC2N6CcxPzUU0Yrgbq%2FOFLOXGL42SsdVpMXK26oqFG41MAMIu%2FNAQMrQpMxhyjFFyHpS79Ayg98L3jgs6pEwxo8OuOrGI4N%2Fq7PXMqhNhFcMN1ORxhF3mVL3VH2GquLKkMo9E%2Buh6cdro%3D",
-      "price": 599.99,
-      "shipping_price": 0.0,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/lHUAAeSwz6xqPTxN/s-l225.jpg",
-      "image_urls": [
-        "https://i.ebayimg.com/images/g/lHUAAeSwz6xqPTxN/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/wtYAAeSwpfdqPTxN/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/V4MAAeSw2hxqPTxN/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/1hQAAeSw2bRqPTxN/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/hRkAAeSwf1FqPTxN/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/I4gAAeSwWW5qPTxO/s-l1600.jpg"
-      ],
-      "body": "Vintage OMEGA Constellation Cal.1455 Qz Roman 22mm Womens ~ Box & Papers",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "Pre-owned - Good"
-      }
-    },
-    "watch_item_id": "Omega Constellation",
-    "analysis": {
-      "matches_criteria": true,
-      "match_reasoning": "The hunter's criteria is generic - \"vintage Omega Constellation\" with no specific reference number required. This listing is a genuine vintage Omega Constellation (Cal. 1455 quartz, women's 22mm model), so it satisfies the brand/model/vintage requirements.",
-      "estimated_value": 550.0,
-      "confidence": 0.65,
-      "condition_summary": "Watch shows light surface/hairline scratches on the case and bracelet consistent with gentle vintage wear; dial, hands, and bezel appear clean and correct with no visible damage. Comes complete with outer box, presentation box, and papers/booklets shown in photos.",
-      "authenticity_risk": "low",
-      "authenticity_notes": "Photos appear to be genuine seller-taken images (not stock photos) showing the actual watch, box, and papers together, which is a good sign. Dial text, case shape, and bracelet links look consistent with authentic Omega Constellation \"Manhattan\" style women's quartz models. No visible mismatched serial numbers or altered markings, though case-back and serial number close-ups aren't shown, so full authentication isn't possible from photos alone.",
-      "rarity_notes": "This is a fairly common vintage Omega Constellation reference (women's quartz Cal. 1455, 22mm, Roman numeral bezel) - Omega produced these in large numbers through the 1980s-90s, so it is not particularly rare, though the full box and papers set adds some value/desirability.",
-      "demand_tier": "Medium",
-      "demand_reasoning": "Omega Constellation is a well-recognized, respected vintage line with solid collector demand, but this particular small ladies' quartz reference is less sought after than men's automatic pie-pan Constellations, placing overall demand in the medium tier."
-    },
-    "deal_score": -9,
-    "liquidity": {
-      "rating": "Medium",
-      "comparable_count": 1256,
-      "algorithmic_tier": "High",
-      "claude_tier": "Medium",
-      "reasoning": "Algorithmic signal: 1256 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Omega Constellation is a well-recognized, respected vintage line with solid collector demand, but this particular small ladies' quartz reference is less sought after than men's automatic pie-pan Constellations, placing overall demand in the medium tier.). Final rating uses the more conservative of the two: Medium."
-    },
-    "all_in_price": 599.99,
-    "discount": -0.0908909090909091,
-    "notified": false,
-    "duplicate_of": null,
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784923687.1339498,
-    "analysis_depth": "quick"
-  },
-  {
-    "id": "Omega Constellation:ebay:v1|147171091988|0",
-    "listing": {
-      "id": "ebay:v1|147171091988|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "*Vintage 1970* OMEGA Constellation f300Hz Cal.1250 Quartz Chronometer 32mm Men's",
-      "url": "https://www.ebay.com/itm/147171091988?_skw=vintage+Omega+Constellation&hash=item224414a614:g:xCoAAeSwWRlpngvD&amdata=enc%3AAQALAAABAACCtXRWQnOEpyOqnQQ8KGbUygefbBL0sdg5h22ImGFd%2BDN0t%2B9mf5%2Fim7fJvZw1Hrr4DyEpOSisGZehxmGeHppk74aEvEGev6uhJds%2FxuxMgZ7PwFHtATY9hwQ4wFpI6OqXdCaFB7NgvTEgnd0R40huIX8xGU33RLoYrMTWpOJZoAqCOXEQvskD%2Bs6rQaSiJvqeFAj7m8zSGB1gXy2dU%2Fw3pqDzLEb1XTPzezO20TPBHXL7j--iKka8vwVXfxmv8gwdWdj9JUlnzMHhnnLZ%2F1FGVlFVp061bWjWUb5BnaymQGk%2BG8ng4MgDmZVqUMLicfkznxJUfBGj5X%2BfllCJsTE%3D",
-      "price": 399.99,
-      "shipping_price": 110.0,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/xCoAAeSwWRlpngvD/s-l225.jpg",
-      "image_urls": [
-        "https://i.ebayimg.com/images/g/xCoAAeSwWRlpngvD/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/ib4AAeSw5btplx1J/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/~x0AAeSww9ZpngwB/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/94QAAeSwtrpplx1K/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/NbQAAeSwpttplx1K/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/kb0AAeSwGf9plx1J/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/UYEAAeSwaaVplx1J/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/TZkAAeSwj~Vplx1J/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/qjIAAeSwODlplx1J/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/mncAAeSwstJplx1J/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/snwAAeSwv~Rplx1J/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/poIAAeSw0r1plx1J/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/iEwAAeSwQ8xplx1J/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/SRYAAeSwG6xplx1J/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/08oAAeSw7qFplx1J/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/wkwAAeSwZThplx1K/s-l1600.jpg"
-      ],
-      "body": "*Vintage 1970* OMEGA Constellation f300Hz Cal.1250 Quartz Chronometer 32mm Men's",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "Pre-owned - Excellent"
-      }
-    },
-    "watch_item_id": "Omega Constellation",
-    "analysis": {
-      "matches_criteria": true,
-      "match_reasoning": "Hunter's criteria only specify brand Omega, model Constellation, and \"vintage\" with no specific reference number required. This is a genuine vintage (1970s) Omega Constellation, so it satisfies the generic criteria even though it's the f300Hz electronic/quartz chronometer variant rather than the classic pie-pan automatic.",
-      "estimated_value": 450.0,
-      "confidence": 0.55,
-      "condition_summary": "Gold-capped/plated case shows notable brassing and scratches on the case edges and lugs; dial appears clean with intact printing and lume-free baton markers, hands look original. Overall a well-worn but presentable example, not mint.",
-      "authenticity_risk": "low",
-      "authenticity_notes": "Dial text, Omega logo, star, and \"Constellation\" script all look consistent with genuine f300Hz Constellation chronometer models of the era; reference 193.766 and Cal. 1250 cited match known Omega references. No box/papers shown or claimed. Strap is clearly an aftermarket generic leather band, not original. No serial number visible on caseback in photos, which is a minor gap for verification but not unusual for a listing at this price point.",
-      "rarity_notes": "The f300Hz tuning-fork/quartz-hybrid Constellation chronometers are less collected than the classic automatic \"pie-pan\" Constellations, so while genuine and interesting, they are more common and less sought after than the flagship vintage automatic models.",
-      "demand_tier": "Medium",
-      "demand_reasoning": "Omega Constellation is a recognized, desirable vintage line, but this particular f300Hz quartz chronometer variant has a smaller collector base than the classic automatic pie-pan Constellations, placing overall demand at medium rather than high."
-    },
-    "deal_score": -13,
-    "liquidity": {
-      "rating": "Medium",
-      "comparable_count": 1256,
-      "algorithmic_tier": "High",
-      "claude_tier": "Medium",
-      "reasoning": "Algorithmic signal: 1256 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Omega Constellation is a recognized, desirable vintage line, but this particular f300Hz quartz chronometer variant has a smaller collector base than the classic automatic pie-pan Constellations, placing overall demand at medium rather than high.). Final rating uses the more conservative of the two: Medium."
-    },
-    "all_in_price": 509.99,
-    "discount": -0.13331111111111113,
-    "notified": false,
-    "duplicate_of": "Omega Constellation:ebay:v1|307083492557|0",
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784923768.436603,
-    "analysis_depth": "quick"
-  },
-  {
-    "id": "Omega Constellation:ebay:v1|336696958743|0",
-    "listing": {
-      "id": "ebay:v1|336696958743|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "Vintage Omega Constellation Calendar 24J Wrist Watch w/ 14k GF Trim | Works",
-      "url": "https://www.ebay.com/itm/336696958743?_skw=vintage+Omega+Constellation&hash=item4e64b3df17:g:E9IAAeSwHlpqIC4G&amdata=enc%3AAQALAAABAACCtXRWQnOEpyOqnQQ8KGZErO6zmmz5SxBygZ5Z6VDboWmxDS1WlnbYO%2FG7qHUuLBA506QfJarALUT0WFH4u2RzlitlTB6%2Bpcshq8JuTpyqQfr10l0aAi275ItC%2B%2F3N0UT6KHByBlZheICMd%2F4tD%2FHut07wiUiYQLZHqRHMErzaOBOs5ak9C%2FLlTrB%2BvBWfESAjKoqF5ASPauBP21M0cXPh4HWLVCYyNC29CfOX1qUIkOxbGTXoHi0%2FL04DiJ1B%2FQlK1XtdeTPYZF%2FoZqjr%2BunLzVZ%2BR%2FCu2L4Hzo%2BHpk4SdMjUDP83CjwmSYu353mmM2nf%2FFSlW6Ze0C%2B1qoODyDE%3D",
-      "price": 1299.99,
-      "shipping_price": 0.0,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/E9IAAeSwHlpqIC4G/s-l225.jpg",
-      "image_urls": [
-        "https://i.ebayimg.com/images/g/E9IAAeSwHlpqIC4G/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/vq4AAeSw6SZqIC39/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/SgAAAeSwwapqIC37/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/5PcAAeSwDIVqIC37/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/zs4AAeSwizRqIC38/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/HBMAAeSw1CBqIC4I/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/zLUAAeSwtJZqIC39/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/NgYAAeSwUUhqIC4F/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/j4cAAeSw3z9qIC4A/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/s~YAAeSwE-FqIC4D/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/2NAAAeSw8p9qIC4F/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/EqcAAeSwj1JqIC4P/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/UBgAAeSwLxhqIC4K/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/OZoAAeSwCr9qIC4I/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/xOYAAeSwT65qIC4Q/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/pQAAAeSw5ApqIC4K/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/k7kAAeSw~bdqIC4P/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/hj8AAeSwDQtqIC4L/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/K9gAAeSwSshqIC4N/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/rvUAAeSwVUhqIC4Q/s-l1600.jpg"
-      ],
-      "body": "Vintage Omega Constellation Calendar 24J Wrist Watch w/ 14k GF Trim | Works",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "Pre-owned - Good"
-      }
-    },
-    "watch_item_id": "Omega Constellation",
-    "analysis": {
-      "matches_criteria": true,
-      "match_reasoning": "Hunter's criteria is generic: vintage Omega Constellation, no specific reference or limited edition named. This listing is a genuine vintage Omega Constellation Calendar model, so it matches the stated (non-specific) criteria.",
-      "estimated_value": 950.0,
-      "confidence": 0.55,
-      "condition_summary": "Dial shows noticeable aging/patina with scattered spots and light scratches on crystal/case; gold-capped (14k GF) case and bezel show brassing/wear at high points; bracelet (aftermarket \"Hamilton stainless steel\" per caseback stamp on band) appears mismatched to an Omega-branded piece. Watch is stated to be running (\"Works\") but no movement/caseback photos of the watch itself are shown.",
-      "authenticity_risk": "medium",
-      "authenticity_notes": "Several concerns: (1) the bracelet stamped \"Hamilton stainless steel\" is not an original Omega bracelet - mismatched aftermarket band is common but should be disclosed and factored into value; (2) no photo of case back, serial number, or movement to confirm authenticity and matching serials; (3) dial text (\"Constellation Calendar\") and pie-pan-style layout look consistent with 1960s Constellation \"calendar\" (date) models, but the seller doesn't provide a reference or serial for cross-check; (4) listing photos appear to be real (not stock), which is a positive sign, but the lack of caseback/movement shots is a gap a serious buyer should ask about before purchase.",
-      "rarity_notes": "Vintage Omega Constellation \"Calendar\" automatic chronometer models from the 1950s-60s are fairly common in the vintage market (many produced), not a rare/limited variant. Cases in 14k gold-filled/gold-cap are more common than solid gold versions, which slightly reduces rarity/value versus solid gold pieces.",
-      "demand_tier": "Medium",
-      "demand_reasoning": "Omega is a highly recognized brand and Constellation is a well-regarded vintage collector line, but this particular reference (gold-cap/GF trim, non-solid-gold, common pie-pan dial variant) is not a top-tier rare piece, so demand is moderate rather than high - collectors often prefer solid 18k gold or steel examples with original bracelets and full box/papers."
-    },
-    "deal_score": -37,
-    "liquidity": {
-      "rating": "Medium",
-      "comparable_count": 1256,
-      "algorithmic_tier": "High",
-      "claude_tier": "Medium",
-      "reasoning": "Algorithmic signal: 1256 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Omega is a highly recognized brand and Constellation is a well-regarded vintage collector line, but this particular reference (gold-cap/GF trim, non-solid-gold, common pie-pan dial variant) is not a top-tier rare piece, so demand is moderate rather than high - collectors often prefer solid 18k gold or steel examples with original bracelets and full box/papers.). Final rating uses the more conservative of the two: Medium."
-    },
-    "all_in_price": 1299.99,
-    "discount": -0.36841052631578947,
-    "notified": false,
-    "duplicate_of": null,
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784923667.0040255,
-    "analysis_depth": "quick"
-  },
-  {
-    "id": "Omega Constellation:ebay:v1|336535452297|0",
-    "listing": {
-      "id": "ebay:v1|336535452297|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "1995 Vintage Omega Constellation Stainless and 18K Gold Swiss Quartz Wristwatch",
-      "url": "https://www.ebay.com/itm/336535452297?_skw=vintage+Omega+Constellation&hash=item4e5b137a89:g:4ocAAeSwG6dp2RiF",
-      "price": 1499.99,
-      "shipping_price": 0.0,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/4ocAAeSwG6dp2RiF/s-l225.jpg",
-      "image_urls": [
-        "https://i.ebayimg.com/images/g/4ocAAeSwG6dp2RiF/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/mLgAAeSwy7Rp2RiS/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/JDoAAeSw-8pp2RiY/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/nPUAAeSwyXBp2Rie/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/NkEAAeSwyMZp2Rik/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/KgkAAeSwQMdp2Riq/s-l1600.jpg"
-      ],
-      "body": "1995 Vintage Omega Constellation Stainless and 18K Gold Swiss Quartz Wristwatch",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "Pre-owned - Good"
-      }
-    },
-    "watch_item_id": "Omega Constellation",
-    "analysis": {
-      "matches_criteria": true,
-      "match_reasoning": "Hunter's criteria are generic: brand Omega, model Constellation, \"vintage\" with no specific reference/limited edition named. This is a genuine 1990s (bracelet stamped 1552/862-style two-tone) Omega Constellation, so it satisfies brand/model/vintage requirements even though it's not the older \"pie pan\" style specifically mentioned as an example keyword (not a strict requirement).",
-      "estimated_value": 1300.0,
-      "confidence": 0.6,
-      "condition_summary": "Case and bracelet show typical light surface wear consistent with age; dial, hands, and gold bezel/lugs appear intact and clean in photos with no visible damage; tapisserie dial pattern and printed Constellation text look correct.",
-      "authenticity_risk": "low",
-      "authenticity_notes": "Case back photo shows Omega logo and bracelet stamped with reference/serial-like numbers (1552/862 area) and \"Stainless Steel\" marking, consistent with genuine Omega bracelet construction; dial text/font, applied Omega logo, and star below Constellation logo look consistent with authentic 1990s Constellation models. No obvious mismatched fonts, crooked text, or aftermarket parts visible. Listing lacks explicit mention of box/papers, original purchase provenance, or movement serial number visible through caseback, which slightly limits full authentication confidence.",
-      "rarity_notes": "This two-tone quartz Constellation \"Manhattan\" style (integrated bracelet, Roman numeral bezel) from the mid-1990s is a common, mass-produced reference for Omega \u2014 not rare, but a solid recognizable model in the Constellation line, distinct from the earlier 1960s-70s \"pie pan\" Constellations which are more sought after by vintage purists.",
-      "demand_tier": "Medium",
-      "demand_reasoning": "Omega Constellation is a well-recognized model with steady demand, but this particular two-tone quartz 1990s reference is one of the more common/entry-level variants in the lineup, so demand is solid but not as strong as vintage automatic pie-pan models or Speedmaster/Seamaster references."
-    },
-    "deal_score": -15,
-    "liquidity": {
-      "rating": "Medium",
-      "comparable_count": 1256,
-      "algorithmic_tier": "High",
-      "claude_tier": "Medium",
-      "reasoning": "Algorithmic signal: 1256 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Omega Constellation is a well-recognized model with steady demand, but this particular two-tone quartz 1990s reference is one of the more common/entry-level variants in the lineup, so demand is solid but not as strong as vintage automatic pie-pan models or Speedmaster/Seamaster references.). Final rating uses the more conservative of the two: Medium."
-    },
-    "all_in_price": 1499.99,
-    "discount": -0.15383846153846154,
-    "notified": false,
-    "duplicate_of": "Omega Constellation:ebay:v1|206437713862|0",
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784923703.6093283,
-    "analysis_depth": "quick"
-  },
-  {
     "id": "Omega Constellation:ebay:v1|117309650676|0",
     "listing": {
       "id": "ebay:v1|117309650676|0",
@@ -105228,6 +104976,214 @@
     "dismissed": false,
     "qa_history": [],
     "created_at": 1788428394.4803722,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|257720516644|0",
+    "listing": {
+      "id": "ebay:v1|257720516644|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "2021 Rolex Submariner Black Dial Stainless Steel 41mm Auto Men\u2019s Watch 124060",
+      "url": "https://www.ebay.com/itm/257720516644?_skw=Rolex+Submariner&hash=item3c01570024:g:qgsAAeSwaONqmFAu",
+      "price": 12500.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/qgsAAeSwaONqmFAu/s-l225.jpg",
+      "image_urls": [],
+      "body": "2021 Rolex Submariner Black Dial Stainless Steel 41mm Auto Men\u2019s Watch 124060",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Item is a genuine Rolex Submariner 124060, black dial, 2021 (post-1992), which satisfies brand/model/year criteria. However, the all-in price of $12,500 exceeds the buyer's stated ceiling of $11,000, so it fails the price requirement.",
+      "estimated_value": 10500.0,
+      "confidence": 0.55,
+      "condition_summary": "Photo shows a clean, seemingly unworn or lightly worn no-date Submariner with no visible scratches on bezel or bracelet; listing gives no explicit condition grade, box/papers status, or detailed description beyond model and year.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "Photo appears to be a stock/catalog-style image rather than an in-hand photo showing serial/reference engravings, which limits ability to verify authenticity. No mention of papers, box, service history, or seller reputation - listing is very sparse on detail for an item at this price point.",
+      "rarity_notes": "Ref. 124060 is the current-generation no-date Submariner, widely produced and not rare; strong steady demand but easily sourced from many dealers.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and sought-after watch models globally, with consistent strong resale demand."
+    },
+    "deal_score": -19,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 5944,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 5944 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and sought-after watch models globally, with consistent strong resale demand.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 12500.0,
+    "discount": -0.19047619047619047,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|267768858576|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1788443552.7759373,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|128057958666|0",
+    "listing": {
+      "id": "ebay:v1|128057958666|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "eBay Live- Rolex Submariner Date 41mm Stainless Steel 126610LN Unworn 2026",
+      "url": "https://www.ebay.com/itm/128057958666?_skw=Rolex+Submariner&hash=item1dd0d9610a:g:8yQAAeSwgwRqlJdG",
+      "price": 1.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/8yQAAeSwgwRqlJdG/s-l225.jpg",
+      "image_urls": [
+        "https://i.ebayimg.com/images/g/8yQAAeSwgwRqlJdG/s-l1600.jpg"
+      ],
+      "body": "eBay Live- Rolex Submariner Date 41mm Stainless Steel 126610LN Unworn 2026",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Hunter specified no exact reference, just Rolex Submariner black dial from 1992+, excellent condition, under $11000. The 126610LN is a current-production black dial Submariner, satisfying model/dial/year requirements. However, the $1.00 price is almost certainly an eBay Live auction starting bid, not the actual sale price, so true cost is unknown and likely to exceed $11000 given retail/market prices for this reference.",
+      "estimated_value": 10500.0,
+      "confidence": 0.3,
+      "condition_summary": "Listed as \"Unworn,\" with a stock-style product photo showing no wear, but no close-up or authentication images provided.",
+      "authenticity_risk": "high",
+      "authenticity_notes": "The $1.00 price is a major red flag - this is characteristic of an eBay Live auction listing format where the displayed price is just a placeholder/starting bid, not the final cost, making true price unknown and likely far above the $11,000 ceiling once bidding concludes. The image is a generic stock/catalog photo rather than an actual photo of the specific watch, and no serial/papers are shown, which is a concern for a claimed \"unworn\" high-value piece. \"2026\" in the title is odd/nonsensical for a current year reference and may indicate a listing error or templated/spam listing.",
+      "rarity_notes": "126610LN is the current-production ceramic bezel black Submariner Date - widely available, not rare, but consistently high demand.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and sought-after luxury watch models globally, with strong resale demand and liquidity."
+    },
+    "deal_score": 30,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 5944,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 5944 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and sought-after luxury watch models globally, with strong resale demand and liquidity.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 1.0,
+    "discount": 0.9999047619047619,
+    "notified": true,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1788443553.8744195,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|206527295020|0",
+    "listing": {
+      "id": "ebay:v1|206527295020|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex 16803 Submariner 2Tone 18k Yellow Gold Stainless Steel Watch Blue Sub Date",
+      "url": "https://www.ebay.com/itm/206527295020?_skw=Rolex+Submariner&hash=item3015fc6e2c:g:cx0AAeSwcXFqlcEd",
+      "price": 12099.98,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/cx0AAeSwcXFqlcEd/s-l225.jpg",
+      "image_urls": [],
+      "body": "Rolex 16803 Submariner 2Tone 18k Yellow Gold Stainless Steel Watch Blue Sub Date",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "New with box and papers"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Hunter requires a black dial Submariner from 1992+ under $11,000. This listing is reference 16803 with a blue dial/blue bezel (two-tone), not black, and priced at $12,099.98, exceeding the budget. Also ref 16803 was produced mainly in the 1980s, predating the 1992+ requirement.",
+      "estimated_value": 9500.0,
+      "confidence": 0.35,
+      "condition_summary": "Only a single stock-style photo provided showing a two-tone blue dial Submariner in apparently decent cosmetic condition; no close-up of case, clasp, or papers to verify condition claims.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Listing text is minimal (just a title, no description of condition, box/papers, service history, or serial verification). Image appears to be a generic stock/catalog photo rather than a real seller photo of the actual watch, which is a red flag for authenticity verification.",
+      "rarity_notes": "Ref 16803 two-tone blue Submariner is a fairly common vintage two-tone reference, not particularly rare, but not the black-dial variant the hunter wants.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is a top-tier, highly recognized and sought-after model with strong resale demand regardless of dial color."
+    },
+    "deal_score": -27,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 5944,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 5944 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is a top-tier, highly recognized and sought-after model with strong resale demand regardless of dial color.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 12099.98,
+    "discount": -0.27368210526315784,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|206515021517|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1788443554.0172386,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:etsy:4567633566",
+    "listing": {
+      "id": "etsy:4567633566",
+      "source": "etsy",
+      "category": "watches",
+      "title": "Vintage Rolex Submariner Date 16610",
+      "url": "https://www.etsy.com/listing/4567633566/vintage-rolex-submariner-date-16610",
+      "price": 60500.0,
+      "shipping_price": null,
+      "currency": "TRY",
+      "image_url": "https://i.etsystatic.com/67829660/r/il/92add1/8516461285/il_fullxfull.8516461285_tsc4.jpg",
+      "image_urls": [
+        "https://i.etsystatic.com/67829660/r/il/92add1/8516461285/il_fullxfull.8516461285_tsc4.jpg",
+        "https://i.etsystatic.com/67829660/r/il/15f516/8516461287/il_fullxfull.8516461287_7c6m.jpg",
+        "https://i.etsystatic.com/67829660/r/il/d5f624/8516461289/il_fullxfull.8516461289_tv8u.jpg",
+        "https://i.etsystatic.com/67829660/r/il/c3135c/8516461291/il_fullxfull.8516461291_khih.jpg",
+        "https://i.etsystatic.com/67829660/r/il/0fb22a/8516461275/il_fullxfull.8516461275_nihc.jpg"
+      ],
+      "body": "Selling at a great price due to personal circumstances \u2014 priced to sell quickly. A timeless classic from Rolex, this Submariner Date Ref. 16610 combines the iconic look of a black dial and black bezel with the durability of a stainless steel case and Oyster bracelet. The 40mm case gives the watch a comfortable presence on the wrist, while the automatic movement makes it a practical choice for everyday wear. Its clean black-on-black design gives the watch a versatile character that works just as well with casual outfits as it does with something more formal. This particular watch is shown on an 8.25-inch wrist, giving you a good idea of how the 40mm case sits and wears. A well-known reference among Submariner enthusiasts, the 16610 is a piece that brings together classic Rolex styling and everyday functionality.",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "taxonomy_id": 6074
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The Submariner 16610 is a black dial model produced in the correct era (1988-2010, so 1992+ examples exist), but the listed price of $60,500 vastly exceeds the hunter's $11,000 all-in ceiling. A 16610 in this condition typically trades in the $8,000-$11,000 range, so this specific listing's price is wildly out of line with actual market value, failing the price criterion regardless of model fit.",
+      "estimated_value": 9500.0,
+      "confidence": 0.55,
+      "condition_summary": "Watch appears well-kept in the photo with a clean dial, bezel, and bracelet showing no obvious major damage, consistent with a claimed excellent/good condition, though only one angle is shown and no box/papers are pictured.",
+      "authenticity_risk": "high",
+      "authenticity_notes": "The asking price ($60,500) is roughly 6x the typical market value for a 16610 Submariner (usually $8k-$12k depending on year/condition), which is a massive red flag suggesting either a pricing error, a scam/bait listing, or possible fraud. The vague 'personal circumstances, priced to sell quickly' language combined with an absurd price is a classic red flag pattern even though here it's inflated rather than suspiciously cheap. No box, papers, or serial/reference engravings are shown to verify authenticity beyond the dial photo.",
+      "rarity_notes": "The 16610 is one of the most common and widely available Submariner references, produced in large numbers from 1988-2010; it is not rare and readily found on the secondary market.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and sought-after watch models globally, with consistently strong demand and liquidity in the resale market."
+    },
+    "deal_score": -537,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 51,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 51 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and sought-after watch models globally, with consistently strong demand and liquidity in the resale market.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 60500.0,
+    "discount": -5.368421052631579,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1788443570.5483487,
     "analysis_depth": "quick"
   }
 ]
