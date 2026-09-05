@@ -1,63 +1,5 @@
 [
   {
-    "id": "seiko willard:ebay:v1|178240274196|0",
-    "listing": {
-      "id": "ebay:v1|178240274196|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "Seiko 6105-8009T Captain Willard Diver Vintage Divers",
-      "url": "https://www.ebay.com/itm/178240274196?_skw=vintage+Seiko+Willard&hash=item297ff2bf14:g:QKMAAeSwS9pqNxhI",
-      "price": 1999.0,
-      "shipping_price": null,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/QKMAAeSwS9pqNxhI/s-l225.jpg",
-      "image_urls": [
-        "https://i.ebayimg.com/images/g/QKMAAeSwS9pqNxhI/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/3UAAAeSwmqxqNxg9/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/YnIAAeSwPQNqNxg9/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/we0AAeSw7QpqNxg9/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/2-YAAeSwZfZqNxg9/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/Ly4AAeSwt5tqNxg9/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/hnkAAeSwFatqNxg-/s-l1600.jpg"
-      ],
-      "body": "Seiko 6105-8009T Captain Willard Diver Vintage Divers",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "Pre-owned - Fair"
-      }
-    },
-    "watch_item_id": "seiko willard",
-    "analysis": {
-      "matches_criteria": true,
-      "match_reasoning": "The hunter's stated model is \"Willard,\" which is the nickname for the Seiko 6105-8xxx series divers (popularized by Apocalypse Now). This listing is a 6105-8009, the classic \"Captain Willard\" reference, so it matches the requested model. No box/papers or price ceiling was specified.",
-      "estimated_value": 1400.0,
-      "confidence": 0.55,
-      "condition_summary": "Well-worn vintage example: heavily scratched/hazed crystal (possibly acrylic with age cracks or lacquer wear), case shows notable wear and polishing rounding on lug edges, lume is aged/yellowed, and it's mounted on a non-original black cloth NATO-style strap rather than the original bracelet.",
-      "authenticity_risk": "medium",
-      "authenticity_notes": "Case and dial layout look consistent with a genuine 6105-8009 (correct \"Japan 6105\" dial marking, correct crown guard shape, correct bezel insert style), which is reassuring. However, the heavily damaged/crazed crystal makes it hard to fully verify dial printing details, no visible caseback or movement photo is provided to confirm serial/case matching, and no papers or provenance are mentioned - for a $2k vintage watch this is a notable gap. Crystal condition this poor is unusual for a listing photographed this closely, which could also indicate an added/non-original crystal down the line (replacement crystals are common on these and not inherently a red flag, but worth confirming with seller).",
-      "rarity_notes": "The 6105-8009 \"Captain Willard\" is a genuinely desirable, moderately scarce vintage Seiko diver from the early 1970s, well known among collectors; not as rare as some references but demand consistently exceeds supply for clean examples.",
-      "demand_tier": "High",
-      "demand_reasoning": "The 6105-8009 Willard is one of the most sought-after vintage Seiko divers, boosted by its film association and strong collector community recognition."
-    },
-    "deal_score": -43,
-    "liquidity": {
-      "rating": "High",
-      "comparable_count": 26,
-      "algorithmic_tier": "High",
-      "claude_tier": "High",
-      "reasoning": "Algorithmic signal: 26 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (The 6105-8009 Willard is one of the most sought-after vintage Seiko divers, boosted by its film association and strong collector community recognition.). Final rating uses the more conservative of the two: High."
-    },
-    "all_in_price": 1999.0,
-    "discount": -0.4278571428571429,
-    "notified": false,
-    "duplicate_of": "seiko willard:ebay:v1|336662826671|0",
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784924061.780381,
-    "analysis_depth": "quick"
-  },
-  {
     "id": "seiko willard:ebay:v1|297706191232|0",
     "listing": {
       "id": "ebay:v1|297706191232|0",
@@ -104913,5 +104855,62 @@
     "qa_history": [],
     "created_at": 1788558255.6508799,
     "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|287565985572|0",
+    "listing": {
+      "id": "ebay:v1|287565985572|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "1999 Rolex Submariner Date 40mm Oyster Steel Watch with Black Dial. (16610)",
+      "url": "https://www.ebay.com/itm/287565985572?_skw=Rolex+Submariner+black+dial&hash=item42f444b724:g:Pa8AAeSwWOBqmyu6",
+      "price": 10995.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/Pa8AAeSwWOBqmyu6/s-l225.jpg",
+      "image_urls": [
+        "https://i.ebayimg.com/images/g/Pa8AAeSwWOBqmyu6/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/qKEAAeSwaGNqmyu6/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/6JYAAeSwJK9qmyu6/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/n4QAAeSw4QFqmyu6/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/4C0AAeSw9fJqmyu6/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/9AQAAeSwpN5qmyu6/s-l1600.jpg"
+      ],
+      "body": "1999 Rolex Submariner Date 40mm Oyster Steel Watch with Black Dial. (16610)",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Reference 16610 is a Rolex Submariner Date with black dial, dated 1999 (post-1992), and the all-in price of $10,995 is under the $11,000 ceiling. Hunter's criteria did not specify a particular reference, so 16610 qualifies as a generic Submariner match.",
+      "estimated_value": 10500.0,
+      "confidence": 0.45,
+      "condition_summary": "Photos appear to be clean, well-lit studio/stock-style images showing a Submariner 16610 in apparently good cosmetic condition (bezel, dial, and bracelet look sharp with no obvious damage), but these look like generic catalog images rather than photos of the actual individual watch being sold.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "The images shown are identical across multiple angles in a way that strongly resembles stock/manufacturer-style photography rather than seller-taken photos of the specific watch - no closeups of case back, serial/reference numbers, hallmarks, or any box/papers are shown despite this being a $10,995 purchase. No mention of box/papers, service history, or seller credentials in the listing text. Buyers should insist on verifying actual serial number, engravings, and full documentation before purchase given the lack of item-specific photographic evidence.",
+      "rarity_notes": "The 16610 is one of the most common modern Submariner references (produced 1988-2010), so it is not rare, but remains highly desirable and liquid in the market.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and sought-after watch models globally, with consistently strong demand and liquidity in the pre-owned market."
+    },
+    "deal_score": -5,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 3102,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 3102 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and sought-after watch models globally, with consistently strong demand and liquidity in the pre-owned market.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 10995.0,
+    "discount": -0.047142857142857146,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|142805250737|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1788570852.096326,
+    "analysis_depth": "full"
   }
 ]
