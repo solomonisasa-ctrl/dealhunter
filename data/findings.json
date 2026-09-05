@@ -1,182 +1,5 @@
 [
   {
-    "id": "seiko willard:ebay:v1|205892262428|0",
-    "listing": {
-      "id": "ebay:v1|205892262428|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "Original Seiko 6105 8110 Capt Willard Apocalypse Now Crown",
-      "url": "https://www.ebay.com/itm/205892262428?_skw=vintage+Seiko+Willard&hash=item2ff0229a1c:g:c5cAAeSwQIRpL1JD",
-      "price": 284.43,
-      "shipping_price": 34.13,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/c5cAAeSwQIRpL1JD/s-l225.jpg",
-      "image_urls": [
-        "https://i.ebayimg.com/images/g/c5cAAeSwQIRpL1JD/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/8eEAAeSwLENpL1JD/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/e6kAAeSwmUdpL1JD/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/j6oAAeSwIfxpL1JD/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/qyIAAeSwqOJpL1JE/s-l1600.jpg"
-      ],
-      "body": "Original Seiko 6105 8110 Capt Willard Apocalypse Now Crown",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "Usato - Buono"
-      }
-    },
-    "watch_item_id": "seiko willard",
-    "analysis": {
-      "matches_criteria": false,
-      "match_reasoning": "The hunter is searching for a complete vintage Seiko Willard watch (6105/6309 diver). This listing is only for a single replacement crown part for the Seiko 6105-8110 \"Captain Willard,\" not a full watch. Even though it's the right reference family, it does not match the intent of acquiring the watch itself.",
-      "estimated_value": 25.0,
-      "confidence": 0.5,
-      "condition_summary": "Photos show a small used steel crown with 'LOCK' engraving and a tube, showing moderate wear/scratches consistent with age; no watch head, case, dial, or movement included.",
-      "authenticity_risk": "medium",
-      "authenticity_notes": "Claim of 'Original Seiko' crown cannot be verified from photos alone - no manufacturer markings beyond 'LOCK' text visible, and generic crown/tube parts are frequently reproduced or sourced from donor watches. No serial or box/papers to cross-check. Price seems plausible for a genuine crown but the leap from part to full watch could mislead an unwary buyer skimming the title.",
-      "rarity_notes": "Genuine screw-down crowns for the 6105-8110 'Willard' are moderately sought after by collectors doing restorations, since correct replacement parts for this specific case profile are not trivial to source, but this is a component, not the rare watch itself.",
-      "demand_tier": "Medium",
-      "demand_reasoning": "Seiko 6105/Willard parts have a dedicated collector/restorer niche demand, but it's far smaller than demand for the complete iconic watch itself."
-    },
-    "deal_score": -1174,
-    "liquidity": {
-      "rating": "Medium",
-      "comparable_count": 26,
-      "algorithmic_tier": "High",
-      "claude_tier": "Medium",
-      "reasoning": "Algorithmic signal: 26 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Seiko 6105/Willard parts have a dedicated collector/restorer niche demand, but it's far smaller than demand for the complete iconic watch itself.). Final rating uses the more conservative of the two: Medium."
-    },
-    "all_in_price": 318.56,
-    "discount": -11.7424,
-    "notified": false,
-    "duplicate_of": null,
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784924240.0946388,
-    "analysis_depth": "quick"
-  },
-  {
-    "id": "seiko willard:ebay:v1|135067267193|0",
-    "listing": {
-      "id": "ebay:v1|135067267193|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "Vintage  SEIKO 150M \"Proof\" Slim Willard Date Diver 6105-8000 Men's Watch",
-      "url": "https://www.ebay.com/itm/135067267193?_skw=vintage+Seiko+Willard&hash=item1f72a2f079:g:3qMAAOSwx5xmSs~7",
-      "price": 2800.0,
-      "shipping_price": 12.0,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/3qMAAOSwx5xmSs~7/s-l225.jpg",
-      "image_urls": [
-        "https://i.ebayimg.com/images/g/3qMAAOSwx5xmSs~7/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/VWEAAOSwhSxmSs~7/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/zy8AAOSwympmSs~7/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/fJkAAOSwD9pmSs~7/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/eEMAAOSwdItmSs~8/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/Cl8AAOSw4RNmSs~8/s-l1600.jpg"
-      ],
-      "body": "Vintage  SEIKO 150M \"Proof\" Slim Willard Date Diver 6105-8000 Men's Watch",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "Pre-owned - Good"
-      }
-    },
-    "watch_item_id": "seiko willard",
-    "analysis": {
-      "matches_criteria": true,
-      "match_reasoning": "The hunter's criteria named \"Seiko Willard\" generically (with 6105 mentioned as an example keyword, not a strict exclusive requirement) and this listing is a genuine 6105-8000 \"Willard\" model, which is one of the two watches commonly nicknamed Willard (6105-8000 and 8110). This matches the vintage Seiko Willard diver criteria.",
-      "estimated_value": 1800.0,
-      "confidence": 0.55,
-      "condition_summary": "Well-worn example with a faded/tropical-looking black dial, scratched crystal, scuffed case and bracelet, and heavy brassing/wear on the case sides. Bezel insert shows fading consistent with age; no box or papers shown or mentioned.",
-      "authenticity_risk": "medium",
-      "authenticity_notes": "Case, dial text, crown signage, and bracelet style all look period-correct for a 6105-8000, which is reassuring. However, listing text is extremely thin (no mention of movement service history, case back engravings/numbers, or confirmation that dial/hands/bezel are unpolished/original, all common risk points for this heavily-faked/relumed reference). No caseback photo shown, no serial number legible, and heavy case wear could be masking a relumed dial or polished case - both of which significantly affect value but can't be confirmed from these photos alone.",
-      "rarity_notes": "6105-8000 (first-generation Willard, no crown guards) is notably rarer and more sought-after than the later 6105-8110; genuine, unpolished, original-dial examples in any condition command a premium in the vintage dive watch community.",
-      "demand_tier": "High",
-      "demand_reasoning": "Seiko 6105-8000 \"Willard\" is an iconic, highly collected vintage diver (famously worn in Apocalypse Now) with strong and growing demand among vintage watch collectors."
-    },
-    "deal_score": -56,
-    "liquidity": {
-      "rating": "High",
-      "comparable_count": 26,
-      "algorithmic_tier": "High",
-      "claude_tier": "High",
-      "reasoning": "Algorithmic signal: 26 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Seiko 6105-8000 \"Willard\" is an iconic, highly collected vintage diver (famously worn in Apocalypse Now) with strong and growing demand among vintage watch collectors.). Final rating uses the more conservative of the two: High."
-    },
-    "all_in_price": 2812.0,
-    "discount": -0.5622222222222222,
-    "notified": false,
-    "duplicate_of": "seiko willard:ebay:v1|196069699243|0",
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784924252.2802396,
-    "analysis_depth": "quick"
-  },
-  {
-    "id": "Omega Constellation:ebay:v1|178336321519|0",
-    "listing": {
-      "id": "ebay:v1|178336321519|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "VINTAGE 1980s Omega Constellation Cal.1418 Roman Silver 25mm Quartz Men Watch JP",
-      "url": "https://www.ebay.com/itm/178336321519?_skw=vintage+Omega+Constellation&hash=item2985ac4fef:g:2BIAAeSwnYVoZJWA",
-      "price": 449.99,
-      "shipping_price": 100.0,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/2BIAAeSwnYVoZJWA/s-l225.jpg",
-      "image_urls": [
-        "https://i.ebayimg.com/images/g/2BIAAeSwnYVoZJWA/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/Yb8AAeSwOUJoZJV~/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/s3sAAeSwtsZoZJV~/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/SWkAAeSwHVloZJV~/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/yyoAAeSwBY1oZJV~/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/0CQAAeSwYqtoZJV~/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/8EIAAeSw7XNoZJV~/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/3ncAAeSwZ35oZJV~/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/QikAAeSw-R1oZJWA/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/rUgAAeSwskloZJV~/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/nGYAAeSwjAxoZJWB/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/EkoAAeSwhiFpQ2y6/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/qMMAAeSwpklpQ20L/s-l1600.jpg"
-      ],
-      "body": "VINTAGE 1980s Omega Constellation Cal.1418 Roman Silver 25mm Quartz Men Watch JP",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "Pre-owned - Good"
-      }
-    },
-    "watch_item_id": "Omega Constellation",
-    "analysis": {
-      "matches_criteria": true,
-      "match_reasoning": "Hunter's criteria are generic (\"vintage Omega Constellation\") without a specific reference or model requirement, so any genuine vintage Constellation qualifies. This is a 1980s Omega Constellation Chronometer Quartz in a TV/rectangular case, which fits the broad brief.",
-      "estimated_value": 450.0,
-      "confidence": 0.55,
-      "condition_summary": "Stainless steel case and integrated bracelet show light surface scratches typical of honest wear; dial, hands, and black inner bezel appear clean and correctly matched with no obvious damage or refinishing. Caseback photo shows Omega logo stamp but not full engraving/serial detail.",
-      "authenticity_risk": "low",
-      "authenticity_notes": "Photos appear to be genuine seller-taken images (multiple angles, consistent lighting/background) rather than stock photos, which is a good sign. Dial text, font, and Constellation/Chronometer/Quartz signature look consistent with genuine 1980s pieces. No visible serial number or movement shot is provided, so full authentication isn't possible from listing alone; caseback interior/movement photo would help confirm.",
-      "rarity_notes": "This rectangular \"TV-style\" quartz Constellation Chronometer from the early-mid 1980s is a known but less iconic variant compared to the classic round \"pie-pan\" or Manhattan Constellations; it's not particularly rare but is less commonly sought after than the more famous round vintage models.",
-      "demand_tier": "Medium",
-      "demand_reasoning": "Omega Constellation is a recognized, respected vintage line with solid collector demand, but this quartz rectangular variant is less desirable than the classic automatic round pie-pan models, which slightly tempers demand."
-    },
-    "deal_score": -22,
-    "liquidity": {
-      "rating": "Medium",
-      "comparable_count": 1256,
-      "algorithmic_tier": "High",
-      "claude_tier": "Medium",
-      "reasoning": "Algorithmic signal: 1256 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Omega Constellation is a recognized, respected vintage line with solid collector demand, but this quartz rectangular variant is less desirable than the classic automatic round pie-pan models, which slightly tempers demand.). Final rating uses the more conservative of the two: Medium."
-    },
-    "all_in_price": 549.99,
-    "discount": -0.2222,
-    "notified": false,
-    "duplicate_of": "Omega Constellation:ebay:v1|307083492557|0",
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784924827.5274205,
-    "analysis_depth": "quick"
-  },
-  {
     "id": "Omega Constellation:ebay:v1|377350891924|0",
     "listing": {
       "id": "ebay:v1|377350891924|0",
@@ -104795,6 +104618,156 @@
     "dismissed": false,
     "qa_history": [],
     "created_at": 1788613227.39646,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|366651076867|0",
+    "listing": {
+      "id": "ebay:v1|366651076867|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Pre-Owned Rolex Submariner Date 16610",
+      "url": "https://www.ebay.com/itm/366651076867?_skw=Rolex+Submariner&hash=item555e1b7103:g:S~kAAeSw5NJqmj21",
+      "price": 13650.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/S~kAAeSw5NJqmj21/s-l225.jpg",
+      "image_urls": [],
+      "body": "Pre-Owned Rolex Submariner Date 16610",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "New with box and papers"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Reference 16610 is a Submariner Date consistent with 1992-2010 production and black dial, so model/era generally aligns with the hunter's generic criteria. However, the all-in price of $13,650 exceeds the stated $11,000 ceiling, so it fails the price requirement.",
+      "estimated_value": 9500.0,
+      "confidence": 0.35,
+      "condition_summary": "Listing text gives no condition detail (\"Pre-Owned\") and the image appears to be a stock/catalog-style photo rather than an actual photo of the specific watch, making it impossible to verify true condition.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only one generic, catalog-style image is provided with no close-ups of serial/case back, hallmarks, or papers; no mention of box/papers, service history, or seller reputation. Price is notably above typical market for a 16610 (~$7,500-$9,500 range in excellent condition), which is unusual and unexplained, warranting caution.",
+      "rarity_notes": "The 16610 is a very common Submariner reference produced from 1988-2010 (with black dial full production window fitting 1992+ easily); not rare, widely available on the secondary market.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and sought-after watch models in the world, with consistently strong demand across all reference variants."
+    },
+    "deal_score": -44,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 5942,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 5942 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and sought-after watch models in the world, with consistently strong demand across all reference variants.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 13650.0,
+    "discount": -0.4368421052631579,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|147546687998|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1788631640.062708,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|366651076851|0",
+    "listing": {
+      "id": "ebay:v1|366651076851|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex Submariner Date 116610LN",
+      "url": "https://www.ebay.com/itm/366651076851?_skw=Rolex+Submariner&hash=item555e1b70f3:g:WRkAAeSw-qlqmj2y",
+      "price": 15540.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/WRkAAeSw-qlqmj2y/s-l225.jpg",
+      "image_urls": [],
+      "body": "Rolex Submariner Date 116610LN",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "New with box and papers"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The reference 116610LN is a black-dial Submariner Date produced well after 1992 (this ref started ~2010), so it fits the model/date/dial requirements. However, price is $15,540 all-in, far exceeding the buyer's $11,000 ceiling, so it fails the price criterion.",
+      "estimated_value": 10500.0,
+      "confidence": 0.5,
+      "condition_summary": "Cannot verify actual condition; only a generic stock-style image is provided with no close-up of wear, case, bracelet stretch, or bezel condition.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Image appears to be a stock/catalog photo rather than an actual photo of the specific watch being sold; no serial, papers, or box shown; minimal listing detail overall.",
+      "rarity_notes": "116610LN is a fairly common, widely produced modern Submariner reference (2010-2020), not a limited edition, so rarity is low but demand remains very high.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner Date is one of the most sought-after sport watches with strong, consistent demand and liquidity."
+    },
+    "deal_score": -48,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 5942,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 5942 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner Date is one of the most sought-after sport watches with strong, consistent demand and liquidity.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 15540.0,
+    "discount": -0.48,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|377466035398|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1788631639.5405889,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|366649318281|0",
+    "listing": {
+      "id": "ebay:v1|366649318281|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Pre-Owned Rolex Submariner Date 116613LB",
+      "url": "https://www.ebay.com/itm/366649318281?_skw=Rolex+Submariner&hash=item555e009b89:g:pnIAAeSw0zlqmj3e",
+      "price": 17010.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/pnIAAeSw0zlqmj3e/s-l225.jpg",
+      "image_urls": [],
+      "body": "Pre-Owned Rolex Submariner Date 116613LB",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "New with box and papers"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The hunter wants a black dial Submariner under $11,000. This listing is a two-tone 116613LB \"Bluesy\" with a blue dial, not black, and it's priced at $17,010, well above the $11,000 ceiling. Both dial color and price disqualify it.",
+      "estimated_value": 17000.0,
+      "confidence": 0.55,
+      "condition_summary": "Described only as \"Pre-Owned\" with a stock-style product image; no close-up photos of actual wear, case back, or clasp are shown, so real condition cannot be verified.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Image appears to be a generic catalog/stock photo rather than an actual photo of the specific watch being sold, which is a common red flag on marketplace listings. No serial/reference confirmation, box/papers, or actual wear shots are provided.",
+      "rarity_notes": "116613LB two-tone blue \"Bluesy\" Submariner is a popular but not rare reference; readily available on the market.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner two-tone blue models are highly recognized and in strong demand, though this specific listing doesn't match the hunter's stated black dial requirement."
+    },
+    "deal_score": 0,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 5942,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 5942 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner two-tone blue models are highly recognized and in strong demand, though this specific listing doesn't match the hunter's stated black dial requirement.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 17010.0,
+    "discount": -0.000588235294117647,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|257715144914|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1788631639.2878554,
     "analysis_depth": "quick"
   }
 ]
