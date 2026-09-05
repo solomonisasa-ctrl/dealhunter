@@ -1,612 +1,5 @@
 [
   {
-    "id": "seiko willard:ebay:v1|177168821997|0",
-    "listing": {
-      "id": "ebay:v1|177168821997|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "Vintage Rare Seiko Automatic 150m 2205-4090 Boy Diver Watch Ladies Baby Willard",
-      "url": "https://www.ebay.com/itm/177168821997?_skw=vintage+Seiko+Willard&hash=item294015aeed:g:KVUAAOSwLNloRMrJ",
-      "price": 696.9,
-      "shipping_price": null,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/KVUAAOSwLNloRMrJ/s-l225.jpg",
-      "image_urls": [
-        "https://i.ebayimg.com/images/g/KVUAAOSwLNloRMrJ/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/mKcAAOSw0ONoRMrI/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/TOUAAOSwyOBoRMrJ/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/3AYAAOSwXRtoRMrK/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/licAAOSwuYtoRMrJ/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/4o4AAOSwS5FoRMrJ/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/5fYAAOSwLFdoRMrJ/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/rQ8AAOSwxD5oRMrJ/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/qWcAAOSwoXVoRMrQ/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/Zu0AAOSwpNJoRMrK/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/wasAAOSwcnpoRMrK/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/xz8AAOSwyn9oRMrK/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/qNcAAOSwG65oRMrK/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/7T4AAOSwjzJoRMrK/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/x4sAAOSwSC1oRMrM/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/nDwAAOSwA1ZoRMrL/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/QBQAAOSwfqFoRMrL/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/pagAAOSwRlRoRMrM/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/ZU0AAOSwE~hoRMrM/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/jXcAAOSwv7doRMrM/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/heIAAOSwnXFoRMrM/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/uaoAAOSwHyloRMrM/s-l1600.jpg"
-      ],
-      "body": "Vintage Rare Seiko Automatic 150m 2205-4090 Boy Diver Watch Ladies Baby Willard",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "Pre-owned - Good"
-      }
-    },
-    "watch_item_id": "seiko willard",
-    "analysis": {
-      "matches_criteria": false,
-      "match_reasoning": "The hunter is specifically searching for the \"Willard\" model, which refers to the Seiko 6105-8110/8119 (and by extension 6309 \"Turtle\" is sometimes grouped in). This listing is a 2205-4090 \"Baby Willard\" / Ladies diver - a smaller, different reference marketed with \"Willard\" in the title purely for SEO/keyword association, but it is not the actual Seiko Willard model (6105). It's a different case, movement (2205 hand-wind/auto small diver), and size (mid-size/ladies), so it does not match the specific model criteria despite superficial styling similarities.",
-      "estimated_value": 90.0,
-      "confidence": 0.55,
-      "condition_summary": "Well-worn vintage small diver with scratched crystal, visible dial wear/scuffs near hands, aftermarket rubber strap, and case wear consistent with age; running condition not confirmed in text.",
-      "authenticity_risk": "low",
-      "authenticity_notes": "Photos appear to be genuine real-world shots (not stock images) with consistent case/dial details across multiple angles; dial text and caseback markings look plausible for a Seiko 2205 diver. No major red flags, but \"Rare\" and \"Willard\" in the title are misleading marketing since this is a much smaller, different reference than the actual 6105 Willard.",
-      "rarity_notes": "The 2205-4090 \"Baby Willard\" mid-size diver is a lesser-known variant, not especially rare or highly sought after compared to the true 6105 Willard, which is a well-documented vintage grail.",
-      "demand_tier": "Low",
-      "demand_reasoning": "While Seiko divers have strong collector demand, this specific small/ladies 2205 reference has niche appeal and is often bought as an affordable alternative, not the actual Willard collectors seek."
-    },
-    "deal_score": -674,
-    "liquidity": {
-      "rating": "Low",
-      "comparable_count": 26,
-      "algorithmic_tier": "High",
-      "claude_tier": "Low",
-      "reasoning": "Algorithmic signal: 26 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Low (While Seiko divers have strong collector demand, this specific small/ladies 2205 reference has niche appeal and is often bought as an affordable alternative, not the actual Willard collectors seek.). Final rating uses the more conservative of the two: Low."
-    },
-    "all_in_price": 696.9,
-    "discount": -6.743333333333333,
-    "notified": false,
-    "duplicate_of": "seiko willard:ebay:v1|227414878548|0",
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784924117.806508,
-    "analysis_depth": "quick"
-  },
-  {
-    "id": "seiko willard:ebay:v1|357323040387|0",
-    "listing": {
-      "id": "ebay:v1|357323040387|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "Seiko 1972 6105-8119 Automatic Dive Watch Captain Willard Vintage",
-      "url": "https://www.ebay.com/itm/357323040387?_skw=vintage+Seiko+Willard&hash=item53321ce683:g:PWQAAeSwWzBofW~w",
-      "price": 1600.0,
-      "shipping_price": null,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/PWQAAeSwWzBofW~w/s-l225.jpg",
-      "image_urls": [
-        "https://i.ebayimg.com/images/g/PWQAAeSwWzBofW~w/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/N58AAeSwaTNofW~y/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/QCkAAeSw1H9ofW~y/s-l1600.jpg"
-      ],
-      "body": "Seiko 1972 6105-8119 Automatic Dive Watch Captain Willard Vintage",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "Pre-owned - Good"
-      }
-    },
-    "watch_item_id": "seiko willard",
-    "analysis": {
-      "matches_criteria": true,
-      "match_reasoning": "Hunter's criteria is generic \"vintage Seiko Willard\" with no specific reference required (though 6105 is listed as a keyword). This listing is a genuine 6105-8119, the classic \"Captain Willard\" reference, so it matches the category well.",
-      "estimated_value": 1500.0,
-      "confidence": 0.55,
-      "condition_summary": "Well-worn vintage piece with a scratched/patinated case, aged dial with some discoloration around edges, and lume plots showing typical aging. Currently on a non-original NATO strap; no original bracelet, box, or papers shown.",
-      "authenticity_risk": "medium",
-      "authenticity_notes": "Caseback stamping (6105-8110 style engraving) and dial layout are consistent with genuine 6105-8119 examples, which is reassuring. However, no movement photo is provided to verify caliber/serial consistency, and the dial's condition/printing can't be fully verified for reprint or refinish work from these photos alone. Case bezel insert and crystal appear original-style but the seller provides minimal descriptive text (just a title), no service history, no close-up of movement or full caseback numbers - this thin listing detail plus lack of provenance is a moderate red flag for a $1600 vintage piece.",
-      "rarity_notes": "The 6105-8119 (\"Captain Willard,\" popularized by Apocalypse Now) is a highly sought vintage Seiko dive watch. Not ultra-rare but consistently in strong collector demand, especially in original, unpolished condition.",
-      "demand_tier": "High",
-      "demand_reasoning": "The 6105-8119 Willard is one of the most iconic and desirable vintage Seiko divers, with strong and consistent collector demand worldwide."
-    },
-    "deal_score": -7,
-    "liquidity": {
-      "rating": "High",
-      "comparable_count": 26,
-      "algorithmic_tier": "High",
-      "claude_tier": "High",
-      "reasoning": "Algorithmic signal: 26 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (The 6105-8119 Willard is one of the most iconic and desirable vintage Seiko divers, with strong and consistent collector demand worldwide.). Final rating uses the more conservative of the two: High."
-    },
-    "all_in_price": 1600.0,
-    "discount": -0.06666666666666667,
-    "notified": false,
-    "duplicate_of": null,
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784924129.2640872,
-    "analysis_depth": "quick"
-  },
-  {
-    "id": "seiko willard:ebay:v1|389649500819|0",
-    "listing": {
-      "id": "ebay:v1|389649500819|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "1972 Vintage Seiko 6105-8119 Automatic Dive Watch \"Captain Willard\"",
-      "url": "https://www.ebay.com/itm/389649500819?_skw=vintage+Seiko+Willard&hash=item5ab8eb8a93:g:pU8AAeSwEEtpmPOr",
-      "price": 2800.0,
-      "shipping_price": null,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/pU8AAeSwEEtpmPOr/s-l225.jpg",
-      "image_urls": [
-        "https://i.ebayimg.com/images/g/pU8AAeSwEEtpmPOr/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/9PUAAeSw5EhpmPCM/s-l1600.jpg"
-      ],
-      "body": "1972 Vintage Seiko 6105-8119 Automatic Dive Watch \"Captain Willard\"",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "Pre-owned - Good"
-      }
-    },
-    "watch_item_id": "seiko willard",
-    "analysis": {
-      "matches_criteria": true,
-      "match_reasoning": "The hunter's criteria was generic - \"vintage Seiko Willard\" with no specific reference required, and the provided keyword list explicitly includes Seiko 6105. This listing is a genuine 6105-8119, the watch universally nicknamed \"Captain Willard,\" so it matches the hunt.",
-      "estimated_value": 2600.0,
-      "confidence": 0.6,
-      "condition_summary": "Case shows notable brassing/wear on lugs and bezel, dial and lume appear original with aging (creamy lume, some dial marks), crystal has some scratches/haze. Overall an honest, well-worn all-original example rather than a mint or polished piece.",
-      "authenticity_risk": "low",
-      "authenticity_notes": "Caseback clearly shows correct 6105-8119 reference, \"Japan A\" and serial 3D0962 (indicating March 1973 production, minor discrepancy with title's \"1972\" but within normal variance/rounding by seller), consistent with genuine examples. Dial text, hand shapes, and case shape look correct for the reference. No box/papers shown or claimed, which is typical for a 50-year-old tool watch and not a red flag by itself. Only mild concern is the seller didn't provide movement photos or service history, and only two photos are given (front and caseback) rather than a fuller set (crystal edge, movement, strap underside) which would help confirm originality further.",
-      "rarity_notes": "The 6105-8119 (\"Willard\") is a genuinely sought-after vintage Seiko diver made famous by Martin Sheen in Apocalypse Now; not as rare as some limited editions but increasingly hard to find in unpolished, honest condition with correct dial/hands/case.",
-      "demand_tier": "High",
-      "demand_reasoning": "Seiko 6105-8119 is one of the most recognized and desired vintage Seiko dive watches, driven by strong collector demand and pop-culture association, keeping resale values firm."
-    },
-    "deal_score": -8,
-    "liquidity": {
-      "rating": "High",
-      "comparable_count": 26,
-      "algorithmic_tier": "High",
-      "claude_tier": "High",
-      "reasoning": "Algorithmic signal: 26 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Seiko 6105-8119 is one of the most recognized and desired vintage Seiko dive watches, driven by strong collector demand and pop-culture association, keeping resale values firm.). Final rating uses the more conservative of the two: High."
-    },
-    "all_in_price": 2800.0,
-    "discount": -0.07692307692307693,
-    "notified": false,
-    "duplicate_of": "seiko willard:ebay:v1|157944536004|0",
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784924140.7921531,
-    "analysis_depth": "quick"
-  },
-  {
-    "id": "seiko willard:ebay:v1|147389337343|0",
-    "listing": {
-      "id": "ebay:v1|147389337343|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "Seiko 6105-8000 \"Slim Willard\" Automatic Men's Diver's Watch Vintage 1968",
-      "url": "https://www.ebay.com/itm/147389337343?_skw=vintage+Seiko+Willard&hash=item225116ceff:g:AdgAAeSwLodqN9hi",
-      "price": 2230.08,
-      "shipping_price": null,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/AdgAAeSwLodqN9hi/s-l225.jpg",
-      "image_urls": [
-        "https://i.ebayimg.com/images/g/AdgAAeSwLodqN9hi/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/~0oAAeSwnn9qN9hh/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/gfEAAeSwX61qN9hj/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/GHIAAeSw5oRqN9hj/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/UDQAAeSwKqNqN9hj/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/XPQAAeSwFNhqN9hk/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/OQ4AAeSw9tRqN9hk/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/BDkAAeSwUCdqN9hl/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/QIoAAeSwtOZqN9hl/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/hWEAAeSwqZ9qN9hm/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/GlEAAeSwGN5qN9hm/s-l1600.jpg"
-      ],
-      "body": "Seiko 6105-8000 \"Slim Willard\" Automatic Men's Diver's Watch Vintage 1968",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "Pre-owned - Good"
-      }
-    },
-    "watch_item_id": "seiko willard",
-    "analysis": {
-      "matches_criteria": true,
-      "match_reasoning": "The hunter's criteria is generic \"vintage Seiko Willard\" with the 6105 explicitly listed as a target keyword. This listing is a Seiko 6105-8000 \"Slim Willard,\" which is exactly the Willard reference family the hunter is seeking, so it matches.",
-      "estimated_value": 2000.0,
-      "confidence": 0.55,
-      "condition_summary": "Well-worn original watch with a faded/aged glossy black dial, aged lume plots showing yellow/brown patina, brushed case with visible micro-scratches, and a cracked/aged rubber Seiko-branded strap. Crystal appears to have some scuffing but no major cracks visible.",
-      "authenticity_risk": "medium",
-      "authenticity_notes": "Dial text, \"JAPAN 6105\" and \"-8000T\" case markings, and bezel design all appear consistent with a genuine 6105-8000. No caseback or movement photos shown, no serial number visible/confirmed in text, which is a gap for verifying date coderes and originality of parts (dial, hands, bezel insert). Rubber strap looks like a period-correct Seiko diver strap but its authenticity/originality can't be confirmed from photos alone. Price is within plausible market range, not suspiciously low, which reduces scam risk somewhat, but lack of movement/caseback shot and serial closeup is a moderate red flag for a $2200+ vintage piece.",
-      "rarity_notes": "The 6105-8000 (\"Slim Willard,\" 1968-1970 production, predecessor to the more common 6105-8110) is scarcer than the later 6105-8110 \"Willard\" and commands a premium among collectors due to shorter production run and thinner case.",
-      "demand_tier": "High",
-      "demand_reasoning": "Seiko 6105 Willard models (popularized partly by Apocalypse Now associations) are highly sought after in vintage dive watch collecting circles, with strong and consistent demand and rising prices."
-    },
-    "deal_score": -12,
-    "liquidity": {
-      "rating": "High",
-      "comparable_count": 26,
-      "algorithmic_tier": "High",
-      "claude_tier": "High",
-      "reasoning": "Algorithmic signal: 26 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Seiko 6105 Willard models (popularized partly by Apocalypse Now associations) are highly sought after in vintage dive watch collecting circles, with strong and consistent demand and rising prices.). Final rating uses the more conservative of the two: High."
-    },
-    "all_in_price": 2230.08,
-    "discount": -0.11503999999999996,
-    "notified": false,
-    "duplicate_of": null,
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784924151.6037781,
-    "analysis_depth": "quick"
-  },
-  {
-    "id": "seiko willard:ebay:v1|397435225563|0",
-    "listing": {
-      "id": "ebay:v1|397435225563|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "Seiko Scuba Diver 6105-8110 Captain Willard Vintage 9048",
-      "url": "https://www.ebay.com/itm/397435225563?_skw=vintage+Seiko+Willard&hash=item5c88fc45db:g:yDgAAeSwdbtqU6vs",
-      "price": 2252.65,
-      "shipping_price": 67.12,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/yDgAAeSwdbtqU6vs/s-l225.jpg",
-      "image_urls": [
-        "https://i.ebayimg.com/images/g/yDgAAeSwdbtqU6vs/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/mXkAAeSwdhFqU6vt/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/b-4AAeSwN09qU6vv/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/0hMAAeSwD-BqU6vw/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/2tEAAeSwYrtqU6vy/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/Xt8AAeSwtcBqU6v0/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/RMYAAeSwENVqU6v1/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/7hsAAeSwrhNqU6v3/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/ZFEAAeSwhEBqU6v5/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/yvYAAeSwizZqU6v6/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/ioUAAeSwMDlqU6v8/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/OvUAAeSwahlqU6v~/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/y8IAAeSwEMdqU6wA/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/xNIAAeSwINxqU6wC/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/viAAAeSwz-BqU6wD/s-l1600.jpg"
-      ],
-      "body": "Seiko Scuba Diver 6105-8110 Captain Willard Vintage 9048",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "Usato - Buono"
-      }
-    },
-    "watch_item_id": "seiko willard",
-    "analysis": {
-      "matches_criteria": true,
-      "match_reasoning": "Hunter's criteria named \"Seiko Willard\" generically (with 6105/6309 as example keywords, not a strict single reference requirement). This listing is a genuine Seiko 6105-8110, the watch universally nicknamed \"Captain Willard\" due to Martin Sheen wearing one in Apocalypse Now, so it matches the model family being sought.",
-      "estimated_value": 1800.0,
-      "confidence": 0.55,
-      "condition_summary": "Well-worn vintage example: heavily scratched acrylic crystal, faded/aged lume with some plots discolored, scuffed bezel insert with chips near the triangle, case shows notable brushing wear and edge wear on lugs. Appears to be running (hands positioned, not stopped) but no movement/caseback shots provided.",
-      "authenticity_risk": "medium",
-      "authenticity_notes": "No caseback, movement, or serial number photos are shown, which is a notable gap for a $2,300 vintage Seiko - buyers should always confirm serial/case markings match a genuine 6105-8110 and that the dial, hands, bezel insert, and case are original to each other (redials and franken-watches are extremely common in this reference). The strap looks like a generic tropic-style rubber replacement, not original, which isn't a red flag itself but should be priced accordingly. Title's \"9048\" suffix is unclear (possibly a listing SKU) - not inherently suspicious but worth clarifying with seller.",
-      "rarity_notes": "The 6105-8110 (\"Willard\") is a genuinely desirable and collectible vintage Seiko diver, not ultra-rare but firmly sought after; condition and originality (dial/hands/bezel/case matching) drive value swings significantly for this ref.",
-      "demand_tier": "High",
-      "demand_reasoning": "The 6105-8110 \"Captain Willard\" is one of the most recognized and actively collected vintage Seiko divers, with strong sustained demand among vintage watch enthusiasts."
-    },
-    "deal_score": -29,
-    "liquidity": {
-      "rating": "High",
-      "comparable_count": 26,
-      "algorithmic_tier": "High",
-      "claude_tier": "High",
-      "reasoning": "Algorithmic signal: 26 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (The 6105-8110 \"Captain Willard\" is one of the most recognized and actively collected vintage Seiko divers, with strong sustained demand among vintage watch enthusiasts.). Final rating uses the more conservative of the two: High."
-    },
-    "all_in_price": 2319.77,
-    "discount": -0.2887611111111111,
-    "notified": false,
-    "duplicate_of": null,
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784924164.7296617,
-    "analysis_depth": "quick"
-  },
-  {
-    "id": "seiko willard:ebay:v1|394860097145|0",
-    "listing": {
-      "id": "ebay:v1|394860097145|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "Seiko 6105-8110 Vintage  Captain Willard",
-      "url": "https://www.ebay.com/itm/394860097145?_skw=vintage+Seiko+Willard&hash=item5bef7eee79:g:WsgAAOSw~u9k9wP-",
-      "price": 2656.34,
-      "shipping_price": null,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/WsgAAOSw~u9k9wP-/s-l225.jpg",
-      "image_urls": [
-        "https://i.ebayimg.com/images/g/WsgAAOSw~u9k9wP-/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/qx0AAOSwyoRk9wP6/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/8L8AAOSwn65k9wP7/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/tqwAAOSwEMtk9wP8/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/yJIAAOSwlMRk9wP8/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/QHgAAOSwao9k9wP9/s-l1600.jpg"
-      ],
-      "body": "Seiko 6105-8110 Vintage  Captain Willard",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "Pre-owned - Good"
-      }
-    },
-    "watch_item_id": "seiko willard",
-    "analysis": {
-      "matches_criteria": true,
-      "match_reasoning": "Hunter's criteria named \"Seiko Willard\" generically (with 6105 explicitly listed as an acceptable keyword), and this listing is a genuine Seiko 6105-8110, the actual reference nicknamed \"Captain Willard.\" This matches the vintage Willard criteria well.",
-      "estimated_value": 1800.0,
-      "confidence": 0.55,
-      "condition_summary": "Well-worn example with a scratched/faded bezel insert, heavily scuffed crystal, visible case wear/scratches, and aged lume plots; bracelet shows scratching consistent with age. Caseback confirms 6105-8110 reference, though a hairline crack near the lug is visible in one shot.",
-      "authenticity_risk": "medium",
-      "authenticity_notes": "Caseback markings (6105-8110, Japan A, serial 370029) look period-correct and dial/hand/lume style matches known Willard examples, which is reassuring. However, no movement photo is shown to confirm the caliber matches the case, no shots of the full serial for cross-referencing production date consistency, and the crystal's heavy scratching could be hiding a replacement or poor service history. The price ($2,656) is on the higher end for a heavily worn, non-boxed example, which could indicate seller optimism rather than fraud, but the lack of service/history details and only casual wrist/table photos (no papers, no box, no movement shot) leaves some verification gaps.",
-      "rarity_notes": "The 6105-8110 (\"Captain Willard,\" popularized by Apocalypse Now) is a genuinely desirable and increasingly scarce vintage Seiko diver; earlier dash-numbers and honeycomb dial variants are rarer, but this later 8110 execution is still sought after and harder to find in complete, unmolested condition.",
-      "demand_tier": "High",
-      "demand_reasoning": "Seiko 6105 Willard divers have a cult following in the vintage watch community due to pop-culture association and rugged vintage-diver aesthetic, driving consistently strong demand and resale value even in well-worn condition."
-    },
-    "deal_score": -48,
-    "liquidity": {
-      "rating": "High",
-      "comparable_count": 26,
-      "algorithmic_tier": "High",
-      "claude_tier": "High",
-      "reasoning": "Algorithmic signal: 26 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Seiko 6105 Willard divers have a cult following in the vintage watch community due to pop-culture association and rugged vintage-diver aesthetic, driving consistently strong demand and resale value even in well-worn condition.). Final rating uses the more conservative of the two: High."
-    },
-    "all_in_price": 2656.34,
-    "discount": -0.4757444444444445,
-    "notified": false,
-    "duplicate_of": "seiko willard:ebay:v1|157435466721|0",
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784924178.2577527,
-    "analysis_depth": "quick"
-  },
-  {
-    "id": "seiko willard:ebay:v1|187447475244|0",
-    "listing": {
-      "id": "ebay:v1|187447475244|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "Rare Seiko 6105-8000 Vintage Early Second Diver Unpolished Slim Willard",
-      "url": "https://www.ebay.com/itm/187447475244?_skw=vintage+Seiko+Willard&hash=item2ba4bd7c2c:g:FCoAAeSwjURoiKiT",
-      "price": 5721.99,
-      "shipping_price": 0.0,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/FCoAAeSwjURoiKiT/s-l225.jpg",
-      "image_urls": [
-        "https://i.ebayimg.com/images/g/FCoAAeSwjURoiKiT/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/PPkAAeSwcdloiKiT/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/AqcAAeSwY21oiKiT/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/MVwAAeSw089oiKiT/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/Fg0AAeSwzM5oiKiW/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/MbgAAeSwt8hoiKiS/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/MxEAAeSwgEVoiKiS/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/88gAAeSwuQBoiKiT/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/S2wAAeSwzJ9oiKiT/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/EbIAAeSw4~VoiKiT/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/DXEAAeSwQbBoiKiT/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/F44AAeSwcjdoiKiT/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/GtIAAeSw-j1oiKiT/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/JXoAAeSwQAVoiKiT/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/MUEAAeSw~vdoiKiT/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/D0kAAeSwa2VoiKiT/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/JTAAAeSwbFVoiKiS/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/G2QAAeSwCXFoiKiS/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/IHQAAeSwiaJoiKiS/s-l1600.jpg"
-      ],
-      "body": "Rare Seiko 6105-8000 Vintage Early Second Diver Unpolished Slim Willard",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "Pre-owned - Good"
-      }
-    },
-    "watch_item_id": "seiko willard",
-    "analysis": {
-      "matches_criteria": true,
-      "match_reasoning": "Hunter's criteria named \"Seiko Willard\" generically (with 6105/6309 as example keywords, not a strict single reference requirement). This listing is a genuine Seiko 6105-8000, the original \"Willard\" reference (pre-8110), so it matches the model family being hunted.",
-      "estimated_value": 3800.0,
-      "confidence": 0.55,
-      "condition_summary": "Vintage 6105-8000 with unpolished case showing sharp bevels/edges (\"bakibaki\" sharp lugs per seller), aged lume, some dial/handset patina, and a replacement (aftermarket) crystal - seller discloses glass has been replaced and a full service (OH) was performed.",
-      "authenticity_risk": "medium",
-      "authenticity_notes": "Photos appear to be real (not obvious stock images), showing an actual watch in-hand from multiple angles, which is reassuring. However: no caseback photo shown (can't verify serial/case markings), no movement photo to confirm original 6105A movement, and no box/papers (typical for a watch this old, not a red flag itself). Disclosed non-original crystal is a genuine transparency point but also means the watch has aftermarket parts. Price of $5,721.99 is notably higher than typical market comps for a 6105-8000 in this condition (usually $2,000-$4,500 depending on originality), which is itself a flag - either the seller believes it's exceptional/rare or is overpricing; no service records/warranty details provided to justify the \"OH\u6e08\u307f\" (fully serviced) premium claim.",
-      "rarity_notes": "The 6105-8000 (\"early\" pre-8110 first execution, sometimes called the true \"Captain Willard\" seen in Apocalypse Now) is a genuinely desirable and moderately rare vintage Seiko diver, especially unpolished examples with sharp case lines, which command a premium over worn/polished examples.",
-      "demand_tier": "High",
-      "demand_reasoning": "Seiko 6105-8000 Willard divers are highly sought after in vintage watch collecting circles due to pop-culture association and distinctive cushion case design, driving strong demand especially for unpolished, well-preserved examples."
-    },
-    "deal_score": -51,
-    "liquidity": {
-      "rating": "High",
-      "comparable_count": 26,
-      "algorithmic_tier": "High",
-      "claude_tier": "High",
-      "reasoning": "Algorithmic signal: 26 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Seiko 6105-8000 Willard divers are highly sought after in vintage watch collecting circles due to pop-culture association and distinctive cushion case design, driving strong demand especially for unpolished, well-preserved examples.). Final rating uses the more conservative of the two: High."
-    },
-    "all_in_price": 5721.99,
-    "discount": -0.5057868421052631,
-    "notified": false,
-    "duplicate_of": null,
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784924191.1481142,
-    "analysis_depth": "quick"
-  },
-  {
-    "id": "seiko willard:ebay:v1|326005350088|0",
-    "listing": {
-      "id": "ebay:v1|326005350088|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "SEIKO 6105-8110 44MM CAPTAIN WILLARD WITH STAINLESS STEEL BRACEL VINTAGE RARE",
-      "url": "https://www.ebay.com/itm/326005350088?_skw=vintage+Seiko+Willard&hash=item4be76edec8:g:tWgAAOSwX-hlySWO",
-      "price": 3999.99,
-      "shipping_price": null,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/tWgAAOSwX-hlySWO/s-l225.jpg",
-      "image_urls": [
-        "https://i.ebayimg.com/images/g/tWgAAOSwX-hlySWO/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/DtsAAOSwqOplySWO/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/MysAAOSwuHJlySWO/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/goMAAOSwoDllySWS/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/vsMAAOSwFn1lySWO/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/rXYAAOSwD7RlySWP/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/kUUAAOSw3jtlySWP/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/08AAAOSw7mJlySWP/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/CfEAAOSwiLxlySWP/s-l1600.jpg"
-      ],
-      "body": "SEIKO 6105-8110 44MM CAPTAIN WILLARD WITH STAINLESS STEEL BRACEL VINTAGE RARE",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "Pre-owned - Good"
-      }
-    },
-    "watch_item_id": "seiko willard",
-    "analysis": {
-      "matches_criteria": true,
-      "match_reasoning": "The hunter's criteria named 'Seiko Willard' generically (also listing 6105 as a search keyword) without specifying a sub-reference, so the 6105-8110 'Captain Willard' qualifies as a match to the vintage Seiko Willard hunt.",
-      "estimated_value": 2400.0,
-      "confidence": 0.55,
-      "condition_summary": "Well-worn vintage piece: case shows heavy brushing/polishing wear and scratches, bezel insert has fading/wear at edges, lume plots are aged/yellowed with some cracking on the 12 o'clock marker, crystal shows scratches. Case back correctly stamped 6105-8110 with serial 3D0569 (1973 production). Bracelet appears to be a generic/aftermarket stainless bracelet rather than the original Seiko jubilee-style or tropic strap typically paired with this ref.",
-      "authenticity_risk": "medium",
-      "authenticity_notes": "Case back stamping (6105-8110, JAPAN A, serial 3D0569) and dial text/lume layout look consistent with genuine examples, which is a good sign. However: (1) the bracelet is not the correct period bracelet for this model, suggesting a marriage or aftermarket replacement - not disclosed in text; (2) no photos of movement or full caseback edge to confirm no re-lumed/redial; (3) listing text is extremely thin (just a repeated title, no condition disclosure, no mention of running/accuracy, service history, or original box/papers); (4) 'RARE' in the title is a common inflation buzzphrase. These combined push risk to medium rather than low.",
-      "rarity_notes": "The 6105-8110 ('Captain Willard', made famous by Apocalypse Now) is a genuinely desirable and increasingly scarce vintage Seiko diver, particularly in unpolished, original condition - this example appears moderately polished/worn, which reduces rarity premium versus mint examples.",
-      "demand_tier": "High",
-      "demand_reasoning": "The Seiko 6105-8110 Willard is one of the most sought-after vintage Seiko dive watches among collectors due to its film association and design, commanding strong and consistent demand in the vintage watch market."
-    },
-    "deal_score": -67,
-    "liquidity": {
-      "rating": "High",
-      "comparable_count": 26,
-      "algorithmic_tier": "High",
-      "claude_tier": "High",
-      "reasoning": "Algorithmic signal: 26 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (The Seiko 6105-8110 Willard is one of the most sought-after vintage Seiko dive watches among collectors due to its film association and design, commanding strong and consistent demand in the vintage watch market.). Final rating uses the more conservative of the two: High."
-    },
-    "all_in_price": 3999.99,
-    "discount": -0.6666624999999999,
-    "notified": false,
-    "duplicate_of": null,
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784924205.3814194,
-    "analysis_depth": "quick"
-  },
-  {
-    "id": "seiko willard:ebay:v1|196069699243|0",
-    "listing": {
-      "id": "ebay:v1|196069699243|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "Vintage Seiko \"Captain Willard\" dive watch\u00a0model # 6105-8110",
-      "url": "https://www.ebay.com/itm/196069699243?_skw=vintage+Seiko+Willard&hash=item2da6aa2eab:g:yuEAAOSwz2hlSn4x",
-      "price": 3000.0,
-      "shipping_price": null,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/yuEAAOSwz2hlSn4x/s-l225.jpg",
-      "image_urls": [
-        "https://i.ebayimg.com/images/g/yuEAAOSwz2hlSn4x/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/MYQAAOSw4HplSn43/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/YLgAAOSwHT9lSn49/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/4oQAAOSwgqRlSoEP/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/-X4AAOSwZWtlSoEP/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/-XEAAOSw5cplSoEP/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/BDsAAOSwEEZlSoEP/s-l1600.jpg"
-      ],
-      "body": "Vintage Seiko \"Captain Willard\" dive watch\u00a0model # 6105-8110",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "Pre-owned - Good"
-      }
-    },
-    "watch_item_id": "seiko willard",
-    "analysis": {
-      "matches_criteria": true,
-      "match_reasoning": "Hunter wants a vintage Seiko \"Willard\" - this is the 6105-8110, the original \"Captain Willard\" reference (famous from Apocalypse Now), which is the quintessential Willard model. This matches the criteria well.",
-      "estimated_value": 2600.0,
-      "confidence": 0.55,
-      "condition_summary": "Case shows notable brassing/wear on lugs and case sides, a heavily aged/scratched crystal with visible haze, and a black dial/bezel that appear largely intact; strap is a generic aftermarket diver rubber strap, not original.",
-      "authenticity_risk": "medium",
-      "authenticity_notes": "Major red flag: the caseback is stamped \"6105-8119\" while the title/listing claims model \"6105-8110\" - this reference mismatch between the case back and the advertised model needs explanation, as it could indicate a redialed/franken watch, a parts-swapped case, or simply a typo, but this should be verified with the seller before buying. The crystal looks very worn/scratched for a watch otherwise presented in a nice modern presentation box, which is a slightly unusual combo (box suggests careful recent handling, crystal suggests decades of hard wear - not necessarily suspicious but worth noting). No visible movement photo to confirm caliber/serial consistency.",
-      "rarity_notes": "The 6105-8110 (\"Captain Willard\") is a genuinely rare, highly sought vintage Seiko diver from the early 1970s, especially in original/unpolished condition. If authentic and correctly matched, it commands strong prices; the case reference discrepancy noted above significantly affects rarity/value confidence.",
-      "demand_tier": "High",
-      "demand_reasoning": "The Seiko 6105-8110 \"Captain Willard\" is one of the most iconic and collected vintage Seiko divers, with strong ongoing demand among vintage watch collectors."
-    },
-    "deal_score": -15,
-    "liquidity": {
-      "rating": "High",
-      "comparable_count": 26,
-      "algorithmic_tier": "High",
-      "claude_tier": "High",
-      "reasoning": "Algorithmic signal: 26 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (The Seiko 6105-8110 \"Captain Willard\" is one of the most iconic and collected vintage Seiko divers, with strong ongoing demand among vintage watch collectors.). Final rating uses the more conservative of the two: High."
-    },
-    "all_in_price": 3000.0,
-    "discount": -0.15384615384615385,
-    "notified": false,
-    "duplicate_of": null,
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784924216.50878,
-    "analysis_depth": "quick"
-  },
-  {
-    "id": "seiko willard:ebay:v1|356739940872|0",
-    "listing": {
-      "id": "ebay:v1|356739940872|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "1972 Vintage Seiko 6105-8119 Automatic Dive Watch \"Captain Willard\"",
-      "url": "https://www.ebay.com/itm/356739940872?_skw=vintage+Seiko+Willard&hash=item530f5b8208:g:5R8AAeSwXkVn8KWh",
-      "price": 2500.0,
-      "shipping_price": null,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/5R8AAeSwXkVn8KWh/s-l225.jpg",
-      "image_urls": [
-        "https://i.ebayimg.com/images/g/5R8AAeSwXkVn8KWh/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/W1QAAeSwtI5n8KZb/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/S2gAAeSwfGRn8KXR/s-l1600.jpg"
-      ],
-      "body": "1972 Vintage Seiko 6105-8119 Automatic Dive Watch \"Captain Willard\"",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "Pre-owned - Good"
-      }
-    },
-    "watch_item_id": "seiko willard",
-    "analysis": {
-      "matches_criteria": true,
-      "match_reasoning": "Hunter's criteria was generic \"vintage Seiko Willard\" without a specific reference required, and this listing is a genuine 6105-8119 \"Captain Willard\" - the quintessential model associated with that nickname, so it matches.",
-      "estimated_value": 1800.0,
-      "confidence": 0.55,
-      "condition_summary": "Heavily worn case with significant scratching and brassing on the bezel insert and case edges; crystal shows wear/haze; dial and lume plots appear largely intact with visible aging/patina; no bracelet/strap included, no box or papers shown.",
-      "authenticity_risk": "medium",
-      "authenticity_notes": "Caseback engraving (\"6105-8119 STAINLESS STEEL WATER RESISTANT SEIKO\") and serial number look consistent with genuine examples, which is reassuring. However, photos are casual snapshots (on a glove, in a hand) rather than professional listing photos, and there's no shot of the movement to confirm it's the correct caliber and hasn't been swapped/franken-watched, which is common in this reference given its popularity and value. Case and dial should be cross-checked for matching serial-era fonts and hand style.",
-      "rarity_notes": "The 6105-8119 is a genuinely sought-after vintage Seiko dive watch (worn in Apocalypse Now, hence \"Captain Willard\" nickname), harder to find in unmolested condition; many on the market have replacement parts (crowns, crystals, bezels, hands) which affects value significantly.",
-      "demand_tier": "High",
-      "demand_reasoning": "Strong collector recognition and steady demand for 6105-8119 due to its pop-culture association and vintage Seiko diver following."
-    },
-    "deal_score": -39,
-    "liquidity": {
-      "rating": "High",
-      "comparable_count": 26,
-      "algorithmic_tier": "High",
-      "claude_tier": "High",
-      "reasoning": "Algorithmic signal: 26 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Strong collector recognition and steady demand for 6105-8119 due to its pop-culture association and vintage Seiko diver following.). Final rating uses the more conservative of the two: High."
-    },
-    "all_in_price": 2500.0,
-    "discount": -0.3888888888888889,
-    "notified": false,
-    "duplicate_of": "seiko willard:ebay:v1|157944536004|0",
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784924229.2352507,
-    "analysis_depth": "quick"
-  },
-  {
     "id": "seiko willard:ebay:v1|205892262428|0",
     "listing": {
       "id": "ebay:v1|205892262428|0",
@@ -104895,5 +104288,513 @@
     "qa_history": [],
     "created_at": 1788600594.083292,
     "analysis_depth": "full"
+  },
+  {
+    "id": "rolex:ebay:v1|366649318278|0",
+    "listing": {
+      "id": "ebay:v1|366649318278|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Pre-Owned Rolex Submariner No Date 114060",
+      "url": "https://www.ebay.com/itm/366649318278?_skw=Rolex+Submariner&hash=item555e009b86:g:-ngAAeSw02Jqmj3d",
+      "price": 13440.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/-ngAAeSw02Jqmj3d/s-l225.jpg",
+      "image_urls": [],
+      "body": "Pre-Owned Rolex Submariner No Date 114060",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "New with box and papers"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Reference 114060 is a genuine black dial Submariner No Date (produced from ~2012, satisfies 1992+ requirement) and condition appears fine, but the all-in price of $13,440 exceeds the buyer's $11,000 ceiling, so it fails the price criterion.",
+      "estimated_value": 9200.0,
+      "confidence": 0.55,
+      "condition_summary": "Stock-style catalog photo shows a clean, seemingly unworn/lightly worn Submariner No Date with no visible scratches or wear; no close-up or box/papers photos provided to verify condition claims.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only a single generic/stock-looking product image is shown with no serial, movement, or papers photos, and no seller history or provenance details are given - typical of a listing template rather than actual item photos, which raises some caution despite eBay being a relatively transparent platform.",
+      "rarity_notes": "114060 is a widely produced, currently-in-demand ceramic bezel no-date Submariner - not rare, but very popular and liquid on the secondary market.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and sought-after watch models globally, with the 114060 no-date ceramic version especially popular among collectors and investors."
+    },
+    "deal_score": -46,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 5953,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 5953 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and sought-after watch models globally, with the 114060 no-date ceramic version especially popular among collectors and investors.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 13440.0,
+    "discount": -0.4608695652173913,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|147546687998|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1788613213.8494887,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|398361404613|0",
+    "listing": {
+      "id": "ebay:v1|398361404613|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex 14060 Submariner No Date 2-Liner 1996 Tritium Runs Great No Stretch",
+      "url": "https://www.ebay.com/itm/398361404613?_skw=Rolex+Submariner&hash=item5cc030a4c5:g:XZQAAeSwjhxqmHvE",
+      "price": 8600.0,
+      "shipping_price": 100.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/XZQAAeSwjhxqmHvE/s-l225.jpg",
+      "image_urls": [
+        "https://i.ebayimg.com/images/g/XZQAAeSwjhxqmHvE/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/pfwAAeSw4C1qmHvE/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/keYAAeSwjh5qmHvE/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/X88AAeSwu7ZqmHvA/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/szkAAeSwoAJqmHvA/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/tAoAAeSwcJ1qmHvB/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/NrUAAeSwHiZqmHvD/s-l1600.jpg"
+      ],
+      "body": "Rolex 14060 Submariner No Date 2-Liner 1996 Tritium Runs Great No Stretch",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Hunter's criteria only specify brand/model (Submariner), black dial, 1992+, under $11000, excellent condition - no specific reference number required. The 14060 is a genuine no-date Submariner (production ~1990-2007), 1996 fits the year requirement, black dial matches, and $8700 is under the $11000 ceiling. Condition described as excellent ('runs great, no stretch').",
+      "estimated_value": 9200.0,
+      "confidence": 0.65,
+      "condition_summary": "Watch appears to be in solid vintage condition with minor bezel insert fading/patina and light case wear typical of a 1996 piece; bracelet described as having no stretch, dial and hands appear intact with visible lume aging consistent with tritium era.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "Photos show real, detailed close-ups including caseback/lug engraving 'ORIG. ROLEX DESIGN 14060' which is consistent with genuine Rolex case stamping, not just stock photos. Dial font, hands, and bezel look consistent with an authentic 14060 2-liner. No box/papers shown or mentioned, and no visible serial/reference number confirmation between case and movement, which would be needed for full authentication, but overall presentation is far more detailed than typical scam listings.",
+      "rarity_notes": "The 14060 'no date' 2-liner dial variant is a well-known, moderately common vintage Submariner reference, not particularly rare, but the tritium 2-line dial is a desirable variant among collectors for its vintage look.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and demanded watch models globally, and the vintage no-date tritium dial variants have a dedicated collector following."
+    },
+    "deal_score": 5,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 5953,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 5953 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and demanded watch models globally, and the vintage no-date tritium dial variants have a dedicated collector following.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 8700.0,
+    "discount": 0.05434782608695652,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|398352284672|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1788613243.3414774,
+    "analysis_depth": "full"
+  },
+  {
+    "id": "rolex:ebay:v1|287565671281|0",
+    "listing": {
+      "id": "ebay:v1|287565671281|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "2017 MINT Rolex 114060LN Submariner No-Date Steel Black Ceramic 40mm Watch Box",
+      "url": "https://www.ebay.com/itm/287565671281?_skw=Rolex+Submariner&hash=item42f43feb71:g:Mx4AAeSwgqhqmxGU",
+      "price": 11102.05,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/Mx4AAeSwgqhqmxGU/s-l225.jpg",
+      "image_urls": [],
+      "body": "2017 MINT Rolex 114060LN Submariner No-Date Steel Black Ceramic 40mm Watch Box",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The item is a genuine Rolex Submariner No-Date (ref 114060LN, black dial, 2017), which satisfies brand, model family, black dial, and year requirements. However, the all-in price of $11,102.05 exceeds the hunter's strict $11,000 ceiling, so it fails the price criterion.",
+      "estimated_value": 10200.0,
+      "confidence": 0.6,
+      "condition_summary": "Described as 'MINT' with box shown in photos; watch appears to have minimal wear based on images, consistent with a well-kept 2017 Submariner.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "Photos show consistent Rolex styling, ceramic bezel, box and case back matching known 114060LN details; no obvious mismatched serials or altered parts visible, though only stock-style catalog images are shown rather than close-up serial/reference engravings, which slightly limits verification.",
+      "rarity_notes": "114060LN is a widely produced, popular reference - not rare, but consistently high demand due to being the standard no-date Submariner.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner No-Date is one of the most sought-after sport watches, with strong resale demand and liquidity in the current market."
+    },
+    "deal_score": -9,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 5953,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 5953 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner No-Date is one of the most sought-after sport watches, with strong resale demand and liquidity in the current market.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 11102.05,
+    "discount": -0.08843627450980385,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1788613213.8804538,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|287565671093|0",
+    "listing": {
+      "id": "ebay:v1|287565671093|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "MINT 2016 PAPERS Rolex 116613LB Submariner Blue Ceramic Two Tone Yellow Gold",
+      "url": "https://www.ebay.com/itm/287565671093?_skw=Rolex+Submariner&hash=item42f43feab5:g:1vAAAeSwpN5qmxGG",
+      "price": 15445.05,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/1vAAAeSwpN5qmxGG/s-l225.jpg",
+      "image_urls": [],
+      "body": "MINT 2016 PAPERS Rolex 116613LB Submariner Blue Ceramic Two Tone Yellow Gold",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Hunter requires a black dial Submariner under $11,000. This listing is a two-tone 116613LB with a blue dial/ceramic bezel, priced at $15,445.05 - fails both the dial color requirement and the price ceiling.",
+      "estimated_value": 15000.0,
+      "confidence": 0.55,
+      "condition_summary": "Photos show a two-tone Submariner with blue dial in apparently excellent/mint condition, with box and papers shown; consistent with light use.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "Photos appear to be stock/catalog-style images (clean studio shots) rather than personal photos of the actual watch, which is a mild red flag for a \"mint\" used listing - can't verify serial/engravings match. No obvious mismatch signs, but generic-looking product photos reduce certainty this is the exact physical piece being sold.",
+      "rarity_notes": "116613LB two-tone blue (\"Bluesy\") Submariner is a well-known, fairly common modern reference, not rare, but desirable.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner two-tone blue dial models are highly recognized and sought after in the resale market."
+    },
+    "deal_score": -3,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 5953,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 5953 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner two-tone blue dial models are highly recognized and sought after in the resale market.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 15445.05,
+    "discount": -0.02966999999999995,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|137675196780|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1788613213.1593902,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|307163078979|0",
+    "listing": {
+      "id": "ebay:v1|307163078979|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "MINT 2005 Rolex 16613LB Submariner Gold Steel Two Tone Gold 40mm Sunburst Blue",
+      "url": "https://www.ebay.com/itm/307163078979?_skw=Rolex+Submariner&hash=item478458a143:g:GxsAAeSw3EVqmxIZ",
+      "price": 12112.05,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/GxsAAeSw3EVqmxIZ/s-l225.jpg",
+      "image_urls": [],
+      "body": "MINT 2005 Rolex 16613LB Submariner Gold Steel Two Tone Gold 40mm Sunburst Blue",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Hunter requires a black dial Submariner under $11,000. This listing is the 16613LB two-tone with a blue sunburst dial, not black, and priced at $12,112.05 which exceeds the $11,000 all-in ceiling. Fails both dial color and price requirements.",
+      "estimated_value": 10500.0,
+      "confidence": 0.5,
+      "condition_summary": "Described as \"MINT\" 2005 two-tone Submariner; photos show a clean-looking dial/bracelet and box, but only stock-style catalog images are shown rather than detailed close-ups of case/clasp wear.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Images appear to be generic/stock-style product shots rather than actual photos of the specific watch (no visible serial/case back, no timestamped or angled real-world photos), which is a common red flag. No mention of papers, serial number, or service history to corroborate authenticity or the claimed 2005 production date.",
+      "rarity_notes": "16613LB (blue dial two-tone) is a well-known, commonly available reference, not rare or limited.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner two-tone models are widely recognized and consistently in demand, though this specific blue-dial variant doesn't match the buyer's stated black-dial preference."
+    },
+    "deal_score": -15,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 5953,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 5953 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner two-tone models are widely recognized and consistently in demand, though this specific blue-dial variant doesn't match the buyer's stated black-dial preference.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 12112.05,
+    "discount": -0.15352857142857135,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|168653287845|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1788613220.2662222,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|820088400012|0",
+    "listing": {
+      "id": "ebay:v1|820088400012|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "2026 Rolex Submariner 124060 No-Date 41mm Unworn Full Set Box Papers",
+      "url": "https://www.ebay.com/itm/820088400012?_skw=Rolex+Submariner&hash=itembef113e88c:g:rcIAAeSwrmBqmz-5",
+      "price": 14499.0,
+      "shipping_price": null,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/rcIAAeSwrmBqmz-5/s-l225.jpg",
+      "image_urls": [],
+      "body": "2026 Rolex Submariner 124060 No-Date 41mm Unworn Full Set Box Papers",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "New with box and papers"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Price is $14,499, exceeding the $11,000 ceiling. Also the listing is for the current-production 124060 no-date model at full retail-plus pricing, which does not fit a value-hunt for an older (1992+) black dial Sub under budget.",
+      "estimated_value": 10500.0,
+      "confidence": 0.55,
+      "condition_summary": "Claimed unworn/full set, but only a single generic stock-style product photo is shown with no box, papers, or actual timestamped photos of the physical watch provided.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Listing title says '2026' which is a future/impossible production year for a currently dated listing, a red flag for careless or fabricated listing details. Only one stock-like image is provided despite claims of 'Full Set Box Papers' - no photos of box, papers, or serial/engravings to verify. Price also sits above typical market for this reference, which is inconsistent with claimed urgency-free unworn sale.",
+      "rarity_notes": "124060 is a current-production no-date Submariner, widely available at ADs and gray market; not rare, though full-set unworn examples do command a premium over used pieces.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and sought-after watches in the world with strong sustained demand and liquidity."
+    },
+    "deal_score": -38,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 5953,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 5953 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and sought-after watches in the world with strong sustained demand and liquidity.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 14499.0,
+    "discount": -0.38085714285714284,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1788613221.7499511,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|237050234586|0",
+    "listing": {
+      "id": "ebay:v1|237050234586|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex Submariner 116610LV HULK Oyster Bracelet with Green Bezel Watch Only",
+      "url": "https://www.ebay.com/itm/237050234586?_skw=Rolex+Submariner&hash=item37314b86da:g:6KsAAeSw5rdqmxZz",
+      "price": 18000.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/6KsAAeSw5rdqmxZz/s-l225.jpg",
+      "image_urls": [],
+      "body": "Rolex Submariner 116610LV HULK Oyster Bracelet with Green Bezel Watch Only",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Hunter specifically wants a black dial Submariner under $11,000. This listing is the 116610LV \"Hulk\" with a green dial and green bezel, priced at $18,000 all-in - wrong dial color and well over budget.",
+      "estimated_value": 15500.0,
+      "confidence": 0.9,
+      "condition_summary": "Photo shows a \"Hulk\" Submariner (green dial/bezel) in apparently good cosmetic condition with no visible major damage, but only one image is provided and item is described as \"watch only\" (no box/papers).",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only a single stock-style photo provided; no shots of caseback, serial/model engraving between lugs, or papers. Can't verify authenticity from this alone - buyer should request serial photos, box/papers, and service history before proceeding.",
+      "rarity_notes": "The 116610LV Hulk is discontinued and popular among collectors, but it is a distinct green-dial variant, not the black dial the hunter is seeking.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner \"Hulk\" is a highly sought-after, discontinued reference with strong collector demand, though it's not the black dial variant the hunter wants."
+    },
+    "deal_score": -16,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 5953,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 5953 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner \"Hulk\" is a highly sought-after, discontinued reference with strong collector demand, though it's not the black dial variant the hunter wants.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 18000.0,
+    "discount": -0.16129032258064516,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1788613220.3175974,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|287566028466|0",
+    "listing": {
+      "id": "ebay:v1|287566028466|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "2000 Rolex Submariner Date 16613 Champagne Serti Dial Men's 40mm Vintage Watch",
+      "url": "https://www.ebay.com/itm/287566028466?_skw=Rolex+Submariner&hash=item42f4455eb2:g:7XUAAeSw5w9qTS9p",
+      "price": 14500.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/7XUAAeSw5w9qTS9p/s-l225.jpg",
+      "image_urls": [],
+      "body": "2000 Rolex Submariner Date 16613 Champagne Serti Dial Men's 40mm Vintage Watch",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Hunter requires a black dial Submariner under $11,000. This listing is a two-tone 16613 with a champagne serti (diamond) dial, priced at $14,500 all-in, exceeding the budget and not matching the required black dial.",
+      "estimated_value": 13000.0,
+      "confidence": 0.4,
+      "condition_summary": "Appears to be a two-tone Submariner 16613 with champagne serti diamond dial and fluted bezel/gold accents; photo shows a clean, glossy watch but only one stock-like image is provided with no close-up wear shots.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only a single, somewhat staged-looking photo is provided; no shots of caseback, serial/model engravings, movement, or papers despite it being called a collectible watch. Listing text is minimal (just repeats title) with no condition detail, service history, or box/papers confirmation, which is a mild red flag for a $14.5k item.",
+      "rarity_notes": "The 16613 champagne serti diamond-dial two-tone Submariner is a distinct, sought-after variant but is a different reference/dial configuration from the black-dial Submariner the hunter wants; not especially rare compared to standard black-dial two-tone or steel Submariners.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and in-demand watch models globally, though this specific serti dial two-tone variant appeals to a narrower buyer segment than the classic black dial version."
+    },
+    "deal_score": -12,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 5953,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 5953 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and in-demand watch models globally, though this specific serti dial two-tone variant appeals to a narrower buyer segment than the classic black dial version.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 14500.0,
+    "discount": -0.11538461538461539,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1788613224.5009556,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|327341850258|0",
+    "listing": {
+      "id": "ebay:v1|327341850258|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "1967 Rolex Submariner (No Date) 5513 Meters First Ghost Bezel 40mm Steel Black",
+      "url": "https://www.ebay.com/itm/327341850258?_skw=Rolex+Submariner&hash=item4c37183e92:g:S6gAAeSw1fxqmvBP",
+      "price": 12194.7,
+      "shipping_price": 29.04,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/S6gAAeSw1fxqmvBP/s-l225.jpg",
+      "image_urls": [],
+      "body": "1967 Rolex Submariner (No Date) 5513 Meters First Ghost Bezel 40mm Steel Black",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Usato - Buono"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Hunter requires a Rolex Submariner black dial from 1992 or newer, under $11,000. This listing is a vintage 1967 Submariner reference 5513, well outside the required year range, and priced at $12,223.74 which exceeds the $11,000 ceiling. Fails on both year and price criteria.",
+      "estimated_value": 12000.0,
+      "confidence": 0.35,
+      "condition_summary": "Vintage 5513 shown on a NATO strap (not original bracelet), dial and 'ghost' bezel appear aged/faded consistent with a 1967 piece; single stock-style photo makes it hard to assess bezel insert authenticity, case edges, or dial patina condition in detail.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only one photo provided, no close-ups of serial/case back, movement, or papers - vintage 5513s are highly susceptible to franken-watch issues (aftermarket bezels, redialed faces, mismatched parts) and 'ghost bezel' claims are often unverifiable without more documentation. No mention of box/papers or service history.",
+      "rarity_notes": "The 5513 'Meters First' with ghost (faded) bezel is a desirable vintage collector variant, but it is an entirely different model era/reference than what the hunter is seeking (1992+ black dial Submariner, likely a 14060 or 16610-era reference).",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and sought-after watch models across all eras, with strong collector demand, especially for vintage references like the 5513."
+    },
+    "deal_score": -2,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 5953,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 5953 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and sought-after watch models across all eras, with strong collector demand, especially for vintage references like the 5513.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 12223.740000000002,
+    "discount": -0.018645000000000134,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1788613231.7583332,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|327342248520|0",
+    "listing": {
+      "id": "ebay:v1|327342248520|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex Sea-Dweller Deepsea 116660 44mm Black MK3 Dial Ceramic Bezel On Oyster",
+      "url": "https://www.ebay.com/itm/327342248520?_skw=Rolex+Submariner&hash=item4c371e5248:g:RLMAAeSw2HNqmz3o",
+      "price": 9597.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/RLMAAeSw2HNqmz3o/s-l225.jpg",
+      "image_urls": [],
+      "body": "Rolex Sea-Dweller Deepsea 116660 44mm Black MK3 Dial Ceramic Bezel On Oyster",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The hunter specifically wants a Rolex Submariner (black dial, 1992+). This listing is a Rolex Sea-Dweller Deepsea (ref 116660), a different model line entirely, despite sharing the black dial dive-watch aesthetic. Model specificity rule means this is not a match regardless of price/condition fit.",
+      "estimated_value": 9200.0,
+      "confidence": 0.5,
+      "condition_summary": "Single stock-like photo shows a Sea-Dweller Deepsea with black MK3 dial and ceramic bezel on an Oyster bracelet; appears clean with no visible major wear, but only one image provided and no close-up shots of case/clasp/movement.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only one photo (looks like a promotional/stock-style image) with no box/papers, serial, or hallmark close-ups shown; no mention of provenance, service history, or included accessories. Price is plausible for the model but lack of detailed photos and documentation is a caution flag for an eBay listing at this price point.",
+      "rarity_notes": "Ref 116660 Deepsea is a well-known, moderately produced model (not limited edition) - not particularly rare, but distinct from the Submariner line the hunter is seeking.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Sea-Dweller Deepsea is a highly recognized, in-demand model, but it is not what the hunter is searching for."
+    },
+    "deal_score": -4,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 5953,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 5953 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Sea-Dweller Deepsea is a highly recognized, in-demand model, but it is not what the hunter is searching for.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 9597.0,
+    "discount": -0.043152173913043476,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|178457150403|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1788613227.39646,
+    "analysis_depth": "quick"
   }
 ]
