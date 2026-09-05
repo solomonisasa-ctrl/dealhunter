@@ -1,66 +1,5 @@
 [
   {
-    "id": "seiko willard:ebay:v1|297706191232|0",
-    "listing": {
-      "id": "ebay:v1|297706191232|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "Vintage 1969 Seiko 6105-8000 Slim Willard Proof/Proof Automatic Watch",
-      "url": "https://www.ebay.com/itm/297706191232?_skw=vintage+Seiko+Willard&hash=item4550abf980:g:jiEAAeSw5L1o-j2V",
-      "price": 2475.0,
-      "shipping_price": 0.0,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/jiEAAeSw5L1o-j2V/s-l225.jpg",
-      "image_urls": [
-        "https://i.ebayimg.com/images/g/jiEAAeSw5L1o-j2V/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/lMsAAeSwWYVo-j2Q/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/9aEAAeSwSFho-j2c/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/LUYAAeSwVjlo-j1D/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/oG8AAeSwH-Ro-j1E/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/oAcAAeSwBMlo-j1E/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/Mv4AAeSwUYJo-j1E/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/kUQAAeSwZApo-j1E/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/MDEAAeSwrGJo-j1E/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/R3oAAeSw-Sto-j1E/s-l1600.jpg"
-      ],
-      "body": "Vintage 1969 Seiko 6105-8000 Slim Willard Proof/Proof Automatic Watch",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "Pre-owned - Good"
-      }
-    },
-    "watch_item_id": "seiko willard",
-    "analysis": {
-      "matches_criteria": true,
-      "match_reasoning": "Hunter's criteria is generic (\"vintage Seiko Willard\") with 6105 explicitly listed as a search keyword. This listing is a Seiko 6105-8000, the original \"Willard\" reference (later 6105-8110 is the more famous one, but 6105-8000 \"slim case\" is also widely nicknamed Willard/proto-Willard), so it matches brand/model intent.",
-      "estimated_value": 2000.0,
-      "confidence": 0.55,
-      "condition_summary": "Case shows notable brassing/wear on lugs and bezel edge, crystal appears intact with acrylic-style dome, lume plots aged/yellowed evenly, dial and hands appear original with no obvious redial; strap is aftermarket-looking tropic-style dive strap, likely not original.",
-      "authenticity_risk": "medium",
-      "authenticity_notes": "Photos show a real physical watch (not stock photos) with consistent wear patterns, which is a good sign. However, no caseback photo is shown (important for confirming case reference/serial and checking for over-polishing or corrosion), no movement photo, and no box/papers claimed. 6105-8000 is a reference frequently faked, reheld, or assembled from parts (Frankenwatch risk) since it's earlier/rarer than the 6105-8110 - lack of movement/caseback shots and serial number visibility is a gap. Price of $2,475 is within plausible range for a real one but could also indicate a franken or heavily polished example being sold as full price.",
-      "rarity_notes": "6105-8000 (\"slim case\", first generation, no crown guards) is rarer than the later 6105-8110 crown-guard version and is a sought-after precursor to the famous \"Captain Willard\" nickname watch. Genuine, unpolished, all-original examples are scarce and demand a premium.",
-      "demand_tier": "High",
-      "demand_reasoning": "Seiko 6105 vintage divers (especially Willard-nicknamed refs) are highly sought after in the vintage watch collecting community, with strong recognition and consistent resale demand."
-    },
-    "deal_score": -24,
-    "liquidity": {
-      "rating": "High",
-      "comparable_count": 26,
-      "algorithmic_tier": "High",
-      "claude_tier": "High",
-      "reasoning": "Algorithmic signal: 26 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Seiko 6105 vintage divers (especially Willard-nicknamed refs) are highly sought after in the vintage watch collecting community, with strong recognition and consistent resale demand.). Final rating uses the more conservative of the two: High."
-    },
-    "all_in_price": 2475.0,
-    "discount": -0.2375,
-    "notified": false,
-    "duplicate_of": "seiko willard:ebay:v1|137490030042|0",
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784924078.9095438,
-    "analysis_depth": "quick"
-  },
-  {
     "id": "seiko willard:ebay:v1|226982926164|0",
     "listing": {
       "id": "ebay:v1|226982926164|0",
@@ -104912,5 +104851,55 @@
     "qa_history": [],
     "created_at": 1788570852.096326,
     "analysis_depth": "full"
+  },
+  {
+    "id": "rolex:ebay:v1|366650116140|0",
+    "listing": {
+      "id": "ebay:v1|366650116140|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Pre-Owned Rolex Submariner Date 116610LN",
+      "url": "https://www.ebay.com/itm/366650116140?_skw=Rolex+Submariner+black+dial&hash=item555e0cc82c:g:0bIAAeSwicFqmj4G",
+      "price": 15120.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/0bIAAeSwicFqmj4G/s-l225.jpg",
+      "image_urls": [],
+      "body": "Pre-Owned Rolex Submariner Date 116610LN",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "New with box and papers"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The reference 116610LN is a genuine Submariner Date with black dial, produced well after 1992, so it fits the model/date requirement, but the all-in price of $15,120 exceeds the buyer's $11,000 ceiling, disqualifying the listing.",
+      "estimated_value": 10500.0,
+      "confidence": 0.45,
+      "condition_summary": "Watch appears to be in good cosmetic condition from the single photo (case and bracelet look clean, no visible major scratches), but only one image is provided and no close-ups of clasp, caseback, or dial details are shown.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only one photo is provided, held in a gloved hand, which is a common but limited authentication approach - no shots of papers, box, serial/model engravings between lugs, or movement. No mention of box/papers, service history, or seller reputation. Price is notably higher than typical current market for a 116610LN (usually $9,500-$11,500 for full set in excellent condition), which is unusual but not necessarily fraudulent - could just be an overpriced listing.",
+      "rarity_notes": "116610LN is a widely produced, discontinued (2020) reference - not rare, but consistently in high demand as a modern ceramic-bezel Submariner.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and sought-after watch models globally, with the ceramic 116610LN being a particularly popular reference among collectors and buyers."
+    },
+    "deal_score": -44,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 3110,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 3110 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and sought-after watch models globally, with the ceramic 116610LN being a particularly popular reference among collectors and buyers.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 15120.0,
+    "discount": -0.44,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|128048204472|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1788587389.1141877,
+    "analysis_depth": "quick"
   }
 ]
