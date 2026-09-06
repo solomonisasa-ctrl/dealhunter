@@ -1,119 +1,5 @@
 [
   {
-    "id": "shunbun:ebay:v1|267734965107|0",
-    "listing": {
-      "id": "ebay:v1|267734965107|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "Grand Seiko Sport Blue Men's Watch SBGV247 9F 25th Anniversary",
-      "url": "https://www.ebay.com/itm/267734965107?_skw=Grand+Seiko+Shunbun&hash=item3e563f5b73:g:vBAAAeSwDhxqYCbD",
-      "price": 2950.0,
-      "shipping_price": 10.05,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/vBAAAeSwDhxqYCbD/s-l225.jpg",
-      "image_urls": [
-        "https://i.ebayimg.com/images/g/vBAAAeSwDhxqYCbD/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/TakAAeSwAQ9qYCbE/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/XwoAAeSw8OVqYCbD/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/SjkAAeSw5eRqYCbE/s-l1600.jpg"
-      ],
-      "body": "Grand Seiko Sport Blue Men's Watch SBGV247 9F 25th Anniversary",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "Pre-owned - Good"
-      }
-    },
-    "watch_item_id": "shunbun",
-    "analysis": {
-      "matches_criteria": false,
-      "match_reasoning": "The hunter is specifically seeking the Grand Seiko Shunbun (Spring Equinox seasons limited edition). This listing is a SBGV247 Sport 9F quartz 25th Anniversary model with a blue textured dial and orange strap - an entirely different model line, movement, and design from any Shunbun reference. Same brand only; not a match.",
-      "estimated_value": 2600.0,
-      "confidence": 0.55,
-      "condition_summary": "Watch appears to be in good/lightly used condition based on the wrist photo - case, dial, and orange rubber strap show no obvious scratches or damage, but only one photo is provided so full condition (box/papers, caseback, clasp) cannot be verified.",
-      "authenticity_risk": "low",
-      "authenticity_notes": "Dial text, GS logo, and case finishing look consistent with genuine Grand Seiko SBGV series. No box/papers shown in the single photo, and no close-up of caseback/serial to verify authenticity, which is a minor gap but not a strong red flag on its own.",
-      "rarity_notes": "This is not the item being hunted. The SBGV247 is itself a 25th Anniversary 9F quartz Sport model with limited-ish production but distinct from the Shunbun seasonal limited edition, which is a separate, harder-to-find spring-themed release.",
-      "demand_tier": "Medium",
-      "demand_reasoning": "Grand Seiko as a brand has strong collector demand, but this specific quartz Sport 25th Anniversary model has a smaller, more niche following compared to mechanical Spring Drive or the seasonal limited editions like Shunbun."
-    },
-    "deal_score": -14,
-    "liquidity": {
-      "rating": "Medium",
-      "comparable_count": 853,
-      "algorithmic_tier": "High",
-      "claude_tier": "Medium",
-      "reasoning": "Algorithmic signal: 853 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko as a brand has strong collector demand, but this specific quartz Sport 25th Anniversary model has a smaller, more niche following compared to mechanical Spring Drive or the seasonal limited editions like Shunbun.). Final rating uses the more conservative of the two: Medium."
-    },
-    "all_in_price": 2960.05,
-    "discount": -0.1384807692307693,
-    "notified": false,
-    "duplicate_of": null,
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784936123.342681,
-    "analysis_depth": "quick"
-  },
-  {
-    "id": "shunbun:ebay:v1|327272028320|0",
-    "listing": {
-      "id": "ebay:v1|327272028320|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "Grand Seiko SBGH241 Silver Men's Watch - Hi Beat Wako Exclusive",
-      "url": "https://www.ebay.com/itm/327272028320?_skw=Grand+Seiko+Shunbun&hash=item4c32eed8a0:g:0z0AAeSw3QFqX~12",
-      "price": 6500.0,
-      "shipping_price": 0.0,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/0z0AAeSw3QFqX~12/s-l225.jpg",
-      "image_urls": [
-        "https://i.ebayimg.com/images/g/0z0AAeSw3QFqX~12/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/N1QAAeSwJM5qX~12/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/VwwAAeSwUIlqX~11/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/KlgAAeSwf4JqX~11/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/7RwAAeSwYttqX~11/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/KKsAAeSwKs5qX~11/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/oY4AAeSwN-lqX~11/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/kVsAAeSwnN9qX~2E/s-l1600.jpg"
-      ],
-      "body": "Grand Seiko SBGH241 Silver Men's Watch - Hi Beat Wako Exclusive",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "Pre-owned - Good"
-      }
-    },
-    "watch_item_id": "shunbun",
-    "analysis": {
-      "matches_criteria": false,
-      "match_reasoning": "Hunter specifically wants the Grand Seiko \"Shunbun\" (Spring Equinox seasons limited edition). This listing is an SBGH241, a Hi-Beat 36000 Wako exclusive silver-dial model, a completely different reference and design from the Shunbun. Same brand but wrong model, so it does not match per the strict model-matching rule.",
-      "estimated_value": 6000.0,
-      "confidence": 0.55,
-      "condition_summary": "Watch appears to be in excellent/near-mint condition based on the photo - clean dial, sharp case edges, no visible scratches on bracelet or bezel.",
-      "authenticity_risk": "low",
-      "authenticity_notes": "Photo shows an actual real-world shot (held in hand against leather background), not a stock photo, which is a good sign. Dial text, caseback markings style, and hands are consistent with genuine Grand Seiko SBGH241 design. No box/papers shown or mentioned, which is a minor gap for a $6,500 purchase but not itself a red flag.",
-      "rarity_notes": "SBGH241 is a Wako department store exclusive Hi-Beat 36000 model, produced in limited numbers for that retailer - it is uncommon but not the item the hunter is seeking (which is the Shunbun seasonal limited edition, a distinct and separately rare model).",
-      "demand_tier": "Medium",
-      "demand_reasoning": "Grand Seiko Hi-Beat models have solid collector demand, and Wako exclusives carry a rarity premium, but recognition is narrower than mainstream references like the SBGA211 or seasonal limited editions like Shunbun."
-    },
-    "deal_score": -8,
-    "liquidity": {
-      "rating": "Medium",
-      "comparable_count": 853,
-      "algorithmic_tier": "High",
-      "claude_tier": "Medium",
-      "reasoning": "Algorithmic signal: 853 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko Hi-Beat models have solid collector demand, and Wako exclusives carry a rarity premium, but recognition is narrower than mainstream references like the SBGA211 or seasonal limited editions like Shunbun.). Final rating uses the more conservative of the two: Medium."
-    },
-    "all_in_price": 6500.0,
-    "discount": -0.08333333333333333,
-    "notified": false,
-    "duplicate_of": null,
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784936112.55758,
-    "analysis_depth": "quick"
-  },
-  {
     "id": "shunbun:ebay:v1|358837354937|0",
     "listing": {
       "id": "ebay:v1|358837354937|0",
@@ -104679,6 +104565,124 @@
     "dismissed": false,
     "qa_history": [],
     "created_at": 1788678718.0995011,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|278349540170|0",
+    "listing": {
+      "id": "ebay:v1|278349540170|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex Submariner 16613 Black Bezel",
+      "url": "https://www.ebay.com/itm/278349540170?_skw=Rolex+Submariner&hash=item40ceeceb4a:g:rJwAAeSwU0FqnZWT",
+      "price": 10000.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/rJwAAeSwU0FqnZWT/s-l225.jpg",
+      "image_urls": [
+        "https://i.ebayimg.com/images/g/rJwAAeSwU0FqnZWT/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/cTEAAeSwvFJqnZWT/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/4wsAAeSwMfVqnZWS/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/J2wAAeSw9kBqnZWS/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/emYAAeSwzkRqnZWT/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/jg8AAeSwbsZqnZWT/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/oCoAAeSwJSJqnZWT/s-l1600.jpg"
+      ],
+      "body": "Rolex Submariner 16613 Black Bezel",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "The hunter's criteria did not specify a particular reference number, only \"Rolex Submariner black dial, 1992 or newer.\" The 16613 (two-tone, black dial) is a valid Submariner reference produced from 1988-2010, so models from 1992 onward fit; price of $10,000 is under the $11,000 ceiling. However, no year/serial is confirmed in the listing, so 1992+ dating can't be verified from text alone.",
+      "estimated_value": 9500.0,
+      "confidence": 0.35,
+      "condition_summary": "Watch appears to be in good cosmetic condition from photos - crystal, dial, and bezel look clean with no obvious major scratches, but bracelet stretch, service history, and full box/papers are not shown or mentioned.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Listing text is extremely sparse (just title, no description of year, serial, box/papers, service history, or seller details). Photos show only the watch in a gloved hand against a plain wall with no shots of caseback, serial/model number engravings, or papers - typical of either a cautious private seller or a listing lacking verification detail. No red flags of outright fraud, but the lack of provenance details (papers, service records, full serial visibility) and no closeup of the rehaut/serial numbers raises moderate risk that requires in-person or authenticated verification before purchase.",
+      "rarity_notes": "The 16613 two-tone Submariner with black dial is a common, widely produced reference (1988\u20132010), not rare, but it is a perennially popular/desirable model.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most in-demand watch models globally, and the two-tone black dial 16613 variant remains highly sought after and easy to resell."
+    },
+    "deal_score": -5,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 5942,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 5942 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most in-demand watch models globally, and the two-tone black dial 16613 variant remains highly sought after and easy to resell.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 10000.0,
+    "discount": -0.05263157894736842,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|168652719491|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1788714938.2841856,
+    "analysis_depth": "full"
+  },
+  {
+    "id": "rolex:etsy:1560312471",
+    "listing": {
+      "id": "etsy:1560312471",
+      "source": "etsy",
+      "category": "watches",
+      "title": "Vintage TUDOR PRINCE DATE 74000 Men&#39;s Watch Black Face Automatic Stainless Steel Swiss oyster rolex",
+      "url": "https://www.etsy.com/listing/1560312471/vintage-tudor-prince-date-74000-mens",
+      "price": 2995.0,
+      "shipping_price": null,
+      "currency": "USD",
+      "image_url": "https://i.etsystatic.com/9664788/r/il/cc03d1/5261047120/il_fullxfull.5261047120_d9sg.jpg",
+      "image_urls": [
+        "https://i.etsystatic.com/9664788/r/il/cc03d1/5261047120/il_fullxfull.5261047120_d9sg.jpg",
+        "https://i.etsystatic.com/9664788/r/il/4cf075/5309227959/il_fullxfull.5309227959_bwuj.jpg",
+        "https://i.etsystatic.com/9664788/r/il/0faa5b/5309227933/il_fullxfull.5309227933_2q9b.jpg",
+        "https://i.etsystatic.com/9664788/r/il/6828ab/5309227961/il_fullxfull.5309227961_qchl.jpg",
+        "https://i.etsystatic.com/9664788/r/il/3b1f53/5309227957/il_fullxfull.5309227957_9o5m.jpg",
+        "https://i.etsystatic.com/9664788/r/il/53efec/5261047124/il_fullxfull.5261047124_13ns.jpg",
+        "https://i.etsystatic.com/9664788/r/il/f5c159/5309227953/il_fullxfull.5309227953_ru2x.jpg",
+        "https://i.etsystatic.com/9664788/r/il/b972ea/5261047102/il_fullxfull.5261047102_e0yt.jpg",
+        "https://i.etsystatic.com/9664788/r/il/a703ea/5261047122/il_fullxfull.5261047122_tph1.jpg"
+      ],
+      "body": "-Vintage TUDOR PRINCE OYSTER DATE 74000 Men&#39;s Watch, Black Face, Stainless Steel, Automatic Movement (Rotor Self-Winding)\n\n-Case size: Approximately 34 mm (1.3 inch), not including the crown.\n\n-Box and paperwork included.\n\n-Excellent, lightly used condition.  All original parts in good working order.\n\n-Note: Free shipping within continental United States.\n-International customers: Please inquire for shipping availability and actual cost to your location.",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "taxonomy_id": 6074
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Hunter specifically wants a Rolex Submariner (black dial, 1992+). This listing is a Tudor Prince Date 74000, a completely different brand-model (Tudor, not Rolex, and not a Submariner/dive watch at all - it's a dress-style date watch). Despite the listing title including 'rolex' as a keyword and referencing 'oyster', this is not a Rolex product and does not match the required model.",
+      "estimated_value": 2200.0,
+      "confidence": 0.55,
+      "condition_summary": "Photo shows a clean, well-preserved black dial with sharp markers and lume, minimal case wear visible in the image; seller claims excellent, lightly used condition with box and papers included.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "Dial, hands, and case details in the photo are consistent with a genuine Tudor Prince Date 74000. No obvious mismatches, though only one photo is provided so movement/caseback/papers aren't verified. Listing title misleadingly includes 'rolex' keyword to attract search traffic despite this being a Tudor.",
+      "rarity_notes": "Tudor Prince Date 74000 is a fairly common vintage Tudor reference from the 80s/90s, not particularly rare, but appreciated by collectors for its Rolex-adjacent build quality at lower cost.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Tudor vintage pieces have a solid collector following and rising demand, but nowhere near the demand level of a Rolex Submariner, and this specific reference is not a headline/grail model."
+    },
+    "deal_score": -36,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 50,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 50 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Tudor vintage pieces have a solid collector following and rising demand, but nowhere near the demand level of a Rolex Submariner, and this specific reference is not a headline/grail model.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 2995.0,
+    "discount": -0.3613636363636364,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1788714948.6660335,
     "analysis_depth": "quick"
   }
 ]
