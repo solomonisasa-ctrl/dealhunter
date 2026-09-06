@@ -1,123 +1,5 @@
 [
   {
-    "id": "shunbun:ebay:v1|158112783432|0",
-    "listing": {
-      "id": "ebay:v1|158112783432|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "Grand Seiko SBGW297 - box and papers, bought January 2026",
-      "url": "https://www.ebay.com/itm/158112783432?_skw=Grand+Seiko+Shunbun&hash=item24d0419c48:g:LYMAAeSwxhdqYjz~",
-      "price": 5200.0,
-      "shipping_price": 30.0,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/LYMAAeSwxhdqYjz~/s-l225.jpg",
-      "image_urls": [
-        "https://i.ebayimg.com/images/g/LYMAAeSwxhdqYjz~/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/-ucAAeSwfwRqYj0A/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/pcUAAeSwRRNqYj0A/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/BZAAAeSw1bNqYj0A/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/39wAAeSwAY9qYjz~/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/qNcAAeSwXRFqYj0A/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/V8MAAeSwROhqYjz~/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/cm4AAeSwS~JqYj0A/s-l1600.jpg"
-      ],
-      "body": "Grand Seiko SBGW297 - box and papers, bought January 2026",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "Pre-owned - Good"
-      }
-    },
-    "watch_item_id": "shunbun",
-    "analysis": {
-      "matches_criteria": false,
-      "match_reasoning": "Hunter specifically wants the Grand Seiko \"Shunbun\" (Spring Equinox) limited edition. This listing is for the SBGW297, a standard Elegance-line manual-wind model with a sunburst white dial - a completely different reference and not part of the Shunbun/24 Seasons series. Different model from same brand does not count as a match.",
-      "estimated_value": 5000.0,
-      "confidence": 0.55,
-      "condition_summary": "Appears to be in excellent/near-new condition based on photo, consistent with a January 2026 purchase; bracelet and case show no visible scratches or wear.",
-      "authenticity_risk": "low",
-      "authenticity_notes": "Photo appears to be an actual real-world shot (on a cloth surface, not a stock studio photo), with visible dial texture, engravings, and reflections consistent with genuine GS. No mismatched serials visible, though case back and papers themselves aren't shown in this single image despite being claimed.",
-      "rarity_notes": "SBGW297 is a manual-wind Elegance model, not a limited edition; moderately available on the secondary market. Not rare compared to the Shunbun limited edition the hunter is seeking, which is a specific 24 Seasons series release with limited production and much higher collector demand/premium.",
-      "demand_tier": "Medium",
-      "demand_reasoning": "Grand Seiko as a brand has strong recognition and demand, but the SBGW297 specifically is a standard catalog piece rather than a sought-after limited edition, so demand is moderate rather than high."
-    },
-    "deal_score": -5,
-    "liquidity": {
-      "rating": "Medium",
-      "comparable_count": 853,
-      "algorithmic_tier": "High",
-      "claude_tier": "Medium",
-      "reasoning": "Algorithmic signal: 853 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko as a brand has strong recognition and demand, but the SBGW297 specifically is a standard catalog piece rather than a sought-after limited edition, so demand is moderate rather than high.). Final rating uses the more conservative of the two: Medium."
-    },
-    "all_in_price": 5230.0,
-    "discount": -0.046,
-    "notified": false,
-    "duplicate_of": null,
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784926623.2037861,
-    "analysis_depth": "quick"
-  },
-  {
-    "id": "shunbun:ebay:v1|358830930366|0",
-    "listing": {
-      "id": "ebay:v1|358830930366|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "Grand Seiko SBGH323G Red Dragon LE Hi-Beat 40mm - SBGH323G",
-      "url": "https://www.ebay.com/itm/358830930366?_skw=Grand+Seiko+Shunbun&hash=item538bfd79be:g:buEAAeSwnN9qYBVc",
-      "price": 9625.0,
-      "shipping_price": 0.0,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/buEAAeSwnN9qYBVc/s-l225.jpg",
-      "image_urls": [
-        "https://i.ebayimg.com/images/g/buEAAeSwnN9qYBVc/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/w94AAeSwB-dqYBVc/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/LBAAAeSwxhdqYBVc/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/RBgAAeSw~LpqYBVc/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/3ccAAeSwRydqYBVc/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/I48AAeSw529qYBVc/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/VCIAAeSwxUxqYBVc/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/sAsAAeSwAQ9qYBVc/s-l1600.jpg"
-      ],
-      "body": "Grand Seiko SBGH323G Red Dragon LE Hi-Beat 40mm - SBGH323G",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "Pre-owned - Excellent"
-      }
-    },
-    "watch_item_id": "shunbun",
-    "analysis": {
-      "matches_criteria": false,
-      "match_reasoning": "Hunter specifically wants the Grand Seiko \"Shunbun\" (Spring Equinox) model. This listing is the SBGH323G \"Red Dragon\" Hi-Beat LE, a completely different limited edition (Chinese zodiac/dragon themed, burgundy dial) - not the Shunbun reference at all. Different model line despite both being Grand Seiko limited editions.",
-      "estimated_value": 9200.0,
-      "confidence": 0.55,
-      "condition_summary": "Photo shows what appears to be a new/near-mint example with clean bracelet, no visible scratches, though only one studio-style photo is provided with no box/papers shown despite it being a boxed LE typically.",
-      "authenticity_risk": "low",
-      "authenticity_notes": "Single professional-looking photo without box/papers/caseback shown is a mild concern for a $9,625 limited edition; listing text is minimal (just repeats title, no description of condition, box/papers, or provenance). No overt red flags like mismatched serials, but lack of detail and single stock-like image warrants some caution.",
-      "rarity_notes": "SBGH323G Red Dragon is a well-known limited edition (reportedly limited run, often cited around 700 pieces) but is not the item the hunter is seeking (Shunbun/Spring Equinox model).",
-      "demand_tier": "High",
-      "demand_reasoning": "Grand Seiko Hi-Beat limited editions with colored dials like the Red Dragon are highly sought after among collectors, commanding strong secondary market premiums."
-    },
-    "deal_score": -5,
-    "liquidity": {
-      "rating": "High",
-      "comparable_count": 853,
-      "algorithmic_tier": "High",
-      "claude_tier": "High",
-      "reasoning": "Algorithmic signal: 853 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Grand Seiko Hi-Beat limited editions with colored dials like the Red Dragon are highly sought after among collectors, commanding strong secondary market premiums.). Final rating uses the more conservative of the two: High."
-    },
-    "all_in_price": 9625.0,
-    "discount": -0.04619565217391304,
-    "notified": false,
-    "duplicate_of": null,
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784936102.320638,
-    "analysis_depth": "quick"
-  },
-  {
     "id": "shunbun:ebay:v1|267734965107|0",
     "listing": {
       "id": "ebay:v1|267734965107|0",
@@ -104697,6 +104579,106 @@
     "dismissed": false,
     "qa_history": [],
     "created_at": 1788661064.981654,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|307163092765|0",
+    "listing": {
+      "id": "ebay:v1|307163092765|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "2025 NEW PAPERS Rolex 126610LV Submariner 41mm GREEN Starbucks MK2 Watch Box",
+      "url": "https://www.ebay.com/itm/307163092765?_skw=Rolex+Submariner&hash=item478458d71d:g:i2AAAeSwIK1qmyfc",
+      "price": 15647.05,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/i2AAAeSwIK1qmyfc/s-l225.jpg",
+      "image_urls": [],
+      "body": "2025 NEW PAPERS Rolex 126610LV Submariner 41mm GREEN Starbucks MK2 Watch Box",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "New with box and papers"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Hunter specified a black dial Submariner from 1992 or newer under $11,000. This listing is a green-dial (\"Starbucks\") ref. 126610LV, not a black dial, and it is priced at $15,647\u2014well above the $11,000 ceiling. Both the dial color/model variant and price disqualify this listing.",
+      "estimated_value": 15500.0,
+      "confidence": 0.6,
+      "condition_summary": "Described and shown as new/2025 with box and papers; appears unworn based on image, consistent with a new production piece.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "No close-up photos of movement, serial/rehaut engravings, or hallmarks are shown\u2014only a stock-style promotional image and box shot. Listing title mixes marketing keywords (\"MK2\", \"Starbucks\") typical of resale listings; while this is a commonly reissued/authentic reference in the market, buyers should verify serial numbers, papers, and have it authenticated in person before purchase.",
+      "rarity_notes": "The 126610LV \"Starbucks\" is a highly desirable, somewhat hard-to-get current-production model due to limited retail availability, but it is not rare in the secondary/gray market.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and sought-after watches; the green \"Starbucks\" variant is especially popular, though this specific reference doesn't match the hunter's stated need."
+    },
+    "deal_score": -1,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 5950,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 5950 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and sought-after watches; the green \"Starbucks\" variant is especially popular, though this specific reference doesn't match the hunter's stated need.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 15647.05,
+    "discount": -0.009487096774193501,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|287565669348|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1788678718.255925,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|178468723506|0",
+    "listing": {
+      "id": "ebay:v1|178468723506|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex Sea-Dweller Date 16600 - X-Serial Black Dial Stainless Steel Oyster Watch",
+      "url": "https://www.ebay.com/itm/178468723506?_skw=Rolex+Submariner&hash=item298d909b32:g:FXwAAeSw9OVqlhtM",
+      "price": 8399.0,
+      "shipping_price": 35.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/FXwAAeSw9OVqlhtM/s-l225.jpg",
+      "image_urls": [],
+      "body": "Rolex Sea-Dweller Date 16600 - X-Serial Black Dial Stainless Steel Oyster Watch",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The hunter specifically wants a Rolex Submariner, but this listing is a Rolex Sea-Dweller Date reference 16600 - a different model within the Rolex sports watch line. Despite visual similarity (black dial, steel Oyster case), it is not a Submariner and does not satisfy the model requirement.",
+      "estimated_value": 7500.0,
+      "confidence": 0.4,
+      "condition_summary": "Single close-up photo shows a black-dial steel Rolex on a strap/photo prop, dial and bezel appear clean with no obvious major wear, but condition cannot be fully assessed from one image and no detailed condition description is provided.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only one photo is provided (no caseback, no serial/reference engraving visible, no box/papers shown despite claims of 'X-Serial'), which limits verification. Text is minimal with no description of provenance, service history, or accompanying documents - typical of a listing needing more due diligence before purchase.",
+      "rarity_notes": "Ref 16600 Sea-Dweller is a well-known, fairly common vintage/modern-transition Rolex tool watch, not rare, but distinct from the Submariner line the hunter is seeking.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex sports models, including the Sea-Dweller 16600, have strong collector demand and brand recognition, though this specific listing doesn't match the hunter's Submariner requirement."
+    },
+    "deal_score": -12,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 5950,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 5950 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex sports models, including the Sea-Dweller 16600, have strong collector demand and brand recognition, though this specific listing doesn't match the hunter's Submariner requirement.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 8434.0,
+    "discount": -0.12453333333333333,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|178457150403|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1788678718.0995011,
     "analysis_depth": "quick"
   }
 ]
