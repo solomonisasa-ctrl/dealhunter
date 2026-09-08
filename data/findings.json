@@ -1,66 +1,5 @@
 [
   {
-    "id": "vostok:ebay:v1|168558807121|0",
-    "listing": {
-      "id": "ebay:v1|168558807121|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "Vostok Amphibia 420457 Watch KGB USSR Military Mechanical Automatic",
-      "url": "https://www.ebay.com/itm/168558807121?_skw=Vostok+Amphibia&hash=item273ee34851:g:uZcAAeSwmaVqYv4D&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGbcSkUlv6cC9p9Ty4gCL6Xfek1mUXj7WrWTLcKvP9r3M9aojKidNNl%2Fu3oER5U0YeEeQR%2FNjaBEhaJNPkkvd3v6GRkjC26Ofw3ehRXXqE%2B%2FfEn09Ykr8%2Fr8VE4EnCmNi1tDhDIkOUATen24p5fAFu7mj12pquSJ7DZCcRdl2kW4JmbqBib%2B07ru5SKhUU5XX1ZAACkA07Tfg%2BJ6brrkPOTPrQ%2BzTs73M5kLd4X0%2B3Cu9%2BfDlNw4eVL0tuRiUZWlwRrJADkhQg69ql46lMOeBIsoChALmQk35KqcSx1u0eji4A%3D%3D",
-      "price": 170.99,
-      "shipping_price": 0.0,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/uZcAAeSwmaVqYv4D/s-l225.jpg",
-      "image_urls": [
-        "https://i.ebayimg.com/images/g/uZcAAeSwmaVqYv4D/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/pCgAAeSwSwhqYv4D/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/uZgAAeSwmaVqYv4D/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/yg8AAeSw0XBqYv4D/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/OGYAAeSw6XlqYv4D/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/mZ4AAeSwDB5qYv4D/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/1lAAAeSwDDdqYv4D/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/m-8AAeSw5eRqYv4E/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/rrsAAeSwLuxqYv4D/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/UREAAeSwrBNqYv4D/s-l1600.jpg"
-      ],
-      "body": "Vostok Amphibia 420457 Watch KGB USSR Military Mechanical Automatic",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "New with box and papers"
-      }
-    },
-    "watch_item_id": "vostok",
-    "analysis": {
-      "matches_criteria": false,
-      "match_reasoning": "The hunter wants a classic/military-feel Vostok Amphibia without \"crazy dials.\" This listing is a KGB-themed dial with a red star, CCCP text, and KGB emblem/logo printed on the face - a novelty/themed variant rather than a classic military dial (e.g., plain markers/numerals). This falls into the 'crazy dial' category the hunter explicitly wants to avoid, so it does not match despite being a genuine Vostok Amphibia model.",
-      "estimated_value": 45.0,
-      "confidence": 0.55,
-      "condition_summary": "Photo appears to be a stock/product image (not an actual used listing photo) showing a new or unworn-looking watch with bracelet, no box/papers shown.",
-      "authenticity_risk": "medium",
-      "authenticity_notes": "This is a modern-production novelty/tourist-market Vostok Amphibia (KGB CCCP themed dial), commonly mass-produced and sold new for $50-80 on sites like meranom or ebay - the $170.99 price is significantly above typical market value for this exact new model, which is a red flag. The image looks like a generic stock photo rather than an actual photo of the item being sold, and there's no mention of papers, serial verification, or movement details.",
-      "rarity_notes": "Not rare - this KGB CCCP dial variant (ref 420457 case) is a widely available modern reissue/novelty theme, not a genuine vintage Soviet military-issued piece.",
-      "demand_tier": "Medium",
-      "demand_reasoning": "Vostok Amphibia has strong recognition and a devoted collector base, but this specific KGB-themed novelty dial is a lower-demand niche variant compared to classic military dial versions, and is overpriced relative to typical resale value for this variant."
-    },
-    "deal_score": -280,
-    "liquidity": {
-      "rating": "Medium",
-      "comparable_count": 2575,
-      "algorithmic_tier": "High",
-      "claude_tier": "Medium",
-      "reasoning": "Algorithmic signal: 2575 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Vostok Amphibia has strong recognition and a devoted collector base, but this specific KGB-themed novelty dial is a lower-demand niche variant compared to classic military dial versions, and is overpriced relative to typical resale value for this variant.). Final rating uses the more conservative of the two: Medium."
-    },
-    "all_in_price": 170.99,
-    "discount": -2.799777777777778,
-    "notified": false,
-    "duplicate_of": "vostok:ebay:v1|202716530031|0",
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784936383.641889,
-    "analysis_depth": "quick"
-  },
-  {
     "id": "vostok:ebay:v1|204295600470|0",
     "listing": {
       "id": "ebay:v1|204295600470|0",
@@ -104511,6 +104450,71 @@
     "dismissed": false,
     "qa_history": [],
     "created_at": 1788844734.665496,
+    "analysis_depth": "full"
+  },
+  {
+    "id": "rolex:ebay:v1|336784554362|0",
+    "listing": {
+      "id": "ebay:v1|336784554362|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex Submariner Date 16613 Two-Tone 18K Gold Steel Black Tritium Dial 40mm",
+      "url": "https://www.ebay.com/itm/336784554362?_skw=Rolex+Submariner+black+dial&hash=item4e69ec797a:g:d00AAeSw4ZFqn8ou",
+      "price": 10995.0,
+      "shipping_price": null,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/d00AAeSw4ZFqn8ou/s-l225.jpg",
+      "image_urls": [
+        "https://i.ebayimg.com/images/g/d00AAeSw4ZFqn8ou/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/kcYAAeSwaH5qn8ov/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/fn0AAeSwPyVqn8ov/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/SQQAAeSwdWRqn8ow/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/gEgAAeSw7cVqn8ox/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/iP4AAeSwKpJqn8ox/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/E~kAAeSw3mhqn8oy/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/gY4AAeSw7eRqn8oz/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/hsoAAeSweFNqn8oz/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/RtMAAeSwVqZqn8o0/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/ejoAAeSwQn9qn8o1/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/FgkAAeSwFd9qn8o1/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/lhcAAeSw5y9qn8o2/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/gR0AAeSw8qdqn8o2/s-l1600.jpg"
+      ],
+      "body": "Rolex Submariner Date 16613 Two-Tone 18K Gold Steel Black Tritium Dial 40mm",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Hunter's criteria did not specify a particular reference number, only \"Rolex Submariner black dial, 1992 or newer, excellent condition, under $11000.\" The 16613 is a two-tone Submariner Date produced from 1988-2010, with black dial variants overlapping the 1992+ window. Price is $10,995, just under the $11,000 ceiling. No specific model/reference was required by the hunter, so this generic criteria set allows the 16613.",
+      "estimated_value": 10500.0,
+      "confidence": 0.55,
+      "condition_summary": "Watch appears well-kept in photos with a glossy black dial, sharp bezel insert, and clean case/bracelet links, though close-up shots reveal typical tritium dial dot aging and minor case wear consistent with age; no visible major scratches or damage.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Listing lacks any mention of papers, box, service history, or serial/model number verification beyond the title; photos are studio-style (velvet cushion, marble background) which could be stock or reseller photos rather than the actual unique piece. No close-up of caseback, serial number between lugs, or movement to confirm authenticity. Tritium dial marking (SWISS-T<25) is consistent with a genuine 1990s-era dial, which is a good sign, but absence of provenance details and generic dealer-style photos are mild red flags.",
+      "rarity_notes": "The 16613 two-tone Submariner with black dial and tritium lume is a fairly common reference (produced 1988\u20132010) and not a limited edition; the tritium dial variant (pre-1997/1998) is somewhat more desirable to collectors than later Luminova/Superluminova dials, adding modest rarity/collector value.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and sought-after watch models globally, with strong resale demand even in two-tone configurations, though two-tone examples generally trade at a discount to full-steel Submariners among purist collectors."
+    },
+    "deal_score": -5,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 3148,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 3148 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and sought-after watch models globally, with strong resale demand even in two-tone configurations, though two-tone examples generally trade at a discount to full-steel Submariners among purist collectors.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 10995.0,
+    "discount": -0.047142857142857146,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|227502002250|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1788861065.7771745,
     "analysis_depth": "full"
   }
 ]
