@@ -1,116 +1,5 @@
 [
   {
-    "id": "Omega Constellation:ebay:v1|227446372449|0",
-    "listing": {
-      "id": "ebay:v1|227446372449|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "OMEGA Seamaster Constellation Automatic",
-      "url": "https://www.ebay.com/itm/227446372449?_skw=Omega+Constellation&hash=item34f4dc3861:g:YXQAAeSwizZqY~K-",
-      "price": 1150.0,
-      "shipping_price": null,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/YXQAAeSwizZqY~K-/s-l225.jpg",
-      "image_urls": [
-        "https://i.ebayimg.com/images/g/YXQAAeSwizZqY~K-/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/DU4AAeSw2OhqY~LA/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/BHEAAeSwwrlqY~LA/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/HjYAAeSwOk1qY~K~/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/YwYAAeSwYlpqY~LA/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/7yEAAeSwsFZqY~LA/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/s04AAeSwnN9qY~LB/s-l1600.jpg",
-        "https://i.ebayimg.com/images/g/vzUAAeSw529qY~LA/s-l1600.jpg"
-      ],
-      "body": "OMEGA Seamaster Constellation Automatic",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "Pre-owned - Good"
-      }
-    },
-    "watch_item_id": "Omega Constellation",
-    "analysis": {
-      "matches_criteria": true,
-      "match_reasoning": "Hunter's criteria is generic \"Omega Constellation\" with no specific reference required. The dial clearly reads \"Constellation\" with the Omega logo, day-date complication, and \"Officially Certified Chronometer\" text, consistent with 1970s Constellation models. Title mentions \"Seamaster Constellation\" which is unusual phrasing (Omega didn't typically brand both together on this era dial), but the dial itself confirms Constellation branding.",
-      "estimated_value": 900.0,
-      "confidence": 0.45,
-      "condition_summary": "Watch appears to be a 1970s-era stainless steel Omega Constellation day-date automatic on what looks like an aftermarket or non-original bracelet; dial and case show typical light wear consistent with age, no major damage visible in photo.",
-      "authenticity_risk": "medium",
-      "authenticity_notes": "Title combining \"Seamaster Constellation\" is atypical branding and could indicate seller confusion or a mismatched/aftermarket case-dial combo; no caseback, movement, or serial number photos provided to verify authenticity; bracelet does not look like a period-correct Omega bracelet, suggesting a swap. No box or papers shown or mentioned.",
-      "rarity_notes": "Standard 1970s stainless Constellation day-date models are fairly common on the vintage market, not a rare or limited variant.",
-      "demand_tier": "Medium",
-      "demand_reasoning": "Omega Constellation is a well-recognized vintage line with steady collector interest, but this common 1970s automatic day-date variant is not highly sought after compared to earlier pie-pan dial models."
-    },
-    "deal_score": -28,
-    "liquidity": {
-      "rating": "Medium",
-      "comparable_count": 7330,
-      "algorithmic_tier": "High",
-      "claude_tier": "Medium",
-      "reasoning": "Algorithmic signal: 7330 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Omega Constellation is a well-recognized vintage line with steady collector interest, but this common 1970s automatic day-date variant is not highly sought after compared to earlier pie-pan dial models.). Final rating uses the more conservative of the two: Medium."
-    },
-    "all_in_price": 1150.0,
-    "discount": -0.2777777777777778,
-    "notified": false,
-    "duplicate_of": "Omega Constellation:ebay:v1|307069635425|0",
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784935995.3094387,
-    "analysis_depth": "quick"
-  },
-  {
-    "id": "shunbun:ebay:v1|358828154583|0",
-    "listing": {
-      "id": "ebay:v1|358828154583|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "Unused Grand Seiko S-28 33.15 with crystal",
-      "url": "https://www.ebay.com/itm/358828154583?_skw=Grand+Seiko+Shunbun&hash=item538bd31ed7:g:x84AAeSwAbdqYDsJ",
-      "price": 87.73,
-      "shipping_price": 0.0,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/x84AAeSwAbdqYDsJ/s-l225.jpg",
-      "image_urls": [
-        "https://i.ebayimg.com/images/g/x84AAeSwAbdqYDsJ/s-l1600.jpg"
-      ],
-      "body": "Unused Grand Seiko S-28 33.15 with crystal",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "Pre-owned - Good"
-      }
-    },
-    "watch_item_id": "shunbun",
-    "analysis": {
-      "matches_criteria": false,
-      "match_reasoning": "This listing is not a Grand Seiko Shunbun watch at all - it is a replacement crystal/tension ring part (S-28 33.15) for Grand Seiko watches. The hunter specifically wants the Shunbun model watch, not a spare part.",
-      "estimated_value": 10.0,
-      "confidence": 0.6,
-      "condition_summary": "Appears to be an unused replacement watch crystal in original packaging, not a complete watch.",
-      "authenticity_risk": "low",
-      "authenticity_notes": "Looks like a genuine NOS Seiko service part (S&S branded packaging), but this is irrelevant to the hunter's search since it's not the watch itself.",
-      "rarity_notes": "A generic replacement crystal part, not rare or specific to the Shunbun limited edition.",
-      "demand_tier": "Low",
-      "demand_reasoning": "Replacement watch parts have niche demand only among watchmakers/repairers, not collectors seeking a specific limited-edition model."
-    },
-    "deal_score": -777,
-    "liquidity": {
-      "rating": "Low",
-      "comparable_count": 853,
-      "algorithmic_tier": "High",
-      "claude_tier": "Low",
-      "reasoning": "Algorithmic signal: 853 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Low (Replacement watch parts have niche demand only among watchmakers/repairers, not collectors seeking a specific limited-edition model.). Final rating uses the more conservative of the two: Low."
-    },
-    "all_in_price": 87.73,
-    "discount": -7.773000000000001,
-    "notified": false,
-    "duplicate_of": null,
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784936255.305016,
-    "analysis_depth": "quick"
-  },
-  {
     "id": "shunbun:ebay:v1|318608269812|0",
     "listing": {
       "id": "ebay:v1|318608269812|0",
@@ -104521,6 +104410,120 @@
     "dismissed": false,
     "qa_history": [],
     "created_at": 1788797238.1080317,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|206542481975|0",
+    "listing": {
+      "id": "ebay:v1|206542481975|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex Submariner Date 40mm Black Dial Steel Bracelet Auto Chronometer Box",
+      "url": "https://www.ebay.com/itm/206542481975?_skw=Rolex+Submariner&hash=item3016e42a37:g:kqIAAeSw4ZFqnx9p",
+      "price": 9299.0,
+      "shipping_price": null,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/kqIAAeSw4ZFqnx9p/s-l225.jpg",
+      "image_urls": [
+        "https://i.ebayimg.com/images/g/kqIAAeSw4ZFqnx9p/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/Lt8AAeSwCNFqnx9I/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/KpsAAeSw7RFqnx9H/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/Ku8AAeSwDahqnx9I/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/FGwAAeSw7QVqnx9I/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/rvUAAeSwkA5qnx9I/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/njsAAeSwoiJqnx9K/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/6NMAAeSwTNpqnx9K/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/OqkAAeSwnzJqnx9J/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/Ok8AAeSwB7Rqnx9L/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/MR8AAeSwdRdqnx9L/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/8AIAAeSwXfNqnx9L/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/K8QAAeSwywhqnx9L/s-l1600.jpg"
+      ],
+      "body": "Rolex Submariner Date 40mm Black Dial Steel Bracelet Auto Chronometer Box",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Hunter wants a generic (no specific reference) black-dial Submariner from 1992 or newer, excellent condition, under $11,000. This is a 40mm Submariner Date (ref 16610-style dial layout with tritium-free \"SWISS\" only text era markers), black dial, steel bracelet, priced at $9,299 all-in - fits the criteria as no specific reference was demanded, though exact reference/year isn't stated in listing text.",
+      "estimated_value": 9800.0,
+      "confidence": 0.45,
+      "condition_summary": "Photos show a clean, glossy black dial and bezel with minimal visible wear on the bracelet and case edges; appears to be in good-to-excellent cosmetic condition, though only close-up staged photos are provided with no wrist shots, box contents, or papers actually visible despite \"Box\" in the title.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "No reference number, serial, or year is stated in the listing text, and no box/papers are shown in photos despite being mentioned in the title - this is a common gap in lower-detail listings and a mild red flag. Photos appear to be professional/stock-like close-ups rather than casual seller photos, which could indicate a reused stock image rather than the actual unit, though dial/bezel details look consistent with a genuine Sub. Lack of serial/rehaut photos and no visible box in pictures warrants caution before purchase.",
+      "rarity_notes": "This dial/bezel configuration (tritium-free lume, \"SWISS\" only at 6 o'clock, no COSC \"SWISS MADE\" double line) suggests a ref. 16610 from the mid-1990s to 2000s - not rare, one of the most commonly traded Rolex Submariner references on the secondary market.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner black dial is one of the most sought-after and liquid watches in the collectible watch market, with consistently strong demand regardless of specific reference year."
+    },
+    "deal_score": 5,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 5997,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 5997 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner black dial is one of the most sought-after and liquid watches in the collectible watch market, with consistently strong demand regardless of specific reference year.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 9299.0,
+    "discount": 0.05112244897959184,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|142805250737|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1788828100.9596398,
+    "analysis_depth": "full"
+  },
+  {
+    "id": "rolex:ebay:v1|318818213314|0",
+    "listing": {
+      "id": "ebay:v1|318818213314|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Authentic Rolex Submariner HULK Green Ceramic Steel 40mm 116610LV Discontinued",
+      "url": "https://www.ebay.com/itm/318818213314?_skw=Rolex+Submariner&hash=item4a3b0bddc2:g:gtoAAeSwa5VqnuSo",
+      "price": 15500.0,
+      "shipping_price": 100.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/gtoAAeSwa5VqnuSo/s-l225.jpg",
+      "image_urls": [],
+      "body": "Authentic Rolex Submariner HULK Green Ceramic Steel 40mm 116610LV Discontinued",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Fair"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Hunter wants a black dial Submariner under $11,000. This is the \"Hulk\" 116610LV with a green dial and green ceramic bezel, not black, and it's priced at $15,600, well over the budget. Wrong dial color and over price ceiling disqualify this listing.",
+      "estimated_value": 14500.0,
+      "confidence": 0.4,
+      "condition_summary": "Photo shows the watch on a green fabric/rubber strap (not the bracelet) with visible bezel and dial; limited angle makes it hard to assess wear closely, but appears to be in generally good cosmetic condition.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only one photo shown, and it appears to be a card/tag photo (brand/model/ref info card) rather than a full watch photo with case back, movement, or bracelet - no clear shots of serial/model engravings, box, or papers despite \"Authentic\" claim. This is a red flag; more photos and documentation would be needed to verify authenticity given the Hulk's high value and frequent counterfeiting.",
+      "rarity_notes": "The 116610LV \"Hulk\" is discontinued and highly sought after, considered a modern collectible reference with strong premium over standard black Submariners.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner Hulk is one of the most in-demand discontinued sport models, commanding strong resale premiums and quick sales when priced at market."
+    },
+    "deal_score": -8,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 5997,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 5997 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner Hulk is one of the most in-demand discontinued sport models, commanding strong resale premiums and quick sales when priced at market.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 15600.0,
+    "discount": -0.07586206896551724,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1788828088.588843,
     "analysis_depth": "quick"
   }
 ]
