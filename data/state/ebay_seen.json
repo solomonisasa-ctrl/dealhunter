@@ -3105,6 +3105,13 @@
       "rolex"
     ]
   },
+  "ebay:v1|168672431680|0": {
+    "first_seen": 1788844723.1175704,
+    "status": "active",
+    "watch_item_ids": [
+      "rolex"
+    ]
+  },
   "ebay:v1|175202461664|0": {
     "first_seen": 1784880056.2324922,
     "status": "active",
@@ -3665,6 +3672,13 @@
   },
   "ebay:v1|178474196350|0": {
     "first_seen": 1788730027.9005113,
+    "status": "active",
+    "watch_item_ids": [
+      "rolex"
+    ]
+  },
+  "ebay:v1|178477955677|0": {
+    "first_seen": 1788844722.8572133,
     "status": "active",
     "watch_item_ids": [
       "rolex"
@@ -8590,7 +8604,8 @@
     "first_seen": 1785024041.0167806,
     "status": "active",
     "watch_item_ids": [
-      "submariner"
+      "submariner",
+      "rolex"
     ]
   },
   "ebay:v1|298292778017|0": {
