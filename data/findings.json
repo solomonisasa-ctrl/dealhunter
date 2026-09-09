@@ -1,55 +1,5 @@
 [
   {
-    "id": "shunbun:ebay:v1|318608269856|0",
-    "listing": {
-      "id": "ebay:v1|318608269856|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "GRAND SEIKO SGBP013 Silver Dial Quartz Watch Auth Japan",
-      "url": "https://www.ebay.com/itm/318608269856?_skw=Grand+Seiko+Shunbun&hash=item4a2e886220:g:6JsAAeSw4NdqXbNg",
-      "price": 3855.0,
-      "shipping_price": 0.0,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/6JsAAeSw4NdqXbNg/s-l225.jpg",
-      "image_urls": [],
-      "body": "GRAND SEIKO SGBP013 Silver Dial Quartz Watch Auth Japan",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "Pre-owned - Good"
-      }
-    },
-    "watch_item_id": "shunbun",
-    "analysis": {
-      "matches_criteria": false,
-      "match_reasoning": "The hunter specifically wants the Grand Seiko \"Shunbun\" (Spring Equinox) limited edition. This listing is for a SGBP013 Silver Dial Quartz model, an entirely different reference/model, so it does not match despite being the same brand.",
-      "estimated_value": 1800.0,
-      "confidence": 0.3,
-      "condition_summary": "Photo shows a standard steel-bracelet Grand Seiko quartz watch with blue/silver dial on a generic stand; condition appears used but no visible major damage. Listing text provides minimal detail (no mention of box/papers, wear, or serial).",
-      "authenticity_risk": "medium",
-      "authenticity_notes": "Only one stock-like photo provided, no close-ups of caseback, movement, or papers to verify authenticity. Price seems high relative to typical resale for this reference without documented provenance, which is a mild red flag. No mention of box/papers included.",
-      "rarity_notes": "SGBP013 is a fairly common Grand Seiko quartz model, not a limited edition; it is unrelated to the rare Shunbun (Spring Equinox) seasonal limited edition the hunter is seeking.",
-      "demand_tier": "Medium",
-      "demand_reasoning": "Grand Seiko as a brand has strong demand, but standard quartz models like the SGBP013 are more common and less sought after than limited editions such as the Shunbun."
-    },
-    "deal_score": -114,
-    "liquidity": {
-      "rating": "Medium",
-      "comparable_count": 853,
-      "algorithmic_tier": "High",
-      "claude_tier": "Medium",
-      "reasoning": "Algorithmic signal: 853 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko as a brand has strong demand, but standard quartz models like the SGBP013 are more common and less sought after than limited editions such as the Shunbun.). Final rating uses the more conservative of the two: Medium."
-    },
-    "all_in_price": 3855.0,
-    "discount": -1.1416666666666666,
-    "notified": false,
-    "duplicate_of": "shunbun:ebay:v1|358837266021|0",
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784938593.5134618,
-    "analysis_depth": "quick"
-  },
-  {
     "id": "shunbun:ebay:v1|318608269871|0",
     "listing": {
       "id": "ebay:v1|318608269871|0",
@@ -104490,5 +104440,65 @@
     "qa_history": [],
     "created_at": 1788952312.7074935,
     "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|257733383640|0",
+    "listing": {
+      "id": "ebay:v1|257733383640|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "1998 Rolex Submariner Date 16610 40mm Steel Watch Box Papers",
+      "url": "https://www.ebay.com/itm/257733383640?_skw=Rolex+Submariner&hash=item3c021b55d8:g:GHIAAeSwS0RqoXOF",
+      "price": 10870.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/GHIAAeSwS0RqoXOF/s-l225.jpg",
+      "image_urls": [
+        "https://i.ebayimg.com/images/g/GHIAAeSwS0RqoXOF/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/NOoAAeSw469qoXOF/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/OZoAAeSwdbtqoXOF/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/D6IAAeSwtM1qoXOF/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/OZ0AAeSwdbtqoXOF/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/FYcAAeSwZU5qoXOF/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/OccAAeSw73ZqoXOF/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/OboAAeSwTy1qoXOF/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/G-oAAeSwB7RqoXOF/s-l1600.jpg"
+      ],
+      "body": "1998 Rolex Submariner Date 16610 40mm Steel Watch Box Papers",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Hunter's criteria named brand/model (Rolex Submariner) with black dial, 1992+, under $11,000, excellent condition, without specifying a particular reference number - so any Submariner variant qualifies. This is a 1998 Submariner Date 16610, black dial, steel, priced at $10,870 all-in, which fits year, price, and dial color requirements.",
+      "estimated_value": 10800.0,
+      "confidence": 0.65,
+      "condition_summary": "Photos show a clean, glossy black dial and bezel with strong luminous markers, sharp bezel insert, and box/papers included; bracelet and case show minimal visible wear in these staged shots, consistent with claimed excellent condition, though close-up wrist wear or stretch isn't visible.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "Photos show matching reference number (16610) on both the hangtag/attestation paper and appear consistent with a genuine 16610 dial/bezel/hand configuration; box, papers, and warranty card image support authenticity. No visible serial/case-back close-up or papers with matching serial number shown, which is a minor gap - buyer should verify serial matches papers before purchase.",
+      "rarity_notes": "16610 is one of the most common/mass-produced Submariner references (1988-2010), not rare, but highly sought after as a benchmark vintage-modern Sub; full box and papers add value but don't make it scarce.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and demanded watch models globally; the 16610 reference is a classic, widely collected variant with strong resale liquidity."
+    },
+    "deal_score": -1,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 5910,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 5910 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and demanded watch models globally; the 16610 reference is a classic, widely collected variant with strong resale liquidity.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 10870.0,
+    "discount": -0.006481481481481481,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|142805250737|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1788966539.7026682,
+    "analysis_depth": "full"
   }
 ]
