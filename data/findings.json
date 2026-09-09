@@ -1,155 +1,5 @@
 [
   {
-    "id": "shunbun:ebay:v1|318608269871|0",
-    "listing": {
-      "id": "ebay:v1|318608269871|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "GRAND SEIKO 4J52-0AC0 Silver Dial Quartz Watch Auth Japan",
-      "url": "https://www.ebay.com/itm/318608269871?_skw=Grand+Seiko+Shunbun&hash=item4a2e88622f:g:1F4AAeSwMm1qXbPY",
-      "price": 1375.0,
-      "shipping_price": 0.0,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/1F4AAeSwMm1qXbPY/s-l225.jpg",
-      "image_urls": [],
-      "body": "GRAND SEIKO 4J52-0AC0 Silver Dial Quartz Watch Auth Japan",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "Pre-owned - Good"
-      }
-    },
-    "watch_item_id": "shunbun",
-    "analysis": {
-      "matches_criteria": false,
-      "match_reasoning": "Hunter specifically wants the Grand Seiko \"Shunbun\" (Spring Equinox) limited edition, likely a Spring Drive model (SBGA series). This listing is for a 4J52-0AC0 quartz movement women's/small silver dial watch, an entirely different model with no reference to Shunbun or the Spring Equinox limited edition line. Different model, does not match.",
-      "estimated_value": 700.0,
-      "confidence": 0.3,
-      "condition_summary": "Appears to be a smaller/ladies quartz Grand Seiko with silver dial and bracelet, shown on a generic stand; condition looks decent from the single photo but no close-ups of dial, case back, or clasp are provided.",
-      "authenticity_risk": "medium",
-      "authenticity_notes": "Only one low-detail stock-style photo on a generic watch stand; no close-ups of movement, case back, serial, or papers. No box/papers mentioned. Listing text is minimal (just repeats title), which is a mild red flag for a $1,375 luxury watch claim.",
-      "rarity_notes": "The 4J52-0AC0 is a common quartz Grand Seiko reference, not rare; it bears no relation to the Shunbun limited edition, which is a specific seasonal/limited Spring Drive release with distinct dial art and limited production numbers.",
-      "demand_tier": "Medium",
-      "demand_reasoning": "Grand Seiko as a brand has strong recognition and demand, but this particular quartz reference is a lower-tier, mass-produced model compared to the sought-after limited edition Shunbun, so demand for this specific piece is moderate at best."
-    },
-    "deal_score": -96,
-    "liquidity": {
-      "rating": "Medium",
-      "comparable_count": 853,
-      "algorithmic_tier": "High",
-      "claude_tier": "Medium",
-      "reasoning": "Algorithmic signal: 853 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko as a brand has strong recognition and demand, but this particular quartz reference is a lower-tier, mass-produced model compared to the sought-after limited edition Shunbun, so demand for this specific piece is moderate at best.). Final rating uses the more conservative of the two: Medium."
-    },
-    "all_in_price": 1375.0,
-    "discount": -0.9642857142857143,
-    "notified": false,
-    "duplicate_of": "shunbun:ebay:v1|257633934624|0",
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784938601.8058543,
-    "analysis_depth": "quick"
-  },
-  {
-    "id": "shunbun:ebay:v1|318608269866|0",
-    "listing": {
-      "id": "ebay:v1|318608269866|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "GRAND SEIKO 9F62-0AB0 Silver Dial Quartz Watch Auth Japan",
-      "url": "https://www.ebay.com/itm/318608269866?_skw=Grand+Seiko+Shunbun&hash=item4a2e88622a:g:uysAAeSw6XlqXbPH",
-      "price": 3315.0,
-      "shipping_price": 0.0,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/uysAAeSw6XlqXbPH/s-l225.jpg",
-      "image_urls": [],
-      "body": "GRAND SEIKO 9F62-0AB0 Silver Dial Quartz Watch Auth Japan",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "Pre-owned - Good"
-      }
-    },
-    "watch_item_id": "shunbun",
-    "analysis": {
-      "matches_criteria": false,
-      "match_reasoning": "The hunter is seeking the specific Grand Seiko \"Shunbun\" (Spring Equinox) limited edition. This listing is a 9F62-0AB0 quartz model with a black dial (title says \"Silver Dial\" but photo shows black), which is a different, non-Shunbun reference. Different model within the same brand does not satisfy a named limited-edition requirement.",
-      "estimated_value": 2800.0,
-      "confidence": 0.35,
-      "condition_summary": "Photo shows a stainless steel Grand Seiko with black dial, applied indices, date window, appears lightly used with no major visible damage, but only one image provided.",
-      "authenticity_risk": "medium",
-      "authenticity_notes": "Title claims \"Silver Dial\" but the photo clearly shows a black dial, a discrepancy that raises concern about listing accuracy or possibly a mismatched/stock photo. No box/papers shown, no close-up of caseback or serial number to verify authenticity.",
-      "rarity_notes": "The 9F62-0AB0 is a standard production Grand Seiko quartz model, not rare. It is unrelated to the Shunbun limited edition the hunter is seeking, which is a seasonal/limited release with distinct dial art and much higher rarity.",
-      "demand_tier": "Medium",
-      "demand_reasoning": "Grand Seiko as a brand has strong recognition and demand, but this particular reference is a common catalog model rather than a sought-after limited edition, so demand is moderate compared to the Shunbun the hunter wants."
-    },
-    "deal_score": -18,
-    "liquidity": {
-      "rating": "Medium",
-      "comparable_count": 853,
-      "algorithmic_tier": "High",
-      "claude_tier": "Medium",
-      "reasoning": "Algorithmic signal: 853 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko as a brand has strong recognition and demand, but this particular reference is a common catalog model rather than a sought-after limited edition, so demand is moderate compared to the Shunbun the hunter wants.). Final rating uses the more conservative of the two: Medium."
-    },
-    "all_in_price": 3315.0,
-    "discount": -0.18392857142857144,
-    "notified": false,
-    "duplicate_of": null,
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784938612.4715707,
-    "analysis_depth": "quick"
-  },
-  {
-    "id": "shunbun:ebay:v1|188548025569|0",
-    "listing": {
-      "id": "ebay:v1|188548025569|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "Grand Seiko Shunbun SBGA413G",
-      "url": "https://www.ebay.com/itm/188548025569?_skw=Grand+Seiko+Shunbun&hash=item2be6568ce1:g:kk0AAeSwtOZqOcc7",
-      "price": 6099.0,
-      "shipping_price": 5.68,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/kk0AAeSwtOZqOcc7/s-l225.jpg",
-      "image_urls": [],
-      "body": "Grand Seiko Shunbun SBGA413G",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "Pre-owned - Good"
-      }
-    },
-    "watch_item_id": "shunbun",
-    "analysis": {
-      "matches_criteria": true,
-      "match_reasoning": "The hunter is seeking the Grand Seiko Shunbun (Spring Equinox) limited edition, and the listing explicitly identifies the reference SBGA413G, which is the known Shunbun Spring Equinox model. This matches the specific named limited edition.",
-      "estimated_value": 6800.0,
-      "confidence": 0.45,
-      "condition_summary": "Photo shows the watch in its presentation box looking clean with no visible major wear, but only one angle is provided and no wrist shots, case-back, or close-ups of the dial/bracelet are shown to fully assess condition.",
-      "authenticity_risk": "medium",
-      "authenticity_notes": "Listing text is extremely sparse - just the title repeated, no description of condition, box/papers contents, serial number, or purchase history. Only a single photo is provided (box shot), no close-ups of dial, movement, or hallmarks to verify authenticity. Price is notably below typical secondary market prices for this rare limited edition, which is a mild red flag given lack of supporting detail.",
-      "rarity_notes": "The Shunbun (Spring Equinox) SBGA413G is part of Grand Seiko's seasonal limited-edition Spring Drive series, produced in small numbers (typically limited to a few hundred pieces worldwide), making it a genuinely rare and sought-after reference.",
-      "demand_tier": "High",
-      "demand_reasoning": "Grand Seiko has strong collector demand, and limited-edition seasonal pieces like the Shunbun command premium interest and command a dedicated hunter base actively searching for this exact reference."
-    },
-    "deal_score": 10,
-    "liquidity": {
-      "rating": "High",
-      "comparable_count": 853,
-      "algorithmic_tier": "High",
-      "claude_tier": "High",
-      "reasoning": "Algorithmic signal: 853 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Grand Seiko has strong collector demand, and limited-edition seasonal pieces like the Shunbun command premium interest and command a dedicated hunter base actively searching for this exact reference.). Final rating uses the more conservative of the two: High."
-    },
-    "all_in_price": 6104.68,
-    "discount": 0.10225294117647055,
-    "notified": false,
-    "duplicate_of": "shunbun:ebay:v1|267716772486|0",
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784938620.62448,
-    "analysis_depth": "quick"
-  },
-  {
     "id": "shunbun:ebay:v1|327035539352|0",
     "listing": {
       "id": "ebay:v1|327035539352|0",
@@ -104500,5 +104350,155 @@
     "qa_history": [],
     "created_at": 1788966539.7026682,
     "analysis_depth": "full"
+  },
+  {
+    "id": "rolex:ebay:v1|278359726112|0",
+    "listing": {
+      "id": "ebay:v1|278359726112|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex Submariner No-Date 124060 Men's 41mm Wristwatch Pre-Owned Box Papers 2022",
+      "url": "https://www.ebay.com/itm/278359726112?_skw=Rolex+Submariner&hash=item40cf885820:g:yhgAAeSw25hqoZZA",
+      "price": 13400.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/yhgAAeSw25hqoZZA/s-l225.jpg",
+      "image_urls": [],
+      "body": "Rolex Submariner No-Date 124060 Men's 41mm Wristwatch Pre-Owned Box Papers 2022",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Item is a genuine Rolex Submariner black dial from 2022, satisfying brand/model/year/dial requirements, but the price of $13,400 exceeds the buyer's stated ceiling of $11,000.",
+      "estimated_value": 10500.0,
+      "confidence": 0.55,
+      "condition_summary": "Photo shows a clean, seemingly unworn or lightly worn 124060 with box, tags, and hangtag present; described as pre-owned but appears to be in excellent/near-mint condition.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "Photo shows plausible Rolex packaging, hangtags, and correct case/bezel design for the 124060; no obvious mismatched serials or altered parts visible. However, only one photo is provided (no dial close-up, caseback, or papers/serial shown), and listing text is very sparse (no seller history, no detailed condition notes, no explanation for pricing), which limits verification.",
+      "rarity_notes": "The 124060 No-Date Submariner is a current-production, widely available reference - not rare, but consistently high demand and strong resale value.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and sought-after watch models globally, with the No-Date 124060 being a particularly popular current reference with box and papers."
+    },
+    "deal_score": -28,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 5903,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 5903 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and sought-after watch models globally, with the No-Date 124060 being a particularly popular current reference with box and papers.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 13400.0,
+    "discount": -0.2761904761904762,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|820088400012|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1788978904.2438123,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|227514117902|0",
+    "listing": {
+      "id": "ebay:v1|227514117902|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex Submariner 16618 Blue Serti  Dial Watch On Generic Strap, Warranty Papers",
+      "url": "https://www.ebay.com/itm/227514117902?_skw=Rolex+Submariner&hash=item34f8e5ef0e:g:grkAAeSwgRBqoaPf",
+      "price": 24800.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/grkAAeSwgRBqoaPf/s-l225.jpg",
+      "image_urls": [],
+      "body": "Rolex Submariner 16618 Blue Serti  Dial Watch On Generic Strap, Warranty Papers",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Hunter requires a black dial Submariner under $11,000. This listing is a Rolex Submariner 16618 with a Blue Serti dial (gold model), priced at $24,800 - well over budget and wrong dial color/material (gold two-tone/full gold vs standard steel black dial expectation).",
+      "estimated_value": 17000.0,
+      "confidence": 0.4,
+      "condition_summary": "Watch shown on a generic (non-Rolex) strap, dial appears to have a serti (gem-set) pattern with blue coloring; visible wear cannot be fully assessed from a single small photo, and the paperwork shown is partially obscured.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only one small, low-quality photo provided; papers shown are not clearly matched to the watch (no visible serial cross-check); \"Generic Strap\" suggests original bracelet is missing, which is unusual for a claimed full-set/warranty-papers listing and raises provenance questions.",
+      "rarity_notes": "16618 Serti dial (gem-set) gold Submariners are a distinct, less common variant, but this is not the black dial steel/two-tone reference the hunter is seeking.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Rolex Submariner overall has high demand, but this specific gold Serti dial variant has a narrower niche buyer base compared to the classic black dial steel Submariner."
+    },
+    "deal_score": -46,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 5903,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 5903 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Rolex Submariner overall has high demand, but this specific gold Serti dial variant has a narrower niche buyer base compared to the classic black dial steel Submariner.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 24800.0,
+    "discount": -0.4588235294117647,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1788978903.544515,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|178453827945|0",
+    "listing": {
+      "id": "ebay:v1|178453827945|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex Submariner 16610 Silver Oyster Bracelet with Black Bezel.  Just serviced.",
+      "url": "https://www.ebay.com/itm/178453827945?_skw=Rolex+Submariner&hash=item298cad5169:g:N5kAAeSwZlJqc2-6",
+      "price": 11570.0,
+      "shipping_price": 95.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/N5kAAeSwZlJqc2-6/s-l225.jpg",
+      "image_urls": [],
+      "body": "Rolex Submariner 16610 Silver Oyster Bracelet with Black Bezel.  Just serviced.",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The hunter's criteria only specify brand/model (Rolex Submariner, black dial, 1992+) with no specific reference number required, so a 16610 (produced 1988-2010, black dial) generally fits the era and model description. However, the listing price of $11,665 all-in exceeds the buyer's stated $11,000 ceiling, so it fails on price.",
+      "estimated_value": 9500.0,
+      "confidence": 0.35,
+      "condition_summary": "Described only as \"just serviced\" with no detail on dial, bezel insert, bracelet stretch, or case wear; photos show the watch from a distance alongside box and papers, making it hard to assess true condition.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Photo shows a service paper (appears to be a third-party/independent servicer document, not Rolex) plus a green box and card, which is a decent sign, but there are no close-up photos of the watch itself (dial, case, caseback, serial/model number between lugs), no hologram sticker close-up, and no clear shots verifying the reference is genuinely 16610. Listing text is extremely thin (one line, no description of dial condition, box/papers provenance, service history details, or seller info). This lack of detail combined with a price above the buyer's ceiling is a mild caution flag, though nothing overtly fraudulent is visible.",
+      "rarity_notes": "The 16610 is a very common, high-volume production Submariner reference (made for ~20 years), not rare, but perennially in demand.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most sought-after watch models in the world, with the 16610 reference being a classic, widely recognized and traded variant."
+    },
+    "deal_score": -23,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 5903,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 5903 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most sought-after watch models in the world, with the 16610 reference being a classic, widely recognized and traded variant.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 11665.0,
+    "discount": -0.22789473684210526,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1788978905.0445676,
+    "analysis_depth": "quick"
   }
 ]
