@@ -1,55 +1,5 @@
 [
   {
-    "id": "shunbun:ebay:v1|318603172728|0",
-    "listing": {
-      "id": "ebay:v1|318603172728|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "Grand Seiko Heritage Blue Men's Watch - SBGH295with box and papers",
-      "url": "https://www.ebay.com/itm/318603172728?_skw=Grand+Seiko+Shunbun&hash=item4a2e3a9b78:g:0QIAAeSw7EhqXC7W",
-      "price": 5125.0,
-      "shipping_price": 8.64,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/0QIAAeSw7EhqXC7W/s-l225.jpg",
-      "image_urls": [],
-      "body": "Grand Seiko Heritage Blue Men's Watch - SBGH295with box and papers",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "Pre-owned - Excellent"
-      }
-    },
-    "watch_item_id": "shunbun",
-    "analysis": {
-      "matches_criteria": false,
-      "match_reasoning": "Hunter specifically wants the Grand Seiko Shunbun (Spring Equinox) limited edition model. This listing is for the SBGH295 Heritage Blue, a different reference/model entirely, so it does not match despite being the same brand.",
-      "estimated_value": 5000.0,
-      "confidence": 0.4,
-      "condition_summary": "Watch appears to be in good used/possibly like-new condition based on the single photo showing a blue textured dial and steel bracelet; no visible major damage, but limited photo angles limit full assessment.",
-      "authenticity_risk": "low",
-      "authenticity_notes": "No overt red flags in the text, and box/papers are claimed, but only one photo is provided which doesn't clearly show papers, box, or caseback/serial - can't verify authenticity fully from this listing alone.",
-      "rarity_notes": "SBGH295 is a Heritage Collection model with a hi-beat movement, not part of the seasonal Shunbun limited series; not the item the hunter is seeking.",
-      "demand_tier": "High",
-      "demand_reasoning": "Grand Seiko Heritage models with hi-beat movements are well recognized and have solid demand among collectors, though this specific piece is not what the hunter is searching for."
-    },
-    "deal_score": -3,
-    "liquidity": {
-      "rating": "High",
-      "comparable_count": 853,
-      "algorithmic_tier": "High",
-      "claude_tier": "High",
-      "reasoning": "Algorithmic signal: 853 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Grand Seiko Heritage models with hi-beat movements are well recognized and have solid demand among collectors, though this specific piece is not what the hunter is searching for.). Final rating uses the more conservative of the two: High."
-    },
-    "all_in_price": 5133.64,
-    "discount": -0.026728000000000064,
-    "notified": false,
-    "duplicate_of": "shunbun:ebay:v1|407038398546|0",
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784938690.7963576,
-    "analysis_depth": "quick"
-  },
-  {
     "id": "shunbun:ebay:v1|157805235429|0",
     "listing": {
       "id": "ebay:v1|157805235429|0",
@@ -104531,6 +104481,56 @@
     "dismissed": false,
     "qa_history": [],
     "created_at": 1789038492.8857362,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|168678283251|0",
+    "listing": {
+      "id": "ebay:v1|168678283251|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex Submariner Date 116610LN | 40mm Black Dial & Ceramic Bezel ",
+      "url": "https://www.ebay.com/itm/168678283251?_skw=Rolex+Submariner+black+dial&hash=item27460257f3:g:nmgAAeSw9BNqopcs",
+      "price": 11750.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/nmgAAeSw9BNqopcs/s-l225.jpg",
+      "image_urls": [],
+      "body": "Rolex Submariner Date 116610LN | 40mm Black Dial & Ceramic Bezel ",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The hunter's criteria specify a max all-in price of $11,000, but this listing is $11,750, exceeding the ceiling. While the reference 116610LN is a black dial ceramic bezel Submariner (post-1992, satisfies date/dial requirements), the price disqualifies it.",
+      "estimated_value": 10500.0,
+      "confidence": 0.45,
+      "condition_summary": "Single stock-style photo shows a clean, seemingly well-kept watch with no visible major wear, but no condition details, box/papers, or close-up wear shots are provided in the listing text.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only one professional/stock-like photo is shown with no serial number, papers, or additional angles to verify authenticity; listing text is extremely sparse (just title), lacking provenance, purchase history, or seller details, which is a mild red flag for a >$10k item.",
+      "rarity_notes": "The 116610LN is a very common, high-production Submariner reference (2010-2020 era), not rare or limited, widely available on the secondary market.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and sought-after luxury watch models, with the ceramic bezel 116610LN being a particularly popular reference among collectors and buyers."
+    },
+    "deal_score": -12,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 3146,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 3146 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and sought-after luxury watch models, with the ceramic bezel 116610LN being a particularly popular reference among collectors and buyers.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 11750.0,
+    "discount": -0.11904761904761904,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|137375993552|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1789052315.2714736,
     "analysis_depth": "quick"
   }
 ]
