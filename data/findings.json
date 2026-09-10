@@ -1,55 +1,5 @@
 [
   {
-    "id": "shunbun:ebay:v1|147421653650|0",
-    "listing": {
-      "id": "ebay:v1|147421653650|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "SEIKO Grand Seiko 9F61-0A10 Quartz Ivory Dial Men's Watch Authentic Japan",
-      "url": "https://www.ebay.com/itm/147421653650?_skw=Grand+Seiko+Shunbun&hash=item225303ea92:g:KgIAAeSwGspqTJmq&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGZDBvO2dTFZAAsgvB7wSlkDl%2BVd%2FuF%2BuzrgJ8LOZI24TUx7jRIZTuvi%2Bya1ZTOFrF9kW8%2FmipqL7uVHmmZWthGPpy%2FKjK7EJdBxR5uCxrIZ7AqMOLlGO7l%2F5qgL9Smq0RZipNW27V9TrqfYWHJsZhwdD8Vo%2FV8n5CVYthsx1vYYkliYES%2Bi7GtD3Dtx5Ick%2Bgg5KYNZRuAHYz1VOK5WsEJfYA1agN5v2EbeQ%2FlfkOhZ3QcQUFPZksPmdGWvc5yyTf3CUY56Vc22gIEduO938F6RRkplxa%2FQ3Hxf%2FR43zAWsmg%3D%3D",
-      "price": 1244.99,
-      "shipping_price": 210.0,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/KgIAAeSwGspqTJmq/s-l225.jpg",
-      "image_urls": [],
-      "body": "SEIKO Grand Seiko 9F61-0A10 Quartz Ivory Dial Men's Watch Authentic Japan",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "Pre-owned - Excellent"
-      }
-    },
-    "watch_item_id": "shunbun",
-    "analysis": {
-      "matches_criteria": false,
-      "match_reasoning": "The hunter specifically wants the Grand Seiko \"Shunbun\" (Spring Equinox seasons limited edition). This listing is a standard Grand Seiko 9F61-0A10 quartz ivory dial model, not the Shunbun reference. Different reference and not a limited edition seasons piece, so it does not match despite being the same brand.",
-      "estimated_value": 1450.0,
-      "confidence": 0.5,
-      "condition_summary": "Watch appears to be in good/excellent visible condition from the photo, with clean ivory dial, steel case, and black leather strap; no visible scratches or damage, but only one photo provided and no mention of box/papers.",
-      "authenticity_risk": "low",
-      "authenticity_notes": "No overt red flags - price is in a reasonable range for a 9F61 model, listing claims \"Authentic Japan.\" However, only a single stock-like photo is shown, no serial number visible, and no mention of box/papers, warranty card, or purchase history, which limits verification.",
-      "rarity_notes": "The 9F61-0A10 is a fairly common Grand Seiko quartz model, not rare. The Shunbun the hunter wants is a limited \"seasons\" collection piece and considerably harder to find; this listing is unrelated to that specific rarity.",
-      "demand_tier": "Medium",
-      "demand_reasoning": "Grand Seiko as a brand has strong recognition and demand, but this particular quartz reference is a standard production model with moderate collector interest compared to limited editions like the Shunbun."
-    },
-    "deal_score": 0,
-    "liquidity": {
-      "rating": "Medium",
-      "comparable_count": 853,
-      "algorithmic_tier": "High",
-      "claude_tier": "Medium",
-      "reasoning": "Algorithmic signal: 853 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko as a brand has strong recognition and demand, but this particular quartz reference is a standard production model with moderate collector interest compared to limited editions like the Shunbun.). Final rating uses the more conservative of the two: Medium."
-    },
-    "all_in_price": 1454.99,
-    "discount": -0.0034413793103448337,
-    "notified": false,
-    "duplicate_of": null,
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784938650.7531183,
-    "analysis_depth": "quick"
-  },
-  {
     "id": "shunbun:ebay:v1|358726727095|0",
     "listing": {
       "id": "ebay:v1|358726727095|0",
@@ -104500,5 +104450,75 @@
     "qa_history": [],
     "created_at": 1788995669.1415453,
     "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|198623498062|0",
+    "listing": {
+      "id": "ebay:v1|198623498062|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "1998 Rolex Submariner 16610, Swiss Dial, U-Serial, Original Box/Booklets, MINT",
+      "url": "https://www.ebay.com/itm/198623498062?_skw=Rolex+Submariner+black+dial&hash=item2e3ee20f4e:g:gg0AAeSwlU9qNZmK",
+      "price": 9060.0,
+      "shipping_price": 50.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/gg0AAeSwlU9qNZmK/s-l225.jpg",
+      "image_urls": [
+        "https://i.ebayimg.com/images/g/gg0AAeSwlU9qNZmK/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/tLAAAeSwpfdqNZmK/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/ZsEAAeSwsJZqNZmN/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/uZ4AAeSwV0tqNZmJ/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/XswAAeSwOUVqNZmJ/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/h4YAAeSwBdhqNZmK/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/VHkAAeSw269qNZmM/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/YnEAAeSwSHJqNZmK/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/hbMAAeSwf1dqNZmL/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/jwwAAeSw9mVqNZmL/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/giYAAeSwonJqNZmL/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/Y9MAAeSwkvJqNZmL/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/KU4AAeSw2bRqNZmM/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/s~cAAeSwMPVqNZmL/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/g4QAAeSw1cZqNZmM/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/ZrQAAeSwsJZqNZmL/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/glMAAeSw9XdqNZmM/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/lq0AAeSwGiFqNZmM/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/lxIAAeSwubhqNZmM/s-l1600.jpg"
+      ],
+      "body": "1998 Rolex Submariner 16610, Swiss Dial, U-Serial, Original Box/Booklets, MINT",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Genuine Rolex Submariner 16610, black dial, 1998 production (U-serial, post-1992), priced at $9,110 all-in which is under the $11,000 ceiling. Hunter's criteria did not specify a particular reference number, so a 16610 satisfies the generic 'Submariner black dial 1992+' request.",
+      "estimated_value": 9200.0,
+      "confidence": 0.7,
+      "condition_summary": "Photos show a clean, glossy black dial and bezel with minimal visible wear on the case/bracelet; seller claims MINT. Some sun glare obscures fine detail on lugs/clasp so full condition (polish history, stretch) can't be fully verified from photos alone.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "Photos appear to be real, non-stock images of an actual watch with matching box, cards, and booklets shown (including a wax-sealed warranty card and Rolex Oyster box), which is a good sign. No visible mismatched fonts, incorrect crown logo, or other common fake indicators; dial text and crown look correct for a genuine 16610. However, no close-up of case back/serial engraving or movement is provided to fully confirm serial matches the era claimed, so some verification gap remains.",
+      "rarity_notes": "The 16610 is one of the most common modern Submariner references (produced 1988-2010), not rare, but consistently strong demand; U-series (1997-1998) is a well-documented, easily verifiable serial range.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and sought-after watch models globally, with consistent strong resale demand, especially with full box and papers as shown here."
+    },
+    "deal_score": 1,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 3149,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 3149 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and sought-after watch models globally, with consistent strong resale demand, especially with full box and papers as shown here.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 9110.0,
+    "discount": 0.009782608695652175,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|178467842376|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1789019941.2349598,
+    "analysis_depth": "full"
   }
 ]
