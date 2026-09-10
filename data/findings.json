@@ -1,155 +1,5 @@
 [
   {
-    "id": "vostok:ebay:v1|137544597640|0",
-    "listing": {
-      "id": "ebay:v1|137544597640|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "SERVICED/ USSR Vintage Vostok 2416B Amphibia Marine Anchor 200m Russian Diver",
-      "url": "https://www.ebay.com/itm/137544597640?_skw=Vostok+Amphibia&hash=item20064c0088:g:VJ0AAeSwzGVqYnvI",
-      "price": 199.99,
-      "shipping_price": 16.99,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/VJ0AAeSwzGVqYnvI/s-l225.jpg",
-      "image_urls": [],
-      "body": "SERVICED/ USSR Vintage Vostok 2416B Amphibia Marine Anchor 200m Russian Diver",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "Pre-owned - Good"
-      }
-    },
-    "watch_item_id": "vostok",
-    "analysis": {
-      "matches_criteria": true,
-      "match_reasoning": "This is a Vostok Amphibia (radial/barrel case), Marine Anchor dial variant, which is a classic military-associated dial (anchor logo used for Soviet Navy divers) - a fairly traditional, non-'crazy' dial with black face, applied numerals, and simple hands, fitting the requested classic military feel.",
-      "estimated_value": 140.0,
-      "confidence": 0.55,
-      "condition_summary": "Watch appears serviced and in good functional/cosmetic condition based on the photo - case and bezel show typical light wear, crystal and dial look clean, strap appears to be an aftermarket rubber/silicone band rather than original.",
-      "authenticity_risk": "low",
-      "authenticity_notes": "Vostok Amphibias are inexpensive and widely reproduced/reissued, but this looks like a plausible genuine vintage-style piece (common 2416B movement, standard case). No mismatched serials since Vostok doesn't serialize like Swiss brands. Single photo is a real user-taken wrist shot (not obviously a stock photo), which is a positive sign, but only one angle is shown - no back-of-case or movement photo to verify 'serviced' claim.",
-      "rarity_notes": "The 2416B automatic Amphibia with anchor/marine dial is a fairly common variant, not a rare or limited edition - many still produced/available new, though vintage examples in good serviced condition have decent demand.",
-      "demand_tier": "Medium",
-      "demand_reasoning": "Vostok Amphibia has a dedicated collector following and strong recognition among Soviet/vintage watch enthusiasts, but it's a budget-tier, mass-produced watch so overall demand/value ceiling is modest compared to Swiss or higher-end pieces."
-    },
-    "deal_score": -55,
-    "liquidity": {
-      "rating": "Medium",
-      "comparable_count": 2575,
-      "algorithmic_tier": "High",
-      "claude_tier": "Medium",
-      "reasoning": "Algorithmic signal: 2575 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Vostok Amphibia has a dedicated collector following and strong recognition among Soviet/vintage watch enthusiasts, but it's a budget-tier, mass-produced watch so overall demand/value ceiling is modest compared to Swiss or higher-end pieces.). Final rating uses the more conservative of the two: Medium."
-    },
-    "all_in_price": 216.98000000000002,
-    "discount": -0.5498571428571429,
-    "notified": false,
-    "duplicate_of": null,
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784938742.2012134,
-    "analysis_depth": "quick"
-  },
-  {
-    "id": "vostok:ebay:v1|168558764621|0",
-    "listing": {
-      "id": "ebay:v1|168558764621|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "\u0427\u0430\u0441\u044b Vostok Commander Amphibian, \u0421\u0421\u0421\u0420",
-      "url": "https://www.ebay.com/itm/168558764621?_skw=Vostok+Amphibia&hash=item273ee2a24d:g:5VgAAeSwlDZqYoGx",
-      "price": 85.0,
-      "shipping_price": 0.0,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/5VgAAeSwlDZqYoGx/s-l225.jpg",
-      "image_urls": [],
-      "body": "\u0427\u0430\u0441\u044b Vostok Commander Amphibian, \u0421\u0421\u0421\u0420",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "Seller refurbished"
-      }
-    },
-    "watch_item_id": "vostok",
-    "analysis": {
-      "matches_criteria": true,
-      "match_reasoning": "Hunter wants a classic vintage Vostok Amphibia with military feel, no crazy dials. This listing shows a \"Commander Amphibian\" with a plain black dial, orange accents, and military-style strap - consistent with a classic military Amphibia variant rather than an unusual dial pattern.",
-      "estimated_value": 75.0,
-      "confidence": 0.35,
-      "condition_summary": "Watch appears to be in decent cosmetic condition from the single photo - case and crystal look clean, strap appears newer (possibly aftermarket NATO-style band), but no close-up of dial details, caseback, or movement is provided.",
-      "authenticity_risk": "medium",
-      "authenticity_notes": "Only one photo provided, no caseback or movement shots to confirm authenticity/originality. Listing text is extremely minimal (just title, no description of condition, servicing, or specs), which is a mild red flag for a vintage mechanical watch purchase. \"Commander\" naming is a common modern re-branding/homage sold by dealers of reissued Vostok cases, so buyer should confirm if this is a genuine vintage Soviet-era piece or a modern reassembled/franken piece using vintage parts.",
-      "rarity_notes": "Vostok Amphibia and its many dial variants (including \"Commander\" styled versions) are fairly common on the vintage/enthusiast market; not a rare or limited reference, though specific vintage dial fonts/case types can vary in desirability.",
-      "demand_tier": "Medium",
-      "demand_reasoning": "Vostok Amphibia has a solid, dedicated collector base and strong recognition among affordable vintage/Soviet watch enthusiasts, but it's not a high-end luxury brand with broad mainstream demand."
-    },
-    "deal_score": -13,
-    "liquidity": {
-      "rating": "Medium",
-      "comparable_count": 2575,
-      "algorithmic_tier": "High",
-      "claude_tier": "Medium",
-      "reasoning": "Algorithmic signal: 2575 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Vostok Amphibia has a solid, dedicated collector base and strong recognition among affordable vintage/Soviet watch enthusiasts, but it's not a high-end luxury brand with broad mainstream demand.). Final rating uses the more conservative of the two: Medium."
-    },
-    "all_in_price": 85.0,
-    "discount": -0.13333333333333333,
-    "notified": false,
-    "duplicate_of": null,
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784938751.75482,
-    "analysis_depth": "quick"
-  },
-  {
-    "id": "vostok:ebay:v1|278201400440|0",
-    "listing": {
-      "id": "ebay:v1|278201400440|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "Vintage Vostok Amphibian KGB Watch Made in USSR Watch Soviet Russia",
-      "url": "https://www.ebay.com/itm/278201400440?_skw=Vostok+Amphibia&hash=item40c6187c78:g:TGUAAeSwVDJqXlmj",
-      "price": 101.11,
-      "shipping_price": null,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/TGUAAeSwVDJqXlmj/s-l225.jpg",
-      "image_urls": [],
-      "body": "Vintage Vostok Amphibian KGB Watch Made in USSR Watch Soviet Russia",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "Pre-owned - Fair"
-      }
-    },
-    "watch_item_id": "vostok",
-    "analysis": {
-      "matches_criteria": true,
-      "match_reasoning": "The listing is a Vostok Amphibia (Amphibian) model, which matches the hunter's stated brand/model. The \"KGB\" naming appears to be seller marketing rather than a distinct crazy-dial limited edition, and the photo shows a fairly plain, classic military-style dial rather than an unusual variant.",
-      "estimated_value": 55.0,
-      "confidence": 0.35,
-      "condition_summary": "Watch shows a worn, aged leather strap and a case with visible patina/wear; dial appears simple and classic (hard to fully assess due to small/blurry photo). Overall looks used/vintage condition consistent with age.",
-      "authenticity_risk": "medium",
-      "authenticity_notes": "Only one low-resolution, slightly blurry photo provided with no close-up of dial text, caseback, or movement - hard to verify authenticity or exact reference. \"KGB\" branding is a common embellishment used by resellers on generic Vostok Amphibia watches and is not an official Vostok designation, which is a mild red flag for over-marketing rather than fraud. No mention of serial numbers, box/papers, or movement caliber.",
-      "rarity_notes": "Standard vintage Vostok Amphibia watches are fairly common on the secondary market; this does not appear to be a rare or special limited variant despite the \"KGB\" name in the title.",
-      "demand_tier": "Medium",
-      "demand_reasoning": "Vostok Amphibia is a well-recognized and collected vintage Soviet watch line with steady niche demand, though not as universally sought-after as major Swiss brands."
-    },
-    "deal_score": -84,
-    "liquidity": {
-      "rating": "Medium",
-      "comparable_count": 2575,
-      "algorithmic_tier": "High",
-      "claude_tier": "Medium",
-      "reasoning": "Algorithmic signal: 2575 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Vostok Amphibia is a well-recognized and collected vintage Soviet watch line with steady niche demand, though not as universally sought-after as major Swiss brands.). Final rating uses the more conservative of the two: Medium."
-    },
-    "all_in_price": 101.11,
-    "discount": -0.8383636363636363,
-    "notified": false,
-    "duplicate_of": null,
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784938760.4245515,
-    "analysis_depth": "quick"
-  },
-  {
     "id": "vostok:ebay:v1|377362957311|0",
     "listing": {
       "id": "ebay:v1|377362957311|0",
@@ -104586,5 +104436,174 @@
     "qa_history": [],
     "created_at": 1789064355.9924061,
     "analysis_depth": "full"
+  },
+  {
+    "id": "rolex:ebay:v1|257735694547|0",
+    "listing": {
+      "id": "ebay:v1|257735694547|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex Submariner No Date 14060 40mm Black Dial Steel Oyster Mens Watch",
+      "url": "https://www.ebay.com/itm/257735694547?_skw=Rolex+Submariner+black+dial&hash=item3c023e98d3:g:lNUAAeSwW2Vqow53",
+      "price": 10250.0,
+      "shipping_price": 75.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/lNUAAeSwW2Vqow53/s-l225.jpg",
+      "image_urls": [
+        "https://i.ebayimg.com/images/g/lNUAAeSwW2Vqow53/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/WmsAAeSwxPVqow53/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/Q9oAAeSwGlZqow53/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/XGoAAeSw0kNqow53/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/m18AAeSwnipqow53/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/TRsAAeSwkzpqow53/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/KfAAAeSwcvJqow53/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/N5wAAeSw9Fdqow53/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/OzwAAeSw3G1qow53/s-l1600.jpg"
+      ],
+      "body": "Rolex Submariner No Date 14060 40mm Black Dial Steel Oyster Mens Watch",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Hunter's criteria are generic (no specific reference required) - just Rolex Submariner, black dial, 1992+, under $11000, excellent condition. The ref 14060 is a no-date Submariner produced from 1990-2006, black dial, steel - fits the brand/model/dial requirement and price is under budget. However, listing does not state the actual production year, so 1992+ can't be confirmed from text alone, though 14060 (non-D) was introduced ~1990 and ran through 1999 before 14060M; without serial/year info this is a reasonable assumption but not certain.",
+      "estimated_value": 9800.0,
+      "confidence": 0.55,
+      "condition_summary": "Photos show a clean, glossy black dial and bezel insert with sharp lume plots and minimal visible case wear; appears to be professionally reconditioned/polished stock catalog-style images rather than photos of the actual individual watch.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Images appear to be generic stock/catalog photos (identical to widely used dealer marketing photos) rather than actual photos of the specific watch being sold - no closeups of caseback, serial number, movement, or papers/box are shown. No mention of box/papers, service history, or specific production year/serial. Price is reasonable for the market so not a scam-level red flag, but lack of individualized photos and provenance detail is a moderate concern.",
+      "rarity_notes": "The 14060 no-date Submariner is a fairly common reference (produced 1990-2006), not rare, but is a desirable transitional/vintage-leaning piece; the \"no date\" variant is somewhat less common than the date version.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and sought-after watch models in the world, with strong consistent demand across all references including the no-date 14060."
+    },
+    "deal_score": -5,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 3180,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 3180 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and sought-after watch models in the world, with strong consistent demand across all references including the no-date 14060.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 10325.0,
+    "discount": -0.05357142857142857,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|287565671281|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1789081485.1916144,
+    "analysis_depth": "full"
+  },
+  {
+    "id": "rolex:ebay:v1|168679182538|0",
+    "listing": {
+      "id": "ebay:v1|168679182538|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "2008 Rolex Submariner Date 16610 Black Dial Stainless Steel Oyster 40mm",
+      "url": "https://www.ebay.com/itm/168679182538?_skw=Rolex+Submariner+black+dial&hash=item27461010ca:g:~N8AAeSwYTJqowwp",
+      "price": 9499.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/~N8AAeSwYTJqowwp/s-l225.jpg",
+      "image_urls": [
+        "https://i.ebayimg.com/images/g/~N8AAeSwYTJqowwp/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/J5UAAeSwlYNqowwp/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/IiYAAeSwtY5qowwp/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/~9oAAeSwp9Fqowwp/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/MUQAAeSwvA9qowwp/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/TZYAAeSwOY1qowwp/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/-u0AAeSwk3Zqowwp/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/-uwAAeSwk3Zqowwp/s-l1600.jpg"
+      ],
+      "body": "2008 Rolex Submariner Date 16610 Black Dial Stainless Steel Oyster 40mm",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Hunter's criteria was generic (Rolex Submariner, black dial, 1992+, under $11k, excellent condition) with no specific reference required. This 2008 ref 16610 is a black dial Submariner Date, post-1992, priced at $9,499 all-in, which fits all stated parameters.",
+      "estimated_value": 9800.0,
+      "confidence": 0.65,
+      "condition_summary": "Photos show a clean, well-kept 16610 with sharp bezel insert, minimal bracelet stretch visible, and crisp dial/hands; appears to be in very good to excellent cosmetic condition, though close-up case edge wear can't be fully assessed from these angles.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "Dial text, cyclops magnification, crown logo, and bezel font all look consistent with genuine 16610 examples. No box/papers shown or mentioned, and no visible serial/reference engraving between lugs to verify - buyer should confirm serial matches stated 2008 production and ask for papers/service history. No overt red flags like mismatched fonts or suspiciously low price.",
+      "rarity_notes": "16610 is one of the most common and widely produced Submariner references (produced 1988-2010), so not rare, but it's a proven, highly liquid model with strong collector demand.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and sought-after watch models globally, with consistently strong resale demand and liquidity, especially the classic black dial/bezel 16610 configuration."
+    },
+    "deal_score": 3,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 3180,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 3180 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and sought-after watch models globally, with consistently strong resale demand and liquidity, especially the classic black dial/bezel 16610 configuration.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 9499.0,
+    "discount": 0.030714285714285715,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|168672444470|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1789081494.6687899,
+    "analysis_depth": "full"
+  },
+  {
+    "id": "rolex:ebay:v1|800642954182|0",
+    "listing": {
+      "id": "ebay:v1|800642954182|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "2026 Rolex Submariner 41mm No Date | Steel | Black Dial | Ref 124060 | MINT!",
+      "url": "https://www.ebay.com/itm/800642954182?_skw=Rolex+Submariner+black+dial&hash=itemba6a09f3c6:g:NvQAAeSwtY5qoyei",
+      "price": 15495.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/NvQAAeSwtY5qoyei/s-l225.jpg",
+      "image_urls": [],
+      "body": "2026 Rolex Submariner 41mm No Date | Steel | Black Dial | Ref 124060 | MINT!",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Price ($15,495) exceeds the $11,000 ceiling, well above budget. While model (Submariner No Date, black dial) fits the generic criteria, the price disqualifies it. Also note the listing claims a '2026' date, which is impossible currently and raises suspicion.",
+      "estimated_value": 10500.0,
+      "confidence": 0.4,
+      "condition_summary": "Photo shows a modern Submariner 124060 in box with papers, appears unworn/mint, but only one image (box/papers) is provided rather than clear wrist/dial close-ups.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Listing title claims '2026' which is not yet a valid production year (future-dated, likely a typo or possibly a scam/spam listing). Limited photo detail - no close-up of dial, caseback, or serial numbers to verify authenticity. Price is also significantly above typical market for this reference, which is unusual and warrants caution.",
+      "rarity_notes": "Ref 124060 is the current-production Submariner No Date, not rare - widely available at retail and secondary market.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most in-demand watches in the world, but this specific listing's price and date anomaly reduce its attractiveness as a match."
+    },
+    "deal_score": -48,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 3180,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 3180 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most in-demand watches in the world, but this specific listing's price and date anomaly reduce its attractiveness as a match.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 15495.0,
+    "discount": -0.4757142857142857,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1789081472.7815695,
+    "analysis_depth": "quick"
   }
 ]
