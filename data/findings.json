@@ -1,105 +1,5 @@
 [
   {
-    "id": "vostok:ebay:v1|377362957742|0",
-    "listing": {
-      "id": "ebay:v1|377362957742|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "Vintage Mens Watch Vostok Amphibia Sector Dial Barrel Case USSR 18 Jewels 163",
-      "url": "https://www.ebay.com/itm/377362957742?_skw=Vostok+Amphibia&hash=item57dc95c5ae:g:xqMAAeSwlBhpz4V7",
-      "price": 240.0,
-      "shipping_price": 25.0,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/xqMAAeSwlBhpz4V7/s-l225.jpg",
-      "image_urls": [],
-      "body": "Vintage Mens Watch Vostok Amphibia Sector Dial Barrel Case USSR 18 Jewels 163",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "Pre-owned - Good"
-      }
-    },
-    "watch_item_id": "vostok",
-    "analysis": {
-      "matches_criteria": false,
-      "match_reasoning": "While branded as Vostok Amphibia, this is a \"sector dial\" variant with a star/compass rose design and blue coloring - a decorative/novelty dial rather than the classic military diver dial the hunter wants. The hunter explicitly asked for classic military feel, not unusual dial variants, so this sector dial with star emblem falls into the 'crazy dial' category they want to avoid.",
-      "estimated_value": 130.0,
-      "confidence": 0.4,
-      "condition_summary": "Watch appears to be in decent cosmetic condition with a shiny case and bracelet, though photo resolution is low; no wear details or movement close-ups provided.",
-      "authenticity_risk": "medium",
-      "authenticity_notes": "Single low-quality photo, no shots of caseback, movement, or crown for verification. Vostok watches (especially reissues/franken-watches assembled from parts) are commonly modified or re-cased in the aftermarket, and 'sector dial' variants are often modern reproductions rather than true vintage USSR pieces - this raises some concern about whether it's a genuine vintage piece vs. a modern kit build.",
-      "rarity_notes": "Sector dial Amphibia variants are a known but niche aftermarket/collector style, not as common as classic black military dials; genuine vintage examples in this specific dial are less standardized since many are custom dial swaps.",
-      "demand_tier": "Medium",
-      "demand_reasoning": "Vostok Amphibia has a solid collector following (Medium-High recognition), but this particular decorative dial variant appeals to a narrower niche audience than the classic military dial models, and the price ($265) is high for a basic Vostok, suggesting either a modified piece or optimistic pricing."
-    },
-    "deal_score": -104,
-    "liquidity": {
-      "rating": "Medium",
-      "comparable_count": 2575,
-      "algorithmic_tier": "High",
-      "claude_tier": "Medium",
-      "reasoning": "Algorithmic signal: 2575 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Vostok Amphibia has a solid collector following (Medium-High recognition), but this particular decorative dial variant appeals to a narrower niche audience than the classic military dial models, and the price ($265) is high for a basic Vostok, suggesting either a modified piece or optimistic pricing.). Final rating uses the more conservative of the two: Medium."
-    },
-    "all_in_price": 265.0,
-    "discount": -1.0384615384615385,
-    "notified": false,
-    "duplicate_of": null,
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784938799.035505,
-    "analysis_depth": "quick"
-  },
-  {
-    "id": "vostok:ebay:v1|377362958612|0",
-    "listing": {
-      "id": "ebay:v1|377362958612|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "Vintage Mens Watch Vostok Amphibia Komandirskie USSR 17 Jewels Green Dial Steel ",
-      "url": "https://www.ebay.com/itm/377362958612?_skw=Vostok+Amphibia&hash=item57dc95c914:g:e20AAeSwbzRpzi2-",
-      "price": 435.0,
-      "shipping_price": 25.0,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/e20AAeSwbzRpzi2-/s-l225.jpg",
-      "image_urls": [],
-      "body": "Vintage Mens Watch Vostok Amphibia Komandirskie USSR 17 Jewels Green Dial Steel ",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "Pre-owned - Good"
-      }
-    },
-    "watch_item_id": "vostok",
-    "analysis": {
-      "matches_criteria": true,
-      "match_reasoning": "Listing is a Vostok Amphibia Komandirskie with a green dial and classic military diver styling (steel case, black NATO strap, coin-edge bezel) - fits the \"classic military feel, no crazy dials\" requirement reasonably well since green sunburst/classic dials are standard Amphibia variants, not one of the wild novelty dials.",
-      "estimated_value": 140.0,
-      "confidence": 0.4,
-      "condition_summary": "Watch appears used but presentable in the photo - case shows typical light wear, crystal and bezel look intact, strap is an aftermarket black NATO rather than original.",
-      "authenticity_risk": "medium",
-      "authenticity_notes": "Only one photo provided, no case-back, movement, or dial close-up shots to confirm originality of dial/hands/lume or matching serial markings; $460 asking price is well above typical market value ($80-180) for a standard vintage Vostok Amphibia Komandirskie, which is a red flag - either overpriced or seller assumes rarity/condition not substantiated by the listing. No mention of box/papers, provenance, or servicing history.",
-      "rarity_notes": "Green-dial Amphibia Komandirskie models are common in the vintage Vostok market; not a rare or limited variant, so no strong justification for premium pricing.",
-      "demand_tier": "Medium",
-      "demand_reasoning": "Vostok Amphibia has a solid collector following, especially among affordable vintage diver enthusiasts, but demand and price ceiling for standard dial variants remain modest compared to Swiss vintage divers."
-    },
-    "deal_score": -229,
-    "liquidity": {
-      "rating": "Medium",
-      "comparable_count": 2575,
-      "algorithmic_tier": "High",
-      "claude_tier": "Medium",
-      "reasoning": "Algorithmic signal: 2575 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Vostok Amphibia has a solid collector following, especially among affordable vintage diver enthusiasts, but demand and price ceiling for standard dial variants remain modest compared to Swiss vintage divers.). Final rating uses the more conservative of the two: Medium."
-    },
-    "all_in_price": 460.0,
-    "discount": -2.2857142857142856,
-    "notified": false,
-    "duplicate_of": "vostok:ebay:v1|377362958068|0",
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784938807.7374685,
-    "analysis_depth": "quick"
-  },
-  {
     "id": "vostok:ebay:v1|203192246446|0",
     "listing": {
       "id": "ebay:v1|203192246446|0",
@@ -104615,5 +104515,114 @@
     "qa_history": [],
     "created_at": 1789121672.072582,
     "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|178485472191|0",
+    "listing": {
+      "id": "ebay:v1|178485472191|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "2022 | Rolex Submariner No Date | Ref. 124060 | Black Dial | 41mm | Full Set",
+      "url": "https://www.ebay.com/itm/178485472191?_skw=Rolex+Submariner+black+dial&hash=item298e902bbf:g:yJkAAeSwnKZqosuN",
+      "price": 13595.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/yJkAAeSwnKZqosuN/s-l225.jpg",
+      "image_urls": [],
+      "body": "2022 | Rolex Submariner No Date | Ref. 124060 | Black Dial | 41mm | Full Set",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Item matches brand, model line, black dial, and year, but the all-in price of $13,595 exceeds the hunter's $11,000 ceiling, so it fails the price criterion.",
+      "estimated_value": 13000.0,
+      "confidence": 0.6,
+      "condition_summary": "Described as full set 2022 Submariner No Date; photo shows a clean, apparently unworn or lightly worn watch with no visible scratches, though the artistic colored background lighting makes it hard to assess surface detail closely.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "Reference, description, and photo are consistent with a genuine 124060; no obvious mismatches or red flags, but only one stylized photo is provided, limiting ability to verify serial/papers or close-up condition details.",
+      "rarity_notes": "124060 is a current-production, widely available Submariner No Date reference - not rare, though full set examples are desirable.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most sought-after watch models globally, with consistently strong demand and liquidity in the resale market."
+    },
+    "deal_score": -5,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 3177,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 3177 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most sought-after watch models globally, with consistently strong demand and liquidity in the resale market.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 13595.0,
+    "discount": -0.04576923076923077,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|820088400012|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1789149114.6583474,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|147566323893|0",
+    "listing": {
+      "id": "ebay:v1|147566323893|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex Submariner Date 40MM 16610 Black Diamond Dial Oyster Stainless Steel Watch",
+      "url": "https://www.ebay.com/itm/147566323893?_skw=Rolex+Submariner+black+dial&hash=item225ba368b5:g:NWkAAeSw8ChqeIGp",
+      "price": 8800.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/NWkAAeSw8ChqeIGp/s-l225.jpg",
+      "image_urls": [
+        "https://i.ebayimg.com/images/g/NWkAAeSw8ChqeIGp/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/LagAAeSw3C1qeIGp/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/EWIAAeSw19lqeIGp/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/G2UAAeSwgsZqeIGp/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/HiYAAeSwvl9qeIGp/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/NeEAAeSwxxdqeIGp/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/JuUAAeSw-BBqeIGp/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/NtUAAeSwCYxqeIGp/s-l1600.jpg"
+      ],
+      "body": "Rolex Submariner Date 40MM 16610 Black Diamond Dial Oyster Stainless Steel Watch",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Hunter's criteria was generic (brand, model, black dial, 1992+, excellent condition, <$11000) with no specific reference number required. The 16610 is the standard Submariner Date reference produced from 1988-2010 with black dial, so it fits the black dial/1992-or-newer requirement, and the $8,800 price is under the $11,000 ceiling.",
+      "estimated_value": 9200.0,
+      "confidence": 0.55,
+      "condition_summary": "Photos show a well-kept 16610 with clean dial/bezel and minimal visible wear on the case and bracelet; however, the added diamond hour markers are an aftermarket modification (not factory), which affects value and originality despite otherwise excellent cosmetic condition.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "The diamond dial markers are not a factory Rolex configuration for the 16610 (factory diamond executions exist but are different references/dials with documentation) - this is very likely an aftermarket \"diamond added\" dial or refinished dial, which is a red flag for value and originality even if the watch itself is a genuine Rolex case/movement. No serial/model number close-up, no box/papers mentioned, and no seller history details are provided. Listing text is minimal (title only, no description of year, service history, or included accessories).",
+      "rarity_notes": "The base 16610 Submariner is very common on the market; however, examples with aftermarket diamond dials are less desirable to purists and often sell at a discount to stock dial versions despite the \"upgrade,\" making this a somewhat unusual but not rare variant.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and sought-after watch models globally, ensuring strong baseline demand regardless of specific dial variant."
+    },
+    "deal_score": 4,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 3177,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 3177 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and sought-after watch models globally, ensuring strong baseline demand regardless of specific dial variant.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 8800.0,
+    "discount": 0.043478260869565216,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|257732574407|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1789149128.3529024,
+    "analysis_depth": "full"
   }
 ]
