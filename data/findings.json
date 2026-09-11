@@ -1,55 +1,5 @@
 [
   {
-    "id": "vostok:ebay:v1|377362958068|0",
-    "listing": {
-      "id": "ebay:v1|377362958068|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "Vintage Mens Watch Vostok Amphibia Sector Dial Barrel Case USSR 18 Jewels 163",
-      "url": "https://www.ebay.com/itm/377362958068?_skw=Vostok+Amphibia&hash=item57dc95c6f4:g:rGEAAeSwQTBpz4f1",
-      "price": 435.0,
-      "shipping_price": 25.0,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/rGEAAeSwQTBpz4f1/s-l225.jpg",
-      "image_urls": [],
-      "body": "Vintage Mens Watch Vostok Amphibia Sector Dial Barrel Case USSR 18 Jewels 163",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "Pre-owned - Good"
-      }
-    },
-    "watch_item_id": "vostok",
-    "analysis": {
-      "matches_criteria": true,
-      "match_reasoning": "This is a genuine Vostok Amphibia in the classic barrel case with a sector dial - a traditional/military-style layout, not one of the unusual \"crazy dial\" limited editions. It fits the hunter's request for a classic military-feel Amphibia.",
-      "estimated_value": 130.0,
-      "confidence": 0.4,
-      "condition_summary": "Watch appears in good cosmetic condition with a clean sector dial, intact bezel insert, and steel bracelet; no major visible damage in the single photo, but no wrist shots, case-back, or movement photos are provided to confirm overall condition.",
-      "authenticity_risk": "medium",
-      "authenticity_notes": "Asking price of $460 is dramatically above typical resale value for a standard Vostok Amphibia (these commonly sell for $50-150 even in excellent vintage condition), which is a red flag - either a pricing error, an attempt to target uninformed buyers, or an assumption of rarity that isn't well substantiated. No serial/movement photos, no box/papers shown, and only one stock-like photo is provided, making it hard to verify authenticity or condition claims.",
-      "rarity_notes": "The barrel-case Amphibia with a sector dial is a well-known, commonly reissued/produced variant - not rare. Genuine vintage USSR-era examples exist but are not particularly scarce, and this could also be a newer production piece rather than true vintage.",
-      "demand_tier": "Medium",
-      "demand_reasoning": "Vostok Amphibia is a recognized and liked model among vintage/military watch collectors, giving it steady niche demand, but it's not a high-value luxury brand, so overall demand and price ceiling are modest."
-    },
-    "deal_score": -254,
-    "liquidity": {
-      "rating": "Medium",
-      "comparable_count": 2575,
-      "algorithmic_tier": "High",
-      "claude_tier": "Medium",
-      "reasoning": "Algorithmic signal: 2575 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Vostok Amphibia is a recognized and liked model among vintage/military watch collectors, giving it steady niche demand, but it's not a high-value luxury brand, so overall demand and price ceiling are modest.). Final rating uses the more conservative of the two: Medium."
-    },
-    "all_in_price": 460.0,
-    "discount": -2.5384615384615383,
-    "notified": false,
-    "duplicate_of": null,
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784938787.9636686,
-    "analysis_depth": "quick"
-  },
-  {
     "id": "vostok:ebay:v1|377362957742|0",
     "listing": {
       "id": "ebay:v1|377362957742|0",
@@ -104615,5 +104565,55 @@
     "qa_history": [],
     "created_at": 1789105909.116795,
     "analysis_depth": "full"
+  },
+  {
+    "id": "rolex:ebay:v1|800511749240|0",
+    "listing": {
+      "id": "ebay:v1|800511749240|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex Submariner Blue Dial 18K Yellow Gold Oyster Bracelet Automatic Men's Watch",
+      "url": "https://www.ebay.com/itm/800511749240?_skw=Rolex+Submariner&hash=itemba6237ec78:g:T~4AAeSwsh1qo3Wz&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGaU3KSq0tcvt1XK1O9RWprfE%2B66X4zo4jwWmhbAD8nd3wRuP%2FHA0b8JGoJ%2FiW0RgZ691SRItK9d%2FHMfyTPhHfCBhKPF9WjV9l5yFctl0yuDrI40ugR0Q5L3WK3%2ByQvL934hx%2Biw%2FwOqqUFMss044aS%2B8CgtYpttlFnYl1o4y94RivUC0s84Kvm326Xk%2BxOd%2BXz7%2BEghirF2%2FnSq5mkkeIMjV3x9Fv%2FgPaytyuRfk%2Fpch1hnqUHBcqH6tOKKP5VAPWBKddkXkiMl4c8zYvcvyfpbiCiNhdxwt85Og7ebTv3zeg%3D%3D",
+      "price": 48825.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/T~4AAeSwsh1qo3Wz/s-l225.jpg",
+      "image_urls": [],
+      "body": "Rolex Submariner Blue Dial 18K Yellow Gold Oyster Bracelet Automatic Men's Watch",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "New with box and papers"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Hunter requires a black dial Submariner under $11,000. This listing is a blue dial 18K gold Submariner priced at $48,825, failing both the dial color and price criteria.",
+      "estimated_value": 48825.0,
+      "confidence": 0.4,
+      "condition_summary": "Appears to be a stock/catalog-style image showing a gold Submariner with blue dial in apparently new/mint condition; no real-world wear details or photos of the actual item provided.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only a single stock-like promotional photo is shown rather than actual item photos (no serial, papers, or box images), which is a common red flag for listings not depicting the true item. No description details (year, reference number, condition specifics) are given beyond the title.",
+      "rarity_notes": "18K gold Submariner with blue dial (likely ref. 116618LB or similar) is a well-known, moderately available model, not especially rare, but commands high prices due to gold content and brand demand.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and sought-after watch models globally, ensuring strong demand regardless of variant."
+    },
+    "deal_score": 0,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 6065,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 6065 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and sought-after watch models globally, ensuring strong demand regardless of variant.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 48825.0,
+    "discount": 0.0,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1789121672.072582,
+    "analysis_depth": "quick"
   }
 ]
