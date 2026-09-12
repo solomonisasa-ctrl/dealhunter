@@ -1,105 +1,5 @@
 [
   {
-    "id": "vostok:ebay:v1|377366412321|0",
-    "listing": {
-      "id": "ebay:v1|377366412321|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "Vintage Mens Watch Vostok Amphibia Komandirskie Submarine Automatic Self-Winding",
-      "url": "https://www.ebay.com/itm/377366412321?_skw=Vostok+Amphibia&hash=item57dcca7c21:g:u4wAAeSwyVdpzjJy",
-      "price": 385.0,
-      "shipping_price": 25.0,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/u4wAAeSwyVdpzjJy/s-l225.jpg",
-      "image_urls": [],
-      "body": "Vintage Mens Watch Vostok Amphibia Komandirskie Submarine Automatic Self-Winding",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "Pre-owned - Good"
-      }
-    },
-    "watch_item_id": "vostok",
-    "analysis": {
-      "matches_criteria": false,
-      "match_reasoning": "The hunter wants a classic military-feel Amphibia with no crazy dials. This listing shows a submarine-themed dial with a blue background and whale/submarine graphic - a novelty/graphic dial variant, not a classic military dial (numerals-only, radium-style or simple Komandirskie face). This falls into the 'crazy dial' category the hunter explicitly wants to avoid.",
-      "estimated_value": 120.0,
-      "confidence": 0.35,
-      "condition_summary": "Watch appears used but functional in the photo, with visible case wear and a plain black leather strap that looks aftermarket/non-original; no box or papers shown.",
-      "authenticity_risk": "medium",
-      "authenticity_notes": "Only one photo provided (appears to be a stock/reused seller photo based on generic staging), no case-back or movement shots to confirm authenticity, no serial/reference details given in the text. Vostok Amphibias are frequently reissued/modded with aftermarket dials, so 'vintage' claim is unverified without movement or hallmark evidence.",
-      "rarity_notes": "Submarine/whale-themed dials are a specific novelty variant within the Amphibia line, not particularly rare but distinct from classic military Komandirskie dials; such graphic dials are common in reissue/modded markets.",
-      "demand_tier": "Medium",
-      "demand_reasoning": "Vostok Amphibia is a recognized, popular vintage Soviet diver brand with a solid collector base, but this specific novelty dial variant appeals to a narrower niche than the classic military style the hunter wants."
-    },
-    "deal_score": -242,
-    "liquidity": {
-      "rating": "Medium",
-      "comparable_count": 2575,
-      "algorithmic_tier": "High",
-      "claude_tier": "Medium",
-      "reasoning": "Algorithmic signal: 2575 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Vostok Amphibia is a recognized, popular vintage Soviet diver brand with a solid collector base, but this specific novelty dial variant appeals to a narrower niche than the classic military style the hunter wants.). Final rating uses the more conservative of the two: Medium."
-    },
-    "all_in_price": 410.0,
-    "discount": -2.4166666666666665,
-    "notified": false,
-    "duplicate_of": "vostok:ebay:v1|377362958068|0",
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784938852.8917656,
-    "analysis_depth": "quick"
-  },
-  {
-    "id": "vostok:ebay:v1|203304452119|0",
-    "listing": {
-      "id": "ebay:v1|203304452119|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "Vostok Amphibia 120849 Watch Scuba Diver Mechanic Automatic USA Seller",
-      "url": "https://www.ebay.com/itm/203304452119?_skw=Vostok+Amphibia&hash=item2f55e3c017:g:gEIAAOSwDPhoL1mo",
-      "price": 149.95,
-      "shipping_price": 0.0,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/gEIAAOSwDPhoL1mo/s-l225.jpg",
-      "image_urls": [],
-      "body": "Vostok Amphibia 120849 Watch Scuba Diver Mechanic Automatic USA Seller",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "New with box and papers"
-      }
-    },
-    "watch_item_id": "vostok",
-    "analysis": {
-      "matches_criteria": true,
-      "match_reasoning": "Hunter wants a classic-dial Vostok Amphibia with military feel, no specific reference required. The listed 120849 model has a simple silver/grey military-style dial with baton/arrow markers and standard bezel - fits the 'classic, no crazy dial' request.",
-      "estimated_value": 120.0,
-      "confidence": 0.45,
-      "condition_summary": "Photo shows what appears to be a new/unworn watch on rubber strap with clean dial, crystal, and case - no visible wear, but this may be a stock/catalog photo rather than the actual item.",
-      "authenticity_risk": "low",
-      "authenticity_notes": "Vostok Europe/Amphibia models are widely reproduced but genuine examples are common and inexpensive; no major red flags, though the single stock-style photo with no close-ups of caseback, movement, or serial markings makes it hard to confirm this exact unit's authenticity or condition. Listing title mixes 'vintage' request with what looks like a newer production model (Vostok Amphibia reissue rather than true vintage Soviet-era piece).",
-      "rarity_notes": "120849 is a fairly common modern Vostok Amphibia reference, not a rare vintage variant; readily available from multiple sellers, so not particularly hard to find.",
-      "demand_tier": "Medium",
-      "demand_reasoning": "Vostok Amphibia has solid recognition among affordable vintage/military watch collectors, but this specific common reference isn't a standout grail, keeping demand moderate rather than high."
-    },
-    "deal_score": -25,
-    "liquidity": {
-      "rating": "Medium",
-      "comparable_count": 2575,
-      "algorithmic_tier": "High",
-      "claude_tier": "Medium",
-      "reasoning": "Algorithmic signal: 2575 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Vostok Amphibia has solid recognition among affordable vintage/military watch collectors, but this specific common reference isn't a standout grail, keeping demand moderate rather than high.). Final rating uses the more conservative of the two: Medium."
-    },
-    "all_in_price": 149.95,
-    "discount": -0.24958333333333324,
-    "notified": false,
-    "duplicate_of": "vostok:ebay:v1|202716530031|0",
-    "dismissed": true,
-    "qa_history": [],
-    "created_at": 1784938861.7279205,
-    "analysis_depth": "quick"
-  },
-  {
     "id": "vostok:ebay:v1|202716538904|0",
     "listing": {
       "id": "ebay:v1|202716538904|0",
@@ -104636,5 +104536,107 @@
     "qa_history": [],
     "created_at": 1789166391.3734996,
     "analysis_depth": "full"
+  },
+  {
+    "id": "rolex:ebay:v1|287579445430|0",
+    "listing": {
+      "id": "ebay:v1|287579445430|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex Submariner Date 41mm Blue Dial/Bezel Auto 300m SS Bracelet Date",
+      "url": "https://www.ebay.com/itm/287579445430?_skw=Rolex+Submariner&hash=item42f51218b6:g:EmMAAeSw8Edqo4Ks",
+      "price": 10000.0,
+      "shipping_price": null,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/EmMAAeSw8Edqo4Ks/s-l225.jpg",
+      "image_urls": [],
+      "body": "Rolex Submariner Date 41mm Blue Dial/Bezel Auto 300m SS Bracelet Date",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "New without box or papers"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Hunter requires a black dial Submariner, but this listing is a blue dial/blue bezel Submariner Date (41mm), which does not meet the explicit dial color requirement.",
+      "estimated_value": 10000.0,
+      "confidence": 0.3,
+      "condition_summary": "Photo shows a blue dial/bezel Submariner Date in what appears to be excellent, lightly used condition with box shown, but only one stock-like photo is provided with no close-up wear shots.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only a single generic-looking product photo is provided (no serial/reference close-ups, no papers shown despite box present), and there's minimal listing detail (no reference number, year, or provenance). Price also seems on the low side for a modern 41mm blue Submariner, which combined with vague details is a mild red flag.",
+      "rarity_notes": "Blue dial/bezel 'Smurf'-style Submariners are popular but not rare; widely available on the secondary market.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and in-demand watch models globally, regardless of dial color."
+    },
+    "deal_score": 0,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 6062,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 6062 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and in-demand watch models globally, regardless of dial color.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 10000.0,
+    "discount": 0.0,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1789189563.2302413,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|128074469712|0",
+    "listing": {
+      "id": "ebay:v1|128074469712|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "eLive- Rolex Submariner Date Ceramic 41mm 126610LN",
+      "url": "https://www.ebay.com/itm/128074469712?_skw=Rolex+Submariner&hash=item1dd1d55150:g:qNcAAeSwJYxqpF0O",
+      "price": 1.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/qNcAAeSwJYxqpF0O/s-l225.jpg",
+      "image_urls": [
+        "https://i.ebayimg.com/images/g/qNcAAeSwJYxqpF0O/s-l1600.jpg"
+      ],
+      "body": "eLive- Rolex Submariner Date Ceramic 41mm 126610LN",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "New with box and papers"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Hunter's criteria did not specify a reference number, just black dial Submariner 1992+. The 126610LN is a current-production black dial Submariner Date, which fits. However, the $1.00 price is almost certainly an auction starting price/listing error, not the actual sale price, so price match cannot be verified.",
+      "estimated_value": 9500.0,
+      "confidence": 0.3,
+      "condition_summary": "Photo shows what appears to be a new/unworn or lightly used 126610LN with no visible scratches, but it's a single stock-style catalog photo with no close-ups of case, clasp, or papers, so actual condition can't be confirmed.",
+      "authenticity_risk": "high",
+      "authenticity_notes": "$1.00 'all-in' price is a massive red flag - either a manipulated/teaser auction listing, a scam, or a data error not reflecting real transaction price. No mention of papers, box, serial, or seller reputation details. Single stock-like photo with no confirmation of the actual item being sold.",
+      "rarity_notes": "126610LN is a widely produced, currently cataloged Rolex Submariner reference - not rare, but consistently high demand.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and sought-after watch models in the world, with strong resale demand regardless of exact reference."
+    },
+    "deal_score": 30,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 6062,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 6062 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and sought-after watch models in the world, with strong resale demand regardless of exact reference.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 1.0,
+    "discount": 0.9998947368421053,
+    "notified": true,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1789189563.5012941,
+    "analysis_depth": "quick"
   }
 ]
