@@ -1,105 +1,5 @@
 [
   {
-    "id": "vostok:ebay:v1|202727675264|0",
-    "listing": {
-      "id": "ebay:v1|202727675264|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "Vostok Amphibia 120656 Watch Scuba Dude Diver Automatic USA Seller",
-      "url": "https://www.ebay.com/itm/202727675264?_skw=Vostok+Amphibia&hash=item2f3382d580:g:04oAAOSw6qhmnSQr",
-      "price": 149.95,
-      "shipping_price": 0.0,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/04oAAOSw6qhmnSQr/s-l225.jpg",
-      "image_urls": [],
-      "body": "Vostok Amphibia 120656 Watch Scuba Dude Diver Automatic USA Seller",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "New with box and papers"
-      }
-    },
-    "watch_item_id": "vostok",
-    "analysis": {
-      "matches_criteria": false,
-      "match_reasoning": "The hunter wants a classic military-feel Amphibia with no crazy dials. The 120656 \"Scuba Dude\" model features a novelty diver-with-flag graphic dial, which is a distinctive/quirky dial variant rather than a classic military-style dial (e.g., plain numbered/marker dial). This falls into the 'crazy dial' category the hunter explicitly wants to avoid.",
-      "estimated_value": 100.0,
-      "confidence": 0.55,
-      "condition_summary": "Appears to be a new/modern-production Amphibia (stock-style product photo, rubber strap, clean case) rather than a genuine vintage piece; no wear shown, likely current manufacture rather than an actual Soviet-era vintage watch.",
-      "authenticity_risk": "low",
-      "authenticity_notes": "Photo looks like a standard manufacturer/reseller product shot rather than an actual photo of the seller's item, common for new-production Vostok listings; not necessarily fraudulent but reduces ability to verify actual condition. Price and description are consistent with widely available new Vostok Amphibia models sold by many legitimate resellers.",
-      "rarity_notes": "The 120656 \"Scuba Dude\" dial is a well-known, currently produced Vostok variant - not rare, and not vintage; it's a modern novelty dial, contrary to the classic military look requested.",
-      "demand_tier": "Medium",
-      "demand_reasoning": "Vostok Amphibia has a solid enthusiast following and the Scuba Dude variant is popular within that niche, but it's not a high-value or broadly recognized luxury piece, and this specific dial doesn't match the buyer's stated preference."
-    },
-    "deal_score": -50,
-    "liquidity": {
-      "rating": "Medium",
-      "comparable_count": 2575,
-      "algorithmic_tier": "High",
-      "claude_tier": "Medium",
-      "reasoning": "Algorithmic signal: 2575 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Vostok Amphibia has a solid enthusiast following and the Scuba Dude variant is popular within that niche, but it's not a high-value or broadly recognized luxury piece, and this specific dial doesn't match the buyer's stated preference.). Final rating uses the more conservative of the two: Medium."
-    },
-    "all_in_price": 149.95,
-    "discount": -0.4994999999999999,
-    "notified": false,
-    "duplicate_of": "vostok:ebay:v1|202716530031|0",
-    "dismissed": true,
-    "qa_history": [],
-    "created_at": 1784938897.6501243,
-    "analysis_depth": "quick"
-  },
-  {
-    "id": "vostok:ebay:v1|202800759504|0",
-    "listing": {
-      "id": "ebay:v1|202800759504|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "Vostok Amphibia 710439 Watch Military Mechanical Automatic Green USA Seller",
-      "url": "https://www.ebay.com/itm/202800759504?_skw=Vostok+Amphibia&hash=item2f37de02d0:g:SYUAAOSw0gVdpi2S&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGZwVDxkqA2fncllRutTMWsbqu%2BmVRDeYsVciaK6F%2Bk0MP%2BfnTyODcFmdpIB8KTUpNrrwoIb6Xyiawp7gRMP6ijrGJwnIU2qHCnbUth8ZwWJuSMafwWrYqX%2F8nc6TgvjcdS%2Bonpt7WXXF24GSskVLJMYOw36MOSTjWbQY4hSUulPAYAI4VzDBX7n0WYegr34VSwN1Pi4aA%2B4C3g%2F2mVnvfurxCLFEf1bDgzdgAZjiLBjqyhtmtMHEhPsOYFWfH4jScUs2m8NtKdhwLvhQc8XLB%2FviwflHOY8d0vuq0qsU2YoQw%3D%3D",
-      "price": 149.95,
-      "shipping_price": 0.0,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/SYUAAOSw0gVdpi2S/s-l225.jpg",
-      "image_urls": [],
-      "body": "Vostok Amphibia 710439 Watch Military Mechanical Automatic Green USA Seller",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "New with box and papers"
-      }
-    },
-    "watch_item_id": "vostok",
-    "analysis": {
-      "matches_criteria": true,
-      "match_reasoning": "The listing is a genuine Vostok Amphibia (ref 710439), matching the brand/model exactly. The dial is a classic green military-style diver dial, not an unusual/crazy variant, fitting the 'classic military feel' requirement.",
-      "estimated_value": 115.0,
-      "confidence": 0.55,
-      "condition_summary": "Photo shows what appears to be a new/unworn watch on a stainless bracelet with clean dial and bezel; no visible wear, but only one stock-style photo provided.",
-      "authenticity_risk": "low",
-      "authenticity_notes": "Image looks like a standard manufacturer/reseller stock photo rather than an in-hand photo of the actual item, which is common for new Vostok listings but limits condition verification. No serial mismatches or other overt red flags; price is in line with typical new Vostok Amphibia pricing, not suspiciously low.",
-      "rarity_notes": "This is a widely produced, currently available Vostok Amphibia reference (710439), not a rare or discontinued vintage piece - common and easy to find new.",
-      "demand_tier": "Medium",
-      "demand_reasoning": "Vostok Amphibias have a solid enthusiast following for affordable Soviet-style divers, but this particular colorway/reference is a mass-produced current model rather than a sought-after vintage grail, so demand is moderate rather than high."
-    },
-    "deal_score": -30,
-    "liquidity": {
-      "rating": "Medium",
-      "comparable_count": 2575,
-      "algorithmic_tier": "High",
-      "claude_tier": "Medium",
-      "reasoning": "Algorithmic signal: 2575 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Vostok Amphibias have a solid enthusiast following for affordable Soviet-style divers, but this particular colorway/reference is a mass-produced current model rather than a sought-after vintage grail, so demand is moderate rather than high.). Final rating uses the more conservative of the two: Medium."
-    },
-    "all_in_price": 149.95,
-    "discount": -0.30391304347826076,
-    "notified": false,
-    "duplicate_of": "vostok:ebay:v1|202716530031|0",
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784938904.910794,
-    "analysis_depth": "quick"
-  },
-  {
     "id": "Omega Constellation:ebay:v1|188692649540|0",
     "listing": {
       "id": "ebay:v1|188692649540|0",
@@ -104637,6 +104537,118 @@
     "dismissed": false,
     "qa_history": [],
     "created_at": 1789229042.8527527,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|237063474227|0",
+    "listing": {
+      "id": "ebay:v1|237063474227|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex Submariner Date Two-Tone Auto Date 40mm Black Dial/Bezel 300m",
+      "url": "https://www.ebay.com/itm/237063474227?_skw=Rolex+Submariner&hash=item3732158c33:g:fYIAAeSw80BqpGJJ",
+      "price": 6090.0,
+      "shipping_price": null,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/fYIAAeSw80BqpGJJ/s-l225.jpg",
+      "image_urls": [
+        "https://i.ebayimg.com/images/g/fYIAAeSw80BqpGJJ/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/16gAAeSwGb1qpGI7/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/2f4AAeSwuqxqpGI7/s-l1600.jpg"
+      ],
+      "body": "Rolex Submariner Date Two-Tone Auto Date 40mm Black Dial/Bezel 300m",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Hunter specified black dial Submariner, but did not exclude two-tone models, so material isn't necessarily disqualifying. However, the listing is priced at $6,090 - well within budget - but the bigger issue is authenticity: the hologram sticker under the caseback is a major red flag since genuine Rolex production (especially 1992+) does not use these green hologram case stickers in this manner, and this specific type of sticker/hologram is commonly associated with counterfeit or replica Submariners. This overrides basic criteria matching since it may not be a genuine Rolex at all.",
+      "estimated_value": 6090.0,
+      "confidence": 0.25,
+      "condition_summary": "Watch appears shiny/new-looking with minimal wear shown in photos, but photos are limited (no full caseback shot, no box/papers), and the case, bracelet, and dial finishing look inconsistent with genuine Rolex quality control in close-up.",
+      "authenticity_risk": "high",
+      "authenticity_notes": "The green holographic sticker inside the caseback is a strong red flag - genuine modern Rolex Submariners do not typically retain a visible garish hologram sticker like this on an unworn/authentic piece, and this pattern is frequently seen on replica/superclone watches sold to appear 'inspected'. No reference number, serial number, papers, or box confirmed in listing text. Price ($6,090) is significantly below typical market value for a genuine two-tone Submariner (which typically runs $13,000-$18,000+), which is itself a major red flag for a counterfeit given no explanation for the discounted price. Dial text/font and applied indices should be checked further, but combined with the suspicious sticker and price, high risk of counterfeit.",
+      "rarity_notes": "Two-tone Submariner Date with black dial/bezel is a common, mass-produced Rolex model, not rare in itself - but no reference number provided to confirm exact production year or specific reference (e.g. 16613 vs 116613).",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and highly demanded watch models worldwide, regardless of two-tone or black-dial execution."
+    },
+    "deal_score": 0,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 6055,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 6055 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and highly demanded watch models worldwide, regardless of two-tone or black-dial execution.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 6090.0,
+    "discount": 0.0,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1789245719.6763759,
+    "analysis_depth": "full"
+  },
+  {
+    "id": "rolex:etsy:4574078780",
+    "listing": {
+      "id": "etsy:4574078780",
+      "source": "etsy",
+      "category": "watches",
+      "title": "Rare Vintage 1970s Derby Jaz Swissonic jump-minute watch",
+      "url": "https://www.etsy.com/listing/4574078780/rare-vintage-1970s-derby-jaz-swissonic",
+      "price": 349.0,
+      "shipping_price": null,
+      "currency": "EUR",
+      "image_url": "https://i.etsystatic.com/30732021/r/il/b597c4/8562339747/il_fullxfull.8562339747_apqt.jpg",
+      "image_urls": [
+        "https://i.etsystatic.com/30732021/r/il/b597c4/8562339747/il_fullxfull.8562339747_apqt.jpg",
+        "https://i.etsystatic.com/30732021/r/il/69b67f/8514470276/il_fullxfull.8514470276_58ku.jpg",
+        "https://i.etsystatic.com/30732021/r/il/ee3c94/8514470228/il_fullxfull.8514470228_eccz.jpg",
+        "https://i.etsystatic.com/30732021/r/il/817dd8/8514470256/il_fullxfull.8514470256_nfbo.jpg",
+        "https://i.etsystatic.com/30732021/r/il/ccbb87/8514470252/il_fullxfull.8514470252_hwt1.jpg",
+        "https://i.etsystatic.com/30732021/r/il/67d64a/8562340051/il_fullxfull.8562340051_f3lg.jpg",
+        "https://i.etsystatic.com/30732021/r/il/802c0a/8514470564/il_fullxfull.8514470564_sqj4.jpg"
+      ],
+      "body": "For sale Rare Vintage 1970s Derby Jaz Swissonic jump-minute watch.\n\nWorks 10-20 seconds, then stop, see movie.\n\nNeed service (?) and a new battery (see the last picture which type). \n\nSold for parts, repair or collection.\n\nNo return accepted.\n\nIf you have any questions or need extra pictures please do not hesitate to contact me.",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "taxonomy_id": 6074
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The hunter is seeking a Rolex Submariner (black dial, 1992+). This listing is a completely unrelated item - a vintage 1970s Derby Jaz Swissonic jump-hour watch, not a Rolex, not a Submariner, and decades outside the required era. It fails on brand, model, and age criteria entirely.",
+      "estimated_value": 40.0,
+      "confidence": 0.5,
+      "condition_summary": "Well-worn 1970s jump-hour Derby Jaz Swissonic watch, heavily tarnished/dirty case, described by seller as intermittently working (10-20 seconds then stops) and sold for parts/repair/collection, needing service and a battery.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "No fraud red flags for what it is - seller is transparent about non-working condition, sold as-is/no returns, which is consistent with an honest parts/repair listing rather than a scam. Photo matches a genuine low-value vintage novelty watch, not a luxury item.",
+      "rarity_notes": "Derby Jaz Swissonic jump-hour watches are uncommon novelty pieces from the 1970s but have minimal collector demand and are not rare in a valuable sense.",
+      "demand_tier": "Low",
+      "demand_reasoning": "Obscure brand with niche/no significant collector base, sold as a non-functional parts/repair item, far outside the luxury watch market the hunter is targeting."
+    },
+    "deal_score": -772,
+    "liquidity": {
+      "rating": "Low",
+      "comparable_count": 52,
+      "algorithmic_tier": "High",
+      "claude_tier": "Low",
+      "reasoning": "Algorithmic signal: 52 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Low (Obscure brand with niche/no significant collector base, sold as a non-functional parts/repair item, far outside the luxury watch market the hunter is targeting.). Final rating uses the more conservative of the two: Low."
+    },
+    "all_in_price": 349.0,
+    "discount": -7.725,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1789245730.5311604,
     "analysis_depth": "quick"
   }
 ]
