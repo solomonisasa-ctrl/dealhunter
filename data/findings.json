@@ -1,55 +1,5 @@
 [
   {
-    "id": "vostok:ebay:v1|204151711977|0",
-    "listing": {
-      "id": "ebay:v1|204151711977|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "Vostok Amphibia 120811 Watch Diver Mechanical Automatic Black USA Seller",
-      "url": "https://www.ebay.com/itm/204151711977?_skw=Vostok+Amphibia&hash=item2f8863e8e9:g:NIsAAOSwgL5mYUpd",
-      "price": 159.95,
-      "shipping_price": 0.0,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/NIsAAOSwgL5mYUpd/s-l225.jpg",
-      "image_urls": [],
-      "body": "Vostok Amphibia 120811 Watch Diver Mechanical Automatic Black USA Seller",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "New with box and papers"
-      }
-    },
-    "watch_item_id": "vostok",
-    "analysis": {
-      "matches_criteria": true,
-      "match_reasoning": "The hunter wants a Vostok Amphibia with a classic military-style dial, no unusual variants. This listing is a Vostok Amphibia (ref 120811) with a simple black dial, black numerals/hands, and standard bezel - a classic no-frills military-style look, matching the criteria well since no specific reference was required.",
-      "estimated_value": 75.0,
-      "confidence": 0.45,
-      "condition_summary": "Photo shows what appears to be a new/unworn watch on a rubber strap with clean bezel and crystal, but the image looks like a stock product photo rather than an actual item photo, so true condition is unverified.",
-      "authenticity_risk": "medium",
-      "authenticity_notes": "Only one stock-style photo provided with no close-ups of caseback, movement, or serial markings; listing text is minimal (just the title repeated) with no description of condition, history, or included accessories. Price is plausible for a modern-production Amphibia but 'vintage' claim by the hunter isn't supported - this model (120811 series) is a newer/current production reissue, not a true vintage Soviet-era piece, which is a mismatch with the 'vintage' framing even though it satisfies the 'classic military feel, no crazy dial' requirement.",
-      "rarity_notes": "The 120811 case/dial combo is a widely produced, easily available modern Vostok Amphibia variant - not rare or hard to find, commonly sold by multiple sellers at similar prices.",
-      "demand_tier": "Medium",
-      "demand_reasoning": "Vostok Amphibia has a solid enthusiast following and reliable recognition, but this specific common black-dial variant is not a standout/rare piece, so demand is moderate rather than high."
-    },
-    "deal_score": -113,
-    "liquidity": {
-      "rating": "Medium",
-      "comparable_count": 2575,
-      "algorithmic_tier": "High",
-      "claude_tier": "Medium",
-      "reasoning": "Algorithmic signal: 2575 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Vostok Amphibia has a solid enthusiast following and reliable recognition, but this specific common black-dial variant is not a standout/rare piece, so demand is moderate rather than high.). Final rating uses the more conservative of the two: Medium."
-    },
-    "all_in_price": 159.95,
-    "discount": -1.1326666666666665,
-    "notified": false,
-    "duplicate_of": "vostok:ebay:v1|202716530031|0",
-    "dismissed": true,
-    "qa_history": [],
-    "created_at": 1784938880.2353349,
-    "analysis_depth": "quick"
-  },
-  {
     "id": "vostok:ebay:v1|203918177468|0",
     "listing": {
       "id": "ebay:v1|203918177468|0",
@@ -104637,6 +104587,56 @@
     "dismissed": false,
     "qa_history": [],
     "created_at": 1789204571.2814343,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|377488444596|0",
+    "listing": {
+      "id": "ebay:v1|377488444596|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex Submariner Silver Oyster Black Bezel Look At All Pictures ",
+      "url": "https://www.ebay.com/itm/377488444596?_skw=Rolex+Submariner&hash=item57e4108cb4:g:eKsAAeSw7fFqo-3I",
+      "price": 1500.0,
+      "shipping_price": null,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/eKsAAeSw7fFqo-3I/s-l225.jpg",
+      "image_urls": [],
+      "body": "Rolex Submariner Silver Oyster Black Bezel Look At All Pictures ",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Price of $1,500 is drastically below genuine market value for any real Rolex Submariner (typically $8,000+), which combined with vague listing text and low-quality photo strongly suggests this is a counterfeit or replica, not a genuine Submariner meeting the criteria.",
+      "estimated_value": null,
+      "confidence": 0.15,
+      "condition_summary": "Photo shows a Submariner-style watch with black bezel/dial, but image is blurry/low-res and only one angle is shown; no visible serial, box, or papers.",
+      "authenticity_risk": "high",
+      "authenticity_notes": "Price is roughly 80-90% below genuine market value with no explanation (e.g., damage, theft, distress sale) - classic red flag for counterfeit/replica. Title and description are vague, non-specific ('Look At All Pictures' with only one poor-quality image provided), no reference number, no serial, no papers mentioned, no model year confirmation. No credible details differentiate this from mass-produced fake Submariners commonly sold at this price point.",
+      "rarity_notes": "Cannot assess rarity - no reference number, serial, or specific model details provided to identify which Submariner variant this claims to be.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and in-demand watch models in the world, but this listing's extreme price and lack of detail suggest it is very unlikely to be a genuine, authentic piece."
+    },
+    "deal_score": 0,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 6050,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 6050 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and in-demand watch models in the world, but this listing's extreme price and lack of detail suggest it is very unlikely to be a genuine, authentic piece.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 1500.0,
+    "discount": null,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1789217732.6512332,
     "analysis_depth": "quick"
   }
 ]
