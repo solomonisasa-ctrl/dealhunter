@@ -1,55 +1,5 @@
 [
   {
-    "id": "vostok:ebay:v1|203918177468|0",
-    "listing": {
-      "id": "ebay:v1|203918177468|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "Vostok Amphibia 120658 Watch Scuba Dude Diver Automatic USA Seller",
-      "url": "https://www.ebay.com/itm/203918177468?_skw=Vostok+Amphibia&hash=item2f7a7874bc:g:O34AAOSwcf9my0mW",
-      "price": 149.95,
-      "shipping_price": 0.0,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/O34AAOSwcf9my0mW/s-l225.jpg",
-      "image_urls": [],
-      "body": "Vostok Amphibia 120658 Watch Scuba Dude Diver Automatic USA Seller",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "New with box and papers"
-      }
-    },
-    "watch_item_id": "vostok",
-    "analysis": {
-      "matches_criteria": false,
-      "match_reasoning": "The Scuba Dude dial (with the diver mascot graphic) is considered a novelty/fun dial variant, not the classic military-style dial the hunter explicitly wants (\"no crazy dials just classic military feel\"). While it is a genuine Vostok Amphibia model, the dial style conflicts with the stated requirement.",
-      "estimated_value": 130.0,
-      "confidence": 0.55,
-      "condition_summary": "Photo shows what appears to be a new or like-new watch on a black rubber strap, with a stock-photo look (product shot, no wear visible, no size reference or box shown).",
-      "authenticity_risk": "low",
-      "authenticity_notes": "Price and presentation are consistent with a new/reissue Vostok Amphibia sold by USA-based resellers (common for this reference); no obvious red flags like mismatched parts or unrealistic pricing, but the image looks like a generic stock/catalog photo rather than an actual photo of the specific unit being sold, which is worth noting.",
-      "rarity_notes": "The 120658 \"Scuba Dude\" is a well-known, mass-produced modern Vostok Amphibia variant, not a rare vintage piece; readily available new from multiple sellers.",
-      "demand_tier": "Medium",
-      "demand_reasoning": "Vostok Amphibia has strong niche recognition among affordable vintage/Soviet watch collectors, but the Scuba Dude variant is common and not particularly sought after compared to true vintage military-dial pieces."
-    },
-    "deal_score": -15,
-    "liquidity": {
-      "rating": "Medium",
-      "comparable_count": 2575,
-      "algorithmic_tier": "High",
-      "claude_tier": "Medium",
-      "reasoning": "Algorithmic signal: 2575 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Vostok Amphibia has strong niche recognition among affordable vintage/Soviet watch collectors, but the Scuba Dude variant is common and not particularly sought after compared to true vintage military-dial pieces.). Final rating uses the more conservative of the two: Medium."
-    },
-    "all_in_price": 149.95,
-    "discount": -0.15346153846153837,
-    "notified": false,
-    "duplicate_of": "vostok:ebay:v1|202716530031|0",
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784938888.2084079,
-    "analysis_depth": "quick"
-  },
-  {
     "id": "vostok:ebay:v1|202727675264|0",
     "listing": {
       "id": "ebay:v1|202727675264|0",
@@ -104637,6 +104587,56 @@
     "dismissed": false,
     "qa_history": [],
     "created_at": 1789217732.6512332,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|117407721686|0",
+    "listing": {
+      "id": "ebay:v1|117407721686|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex Submariner 40mm Black Luminous Dial Red Insert Steel Automatic Watch",
+      "url": "https://www.ebay.com/itm/117407721686?_skw=Rolex+Submariner&hash=item1b560ba8d6:g:S0oAAOSw89JlzrXz",
+      "price": 11495.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/S0oAAOSw89JlzrXz/s-l225.jpg",
+      "image_urls": [],
+      "body": "Rolex Submariner 40mm Black Luminous Dial Red Insert Steel Automatic Watch",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Price is $11,495 all-in, above the $11,000 ceiling. Additionally this appears to be a \"Submariner\" with red bezel/insert (likely a modified or \"Kermit/Coke\"-style variant), not a standard black bezel Submariner, and no year is confirmed as 1992+.",
+      "estimated_value": 10500.0,
+      "confidence": 0.3,
+      "condition_summary": "Watch appears to be in good cosmetic condition from the single photo, with a black dial and red bezel insert, steel bracelet; no wear details, box/papers, or serial/reference info given.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only one photo provided (looks like a stock/generic image), no close-ups of caseback, serial numbers, hallmarks, or movement. No box/papers mentioned. Red insert on a \"Submariner\" is unusual (this configuration resembles a modified or aftermarket bezel rather than a standard factory Submariner), which raises authenticity/originality concerns. No reference number given, making verification difficult.",
+      "rarity_notes": "Standard steel Submariners are common on the market, but a red-inserted variant is not a typical Rolex factory configuration for this model line, suggesting possible aftermarket modification, which would affect value and desirability.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and sought-after luxury watch models, always in high demand regardless of specific variant."
+    },
+    "deal_score": -9,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 6063,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 6063 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and sought-after luxury watch models, always in high demand regardless of specific variant.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 11495.0,
+    "discount": -0.09476190476190476,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|298343747990|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1789229042.8527527,
     "analysis_depth": "quick"
   }
 ]
