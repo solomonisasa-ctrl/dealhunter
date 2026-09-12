@@ -1,55 +1,5 @@
 [
   {
-    "id": "vostok:ebay:v1|202716538904|0",
-    "listing": {
-      "id": "ebay:v1|202716538904|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "Vostok Amphibia 710634 Watch Scuba Dude Diver Mechanical Automatic USA Seller",
-      "url": "https://www.ebay.com/itm/202716538904?_skw=Vostok+Amphibia&hash=item2f32d8e818:g:zKEAAOSwRrxdD-PP",
-      "price": 149.95,
-      "shipping_price": 0.0,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/zKEAAOSwRrxdD-PP/s-l225.jpg",
-      "image_urls": [],
-      "body": "Vostok Amphibia 710634 Watch Scuba Dude Diver Mechanical Automatic USA Seller",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "New with box and papers"
-      }
-    },
-    "watch_item_id": "vostok",
-    "analysis": {
-      "matches_criteria": true,
-      "match_reasoning": "The dial (Scuba Dude with black dial, applied numerals, simple bezel) fits the \"classic military feel, no crazy dial\" requirement reasonably well. However, this appears to be a current-production/new Vostok Amphibia (ref 710634), not a genuine vintage piece, so it only partially satisfies the \"vintage\" aspect of the hunter's request.",
-      "estimated_value": 85.0,
-      "confidence": 0.45,
-      "condition_summary": "Cannot confirm actual condition of the specific unit since only a stock-style photo is shown; described as mechanical automatic, appears new/unworn in the photo with no visible wear, scratches, or aging typical of a true vintage piece.",
-      "authenticity_risk": "low",
-      "authenticity_notes": "Photo appears to be a stock/catalog image (common for these mass-produced Vostok listings), not an actual photo of the specific watch being sold. No serial number, case-back, or movement shots to verify authenticity. Vostok Amphibia watches are widely reissued/reproduced and this looks like a new/current production piece rather than a genuine vintage Soviet-era watch, despite \"vintage\" styling. Price and generic description are consistent with typical current-production Vostok resellers, not a red flag for fraud, but it's not vintage.",
-      "rarity_notes": "Ref 710634 \"Scuba Dude\" is one of the most common and widely produced Vostok Amphibia variants, still in production today - not rare or hard to find, and readily available new from many sellers.",
-      "demand_tier": "Medium",
-      "demand_reasoning": "Vostok Amphibia is a well-known, recognized affordable diver among enthusiasts, with steady collector/hobbyist demand, though this \"Scuba Dude\" variant is common and low-cost, not particularly rare."
-    },
-    "deal_score": -76,
-    "liquidity": {
-      "rating": "Medium",
-      "comparable_count": 2575,
-      "algorithmic_tier": "High",
-      "claude_tier": "Medium",
-      "reasoning": "Algorithmic signal: 2575 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Vostok Amphibia is a well-known, recognized affordable diver among enthusiasts, with steady collector/hobbyist demand, though this \"Scuba Dude\" variant is common and low-cost, not particularly rare.). Final rating uses the more conservative of the two: Medium."
-    },
-    "all_in_price": 149.95,
-    "discount": -0.7641176470588233,
-    "notified": false,
-    "duplicate_of": "vostok:ebay:v1|202716530031|0",
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784938871.2742348,
-    "analysis_depth": "quick"
-  },
-  {
     "id": "vostok:ebay:v1|204151711977|0",
     "listing": {
       "id": "ebay:v1|204151711977|0",
@@ -104637,6 +104587,56 @@
     "dismissed": false,
     "qa_history": [],
     "created_at": 1789189563.5012941,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|158283269945|0",
+    "listing": {
+      "id": "ebay:v1|158283269945|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex Submariner Date Two-Tone 18k Yellow Gold & Steel Blue Serti Dial 40 mm",
+      "url": "https://www.ebay.com/itm/158283269945?_skw=Rolex+Submariner&hash=item24da6b0739:g:aRYAAeSw73ZqohrW",
+      "price": 11300.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/aRYAAeSw73ZqohrW/s-l225.jpg",
+      "image_urls": [],
+      "body": "Rolex Submariner Date Two-Tone 18k Yellow Gold & Steel Blue Serti Dial 40 mm",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Hunter requires a black dial Submariner from 1992 or newer, but this listing is a Two-Tone (steel and 18k gold) Submariner with a blue Serti (diamond/sapphire-set) dial, not a black dial. This is a different dial color and case material configuration, so it does not match the stated criteria despite being the same base model line.",
+      "estimated_value": 11500.0,
+      "confidence": 0.3,
+      "condition_summary": "Based on the single photo, the watch appears to be in good cosmetic condition with no visible major wear, but only one angle is shown and no close-up of case, bracelet links, or bezel wear is provided.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Single stock-style photo with glove handling (common in luxury watch listings, not necessarily fraudulent, but limited views of caseback, serial, or papers). No serial/reference number provided, no confirmation of box/papers being included despite green Rolex box visible in photo. Insufficient detail to rule out authenticity concerns.",
+      "rarity_notes": "Two-tone Serti dial Submariners are a discontinued, less common variant compared to standard black dial steel Submariners, making them somewhat rarer but also less broadly desired by buyers seeking the classic look.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and sought-after luxury watch models, though this two-tone Serti dial variant is a niche configuration with somewhat lower demand than the classic black dial steel Submariner."
+    },
+    "deal_score": 2,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 6053,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 6053 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and sought-after luxury watch models, though this two-tone Serti dial variant is a niche configuration with somewhat lower demand than the classic black dial steel Submariner.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 11300.0,
+    "discount": 0.017391304347826087,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|407204802038|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1789204571.2814343,
     "analysis_depth": "quick"
   }
 ]
