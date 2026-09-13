@@ -1,155 +1,5 @@
 [
   {
-    "id": "shunbun:ebay:v1|117034719312|0",
-    "listing": {
-      "id": "ebay:v1|117034719312|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "Grand Seiko Red Elegance Collection 20th Anniversary Limited SBGA499 Nice Minty!",
-      "url": "https://www.ebay.com/itm/117034719312?_skw=Grand+Seiko+Shunbun&hash=item1b3fd01850:g:r98AAeSwrilpjo9J&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGZEJU34P0glmnGayfBChl%2FTskxk67PMYGlAg6Kpzrz1zqTT2%2BcyqGG4iyHha%2BPcFzRDdmcvIF0c6o%2Bs3qB9ayT2Kwq7OKf4sV1LOgvuKzsilxXWD%2BRz52RXgNMfU%2FnKcR%2B7w8dzZzKSAKWjwtkeKm%2BOlzA43gTGY7iFK76dk2ot11Y%2F12qE3wuTl9L6vVN4nX%2BlV8btr8juF2%2BMAKn8IskvDwQbgRHZCTKz1DIcAiE77gDoiEr6sgd3ZWWFZS79MAY193LKx2MIJ8YHIPZVQSeH%2FSRCzbtyajtHa11ZIae1Gg%3D%3D",
-      "price": 6100.0,
-      "shipping_price": 0.0,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/r98AAeSwrilpjo9J/s-l225.jpg",
-      "image_urls": [],
-      "body": "Grand Seiko Red Elegance Collection 20th Anniversary Limited SBGA499 Nice Minty!",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "Pre-owned - Good"
-      }
-    },
-    "watch_item_id": "shunbun",
-    "analysis": {
-      "matches_criteria": false,
-      "match_reasoning": "Hunter specifically wants the Grand Seiko \"Shunbun\" model, but this listing is the SBGA499 Red Elegance 20th Anniversary Limited Edition, which is a distinct model/reference. A different limited edition from the same brand does not count as a match.",
-      "estimated_value": 6000.0,
-      "confidence": 0.4,
-      "condition_summary": "Described as \"Nice Minty\" implying near-mint condition; single photo shows a clean red-dial Spring Drive with moon-phase style dial and steel bracelet, no visible major wear, but only one image provided and no shots of case back, box, or papers.",
-      "authenticity_risk": "medium",
-      "authenticity_notes": "Only one photo provided despite claiming \"minty\" condition - no close-ups of dial text, hallmarks, serial/case back, or box/papers to verify authenticity. Price seems roughly in line with market for SBGA499 but lack of documentation photos and generic single image are mild red flags for a $6k+ purchase.",
-      "rarity_notes": "SBGA499 is a genuine limited edition (20th Anniversary Red Elegance), moderately rare but has established secondary market presence; not the Shunbun the hunter is seeking.",
-      "demand_tier": "Medium",
-      "demand_reasoning": "Grand Seiko limited editions have a devoted collector base, but this specific model is less universally recognized than mainstream Spring Drive models, giving it medium demand."
-    },
-    "deal_score": -2,
-    "liquidity": {
-      "rating": "Medium",
-      "comparable_count": 861,
-      "algorithmic_tier": "High",
-      "claude_tier": "Medium",
-      "reasoning": "Algorithmic signal: 861 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko limited editions have a devoted collector base, but this specific model is less universally recognized than mainstream Spring Drive models, giving it medium demand.). Final rating uses the more conservative of the two: Medium."
-    },
-    "all_in_price": 6100.0,
-    "discount": -0.016666666666666666,
-    "notified": false,
-    "duplicate_of": null,
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784944518.767044,
-    "analysis_depth": "quick"
-  },
-  {
-    "id": "shunbun:ebay:v1|177575055089|0",
-    "listing": {
-      "id": "ebay:v1|177575055089|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "Grand Seiko SBGH347 heritage Collection ice blue Unused",
-      "url": "https://www.ebay.com/itm/177575055089?_skw=Grand+Seiko+Shunbun&hash=item29584c4ef1:g:hbwAAeSwuYZot5Hr&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGbISfVFdfbABV9gIxhOMcETdydDWQEnXA6W6fnlp%2B0HuvscBkwJSpWYimu%2FE5%2BMjO0c7MdAit3eMQ8%2BxvWZxHari9uYuzlVditK4AdqEAd48BraNZS6oSBskq0C%2FDOHSpZI4aA1NFfrnvVlN7PZarrf%2B5Jbe3PwZE%2FGu2TXn94wtGWcpXA77ZO%2B41%2BcbMNRlBVAi%2ByCErgxBGZ%2F%2Bpm9dDpUkFdCPV2Cu3XYpbecIpODI1ympnpfoDHYV3B3AQPljfCrJFXNfDuJyGG6jrYHsssLExYlWFqDzKpUnmRhbDZUvQ%3D%3D",
-      "price": 6700.0,
-      "shipping_price": 0.0,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/hbwAAeSwuYZot5Hr/s-l225.jpg",
-      "image_urls": [],
-      "body": "Grand Seiko SBGH347 heritage Collection ice blue Unused",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "New with box and papers"
-      }
-    },
-    "watch_item_id": "shunbun",
-    "analysis": {
-      "matches_criteria": false,
-      "match_reasoning": "Hunter specifically wants the Grand Seiko Shunbun (Spring Equinox limited edition). This listing is an SBGH347 Heritage Collection ice blue model, a different reference/model entirely, not the Shunbun.",
-      "estimated_value": 6000.0,
-      "confidence": 0.4,
-      "condition_summary": "Described as 'Unused', single stock-like photo showing an ice blue dial with steel bracelet in apparently clean condition, but no close-up or box/papers shown.",
-      "authenticity_risk": "medium",
-      "authenticity_notes": "Only one small, low-resolution photo provided with no case-back, serial, or papers visible; claim of 'Unused' is unverified by images. Price seems plausible for SBGH347 but lack of documentation/photos is a minor red flag.",
-      "rarity_notes": "SBGH347 is a limited/hi-beat ice blue heritage model, moderately sought after but not as rare or thematically tied as the Shunbun seasonal limited edition.",
-      "demand_tier": "Medium",
-      "demand_reasoning": "Grand Seiko Heritage Hi-Beat models have solid collector demand, but this is not the specific Shunbun the hunter is seeking, so it doesn't fulfill their targeted search."
-    },
-    "deal_score": -12,
-    "liquidity": {
-      "rating": "Medium",
-      "comparable_count": 861,
-      "algorithmic_tier": "High",
-      "claude_tier": "Medium",
-      "reasoning": "Algorithmic signal: 861 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko Heritage Hi-Beat models have solid collector demand, but this is not the specific Shunbun the hunter is seeking, so it doesn't fulfill their targeted search.). Final rating uses the more conservative of the two: Medium."
-    },
-    "all_in_price": 6700.0,
-    "discount": -0.11666666666666667,
-    "notified": false,
-    "duplicate_of": "shunbun:ebay:v1|177384328482|0",
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784944517.2583365,
-    "analysis_depth": "quick"
-  },
-  {
-    "id": "shunbun:ebay:v1|147351467206|0",
-    "listing": {
-      "id": "ebay:v1|147351467206|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "Grand Seiko Heritage Collection Spring Drive \"Soko\" Auto Steel Men Watch SBGA429",
-      "url": "https://www.ebay.com/itm/147351467206?_skw=Grand+Seiko+Shunbun&hash=item224ed4f4c6:g:I8IAAOSwIw5kZQVr",
-      "price": 5348.0,
-      "shipping_price": 0.0,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/I8IAAOSwIw5kZQVr/s-l225.jpg",
-      "image_urls": [],
-      "body": "Grand Seiko Heritage Collection Spring Drive \"Soko\" Auto Steel Men Watch SBGA429",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "New with box and papers"
-      }
-    },
-    "watch_item_id": "shunbun",
-    "analysis": {
-      "matches_criteria": false,
-      "match_reasoning": "The hunter specifically wants the Grand Seiko \"Shunbun\" (Spring Equinox) limited edition. This listing is for the SBGA429 \"Soko\" model, a different Heritage Collection Spring Drive reference. Despite being the same brand and similar collection, it is not the named model, so it does not match.",
-      "estimated_value": 5000.0,
-      "confidence": 0.4,
-      "condition_summary": "Watch appears to be in good/lightly used condition based on the single photo shown, with visible brushed steel bracelet and textured dial; no box/papers shown in image.",
-      "authenticity_risk": "low",
-      "authenticity_notes": "No overt red flags, but only one photo provided (no case-back, no box/papers, no close-up of serial or hallmarks), limiting ability to verify authenticity. Price is roughly in line with market for this reference, which is reassuring.",
-      "rarity_notes": "SBGA429 \"Soko\" is a regular production Heritage Collection Spring Drive model, not a limited edition like the Shunbun; it is readily available on the secondary market.",
-      "demand_tier": "Medium",
-      "demand_reasoning": "Grand Seiko Spring Drive models have solid brand recognition and steady demand, but this particular non-limited reference doesn't carry the collector premium or scarcity of the named Shunbun edition."
-    },
-    "deal_score": -7,
-    "liquidity": {
-      "rating": "Medium",
-      "comparable_count": 861,
-      "algorithmic_tier": "High",
-      "claude_tier": "Medium",
-      "reasoning": "Algorithmic signal: 861 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Grand Seiko Spring Drive models have solid brand recognition and steady demand, but this particular non-limited reference doesn't carry the collector premium or scarcity of the named Shunbun edition.). Final rating uses the more conservative of the two: Medium."
-    },
-    "all_in_price": 5348.0,
-    "discount": -0.0696,
-    "notified": false,
-    "duplicate_of": "shunbun:ebay:v1|327035539352|0",
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784944518.0855901,
-    "analysis_depth": "quick"
-  },
-  {
     "id": "shunbun:ebay:v1|198386631131|0",
     "listing": {
       "id": "ebay:v1|198386631131|0",
@@ -104659,5 +104509,162 @@
     "qa_history": [],
     "created_at": 1789275547.568057,
     "analysis_depth": "full"
+  },
+  {
+    "id": "rolex:ebay:v1|257690631199|0",
+    "listing": {
+      "id": "ebay:v1|257690631199|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex Submariner Black Two Tone Gold Steel 40mm Watch 16613",
+      "url": "https://www.ebay.com/itm/257690631199?_skw=Rolex+Submariner&hash=item3bff8efc1f:g:4LIAAeSwijdqmapH",
+      "price": 11240.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/4LIAAeSwijdqmapH/s-l225.jpg",
+      "image_urls": [],
+      "body": "Rolex Submariner Black Two Tone Gold Steel 40mm Watch 16613",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The reference 16613 is a black dial two-tone Submariner that could fall within the 1992+ production window, but the all-in price of $11,240 exceeds the buyer's stated $11,000 ceiling, so it fails the price criterion.",
+      "estimated_value": 10500.0,
+      "confidence": 0.35,
+      "condition_summary": "Listing shows only a single stock-style product photo with no visible wear details, box, papers, or serial/case-back close-ups; condition cannot be verified beyond the generic image.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only one clean, catalog-style image is provided (looks like a stock photo rather than an actual seller photo), no close-ups of hallmarks, serial number, or papers - this is a red flag since it prevents verifying the actual item condition and authenticity. No seller history or provenance details given.",
+      "rarity_notes": "The 16613 two-tone Submariner is a common, widely produced reference (not rare), making it easy to find comparable listings for cross-checking price and condition.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and sought-after watch models in the world, maintaining strong resale demand regardless of two-tone execution."
+    },
+    "deal_score": -7,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 6042,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 6042 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and sought-after watch models in the world, maintaining strong resale demand regardless of two-tone execution.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 11240.0,
+    "discount": -0.07047619047619047,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|298343747990|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1789294102.033145,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|117407866891|0",
+    "listing": {
+      "id": "ebay:v1|117407866891|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex Submariner Date 18k SS Two-Tone Blue \u2013 Ref. 16613T \u2013 2005  40mm ACT NOW!!!",
+      "url": "https://www.ebay.com/itm/117407866891?_skw=Rolex+Submariner&hash=item1b560de00b:g:EWoAAeSwnkFqpGZx&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGaovR0UJqprRsYQdonTP2529eRg4XzFpZ09TnDlgHusMK%2BCWm3R0%2FkWWyn8n8knJmjyk80VT1aH62N7rZC%2B0j9V8dmgs%2FjT37wKew25kNU6ID2E8sy4mIr0%2FYglnjhJE1UP9DI6LmCHN6Q35qLpKSflDCae9fKrWZ1Ft9B%2FwXBAQYyeKgNaLWG0vEi0x5mOaFw3SbMsDTuz3bZPFUn6a6YyOHxgFzxEK5%2BPEAdDnPTYF8gJtZEvjhYgCQwwMGRCvqhy5kwdaW3nKmwXP5e75nRgSuGRpn6C2EXBJIxBYy%2B5eA%3D%3D",
+      "price": 14030.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/EWoAAeSwnkFqpGZx/s-l225.jpg",
+      "image_urls": [],
+      "body": "Rolex Submariner Date 18k SS Two-Tone Blue \u2013 Ref. 16613T \u2013 2005  40mm ACT NOW!!!",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Hunter wants a black dial Submariner under $11,000. This listing is a two-tone Ref. 16613T with a blue dial, priced at $14,030 all-in \u2014 fails both the black dial requirement and the price ceiling.",
+      "estimated_value": 10500.0,
+      "confidence": 0.45,
+      "condition_summary": "Watch appears to be in good cosmetic condition from the single photo (bracelet and bezel show typical light wear), but only one image provided and no mention of box/papers, service history, or close-up condition details.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Listing text is extremely thin (just a title, no description of provenance, papers, or condition detail), which is a mild red flag. Only one stock-style photo provided; no close-ups of serial/case back or hallmarks to verify authenticity. \"ACT NOW!!!\" urgency language in title is a common pressure-sale tactic often seen in less scrupulous listings.",
+      "rarity_notes": "16613T two-tone blue dial Submariners are fairly common on the pre-owned market, not rare, though the blue dial two-tone variant commands a premium over black dial steel versions.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and consistently high-demand watch models in the world, regardless of dial color or reference."
+    },
+    "deal_score": -34,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 6042,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 6042 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and consistently high-demand watch models in the world, regardless of dial color or reference.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 14030.0,
+    "discount": -0.3361904761904762,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1789294102.4429662,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:etsy:1715875664",
+    "listing": {
+      "id": "etsy:1715875664",
+      "source": "etsy",
+      "category": "watches",
+      "title": "Vintage TUDOR Prince Date HYDRONAUT 85190 WATCH Navy Blue Face Automatic Stainless Steel Unisex Boys Ladies Swiss oyster rolex daytona",
+      "url": "https://www.etsy.com/listing/1715875664/vintage-tudor-prince-date-hydronaut",
+      "price": 3500.0,
+      "shipping_price": null,
+      "currency": "USD",
+      "image_url": "https://i.etsystatic.com/9664788/r/il/24112e/5984732552/il_fullxfull.5984732552_s372.jpg",
+      "image_urls": [
+        "https://i.etsystatic.com/9664788/r/il/24112e/5984732552/il_fullxfull.5984732552_s372.jpg",
+        "https://i.etsystatic.com/9664788/r/il/5cb855/5984732532/il_fullxfull.5984732532_glm0.jpg",
+        "https://i.etsystatic.com/9664788/r/il/20933d/5984732534/il_fullxfull.5984732534_1x7y.jpg",
+        "https://i.etsystatic.com/9664788/r/il/512b0b/5984732546/il_fullxfull.5984732546_c3zk.jpg",
+        "https://i.etsystatic.com/9664788/r/il/04779f/5984732550/il_fullxfull.5984732550_lkly.jpg",
+        "https://i.etsystatic.com/9664788/r/il/41c297/5984732548/il_fullxfull.5984732548_dgcp.jpg"
+      ],
+      "body": "-Vintage TUDOR Prince Date HYDRONAUT 85190 Unisex Watch, Navy Blue Face, Stainless Steel, Automatic Movement (Rotor Self-Winding)\n\n-Case size: Approximately 37 mm (~1.5 inch), not including the crown.\n\n-Wrist size: Approximately 6.1 inch; comes with three additional links.\n\n-Excellent, lightly used condition.  All original parts in good working order.\n\n-Note: Free shipping within continental United States.\n-International customers: Please inquire for shipping availability and actual cost to your location.",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "taxonomy_id": 6076
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Hunter specifically wants a Rolex Submariner (black dial, 1992+). This listing is a Tudor Hydronaut 85190 with a navy blue dial - a different brand and model entirely, despite the title stuffing 'rolex' and 'daytona' keywords for SEO. Not a match regardless of price or condition.",
+      "estimated_value": 1400.0,
+      "confidence": 0.5,
+      "condition_summary": "Photo shows a clean, well-kept Tudor Hydronaut with navy blue dial, minimal visible wear on case and bracelet; seller claims excellent, lightly used condition.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Title is stuffed with unrelated keywords ('rolex', 'daytona', 'oyster') that do not apply to this Tudor model, which is a red flag for SEO manipulation or a seller trying to mislead buyers searching for Rolex. No box/papers mentioned, no close-up serial/case-back photos shown. Price of $3,500 seems high for a standard Tudor Hydronaut (typically $1,200-$1,800), which is another inconsistency worth questioning.",
+      "rarity_notes": "Tudor Hydronaut 85190 is a discontinued but not particularly rare reference; moderately available on secondary market.",
+      "demand_tier": "Low",
+      "demand_reasoning": "Tudor Hydronaut has niche collector interest but far less demand than a Rolex Submariner; irrelevant to hunter's stated brand/model requirement."
+    },
+    "deal_score": -150,
+    "liquidity": {
+      "rating": "Low",
+      "comparable_count": 51,
+      "algorithmic_tier": "High",
+      "claude_tier": "Low",
+      "reasoning": "Algorithmic signal: 51 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Low (Tudor Hydronaut has niche collector interest but far less demand than a Rolex Submariner; irrelevant to hunter's stated brand/model requirement.). Final rating uses the more conservative of the two: Low."
+    },
+    "all_in_price": 3500.0,
+    "discount": -1.5,
+    "notified": false,
+    "duplicate_of": "rolex:etsy:1560312471",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1789294111.6046817,
+    "analysis_depth": "quick"
   }
 ]
