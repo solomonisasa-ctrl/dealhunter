@@ -1,55 +1,5 @@
 [
   {
-    "id": "Omega Constellation:ebay:v1|800243586806|0",
-    "listing": {
-      "id": "ebay:v1|800243586806|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "Classic OMEGA CONSTELLATION Automatic Date Ref # 168.0056 Serviced A1-Condition",
-      "url": "https://www.ebay.com/itm/800243586806?_skw=Omega+Constellation&hash=itemba523c16f6:g:uTIAAeSwt1ZqPLlh&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGb5vIUPwW%2FH%2BowGeN37rBW48pgOgP6vezjhBAEYFg0Be9ZhGSmMVf7wSlwGwpdYOyFlHWtp3TFR%2FpZbkihQ6p4V%2Fz%2BLG74zCHYisA9CXcY6OTOH8zzXIr%2F%2BfOIBgcqv0TkQ3VDkHEGtEjrOi978Tg9qsCNyeRcZLsNbSzs33fVrRB1GHEs24r8h6ZNubjvTWViOEP5kVBxtI04VMqfH14uBsOVlXGc09tQJTVHT8tgIRZSdZusIGSFY5XtkvD994iGCAyWR93mHMrdc1oBLna8gisWOmskOy2MmqQ32B0PvLg%3D%3D",
-      "price": 895.0,
-      "shipping_price": 45.0,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/uTIAAeSwt1ZqPLlh/s-l225.jpg",
-      "image_urls": [],
-      "body": "Classic OMEGA CONSTELLATION Automatic Date Ref # 168.0056 Serviced A1-Condition",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "Pre-owned - Good"
-      }
-    },
-    "watch_item_id": "Omega Constellation",
-    "analysis": {
-      "matches_criteria": true,
-      "match_reasoning": "Hunter's criteria only specify brand and model 'Omega Constellation' with no specific reference required. This listing is a genuine Omega Constellation model (ref 168.0056), so it matches the stated (generic) criteria.",
-      "estimated_value": 950.0,
-      "confidence": 0.45,
-      "condition_summary": "Vintage automatic Constellation with a striking green dial, appears to have original hands/markers and date window; claimed 'serviced A1-condition' but only one photo provided so case/bezel wear and movement condition can't be fully verified.",
-      "authenticity_risk": "medium",
-      "authenticity_notes": "Only a single frontal photo is shown; no caseback, movement, or serial number photos are provided to verify authenticity or matching serials. Green dial Constellations are known but also frequently faked/redialed, so lack of movement/caseback shots is a notable gap. Price seems reasonable for a genuine piece but the claim of 'serviced' and 'A1-condition' is unverified by images.",
-      "rarity_notes": "Ref 168.0056 is a known vintage Constellation reference from the 1970s; green dial variants are less common than silver/champagne dials, adding some collector interest, but it's not a limited edition and turns up periodically on the vintage market.",
-      "demand_tier": "Medium",
-      "demand_reasoning": "Omega Constellation is a well-recognized vintage line with steady collector demand, though less hyped than Speedmaster/Seamaster; the unusual green dial adds some niche appeal but doesn't push it to high demand."
-    },
-    "deal_score": 1,
-    "liquidity": {
-      "rating": "Medium",
-      "comparable_count": 7344,
-      "algorithmic_tier": "High",
-      "claude_tier": "Medium",
-      "reasoning": "Algorithmic signal: 7344 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Omega Constellation is a well-recognized vintage line with steady collector demand, though less hyped than Speedmaster/Seamaster; the unusual green dial adds some niche appeal but doesn't push it to high demand.). Final rating uses the more conservative of the two: Medium."
-    },
-    "all_in_price": 940.0,
-    "discount": 0.010526315789473684,
-    "notified": false,
-    "duplicate_of": null,
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784944496.0947344,
-    "analysis_depth": "quick"
-  },
-  {
     "id": "shunbun:ebay:v1|117034719312|0",
     "listing": {
       "id": "ebay:v1|117034719312|0",
@@ -104642,5 +104592,72 @@
     "qa_history": [],
     "created_at": 1789258667.4409792,
     "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|147569201370|0",
+    "listing": {
+      "id": "ebay:v1|147569201370|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex Submariner Date 2001 40mm Black Dial Bezel SS Bracelet Automatic 300m",
+      "url": "https://www.ebay.com/itm/147569201370?_skw=Rolex+Submariner+black+dial&hash=item225bcf50da:g:qOAAAeSwP-hqpeoj",
+      "price": 8800.0,
+      "shipping_price": 50.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/qOAAAeSwP-hqpeoj/s-l225.jpg",
+      "image_urls": [
+        "https://i.ebayimg.com/images/g/qOAAAeSwP-hqpeoj/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/0ngAAeSw4~Bqpeod/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/slcAAeSwXz1qpeoe/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/c-EAAeSwYntqpeoe/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/gogAAeSwf8pqpeof/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/gLIAAeSwJYxqpeof/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/Sj0AAeSwM~hqpeof/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/hrEAAeSwTbZqpeof/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/nPIAAeSwNsRqpeog/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/8WYAAeSwXS5qpeog/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/srEAAeSwLB5qpeoh/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/e5cAAeSwSyBqpeoh/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/99YAAeSwf8Fqpeoi/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/0FkAAeSwHYBqpeoi/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/fEAAAeSw6N9qpeoj/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/fpQAAeSwAMdqpeoj/s-l1600.jpg"
+      ],
+      "body": "Rolex Submariner Date 2001 40mm Black Dial Bezel SS Bracelet Automatic 300m",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Listing is a 2001 Rolex Submariner Date (ref 16610-style) with black dial, meeting the 1992+ requirement, priced at $8,850 all-in which is under the $11,000 ceiling. No specific reference was named by the hunter, so this generic Submariner black dial model qualifies.",
+      "estimated_value": 9200.0,
+      "confidence": 0.55,
+      "condition_summary": "Watch appears to be in good-to-very good cosmetic condition with light bracelet wear/scratches visible in close-up shots; bezel and dial look clean with no major damage, but some fine scuffs on the bracelet links are visible.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Photos show a real, handled watch (not stock studio images), which is a positive sign. However, no box/papers, no serial/reference number, and no service history are mentioned in the text - all common for genuine private sales but also a common gap exploited in fraud listings. No close-up of caseback or serial numbers on the rehaut/case is provided to cross-verify authenticity. Buyer should request serial number, full reference, and box/papers status before purchase.",
+      "rarity_notes": "The 2001 Submariner Date (16610 generation) is a very common, widely produced reference - not rare, but highly desirable and easy to service/resell.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and sought-after luxury watch models globally, with strong consistent resale demand across all condition tiers."
+    },
+    "deal_score": 4,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 3184,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 3184 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and sought-after luxury watch models globally, with strong consistent resale demand across all condition tiers.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 8850.0,
+    "discount": 0.03804347826086957,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|257732574407|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1789275547.568057,
+    "analysis_depth": "full"
   }
 ]
