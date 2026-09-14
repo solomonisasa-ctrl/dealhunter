@@ -1,105 +1,5 @@
 [
   {
-    "id": "vostok:ebay:v1|398195508064|0",
-    "listing": {
-      "id": "ebay:v1|398195508064|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "Vintage Vostok Amphibia KGB Automatic Diver Watch USSR Soviet Russia - RUNNING",
-      "url": "https://www.ebay.com/itm/398195508064?_skw=vintage+Vostok+Amphibia&hash=item5cb64d4360:g:BSQAAeSwsFZqXiYu",
-      "price": 75.0,
-      "shipping_price": null,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/BSQAAeSwsFZqXiYu/s-l225.jpg",
-      "image_urls": [],
-      "body": "Vintage Vostok Amphibia KGB Automatic Diver Watch USSR Soviet Russia - RUNNING",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "Pre-owned - Good"
-      }
-    },
-    "watch_item_id": "vostok",
-    "analysis": {
-      "matches_criteria": true,
-      "match_reasoning": "Hunter wants vintage Vostok Amphibia with classic military feel and no crazy dials. This is a vintage Vostok Amphibia case, but the dial has a KGB shield/sword logo applied - a themed 'exclusive' dial rather than a plain classic military dial. This borders on the 'no crazy dials' restriction; however KGB commemorative dials are a common Vostok military-themed variant and arguably still fits 'military feel', so treated as a marginal match rather than a clear violation like a novelty/fantasy dial.",
-      "estimated_value": 55.0,
-      "confidence": 0.4,
-      "condition_summary": "Case and bezel show visible wear/scratches consistent with age and use; watch is stated as running. Only one photo provided, no caseback, movement, or box/papers shown.",
-      "authenticity_risk": "medium",
-      "authenticity_notes": "KGB-branded dials are widely reproduced/aftermarket on Vostok Amphibia cases, and this is a known category for fakes/reprinted dials - no close-up of movement, caseback, or hallmarks provided to verify originality. Single low-quality photo, no serial or movement shot, and vague listing text with minimal detail are red flags typical of generic vintage Vostok resale rather than a documented authentic piece.",
-      "rarity_notes": "Base vintage Vostok Amphibia cases are common; KGB-logo dial variants are a popular but frequently reproduced novelty/commemorative theme, so not especially rare or highly sought by purists looking for original military-issue pieces.",
-      "demand_tier": "Medium",
-      "demand_reasoning": "Vostok Amphibia has a solid collector following, and Soviet military-themed dials attract casual buyers, but serious vintage collectors often discount KGB-logo pieces due to authenticity concerns, capping demand at medium."
-    },
-    "deal_score": -36,
-    "liquidity": {
-      "rating": "Medium",
-      "comparable_count": 1186,
-      "algorithmic_tier": "High",
-      "claude_tier": "Medium",
-      "reasoning": "Algorithmic signal: 1186 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Vostok Amphibia has a solid collector following, and Soviet military-themed dials attract casual buyers, but serious vintage collectors often discount KGB-logo pieces due to authenticity concerns, capping demand at medium.). Final rating uses the more conservative of the two: Medium."
-    },
-    "all_in_price": 75.0,
-    "discount": -0.36363636363636365,
-    "notified": false,
-    "duplicate_of": "vostok:ebay:v1|168543407878|0",
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784944566.3648758,
-    "analysis_depth": "quick"
-  },
-  {
-    "id": "vostok:ebay:v1|206249957725|0",
-    "listing": {
-      "id": "ebay:v1|206249957725|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "VOSTOK AMPHIBIA DIVER\u2757\ufe0fVintage Automatic USSR Watch\u203c\ufe0f SERVICED\u203c\ufe0f",
-      "url": "https://www.ebay.com/itm/206249957725?_skw=vintage+Vostok+Amphibia&hash=item300574995d:g:IhQAAeSwKOdp9609",
-      "price": 188.0,
-      "shipping_price": 18.0,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/IhQAAeSwKOdp9609/s-l225.jpg",
-      "image_urls": [],
-      "body": "VOSTOK AMPHIBIA DIVER\u2757\ufe0fVintage Automatic USSR Watch\u203c\ufe0f SERVICED\u203c\ufe0f",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "Pre-owned - Good"
-      }
-    },
-    "watch_item_id": "vostok",
-    "analysis": {
-      "matches_criteria": false,
-      "match_reasoning": "The hunter wants a vintage Amphibia with a classic military-style dial, no crazy dials, and no current/modern production models. This listing shows a \"Radio Room\"/skull-and-bones novelty dial variant (skeleton/pirate graphic with red second hand), which is a modern reissue-style decorated dial, not a classic military dial. It also appears to be a current-production style case/bezel (later automatic movement, modern bracelet), not an actual vintage piece, despite being labeled \"vintage.\"",
-      "estimated_value": 180.0,
-      "confidence": 0.45,
-      "condition_summary": "Watch appears in good cosmetic condition with a stainless bracelet, black bezel, and a novelty graphic dial; seller claims it was serviced but gives no detail on what was done.",
-      "authenticity_risk": "medium",
-      "authenticity_notes": "Only one stock-like photo provided, no case-back, movement, or serial shots to confirm originality or the claimed service; \"SERVICED\" claim is unverified. Dial design and bracelet style look like newer production rather than genuinely vintage Soviet-era parts, despite \"Vintage\" in the title.",
-      "rarity_notes": "This decorated skull/pirate dial variant is a common modern novelty Amphibia dial, not a rare or classic vintage military dial - relatively easy to find in current Vostok lineups.",
-      "demand_tier": "Medium",
-      "demand_reasoning": "Vostok Amphibias have a solid enthusiast following, but novelty/graphic dial versions like this appeal to a narrower niche than the classic military-dial vintage pieces the hunter wants."
-    },
-    "deal_score": -14,
-    "liquidity": {
-      "rating": "Medium",
-      "comparable_count": 1186,
-      "algorithmic_tier": "High",
-      "claude_tier": "Medium",
-      "reasoning": "Algorithmic signal: 1186 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Vostok Amphibias have a solid enthusiast following, but novelty/graphic dial versions like this appeal to a narrower niche than the classic military-dial vintage pieces the hunter wants.). Final rating uses the more conservative of the two: Medium."
-    },
-    "all_in_price": 206.0,
-    "discount": -0.14444444444444443,
-    "notified": false,
-    "duplicate_of": null,
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784944572.4119065,
-    "analysis_depth": "quick"
-  },
-  {
     "id": "vostok:ebay:v1|127980583767|0",
     "listing": {
       "id": "ebay:v1|127980583767|0",
@@ -104713,6 +104613,106 @@
     "dismissed": false,
     "qa_history": [],
     "created_at": 1789350050.098755,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|407215092697|0",
+    "listing": {
+      "id": "ebay:v1|407215092697|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex Submariner 116613LB Silver and Gold Oyster Bracelet with Blue Bezel",
+      "url": "https://www.ebay.com/itm/407215092697?_skw=Rolex+Submariner&hash=item5ecfe933d9:g:aEYAAeSwpCRqp3aD",
+      "price": 14115.03,
+      "shipping_price": 12.99,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/aEYAAeSwpCRqp3aD/s-l225.jpg",
+      "image_urls": [],
+      "body": "Rolex Submariner 116613LB Silver and Gold Oyster Bracelet with Blue Bezel",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Hunter wants a black dial Submariner under $11,000. This listing is a two-tone 116613LB with blue dial/bezel priced at $14,128.02, exceeding the price ceiling and not matching the black dial requirement.",
+      "estimated_value": 13500.0,
+      "confidence": 0.3,
+      "condition_summary": "Only one small stock-like photo provided; watch appears to be in good cosmetic condition with no visible major wear, but no close-up shots of case, clasp, or dial details to verify condition claims.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Extremely thin listing text (just the title repeated), no serial/reference verification, no box/papers shown, and only a single low-detail image - typical of a lower-effort or reused stock photo listing. No seller history or provenance details provided, which is a caution flag for a $14k+ item.",
+      "rarity_notes": "116613LB (two-tone with blue dial/bezel) is a well-known, moderately common reference in Rolex's catalog, not especially rare, but distinct from the black dial variant the hunter is seeking.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and sought-after watch models with strong resale demand regardless of specific dial color."
+    },
+    "deal_score": -5,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 6050,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 6050 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and sought-after watch models with strong resale demand regardless of specific dial color.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 14128.02,
+    "discount": -0.046520000000000034,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1789369682.7041576,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|147571137660|0",
+    "listing": {
+      "id": "ebay:v1|147571137660|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex Submariner 16613 Silver and Gold Oyster Bracelet Blue Bezel Box & Papers",
+      "url": "https://www.ebay.com/itm/147571137660?_skw=Rolex+Submariner&hash=item225becdc7c:g:vW0AAeSwDK9qpxsJ",
+      "price": 11100.0,
+      "shipping_price": 6.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/vW0AAeSwDK9qpxsJ/s-l225.jpg",
+      "image_urls": [],
+      "body": "Rolex Submariner 16613 Silver and Gold Oyster Bracelet Blue Bezel Box & Papers",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Hunter requires a black dial Submariner under $11,000. This listing is the two-tone 16613 with a blue dial/blue bezel, not black, and is priced at $11,106 all-in, exceeding the $11,000 ceiling. Both the dial color and price disqualify it.",
+      "estimated_value": 10500.0,
+      "confidence": 0.5,
+      "condition_summary": "Watch appears to be in good/very good condition from the photo with box, papers, and hang tag present; some case/bracelet wear typical of a pre-owned two-tone Sub, but no close-up shots of dial or case edges to confirm \"excellent\" grade.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "Box, papers, and tags are shown which is a positive sign, though papers' matching serial to the watch can't be verified from this image alone. No obvious red flags, but limited photo detail (single overview shot, no dial/case close-ups or serial/reference confirmation) warrants some caution.",
+      "rarity_notes": "16613 two-tone blue dial/bezel Submariners are fairly common on the market; not a rare variant, but full box and papers add some value.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and sought-after watch models, maintaining strong demand regardless of specific dial color."
+    },
+    "deal_score": -6,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 6050,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 6050 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and sought-after watch models, maintaining strong demand regardless of specific dial color.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 11106.0,
+    "discount": -0.05771428571428571,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|178453827945|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1789369683.3603852,
     "analysis_depth": "quick"
   }
 ]
