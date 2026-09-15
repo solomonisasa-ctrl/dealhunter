@@ -1,55 +1,5 @@
 [
   {
-    "id": "james bond watch:ebay:v1|278195423954|0",
-    "listing": {
-      "id": "ebay:v1|278195423954|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "OMEGA Seamaster Diver 300M James Bond 007 No Time To Die NTTD Titanium Watch",
-      "url": "https://www.ebay.com/itm/278195423954?_skw=Omega+Seamaster+James+Bond&hash=item40c5bd4ad2:g:mI0AAeSwELpog44f",
-      "price": 7995.0,
-      "shipping_price": 0.0,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/mI0AAeSwELpog44f/s-l225.jpg",
-      "image_urls": [],
-      "body": "OMEGA Seamaster Diver 300M James Bond 007 No Time To Die NTTD Titanium Watch",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "Pre-owned - Good"
-      }
-    },
-    "watch_item_id": "james bond watch",
-    "analysis": {
-      "matches_criteria": true,
-      "match_reasoning": "Hunter's criteria was generic (\"any James Bond Seamaster\"), and this listing is the OMEGA Seamaster Diver 300M James Bond 007 No Time To Die (NTTD) Titanium edition, a genuine Bond-themed Seamaster, so it matches.",
-      "estimated_value": 8200.0,
-      "confidence": 0.5,
-      "condition_summary": "Photo shows what appears to be a lightly used or possibly new watch with the titanium mesh bracelet and bronze-gold accented bezel/hands typical of the NTTD model; no visible major wear in the single close-up shot, but condition details (box, papers, service history) are not described in text.",
-      "authenticity_risk": "medium",
-      "authenticity_notes": "Only one close-up photo is provided (hand-held wrist shot), no shots of caseback, clasp engravings, papers, box, or serial/reference numbers, which are typically necessary to verify authenticity of a high-value Bond limited edition; listing text is extremely brief with no mention of box/papers, purchase history, or seller details, which is a yellow flag for a $8k item. Price is roughly in line with current market for this model, not suspiciously low, which is a mild positive signal but not sufficient alone to clear authenticity concerns.",
-      "rarity_notes": "The NTTD Diver 300M Titanium Bond edition was a mainstream (non-numbered) production model within Omega's catalog rather than a strictly limited numbered edition, so it's less rare than earlier true limited-edition Bond Seamasters, but still highly sought after due to Bond film tie-in and titanium/bronze-gold design.",
-      "demand_tier": "High",
-      "demand_reasoning": "Omega Seamaster James Bond editions are highly recognized and desired among watch collectors and Bond fans, with strong resale demand and brand recognition."
-    },
-    "deal_score": 2,
-    "liquidity": {
-      "rating": "High",
-      "comparable_count": 327,
-      "algorithmic_tier": "High",
-      "claude_tier": "High",
-      "reasoning": "Algorithmic signal: 327 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Omega Seamaster James Bond editions are highly recognized and desired among watch collectors and Bond fans, with strong resale demand and brand recognition.). Final rating uses the more conservative of the two: High."
-    },
-    "all_in_price": 7995.0,
-    "discount": 0.025,
-    "notified": false,
-    "duplicate_of": "james bond watch:ebay:v1|267734449253|0",
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784944627.9712977,
-    "analysis_depth": "quick"
-  },
-  {
     "id": "james bond watch:ebay:v1|117242229910|0",
     "listing": {
       "id": "ebay:v1|117242229910|0",
@@ -104729,5 +104679,65 @@
     "qa_history": [],
     "created_at": 1789468128.6924133,
     "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|237069459531|0",
+    "listing": {
+      "id": "ebay:v1|237069459531|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "1995 Rolex Submariner Date 16610 40mm Steel Watch Box/2012 Service Papers",
+      "url": "https://www.ebay.com/itm/237069459531?_skw=Rolex+Submariner&hash=item373270e04b:g:IOgAAeSw2lNqqV4D",
+      "price": 10660.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/IOgAAeSw2lNqqV4D/s-l225.jpg",
+      "image_urls": [
+        "https://i.ebayimg.com/images/g/IOgAAeSw2lNqqV4D/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/oIAAAeSwYllqqV4D/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/Lc8AAeSwxl5qqV4D/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/DjAAAeSw~CZqqV4D/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/WqsAAeSwfEhqqV4D/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/NjkAAeSwsKFqqV4D/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/QN4AAeSw2X5qqV4D/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/~QsAAeSwfuZqqV4D/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/5LMAAeSwxfNqqV4D/s-l1600.jpg"
+      ],
+      "body": "1995 Rolex Submariner Date 16610 40mm Steel Watch Box/2012 Service Papers",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Hunter's criteria were generic (any Rolex Submariner black dial, 1992+), not a specific reference. This 1995 ref 16610 (post-1992, black dial, steel Submariner Date) fits, and price ($10,660 all-in) is under the $11,000 ceiling.",
+      "estimated_value": 10500.0,
+      "confidence": 0.6,
+      "condition_summary": "Watch appears to be in solid, well-kept condition with clean dial/hands/lume and minor bezel wear visible in close-up photos; described as having 2012 service papers suggesting maintained mechanical condition, though some faint scratches on bezel insert are visible.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "Photos show matching model number (16610) on service card, correct box, and dial/bezel details consistent with genuine 16610 Submariners. No obvious mismatches, but full serial is redacted in photos (common for privacy) and no additional full-set papers (original warranty card) are shown, only a 2012 service guarantee card. Price is reasonably in line with market, not suspiciously low, which reduces fraud risk.",
+      "rarity_notes": "Ref 16610 is a widely produced, very common Submariner reference (1988s-2010), not rare, but perennially in high demand.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most sought-after watch models globally, with the 16610 being a classic, highly liquid reference in the resale market."
+    },
+    "deal_score": -2,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 6055,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 6055 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most sought-after watch models globally, with the 16610 being a classic, highly liquid reference in the resale market.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 10660.0,
+    "discount": -0.015238095238095238,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|178453827945|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1789485233.1374779,
+    "analysis_depth": "full"
   }
 ]
