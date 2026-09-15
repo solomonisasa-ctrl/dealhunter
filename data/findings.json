@@ -1,55 +1,5 @@
 [
   {
-    "id": "james bond watch:ebay:v1|267734449253|0",
-    "listing": {
-      "id": "ebay:v1|267734449253|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "Omega Seamaster NTTD James Bond 007 No Time To Die - 210.90.42.20.01.001",
-      "url": "https://www.ebay.com/itm/267734449253?_skw=Omega+Seamaster+James+Bond&hash=item3e56377c65:g:jrwAAOSwoXlk36D9",
-      "price": 7995.0,
-      "shipping_price": 0.0,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/jrwAAOSwoXlk36D9/s-l225.jpg",
-      "image_urls": [],
-      "body": "Omega Seamaster NTTD James Bond 007 No Time To Die - 210.90.42.20.01.001",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "Pre-owned - Good"
-      }
-    },
-    "watch_item_id": "james bond watch",
-    "analysis": {
-      "matches_criteria": true,
-      "match_reasoning": "Hunter's criteria was broad - \"any James Bond Seamaster\" with no specific reference required. This listing is the Omega Seamaster Diver 300M \"No Time To Die\" 007 Edition (ref 210.90.42.20.01.001), which is a genuine James Bond-themed Seamaster, so it satisfies the generic requirement.",
-      "estimated_value": 7200.0,
-      "confidence": 0.45,
-      "condition_summary": "Listing gives no explicit condition details (no mention of new/used, box/papers, wear); the image appears to be a stock/catalog-style photo rather than an actual photo of the specific watch being sold.",
-      "authenticity_risk": "medium",
-      "authenticity_notes": "The single image looks like a generic manufacturer/catalog stock photo rather than an actual photo of the item in hand, and no box/papers, serial number, or condition details are mentioned - this is a moderate red flag for a $7,995 watch. No seller history or return policy info given either. Reference number matches the real NTTD titanium model, which is a good sign, but lack of authentic photos/documentation warrants caution before purchase.",
-      "rarity_notes": "The No Time To Die 007 Edition (titanium, ref 210.90.42.20.01.001) was a limited/special production Bond tie-in model, more available than vintage Bond Seamasters but still sought after and harder to find than standard Seamaster Diver 300M models.",
-      "demand_tier": "High",
-      "demand_reasoning": "Omega Seamaster is a well-recognized dive watch line, and James Bond editions carry strong collector demand due to franchise tie-in and limited nature of these releases."
-    },
-    "deal_score": -11,
-    "liquidity": {
-      "rating": "High",
-      "comparable_count": 327,
-      "algorithmic_tier": "High",
-      "claude_tier": "High",
-      "reasoning": "Algorithmic signal: 327 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Omega Seamaster is a well-recognized dive watch line, and James Bond editions carry strong collector demand due to franchise tie-in and limited nature of these releases.). Final rating uses the more conservative of the two: High."
-    },
-    "all_in_price": 7995.0,
-    "discount": -0.11041666666666666,
-    "notified": false,
-    "duplicate_of": null,
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784944627.1738834,
-    "analysis_depth": "quick"
-  },
-  {
     "id": "james bond watch:ebay:v1|278195423954|0",
     "listing": {
       "id": "ebay:v1|278195423954|0",
@@ -104728,6 +104678,56 @@
     "dismissed": false,
     "qa_history": [],
     "created_at": 1789450878.222501,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|267448837406|0",
+    "listing": {
+      "id": "ebay:v1|267448837406|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex Submariner 16610 Date Stainless Steel 40mm-Custom Blue Ceramic /Blue Dial",
+      "url": "https://www.ebay.com/itm/267448837406?_skw=Rolex+Submariner&hash=item3e4531651e:g:cgkAAeSwxz9o~j0j&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGbs9VMx93XFVQNxVVh8n9MIS81ePnDZjoo9G0PNRVNJXlNvOrPRJf8U0AvPy1o3pnHjosBTOIk6azItaLNZXsCcWSIO2KFQK690zYskOLe0PZ3TPiKgTYia2XQMEKKg18hq0raJ2yoV9Gv4hWjG1t%2FCrgt158Q8mLIsyWdYuGyi%2B1MI5KphpaiTqqyqig5511h1S3OLUq9aXjYilLtr%2FIHF%2FPhtkUCouC1tPQHyhEU8PW4PfRHQrA%2Fz047b7iRCEtS6nL6ga4LI%2BMsaSOyUgKMSphaMrc4hsiteBXnzodTkCw%3D%3D",
+      "price": 12000.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/cgkAAeSwxz9o~j0j/s-l225.jpg",
+      "image_urls": [],
+      "body": "Rolex Submariner 16610 Date Stainless Steel 40mm-Custom Blue Ceramic /Blue Dial",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Hunter requires a black dial Submariner under $11,000. This listing is a custom-modified blue dial/blue ceramic bezel Submariner priced at $12,000 all-in, exceeding the budget and not matching the required black dial. Also, custom/aftermarket parts deviate from factory spec, which is a further mismatch from an 'excellent condition' original piece expectation.",
+      "estimated_value": 8500.0,
+      "confidence": 0.4,
+      "condition_summary": "Photo shows a modified 16610 with aftermarket blue ceramic bezel and blue dial (not factory original); appears clean/shiny but modification undermines originality and value.",
+      "authenticity_risk": "high",
+      "authenticity_notes": "Title explicitly states 'Custom Blue Ceramic/Blue Dial' - this is a modified watch, not a factory-original Submariner 16610 (which came with black dial and aluminum bezel, no ceramic). Aftermarket parts significantly reduce collector value and complicate authenticity verification of the underlying case/movement. No serial/case photos, box/papers, or movement shots provided - only a single stock-like image.",
+      "rarity_notes": "Reference 16610 is a common, widely available Submariner variant; custom-modded versions are not rare or collectible - modifications typically hurt rather than help value.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Rolex Submariner brand recognition is very high, but this specific customized/franken version with non-factory ceramic bezel and blue dial appeals to a narrower niche buyer than an original black dial model, and many purists avoid modded pieces."
+    },
+    "deal_score": -41,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 6066,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 6066 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Rolex Submariner brand recognition is very high, but this specific customized/franken version with non-factory ceramic bezel and blue dial appeals to a narrower niche buyer than an original black dial model, and many purists avoid modded pieces.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 12000.0,
+    "discount": -0.4117647058823529,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1789468128.6924133,
     "analysis_depth": "quick"
   }
 ]
