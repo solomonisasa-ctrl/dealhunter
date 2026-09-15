@@ -1,155 +1,5 @@
 [
   {
-    "id": "vostok:ebay:v1|377362260978|0",
-    "listing": {
-      "id": "ebay:v1|377362260978|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "Vostok Amphibian Men's Watch, USSR rare vintage",
-      "url": "https://www.ebay.com/itm/377362260978?_skw=vintage+Vostok+Amphibia&hash=item57dc8b23f2:g:-M0AAeSwxLNqYN6z",
-      "price": 70.0,
-      "shipping_price": 17.0,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/-M0AAeSwxLNqYN6z/s-l225.jpg",
-      "image_urls": [],
-      "body": "Vostok Amphibian Men's Watch, USSR rare vintage",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "Pre-owned - Good"
-      }
-    },
-    "watch_item_id": "vostok",
-    "analysis": {
-      "matches_criteria": true,
-      "match_reasoning": "Listing is a Vostok Amphibia described as vintage USSR, with a classic black dial and bezel - no unusual flashy dial pattern visible. No specific reference is named, so it fits the hunter's generic 'vintage Amphibia, classic look' request.",
-      "estimated_value": 75.0,
-      "confidence": 0.35,
-      "condition_summary": "Watch shows a black dial with luminous markers, riveted-style steel bracelet, and rotating bezel; visible wear/scratches on case and bracelet consistent with vintage use, but overall appears intact and functional based on photo alone.",
-      "authenticity_risk": "medium",
-      "authenticity_notes": "Only one low-resolution photo provided, no case-back, movement, or crown close-up shown to verify authenticity or original parts; title uses generic 'rare vintage' marketing language without model/caliber details, which is a mild red flag. No mention of movement type (2409/2416) or serial/date stamps to confirm era.",
-      "rarity_notes": "Vintage Vostok Amphibias are not especially rare overall (mass-produced Soviet watches), though specific dial variants or early cases can command premiums; this one appears to be a fairly common configuration.",
-      "demand_tier": "Medium",
-      "demand_reasoning": "Vostok Amphibia has a dedicated collector following and steady demand among vintage/military watch enthusiasts, but it's not a high-glamour brand, so pricing stays modest overall."
-    },
-    "deal_score": -16,
-    "liquidity": {
-      "rating": "Medium",
-      "comparable_count": 1186,
-      "algorithmic_tier": "High",
-      "claude_tier": "Medium",
-      "reasoning": "Algorithmic signal: 1186 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Vostok Amphibia has a dedicated collector following and steady demand among vintage/military watch enthusiasts, but it's not a high-glamour brand, so pricing stays modest overall.). Final rating uses the more conservative of the two: Medium."
-    },
-    "all_in_price": 87.0,
-    "discount": -0.16,
-    "notified": false,
-    "duplicate_of": "vostok:ebay:v1|278201400440|0",
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784944591.7602725,
-    "analysis_depth": "quick"
-  },
-  {
-    "id": "vostok:ebay:v1|166174155433|0",
-    "listing": {
-      "id": "ebay:v1|166174155433|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "Vintage USSR Watch AMPHIBIA  \u201eSNIPER\u201d 200m Vostok",
-      "url": "https://www.ebay.com/itm/166174155433?_skw=vintage+Vostok+Amphibia&hash=item26b0c062a9:g:f7EAAOSw0uJkixK3",
-      "price": 80.0,
-      "shipping_price": 20.0,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/f7EAAOSw0uJkixK3/s-l225.jpg",
-      "image_urls": [],
-      "body": "Vintage USSR Watch AMPHIBIA  \u201eSNIPER\u201d 200m Vostok",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "Pre-owned - Good"
-      }
-    },
-    "watch_item_id": "vostok",
-    "analysis": {
-      "matches_criteria": true,
-      "match_reasoning": "The hunter wants a vintage Vostok Amphibia with a classic military feel, no specific reference number required, and no flashy dials. This listing is a Vostok Amphibia (the \"Sniper\" is a common nickname/dial variant for a black military-style dial, not a fundamentally different model line) with a plain black dial, luminous markers, and standard bezel - consistent with the classic military aesthetic requested. It appears to be vintage USSR production rather than a current re-issue.",
-      "estimated_value": 90.0,
-      "confidence": 0.4,
-      "condition_summary": "Watch head only (no strap shown attached properly, appears worn with a plain nylon/rubber band), case shows typical light wear/scratches consistent with age; crystal and dial appear intact with no obvious major damage in the single photo provided.",
-      "authenticity_risk": "medium",
-      "authenticity_notes": "Only one stock-like photo is provided with no closeups of caseback, movement, or serial/markings to verify authenticity or confirm it's genuinely vintage Soviet-era rather than a later 1990s-2000s Vostok re-issue mislabeled as \"vintage USSR.\" The listing text is extremely sparse (just the title repeated) with no description of movement, year, or provenance, which is a mild red flag for a $100 watch. \"Sniper\" is a colloquial nickname, not an official Vostok designation, so it's being used loosely by the seller.",
-      "rarity_notes": "Vostok Amphibia black military-style dials (\"Sniper\"/commando type) are relatively common on the vintage market; not a rare configuration, but genuine older Soviet-made pieces are somewhat harder to find in good original condition versus modern reissues.",
-      "demand_tier": "Medium",
-      "demand_reasoning": "Vostok Amphibia has a solid collector following, especially vintage military-styled pieces, but it's a budget-tier brand overall, so demand is moderate rather than high."
-    },
-    "deal_score": -11,
-    "liquidity": {
-      "rating": "Medium",
-      "comparable_count": 1186,
-      "algorithmic_tier": "High",
-      "claude_tier": "Medium",
-      "reasoning": "Algorithmic signal: 1186 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Vostok Amphibia has a solid collector following, especially vintage military-styled pieces, but it's a budget-tier brand overall, so demand is moderate rather than high.). Final rating uses the more conservative of the two: Medium."
-    },
-    "all_in_price": 100.0,
-    "discount": -0.1111111111111111,
-    "notified": false,
-    "duplicate_of": null,
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784944595.626468,
-    "analysis_depth": "quick"
-  },
-  {
-    "id": "vostok:ebay:v1|318290100807|0",
-    "listing": {
-      "id": "ebay:v1|318290100807|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "Wristwatch Vostok Amphibia, vintage watch, made USSR.",
-      "url": "https://www.ebay.com/itm/318290100807?_skw=vintage+Vostok+Amphibia&hash=item4a1b918247:g:n~EAAeSwnLZqAvLu&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGZK5Lp0S0CmgELtn4ZrUURLjhiYUAubB0c61g3B6p%2BXmkc9vnjaJY9O8T%2FCm%2FD3CVd1nyEaMp7zJx5jQUxp3wOoYz%2FoDb0CIzYcoi3WwifrM2MvsJpk91LRgRkuBXaBsa%2F8wmJZQ5C0C1NlijWtY2t4D72ZZ40K2VJlwjRYRiamzcYFGhJTNH%2FzzWc99GcBQTU385Mg5XTTFR9K8VUQWnGx%2BR13pNfkVOmAy6mkpbibtDv4ihz%2FKPiAweBXPw33SQp2VlDYIO0Ip3F%2FlQ0jt6zhS9BcLQWlpw4%2F3ZaqKdBCqQ%3D%3D",
-      "price": 85.0,
-      "shipping_price": 15.0,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/n~EAAeSwnLZqAvLu/s-l225.jpg",
-      "image_urls": [],
-      "body": "Wristwatch Vostok Amphibia, vintage watch, made USSR.",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "Pre-owned - Good"
-      }
-    },
-    "watch_item_id": "vostok",
-    "analysis": {
-      "matches_criteria": true,
-      "match_reasoning": "Hunter wants vintage Vostok Amphibia with a classic military feel, no crazy dials. The listing title and photo show a vintage-style Vostok Amphibia with a black dial, luminous markers, and a rotating bezel with red/black colored dots - a fairly classic/military-style Amphibia case (the common '\u0440\u0430\u0434\u0438\u043e\u0431\u0430\u043a\u043b\u0430\u043d'/scuba dial variant), not an unusual or flashy dial. No specific reference was named by the hunter, so this generic match is acceptable.",
-      "estimated_value": 90.0,
-      "confidence": 0.4,
-      "condition_summary": "Watch appears used with a generic black leather strap (likely replacement, not original), case and bezel show typical wear consistent with vintage use; crystal and dial look intact from the single photo, but no closeups of casebook, movement, or caseback markings are provided.",
-      "authenticity_risk": "medium",
-      "authenticity_notes": "Only one photo provided, no shot of the caseback, movement, or serial/markings to verify authenticity or originality of parts. Listing text is extremely sparse (one line, no mention of movement caliber, year, servicing, or original strap/bracelet), which is a minor red flag for a $100 vintage mechanical watch - genuine sellers of vintage Vostoks typically give more detail. Strap looks like an aftermarket generic leather band, suggesting possible parts replacement, though this is very common with Vostok watches and not necessarily a fraud indicator.",
-      "rarity_notes": "This case/bezel style (round case with colored dot bezel, often called 'scuba dude' adjacent or classic Amphibia diver) is a common vintage Vostok Amphibia variant, not especially rare; these turn up regularly on eBay in the $60-150 range depending on condition and originality.",
-      "demand_tier": "Medium",
-      "demand_reasoning": "Vostok Amphibia has a solid, dedicated collector base and steady demand due to affordability and Soviet military aesthetic, but it's not a high-value luxury brand with strong price appreciation - it's a niche enthusiast favorite rather than mainstream."
-    },
-    "deal_score": -11,
-    "liquidity": {
-      "rating": "Medium",
-      "comparable_count": 1186,
-      "algorithmic_tier": "High",
-      "claude_tier": "Medium",
-      "reasoning": "Algorithmic signal: 1186 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Vostok Amphibia has a solid, dedicated collector base and steady demand due to affordability and Soviet military aesthetic, but it's not a high-value luxury brand with strong price appreciation - it's a niche enthusiast favorite rather than mainstream.). Final rating uses the more conservative of the two: Medium."
-    },
-    "all_in_price": 100.0,
-    "discount": -0.1111111111111111,
-    "notified": false,
-    "duplicate_of": "vostok:ebay:v1|278201400440|0",
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784944597.646196,
-    "analysis_depth": "quick"
-  },
-  {
     "id": "james bond watch:ebay:v1|267734449253|0",
     "listing": {
       "id": "ebay:v1|267734449253|0",
@@ -67492,7 +67342,7 @@
       ],
       "body": "Vintage Tudor Prince Oysterdate Submariner Ref. 76100 Blue Dial Automatic \u2013 Circa 1985\n\nOffered for sale is this classic Tudor Prince Oysterdate Submariner Ref. 76100, a highly collectible vintage Swiss dive watch from approximately 1985. Featuring its striking blue dial, matching blue rotating bezel, and acrylic crystal with Cyclops date magnifier, this reference represents one of Tudor&#39;s most desirable Submariner models from the mid-1980s.\n\nPowered by the reliable ETA 2824-2 automatic movement (25 jewels), the watch is running well and keeps time. The stainless steel case measures 36mm (excluding the crown) and is paired with a stainless steel Jubilee-style bracelet. The dial is signed &quot;T SWISS T,&quot; indicating the original tritium lume, which has developed a beautiful vintage character over the years.\n\nThis watch shows honest wear consistent with its age and has not been overly polished, preserving the classic tool-watch appearance collectors appreciate. The rotating bezel, screw-down crown, and date function operate as expected. Please examine all photographs carefully, as they are part of the description and accurately represent the condition of the watch.\n\nSpecifications\nBrand: Tudor\nModel: Prince Oysterdate Submariner\nReference: 76100\nApproximate Year: 1985\nMovement: Automatic ETA 2824-2\nJewels: 25\nCase Material: Stainless Steel\nCase Size: 36mm (excluding crown)\nCrystal: Acrylic\nDial: Blue Tritium (&quot;T SWISS T&quot;)\nBezel: Blue Unidirectional Rotating\nBracelet: Stainless Steel Jubilee-style Bracelet\nWater Resistance: Originally rated to 200m/660ft (not guaranteed due to age)\nCountry of Manufacture: Switzerland\nA fantastic opportunity to own a vintage Tudor Submariner that shares its heritage with the classic Rolex Submariner while maintaining its own unique identity. This is an increasingly collectible reference that is becoming harder to find in honest vintage condition.\n\nPlease feel free to message me with any questions before purchasing.",
       "posted_at": null,
-      "status": "active",
+      "status": "sold",
       "raw": {
         "taxonomy_id": 6074
       }
@@ -104729,5 +104579,155 @@
     "qa_history": [],
     "created_at": 1789425282.7409332,
     "analysis_depth": "full"
+  },
+  {
+    "id": "rolex:ebay:v1|178479503105|0",
+    "listing": {
+      "id": "ebay:v1|178479503105|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex Submariner Date 16613 40mm Champagne Serti Dial 18k Yellow Gold Steel",
+      "url": "https://www.ebay.com/itm/178479503105?_skw=Rolex+Submariner+black+dial&hash=item298e351701:g:HHoAAeSwf9tqpjJq",
+      "price": 10495.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/HHoAAeSwf9tqpjJq/s-l225.jpg",
+      "image_urls": [],
+      "body": "Rolex Submariner Date 16613 40mm Champagne Serti Dial 18k Yellow Gold Steel",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Hunter requires a black dial Submariner, but this listing is the 16613 with a Champagne Serti (diamond-set) dial, not black. Dial color is a hard requirement stated by the hunter, so this does not match despite being the right brand/model line and price.",
+      "estimated_value": 10000.0,
+      "confidence": 0.35,
+      "condition_summary": "Photo shows a two-tone Submariner 16613 with champagne serti dial in apparently good cosmetic condition, but only one stock-like photo provided with no close-ups of case, clasp, or dial serti stones for wear/damage verification.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only a single, somewhat generic-looking photo is provided with no close-ups of hallmarks, serial/model engravings between lugs, movement, or papers - insufficient to verify authenticity. No mention of box/papers, service history, or seller reputation, which is a moderate red flag for a $10k+ watch.",
+      "rarity_notes": "16613 with factory champagne serti (diamond-marker) dial is a known but less common variant than standard black dial 16613/16610/116610, moderately sought after by collectors who want factory diamond dials.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Rolex Submariner is universally high-demand, but the champagne serti two-tone variant has a narrower buyer pool than the classic black dial stainless steel Submariner, which is what most buyers (including this hunter) specifically seek."
+    },
+    "deal_score": -5,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 3203,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 3203 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Rolex Submariner is universally high-demand, but the champagne serti two-tone variant has a narrower buyer pool than the classic black dial stainless steel Submariner, which is what most buyers (including this hunter) specifically seek.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 10495.0,
+    "discount": -0.0495,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|117403089501|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1789450876.353139,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|168689608786|0",
+    "listing": {
+      "id": "ebay:v1|168689608786|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "TUDOR Prince Oysterdate Submariner Black Dial Date Auto Diver 200m Steel",
+      "url": "https://www.ebay.com/itm/168689608786?_skw=Rolex+Submariner+black+dial&hash=item2746af2852:g:aFcAAeSwyXtqqKlB&amdata=enc%3AAQALAAABAACCtXRWQnOEpyOqnQQ8KGayITFCnJl0gECBdTFaEeXDBDmZdLbGSVXffp1RMZ4zqKT%2F6CmXV%2FLyg5cWGxV%2FOE7k7jTicP1rUIyOUFE2X5yGFkBLe1yAskVTY96%2BS6nS5TluiOpbdEYc4vCbOad3SvFvIqTnbUtDVPhNWuKoNEsUPjCQJAEQAo9X8BlHpW5mZBkVR1z%2F8dnretgCL2UB%2FN9ozaXYfy1EKO8ExW3gIgHRx65%2BvRf%2FibZ8ZROLik8V%2FD%2FfUCZtl5Uqa0QN%2F4fmYFVK%2FJkcnUKln4PnrIAMaDVrH1BTshB55xVJyh126iPwoqq8Hxn3zW012p%2FsOsdI9I0%3D",
+      "price": 3495.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/aFcAAeSwyXtqqKlB/s-l225.jpg",
+      "image_urls": [],
+      "body": "TUDOR Prince Oysterdate Submariner Black Dial Date Auto Diver 200m Steel",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Hunter specifically requires a Rolex Submariner. This listing is a Tudor Prince Oysterdate Submariner, a different brand (Tudor, not Rolex) despite sharing the \"Submariner\" name and similar design lineage. This does not satisfy the brand-specific requirement.",
+      "estimated_value": 3200.0,
+      "confidence": 0.35,
+      "condition_summary": "Watch shows a black dial and bezel with visible wear consistent with age; photo shows only one angle on a display stand, no box/papers shown, no case back or movement photos.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only a single, somewhat generic photo is provided with no close-ups of serial/reference numbers, case back, or movement - insufficient to verify authenticity. No mention of papers, service history, or provenance. Price seems plausible for a vintage Tudor Submariner-style piece but lack of detail is a caution flag.",
+      "rarity_notes": "Tudor Prince Oysterdate Submariners are moderately collectible vintage pieces, less rare than Rolex equivalents but still sought after by vintage dive watch collectors.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Tudor Submariner-style watches have a solid collector base but are generally valued and demanded less than the Rolex Submariner the hunter is specifically seeking."
+    },
+    "deal_score": -9,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 3203,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 3203 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Tudor Submariner-style watches have a solid collector base but are generally valued and demanded less than the Rolex Submariner the hunter is specifically seeking.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 3495.0,
+    "discount": -0.0921875,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1789450875.7908301,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|336794015165|0",
+    "listing": {
+      "id": "ebay:v1|336794015165|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex Submariner 16613 Serti Champagne Diamond Patina Dial Two Tone 40mm Watch",
+      "url": "https://www.ebay.com/itm/336794015165?_skw=Rolex+Submariner+black+dial&hash=item4e6a7cd5bd:g:7oQAAeSwrBFqjlh6",
+      "price": 7200.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/7oQAAeSwrBFqjlh6/s-l225.jpg",
+      "image_urls": [],
+      "body": "Rolex Submariner 16613 Serti Champagne Diamond Patina Dial Two Tone 40mm Watch",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The hunter requires a black dial Submariner, but this listing is a 16613 Serti model with a champagne diamond patina dial, not black. Additionally the title mentions two-tone (steel/gold) which is a different variant than a standard black dial Sub. Dial color mismatch alone disqualifies it.",
+      "estimated_value": 7200.0,
+      "confidence": 0.35,
+      "condition_summary": "Photo shows a two-tone Submariner with a blue bezel and dark/patina dial on an aftermarket rubber strap; case and bezel show typical light wear but overall presentable condition. Listing text is minimal, no mention of box/papers, service history, or close-up dial/serial shots.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only one photo provided, no close-up of case back, serial/reference engraving, or movement to verify authenticity. The rubber strap is aftermarket (not original Rolex bracelet), which is common but also makes it harder to verify authenticity via bracelet end-links/stamps. No mention of papers or provenance. Title claims \"Serti Diamond\" dial but photo doesn't clearly show diamond hour markers, which is a discrepancy worth flagging.",
+      "rarity_notes": "The 16613 two-tone Serti diamond dial is a known but less common variant; \"patina\" champagne dials in this reference are moderately sought after by collectors who like diamond-set dials, but this is a niche variant compared to standard black dial Subs.",
+      "demand_tier": "Medium",
+      "demand_reasoning": "Rolex Submariner overall has high demand, but this specific two-tone diamond dial variant appeals to a narrower buyer segment than the classic black dial stainless Sub, and two-tone Rolexes generally have softer resale demand than all-steel models."
+    },
+    "deal_score": 0,
+    "liquidity": {
+      "rating": "Medium",
+      "comparable_count": 3203,
+      "algorithmic_tier": "High",
+      "claude_tier": "Medium",
+      "reasoning": "Algorithmic signal: 3203 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Rolex Submariner overall has high demand, but this specific two-tone diamond dial variant appeals to a narrower buyer segment than the classic black dial stainless Sub, and two-tone Rolexes generally have softer resale demand than all-steel models.). Final rating uses the more conservative of the two: Medium."
+    },
+    "all_in_price": 7200.0,
+    "discount": 0.0,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1789450878.222501,
+    "analysis_depth": "quick"
   }
 ]
