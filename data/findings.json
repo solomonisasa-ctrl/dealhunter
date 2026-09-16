@@ -1,55 +1,5 @@
 [
   {
-    "id": "james bond watch:ebay:v1|314705337273|0",
-    "listing": {
-      "id": "ebay:v1|314705337273|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "Omega Seamaster James Bond 007 Edition Titanium Men's Watch 210.92.42.20.01.001",
-      "url": "https://www.ebay.com/itm/314705337273?_skw=Omega+Seamaster+James+Bond&hash=item4945e65bb9:g:jLYAAeSw0Q9qOvRk&amdata=enc%3AAQALAAABAACCtXRWQnOEpyOqnQQ8KGalAOUxnIi3vsRjoujQSc3Utiwx0LNfDUnFISob4YVuLU%2ByT1Sfwfhk%2FM3ad1nQVC2qP4Ntv8ijCebmem%2BKsdUiDQS8f7D%2BSx7zeUficr%2Bxadmli9dlRtp4XblEZHZnped0%2Fj6n80%2BtmNStFkGMir9oXOPeV3Bvw8s6zD8JGINSEaM7oyAmy456L3UTeH%2BlYFloUvkbCGWqgrG6A2fujAzlUbOA164KbFw4z5wiWAkajnpPnDzLlHyKBJKYmnPK2sDKmDfeKcCOtJEAGqzrspFwuhIPzLuxIUJf6THtYWcVIA6pumfZ6c6NKpNkrfRjrS4%3D",
-      "price": 8895.0,
-      "shipping_price": 0.0,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/jLYAAeSw0Q9qOvRk/s-l225.jpg",
-      "image_urls": [],
-      "body": "Omega Seamaster James Bond 007 Edition Titanium Men's Watch 210.92.42.20.01.001",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "New with box and papers"
-      }
-    },
-    "watch_item_id": "james bond watch",
-    "analysis": {
-      "matches_criteria": true,
-      "match_reasoning": "The hunter's criteria is broad (\"any James Bond Seamaster\"), and this listing is explicitly the Omega Seamaster Diver 300M James Bond 007 Edition Titanium (ref 210.92.42.20.01.001), a genuine James Bond-themed Seamaster reference.",
-      "estimated_value": 8500.0,
-      "confidence": 0.45,
-      "condition_summary": "Listing text gives no explicit condition details (no mention of new/pre-owned, box/papers, or wear); photo shows a stock-style product image of the watch on its striped NATO strap in good cosmetic order, consistent with new or lightly used condition.",
-      "authenticity_risk": "medium",
-      "authenticity_notes": "Only a single stock-style photo is provided with no close-ups of caseback, serial/reference engraving, or papers/box, which is typical of many legitimate listings but also makes it impossible to verify authenticity or condition claims. No mention of box, papers, warranty card, or full-set status, and no seller history/feedback details given. Price is roughly in line with genuine retail/secondary market pricing for this piece, which is reassuring (not suspiciously low), but the lack of verifying detail keeps risk at medium rather than low.",
-      "rarity_notes": "This is the widely-released 2020 Omega Seamaster Diver 300M \"James Bond\" Titanium Limited Edition (7007 pieces worldwide) tied to No Time To Die - moderately rare as a limited edition but not extremely scarce, and it does appear on the secondary market with some regularity.",
-      "demand_tier": "High",
-      "demand_reasoning": "Omega Seamaster is a globally recognized dive watch line, and James Bond tie-in limited editions carry strong collector demand due to brand recognition, film association, and limited production numbers."
-    },
-    "deal_score": -5,
-    "liquidity": {
-      "rating": "High",
-      "comparable_count": 327,
-      "algorithmic_tier": "High",
-      "claude_tier": "High",
-      "reasoning": "Algorithmic signal: 327 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Omega Seamaster is a globally recognized dive watch line, and James Bond tie-in limited editions carry strong collector demand due to brand recognition, film association, and limited production numbers.). Final rating uses the more conservative of the two: High."
-    },
-    "all_in_price": 8895.0,
-    "discount": -0.04647058823529412,
-    "notified": false,
-    "duplicate_of": "james bond watch:ebay:v1|267734449253|0",
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784944658.3772292,
-    "analysis_depth": "quick"
-  },
-  {
     "id": "james bond watch:ebay:v1|206415436230|0",
     "listing": {
       "id": "ebay:v1|206415436230|0",
@@ -104770,5 +104720,65 @@
     "qa_history": [],
     "created_at": 1789552260.139701,
     "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|407221508100|0",
+    "listing": {
+      "id": "ebay:v1|407221508100|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "1995 Vintage Rolex 16610 Submariner 40mm Date Steel Aluminum Black Dial Watch",
+      "url": "https://www.ebay.com/itm/407221508100?_skw=Rolex+Submariner+black+dial&hash=item5ed04b1804:g:8CkAAeSwfEZqqqLy",
+      "price": 10488.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/8CkAAeSwfEZqqqLy/s-l225.jpg",
+      "image_urls": [
+        "https://i.ebayimg.com/images/g/8CkAAeSwfEZqqqLy/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/58IAAeSwguFqqqLz/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/CHsAAeSwM0NqqqLy/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/EhkAAeSwHYBqqqLz/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/BPIAAeSwahRqqqLy/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/p8IAAeSwpwVqqqLz/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/8kEAAeSwAMdqqqLy/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/9sAAAeSwvx5qqqLz/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/8kUAAeSwAwdqqqLy/s-l1600.jpg"
+      ],
+      "body": "1995 Vintage Rolex 16610 Submariner 40mm Date Steel Aluminum Black Dial Watch",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Seller refurbished"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Hunter's criteria was generic (any Rolex Submariner black dial from 1992+), not a specific reference. The 16610 is a 1995 Submariner Date with black dial, fitting the year and dial requirement, and the $10,488 all-in price is under the $11,000 ceiling.",
+      "estimated_value": 9500.0,
+      "confidence": 0.55,
+      "condition_summary": "Photos show a clean, glossy black dial and lume plots with minimal visible wear on the bezel insert and case edges; bracelet and clasp appear intact. However, no box/papers are shown or mentioned, and there are no photos of the caseback, movement, or full set of hallmarks to confirm overall originality.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Listing text is extremely minimal (just a title, no description of provenance, service history, box/papers, or serial visibility). Photos appear to be polished stock-style catalog images typical of resellers, which isn't inherently disqualifying but limits ability to verify authenticity markers (serial number, engravings between lugs, movement). No mention of papers, warranty card, or original purchase documentation, and price is at the high end but not suspiciously low, which is a mild positive but does not offset lack of detail.",
+      "rarity_notes": "16610 is one of the most common Submariner references (produced 1988-2010), not rare, but the 1995 production year with tritium dial (pre-2000s) is somewhat desirable to collectors for the vintage lume patina potential, though photos show a dial with no visible aging/patina.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and sought-after watch models in the world, with consistently strong resale demand across all references."
+    },
+    "deal_score": -10,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 3216,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 3216 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and sought-after watch models in the world, with consistently strong resale demand across all references.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 10488.0,
+    "discount": -0.104,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|178493964510|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1789568832.6949742,
+    "analysis_depth": "full"
   }
 ]
