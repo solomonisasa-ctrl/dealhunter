@@ -1,155 +1,5 @@
 [
   {
-    "id": "james bond watch:ebay:v1|298524950083|0",
-    "listing": {
-      "id": "ebay:v1|298524950083|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "OMEGA Seamaster Diver 300M 42mm James Bond 60th Anniversary Box Papers",
-      "url": "https://www.ebay.com/itm/298524950083?_skw=Omega+Seamaster+James+Bond&hash=item4581793e43:g:6RwAAeSwaTJqYKwu",
-      "price": 8450.0,
-      "shipping_price": null,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/6RwAAeSwaTJqYKwu/s-l225.jpg",
-      "image_urls": [],
-      "body": "OMEGA Seamaster Diver 300M 42mm James Bond 60th Anniversary Box Papers",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "New with box and papers"
-      }
-    },
-    "watch_item_id": "james bond watch",
-    "analysis": {
-      "matches_criteria": true,
-      "match_reasoning": "Hunter's criteria was generic (\"any james bond seamaster\"), and this listing is an Omega Seamaster Diver 300M James Bond 60th Anniversary edition, which fits within that broad ask.",
-      "estimated_value": 7800.0,
-      "confidence": 0.45,
-      "condition_summary": "Photo shows watch in box with grey NATO-style strap, appears unworn/lightly used with no visible scratches, but only one angle is shown and dial details/caseback are not visible to fully assess condition.",
-      "authenticity_risk": "medium",
-      "authenticity_notes": "Only a single photo is provided (box shot), no close-ups of dial, caseback engraving, hallmarks, or papers/serial numbers despite \"Box Papers\" being claimed in the title - these should be shown to verify authenticity and matching serials. No seller history, return policy, or detailed description provided, which is a red flag for an $8,450 purchase. Price is roughly in line with market for this model, which is reassuring, but lack of verification photos keeps risk at medium.",
-      "rarity_notes": "The Seamaster Diver 300M James Bond 60th Anniversary (2022 release) was a limited/special production run tied to the No Time To Die anniversary; it's sought after but not extremely scarce - has had decent secondary market availability since release.",
-      "demand_tier": "High",
-      "demand_reasoning": "Omega Seamaster James Bond editions are highly recognized and desired among watch collectors and Bond memorabilia fans, driving strong demand."
-    },
-    "deal_score": -8,
-    "liquidity": {
-      "rating": "High",
-      "comparable_count": 327,
-      "algorithmic_tier": "High",
-      "claude_tier": "High",
-      "reasoning": "Algorithmic signal: 327 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Omega Seamaster James Bond editions are highly recognized and desired among watch collectors and Bond memorabilia fans, driving strong demand.). Final rating uses the more conservative of the two: High."
-    },
-    "all_in_price": 8450.0,
-    "discount": -0.08333333333333333,
-    "notified": false,
-    "duplicate_of": null,
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784944644.7427645,
-    "analysis_depth": "quick"
-  },
-  {
-    "id": "james bond watch:ebay:v1|147223922134|0",
-    "listing": {
-      "id": "ebay:v1|147223922134|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "OMEGA Seamaster 300M James Bond 2537.80.00 Limited Edition 007 Complete Full Set",
-      "url": "https://www.ebay.com/itm/147223922134?_skw=Omega+Seamaster+James+Bond&hash=item22473ac5d6:g:NDYAAeSwRXppxH2S",
-      "price": 7777.0,
-      "shipping_price": 37.0,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/NDYAAeSwRXppxH2S/s-l225.jpg",
-      "image_urls": [],
-      "body": "OMEGA Seamaster 300M James Bond 2537.80.00 Limited Edition 007 Complete Full Set",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "Pre-owned - Excellent"
-      }
-    },
-    "watch_item_id": "james bond watch",
-    "analysis": {
-      "matches_criteria": true,
-      "match_reasoning": "Hunter's criteria is broadly \"any James Bond Seamaster\" with no specific reference required. This listing is the Omega Seamaster 300M James Bond Limited Edition ref. 2537.80.00, a well-known genuine Bond-themed Seamaster, so it satisfies the generic criteria.",
-      "estimated_value": 7500.0,
-      "confidence": 0.55,
-      "condition_summary": "Photo shows a full set with box, papers, COA, booklets, and what appears to be the watch with James Bond-themed packaging; watch itself is only partially visible so exact condition (dial, case wear) can't be fully assessed from the image.",
-      "authenticity_risk": "medium",
-      "authenticity_notes": "Box, papers, and COA are shown which is a good sign, but the watch itself is barely visible in the photo (mostly obscured/at an angle), no close-up of case back, engravings, or serial numbers to verify authenticity. Listing text is minimal (just repeats title) with no description of condition, service history, or explanation for pricing - this thinness of detail combined with lack of clear watch photos is a moderate red flag for a $7.8K purchase.",
-      "rarity_notes": "The 2537.80.00 was a limited edition (reportedly 10,626 pieces) tied to the James Bond 40th anniversary - genuinely collectible and sought after, though not the rarest Bond Seamaster variant (e.g., not as scarce as some earlier commander's watch editions).",
-      "demand_tier": "High",
-      "demand_reasoning": "Omega Seamaster James Bond editions are highly recognized and actively sought by both watch collectors and Bond memorabilia collectors, with strong resale demand."
-    },
-    "deal_score": -4,
-    "liquidity": {
-      "rating": "High",
-      "comparable_count": 327,
-      "algorithmic_tier": "High",
-      "claude_tier": "High",
-      "reasoning": "Algorithmic signal: 327 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Omega Seamaster James Bond editions are highly recognized and actively sought by both watch collectors and Bond memorabilia collectors, with strong resale demand.). Final rating uses the more conservative of the two: High."
-    },
-    "all_in_price": 7814.0,
-    "discount": -0.04186666666666667,
-    "notified": false,
-    "duplicate_of": null,
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784944649.1518278,
-    "analysis_depth": "quick"
-  },
-  {
-    "id": "james bond watch:ebay:v1|336706630438|0",
-    "listing": {
-      "id": "ebay:v1|336706630438|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "1993 Omega Seamaster 200M Pre James Bond Two Tone  2600.50 - Box + Papers",
-      "url": "https://www.ebay.com/itm/336706630438?_skw=Omega+Seamaster+James+Bond&hash=item4e65477326:g:VNAAAeSw87xqWkY8",
-      "price": 2768.87,
-      "shipping_price": 0.0,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/VNAAAeSw87xqWkY8/s-l225.jpg",
-      "image_urls": [],
-      "body": "1993 Omega Seamaster 200M Pre James Bond Two Tone  2600.50 - Box + Papers",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "Pre-owned - Excellent"
-      }
-    },
-    "watch_item_id": "james bond watch",
-    "analysis": {
-      "matches_criteria": false,
-      "match_reasoning": "The hunter wants \"any James Bond Seamaster\" - a genuine Bond edition/theme model. This listing explicitly states \"Pre James Bond\" (reference 2600.50), meaning it is the earlier design that predates and inspired the actual Bond-branded Seamaster (300M, ref 2531.80/2541.80 style used in GoldenEye), not an actual James Bond edition. Since it is not the specific Bond model, it does not match despite the visual similarity and seller's own framing.",
-      "estimated_value": 2200.0,
-      "confidence": 0.55,
-      "condition_summary": "Two-tone Seamaster 200M (ref 2600.50) shown with box and warranty card; watch appears to have visible wear on bracelet links and bezel, consistent with a 30-year-old piece, but overall presentable.",
-      "authenticity_risk": "low",
-      "authenticity_notes": "Photo shows an actual warranty card and box rather than stock imagery, which is a positive sign. No close-up of case back/serial or movement is provided, so full authentication isn't possible from these images alone. Price and details are plausible for a genuine two-tone 2600.50, no major red flags noted.",
-      "rarity_notes": "The 2600.50 \"pre-Bond\" two-tone 200M is a fairly common reference from the early-mid 1990s, not the actual Bond-associated model, so it's not particularly rare or sought after by Bond collectors specifically.",
-      "demand_tier": "Medium",
-      "demand_reasoning": "Omega Seamaster is a recognized, desirable line, but this specific \"pre-Bond\" reference has lower demand than the true Bond-branded pieces the hunter is targeting, and two-tone models are generally less popular than steel among current buyers."
-    },
-    "deal_score": -26,
-    "liquidity": {
-      "rating": "Medium",
-      "comparable_count": 327,
-      "algorithmic_tier": "High",
-      "claude_tier": "Medium",
-      "reasoning": "Algorithmic signal: 327 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Omega Seamaster is a recognized, desirable line, but this specific \"pre-Bond\" reference has lower demand than the true Bond-branded pieces the hunter is targeting, and two-tone models are generally less popular than steel among current buyers.). Final rating uses the more conservative of the two: Medium."
-    },
-    "all_in_price": 2768.87,
-    "discount": -0.25857727272727266,
-    "notified": false,
-    "duplicate_of": null,
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784944648.007123,
-    "analysis_depth": "quick"
-  },
-  {
     "id": "james bond watch:ebay:v1|206438287718|0",
     "listing": {
       "id": "ebay:v1|206438287718|0",
@@ -104756,5 +104606,169 @@
     "qa_history": [],
     "created_at": 1789510179.4902549,
     "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|820132265918|0",
+    "listing": {
+      "id": "ebay:v1|820132265918|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex Submariner Quartz Diver Wristwatch Silver Dial Black Bezel Date",
+      "url": "https://www.ebay.com/itm/820132265918?_skw=Rolex+Submariner+black+dial&hash=itembef3b13fbe:g:5egAAeSw3qdqqfch",
+      "price": 6500.0,
+      "shipping_price": null,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/5egAAeSw3qdqqfch/s-l225.jpg",
+      "image_urls": [],
+      "body": "Rolex Submariner Quartz Diver Wristwatch Silver Dial Black Bezel Date",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Hunter requires a genuine Rolex Submariner with black dial, 1992+. This listing is titled \"Rolex Submariner Quartz Diver\" with a silver dial - Rolex never made a genuine quartz Submariner (the Submariner line is mechanical/automatic only), and the dial is silver, not black. The watch pictured also does not resemble an authentic Rolex Submariner (wrong bezel font, wrong case shape, rubber strap not used by Rolex on Sub models, generic homage-watch design).",
+      "estimated_value": 50.0,
+      "confidence": 0.85,
+      "condition_summary": "Watch shown appears new/unworn on a rubber strap, but the design (case, bezel, dial layout, crown guard) does not match any genuine Rolex Submariner model.",
+      "authenticity_risk": "high",
+      "authenticity_notes": "Major red flags: Rolex has never produced a \"Submariner Quartz\" model; genuine Submariners are automatic only. Silver dial contradicts the requested black dial. The case, bezel insert font, dial text placement, and rubber dive strap are inconsistent with authentic Rolex design language, strongly suggesting this is a homage/fake watch rather than a genuine Rolex. Price of $6,500 for what is described is also inconsistent with genuine Rolex Submariner market values.",
+      "rarity_notes": "Not applicable - this does not appear to be a genuine Rolex reference at all, let alone a rare variant.",
+      "demand_tier": "Low",
+      "demand_reasoning": "If this is a counterfeit or homage piece as it appears, it has no legitimate collector demand and no resale value comparable to genuine Rolex Submariners."
+    },
+    "deal_score": -12900,
+    "liquidity": {
+      "rating": "Low",
+      "comparable_count": 3209,
+      "algorithmic_tier": "High",
+      "claude_tier": "Low",
+      "reasoning": "Algorithmic signal: 3209 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Low (If this is a counterfeit or homage piece as it appears, it has no legitimate collector demand and no resale value comparable to genuine Rolex Submariners.). Final rating uses the more conservative of the two: Low."
+    },
+    "all_in_price": 6500.0,
+    "discount": -129.0,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1789534810.1633615,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|158296693321|0",
+    "listing": {
+      "id": "ebay:v1|158296693321|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex Submariner Date 126610LV 'Starbucks MK1' Stainless Steel Black Dial",
+      "url": "https://www.ebay.com/itm/158296693321?_skw=Rolex+Submariner+black+dial&hash=item24db37da49:g:IqUAAeSwM0Nqqftz",
+      "price": 12900.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/IqUAAeSwM0Nqqftz/s-l225.jpg",
+      "image_urls": [],
+      "body": "Rolex Submariner Date 126610LV 'Starbucks MK1' Stainless Steel Black Dial",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Hunter wants a black dial Submariner under $11,000. This listing is the 126610LV 'Starbucks' which has a green bezel (not black bezel standard sub), and priced at $12,900, exceeding the $11,000 ceiling. Price alone disqualifies it, and the green-bezel 'Kermit/Starbucks' variant is a distinct, more collectible reference than a plain black dial/black bezel Submariner.",
+      "estimated_value": 12500.0,
+      "confidence": 0.6,
+      "condition_summary": "Watch appears to be in excellent, lightly worn condition based on the photo - case and bracelet show minimal visible wear, bezel and crystal look clean.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "Single photo shown appears to be a real (non-stock) image with consistent detailing typical of genuine 126610LV; no box/papers shown or mentioned, no close-up of caseback/serial for verification. No overt red flags but limited documentation shown.",
+      "rarity_notes": "126610LV 'Starbucks' MK1 (with maxi dial/green ceramic bezel) was a popular, sought-after variant produced 2020-2022; not rare but in high demand, commanding premiums over retail on secondary market.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner remains one of the most recognized and demanded watches; the 'Starbucks' green bezel variant is especially popular among collectors, sustaining strong resale value above the hunter's budget."
+    },
+    "deal_score": -3,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 3209,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 3209 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner remains one of the most recognized and demanded watches; the 'Starbucks' green bezel variant is especially popular among collectors, sustaining strong resale value above the hunter's budget.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 12900.0,
+    "discount": -0.032,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|267448837406|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1789534809.6424558,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|188935997606|0",
+    "listing": {
+      "id": "ebay:v1|188935997606|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex Submariner Date 16610 Silver Oyster Bracelet with Black Dial/ Bezel",
+      "url": "https://www.ebay.com/itm/188935997606?_skw=Rolex+Submariner+black+dial&hash=item2bfd7688a6:g:soAAAeSwNv5qqe~-",
+      "price": 8585.0,
+      "shipping_price": 60.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/soAAAeSwNv5qqe~-/s-l225.jpg",
+      "image_urls": [
+        "https://i.ebayimg.com/images/g/soAAAeSwNv5qqe~-/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/Yu0AAeSw1Xpqqe~-/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/PVgAAeSwQ59qqe~-/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/l5IAAeSwDaxqqe~-/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/tVEAAeSwXf5qqe~-/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/gTwAAeSwvd5qqe~-/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/NmsAAeSwYHRqqe~~/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/CjsAAeSwzU1qqe~~/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/pQ4AAeSwPKNqqe~~/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/QeAAAeSw7U5qqe~~/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/Dc4AAeSwq8Rqqe~~/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/ZS8AAeSwXFlqqfAA/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/lOoAAeSwEutqqfAA/s-l1600.jpg"
+      ],
+      "body": "Rolex Submariner Date 16610 Silver Oyster Bracelet with Black Dial/ Bezel",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Hunter's criteria was generic (Rolex Submariner, black dial, 1992+, under $11k, excellent condition) with no specific reference number required. The 16610 Submariner Date was produced from 1988-2010, so a 1992+ example fits, and this has a black dial/bezel, all-in price of $8,645 is under the $11k ceiling.",
+      "estimated_value": 9200.0,
+      "confidence": 0.55,
+      "condition_summary": "Watch photographs show a clean case and bracelet with good luster, crisp dial lume plots, and no obvious major scratches or dents visible in the images; bezel insert and crystal appear intact with normal light handling marks. No box/papers shown, and no listed year/serial verification, so \"excellent\" condition is only partially confirmed by photos.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Listing text is extremely thin \u2014 no reference to year, serial number, box/papers, service history, or seller feedback/reputation, which is a yellow flag for a $8.6k watch. Photos appear to be professional stock-style catalog shots (blue velvet background, consistent lighting across multiple angles) commonly used by watch resellers, which is normal for dealers but also easily reused/copied \u2014 can't confirm this is the actual unit being sold without more provenance detail. No close-up of caseback engravings, serial number between lugs, or papers, so authenticity cannot be independently verified from text alone.",
+      "rarity_notes": "The 16610 is one of the most common modern Submariner references (produced 1988-2010), so it is not rare, but remains highly sought-after in the pre-owned market, especially with a full set or verifiable serial confirming a 1992+ production year.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and consistently in-demand watch models in the world, with the 16610 particularly popular as an accessible modern Sub with tritium/luminova or Super-LumiNova dial variants."
+    },
+    "deal_score": 6,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 3209,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 3209 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and consistently in-demand watch models in the world, with the 16610 particularly popular as an accessible modern Sub with tritium/luminova or Super-LumiNova dial variants.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 8645.0,
+    "discount": 0.06032608695652174,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|257732574407|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1789534822.879655,
+    "analysis_depth": "full"
   }
 ]
