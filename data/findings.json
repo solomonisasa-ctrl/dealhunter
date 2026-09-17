@@ -1,355 +1,5 @@
 [
   {
-    "id": "aqua terra:ebay:v1|158008423403|0",
-    "listing": {
-      "id": "ebay:v1|158008423403|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "OMEGA Seamaster Aqua Terra Watches 231.10.42.21.01.004 Coaxial blackDial S...",
-      "url": "https://www.ebay.com/itm/158008423403?_skw=Aqua+Terra+38mm&hash=item24ca0933eb:g:sM4AAeSw0QpqM0wZ&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGY7u4iIf2kRMnZH0CR6mRYADS9mjrV3no2Bu3NdkyLr3FJeuyh85nlk88ZwW6zcy6ZqyaFWrDi5WiFFxmnXmNH5kk6jgXJKPuQWplVQszpYLlislg3OiHsR%2Bm9q1LmgYBpjMIvuY9JNi3NsWPCZjw06MUS5LwCdvDGoyDwJ3aVzZe649OoAE26kFoWfXi2hj%2BSXqBs6QGGxV4h1wFFenqsu0ePoIANBko6eerM9WUE%2BY4%2FyFw791LnHs6d2AZlypG062PO2lAuE93m3THaPe8eg5vjZ2bFYJkUZ5D1Z1kXnYw%3D%3D",
-      "price": 3431.0,
-      "shipping_price": 0.0,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/sM4AAeSw0QpqM0wZ/s-l225.jpg",
-      "image_urls": [],
-      "body": "OMEGA Seamaster Aqua Terra Watches 231.10.42.21.01.004 Coaxial blackDial S...",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "Pre-owned - Good"
-      }
-    },
-    "watch_item_id": "aqua terra",
-    "analysis": {
-      "matches_criteria": false,
-      "match_reasoning": "The reference number 231.10.42.21.01.004 corresponds to the Aqua Terra 41.5-42mm case (Master Co-Axial), not the 38mm size the hunter specified. Additionally the dial has green accents/markers (golf edition style) rather than a simple, uncluttered dial. Both the size and dial simplicity requirements are unmet.",
-      "estimated_value": 3200.0,
-      "confidence": 0.45,
-      "condition_summary": "Watch appears in good/like-new condition based on the single stock-style photo, with clean bracelet and case, but only one image is provided and no close-up condition details (case back, clasp wear) are given.",
-      "authenticity_risk": "medium",
-      "authenticity_notes": "Listing title is garbled/truncated ('Watches...S...'), lacks descriptive text, and provides no box/papers confirmation or serial verification - all red flags for a $3,400+ purchase. Single photo resembles a stock/catalog image rather than an actual seller photo, which raises concern about whether this is the exact item being sold.",
-      "rarity_notes": "This reference (42mm Master Co-Axial with black dial and green accents) is a known, fairly common Aqua Terra variant, not particularly rare or limited.",
-      "demand_tier": "High",
-      "demand_reasoning": "Omega Aqua Terra is a well-recognized, popular model with strong resale demand, though this specific 42mm variant is more common than the 38mm size the hunter wants."
-    },
-    "deal_score": -7,
-    "liquidity": {
-      "rating": "High",
-      "comparable_count": 2564,
-      "algorithmic_tier": "High",
-      "claude_tier": "High",
-      "reasoning": "Algorithmic signal: 2564 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Omega Aqua Terra is a well-recognized, popular model with strong resale demand, though this specific 42mm variant is more common than the 38mm size the hunter wants.). Final rating uses the more conservative of the two: High."
-    },
-    "all_in_price": 3431.0,
-    "discount": -0.0721875,
-    "notified": false,
-    "duplicate_of": "aqua terra:ebay:v1|227444736666|0",
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784944719.8910005,
-    "analysis_depth": "quick"
-  },
-  {
-    "id": "aqua terra:ebay:v1|307082387013|0",
-    "listing": {
-      "id": "ebay:v1|307082387013|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "OMEGA Seamaster Aqua Terra 41mm Turquoise Black Steel Watch 220.32.41.21.03.001",
-      "url": "https://www.ebay.com/itm/307082387013?_skw=Aqua+Terra+38mm&hash=item477f895e45:g:PlcAAeSwNwVqYtzP",
-      "price": 6299.0,
-      "shipping_price": 0.0,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/PlcAAeSwNwVqYtzP/s-l225.jpg",
-      "image_urls": [],
-      "body": "OMEGA Seamaster Aqua Terra 41mm Turquoise Black Steel Watch 220.32.41.21.03.001",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "Pre-owned - Good"
-      }
-    },
-    "watch_item_id": "aqua terra",
-    "analysis": {
-      "matches_criteria": false,
-      "match_reasoning": "Hunter specifically wants a 38mm Aqua Terra with a simple/uncluttered dial. This listing is the 41mm reference (220.32.41.21.03.001) with a textured turquoise gradient dial that has multiple sub-elements (date, wave pattern) - both the case size and dial complexity fail to match the stated requirements.",
-      "estimated_value": 6000.0,
-      "confidence": 0.55,
-      "condition_summary": "Watch appears new/like-new in photo with rubber strap, no visible wear on case or bezel, but only one image shown and no box/papers pictured despite being a notable price point.",
-      "authenticity_risk": "low",
-      "authenticity_notes": "Reference number matches a real Omega Aqua Terra 41mm turquoise model; image looks consistent with genuine product photography. However, only one photo provided, no close-up of caseback/serial or papers, so full authenticity can't be confirmed from listing alone.",
-      "rarity_notes": "This turquoise dial 41mm Aqua Terra is a popular, relatively recent colorway and is moderately available on the secondary market; not a limited edition.",
-      "demand_tier": "High",
-      "demand_reasoning": "Omega Aqua Terra is a well-recognized, popular model line with strong demand, and the turquoise dial variant has been particularly sought after due to its distinctive color."
-    },
-    "deal_score": -5,
-    "liquidity": {
-      "rating": "High",
-      "comparable_count": 2564,
-      "algorithmic_tier": "High",
-      "claude_tier": "High",
-      "reasoning": "Algorithmic signal: 2564 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Omega Aqua Terra is a well-recognized, popular model line with strong demand, and the turquoise dial variant has been particularly sought after due to its distinctive color.). Final rating uses the more conservative of the two: High."
-    },
-    "all_in_price": 6299.0,
-    "discount": -0.049833333333333334,
-    "notified": false,
-    "duplicate_of": "aqua terra:ebay:v1|188691610014|0",
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784944719.2783694,
-    "analysis_depth": "quick"
-  },
-  {
-    "id": "aqua terra:ebay:v1|267738119203|0",
-    "listing": {
-      "id": "ebay:v1|267738119203|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "Omega Aqua Terra Small Seconds 38mm Green 220.10.38.20.10.001 2021",
-      "url": "https://www.ebay.com/itm/267738119203?_skw=Aqua+Terra+38mm&hash=item3e566f7c23:g:p6oAAeSwfRBqY-MJ",
-      "price": 5033.07,
-      "shipping_price": 214.66,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/p6oAAeSwfRBqY-MJ/s-l225.jpg",
-      "image_urls": [],
-      "body": "Omega Aqua Terra Small Seconds 38mm Green 220.10.38.20.10.001 2021",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "Pre-owned - Excellent"
-      }
-    },
-    "watch_item_id": "aqua terra",
-    "analysis": {
-      "matches_criteria": false,
-      "match_reasoning": "The hunter wants a \"simple (uncluttered) dial\" 38mm Aqua Terra, and while brand/size match, this reference is the Small Seconds variant with a subdial at 6 o'clock plus date window - that's a more complex dial layout than the classic simple 3-hand Aqua Terra design the criteria imply. Given the explicit requirement for a simple/uncluttered dial, a small seconds complication disqualifies it.",
-      "estimated_value": 5000.0,
-      "confidence": 0.55,
-      "condition_summary": "Photo shows a clean, seemingly unworn green dial Aqua Terra Small Seconds with no visible scratches on case or bracelet; described as 2021 model, appears like new but only one image provided.",
-      "authenticity_risk": "low",
-      "authenticity_notes": "Reference number and description are consistent with a genuine Omega Aqua Terra Small Seconds green dial model; no box/papers shown or mentioned, which is a minor gap but not a strong red flag on its own. Single stock-like photo limits ability to verify serial/engravings.",
-      "rarity_notes": "The green dial Small Seconds 38mm Aqua Terra is a known but less common variant compared to the standard 3-hand Aqua Terra 150M; not limited edition but a distinct sub-line with lower overall demand than the flagship model.",
-      "demand_tier": "Medium",
-      "demand_reasoning": "Omega Aqua Terra is a well-recognized, in-demand line, but the Small Seconds complication variant is less sought after than the standard simple 3-hand dial version, giving it moderate rather than high demand."
-    },
-    "deal_score": -5,
-    "liquidity": {
-      "rating": "Medium",
-      "comparable_count": 2564,
-      "algorithmic_tier": "High",
-      "claude_tier": "Medium",
-      "reasoning": "Algorithmic signal: 2564 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Omega Aqua Terra is a well-recognized, in-demand line, but the Small Seconds complication variant is less sought after than the standard simple 3-hand dial version, giving it moderate rather than high demand.). Final rating uses the more conservative of the two: Medium."
-    },
-    "all_in_price": 5247.73,
-    "discount": -0.04954599999999991,
-    "notified": false,
-    "duplicate_of": null,
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784944721.5186512,
-    "analysis_depth": "quick"
-  },
-  {
-    "id": "aqua terra:ebay:v1|398205196788|0",
-    "listing": {
-      "id": "ebay:v1|398205196788|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "2019 | OMG | Seamaster Aqua Terra \u201cTeak-Patter | Grey Dial | 231.10.39.21.06.001",
-      "url": "https://www.ebay.com/itm/398205196788?_skw=Aqua+Terra+38mm&hash=item5cb6e119f4:g:LhIAAeSwvdxqYVMx",
-      "price": 4100.0,
-      "shipping_price": 0.0,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/LhIAAeSwvdxqYVMx/s-l225.jpg",
-      "image_urls": [],
-      "body": "2019 | OMG | Seamaster Aqua Terra \u201cTeak-Patter | Grey Dial | 231.10.39.21.06.001",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "Pre-owned - Excellent"
-      }
-    },
-    "watch_item_id": "aqua terra",
-    "analysis": {
-      "matches_criteria": false,
-      "match_reasoning": "The hunter wants a 38mm Aqua Terra with a simple/uncluttered dial. This listing is reference 231.10.39.21.06.001, which is a 39mm case with the signature \"teak\" horizontal-line dial pattern - not the simpler dial design and not the 38mm size specified. The teak pattern is a more textured/decorated dial, which conflicts with 'simple dial' request.",
-      "estimated_value": 3600.0,
-      "confidence": 0.45,
-      "condition_summary": "Only one stock-style photo shown (watch on a beach-towel backdrop), appears clean with no visible scratches on case or bracelet, but limited angles make full condition assessment difficult.",
-      "authenticity_risk": "medium",
-      "authenticity_notes": "Single photo, no close-ups of caseback, movement, papers, or box despite claiming \"like new\" quality; no serial/box verification shown. Price of $4,100 is roughly in line with market for this reference, not suspiciously low, which is a mild positive, but lack of documentation photos and generic staged background image raise some caution.",
-      "rarity_notes": "This is a common, widely-produced Aqua Terra reference (39mm teak dial), not rare or limited; plentiful supply on secondary market.",
-      "demand_tier": "High",
-      "demand_reasoning": "Omega Aqua Terra is a well-recognized, popular model with strong secondary market demand, though this specific teak-dial 39mm variant is common rather than sought-after as a rarity."
-    },
-    "deal_score": -14,
-    "liquidity": {
-      "rating": "High",
-      "comparable_count": 2564,
-      "algorithmic_tier": "High",
-      "claude_tier": "High",
-      "reasoning": "Algorithmic signal: 2564 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Omega Aqua Terra is a well-recognized, popular model with strong secondary market demand, though this specific teak-dial 39mm variant is common rather than sought-after as a rarity.). Final rating uses the more conservative of the two: High."
-    },
-    "all_in_price": 4100.0,
-    "discount": -0.1388888888888889,
-    "notified": false,
-    "duplicate_of": "aqua terra:ebay:v1|178329478680|0",
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784944721.7945147,
-    "analysis_depth": "quick"
-  },
-  {
-    "id": "aqua terra:ebay:v1|188678676824|0",
-    "listing": {
-      "id": "ebay:v1|188678676824|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "2026 Omega Seamaster Aqua Terra 220.12.41.21.06.001 FULL SET + WARRANTY TO 2031!",
-      "url": "https://www.ebay.com/itm/188678676824?_skw=Aqua+Terra+38mm&hash=item2bee202158:g:nCoAAeSwzXdqYEjW",
-      "price": 5650.0,
-      "shipping_price": 0.0,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/nCoAAeSwzXdqYEjW/s-l225.jpg",
-      "image_urls": [],
-      "body": "2026 Omega Seamaster Aqua Terra 220.12.41.21.06.001 FULL SET + WARRANTY TO 2031!",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "Pre-owned - Excellent"
-      }
-    },
-    "watch_item_id": "aqua terra",
-    "analysis": {
-      "matches_criteria": false,
-      "match_reasoning": "The reference 220.12.41.21.06.001 corresponds to the 41mm Aqua Terra case, not the 38mm the hunter specifically requires. Also the dial has a teak/wave pattern rather than a truly simple/uncluttered dial, though that's secondary to the size mismatch.",
-      "estimated_value": 5600.0,
-      "confidence": 0.55,
-      "condition_summary": "Photo shows a clean, seemingly unworn watch with no visible scratches on case or bracelet/strap; described as full set with warranty extending to 2031, consistent with a recent purchase in like-new condition.",
-      "authenticity_risk": "low",
-      "authenticity_notes": "Single stock-style photo only, no images of papers, box, or caseback/serial to verify claimed \"full set\" and warranty card; listing title includes odd \"2026\" year claim which is a minor red flag/inconsistency (likely refers to warranty expiration, not model year). No price anomaly - $5,650 is roughly in line with retail/gray market for this reference, so no suspicious underpricing.",
-      "rarity_notes": "This teak-dial grey/blue rubber strap 41mm Aqua Terra is a fairly common current production reference, not limited or especially rare.",
-      "demand_tier": "High",
-      "demand_reasoning": "Omega Aqua Terra line has strong brand recognition and steady demand, though this particular 41mm variant is a mainstream/common configuration rather than a sought-after limited piece."
-    },
-    "deal_score": -1,
-    "liquidity": {
-      "rating": "High",
-      "comparable_count": 2564,
-      "algorithmic_tier": "High",
-      "claude_tier": "High",
-      "reasoning": "Algorithmic signal: 2564 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Omega Aqua Terra line has strong brand recognition and steady demand, though this particular 41mm variant is a mainstream/common configuration rather than a sought-after limited piece.). Final rating uses the more conservative of the two: High."
-    },
-    "all_in_price": 5650.0,
-    "discount": -0.008928571428571428,
-    "notified": false,
-    "duplicate_of": "aqua terra:ebay:v1|188691610014|0",
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1784944727.6963034,
-    "analysis_depth": "quick"
-  },
-  {
-    "id": "Omega Constellation:ebay:v1|358843048265|0",
-    "listing": {
-      "id": "ebay:v1|358843048265|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "2006 Omega Constellation 18k gold SS Half Bar Men's Automatic Watch WORKING",
-      "url": "https://www.ebay.com/itm/358843048265?_skw=Omega+Constellation&hash=item538cb66149:g:tpcAAeSwQBhqVTTi",
-      "price": 1256.0,
-      "shipping_price": 17.98,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/tpcAAeSwQBhqVTTi/s-l225.jpg",
-      "image_urls": [],
-      "body": "2006 Omega Constellation 18k gold SS Half Bar Men's Automatic Watch WORKING",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "Pre-owned - Good"
-      }
-    },
-    "watch_item_id": "Omega Constellation",
-    "analysis": {
-      "matches_criteria": true,
-      "match_reasoning": "Hunter's criteria only specify brand and model (Omega Constellation) with no specific reference number required, so this genuine-appearing Constellation two-tone model qualifies.",
-      "estimated_value": 1400.0,
-      "confidence": 0.55,
-      "condition_summary": "Watch appears in good cosmetic condition in the photo with visible case, bracelet, and dial intact; described as 'WORKING' automatic, but no detailed condition report, service history, or close-up shots of case wear/scratches provided.",
-      "authenticity_risk": "low",
-      "authenticity_notes": "Only one stock-style catalog photo is shown (no close-ups of caseback, movement, serial numbers, or hallmarks), which limits ability to verify authenticity. Price and description are consistent with genuine 2006 Constellation two-tone models, and there are no overtly suspicious claims (no box/papers claimed, no unrealistic discount), but lack of detailed photos is a mild red flag worth noting.",
-      "rarity_notes": "This is a common two-tone (steel/18k gold) 'half bar' Constellation model from the 2000s era - widely produced and not rare, but a recognizable and desirable design within the line.",
-      "demand_tier": "High",
-      "demand_reasoning": "Omega is a well-known luxury brand and the Constellation two-tone 'Manhattan' style is one of its most recognizable and consistently in-demand models on the secondary market."
-    },
-    "deal_score": 9,
-    "liquidity": {
-      "rating": "High",
-      "comparable_count": 7626,
-      "algorithmic_tier": "High",
-      "claude_tier": "High",
-      "reasoning": "Algorithmic signal: 7626 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Omega is a well-known luxury brand and the Constellation two-tone 'Manhattan' style is one of its most recognizable and consistently in-demand models on the secondary market.). Final rating uses the more conservative of the two: High."
-    },
-    "all_in_price": 1273.98,
-    "discount": 0.0900142857142857,
-    "notified": false,
-    "duplicate_of": "Omega Constellation:ebay:v1|307069635425|0",
-    "dismissed": true,
-    "qa_history": [],
-    "created_at": 1785015127.02076,
-    "analysis_depth": "quick"
-  },
-  {
-    "id": "Omega Constellation:ebay:v1|318634594420|0",
-    "listing": {
-      "id": "ebay:v1|318634594420|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "w/Box Vintage OMEGA Constellation 396.1201 Cal.1532 White 34mm Quartz Mens Watch",
-      "url": "https://www.ebay.com/itm/318634594420?_skw=Omega+Constellation&hash=item4a301a1074:g:04AAAeSwo9lqZOy1",
-      "price": 799.9,
-      "shipping_price": 210.0,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/04AAAeSwo9lqZOy1/s-l225.jpg",
-      "image_urls": [],
-      "body": "w/Box Vintage OMEGA Constellation 396.1201 Cal.1532 White 34mm Quartz Mens Watch",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "Pre-owned - Excellent"
-      }
-    },
-    "watch_item_id": "Omega Constellation",
-    "analysis": {
-      "matches_criteria": true,
-      "match_reasoning": "Hunter's criteria only specified brand and model (Omega Constellation) with no specific reference number required, so any genuine Constellation model qualifies. This listing is an Omega Constellation ref. 396.1201, which matches.",
-      "estimated_value": 950.0,
-      "confidence": 0.45,
-      "condition_summary": "Appears to be a used but well-kept stainless steel Constellation with white dial, shown with its red Omega box; visible photo shows light wear consistent with age, no major scratches evident but image quality/angle limits full inspection.",
-      "authenticity_risk": "medium",
-      "authenticity_notes": "Only one photo provided (watch on box), no clear shots of case back, movement, or papers/certificate despite \"w/Box\" claim - papers not shown. No close-up of serial/reference engraving to verify against stated ref 396.1201. Price is plausible for genuine piece but lack of detailed photos (movement, caseback, clasp markings) is a moderate red flag for a $1000 purchase.",
-      "rarity_notes": "This quartz 34mm Constellation ref. 396.1201 is a fairly common modern/vintage-transition model, not a rare or limited variant - reasonably available on secondary market.",
-      "demand_tier": "Medium",
-      "demand_reasoning": "Omega Constellation is a recognized, desirable line with steady demand, but this particular quartz 34mm men's reference is less sought-after than iconic automatic/chronometer models, keeping demand moderate rather than high."
-    },
-    "deal_score": -6,
-    "liquidity": {
-      "rating": "Medium",
-      "comparable_count": 7626,
-      "algorithmic_tier": "High",
-      "claude_tier": "Medium",
-      "reasoning": "Algorithmic signal: 7626 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Omega Constellation is a recognized, desirable line with steady demand, but this particular quartz 34mm men's reference is less sought-after than iconic automatic/chronometer models, keeping demand moderate rather than high.). Final rating uses the more conservative of the two: Medium."
-    },
-    "all_in_price": 1009.9,
-    "discount": -0.06305263157894735,
-    "notified": false,
-    "duplicate_of": "Omega Constellation:ebay:v1|178332716433|0",
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1785015131.424777,
-    "analysis_depth": "quick"
-  },
-  {
     "id": "Omega Constellation:ebay:v1|236962808657|0",
     "listing": {
       "id": "ebay:v1|236962808657|0",
@@ -104846,6 +104496,373 @@
     "dismissed": false,
     "qa_history": [],
     "created_at": 1789664732.3230948,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|158299388997|0",
+    "listing": {
+      "id": "ebay:v1|158299388997|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex Submariner 14060 Silver Oyster Bracelet with Black Bezel",
+      "url": "https://www.ebay.com/itm/158299388997?_skw=Rolex+Submariner+black+dial&hash=item24db60fc45:g:4bMAAeSwDK9qqvY5",
+      "price": 8750.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/4bMAAeSwDK9qqvY5/s-l225.jpg",
+      "image_urls": [
+        "https://i.ebayimg.com/images/g/4bMAAeSwDK9qqvY5/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/m0sAAeSwwelqqvY5/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/-sQAAeSwdo1qqvY5/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/o5kAAeSwBa1qqvY6/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/5r8AAeSwTvFqqvY6/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/FzUAAeSwW2dqqvY6/s-l1600.jpg"
+      ],
+      "body": "Rolex Submariner 14060 Silver Oyster Bracelet with Black Bezel",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Fair"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "The hunter's criteria named only brand/model (Rolex Submariner) with black dial, 1992+, no specific reference number required. The 14060 is a no-date Submariner produced from 1990-1999, so a 1992+ example fits the criteria, has a black dial, is under $11,000, and appears to be in excellent condition. Since the hunter did not specify a reference number, this counts as a match.",
+      "estimated_value": 8500.0,
+      "confidence": 0.55,
+      "condition_summary": "Watch appears to be in very good/excellent cosmetic condition in photos - clean dial, bezel, and case with no obvious major scratches or dings visible; bracelet shows light brushing wear consistent with careful use.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Photos show a plausible 14060 with correct dial text, bezel, and caseback engravings, and a Rolex pouch - but no box, papers, or serial/model number close-up is shown, so the exact production year (1992 or newer) cannot be confirmed from the listing. No full set of documentation increases some uncertainty about verifying date, though this alone is not a strong fraud signal for a vintage-style Sub.",
+      "rarity_notes": "The 14060 (no-date Submariner) was produced 1990-1999/2000s and is a well-known, moderately common reference among vintage Rolex collectors - not rare, but desirable for its clean no-date dial.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and sought-after watch models in the world, and the 14060 no-date variant retains strong collector demand."
+    },
+    "deal_score": -3,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 3239,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 3239 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and sought-after watch models in the world, and the 14060 no-date variant retains strong collector demand.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 8750.0,
+    "discount": -0.029411764705882353,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|147576766193|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1789685703.18341,
+    "analysis_depth": "full"
+  },
+  {
+    "id": "rolex:ebay:v1|298683731520|0",
+    "listing": {
+      "id": "ebay:v1|298683731520|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex Submariner Date 116610 Black Dial Steel Oyster 40mm Automatic Watch - 2011",
+      "url": "https://www.ebay.com/itm/298683731520?_skw=Rolex+Submariner+black+dial&hash=item458af00e40:g:z1oAAeSwpr5qrEhZ",
+      "price": 11799.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/z1oAAeSwpr5qrEhZ/s-l225.jpg",
+      "image_urls": [],
+      "body": "Rolex Submariner Date 116610 Black Dial Steel Oyster 40mm Automatic Watch - 2011",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Fair"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Item is a Rolex Submariner Date 116610 with black dial from 2011, which fits the brand/model/year and condition claim, but the all-in price of $11,799 exceeds the buyer's $11,000 ceiling.",
+      "estimated_value": 10500.0,
+      "confidence": 0.55,
+      "condition_summary": "Single stock-style photo shows a clean 116610LN with no visible scratches or wear, but only one image is provided and no box/papers or close-up shots of case/clasp are shown to verify claimed condition.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only one generic photo is provided with no serial/reference engraving close-up, no box/papers shown, and no mention of service history or purchase provenance - typical red flags for an $11k+ watch listing. Price is also above typical market for a 2011 116610 in similar condition, which is unusual but not necessarily fraudulent, just worth verifying seller feedback and requesting more photos/documentation before purchase.",
+      "rarity_notes": "116610LN is a very common, mass-produced reference (2010-2020 production), not rare or limited, so value is driven mainly by condition and completeness rather than scarcity.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and consistently in-demand luxury watch models, with strong resale liquidity across all markets."
+    },
+    "deal_score": -12,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 3239,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 3239 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and consistently in-demand luxury watch models, with strong resale liquidity across all markets.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 11799.0,
+    "discount": -0.12371428571428572,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|168688562678|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1789685686.0694656,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|257748857099|0",
+    "listing": {
+      "id": "ebay:v1|257748857099|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex Submariner Date 16610 40mm Black Dial Steel Oyster Automatic Mens Watch",
+      "url": "https://www.ebay.com/itm/257748857099?_skw=Rolex+Submariner+black+dial&hash=item3c0307710b:g:juUAAeSw97tqrCKC",
+      "price": 10450.0,
+      "shipping_price": 75.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/juUAAeSw97tqrCKC/s-l225.jpg",
+      "image_urls": [
+        "https://i.ebayimg.com/images/g/juUAAeSw97tqrCKC/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/0R0AAeSw2MBqrCKC/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/77sAAeSwxfNqrCKC/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/XewAAeSwMaJqrCKC/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/1dQAAeSwVyhqrCKC/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/3CQAAeSwnnJqrCKC/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/D18AAeSwDW5qrCKC/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/3TYAAeSwD91qrCKC/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/yOoAAeSw7-FqrCKC/s-l1600.jpg"
+      ],
+      "body": "Rolex Submariner Date 16610 40mm Black Dial Steel Oyster Automatic Mens Watch",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Hunter's criteria were generic (any Rolex Submariner black dial, 1992+, excellent condition, under $11,000), not a specific reference. The 16610 is a black dial Submariner Date produced from 1988-2010, so units from 1992+ fall within range; price is under $11,000.",
+      "estimated_value": 9800.0,
+      "confidence": 0.45,
+      "condition_summary": "Photos show what appears to be a clean, low-wear example with sharp bezel markings and intact luminous dots, consistent with \"excellent\" condition, though these look like generic stock/catalog images rather than photos of the actual watch being sold (no visible scratches, case back, box, papers, or serial/reference engravings shown).",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "No serial number, year of manufacture, box/papers, or close-up case/caseback photos provided - all photos appear to be standard stock/studio images rather than actual item photos, which is a common red flag on eBay listings. No mention of service history, papers, or verification. Listing text is extremely thin (just a title, no description of condition, provenance, or included accessories), which increases risk despite the price seeming reasonable for a genuine 16610.",
+      "rarity_notes": "The 16610 is one of the most common and widely available Submariner references (produced 1988-2010), so it is not rare, but demand remains consistently high in the market.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and sought-after watch models in the world, and the 16610 black dial variant is a perennial favorite with strong resale liquidity."
+    },
+    "deal_score": -7,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 3239,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 3239 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and sought-after watch models in the world, and the 16610 black dial variant is a perennial favorite with strong resale liquidity.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 10525.0,
+    "discount": -0.07397959183673469,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|287579445430|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1789685713.9368293,
+    "analysis_depth": "full"
+  },
+  {
+    "id": "rolex:ebay:v1|287592721565|0",
+    "listing": {
+      "id": "ebay:v1|287592721565|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "1990 Rolex Submariner Date 16610 Men's 40mm Stainless Steel Vintage Wristwatch",
+      "url": "https://www.ebay.com/itm/287592721565?_skw=Rolex+Submariner+black+dial&hash=item42f5dcac9d:g:S9MAAeSw2DJqrDyj",
+      "price": 9000.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/S9MAAeSw2DJqrDyj/s-l225.jpg",
+      "image_urls": [],
+      "body": "1990 Rolex Submariner Date 16610 Men's 40mm Stainless Steel Vintage Wristwatch",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The hunter requires a Submariner produced in 1992 or newer, but this listing explicitly states a 1990 production date, which falls outside the acceptable range. Even though the reference (16610) and black dial match generally, the year requirement disqualifies it.",
+      "estimated_value": 8500.0,
+      "confidence": 0.4,
+      "condition_summary": "Photo shows a black dial Submariner 16610 with visible bracelet stretch and light bezel wear typical of an older watch; only one stock-like image provided, no close-ups of case, clasp, or movement.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only a single generic photo is provided with no shots of caseback, serial/model engravings, movement, or papers; listing text is minimal (just repeats the title) with no mention of box/papers, service history, or serial verification, which is a yellow flag for a $9k watch.",
+      "rarity_notes": "The 16610 is one of the most common modern Submariner references, produced from 1988-2010, so it is not rare, but well recognized and liquid in the market.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most sought-after watch models in the world with strong, consistent resale demand."
+    },
+    "deal_score": -6,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 3239,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 3239 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most sought-after watch models in the world with strong, consistent resale demand.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 9000.0,
+    "discount": -0.058823529411764705,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1789685685.2358103,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|366675308631|0",
+    "listing": {
+      "id": "ebay:v1|366675308631|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex Submariner 14060M Steel Watch - Black Dial, Oyster - Pre-owned",
+      "url": "https://www.ebay.com/itm/366675308631?_skw=Rolex+Submariner+black+dial&hash=item555f8d3057:g:NDYAAeSwICxqrFKi",
+      "price": 12022.5,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/NDYAAeSwICxqrFKi/s-l225.jpg",
+      "image_urls": [],
+      "body": "Rolex Submariner 14060M Steel Watch - Black Dial, Oyster - Pre-owned",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The 14060M is a genuine Submariner black dial (no-date) model produced after 1992, so it fits the era and dial requirement, but the all-in price of $12,022.50 exceeds the hunter's $11,000 ceiling, disqualifying it on price alone.",
+      "estimated_value": 10500.0,
+      "confidence": 0.5,
+      "condition_summary": "Photo shows a clean, seemingly well-kept Submariner 14060M with sharp bezel and dial; no visible major wear, but only one stock-like image provided with minimal condition detail in the text.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Listing lacks close-up photos of caseback, serial/reference numbers, movement, or papers; description is very sparse (no mention of box/papers, service history, or seller reputation), making it hard to verify authenticity from text alone.",
+      "rarity_notes": "14060M is a fairly common reference (no-date Submariner produced 1999-2010ish), not rare, but well-regarded by purists for its lack of date/cyclops.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and sought-after watch models in the world, with consistently strong resale demand."
+    },
+    "deal_score": -14,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 3239,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 3239 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and sought-after watch models in the world, with consistently strong resale demand.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 12022.5,
+    "discount": -0.145,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|168688562678|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1789685691.8065226,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|287592838044|0",
+    "listing": {
+      "id": "ebay:v1|287592838044|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex Submariner No Date Black Dial Oyster 124060 August 2026",
+      "url": "https://www.ebay.com/itm/287592838044?_skw=Rolex+Submariner+black+dial&hash=item42f5de739c:g:RrkAAeSw-1xqrFmX",
+      "price": 15300.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/RrkAAeSw-1xqrFmX/s-l225.jpg",
+      "image_urls": [],
+      "body": "Rolex Submariner No Date Black Dial Oyster 124060 August 2026",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "New with box and papers"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Price is $15,300, well above the $11,000 ceiling, and this is the current-production 124060 model (2020s), not a specific requested reference but the price alone disqualifies it. Additionally it exceeds budget significantly.",
+      "estimated_value": 10200.0,
+      "confidence": 0.5,
+      "condition_summary": "Appears new/unworn in stock-style photo with full kit implied ('August 2026' likely a warranty card date), but only one image provided and no visible wear details discussed.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "Photo looks like a standard catalog/stock image rather than an in-hand photo of the actual unit; no serial or papers shown despite implying a warranty date. No major red flags but lack of unique photos of the actual watch is a minor concern.",
+      "rarity_notes": "124060 is the current production no-date Submariner, widely available - not rare, but strong demand keeps resale near or above retail.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most sought-after watches in the world, with the no-date 124060 in particular commanding strong demand and often trading near or above retail."
+    },
+    "deal_score": -50,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 3239,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 3239 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most sought-after watches in the world, with the no-date 124060 in particular commanding strong demand and often trading near or above retail.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 15300.0,
+    "discount": -0.5,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|800642954182|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1789685692.8866372,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|278384678020|0",
+    "listing": {
+      "id": "ebay:v1|278384678020|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex Submariner No Date Steel Black Dial Ceramic Bezel Mens Watch 114060",
+      "url": "https://www.ebay.com/itm/278384678020?_skw=Rolex+Submariner+black+dial&hash=item40d1051484:g:9ZgAAeSwnsxqrFDV",
+      "price": 12540.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/9ZgAAeSwnsxqrFDV/s-l225.jpg",
+      "image_urls": [],
+      "body": "Rolex Submariner No Date Steel Black Dial Ceramic Bezel Mens Watch 114060",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The reference 114060 (ceramic bezel, no-date Submariner) was produced from 2012 onward, so it does satisfy the '1992 or newer' and black dial requirements. However, the all-in price of $12,540 exceeds the hunter's stated ceiling of $11,000, so it fails the price criterion.",
+      "estimated_value": 10500.0,
+      "confidence": 0.45,
+      "condition_summary": "Listing shows only a single stock-style product photo with no visible wear, box, or papers; condition cannot be verified beyond the generic image.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only one generic, catalog-style image is provided (no real-world photos of the actual watch, case back, serial, or papers), which is a common red flag for either stock-photo reuse or misrepresentation. No mention of box/papers, service history, or seller reputation details, making it hard to confirm authenticity.",
+      "rarity_notes": "Ref. 114060 is a well-known, relatively common modern no-date Submariner (produced ~2012-2020), not rare, with strong secondary market liquidity.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and sought-after watch models globally, with consistently strong demand and liquidity in the resale market."
+    },
+    "deal_score": -19,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 3239,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 3239 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and sought-after watch models globally, with consistently strong demand and liquidity in the resale market.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 12540.0,
+    "discount": -0.19428571428571428,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|267448837406|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1789685692.6919944,
     "analysis_depth": "quick"
   }
 ]
