@@ -1,205 +1,5 @@
 [
   {
-    "id": "Omega Constellation:ebay:v1|236962808657|0",
-    "listing": {
-      "id": "ebay:v1|236962808657|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "OMEGA Constellation 1272 Ladies Quart Watch with Cream Dial and Full Gold Bars",
-      "url": "https://www.ebay.com/itm/236962808657?_skw=Omega+Constellation&hash=item372c158351:g:tAcAAeSw1ihqZRs7",
-      "price": 1299.0,
-      "shipping_price": 0.0,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/tAcAAeSw1ihqZRs7/s-l225.jpg",
-      "image_urls": [],
-      "body": "OMEGA Constellation 1272 Ladies Quart Watch with Cream Dial and Full Gold Bars",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "Pre-owned - Excellent"
-      }
-    },
-    "watch_item_id": "Omega Constellation",
-    "analysis": {
-      "matches_criteria": true,
-      "match_reasoning": "Hunter's criteria only specified brand and model (Omega Constellation), no specific reference required. This listing is an Omega Constellation (ref 1272), a ladies quartz model, so it satisfies the generic brand/model criteria.",
-      "estimated_value": 900.0,
-      "confidence": 0.45,
-      "condition_summary": "Ladies two-tone Constellation quartz with cream dial, appears to have light wear consistent with age; bracelet and case shown with tag attached, but no close-up of dial detail, case back, or clasp condition.",
-      "authenticity_risk": "medium",
-      "authenticity_notes": "Only one low-resolution photo provided showing the watch at an angle with a hangtag (not the original warranty card/box); no close-ups of hallmarks, serial number, movement, or clasp stamping to verify authenticity. Price is plausible for a genuine piece but the sparse listing text and single stock-like photo without documentation are mild red flags. No mention of box/papers, service history, or seller's return policy.",
-      "rarity_notes": "Ladies quartz Constellation ref 1272 models are fairly common on the secondary market, not particularly rare; two-tone gold/steel with cream dial is a standard variant frequently seen for sale.",
-      "demand_tier": "Medium",
-      "demand_reasoning": "Omega is a highly recognized brand, but ladies quartz Constellation models have moderate rather than high demand compared to men's automatic/chronometer versions, which collectors favor more."
-    },
-    "deal_score": -44,
-    "liquidity": {
-      "rating": "Medium",
-      "comparable_count": 7626,
-      "algorithmic_tier": "High",
-      "claude_tier": "Medium",
-      "reasoning": "Algorithmic signal: 7626 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Omega is a highly recognized brand, but ladies quartz Constellation models have moderate rather than high demand compared to men's automatic/chronometer versions, which collectors favor more.). Final rating uses the more conservative of the two: Medium."
-    },
-    "all_in_price": 1299.0,
-    "discount": -0.44333333333333336,
-    "notified": false,
-    "duplicate_of": null,
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1785015131.2170234,
-    "analysis_depth": "quick"
-  },
-  {
-    "id": "Omega Constellation:ebay:v1|267738348184|0",
-    "listing": {
-      "id": "ebay:v1|267738348184|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "Omega Constellation Carre Quadra Ref. 1528.46 Women's Watch",
-      "url": "https://www.ebay.com/itm/267738348184?_skw=Omega+Constellation&hash=item3e5672fa98:g:b60AAeSwB-dqZFpL",
-      "price": 499.0,
-      "shipping_price": null,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/b60AAeSwB-dqZFpL/s-l225.jpg",
-      "image_urls": [],
-      "body": "Omega Constellation Carre Quadra Ref. 1528.46 Women's Watch",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "Pre-owned - Good"
-      }
-    },
-    "watch_item_id": "Omega Constellation",
-    "analysis": {
-      "matches_criteria": true,
-      "match_reasoning": "The hunter's criteria only specify brand 'Omega' and model 'Constellation' with no specific reference required. This listing is an Omega Constellation (Carre Quadra variant), so it satisfies the stated criteria.",
-      "estimated_value": 550.0,
-      "confidence": 0.35,
-      "condition_summary": "Photo shows a women's stainless steel Constellation Carre Quadra with dark dial and diamond-set bezel worn on wrist; visible surface looks clean but limited close-up detail on case/bracelet wear or dial condition.",
-      "authenticity_risk": "medium",
-      "authenticity_notes": "Only one on-wrist photo provided, no shots of case back, movement, hallmarks, or papers/box; listing text is minimal (just repeats title) with no description of condition, provenance, or included accessories, which is a moderate red flag for a $499 luxury watch. Price is plausible but on the low side for this model, which could indicate a well-priced genuine piece or an issue not disclosed.",
-      "rarity_notes": "The Carre Quadra (ref. 1528.46) is a distinctive but not super rare Constellation variant from the late 1990s/2000s; quartz women's models like this are fairly available on the secondary market, less sought after than classic pie-pan or manta Constellations.",
-      "demand_tier": "Medium",
-      "demand_reasoning": "Omega Constellation is a recognized, desirable line, but this specific women's quartz Carre Quadra variant has moderate rather than high demand compared to iconic vintage automatic Constellations."
-    },
-    "deal_score": 9,
-    "liquidity": {
-      "rating": "Medium",
-      "comparable_count": 7626,
-      "algorithmic_tier": "High",
-      "claude_tier": "Medium",
-      "reasoning": "Algorithmic signal: 7626 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Omega Constellation is a recognized, desirable line, but this specific women's quartz Carre Quadra variant has moderate rather than high demand compared to iconic vintage automatic Constellations.). Final rating uses the more conservative of the two: Medium."
-    },
-    "all_in_price": 499.0,
-    "discount": 0.09272727272727273,
-    "notified": false,
-    "duplicate_of": "Omega Constellation:ebay:v1|307083492557|0",
-    "dismissed": true,
-    "qa_history": [],
-    "created_at": 1785015131.4371579,
-    "analysis_depth": "quick"
-  },
-  {
-    "id": "Omega Constellation:ebay:v1|377369625179|0",
-    "listing": {
-      "id": "ebay:v1|377369625179|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "Omega Constellation Gold Cap 34mm Champagne Dial Watch",
-      "url": "https://www.ebay.com/itm/377369625179?_skw=Omega+Constellation&hash=item57dcfb825b:g:rrAAAeSwUFpqZNxi",
-      "price": 550.0,
-      "shipping_price": null,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/rrAAAeSwUFpqZNxi/s-l225.jpg",
-      "image_urls": [],
-      "body": "Omega Constellation Gold Cap 34mm Champagne Dial Watch",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "Pre-owned - Fair"
-      }
-    },
-    "watch_item_id": "Omega Constellation",
-    "analysis": {
-      "matches_criteria": true,
-      "match_reasoning": "Hunter's criteria is generic \"Omega Constellation\" with no specific reference number or restrictions, and this listing is indeed an Omega Constellation model, so it matches.",
-      "estimated_value": 450.0,
-      "confidence": 0.4,
-      "condition_summary": "Vintage gold-cap Constellation with champagne dial appears to have general age-related wear (dial spotting/patina possible, worn strap); watch is shown running/intact in photo but no detailed condition notes (movement service history, crystal condition, case wear) are given.",
-      "authenticity_risk": "medium",
-      "authenticity_notes": "Only one photo provided, and it's a fairly generic/small image without close-ups of the caseback, movement, or serial numbers, which are needed to verify authenticity on vintage Omega pieces. No mention of box/papers, service history, or verification of gold cap vs strap authenticity. Price seems plausible but on the lower end, which isn't necessarily suspicious for a worn vintage piece, but lack of detail is a caution flag.",
-      "rarity_notes": "Vintage 34mm gold-cap Constellation with champagne dial is a fairly common variant from the 1960s-70s; not a rare or limited reference, though condition and dial variant can affect desirability.",
-      "demand_tier": "Medium",
-      "demand_reasoning": "Omega Constellation is a well-recognized, collectible line with steady demand, but this particular gold-cap 34mm variant is common and not a top-tier grail reference, keeping demand moderate rather than high."
-    },
-    "deal_score": -22,
-    "liquidity": {
-      "rating": "Medium",
-      "comparable_count": 7626,
-      "algorithmic_tier": "High",
-      "claude_tier": "Medium",
-      "reasoning": "Algorithmic signal: 7626 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Omega Constellation is a well-recognized, collectible line with steady demand, but this particular gold-cap 34mm variant is common and not a top-tier grail reference, keeping demand moderate rather than high.). Final rating uses the more conservative of the two: Medium."
-    },
-    "all_in_price": 550.0,
-    "discount": -0.2222222222222222,
-    "notified": false,
-    "duplicate_of": "Omega Constellation:ebay:v1|188692649540|0",
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1785015136.7082834,
-    "analysis_depth": "quick"
-  },
-  {
-    "id": "Omega Constellation:ebay:v1|398184855918|0",
-    "listing": {
-      "id": "ebay:v1|398184855918|0",
-      "source": "ebay",
-      "category": "watches",
-      "title": "Omega Constellation 795.1203 Silver White Dial 18k Yellow Gold Stainless Steel",
-      "url": "https://www.ebay.com/itm/398184855918?_skw=Omega+Constellation&hash=item5cb5aab96e:g:w20AAeSwtPhqYGJZ&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGYdkDTmp1KQASI4k5yX9GIe6ZK6A1lWd40AwSvKtulX8GRMRUw1uMIXRm1ONPPq0d6ZWIAAL32d5aanX03LIuwsDRObg4jv2C%2FAsqmWNHM5eQJ3xZDQS71KwxufI7oJbDWR%2BhPszk6vg0tupS58rIaCFzy%2FFHqEvl5YMRs6Di2sat0GfyaRddySNjuxfcLXbLEDuYI3xo1BZnHHtSLmDSIIKeTNgRRtWBeqr4NTse487d1GEUW42EOJQVMmPKES6glUh0M--QQ1vdsmYj%2FtkwIn3knzAnsG2LUm%2BXYAU0NNpA%3D%3D",
-      "price": 1823.0,
-      "shipping_price": 0.0,
-      "currency": "USD",
-      "image_url": "https://i.ebayimg.com/images/g/w20AAeSwtPhqYGJZ/s-l225.jpg",
-      "image_urls": [],
-      "body": "Omega Constellation 795.1203 Silver White Dial 18k Yellow Gold Stainless Steel",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "condition": "Pre-owned - Good"
-      }
-    },
-    "watch_item_id": "Omega Constellation",
-    "analysis": {
-      "matches_criteria": true,
-      "match_reasoning": "Hunter's criteria only specify brand and model (Omega Constellation) with no specific reference required, so this Constellation 795.1203 reference qualifies as a match.",
-      "estimated_value": 1600.0,
-      "confidence": 0.45,
-      "condition_summary": "Appears to be a two-tone (steel and 18k gold) ladies Constellation with silver/white dial; single stock-style photo shows a clean-looking watch but no close-ups of case edges, clasp, or dial text to verify wear or authenticity details.",
-      "authenticity_risk": "medium",
-      "authenticity_notes": "Only one generic-looking photo provided with no shots of case back, hallmarks, movement, serial number, or box/papers; listing text is minimal (just a repeat of the title) with no description of condition, service history, or accessories, which is a yellow flag for a $1,800+ luxury watch purchase.",
-      "rarity_notes": "This is a common ladies quartz/automatic Constellation reference from the 1990s/2000s \"Manhattan\" style bracelet line - not rare, widely available on the secondary market.",
-      "demand_tier": "Medium",
-      "demand_reasoning": "Omega Constellation is a well-recognized, in-demand model line, but this particular ladies two-tone reference is common and not highly sought-after compared to men's or limited references, keeping demand moderate."
-    },
-    "deal_score": -14,
-    "liquidity": {
-      "rating": "Medium",
-      "comparable_count": 7626,
-      "algorithmic_tier": "High",
-      "claude_tier": "Medium",
-      "reasoning": "Algorithmic signal: 7626 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Omega Constellation is a well-recognized, in-demand model line, but this particular ladies two-tone reference is common and not highly sought-after compared to men's or limited references, keeping demand moderate.). Final rating uses the more conservative of the two: Medium."
-    },
-    "all_in_price": 1823.0,
-    "discount": -0.139375,
-    "notified": false,
-    "duplicate_of": "Omega Constellation:ebay:v1|227339981439|0",
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1785015143.9293265,
-    "analysis_depth": "quick"
-  },
-  {
     "id": "Omega Constellation:ebay:v1|147459630901|0",
     "listing": {
       "id": "ebay:v1|147459630901|0",
@@ -104863,6 +104663,216 @@
     "dismissed": false,
     "qa_history": [],
     "created_at": 1789685692.6919944,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|820140468472|0",
+    "listing": {
+      "id": "ebay:v1|820140468472|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex Submariner Date 40mm Black Dial Green Bezel Automatic Steel Bracelet",
+      "url": "https://www.ebay.com/itm/820140468472?_skw=Rolex+Submariner+black+dial&hash=itembef42e68f8:g:DUAAAeSw7ydqrJgi",
+      "price": 9510.0,
+      "shipping_price": null,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/DUAAAeSw7ydqrJgi/s-l225.jpg",
+      "image_urls": [],
+      "body": "Rolex Submariner Date 40mm Black Dial Green Bezel Automatic Steel Bracelet",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "The hunter specifically wants a black dial Submariner (implying standard black bezel/dial version), but this listing is the \"Kermit\"/\"Hulk\" style Submariner Date with a green bezel (and possibly green dial elements), which is a distinct variant. Title says black dial but bezel is green - dial-only black with green bezel could still be considered close, but the ambiguity plus lack of reference number, serial, or box/papers makes this uncertain. Given strict matching rules, this deviates from a plain black dial/bezel Submariner and should not be counted as a clear match.",
+      "estimated_value": 9200.0,
+      "confidence": 0.35,
+      "condition_summary": "Watch appears lightly worn with visible shine on bracelet and bezel in the photo; no visible scratches but image is low-resolution and only one angle shown, no box/papers/caseback visible.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "No serial/reference number provided, no box or papers shown or mentioned, and only a single casual photo (hand-held) rather than detailed shots of caseback, hallmarks, or papers - typical of both genuine private sales and higher-risk listings. Price is somewhat below typical market for a green bezel Submariner (often $10-13k), which could indicate a good deal or an issue with authenticity/condition not disclosed.",
+      "rarity_notes": "The green bezel \"Kermit\"/\"Hulk\" variant (ref. 116610LV or similar) is a sought-after, discontinued Submariner variant, generally rarer and more valuable than the standard black bezel version.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and demanded watch models globally, and the green bezel variant is especially popular among collectors, sustaining strong resale demand."
+    },
+    "deal_score": -3,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 3226,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 3226 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and demanded watch models globally, and the green bezel variant is especially popular among collectors, sustaining strong resale demand.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 9510.0,
+    "discount": -0.03369565217391304,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|287579445430|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1789726758.9013538,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|168697038767|0",
+    "listing": {
+      "id": "ebay:v1|168697038767|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex Submariner Date 40mm Black Dial Steel Bracelet Automatic 300m Diver",
+      "url": "https://www.ebay.com/itm/168697038767?_skw=Rolex+Submariner+black+dial&hash=item27472087af:g:E0QAAeSwKfZqrKbT",
+      "price": 8300.0,
+      "shipping_price": null,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/E0QAAeSwKfZqrKbT/s-l225.jpg",
+      "image_urls": [
+        "https://i.ebayimg.com/images/g/E0QAAeSwKfZqrKbT/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/1WEAAeSwM0NqrKiq/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/COYAAeSwfmBqrKjF/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/zHMAAeSwEutqrKjU/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/zQMAAeSwEutqrKji/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/XKsAAeSw~CZqrKjx/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/3I8AAeSwtLZqrKj~/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/sMIAAeSwYntqrKkM/s-l1600.jpg",
+        "https://i.ebayimg.com/images/g/eYgAAeSwvoBqrKkY/s-l1600.jpg"
+      ],
+      "body": "Rolex Submariner Date 40mm Black Dial Steel Bracelet Automatic 300m Diver",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": true,
+      "match_reasoning": "Hunter's criteria are generic (any Rolex Submariner black dial, 1992+, under $11000, excellent condition) with no specific reference required. This is a Submariner Date 40mm black dial steel model, price $8,300 fits budget, and photos show it appears newer production era consistent with post-1992.",
+      "estimated_value": 9000.0,
+      "confidence": 0.45,
+      "condition_summary": "Watch appears to be in very good to excellent cosmetic condition in photos - case and bracelet show minimal visible wear, bezel and dial look crisp with no obvious scratches, but images appear to be stock/reused (watermark visible from a listing aggregator site) rather than seller's own photos.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "No reference number, serial number, or year is explicitly stated in the listing text - this is a significant gap for a $8k+ watch purchase. Photos carry a visible watermark from a third-party marketplace (appears to be reused/stock images rather than photos taken by this specific seller), which is a red flag for a private listing claiming to sell an actual unit. No box/papers explicitly confirmed as included despite a Rolex box appearing in photos - it's unclear if this specific box/papers convey with this specific watch. Price is somewhat below typical market for a modern Submariner Date (post-2010 models often run $10-13k), which could indicate an older base reference (e.g., 16610) - if so it's still within 1992+ window but buyer should verify exact reference and serial to confirm year and authenticity before purchase.",
+      "rarity_notes": "Standard production Submariner Date (non-limited), one of the most common and recognizable Rolex references - not rare, though certain discontinued references (e.g., 16610, ceramic 116610LN) are highly sought after and liquid in the resale market.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most in-demand watches in the world with strong resale liquidity and broad recognition across all buyer segments."
+    },
+    "deal_score": 8,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 3226,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 3226 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most in-demand watches in the world with strong resale liquidity and broad recognition across all buyer segments.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 8300.0,
+    "discount": 0.07777777777777778,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|287583928602|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1789726771.7656784,
+    "analysis_depth": "full"
+  },
+  {
+    "id": "rolex:ebay:v1|237072337792|0",
+    "listing": {
+      "id": "ebay:v1|237072337792|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex Submariner Date 116610LN Black Dial Steel 40mm Year of Transition 2020",
+      "url": "https://www.ebay.com/itm/237072337792?_skw=Rolex+Submariner+black+dial&hash=item37329ccb80:g:PoMAAeSwFVVqqxvi",
+      "price": 13500.0,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/PoMAAeSwFVVqqxvi/s-l225.jpg",
+      "image_urls": [],
+      "body": "Rolex Submariner Date 116610LN Black Dial Steel 40mm Year of Transition 2020",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "While the listing is a genuine Rolex Submariner black dial from 2020 (satisfies year requirement), the price of $13,500 exceeds the hunter's $11,000 all-in ceiling, so it fails the price criterion.",
+      "estimated_value": 10500.0,
+      "confidence": 0.55,
+      "condition_summary": "Photo shows a clean, well-kept Submariner 116610LN with no visible scratches on bezel or bracelet; described only as 'Year of Transition 2020' with no explicit condition grading or box/papers mention.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "Image appears to be a genuine stock-style product photo consistent with the reference; no serial/rehaut close-ups or papers shown, which is common for eBay listings but limits verification. No overt red flags like mismatched hardware or suspiciously low price - if anything price is above typical market for this ref, which is a mild inverse red flag (overpriced rather than underpriced) but not indicative of fraud.",
+      "rarity_notes": "116610LN is a very common, mass-produced reference (discontinued 2020), not rare; high supply keeps values fairly liquid and well-benchmarked.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and sought-after watches in the world, with consistently strong resale demand."
+    },
+    "deal_score": -29,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 3226,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 3226 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and sought-after watches in the world, with consistently strong resale demand.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 13500.0,
+    "discount": -0.2857142857142857,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|168688562678|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1789726755.4289021,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|128085424894|0",
+    "listing": {
+      "id": "ebay:v1|128085424894|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "Rolex Submariner Model 16613, S-Series Serial Number",
+      "url": "https://www.ebay.com/itm/128085424894?_skw=Rolex+Submariner+black+dial&hash=item1dd27c7afe:g:bScAAeSwf8FqrMub",
+      "price": 9900.0,
+      "shipping_price": 5.68,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/bScAAeSwf8FqrMub/s-l225.jpg",
+      "image_urls": [],
+      "body": "Rolex Submariner Model 16613, S-Series Serial Number",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Good"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Hunter requires a black dial Submariner, but this listing (Ref 16613, S-series, ~1993-94) is the two-tone model shown with a blue dial/bezel, not black. Reference number wasn't specified by hunter, but the black dial requirement is explicit and not met.",
+      "estimated_value": 9200.0,
+      "confidence": 0.4,
+      "condition_summary": "Photo shows a two-tone Submariner with blue dial/bezel; bracelet and case appear to have light-to-moderate wear typical of a worn vintage piece, no box/papers shown.",
+      "authenticity_risk": "medium",
+      "authenticity_notes": "Only one photo provided, taken on a dark countertop with reflections making detail hard to verify (dial text, cyclops, serial/reference engravings not visible). No box, papers, or close-up serial shots included despite serial being mentioned in title. Price is somewhat below typical market for a two-tone 16613 in excellent condition, which combined with lack of verifying photos is a mild red flag.",
+      "rarity_notes": "16613 two-tone Submariner is a common reference, produced in large numbers through the 1990s-2000s; not rare, plentiful on the secondary market.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and demanded watch models in the world, sustaining strong resale demand regardless of specific reference."
+    },
+    "deal_score": -8,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 3226,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 3226 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and demanded watch models in the world, sustaining strong resale demand regardless of specific reference.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 9905.68,
+    "discount": -0.07670434782608698,
+    "notified": false,
+    "duplicate_of": null,
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1789726755.6019728,
     "analysis_depth": "quick"
   }
 ]
