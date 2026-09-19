@@ -1,55 +1,5 @@
 [
   {
-    "id": "Omega Constellation:etsy:4543265653",
-    "listing": {
-      "id": "etsy:4543265653",
-      "source": "etsy",
-      "category": "watches",
-      "title": "Vintage Universal Geneve Polerouter Jet Automatic Gold Plated Swiss Made Men&#39;s Wrist Watch",
-      "url": "https://www.etsy.com/listing/4543265653/vintage-universal-geneve-polerouter-jet",
-      "price": 999.99,
-      "shipping_price": null,
-      "currency": "USD",
-      "image_url": null,
-      "image_urls": [],
-      "body": "Vintage Universal Geneve Polerouter Jet Automatic Swiss Made Men&#39;s Wrist Watch Case size 35mm\nBand Size 18mm\nGlass Acrylic Crystal Changed\nCrown Changed\n\n\nShipping Policy\nPLEASE NOTE That FREE SHIPPING Mentioned In The Listing Will Be Done By &quot;Registered Air Mail\u201d ( INDIA POST)- FROM INDIA To Anywhere In The World I.E WORLDWIDE SHIPPING. It Will Take Approx 2 To 4 Weeks After Being Dispatched For The Shipment To Be Delivered. You Will Have To Sign On Delivery.\n\nItems Will Be Shipped Within 3 (Three) Working Days After Receiving Cleared Payment So Please Be Patient As We Give The Piece Last Through Test Prior Dispatch. We Are Not Responsible for Any Delayed in Delivery Due To Custom Clearance of the Buyer\u2019s Country As its To Be Handled by the Buyer Himself.\n\n \n\nDiagnose\n\nThe Picture Carefully As They Are Big And Clear Then Bid Because Any Imperfection Visible In The Pictures And Missed In The Description Is To Be Considered As Described.\n\nMy Language Would Appear A Bit Hard But It\u2019s Only For Those Buyers Who Deliberately Want To Hurt The Interest Of The Sales.\n\nPayment Policy\n\nPayment Should Be Cleared Within 3 (Three) Days Of Sale And We Prefer Pay Pal For Any Other Payment Method Please Contact Us. Any Mistake In The Description Is Just A Mistake Not Deliberately Done To Mislead Anyone, Please Bring It To Our Knowledge And Please Ignore. Any Customs Or Taxes Of The Buyers Country Is To Be Paid And Handled By The Buyer Himself.",
-      "posted_at": null,
-      "status": "active",
-      "raw": {
-        "taxonomy_id": 6074
-      }
-    },
-    "watch_item_id": "Omega Constellation",
-    "analysis": {
-      "matches_criteria": false,
-      "match_reasoning": "The hunter is specifically seeking an Omega Constellation, but this listing is for a Universal Geneve Polerouter Jet, an entirely different brand and model. This is not a match regardless of similarities in vintage watch category.",
-      "estimated_value": null,
-      "confidence": 0.9,
-      "condition_summary": "Vintage automatic with replaced crystal and crown, indicating prior servicing; no photos provided to verify actual condition/wear.",
-      "authenticity_risk": "medium",
-      "authenticity_notes": "Replaced crown and crystal are common on vintage pieces but reduce originality; seller's aggressive, defensive tone and generic 'diagnose the picture carefully' boilerplate are typical of high-volume overseas resellers (India-based drop shippers) rather than specialist dealers, which raises some caution about parts authenticity and condition disclosure accuracy. No serial/movement photos or verification mentioned.",
-      "rarity_notes": "Not applicable to the hunter's stated criteria since this is not an Omega Constellation; as a Polerouter Jet, it is a moderately desirable vintage Universal Geneve model but not this hunter's target.",
-      "demand_tier": "Medium",
-      "demand_reasoning": "Universal Geneve Polerouter models have a following among vintage watch collectors but lower mainstream recognition than Omega Constellation, and this listing is irrelevant to the stated hunt."
-    },
-    "deal_score": 0,
-    "liquidity": {
-      "rating": "Medium",
-      "comparable_count": 338,
-      "algorithmic_tier": "High",
-      "claude_tier": "Medium",
-      "reasoning": "Algorithmic signal: 338 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: Medium (Universal Geneve Polerouter models have a following among vintage watch collectors but lower mainstream recognition than Omega Constellation, and this listing is irrelevant to the stated hunt.). Final rating uses the more conservative of the two: Medium."
-    },
-    "all_in_price": 999.99,
-    "discount": null,
-    "notified": false,
-    "duplicate_of": null,
-    "dismissed": false,
-    "qa_history": [],
-    "created_at": 1785015173.717679,
-    "analysis_depth": "quick"
-  },
-  {
     "id": "Omega Constellation:etsy:4543229709",
     "listing": {
       "id": "etsy:4543229709",
@@ -104892,6 +104842,56 @@
     "dismissed": false,
     "qa_history": [],
     "created_at": 1789762085.5318356,
+    "analysis_depth": "quick"
+  },
+  {
+    "id": "rolex:ebay:v1|307186195045|0",
+    "listing": {
+      "id": "ebay:v1|307186195045|0",
+      "source": "ebay",
+      "category": "watches",
+      "title": "MINT 2018 PAPERS Rolex Submariner Date 116610 Steel Black Dial Ceramic Watch Box",
+      "url": "https://www.ebay.com/itm/307186195045?_skw=Rolex+Submariner+black+dial&hash=item4785b95a65:g:NH0AAeSwLcNqrZvs",
+      "price": 13021.05,
+      "shipping_price": 0.0,
+      "currency": "USD",
+      "image_url": "https://i.ebayimg.com/images/g/NH0AAeSwLcNqrZvs/s-l225.jpg",
+      "image_urls": [],
+      "body": "MINT 2018 PAPERS Rolex Submariner Date 116610 Steel Black Dial Ceramic Watch Box",
+      "posted_at": null,
+      "status": "active",
+      "raw": {
+        "condition": "Pre-owned - Excellent"
+      }
+    },
+    "watch_item_id": "rolex",
+    "analysis": {
+      "matches_criteria": false,
+      "match_reasoning": "Item is a genuine match on brand/model/dial/year (2018 Submariner Date 116610, black dial, post-1992), and condition claim (MINT) meets the excellent floor. However, the all-in price of $13,021.05 exceeds the hunter's stated ceiling of $11,000, so it fails the price criterion.",
+      "estimated_value": 10500.0,
+      "confidence": 0.55,
+      "condition_summary": "Photos show a clean, well-kept Submariner 116610 with box and papers displayed; described as \"MINT\" with no visible scratches in the small images provided.",
+      "authenticity_risk": "low",
+      "authenticity_notes": "Reference number, dial, bracelet, and box/papers are consistent with a genuine 116610; photos show actual item with box/card rather than stock imagery. No serial numbers are visible to cross-check, and images are small/low-res, so some caution warranted, but nothing overtly suspicious (price is not suspiciously low, listing is detailed and specific).",
+      "rarity_notes": "116610LN is a widely produced, commonly available reference - not rare, but consistently in high demand on the secondary market.",
+      "demand_tier": "High",
+      "demand_reasoning": "Rolex Submariner is one of the most recognized and sought-after watch models globally, with the ceramic-bezel 116610 being a particularly popular reference among buyers and collectors."
+    },
+    "deal_score": -24,
+    "liquidity": {
+      "rating": "High",
+      "comparable_count": 3216,
+      "algorithmic_tier": "High",
+      "claude_tier": "High",
+      "reasoning": "Algorithmic signal: 3216 comparable listing(s) seen in the lookback window -> High. Claude's qualitative read: High (Rolex Submariner is one of the most recognized and sought-after watch models globally, with the ceramic-bezel 116610 being a particularly popular reference among buyers and collectors.). Final rating uses the more conservative of the two: High."
+    },
+    "all_in_price": 13021.05,
+    "discount": -0.24009999999999992,
+    "notified": false,
+    "duplicate_of": "rolex:ebay:v1|128074607902|0",
+    "dismissed": false,
+    "qa_history": [],
+    "created_at": 1789778180.2170784,
     "analysis_depth": "quick"
   }
 ]
