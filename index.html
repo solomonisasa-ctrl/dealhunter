@@ -93,7 +93,7 @@ button:focus-visible, select:focus-visible, input:focus-visible, textarea:focus-
 .msg .hint { color: var(--muted); font-weight: 400; }
 @keyframes blink { 50% { opacity: 0; } }
 
-.actions { display: grid; grid-template-columns: auto auto; grid-template-rows: 1fr 1fr; gap: 8px; }
+.actions { display: grid; grid-template-columns: auto auto auto; grid-template-rows: 1fr 1fr; gap: 8px; }
 .actions button {
   background: var(--surface-2); border: 2px solid var(--line); border-radius: var(--radius);
   font-size: calc(1.05rem * var(--s)); font-weight: 700; padding: 6px 14px; min-width: calc(96px * var(--s));
@@ -234,7 +234,20 @@ button:focus-visible, select:focus-visible, input:focus-visible, textarea:focus-
 .tool:disabled { opacity: 0.4; cursor: default; }
 .gear { height: auto; min-height: 40px; }
 .battery { align-self: center; background: var(--no); color: var(--fg); border: 2px solid var(--danger); border-radius: 999px; padding: 6px 12px; font-weight: 700; font-size: 0.95rem; white-space: nowrap; }
-.chip.all { background: var(--surface-2); border-style: dashed; }
+.chip.all {
+  background: var(--surface-2); border: 3px solid var(--k-desc); font-size: calc(1.45rem * var(--s));
+  padding: 8px 28px 8px 20px; min-width: calc(190px * var(--s)); justify-content: center;
+}
+.chip.all svg { width: 26px; height: 26px; color: var(--k-desc); }
+.actions .ans.help {
+  grid-row: 1 / span 2; min-width: calc(140px * var(--s)); font-size: calc(1.8rem * var(--s));
+  background: var(--alert); color: var(--alert-fg); border-color: transparent; padding: 0 18px;
+}
+.actions .ans.help small { font-size: 0.45em; }
+.board-add { display: flex; flex-wrap: wrap; gap: 10px; margin-left: auto; }
+.board-add .btn:disabled { opacity: 0.4; cursor: default; }
+.board-head { flex-wrap: wrap; }
+.board-grid button.fresh { border-color: var(--k-verb); background: var(--yes); }
 .msg .last-label { color: var(--muted); font-weight: 400; font-size: 0.55em; display: block; margin-bottom: 2px; letter-spacing: 0.02em; }
 .msg .last-said { color: var(--muted); }
 
@@ -297,8 +310,9 @@ button:focus-visible, select:focus-visible, input:focus-visible, textarea:focus-
   .answers::-webkit-scrollbar { display: none; }
   .tools { margin-left: 0; }
   .actions .speak { min-height: 52px; }
-  .actions { grid-template-columns: 1.4fr 1fr 1fr; grid-template-rows: auto; }
+  .actions { grid-template-columns: 1.3fr 1fr 1fr; grid-template-rows: auto; }
   .actions .speak { grid-row: auto; flex-direction: row; min-height: 58px; }
+  .actions .ans.help { grid-row: auto; min-width: 0; font-size: calc(1.3rem * var(--s)); }
   .actions .col { grid-row: auto; }
   .msg { font-size: calc(1.6rem * var(--s)); min-height: 70px; }
   .w { font-size: calc(1.45rem * var(--s)); }
@@ -326,6 +340,10 @@ button:focus-visible, select:focus-visible, input:focus-visible, textarea:focus-
         <button id="delWord">Delete word</button>
         <button id="clear">Clear</button>
       </div>
+      <button class="ans help" id="help" aria-label="Call for help. Press and hold.">
+        <span class="ring"></span>
+        <span class="help-label">Help</span><small>hold</small>
+      </button>
     </div>
   </div>
 
@@ -346,10 +364,6 @@ button:focus-visible, select:focus-visible, input:focus-visible, textarea:focus-
       <button class="tool" id="again" disabled>Say again</button>
       <button class="tool" id="show">Show big</button>
       <button class="tool" id="tellHouse" hidden>Tell the house</button>
-      <button class="ans help" id="help" aria-label="Call for help. Press and hold.">
-        <span class="ring"></span>
-        <span class="help-label">Help</span><small>hold</small>
-      </button>
     <button class="gear" id="gear" aria-label="Settings. Press and hold to open.">
       <span class="ring"></span>
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg>
@@ -370,6 +384,10 @@ button:focus-visible, select:focus-visible, input:focus-visible, textarea:focus-
 <div class="board" id="board" hidden>
   <div class="board-head">
     <h2>Phrases</h2>
+    <div class="board-add">
+      <button class="btn big" id="addTyping">+ Add what I'm typing</button>
+      <button class="btn big" id="addLastBoard">+ Add what I last said</button>
+    </div>
     <button class="btn primary big" id="closeBoard">Close</button>
   </div>
   <div class="board-grid" id="boardGrid"></div>
@@ -1001,23 +1019,19 @@ function render() {
   const all = document.createElement('button');
   all.className = 'chip all'; all.id = 'allPhrases';
   all.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg>';
-  const allT = document.createElement('span'); allT.textContent = 'All phrases'; all.appendChild(allT);
+  const allT = document.createElement('span'); allT.textContent = 'Phrases'; all.appendChild(allT);
   chips.appendChild(all);
   const empty = !state.words.length && !state.partial;
-  currentChips = empty ? settings.phrases.slice() : completions(4);
+  currentChips = empty ? [] : completions(4);
   currentChips.forEach((t, idx) => {
     const b = document.createElement('button');
-    b.className = 'chip' + (empty ? '' : ' suggest');
+    b.className = 'chip suggest';
     b.dataset.idx = idx;
     b.innerHTML = SPEAKER_SVG;
     const s = document.createElement('span'); s.textContent = t; b.appendChild(s);
     b.setAttribute('aria-label', 'Say: ' + t);
     chips.appendChild(b);
   });
-  if (empty && !currentChips.length) {
-    const e = document.createElement('span'); e.className = 'empty'; e.textContent = 'Add quick phrases in settings';
-    chips.appendChild(e);
-  }
 
   // words
   const grid = $('#words');
@@ -1081,13 +1095,28 @@ function openShow(text) {
 }
 
 // ---------- Phrase board ----------
-function openBoard() {
+const typingText = () => (state.words.length || state.partial) ? formatSentence([...state.words, ...(state.partial ? [state.partial] : [])]) : '';
+const hasPhrase = t => settings.phrases.some(p => normSentence(p) === normSentence(t));
+function openBoard(freshIdx) {
   const g = $('#boardGrid'); g.textContent = '';
   settings.phrases.forEach((p, i) => {
-    const b = document.createElement('button'); b.textContent = p; b.dataset.idx = i; g.appendChild(b);
+    const b = document.createElement('button'); b.textContent = p; b.dataset.idx = i;
+    if (i === freshIdx) b.className = 'fresh';
+    g.appendChild(b);
   });
-  if (!settings.phrases.length) { const e = document.createElement('p'); e.textContent = 'No quick phrases yet. Add them in settings.'; g.appendChild(e); }
+  if (!settings.phrases.length) { const e = document.createElement('p'); e.textContent = 'No phrases yet. Type a sentence, then tap Add what I\'m typing.'; g.appendChild(e); }
+  const typing = typingText();
+  $('#addTyping').disabled = !typing || hasPhrase(typing);
+  $('#addLastBoard').disabled = !lastSaid || hasPhrase(lastSaid);
   $('#board').hidden = false;
+  if (freshIdx !== undefined && g.children[freshIdx]) g.children[freshIdx].scrollIntoView({ block: 'center', behavior: 'smooth' });
+}
+function addFromBoard(text) {
+  if (!text || hasPhrase(text)) return;
+  settings.phrases.push(text);
+  syncedChanged();
+  openBoard(settings.phrases.length - 1);
+  toast('Added to phrases');
 }
 function closeBoard() { $('#board').hidden = true; }
 
@@ -1441,6 +1470,8 @@ $('#boardGrid').addEventListener('click', e => {
   speakWhole(t);
 });
 $('#closeBoard').addEventListener('click', closeBoard);
+$('#addTyping').addEventListener('click', () => { if (guarded('addTyping')) addFromBoard(typingText()); });
+$('#addLastBoard').addEventListener('click', () => { if (guarded('addLastBoard')) addFromBoard(lastSaid); });
 $('#alertCancel').addEventListener('click', closeHelp);
 $('#inboxClose').addEventListener('click', closeInbox);
 
