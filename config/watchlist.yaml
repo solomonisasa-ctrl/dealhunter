@@ -26,4 +26,18 @@
   discount_threshold: null
   lookback_days: 30
   enabled: true
-  parsed_criteria: null
+  parsed_criteria:
+    brand: Rolex
+    model: Submariner
+    reference_number: null
+    condition_min: Excellent
+    box_and_papers_required: null
+    max_price_all_in: 11000
+    other_requirements: Black dial, 1992 or newer production year
+    search_keywords:
+    - Rolex Submariner
+    - black dial Submariner
+    - Rolex Submariner black
+    - Submariner date black dial
+    - Rolex Submariner 1992
+    - Rolex Sub black dial excellent condition

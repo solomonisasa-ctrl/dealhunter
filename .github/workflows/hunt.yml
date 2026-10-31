@@ -1,12 +1,9 @@
 name: Deal Hunter run
 
 on:
-  schedule:
-    # Every 5 minutes. GitHub Actions cron can lag under load - treat this
-    # as "roughly every 5 min", not exact. Runs are serialized (see
-    # concurrency block below), so if a run ever takes longer than 5
-    # minutes, the next trigger queues up rather than overlapping.
-    - cron: "*/5 * * * *"
+  # Scheduled runs paused (API credits ran out). Re-add a `schedule:` cron
+  # trigger here to resume automatic runs. Manual runs still work via
+  # workflow_dispatch below.
   workflow_dispatch: {}
 
 permissions:
