@@ -1,5 +1,5 @@
 // Network first so updates show up right away; the cached copy keeps the app working when the Wi-Fi drops.
-const CACHE = 'dads-voice-v1';
+const CACHE = 'dads-voice-v2';
 const SHELL = ['./', 'index.html', 'manifest.webmanifest', 'icon.svg'];
 
 self.addEventListener('install', e => {
@@ -20,8 +20,10 @@ self.addEventListener('fetch', e => {
   const url = new URL(req.url);
   const font = url.hostname === 'fonts.googleapis.com' || url.hostname === 'fonts.gstatic.com';
   if (url.origin !== self.location.origin && !font) return;
+  // GitHub Pages lets browsers reuse a page for 10 minutes; no-cache makes the app check for a new version every time it's online
+  const fresh = url.origin === self.location.origin ? fetch(req.url, { cache: 'no-cache', credentials: 'same-origin' }) : fetch(req);
   e.respondWith(
-    fetch(req)
+    fresh
       .then(res => {
         if (res && (res.ok || res.type === 'opaque')) {
           const copy = res.clone();
