@@ -1,0 +1,13 @@
+{
+  "name": "Dad's Voice",
+  "short_name": "Dad's Voice",
+  "start_url": "./",
+  "scope": "./",
+  "display": "fullscreen",
+  "orientation": "any",
+  "background_color": "#0d1520",
+  "theme_color": "#0d1520",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
