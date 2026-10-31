@@ -481,10 +481,16 @@ button:focus-visible, select:focus-visible, input:focus-visible, textarea:focus-
       <h2>Alerts</h2>
       <p>When he holds <b>Help</b>, the Alexas you choose announce it, and family phones get an urgent notification with an <b>I'm on my way</b> button. Everything he says is also sent quietly to family phones.</p>
       <label for="vmToken">Voice Monkey API token
-        <input type="text" id="vmToken" autocomplete="off" spellcheck="false" placeholder="From voicemonkey.io, API Credentials">
+        <input type="text" id="vmToken" autocomplete="off" spellcheck="false" placeholder="From app.voicemonkey.io, API Tokens">
       </label>
       <label for="vmSpeakers">Voice Monkey speaker IDs (comma separated)
         <input type="text" id="vmSpeakers" autocomplete="off" spellcheck="false" placeholder="kitchen-echo, living-room-echo">
+      </label>
+      <label for="poUser">Pushover user key or group key
+        <input type="text" id="poUser" autocomplete="off" spellcheck="false" placeholder="From pushover.net, top of your dashboard">
+      </label>
+      <label for="poToken">Pushover app API token
+        <input type="text" id="poToken" autocomplete="off" spellcheck="false" placeholder="From pushover.net, Your Applications">
       </label>
       <label for="familyCode">Family code (the ntfy topic family phones subscribe to)
         <input type="text" id="familyCode" autocomplete="off" spellcheck="false">
@@ -494,6 +500,7 @@ button:focus-visible, select:focus-visible, input:focus-visible, textarea:focus-
         <button class="btn primary" id="saveAlerts">Save</button>
         <button class="btn" id="testAlexa">Test Alexa announcement</button>
         <button class="btn" id="testPhones">Test phone alert</button>
+        <button class="btn" id="testPushover">Test Pushover alert</button>
       </div>
       <p class="fam-note" id="alertStatus"></p>
       <h2 style="margin-top:18px">Pocket fall button (Flic)</h2>
@@ -662,7 +669,7 @@ const cap = s => s ? s.charAt(0).toUpperCase() + s.slice(1) : s;
 const settings = Object.assign({
   voiceURI: '', rate: 0.95, pitch: 1, scale: 1, guard: 300, echo: false,
   phrases: DEFAULT_PHRASES.slice(), myWords: [], sayAs: {},
-  vmToken: '', vmSpeakers: '', familyCode: '', sendSentences: true
+  vmToken: '', vmSpeakers: '', familyCode: '', sendSentences: true, poToken: '', poUser: ''
 }, LS.get('dv.settings', {}));
 if (!settings.familyCode) {
   const a = new Uint8Array(10);
@@ -1119,12 +1126,35 @@ function vmAnnounce(speech) {
     .catch(() => 'sent');
 }
 
+const PO_API = 'https://api.pushover.net/1/';
+const PO_TAG = 'dadsvoice-help';
+const poReady = () => !!(settings.poToken && settings.poUser);
+function poSend(fields) {
+  if (!poReady()) return Promise.resolve('not set up');
+  if (!navigator.onLine) return Promise.resolve('offline');
+  const body = new URLSearchParams(Object.assign({ token: settings.poToken.trim(), user: settings.poUser.trim() }, fields));
+  return fetch(PO_API + 'messages.json', { method: 'POST', body })
+    .then(r => r.json().catch(() => ({})).then(j => (r.ok && j.status === 1 ? 'ok' : 'error: ' + ((j.errors && j.errors.join('; ')) || r.status))))
+    .catch(() => 'sent');
+}
+// Emergency alerts repeat every 30s on family phones until someone taps Acknowledge; the acknowledgment comes back through the reply topic
+function poEmergency(title, message, expire) {
+  const fields = { title, message, priority: '2', retry: '30', expire: String(expire || 3600), sound: 'siren', tags: PO_TAG };
+  if (phonesReady()) fields.callback = NTFY + topics().reply;
+  return poSend(fields);
+}
+function poStopRepeats() {
+  if (!poReady() || !navigator.onLine) return;
+  fetch(PO_API + 'receipts/cancel_by_tag/' + PO_TAG + '.json', { method: 'POST', body: new URLSearchParams({ token: settings.poToken.trim() }) }).catch(() => {});
+}
+
 let helpCloseTimer = null, helpRepeatTimer = null, helpRepeats = 0, helpActive = false, helpKind = 'help';
-function sendHelpOut(again, skipPhones) {
+function sendHelpOut(again, skipNtfy) {
   const a = ALERTS[helpKind];
   const jobs = [];
   if (vmReady()) jobs.push(vmAnnounce(again ? 'Reminder. ' + a.speech : a.speech).then(r => ['the Alexas', r]));
-  if (phonesReady() && !skipPhones) {
+  if (poReady() && !again) jobs.push(poEmergency(a.title, a.phone).then(r => ['Pushover phones', r]));
+  if (phonesReady() && !skipNtfy) {
     jobs.push(ntfyPost(topics().help, again ? a.again : a.phone, {
       title: a.title, priority: '5', tags: 'rotating_light', actions: ackAction()
     }).then(r => ['family phones', r]));
@@ -1173,6 +1203,7 @@ function helpAcknowledged(text) {
   if (!helpActive) return false;
   helpActive = false;
   clearTimeout(helpRepeatTimer); stopAlarm();
+  poStopRepeats();
   const ov = $('#alertOverlay');
   ov.classList.add('acked');
   $('#alertTitle').textContent = 'Someone is on the way';
@@ -1188,11 +1219,13 @@ function closeHelp() {
   clearTimeout(helpRepeatTimer); clearTimeout(helpCloseTimer); stopAlarm();
   $('#alertOverlay').hidden = true;
   if (!wasActive) return;
+  poStopRepeats();
+  poSend({ title: 'Dad is okay', message: 'Dad cancelled the help alert. He says he is okay.', priority: '0' });
   if (phonesReady()) ntfyPost(topics().help, 'Dad cancelled the help alert. He says he is okay.', { title: 'Dad is okay', priority: '4', tags: 'white_check_mark' });
   if (vmReady()) vmAnnounce('Dad is okay. He cancelled the help alert.');
 }
 
-let replySource = null, helpSource = null;
+let replySource = null, helpSource = null, poTestPending = false;
 const seenFalls = new Set();
 function parseEvent(e) {
   try { const m = JSON.parse(e.data); return m && m.event === 'message' ? m : null; } catch (err) { return null; }
@@ -1206,6 +1239,14 @@ function listenForReplies() {
     const m = parseEvent(e);
     if (!m || typeof m.message !== 'string' || !m.message.trim()) return;
     const text = m.message.trim().slice(0, 300);
+    // Pushover's acknowledgment callback arrives as form fields, never shown raw
+    if (/(^|&)receipt=/.test(text)) {
+      if (!/(^|&)acknowledged=1(&|$)/.test(text)) return;
+      if (!helpAcknowledged()) {
+        if (poTestPending) { poTestPending = false; showInbox({ text: 'Someone tapped Acknowledge. Pushover alerts are working.' }); }
+      }
+      return;
+    }
     if (!helpAcknowledged(text)) showInbox({ text });
   };
   // The pocket fall button posts to the help topic tagged "fall"; the tablet adds the Alexa announcement and repeats
@@ -1327,13 +1368,16 @@ function syncedChanged() {
 }
 
 function queueLog(text) {
-  if (!settings.sendSentences || !phonesReady()) return;
-  ntfyPost(topics().says, text, { title: 'Dad says', priority: '2', tags: 'speech_balloon' });
+  if (!settings.sendSentences) return;
+  if (phonesReady()) ntfyPost(topics().says, text, { title: 'Dad says', priority: '2', tags: 'speech_balloon' });
+  if (poReady()) poSend({ title: 'Dad says', message: text, priority: '-1' });
 }
 
 function renderAlertSettings() {
   $('#vmToken').value = settings.vmToken || '';
   $('#vmSpeakers').value = settings.vmSpeakers || '';
+  $('#poUser').value = settings.poUser || '';
+  $('#poToken').value = settings.poToken || '';
   $('#familyCode').value = settings.familyCode || '';
   $('#sendSentences').checked = !!settings.sendSentences;
   const t = topics();
@@ -1418,6 +1462,8 @@ $('#saveAlerts').addEventListener('click', () => {
   if (!CODE_RE.test(code)) { alertStatus('The family code needs 8 to 64 letters, numbers, dashes or underscores.'); return; }
   settings.vmToken = $('#vmToken').value.trim();
   settings.vmSpeakers = $('#vmSpeakers').value.trim();
+  settings.poUser = $('#poUser').value.trim();
+  settings.poToken = $('#poToken').value.trim();
   settings.familyCode = code;
   settings.sendSentences = $('#sendSentences').checked;
   saveSettings(); renderAlertSettings(); listenForReplies(); render();
@@ -1430,6 +1476,15 @@ $('#testAlexa').addEventListener('click', () => {
     r === 'ok' ? 'Voice Monkey accepted it. The Alexas should be speaking now.'
       : r === 'sent' ? 'Sent. Listen for the announcement. If nothing plays within a few seconds, check the token and speaker IDs.'
         : r === 'offline' ? 'This tablet has no internet right now.' : 'Voice Monkey said: ' + r));
+});
+$('#testPushover').addEventListener('click', () => {
+  if (!poReady()) { alertStatus('Add the Pushover user key and app API token, then tap Save.'); return; }
+  alertStatus('Sending…');
+  poTestPending = true;
+  poEmergency("Test: Dad's help button", 'Test only. No need to come. Tap Acknowledge to test the reply.', 120).then(r => alertStatus(
+    r === 'ok' ? "Pushover accepted it. Phones should ring and keep ringing until someone taps Acknowledge (it gives up after 2 minutes)."
+      : r === 'sent' ? 'Sent. Phones should ring within a few seconds.'
+        : r === 'offline' ? 'This tablet has no internet right now.' : 'Pushover said: ' + r.replace(/^error: /, '')));
 });
 $('#copyFallUrl').addEventListener('click', () => {
   const el = $('#fallUrl');
