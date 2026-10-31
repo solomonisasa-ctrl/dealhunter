@@ -496,6 +496,13 @@ button:focus-visible, select:focus-visible, input:focus-visible, textarea:focus-
         <button class="btn" id="testPhones">Test phone alert</button>
       </div>
       <p class="fam-note" id="alertStatus"></p>
+      <h2 style="margin-top:18px">Pocket fall button (Flic)</h2>
+      <p>In the Flic app, set the button's <b>Hold</b> action to <b>Internet Request</b>, method <b>GET</b>, and paste this address. Holding the button then alerts family phones right away, and this tablet adds the Alexa announcement.</p>
+      <div class="addrow">
+        <input type="text" id="fallUrl" readonly>
+        <button class="btn" id="copyFallUrl">Copy</button>
+      </div>
+      <div class="row-btns" style="margin-top:10px"><button class="btn" id="testFall">Test the fall alert</button></div>
       <ol class="tips" style="margin-top:8px">
         <li>On each family phone, install the free <b>ntfy</b> app and subscribe to <b id="topicHelp"></b> (urgent help) and <b id="topicSays"></b> (what he says).</li>
         <li>To message him, publish to <b id="topicReply"></b> in the ntfy app. It pops up on his tablet and is read out loud.</li>
@@ -1079,7 +1086,16 @@ function closeBoard() { $('#board').hidden = true; }
 
 // ---------- Alerts: Alexa through Voice Monkey, family phones through ntfy ----------
 const NTFY = 'https://ntfy.sh/';
-const HELP_SPEECH = 'Attention please. Dad needs help in the guest house. Please go to him now.';
+const ALERTS = {
+  help: {
+    speech: 'Attention please. Dad needs help in the guest house. Please go to him now.',
+    title: 'Dad needs help', phone: 'Dad needs help in the guest house.', again: 'Still no answer. Dad needs help in the guest house.'
+  },
+  fall: {
+    speech: 'Attention please. Dad pressed his fall button. He may have fallen. Please go to him now.',
+    title: 'Dad may have fallen', phone: 'Dad pressed his fall button. He may be on the floor.', again: 'Still no answer. Dad may have fallen.'
+  }
+};
 const topics = () => { const c = (settings.familyCode || '').trim(); return { help: c + '-help', says: c, reply: c + '-reply' }; };
 const vmReady = () => !!(settings.vmToken && settings.vmSpeakers);
 const phonesReady = () => CODE_RE.test((settings.familyCode || '').trim());
@@ -1103,13 +1119,14 @@ function vmAnnounce(speech) {
     .catch(() => 'sent');
 }
 
-let helpCloseTimer = null, helpRepeatTimer = null, helpRepeats = 0, helpActive = false;
-function sendHelpOut(again) {
+let helpCloseTimer = null, helpRepeatTimer = null, helpRepeats = 0, helpActive = false, helpKind = 'help';
+function sendHelpOut(again, skipPhones) {
+  const a = ALERTS[helpKind];
   const jobs = [];
-  if (vmReady()) jobs.push(vmAnnounce(again ? 'Reminder. ' + HELP_SPEECH : HELP_SPEECH).then(r => ['the Alexas', r]));
-  if (phonesReady()) {
-    jobs.push(ntfyPost(topics().help, again ? 'Still no answer. Dad needs help in the guest house.' : 'Dad needs help in the guest house.', {
-      title: 'Dad needs help', priority: '5', tags: 'rotating_light', actions: ackAction()
+  if (vmReady()) jobs.push(vmAnnounce(again ? 'Reminder. ' + a.speech : a.speech).then(r => ['the Alexas', r]));
+  if (phonesReady() && !skipPhones) {
+    jobs.push(ntfyPost(topics().help, again ? a.again : a.phone, {
+      title: a.title, priority: '5', tags: 'rotating_light', actions: ackAction()
     }).then(r => ['family phones', r]));
   }
   return Promise.all(jobs);
@@ -1120,19 +1137,27 @@ function describeSends(results) {
     r === 'ok' || r === 'sent' ? 'Sent to ' + who + '.' : r === 'offline' ? 'No internet, so ' + who + ' were not reached.' : 'Problem reaching ' + who + '.'
   ).join(' ');
 }
-function triggerHelp() {
+// kind 'fall' comes from the pocket button, which has already notified the phones itself
+function triggerHelp(kind) {
+  const fall = kind === 'fall';
+  if (helpActive && fall) return;
   clearTimeout(helpCloseTimer); clearTimeout(helpRepeatTimer);
-  helpActive = true; helpRepeats = 0;
+  helpActive = true; helpRepeats = 0; helpKind = fall ? 'fall' : 'help';
   const ov = $('#alertOverlay');
   ov.classList.remove('acked');
-  $('#alertTitle').textContent = 'Calling for help';
+  $('#alertTitle').textContent = fall ? 'Fall button pressed' : 'Calling for help';
   $('#alertSub').textContent = 'Sending the alert…';
   $('#alertCancel').textContent = "I'm okay. Cancel.";
   ov.hidden = false;
   startAlarm(3);
-  setTimeout(() => { if (helpActive) say('I need help. Please come.'); }, 6200);
-  record('I need help. Please come.', { train: false });
-  sendHelpOut(false).then(res => { if (helpActive) $('#alertSub').textContent = describeSends(res) + ' Stay calm. Someone will answer soon.'; });
+  const spoken = fall ? 'Help is being called. Stay still if you are hurt.' : 'I need help. Please come.';
+  setTimeout(() => { if (helpActive) say(spoken); }, 6200);
+  if (!fall) record('I need help. Please come.', { train: false });
+  sendHelpOut(false, fall).then(res => {
+    if (!helpActive) return;
+    if (fall && phonesReady()) res.push(['family phones', 'ok']);
+    $('#alertSub').textContent = describeSends(res) + ' Stay calm. Someone will answer soon.';
+  });
   scheduleHelpRepeat();
 }
 function scheduleHelpRepeat() {
@@ -1167,17 +1192,30 @@ function closeHelp() {
   if (vmReady()) vmAnnounce('Dad is okay. He cancelled the help alert.');
 }
 
-let replySource = null;
+let replySource = null, helpSource = null;
+const seenFalls = new Set();
+function parseEvent(e) {
+  try { const m = JSON.parse(e.data); return m && m.event === 'message' ? m : null; } catch (err) { return null; }
+}
 function listenForReplies() {
   if (replySource) { replySource.close(); replySource = null; }
+  if (helpSource) { helpSource.close(); helpSource = null; }
   if (!phonesReady() || !('EventSource' in window)) return;
   replySource = new EventSource(NTFY + encodeURIComponent(topics().reply) + '/sse');
   replySource.onmessage = e => {
-    let m;
-    try { m = JSON.parse(e.data); } catch (err) { return; }
-    if (!m || m.event !== 'message' || typeof m.message !== 'string' || !m.message.trim()) return;
+    const m = parseEvent(e);
+    if (!m || typeof m.message !== 'string' || !m.message.trim()) return;
     const text = m.message.trim().slice(0, 300);
     if (!helpAcknowledged(text)) showInbox({ text });
+  };
+  // The pocket fall button posts to the help topic tagged "fall"; the tablet adds the Alexa announcement and repeats
+  helpSource = new EventSource(NTFY + encodeURIComponent(topics().help) + '/sse');
+  helpSource.onmessage = e => {
+    const m = parseEvent(e);
+    if (!m || !Array.isArray(m.tags) || !m.tags.includes('fall') || seenFalls.has(m.id)) return;
+    seenFalls.add(m.id);
+    if (typeof m.time === 'number' && Date.now() / 1000 - m.time > 600) return;
+    triggerHelp('fall');
   };
 }
 
@@ -1302,7 +1340,11 @@ function renderAlertSettings() {
   $('#topicHelp').textContent = t.help;
   $('#topicSays').textContent = t.says;
   $('#topicReply').textContent = t.reply;
+  $('#fallUrl').value = phonesReady() ? fallUrl() : 'Set a family code first';
 }
+const fallUrl = () => NTFY + topics().help + '/publish?' + new URLSearchParams({
+  message: ALERTS.fall.phone, title: ALERTS.fall.title, priority: '5', tags: 'fall,rotating_light', actions: ackAction()
+});
 const alertStatus = t => { $('#alertStatus').textContent = t; };
 
 // ---------- Wake lock ----------
@@ -1388,6 +1430,18 @@ $('#testAlexa').addEventListener('click', () => {
     r === 'ok' ? 'Voice Monkey accepted it. The Alexas should be speaking now.'
       : r === 'sent' ? 'Sent. Listen for the announcement. If nothing plays within a few seconds, check the token and speaker IDs.'
         : r === 'offline' ? 'This tablet has no internet right now.' : 'Voice Monkey said: ' + r));
+});
+$('#copyFallUrl').addEventListener('click', () => {
+  const el = $('#fallUrl');
+  const done = () => alertStatus('Copied. Paste it into the Flic app.');
+  if (navigator.clipboard) navigator.clipboard.writeText(el.value).then(done, () => { el.select(); alertStatus('Selected. Copy it with your keyboard.'); });
+  else { el.select(); alertStatus('Selected. Copy it with your keyboard.'); }
+});
+$('#testFall').addEventListener('click', () => {
+  if (!phonesReady()) { alertStatus('Set a family code first, then tap Save.'); return; }
+  alertStatus('Sending a test fall alert, exactly like the button does…');
+  fetch(fallUrl()).then(() => alertStatus('Sent. Phones should buzz, and this screen should show the fall alert within a few seconds.'),
+    () => alertStatus('Sent. Phones should buzz, and this screen should show the fall alert within a few seconds.'));
 });
 $('#testPhones').addEventListener('click', () => {
   if (!phonesReady()) { alertStatus('Set a family code first, then tap Save.'); return; }
