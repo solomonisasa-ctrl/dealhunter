@@ -232,6 +232,8 @@ button:focus-visible, select:focus-visible, input:focus-visible, textarea:focus-
 .ans.help.holding .ring { opacity: 1; animation: fill 1.2s linear forwards; }
 .tool { background: transparent; border: 2px solid var(--line); border-radius: var(--radius); padding: 0 14px; font-weight: 700; font-size: calc(1rem * var(--s)); color: var(--fg); }
 .tool:disabled { opacity: 0.4; cursor: default; }
+.tool.send-phone { display: inline-flex; align-items: center; gap: 8px; border-color: var(--k-desc); background: var(--surface); padding: 0 16px; font-size: calc(1.1rem * var(--s)); min-height: calc(50px * var(--s)); }
+.tool.send-phone svg { width: 22px; height: 22px; color: var(--k-desc); }
 .gear { height: auto; min-height: 40px; }
 .battery { align-self: center; background: var(--no); color: var(--fg); border: 2px solid var(--danger); border-radius: 999px; padding: 6px 12px; font-weight: 700; font-size: 0.95rem; white-space: nowrap; }
 .chip.all {
@@ -363,6 +365,10 @@ button:focus-visible, select:focus-visible, input:focus-visible, textarea:focus-
       <span class="battery" id="battery" hidden></span>
       <button class="tool" id="again" disabled>Say again</button>
       <button class="tool" id="show">Show big</button>
+      <button class="tool send-phone" id="sendPhone" hidden>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="2.5"/><path d="M11 18h2"/></svg>
+        Send to phone
+      </button>
       <button class="tool" id="tellHouse" hidden>Tell the house</button>
     <button class="gear" id="gear" aria-label="Settings. Press and hold to open.">
       <span class="ring"></span>
@@ -497,7 +503,7 @@ button:focus-visible, select:focus-visible, input:focus-visible, textarea:focus-
 
     <section>
       <h2>Alerts</h2>
-      <p>When he holds <b>Help</b>, the Alexas you choose announce it, and family phones get an urgent notification with an <b>I'm on my way</b> button. Everything he says is also sent quietly to family phones.</p>
+      <p>When he holds <b>Help</b>, the Alexas you choose announce it, and family phones get an urgent notification with an <b>I'm on my way</b> button. Other messages reach family phones only when he taps <b>Send to phone</b>.</p>
       <label for="vmToken">Voice Monkey API token
         <input type="text" id="vmToken" autocomplete="off" spellcheck="false" placeholder="From app.voicemonkey.io, API Tokens">
       </label>
@@ -513,7 +519,7 @@ button:focus-visible, select:focus-visible, input:focus-visible, textarea:focus-
       <label for="familyCode">Family code (the ntfy topic family phones subscribe to)
         <input type="text" id="familyCode" autocomplete="off" spellcheck="false">
       </label>
-      <label class="check"><input type="checkbox" id="sendSentences"> Send everything he says to family phones</label>
+      <label class="check"><input type="checkbox" id="sendSentences"> Keep a private log of what he says, for improving predictions (never sent to phones)</label>
       <div class="row-btns" style="margin-top:6px">
         <button class="btn primary" id="saveAlerts">Save</button>
         <button class="btn" id="testAlexa">Test Alexa announcement</button>
@@ -529,7 +535,7 @@ button:focus-visible, select:focus-visible, input:focus-visible, textarea:focus-
       </div>
       <div class="row-btns" style="margin-top:10px"><button class="btn" id="testFall">Test the fall alert</button></div>
       <ol class="tips" style="margin-top:8px">
-        <li>On each family phone, install the free <b>ntfy</b> app and subscribe to <b id="topicHelp"></b> (urgent help) and <b id="topicSays"></b> (what he says).</li>
+        <li>On each family phone, install the free <b>ntfy</b> app and subscribe to <b id="topicHelp"></b> (urgent help) and <b id="topicSays"></b> (messages he sends with Send to phone).</li>
         <li>To message him, publish to <b id="topicReply"></b> in the ntfy app. It pops up on his tablet and is read out loud.</li>
         <li>Keep a wireless caregiver pager by his chair too, in case the internet is down.</li>
       </ol>
@@ -1012,6 +1018,7 @@ function render() {
 
   $('#again').disabled = !lastSaid;
   $('#tellHouse').hidden = !vmReady();
+  $('#sendPhone').hidden = !(poReady() || phonesReady());
 
   // chips
   const chips = $('#chips');
@@ -1132,7 +1139,7 @@ const ALERTS = {
     title: 'Dad may have fallen', phone: 'Dad pressed his fall button. He may be on the floor.', again: 'Still no answer. Dad may have fallen.'
   }
 };
-const topics = () => { const c = (settings.familyCode || '').trim(); return { help: c + '-help', says: c, reply: c + '-reply' }; };
+const topics = () => { const c = (settings.familyCode || '').trim(); return { help: c + '-help', says: c, reply: c + '-reply', log: c + '-log' }; };
 const vmReady = () => !!(settings.vmToken && settings.vmSpeakers);
 const phonesReady = () => CODE_RE.test((settings.familyCode || '').trim());
 const ackAction = () => "http, I'm on my way, " + NTFY + topics().reply + ', method=POST, body=Someone is on the way, clear=true';
@@ -1289,6 +1296,20 @@ function listenForReplies() {
   };
 }
 
+function sendToPhone() {
+  const typing = state.words.length || state.partial;
+  const text = typing ? formatSentence([...state.words, ...(state.partial ? [state.partial] : [])]) : lastSaid;
+  if (!text) { toast('Type something first'); return; }
+  if (typing) { record(text); state.words = []; state.partial = ''; render(); }
+  const jobs = [];
+  if (poReady()) jobs.push(poSend({ title: 'Message from Dad', message: text, priority: '0' }));
+  if (phonesReady()) jobs.push(ntfyPost(topics().says, text, { title: 'Message from Dad', priority: '4', tags: 'speech_balloon' }));
+  Promise.all(jobs).then(rs => {
+    if (rs.some(r => r === 'ok' || r === 'sent')) toast('Sent to phones');
+    else if (rs.includes('offline')) toast('No internet right now. Not sent.');
+    else toast('Could not send. Check the alert settings.');
+  });
+}
 function tellHouse() {
   const typing = state.words.length || state.partial;
   const text = typing ? formatSentence([...state.words, ...(state.partial ? [state.partial] : [])]) : lastSaid;
@@ -1396,10 +1417,10 @@ function syncedChanged() {
   buildVocab();
 }
 
+// Private log on a topic no phone subscribes to; only read back to tune predictions
 function queueLog(text) {
-  if (!settings.sendSentences) return;
-  if (phonesReady()) ntfyPost(topics().says, text, { title: 'Dad says', priority: '2', tags: 'speech_balloon' });
-  if (poReady()) poSend({ title: 'Dad says', message: text, priority: '-1' });
+  if (!settings.sendSentences || !phonesReady()) return;
+  ntfyPost(topics().log, text, { priority: '1' });
 }
 
 function renderAlertSettings() {
@@ -1488,6 +1509,7 @@ helpBtn.addEventListener('contextmenu', e => e.preventDefault());
 helpBtn.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); triggerHelp(); } });
 
 $('#tellHouse').addEventListener('click', () => { if (guarded('tell')) tellHouse(); });
+$('#sendPhone').addEventListener('click', () => { if (guarded('sendPhone')) sendToPhone(); });
 $('#saveAlerts').addEventListener('click', () => {
   const code = $('#familyCode').value.trim();
   if (!CODE_RE.test(code)) { alertStatus('The family code needs 8 to 64 letters, numbers, dashes or underscores.'); return; }
