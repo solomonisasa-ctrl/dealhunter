@@ -325,6 +325,21 @@ button:focus-visible, select:focus-visible, input:focus-visible, textarea:focus-
   .key { font-size: calc(1.15rem * var(--s)); }
   .key.wide, .key.space { font-size: calc(0.9rem * var(--s)); }
 }
+/* Short screens (laptops, browser tabs with toolbars): tighten everything around the word grid */
+@media (max-height: 700px) and (min-width: 721px) {
+  #app { gap: 6px; padding-block: 6px; }
+  .msg { height: calc(60px * var(--s)); font-size: calc(1.65rem * var(--s)); padding: 8px 14px; }
+  .actions .speak { font-size: calc(1.35rem * var(--s)); }
+  .actions .speak svg { width: 24px; height: 24px; }
+  .actions .ans.help { font-size: calc(1.45rem * var(--s)); }
+  .ans { min-height: calc(42px * var(--s)); }
+  .chiprow { min-height: calc(46px * var(--s)); }
+  .chip { padding-block: 4px; font-size: calc(1.1rem * var(--s)); }
+  .chip.all { font-size: calc(1.2rem * var(--s)); }
+  .tool.send-phone { min-height: 0; }
+  .key { height: clamp(36px, 6.8vh, 74px); }
+  .kb, .kb .row { gap: 5px; }
+}
 @media (prefers-reduced-motion: reduce) {
   .msg .caret, .actions .speak.talking, .gear.holding .ring { animation: none; }
   .gear.holding .ring { clip-path: none; }
