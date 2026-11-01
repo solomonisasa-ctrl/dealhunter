@@ -545,6 +545,11 @@ input, textarea { -webkit-user-select: text; user-select: text; }
 .practice-stars .off { color: var(--line); }
 .practice-stars .streak { color: var(--k-verb); }
 .practice-result.win { color: var(--k-verb); }
+.qr { background: #ffffff; padding: 12px; border-radius: 12px; max-width: 460px; color: #0b1f3a; font-weight: 700; }
+.qr svg { display: block; width: 100%; height: auto; }
+.setup-banner { position: fixed; left: max(16px, env(safe-area-inset-left, 0px)); right: max(16px, env(safe-area-inset-right, 0px)); bottom: max(16px, env(safe-area-inset-bottom, 0px)); z-index: 45;
+  background: var(--surface); border: 3px solid var(--accent); border-radius: 18px; padding: 16px 20px; display: grid; gap: 12px; box-shadow: 0 14px 40px rgba(0, 0, 0, 0.3); }
+.setup-banner p { margin: 0; font-size: 1.15rem; line-height: 1.45; }
 .confetti { position: fixed; inset: 0; pointer-events: none; z-index: 60; overflow: hidden; }
 .confetti i { position: absolute; top: -20px; width: 10px; height: 16px; border-radius: 2px; animation: fall linear forwards; }
 @keyframes fall { to { transform: translate3d(var(--dx), 110vh, 0) rotate(var(--rot)); } }
@@ -725,6 +730,13 @@ input, textarea { -webkit-user-select: text; user-select: text; }
       <p>Paste his private setup link here to load his names, phrases, birthdays and reminders. On an iPad this is how to load them into the home-screen app.</p>
       <textarea id="setupPaste" placeholder="Paste the setup link here" autocomplete="off" spellcheck="false"></textarea>
       <div class="row-btns" style="margin-top:10px"><button class="btn primary" id="loadSetup">Load</button><span class="screen-status" id="setupStatus"></span></div>
+    </section>
+
+    <section>
+      <h2>Move to another device</h2>
+      <p>Shows a QR code with everything set up here: his names, phrases, birthdays, reminders and the alert keys. Point the other device's camera at it. The code only appears on this screen.</p>
+      <div class="row-btns"><button class="btn primary" id="makeQr">Show QR code</button><button class="btn" id="copyExport">Copy link</button></div>
+      <div class="qr" id="qrBox" hidden></div>
     </section>
 
     <section>
@@ -968,6 +980,14 @@ input, textarea { -webkit-user-select: text; user-select: text; }
   </div>
 </div>
 
+<div class="setup-banner" id="setupBanner" hidden>
+  <p id="setupBannerText"><b>His setup is loaded here in Safari.</b> To put it in the home-screen app: tap <b>Copy setup</b>, add this page to the Home Screen (Share, then Add to Home Screen), open it, hold the gear, and paste into <b>Load his setup</b>.</p>
+  <div class="row-btns">
+    <button class="btn primary big" id="copySetupBtn">Copy setup</button>
+    <button class="btn big" id="dismissSetupBtn">Done</button>
+  </div>
+</div>
+
 <div class="confetti" id="confetti" aria-hidden="true"></div>
 <div class="toast" id="toast" hidden></div>
 
@@ -1130,13 +1150,27 @@ const saveDraft = () => LS.set('dv.draft', state);
 
 // A private setup link (#setup=...) carries his names and phrases so they never live in the public code
 const CODE_RE = /^[A-Za-z0-9_-]{8,64}$/;
-// Accepts the whole link or just the part after "#setup="
-function applySetupCode(text) {
-  const m = /#setup=([A-Za-z0-9_\-+/=]+)/.exec(text) || /^([A-Za-z0-9_\-+/=]{20,})$/.exec(text.trim());
-  if (!m) return false;
+// Codes are base64url JSON, or "z" + base64url gzip (short enough for a QR code). Accepts the whole link or just the code.
+const b64ToBytes = s => Uint8Array.from(atob(s.replace(/-/g, '+').replace(/_/g, '/')), c => c.charCodeAt(0));
+const bytesToB64 = b => { let s = ''; for (let i = 0; i < b.length; i++) s += String.fromCharCode(b[i]); return btoa(s).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, ''); };
+async function decodeSetup(text) {
+  const m = /#setup=([A-Za-z0-9_\-+/=]+)/.exec(text) || /^([A-Za-z0-9_\-+/=]{20,})$/.exec((text || '').trim());
+  if (!m) return null;
+  const code = m[1];
+  if (code[0] === 'z') {
+    const stream = new Blob([b64ToBytes(code.slice(1))]).stream().pipeThrough(new DecompressionStream('gzip'));
+    return JSON.parse(await new Response(stream).text());
+  }
+  return JSON.parse(new TextDecoder().decode(b64ToBytes(code)));
+}
+async function encodeSetup(obj) {
+  const stream = new Blob([JSON.stringify(obj)]).stream().pipeThrough(new CompressionStream('gzip'));
+  return 'z' + bytesToB64(new Uint8Array(await new Response(stream).arrayBuffer()));
+}
+async function applySetupCode(text) {
   try {
-    const b64 = m[1].replace(/-/g, '+').replace(/_/g, '/');
-    const d = JSON.parse(new TextDecoder().decode(Uint8Array.from(atob(b64), c => c.charCodeAt(0))));
+    const d = await decodeSetup(text);
+    if (!d || typeof d !== 'object') return false;
     if (Array.isArray(d.phrases)) settings.phrases = d.phrases.filter(s => typeof s === 'string');
     if (Array.isArray(d.myWords)) settings.myWords = d.myWords.filter(s => typeof s === 'string');
     if (d.sayAs && typeof d.sayAs === 'object') settings.sayAs = d.sayAs;
@@ -1145,20 +1179,35 @@ function applySetupCode(text) {
     if (typeof d.birthday === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(d.birthday)) settings.birthday = d.birthday;
     if (typeof d.name === 'string') settings.name = d.name.trim().slice(0, 40);
     if (Array.isArray(d.events)) settings.events = d.events.filter(e => e && /^\d{2}-\d{2}$/.test(e.md) && typeof e.title === 'string');
+    ['vmToken', 'vmSpeakers', 'poUser', 'poToken', 'tvName', 'theme', 'speakMode'].forEach(k => { if (typeof d[k] === 'string') settings[k] = d[k].slice(0, 200); });
+    if (Array.isArray(d.removedPhrases)) settings.removedPhrases = d.removedPhrases.filter(s => typeof s === 'string');
     LS.set('dv.settings', settings);
     return true;
   } catch (e) {
     return false;
   }
 }
-// On iPad a home-screen app keeps its own storage, so the same code can also be pasted in settings
-function importSetup() {
-  if (!location.hash.startsWith('#setup=')) return false;
-  const ok = applySetupCode(location.hash);
-  try { history.replaceState(null, '', location.pathname + location.search); } catch (e) {}
-  return ok;
+// Everything another device needs (alert keys included); the code only ever lives in this browser and the QR on screen
+function exportSettings() {
+  const keys = ['phrases', 'myWords', 'sayAs', 'familyCode', 'birthday', 'name', 'events', 'vmToken', 'vmSpeakers', 'poUser', 'poToken', 'tvName', 'theme', 'speakMode', 'removedPhrases'];
+  const out = { boost: BOOST };
+  keys.forEach(k => { if (settings[k] !== undefined && settings[k] !== '') out[k] = settings[k]; });
+  return out;
 }
-const setupLoaded = importSetup();
+const isHomeScreenApp = () => window.navigator.standalone === true || window.matchMedia('(display-mode: standalone)').matches || window.matchMedia('(display-mode: fullscreen)').matches;
+// A setup link applies after a reload so every part of the app starts from the new settings
+const pendingSetup = location.hash.startsWith('#setup=') ? location.hash : '';
+if (pendingSetup) {
+  try { history.replaceState(null, '', location.pathname + location.search); } catch (e) {}
+  applySetupCode(pendingSetup).then(ok => {
+    if (!ok) { setTimeout(() => toast("That setup link didn't work. Copy the whole link and try again."), 500); return; }
+    LS.set('dv.setupJust', 1);
+    LS.set('dv.setupCopy', location.origin + location.pathname + pendingSetup);
+    location.reload();
+  });
+}
+const setupLoaded = !pendingSetup && !!LS.get('dv.setupJust', 0);
+if (setupLoaded) LS.del('dv.setupJust');
 window.addEventListener('hashchange', () => { if (location.hash.startsWith('#setup=')) location.reload(); });
 
 buildVocab();
@@ -2847,13 +2896,59 @@ $('#openGrocery').addEventListener('click', () => { renderGrocery(); $('#grocery
 $('#openCheckin').addEventListener('click', openCheckin);
 $('#openTv').addEventListener('click', () => openScreen('tv'));
 $('#remote').addEventListener('click', e => { const b = e.target.closest('button[data-tv]'); if (b && guarded('tv' + b.dataset.tv)) tvCommand(b.dataset.tv); });
-$('#loadSetup').addEventListener('click', () => {
-  const ok = applySetupCode($('#setupPaste').value);
+$('#loadSetup').addEventListener('click', async () => {
+  const ok = await applySetupCode($('#setupPaste').value);
   if (!ok) { $('#setupStatus').textContent = "That doesn't look like a setup link. Copy the whole link and try again."; return; }
   $('#setupPaste').value = '';
+  LS.set('dv.setupJust', 1);
+  LS.del('dv.setupCopy');
   $('#setupStatus').textContent = 'Loaded. Restarting the app…';
   setTimeout(() => location.reload(), 800);
 });
+let exportLink = '';
+function loadQrLib() {
+  return new Promise((resolve, reject) => {
+    if (window.qrcode) return resolve();
+    const s = document.createElement('script');
+    s.src = 'https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js';
+    s.onload = resolve; s.onerror = reject;
+    document.head.appendChild(s);
+  });
+}
+$('#makeQr').addEventListener('click', async () => {
+  const box = $('#qrBox');
+  box.hidden = false;
+  box.textContent = 'Making the code…';
+  try {
+    exportLink = location.origin + location.pathname + '#setup=' + await encodeSetup(exportSettings());
+    await loadQrLib();
+    const qr = window.qrcode(0, 'L');
+    qr.addData(exportLink);
+    qr.make();
+    box.innerHTML = qr.createSvgTag({ cellSize: 4, margin: 4, scalable: true });
+  } catch (e) {
+    box.textContent = 'Could not make the QR code. Check the internet connection, or use Copy link instead.';
+  }
+});
+$('#copyExport').addEventListener('click', async () => {
+  try {
+    if (!exportLink) exportLink = location.origin + location.pathname + '#setup=' + await encodeSetup(exportSettings());
+    await navigator.clipboard.writeText(exportLink);
+    toast('Link copied');
+  } catch (e) { toast('Could not copy. Use the QR code instead.'); }
+});
+// In Safari on the iPad, offer to copy the setup so it can be pasted into the home-screen app
+const isAppleTouch = () => /iPad|iPhone|iPod/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+function showSetupBanner() {
+  const link = LS.get('dv.setupCopy', '');
+  $('#setupBanner').hidden = !link || !isAppleTouch() || isHomeScreenApp();
+}
+$('#copySetupBtn').addEventListener('click', async () => {
+  const link = LS.get('dv.setupCopy', '');
+  try { await navigator.clipboard.writeText(link); $('#copySetupBtn').textContent = 'Copied!'; }
+  catch (e) { $('#setupBannerText').textContent = 'Copying did not work here. Use Load his setup in the home-screen app with the QR link instead.'; }
+});
+$('#dismissSetupBtn').addEventListener('click', () => { LS.del('dv.setupCopy'); $('#setupBanner').hidden = true; });
 $('#saveTheme').addEventListener('click', () => {
   settings.theme = $('#themeSel').value;
   const b = $('#birthday').value;
@@ -3034,6 +3129,7 @@ setInterval(checkReminders, 10 * 60 * 1000);
 document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') setTimeout(checkReminders, 3000); });
 document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') setTimeout(maybePromptCheckin, 1500); });
 if (setupLoaded) toast('His words and phrases are loaded');
+showSetupBanner();
 if ('serviceWorker' in navigator && location.protocol === 'https:') navigator.serviceWorker.register('sw.js').catch(() => {});
 })();
 </script>
