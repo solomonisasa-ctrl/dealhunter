@@ -363,7 +363,7 @@ input, textarea { -webkit-user-select: text; user-select: text; }
     <div class="actions">
       <button class="speak" id="speak" aria-label="Speak the sentence">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4z" fill="currentColor"/><path d="M16.5 8.5a5 5 0 0 1 0 7"/><path d="M19 6a8.5 8.5 0 0 1 0 12"/></svg>
-        Speak
+        <span id="speakLabel">Speak</span>
       </button>
       <div class="col">
         <button id="delWord">Delete word</button>
@@ -473,7 +473,13 @@ input, textarea { -webkit-user-select: text; user-select: text; }
       <label for="pitch">Pitch <span id="pitchVal"></span>
         <input type="range" id="pitch" min="0.6" max="1.4" step="0.05">
       </label>
-      <label class="check"><input type="checkbox" id="echo"> Say each word quietly as he taps it</label>
+      <label for="speakMode">How he is heard
+        <select id="speakMode">
+          <option value="sentence">Whole sentence, when he taps Speak</option>
+          <option value="both">Each word quietly as he taps it, then the whole sentence on Speak</option>
+          <option value="words">Each word out loud as he taps it (Speak becomes Done)</option>
+        </select>
+      </label>
       <div class="row-btns"><button class="btn" id="testVoice">Test voice</button></div>
     </section>
 
@@ -733,8 +739,8 @@ const cap = s => s ? s.charAt(0).toUpperCase() + s.slice(1) : s;
 
 // ---------- State ----------
 const settings = Object.assign({
-  voiceURI: '', rate: 0.95, pitch: 1, scale: 1, guard: 300, echo: false,
-  phrases: DEFAULT_PHRASES.slice(), myWords: [], sayAs: {},
+  voiceURI: '', rate: 0.95, pitch: 1, scale: 1, guard: 300, speakMode: 'words',
+  phrases: DEFAULT_PHRASES.slice(), myWords: [], sayAs: {}, removedPhrases: [],
   vmToken: '', vmSpeakers: '', familyCode: '', sendSentences: true, poToken: '', poUser: ''
 }, LS.get('dv.settings', {}));
 if (!settings.familyCode) {
@@ -954,22 +960,51 @@ function startAlarm(times) {
 }
 function stopAlarm() { clearInterval(alarmTimer); alarmTimer = null; }
 
+const AUTO_PHRASE_AFTER = 3;
 function record(text, opts) {
   lastSaid = text;
   LS.set('dv.last', lastSaid);
-  if (!opts || opts.train !== false) { train(text); saveLearn(); }
+  if (!opts || opts.train !== false) {
+    train(text);
+    saveLearn();
+    autoAddPhrase(text);
+  }
   queueLog(text);
+}
+// Something he has said three times becomes a phrase, unless someone already removed it from the list
+function autoAddPhrase(text) {
+  const nk = normSentence(text);
+  const seen = learn.sent[nk];
+  if (!nk || !seen || seen.n < AUTO_PHRASE_AFTER) return;
+  if (settings.phrases.some(p => normSentence(p) === nk)) return;
+  if ((settings.removedPhrases || []).includes(nk)) return;
+  settings.phrases.push(seen.text);
+  saveSettings();
+  buildVocab();
+  setTimeout(() => toast('Added to Phrases: ' + seen.text), 1500);
 }
 
 // ---------- Actions ----------
-function commitPartial() {
-  if (state.partial) { state.words.push(state.partial); state.partial = ''; }
+// speakMode: 'sentence' (only on Speak), 'both' (quiet word feedback + full sentence), 'words' (each word aloud, Speak just finishes)
+const wordsMode = () => settings.speakMode === 'words';
+function echoWord(w) {
+  const word = (w || '').replace(/[?.!,]+$/, '');
+  if (!word) return;
+  if (settings.speakMode === 'both') say(word, { quiet: true });
+  else if (wordsMode()) say(word);
+}
+function commitPartial(echo) {
+  if (!state.partial) return;
+  const w = state.partial;
+  state.words.push(w);
+  state.partial = '';
+  if (echo) echoWord(w);
 }
 function speakCurrent() {
-  commitPartial();
+  commitPartial(wordsMode());
   if (!state.words.length) { if (lastSaid) say(lastSaid); render(); return; }
   const text = formatSentence(state.words);
-  say(text);
+  if (!wordsMode()) say(text);
   record(text);
   state.words = []; state.partial = '';
   render();
@@ -981,11 +1016,11 @@ function speakWhole(text) {
   render();
 }
 function tapWord(item) {
-  if (item.typed) { commitPartial(); render(); return; }
+  if (item.typed) { commitPartial(true); render(); return; }
   state.partial = '';
   const w = DISPLAY[item.k] || item.k;
   state.words.push(w);
-  if (settings.echo) say(w, { quiet: true });
+  echoWord(w);
   render();
 }
 function quickAnswer(text) {
@@ -1002,9 +1037,9 @@ function tapKey(k) {
     if (state.partial) state.partial = state.partial.slice(0, -1);
     else if (state.words.length) state.partial = state.words.pop();
   } else if (k === 'space') {
-    commitPartial();
+    commitPartial(true);
   } else if (k === '?' || k === '.' || k === ',') {
-    if (state.partial) { state.partial += k; commitPartial(); }
+    if (state.partial) { state.partial += k; commitPartial(true); }
     else if (state.words.length) { const j = state.words.length - 1; state.words[j] = state.words[j].replace(/[?.!,]+$/, '') + k; }
   } else {
     state.partial += k;
@@ -1059,6 +1094,8 @@ function render() {
   const c = document.createElement('span'); c.className = 'caret'; msg.appendChild(c);
 
   $('#again').disabled = !lastSaid;
+  $('#speakLabel').textContent = wordsMode() ? 'Done' : 'Speak';
+  $('#speak').setAttribute('aria-label', wordsMode() ? 'Finish the sentence' : 'Speak the sentence');
   $('#tellHouse').hidden = !vmReady();
   $('#sendPhone').hidden = !(poReady() || phonesReady());
 
@@ -1439,7 +1476,7 @@ function openSettings() {
   $('#rate').value = settings.rate; $('#rateVal').textContent = settings.rate.toFixed(2) + '×';
   $('#pitch').value = settings.pitch; $('#pitchVal').textContent = settings.pitch.toFixed(2);
   $('#guard').value = String(settings.guard);
-  $('#echo').checked = !!settings.echo;
+  $('#speakMode').value = settings.speakMode || 'words';
   $('#myWords').value = settings.myWords.join(', ');
   $('#sayAs').value = sayAsText();
   renderAlertSettings(); alertStatus('');
@@ -1630,7 +1667,7 @@ $('#pitch').addEventListener('input', e => { settings.pitch = Number(e.target.va
 $('#testVoice').addEventListener('click', () => say('Can you turn up the TV? I love you.'));
 $('#size').addEventListener('click', e => { const b = e.target.closest('button'); if (!b) return; settings.scale = Number(b.dataset.v); saveSettings(); applyScale(); });
 $('#guard').addEventListener('change', e => { settings.guard = Number(e.target.value); saveSettings(); });
-$('#echo').addEventListener('change', e => { settings.echo = e.target.checked; saveSettings(); });
+$('#speakMode').addEventListener('change', e => { settings.speakMode = e.target.value; saveSettings(); render(); });
 $('#saveSayAs').addEventListener('click', () => { settings.sayAs = parseSayAs($('#sayAs').value); $('#sayAs').value = sayAsText(); syncedChanged(); toast('Pronunciations saved'); });
 $('#testSayAs').addEventListener('click', () => {
   const words = Object.keys(parseSayAs($('#sayAs').value)).concat(settings.myWords);
@@ -1649,7 +1686,11 @@ $('#newPhrase').addEventListener('keydown', e => { if (e.key === 'Enter') { addP
 $('#addLast').addEventListener('click', () => { if (lastSaid) addPhrase(lastSaid); else toast('Nothing has been said yet'); });
 $('#plist').addEventListener('click', e => {
   const b = e.target.closest('button'); if (!b) return;
-  if (b.dataset.rm !== undefined) { settings.phrases.splice(Number(b.dataset.rm), 1); }
+  if (b.dataset.rm !== undefined) {
+    const [gone] = settings.phrases.splice(Number(b.dataset.rm), 1);
+    const nk = normSentence(gone);
+    settings.removedPhrases = (settings.removedPhrases || []).filter(p => p !== nk).concat(nk).slice(-300);
+  }
   else if (b.dataset.up !== undefined) { const i = Number(b.dataset.up); if (i > 0) { const [p] = settings.phrases.splice(i, 1); settings.phrases.splice(i - 1, 0, p); } }
   syncedChanged(); renderPhraseList();
 });
