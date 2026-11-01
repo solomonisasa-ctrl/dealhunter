@@ -1,6 +1,6 @@
 // Network first so updates show up right away; the cached copy keeps the app working when the Wi-Fi drops.
 const CACHE = 'dads-voice-v2';
-const SHELL = ['./', 'index.html', 'manifest.webmanifest', 'icon.svg'];
+const SHELL = ['./', 'index.html', 'manifest.webmanifest', 'icon.svg', 'apple-touch-icon.png'];
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(SHELL)).then(() => self.skipWaiting()));
