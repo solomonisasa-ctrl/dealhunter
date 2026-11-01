@@ -35,6 +35,7 @@ body { margin: 0; }
   --board-line: rgba(255, 255, 255, 0.18);
   --tray: rgba(11, 31, 58, 0.08);
   --sky: #74acdf;
+  --lv1: #c62828; --lv2: #df6a2b; --lv3: #b8901a; --lv4: #4b9a47; --lv5: #2a7a33;
   --markings: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 600' preserveAspectRatio='none'%3E%3Cg fill='none' stroke='white' stroke-opacity='0.6' stroke-width='3'%3E%3Crect x='20' y='20' width='960' height='560' vector-effect='non-scaling-stroke'/%3E%3Cpath d='M500 20V580' vector-effect='non-scaling-stroke'/%3E%3Crect x='20' y='170' width='130' height='260' vector-effect='non-scaling-stroke'/%3E%3Crect x='850' y='170' width='130' height='260' vector-effect='non-scaling-stroke'/%3E%3Crect x='20' y='240' width='45' height='120' vector-effect='non-scaling-stroke'/%3E%3Crect x='935' y='240' width='45' height='120' vector-effect='non-scaling-stroke'/%3E%3C/g%3E%3C/svg%3E");
   --circle: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Ccircle cx='100' cy='100' r='90' fill='none' stroke='white' stroke-opacity='0.6' stroke-width='2.5'/%3E%3Ccircle cx='100' cy='100' r='4' fill='white' fill-opacity='0.6'/%3E%3C/svg%3E");
   --danger: #b4322b;
@@ -59,6 +60,7 @@ body { margin: 0; }
     --stripe-a: #0c2342; --stripe-b: #102b52;
     --board: #050f1f; --board-fg: #ffffff; --board-muted: #8ea7c6; --board-btn: rgba(255, 255, 255, 0.08); --board-line: rgba(255, 255, 255, 0.14);
     --tray: rgba(255, 255, 255, 0.04); --sky: #5f9bd3;
+    --lv1: #ef6b62; --lv2: #f2944f; --lv3: #e2bd45; --lv4: #6cc067; --lv5: #4fb35a;
     --yes: #1c3a25; --no: #47221f; --alert: #e0453a; --alert-fg: #ffffff;
     --k-pron: #f0c93a; --k-verb: #5cc46d; --k-noun: #f29550; --k-q: #a67ee6; --k-desc: #5aa2ee; --k-social: #ee7fb0;
     color-scheme: dark;
@@ -70,6 +72,7 @@ body { margin: 0; }
   --stripe-a: #0c2342; --stripe-b: #102b52;
   --board: #050f1f; --board-fg: #ffffff; --board-muted: #8ea7c6; --board-btn: rgba(255, 255, 255, 0.08); --board-line: rgba(255, 255, 255, 0.14);
   --tray: rgba(255, 255, 255, 0.04); --sky: #5f9bd3;
+    --lv1: #ef6b62; --lv2: #f2944f; --lv3: #e2bd45; --lv4: #6cc067; --lv5: #4fb35a;
   --yes: #1c3a25; --no: #47221f; --alert: #e0453a; --alert-fg: #ffffff;
   --k-pron: #f0c93a; --k-verb: #5cc46d; --k-noun: #f29550; --k-q: #a67ee6; --k-desc: #5aa2ee; --k-social: #ee7fb0;
   color-scheme: dark;
@@ -299,6 +302,13 @@ input, textarea { -webkit-user-select: text; user-select: text; }
 .board-add .btn:disabled { opacity: 0.4; cursor: default; }
 .board-head { flex-wrap: wrap; }
 .board-grid button.fresh { border-color: var(--k-verb); background: var(--yes); }
+.board-grid button { display: flex; align-items: center; gap: 16px; padding: 12px 18px 12px 12px; border: 0; border-radius: 18px; box-shadow: 0 1px 0 rgba(11, 31, 58, 0.06), 0 6px 14px rgba(11, 31, 58, 0.1); }
+.board-grid button.fresh { box-shadow: 0 0 0 3px var(--k-verb), 0 6px 14px rgba(11, 31, 58, 0.1); }
+.board-grid .art { flex: none; width: calc(64px * var(--s)); height: calc(64px * var(--s)); border-radius: 16px; display: grid; place-items: center; box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.15); }
+.board-grid .art svg { width: 60%; height: 60%; }
+.board-grid .txt { flex: 1; min-width: 0; }
+.tile { min-height: calc(170px * var(--s)); }
+.tile svg { width: 48px; height: 48px; }
 .msg .last-label { color: var(--muted); font-weight: 400; font-size: 0.55em; display: block; margin-bottom: 2px; letter-spacing: 0.02em; }
 .msg .last-said { color: var(--muted); }
 
@@ -439,6 +449,66 @@ input, textarea { -webkit-user-select: text; user-select: text; }
 :root[data-theme="dark"] .w.start { background: #1a3866; }
 :root[data-theme="dark"] .key { background: var(--surface-2); }
 
+/* ---------- More: full-screen tools (grocery list, check-in, voice practice) ---------- */
+.more-btn { font-weight: 700; }
+.screen { position: fixed; inset: 0; z-index: 26; background: var(--bg); display: grid; grid-template-rows: auto minmax(0, 1fr); gap: 12px;
+  padding-block: max(14px, env(safe-area-inset-top, 0px)) max(14px, env(safe-area-inset-bottom, 0px));
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.screen-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.screen-head h2 { margin: 0; font-size: calc(1.9rem * var(--s)); text-wrap: balance; }
+.screen-body { overflow-y: auto; display: flex; flex-direction: column; gap: 14px; min-height: 0; padding-bottom: 8px; }
+.screen-label { margin: 4px 0 0; color: var(--muted); font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; font-size: 0.85rem; }
+.screen-actions { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+.screen-status { color: var(--muted); font-weight: 700; margin: 0; }
+.tiles { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr)); gap: 14px; }
+.tile { display: grid; justify-items: start; align-content: center; gap: 6px; min-height: calc(150px * var(--s)); padding: 20px 22px; text-align: left;
+  background: var(--surface); border: 0; border-radius: 20px; box-shadow: 0 1px 0 rgba(11, 31, 58, 0.06), 0 8px 18px rgba(11, 31, 58, 0.1); }
+.tile svg { width: 40px; height: 40px; color: var(--sky); }
+.tile span { font-size: calc(1.6rem * var(--s)); font-weight: 700; }
+.tile small { color: var(--muted); font-size: 0.95rem; min-height: 1.2em; }
+.tile:active { transform: scale(0.98); }
+.quick-items { display: flex; flex-wrap: wrap; gap: 10px; }
+.quick-items button { background: var(--surface); border: 2px solid var(--line); border-radius: 999px; padding: 10px 20px; font-size: calc(1.3rem * var(--s)); font-weight: 700; }
+.quick-items button.on { background: var(--yes); border-color: var(--k-verb); }
+.glist { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.glist li { display: flex; align-items: center; gap: 12px; background: var(--surface); border-radius: 14px; padding: 10px 10px 10px 18px; font-size: calc(1.45rem * var(--s)); font-weight: 700; box-shadow: 0 1px 2px rgba(11, 31, 58, 0.1); }
+.glist li span { flex: 1; min-width: 0; overflow-wrap: anywhere; }
+.glist li button { background: transparent; border: 2px solid var(--line); border-radius: 12px; padding: 8px 16px; font-weight: 700; }
+.glist .empty { background: transparent; box-shadow: none; color: var(--muted); font-weight: 400; font-size: 1.1rem; padding-left: 0; }
+.faces { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 12px; }
+.face { display: grid; justify-items: center; align-content: center; gap: 14px; padding: 28px 8px; min-height: calc(260px * var(--s)); background: var(--surface); border: 0; border-radius: 24px; color: var(--lv); box-shadow: 0 6px 16px rgba(11, 31, 58, 0.1); }
+.face svg { width: min(100%, calc(160px * var(--s))); height: auto; }
+.face span { color: var(--fg); font-size: calc(1.7rem * var(--s)); font-weight: 700; text-align: center; }
+.face:active { transform: scale(0.97); }
+@media (max-height: 700px) { .face { min-height: 0; padding: 18px 8px; } .face svg { width: min(100%, calc(110px * var(--s))); } }
+.face[data-v="1"] { --lv: var(--lv1); } .face[data-v="2"] { --lv: var(--lv2); } .face[data-v="3"] { --lv: var(--lv3); } .face[data-v="4"] { --lv: var(--lv4); } .face[data-v="5"] { --lv: var(--lv5); }
+.checkin-done { display: grid; gap: 16px; justify-items: start; }
+.checkin-done p { margin: 0; font-size: calc(1.6rem * var(--s)); font-weight: 700; line-height: 1.35; }
+.history { display: grid; gap: 6px; margin-top: 8px; }
+.history h3 { margin: 0 0 4px; font-size: 1rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.1em; }
+.history-row { display: grid; grid-template-columns: 7.5em 1fr 1fr; gap: 10px; align-items: center; background: var(--surface); border-radius: 12px; padding: 8px 14px; font-weight: 700; }
+.history-row .dot { display: inline-flex; align-items: center; gap: 8px; color: var(--lv); }
+.history-row .dot svg { width: 26px; height: 26px; }
+.history-row .dot b { color: var(--fg); font-weight: 400; }
+.remote { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; }
+.remote button { min-height: calc(120px * var(--s)); background: var(--surface); border: 0; border-radius: 20px; font-size: calc(1.6rem * var(--s)); font-weight: 700; box-shadow: 0 6px 16px rgba(11, 31, 58, 0.1); }
+.remote button.vol { background: var(--sky); color: #0b1f3a; }
+.remote button:active { transform: scale(0.97); }
+@media (max-width: 720px) { .remote { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.practice-modes { align-self: flex-start; }
+.practice-modes button { padding: 12px 22px; font-size: 1.1rem; }
+.practice-say { margin: 0; font-size: calc(2rem * var(--s)); font-weight: 700; line-height: 1.25; text-wrap: balance; max-width: 30ch; }
+.meter { position: relative; height: calc(64px * var(--s)); background: var(--surface); border-radius: 18px; overflow: hidden; box-shadow: inset 0 0 0 2px var(--line); }
+.meter-fill { position: absolute; inset: 0 auto 0 0; width: 0; background: var(--sky); transition: width 80ms linear; }
+.meter.hit .meter-fill { background: var(--k-verb); }
+.meter-target { position: absolute; top: 0; bottom: 0; width: 4px; background: var(--fg); left: 60%; opacity: 0.7; }
+.practice-result { margin: 0; font-size: calc(1.5rem * var(--s)); font-weight: 700; min-height: 1.4em; }
+.practice-note { margin: 0; color: var(--muted); max-width: 65ch; line-height: 1.45; }
+@media (max-width: 720px) {
+  .faces { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .history-row { grid-template-columns: 1fr; }
+}
+
 @media (prefers-reduced-motion: reduce) {
   .msg .caret, .actions .speak.talking, .gear.holding .ring { animation: none; }
   .gear.holding .ring { clip-path: none; }
@@ -501,9 +571,9 @@ input, textarea { -webkit-user-select: text; user-select: text; }
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="2.5"/><path d="M11 18h2"/></svg>
         <span class="label">Send to phone</span>
       </button>
-      <button class="tool send-phone" id="tellHouse" hidden>
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/></svg>
-        <span class="label">Tell the house</span>
+      <button class="tool send-phone more-btn" id="moreBtn">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="5" cy="12" r="1.6" fill="currentColor"/><circle cx="12" cy="12" r="1.6" fill="currentColor"/><circle cx="19" cy="12" r="1.6" fill="currentColor"/></svg>
+        <span class="label">More</span>
       </button>
     </div>
   </div>
@@ -579,6 +649,15 @@ input, textarea { -webkit-user-select: text; user-select: text; }
       <p>If the voice says a word wrong, spell it the way it sounds. One per line, like <b>Siobhan = Shiv-awn</b>. The screen still shows the normal spelling.</p>
       <textarea id="sayAs" placeholder="Siobhan = Shiv-awn"></textarea>
       <div class="row-btns" style="margin-top:10px"><button class="btn primary" id="saveSayAs">Save</button><button class="btn" id="testSayAs">Hear his words</button></div>
+    </section>
+
+    <section>
+      <h2>TV remote</h2>
+      <p>The TV remote in More talks to an Echo in his room. Use the name his Fire TV has in the Alexa app.</p>
+      <label for="tvName">Fire TV name in the Alexa app
+        <input type="text" id="tvName" autocomplete="off" placeholder="Fire TV">
+      </label>
+      <div class="row-btns"><button class="btn primary" id="saveTv">Save</button><button class="btn" id="testTv">Test: turn the volume up</button></div>
     </section>
 
     <section>
@@ -689,6 +768,101 @@ input, textarea { -webkit-user-select: text; user-select: text; }
         <li>Turn media volume all the way up, or pair a small Bluetooth speaker so he can be heard over the TV.</li>
       </ol>
     </section>
+  </div>
+</div>
+
+<div class="screen" id="moreMenu" hidden>
+  <div class="screen-head"><h2>More</h2><button class="btn primary big" data-close>Back</button></div>
+  <div class="screen-body">
+    <div class="tiles">
+      <button class="tile" id="openGrocery">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="20" r="1.6"/><circle cx="18" cy="20" r="1.6"/><path d="M2 3h3l2.6 12.2a2 2 0 0 0 2 1.6h8.3a2 2 0 0 0 2-1.5L22 7H6"/></svg>
+        <span>Grocery list</span><small id="groceryCount"></small>
+      </button>
+      <button class="tile" id="openCheckin">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><path d="M9 9h.01M15 9h.01"/></svg>
+        <span>How I feel</span><small id="checkinNote"></small>
+      </button>
+      <button class="tile" id="openPractice">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="2" width="6" height="12" rx="3"/><path d="M5 10v1a7 7 0 0 0 14 0v-1"/><path d="M12 18v4"/></svg>
+        <span>Voice practice</span><small id="practiceNote"></small>
+      </button>
+      <button class="tile" id="openTv">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="5" width="20" height="13" rx="2"/><path d="M8 22h8M12 18v4"/></svg>
+        <span>TV remote</span><small>Talks to the Echo in his room</small>
+      </button>
+      <button class="tile" id="tellHouse" hidden>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/></svg>
+        <span>Tell the house</span><small>Says what he typed on the Alexas</small>
+      </button>
+    </div>
+  </div>
+</div>
+
+<div class="screen" id="grocery" hidden>
+  <div class="screen-head"><h2>Grocery list</h2><button class="btn primary big" data-close>Back</button></div>
+  <div class="screen-body">
+    <div class="board-new">
+      <input type="text" id="groceryNew" placeholder="Type an item" autocomplete="off" enterkeyhint="done">
+      <button class="btn primary big" id="groceryAdd">Add</button>
+    </div>
+    <p class="screen-label">Tap to add</p>
+    <div class="quick-items" id="groceryQuick"></div>
+    <p class="screen-label" id="groceryHeading">On the list</p>
+    <ul class="glist" id="groceryList"></ul>
+    <div class="screen-actions">
+      <button class="btn primary big" id="grocerySend">Send list to phones</button>
+      <button class="btn big danger" id="groceryClear">Clear list</button>
+      <span class="screen-status" id="groceryStatus"></span>
+    </div>
+  </div>
+</div>
+
+<div class="screen" id="checkin" hidden>
+  <div class="screen-head"><h2 id="checkinTitle">How do you feel today?</h2><button class="btn big" id="checkinLater">Not now</button></div>
+  <div class="screen-body">
+    <div class="faces" id="checkinFaces"></div>
+    <div class="checkin-done" id="checkinDone" hidden>
+      <p id="checkinSummary"></p>
+      <button class="btn primary big" data-close>Done</button>
+    </div>
+    <div class="history" id="checkinHistory"></div>
+  </div>
+</div>
+
+<div class="screen" id="tv" hidden>
+  <div class="screen-head"><h2>TV remote</h2><button class="btn primary big" data-close>Back</button></div>
+  <div class="screen-body">
+    <div class="remote" id="remote">
+      <button data-tv="up" class="vol">Volume up</button>
+      <button data-tv="down" class="vol">Volume down</button>
+      <button data-tv="mute">Mute</button>
+      <button data-tv="home">Home</button>
+      <button data-tv="pause">Pause</button>
+      <button data-tv="play">Play</button>
+      <button data-tv="on">TV on</button>
+      <button data-tv="off">TV off</button>
+    </div>
+    <p class="practice-note">Each button says the command out loud to the Echo in his room, which controls the Fire TV. The Fire TV needs to be linked to that Echo in the Alexa app (Devices, then the Echo, then TV &amp; Video).</p>
+  </div>
+</div>
+
+<div class="screen" id="practice" hidden>
+  <div class="screen-head"><h2>Voice practice</h2><button class="btn primary big" data-close>Back</button></div>
+  <div class="screen-body">
+    <div class="seg practice-modes" id="practiceModes" role="group" aria-label="Exercise">
+      <button data-mode="ah" aria-pressed="true">Long "Ahhh"</button><button data-mode="phrase" aria-pressed="false">Say it loud</button>
+    </div>
+    <p class="practice-say" id="practiceSay">Take a deep breath. Say "Ahhh" as loud and as long as you can.</p>
+    <div class="meter" id="meter" aria-hidden="true"><div class="meter-fill" id="meterFill"></div><div class="meter-target" id="meterTarget"></div></div>
+    <p class="practice-result" id="practiceResult"></p>
+    <div class="screen-actions">
+      <button class="btn primary big" id="practiceStart">Start</button>
+      <button class="btn big" id="practiceHear" hidden>Hear it</button>
+      <button class="btn big" id="practiceNext" hidden>Next phrase</button>
+    </div>
+    <p class="screen-status" id="practiceStats"></p>
+    <p class="practice-note">These are loud-voice exercises like the ones speech therapists use for Parkinson's. A few minutes every day helps most. Check with his speech therapist. Nothing is recorded or sent anywhere.</p>
   </div>
 </div>
 
@@ -1268,13 +1442,74 @@ function openShow(text) {
 }
 
 // ---------- Phrase board ----------
+// Picture tiles for phrases: simple drawings in recognizable colors (not real logos)
+const ICONS = {
+  pill: '<path d="M10.5 3.5a5 5 0 0 1 7 7l-7 7a5 5 0 0 1-7-7z"/><path d="M8.5 8.5l7 7"/>',
+  toilet: '<path d="M7 3h6v6H7z"/><path d="M4 9h14a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4z"/><path d="M8 13l-1 8h8l-1-8"/>',
+  glass: '<path d="M6 3h12l-1.5 17a1 1 0 0 1-1 1h-7a1 1 0 0 1-1-1z"/><path d="M6.5 9h11"/>',
+  can: '<rect x="7" y="2.5" width="10" height="19" rx="2"/><path d="M7 7h10M7 17h10M10 11.5c1.3-1.3 2.7 1.3 4 0"/>',
+  burger: '<path d="M4 11a8 5.5 0 0 1 16 0z"/><path d="M3 14h18"/><path d="M4 17h16a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3z"/>',
+  fries: '<path d="M5.5 10h13l-1.6 11H7.1z"/><path d="M8 10V3.5M11 10V2.5M14 10V3.5M17 10V5"/>',
+  hat: '<path d="M2 15c4 3 16 3 20 0"/><path d="M6 15.8V9a6 4 0 0 1 12 0v6.8"/><path d="M6 11.5h12"/>',
+  bar: '<rect x="2.5" y="8" width="19" height="8" rx="2"/><path d="M7 8v8M17 8v8M10 12h4"/>',
+  tv: '<rect x="2" y="5" width="20" height="13" rx="2"/><path d="M8 22h8M12 18v4"/>',
+  snow: '<path d="M12 2v20M4.9 4.9l14.2 14.2M2 12h20M4.9 19.1L19.1 4.9"/>',
+  bandage: '<rect x="2" y="8" width="20" height="8" rx="4" transform="rotate(-45 12 12)"/><path d="M10 10h.01M14 14h.01M10 14h.01M14 10h.01"/>',
+  bed: '<path d="M2 18V7M2 13h20v5M22 18v-2.5a3.5 3.5 0 0 0-3.5-3.5H11v1"/><circle cx="6.5" cy="10" r="2"/>',
+  heart: '<path d="M12 21s-8-5.2-8-11a4.5 4.5 0 0 1 8-2.8A4.5 4.5 0 0 1 20 10c0 5.8-8 11-8 11z"/>',
+  scissors: '<circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M8.1 8.1L20 20M8.1 15.9L20 4"/>',
+  razor: '<path d="M4 4h12v4H4z"/><path d="M10 8v12"/><path d="M6 4V2.5M10 4V2.5M14 4V2.5"/>',
+  shirt: '<path d="M8 3L3 6l2 4 3-1v12h8V9l3 1 2-4-5-3a4 4 0 0 1-8 0z"/>',
+  work: '<rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M3 13h18"/>',
+  hand: '<path d="M7 11V5.5a1.5 1.5 0 0 1 3 0V10M10 10V3.5a1.5 1.5 0 0 1 3 0V10M13 10V4.5a1.5 1.5 0 0 1 3 0V11M16 11V7.5a1.5 1.5 0 0 1 3 0V15a6 6 0 0 1-6 6h-1a6 6 0 0 1-5-2.7L4 14a1.5 1.5 0 0 1 2.5-1.7L7 13"/>',
+  phone: '<rect x="6" y="2" width="12" height="20" rx="2.5"/><path d="M11 18h2"/>',
+  smile: '<circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2M9 9h.01M15 9h.01"/>',
+  coffee: '<path d="M4 8h13v6a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5z"/><path d="M17 10h1.5a2.5 2.5 0 0 1 0 5H17"/><path d="M8 2v3M12 2v3"/>',
+  ball: '<circle cx="12" cy="12" r="10"/><path d="M12 7l4 3-1.5 4.5h-5L8 10z"/><path d="M12 2v5M16 10l5-1.5M14.5 14.5l3 4.5M9.5 14.5l-3 4.5M8 10L3 8.5"/>',
+  chat: '<path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.5A8 8 0 1 1 21 12z"/>'
+};
+const PHRASE_ART = [
+  [/mcdonald/i, 'fries', '#da291c', '#ffc72c'],
+  [/arby/i, 'hat', '#d71920', '#ffffff'],
+  [/whataburger/i, 'burger', '#f47b20', '#ffffff'],
+  [/pepsi/i, 'can', '#004b93', '#ffffff'],
+  [/\bkind\b/i, 'bar', '#2b2b2b', '#f6b40e'],
+  [/coffee/i, 'coffee', '#6f4e37', '#ffffff'],
+  [/medicine|pills?\b/i, 'pill', '#7a4bc4', '#ffffff'],
+  [/bathroom|toilet/i, 'toilet', '#2672c2', '#ffffff'],
+  [/water|drink|thirsty/i, 'glass', '#3aa0d8', '#ffffff'],
+  [/\btv\b|channel|volume/i, 'tv', '#0b1f3a', '#ffffff'],
+  [/argentina|soccer|game|messi/i, 'ball', '#74acdf', '#0b1f3a'],
+  [/cold/i, 'snow', '#5aa2ee', '#ffffff'],
+  [/pain|hurt/i, 'bandage', '#c62828', '#ffffff'],
+  [/tired|sleep|nap/i, 'bed', '#4a5f7a', '#ffffff'],
+  [/love/i, 'heart', '#c84483', '#ffffff'],
+  [/hair|nails/i, 'scissors', '#d9681c', '#ffffff'],
+  [/shave/i, 'razor', '#566476', '#ffffff'],
+  [/laundry|clothes/i, 'shirt', '#2f8f43', '#ffffff'],
+  [/\bwork\b/i, 'work', '#8a6d3b', '#ffffff'],
+  [/thank/i, 'smile', '#2f8f43', '#ffffff'],
+  [/call|phone/i, 'phone', '#2672c2', '#ffffff'],
+  [/help/i, 'hand', '#df6a2b', '#ffffff']
+];
+function phraseArt(text) {
+  for (const [re, icon, bg, fg] of PHRASE_ART) if (re.test(text)) return { icon, bg, fg };
+  return { icon: 'chat', bg: 'var(--sky)', fg: '#0b1f3a' };
+}
+const iconSVG = name => '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' + (ICONS[name] || ICONS.chat) + '</svg>';
+
 const typingText = () => (state.words.length || state.partial) ? formatSentence([...state.words, ...(state.partial ? [state.partial] : [])]) : '';
 const hasPhrase = t => settings.phrases.some(p => normSentence(p) === normSentence(t));
 function openBoard(freshIdx) {
   const g = $('#boardGrid'); g.textContent = '';
   settings.phrases.forEach((p, i) => {
-    const b = document.createElement('button'); b.textContent = p; b.dataset.idx = i;
+    const b = document.createElement('button'); b.dataset.idx = i;
     if (i === freshIdx) b.className = 'fresh';
+    const art = phraseArt(p);
+    const a = document.createElement('span'); a.className = 'art';
+    a.style.background = art.bg; a.style.color = art.fg; a.innerHTML = iconSVG(art.icon);
+    const t = document.createElement('span'); t.className = 'txt'; t.textContent = p;
+    b.appendChild(a); b.appendChild(t);
     g.appendChild(b);
   });
   if (!settings.phrases.length) { const e = document.createElement('p'); e.textContent = 'No phrases yet. Type a sentence, then tap Add what I\'m typing.'; g.appendChild(e); }
@@ -1570,6 +1805,7 @@ function openSettings() {
   $('#speakMode').value = settings.speakMode || 'words';
   $('#myWords').value = settings.myWords.join(', ');
   $('#sayAs').value = sayAsText();
+  $('#tvName').value = settings.tvName || '';
   renderAlertSettings(); alertStatus('');
   applyScale(); renderPhraseList(); renderLearnInfo();
   $('#resetRow').hidden = false; $('#confirmRow').hidden = true;
@@ -1616,6 +1852,315 @@ const fallUrl = () => NTFY + topics().help + '/publish?' + new URLSearchParams({
   message: ALERTS.fall.phone, title: ALERTS.fall.title, priority: '5', tags: 'fall,rotating_light', actions: ackAction()
 });
 const alertStatus = t => { $('#alertStatus').textContent = t; };
+
+// ---------- More screens ----------
+const todayStr = () => new Date().toLocaleDateString('en-CA');
+function openScreen(id) { document.querySelectorAll('.screen').forEach(s => { s.hidden = s.id !== id; }); }
+function closeScreens() { stopListening(); document.querySelectorAll('.screen').forEach(s => { s.hidden = true; }); }
+const anyOverlayOpen = () => ['#settings', '#board', '#alertOverlay', '#showOverlay', '#inbox'].some(s => !$(s).hidden)
+  || Array.from(document.querySelectorAll('.screen')).some(s => !s.hidden);
+function openMore() {
+  const g = groceryData().items.length;
+  $('#groceryCount').textContent = g ? g + ' item' + (g === 1 ? '' : 's') + ' on the list' : 'Nothing on the list yet';
+  $('#checkinNote').textContent = LS.get('dv.checkinState', {}).done === todayStr() ? 'Done today' : 'Not done today';
+  const p = practiceStats();
+  $('#practiceNote').textContent = p.tries ? p.tries + (p.tries === 1 ? ' try' : ' tries') + ' today' : 'Not practiced today';
+  $('#tellHouse').hidden = !vmReady();
+  openScreen('moreMenu');
+}
+
+// Grocery list: items he adds often float to the top of the quick-add buttons
+const GROCERY_STARTERS = ['Milk', 'Bread', 'Eggs', 'Bananas', 'Coffee', 'Pepsi', 'Kind bars', 'Water', 'Chicken', 'Cheese'];
+const gkey = t => (t || '').toLowerCase().replace(/\s+/g, ' ').trim();
+function groceryData() {
+  const d = LS.get('dv.grocery', {});
+  return { items: Array.isArray(d.items) ? d.items.filter(t => typeof t === 'string') : [], history: d.history && typeof d.history === 'object' ? d.history : {} };
+}
+const saveGrocery = d => LS.set('dv.grocery', d);
+function addGrocery(text) {
+  text = cap((text || '').trim().replace(/\s+/g, ' '));
+  if (!text) return;
+  const d = groceryData();
+  if (d.items.some(i => gkey(i) === gkey(text))) { toast('Already on the list'); return; }
+  d.items.push(text);
+  const h = d.history[gkey(text)] || { text, n: 0 };
+  h.n++; h.text = text; d.history[gkey(text)] = h;
+  saveGrocery(d);
+  renderGrocery();
+  if (wordsMode()) say(text);
+}
+function removeGrocery(i) { const d = groceryData(); d.items.splice(i, 1); saveGrocery(d); renderGrocery(); }
+function renderGrocery() {
+  const d = groceryData();
+  const on = new Set(d.items.map(gkey));
+  const quick = [];
+  Object.values(d.history).sort((a, b) => b.n - a.n).map(h => h.text).concat(GROCERY_STARTERS)
+    .forEach(t => { if (typeof t === 'string' && !quick.some(q => gkey(q) === gkey(t))) quick.push(t); });
+  const q = $('#groceryQuick'); q.textContent = '';
+  quick.slice(0, 14).forEach(t => {
+    const b = document.createElement('button'); b.textContent = t; b.dataset.item = t;
+    if (on.has(gkey(t))) b.className = 'on';
+    q.appendChild(b);
+  });
+  const ul = $('#groceryList'); ul.textContent = '';
+  $('#groceryHeading').textContent = d.items.length ? 'On the list (' + d.items.length + ')' : 'On the list';
+  if (!d.items.length) { const li = document.createElement('li'); li.className = 'empty'; li.textContent = 'Nothing yet. Tap an item above or type one.'; ul.appendChild(li); }
+  d.items.forEach((t, i) => {
+    const li = document.createElement('li');
+    const s = document.createElement('span'); s.textContent = t;
+    const b = document.createElement('button'); b.textContent = 'Remove'; b.dataset.rm = i;
+    li.appendChild(s); li.appendChild(b); ul.appendChild(li);
+  });
+  $('#grocerySend').disabled = !d.items.length;
+  $('#groceryClear').disabled = !d.items.length;
+}
+function sendGrocery() {
+  const d = groceryData();
+  if (!d.items.length) return;
+  const text = d.items.map(t => '• ' + t).join('\n');
+  const jobs = [];
+  if (poReady()) jobs.push(poSend({ title: 'Grocery list from Dad', message: text, priority: '0' }));
+  if (phonesReady()) jobs.push(ntfyPost(topics().says, text, { title: 'Grocery list from Dad', priority: '4', tags: 'shopping_cart' }));
+  if (!jobs.length) { $('#groceryStatus').textContent = 'Phone alerts are not set up yet.'; return; }
+  $('#groceryStatus').textContent = 'Sending…';
+  Promise.all(jobs).then(rs => {
+    const ok = rs.some(r => r === 'ok' || r === 'sent');
+    $('#groceryStatus').textContent = ok
+      ? 'Sent at ' + new Date().toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' }) + '. Clear the list once someone has it.'
+      : rs.includes('offline') ? 'No internet right now. Not sent.' : 'Could not send. Check the alert settings.';
+  });
+}
+
+// Daily check-in
+const FEEL = ['Terrible', 'Bad', 'Okay', 'Good', 'Great'];
+const SLEEP = ['Very badly', 'Badly', 'Okay', 'Well', 'Very well'];
+const MOUTHS = ['M8 17.2c2-3 6-3 8 0', 'M8.5 16.6c2-1.6 5-1.6 7 0', 'M8.5 15.6h7', 'M8.5 14.6c2 1.6 5 1.6 7 0', 'M8 14c2 3.6 6 3.6 8 0'];
+const faceSVG = v => '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10.4" fill="currentColor" fill-opacity="0.16" stroke="currentColor" stroke-width="1.6"/>'
+  + '<circle cx="8.6" cy="10" r="1.3" fill="currentColor"/><circle cx="15.4" cy="10" r="1.3" fill="currentColor"/>'
+  + '<path d="' + MOUTHS[v - 1] + '" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>';
+let checkinStep = 1, checkinFeel = 0;
+function openCheckin() {
+  checkinStep = 1; checkinFeel = 0;
+  renderCheckinStep();
+  renderCheckinHistory();
+  openScreen('checkin');
+}
+function renderCheckinStep() {
+  const faces = $('#checkinFaces'); faces.textContent = '';
+  faces.hidden = false; $('#checkinDone').hidden = true; $('#checkinLater').hidden = false;
+  $('#checkinTitle').textContent = checkinStep === 1 ? 'How do you feel today?' : 'How did you sleep last night?';
+  (checkinStep === 1 ? FEEL : SLEEP).forEach((l, i) => {
+    const b = document.createElement('button'); b.className = 'face'; b.dataset.v = i + 1; b.innerHTML = faceSVG(i + 1);
+    const s = document.createElement('span'); s.textContent = l; b.appendChild(s);
+    faces.appendChild(b);
+  });
+}
+function pickFace(v) {
+  if (checkinStep === 1) {
+    checkinFeel = v;
+    say('I feel ' + FEEL[v - 1].toLowerCase() + ' today.');
+    checkinStep = 2;
+    setTimeout(renderCheckinStep, 250);
+    return;
+  }
+  say('I slept ' + SLEEP[v - 1].toLowerCase() + '.');
+  finishCheckin(checkinFeel, v);
+}
+function finishCheckin(feel, sleep) {
+  const day = todayStr();
+  const hist = LS.get('dv.checkins', []).filter(c => c && c.date !== day);
+  hist.push({ date: day, feel, sleep, at: new Date().toISOString() });
+  LS.set('dv.checkins', hist.slice(-60));
+  LS.set('dv.checkinState', { done: day });
+  const summary = 'Feeling ' + FEEL[feel - 1].toLowerCase() + ', slept ' + SLEEP[sleep - 1].toLowerCase() + '.';
+  // A rough morning makes a sound on family phones; a good one arrives quietly
+  const rough = feel <= 2 || sleep <= 2;
+  if (poReady()) poSend({ title: "Dad's check-in", message: summary, priority: rough ? '0' : '-1' });
+  if (phonesReady()) ntfyPost(topics().says, summary, { title: "Dad's check-in", priority: rough ? '4' : '2', tags: 'sunrise' });
+  queueLog('[check-in] feel ' + feel + '/5, sleep ' + sleep + '/5');
+  $('#checkinFaces').hidden = true; $('#checkinLater').hidden = true;
+  $('#checkinTitle').textContent = 'Thank you';
+  $('#checkinSummary').textContent = summary + (poReady() || phonesReady() ? ' Your family can see it.' : '');
+  $('#checkinDone').hidden = false;
+  renderCheckinHistory();
+}
+function renderCheckinHistory() {
+  const box = $('#checkinHistory'); box.textContent = '';
+  const hist = LS.get('dv.checkins', []).filter(c => c && c.feel >= 1 && c.feel <= 5 && c.sleep >= 1 && c.sleep <= 5).slice(-7).reverse();
+  if (!hist.length) return;
+  const h = document.createElement('h3'); h.textContent = 'Last 7 days'; box.appendChild(h);
+  hist.forEach(c => {
+    const row = document.createElement('div'); row.className = 'history-row';
+    const d = document.createElement('span');
+    d.textContent = new Date(c.date + 'T12:00').toLocaleDateString([], { weekday: 'short', month: 'short', day: 'numeric' });
+    row.appendChild(d);
+    [['Feeling', c.feel, FEEL], ['Sleep', c.sleep, SLEEP]].forEach(([label, v, names]) => {
+      const s = document.createElement('span'); s.className = 'dot'; s.style.setProperty('--lv', 'var(--lv' + v + ')');
+      s.innerHTML = faceSVG(v);
+      const b = document.createElement('b'); b.textContent = label + ': ' + names[v - 1]; s.appendChild(b);
+      row.appendChild(s);
+    });
+    box.appendChild(row);
+  });
+}
+function maybePromptCheckin() {
+  const st = LS.get('dv.checkinState', {});
+  if (st.done === todayStr()) return;
+  if (st.snoozeUntil && Date.now() < st.snoozeUntil) return;
+  if (new Date().getHours() < 7) return;
+  if (anyOverlayOpen() || state.words.length || state.partial) return;
+  openCheckin();
+}
+
+// TV remote: spoken commands for the Echo in his room, which controls the Fire TV
+const TV_CMDS = {
+  up: t => 'turn up the volume on ' + t,
+  down: t => 'turn down the volume on ' + t,
+  mute: t => 'mute ' + t,
+  home: t => 'go home on ' + t,
+  pause: t => 'pause ' + t,
+  play: t => 'resume ' + t,
+  on: t => 'turn on ' + t,
+  off: t => 'turn off ' + t
+};
+function tvCommand(k) {
+  if (!TV_CMDS[k]) return;
+  say('Alexa... ' + TV_CMDS[k]((settings.tvName || '').trim() || 'Fire TV'));
+}
+
+// Voice practice: loudness meter from the microphone, nothing is recorded or sent
+const PRACTICE_EXTRA = ['Good morning', 'I love you', 'Vamos Argentina', 'Thank you very much', 'How are you today'];
+let mic = null, practiceRaf = 0, practiceRun = null, practiceMode = 'ah', practicePhraseIdx = 0;
+function practicePhrases() {
+  const list = settings.phrases.concat(PRACTICE_EXTRA);
+  return list.filter((p, i) => list.findIndex(q => normSentence(q) === normSentence(p)) === i);
+}
+function practiceStats() {
+  const p = LS.get('dv.practice', {});
+  if (p.day !== todayStr()) { p.day = todayStr(); p.tries = 0; p.bestToday = 0; }
+  return p;
+}
+function renderPracticeStats() {
+  const p = practiceStats();
+  $('#practiceStats').textContent = 'Today: ' + (p.tries || 0) + (p.tries === 1 ? ' try' : ' tries')
+    + (p.bestToday ? ' · Best "Ahhh" today: ' + p.bestToday.toFixed(1) + ' s' : '')
+    + (p.bestEver ? ' · Personal best: ' + p.bestEver.toFixed(1) + ' s' : '');
+}
+function setPracticeMode(m) {
+  stopListening();
+  practiceMode = m;
+  document.querySelectorAll('#practiceModes button').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.mode === m)));
+  $('#practiceHear').hidden = m !== 'phrase';
+  $('#practiceNext').hidden = m !== 'phrase';
+  $('#practiceResult').textContent = '';
+  if (m === 'ah') $('#practiceSay').textContent = 'Take a deep breath. Say "Ahhh" as loud and as long as you can.';
+  else showPracticePhrase();
+}
+function showPracticePhrase() {
+  const list = practicePhrases();
+  practicePhraseIdx = ((practicePhraseIdx % list.length) + list.length) % list.length;
+  $('#practiceSay').textContent = list[practicePhraseIdx];
+}
+async function startMic() {
+  if (mic) return true;
+  try {
+    const stream = await navigator.mediaDevices.getUserMedia({ audio: { echoCancellation: false, noiseSuppression: false, autoGainControl: false } });
+    const C = window.AudioContext || window.webkitAudioContext;
+    const ctx = new C();
+    const analyser = ctx.createAnalyser(); analyser.fftSize = 2048;
+    ctx.createMediaStreamSource(stream).connect(analyser);
+    mic = { stream, ctx, analyser, data: new Float32Array(analyser.fftSize) };
+    return true;
+  } catch (e) { return false; }
+}
+function micDb() {
+  mic.analyser.getFloatTimeDomainData(mic.data);
+  let sum = 0;
+  for (let i = 0; i < mic.data.length; i++) sum += mic.data[i] * mic.data[i];
+  return 20 * Math.log10(Math.sqrt(sum / mic.data.length) + 1e-8);
+}
+function stopMic() {
+  if (!mic) return;
+  mic.stream.getTracks().forEach(t => t.stop());
+  try { mic.ctx.close(); } catch (e) {}
+  mic = null;
+}
+const meterPct = db => Math.max(0, Math.min(100, (db + 70) / 60 * 100));
+function setMeter(db, target) {
+  $('#meterFill').style.width = meterPct(db) + '%';
+  $('#meterTarget').style.left = meterPct(target) + '%';
+  $('#meter').classList.toggle('hit', db >= target);
+}
+function stopListening() {
+  if (practiceRun) practiceRun = null;
+  cancelAnimationFrame(practiceRaf);
+  stopMic();
+  setMeter(-100, -30);
+  $('#practiceStart').textContent = 'Start';
+}
+async function startPractice() {
+  if (practiceRun) { stopListening(); return; }
+  if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) { $('#practiceResult').textContent = 'This browser cannot use the microphone.'; return; }
+  if (hasTTS) speechSynthesis.cancel();
+  if (!(await startMic())) { $('#practiceResult').textContent = 'The microphone is blocked. Allow microphone access for this app in the browser settings, then try again.'; return; }
+  $('#practiceStart').textContent = 'Stop';
+  $('#practiceResult').textContent = 'Get ready… stay quiet for a moment.';
+  const samples = [];
+  const run = practiceRun = { phase: 'quiet', t0: performance.now(), prev: 0, startedAt: 0, lastAbove: 0, above: 0, peak: -100, target: -30 };
+  const tick = () => {
+    if (practiceRun !== run || !mic) return;
+    const db = micDb();
+    const now = performance.now();
+    const dt = run.prev ? now - run.prev : 0;
+    run.prev = now;
+    setMeter(db, run.target);
+    if (run.phase === 'quiet') {
+      samples.push(db);
+      if (now - run.t0 > 1000) {
+        samples.sort((a, b) => a - b);
+        // Target sits well above the room's own noise, so the TV alone doesn't count
+        run.target = Math.min(-22, Math.max(-50, samples[Math.floor(samples.length / 2)] + 18));
+        run.phase = 'go'; run.t0 = now;
+        $('#practiceResult').textContent = practiceMode === 'ah' ? 'Go! Ahhh…' : 'Now say it, nice and loud.';
+      }
+    } else {
+      run.peak = Math.max(run.peak, db);
+      if (db >= run.target) { if (!run.startedAt) run.startedAt = now; run.lastAbove = now; run.above += dt; }
+      if (practiceMode === 'ah') {
+        if (run.startedAt) $('#practiceResult').textContent = ((run.lastAbove - run.startedAt) / 1000).toFixed(1) + ' seconds';
+        const quietFor = now - (run.lastAbove || run.t0);
+        if ((run.startedAt && quietFor > 900) || (!run.startedAt && now - run.t0 > 8000) || now - run.t0 > 40000) { finishPractice(run); return; }
+      } else if (now - run.t0 > 6000 || (run.startedAt && now - run.lastAbove > 1500)) { finishPractice(run); return; }
+    }
+    practiceRaf = requestAnimationFrame(tick);
+  };
+  practiceRaf = requestAnimationFrame(tick);
+}
+function finishPractice(run) {
+  const target = run.target;
+  stopListening();
+  setMeter(-100, target);
+  $('#practiceStart').textContent = 'Try again';
+  const p = practiceStats();
+  p.tries = (p.tries || 0) + 1;
+  let msg;
+  if (practiceMode === 'ah') {
+    const secs = run.startedAt ? (run.lastAbove - run.startedAt) / 1000 : 0;
+    if (secs < 0.5) msg = 'I could not hear it. Take a big breath and try again, louder.';
+    else {
+      const record = secs > (p.bestEver || 0);
+      p.bestToday = Math.max(p.bestToday || 0, secs);
+      p.bestEver = Math.max(p.bestEver || 0, secs);
+      msg = 'You held it for ' + secs.toFixed(1) + ' seconds!' + (record ? ' A new personal best!' : '');
+    }
+  } else {
+    msg = run.above >= 800 ? 'Loud and clear! Great job.' : run.peak > target - 8 ? 'Almost! A little louder next time.' : 'Try again, as loud as you can.';
+  }
+  LS.set('dv.practice', p);
+  renderPracticeStats();
+  $('#practiceResult').textContent = msg;
+  say(msg);
+}
 
 // ---------- Wake lock ----------
 let wakeLock = null;
@@ -1686,7 +2231,45 @@ helpBtn.addEventListener('pointercancel', endHelpHold);
 helpBtn.addEventListener('contextmenu', e => e.preventDefault());
 helpBtn.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); triggerHelp(); } });
 
-$('#tellHouse').addEventListener('click', () => { if (guarded('tell')) tellHouse(); });
+$('#tellHouse').addEventListener('click', () => { if (guarded('tell')) { closeScreens(); tellHouse(); } });
+$('#moreBtn').addEventListener('click', () => { if (guarded('more')) openMore(); });
+document.querySelectorAll('.screen [data-close]').forEach(b => b.addEventListener('click', closeScreens));
+$('#openGrocery').addEventListener('click', () => { renderGrocery(); $('#groceryStatus').textContent = ''; openScreen('grocery'); });
+$('#openCheckin').addEventListener('click', openCheckin);
+$('#openTv').addEventListener('click', () => openScreen('tv'));
+$('#remote').addEventListener('click', e => { const b = e.target.closest('button[data-tv]'); if (b && guarded('tv' + b.dataset.tv)) tvCommand(b.dataset.tv); });
+$('#saveTv').addEventListener('click', () => { settings.tvName = $('#tvName').value.trim(); saveSettings(); toast('TV name saved'); });
+$('#testTv').addEventListener('click', () => { settings.tvName = $('#tvName').value.trim(); saveSettings(); tvCommand('up'); });
+$('#openPractice').addEventListener('click', () => { openScreen('practice'); setPracticeMode(practiceMode); renderPracticeStats(); });
+$('#groceryAdd').addEventListener('click', () => { addGrocery($('#groceryNew').value); $('#groceryNew').value = ''; });
+$('#groceryNew').addEventListener('keydown', e => { if (e.key === 'Enter') { e.preventDefault(); addGrocery(e.target.value); e.target.value = ''; } });
+$('#groceryQuick').addEventListener('click', e => {
+  const b = e.target.closest('button'); if (!b || !guarded('gq' + b.dataset.item)) return;
+  const i = groceryData().items.findIndex(t => gkey(t) === gkey(b.dataset.item));
+  if (i >= 0) removeGrocery(i); else addGrocery(b.dataset.item);
+});
+$('#groceryList').addEventListener('click', e => { const b = e.target.closest('button[data-rm]'); if (b) removeGrocery(Number(b.dataset.rm)); });
+$('#grocerySend').addEventListener('click', () => { if (guarded('gsend')) sendGrocery(); });
+let groceryClearArmed = 0;
+$('#groceryClear').addEventListener('click', () => {
+  const btn = $('#groceryClear');
+  if (Date.now() - groceryClearArmed < 4000) {
+    const d = groceryData(); d.items = []; saveGrocery(d); renderGrocery();
+    groceryClearArmed = 0; btn.textContent = 'Clear list'; $('#groceryStatus').textContent = 'List cleared.';
+    return;
+  }
+  groceryClearArmed = Date.now(); btn.textContent = 'Tap again to clear';
+  setTimeout(() => { if (Date.now() - groceryClearArmed >= 4000) btn.textContent = 'Clear list'; }, 4100);
+});
+$('#checkinFaces').addEventListener('click', e => { const b = e.target.closest('.face'); if (b && guarded('face' + checkinStep)) pickFace(Number(b.dataset.v)); });
+$('#checkinLater').addEventListener('click', () => {
+  LS.set('dv.checkinState', Object.assign(LS.get('dv.checkinState', {}), { snoozeUntil: Date.now() + 2 * 3600 * 1000 }));
+  closeScreens();
+});
+$('#practiceModes').addEventListener('click', e => { const b = e.target.closest('button'); if (b) setPracticeMode(b.dataset.mode); });
+$('#practiceStart').addEventListener('click', startPractice);
+$('#practiceHear').addEventListener('click', () => say($('#practiceSay').textContent));
+$('#practiceNext').addEventListener('click', () => { stopListening(); practicePhraseIdx++; showPracticePhrase(); $('#practiceResult').textContent = ''; });
 $('#sendPhone').addEventListener('click', () => { if (guarded('sendPhone')) sendToPhone(); });
 $('#saveAlerts').addEventListener('click', () => {
   const code = $('#familyCode').value.trim();
@@ -1811,6 +2394,9 @@ render();
 layoutWords();
 watchBattery();
 listenForReplies();
+setTimeout(maybePromptCheckin, 4000);
+setInterval(maybePromptCheckin, 5 * 60 * 1000);
+document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') setTimeout(maybePromptCheckin, 1500); });
 if (setupLoaded) toast('His words and phrases are loaded');
 if ('serviceWorker' in navigator && location.protocol === 'https:') navigator.serviceWorker.register('sw.js').catch(() => {});
 })();
