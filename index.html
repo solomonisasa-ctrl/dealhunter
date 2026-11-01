@@ -312,6 +312,12 @@ input, textarea { -webkit-user-select: text; user-select: text; }
 .board-add { display: flex; flex-wrap: wrap; gap: 10px; margin-left: auto; }
 .board-add .btn:disabled { opacity: 0.4; cursor: default; }
 .board-head { flex-wrap: wrap; }
+.board-grid.editing button { position: relative; box-shadow: 0 0 0 2px var(--danger), 0 6px 14px rgba(11, 31, 58, 0.1); }
+.board-grid.editing button::after {
+  content: "\2715"; position: absolute; top: -10px; right: -10px; width: 34px; height: 34px; border-radius: 50%;
+  display: grid; place-items: center; background: var(--danger); color: #fff; font-size: 1.1rem; font-weight: 700;
+}
+#editPhrases[aria-pressed="true"] { background: var(--danger); color: #fff; border-color: transparent; }
 .board-grid button.fresh { border-color: var(--k-verb); background: var(--yes); }
 .board-grid button { display: flex; align-items: center; gap: 16px; padding: 12px 18px 12px 12px; border: 0; border-radius: 18px; box-shadow: 0 1px 0 rgba(11, 31, 58, 0.06), 0 6px 14px rgba(11, 31, 58, 0.1); }
 .board-grid button.fresh { box-shadow: 0 0 0 3px var(--k-verb), 0 6px 14px rgba(11, 31, 58, 0.1); }
@@ -476,6 +482,7 @@ input, textarea { -webkit-user-select: text; user-select: text; }
 .screen-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
 .screen-head h2 { margin: 0; font-size: calc(1.9rem * var(--s)); text-wrap: balance; }
 .screen-body { overflow-y: auto; display: flex; flex-direction: column; gap: 14px; min-height: 0; padding-bottom: 8px; }
+.screen-body > * { flex-shrink: 0; }
 .screen-label { margin: 4px 0 0; color: var(--muted); font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; font-size: 0.85rem; }
 .screen-actions { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
 .screen-status { color: var(--muted); font-weight: 700; margin: 0; }
@@ -514,8 +521,13 @@ input, textarea { -webkit-user-select: text; user-select: text; }
 .remote button.vol { background: var(--sky); color: var(--sky-fg); }
 .remote button:active { transform: scale(0.97); }
 @media (max-width: 720px) { .remote { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
-.practice-modes { align-self: flex-start; }
-.practice-modes button { padding: 12px 22px; font-size: 1.1rem; }
+.practice-modes { display: flex; flex-wrap: wrap; gap: 8px; }
+.practice-modes button { padding: 12px 20px; font-size: calc(1.1rem * var(--s)); font-weight: 700; border-radius: 999px; border: 2px solid var(--line); background: var(--surface); }
+.practice-modes button[aria-pressed="true"] { background: var(--sky); color: var(--sky-fg); border-color: transparent; }
+.practice-modes button.workout { border-color: var(--accent); }
+.workout-progress { margin: 0; font-weight: 700; color: var(--k-verb); font-size: calc(1.15rem * var(--s)); }
+.practice-sub { margin: 0; font-size: calc(2.2rem * var(--s)); font-weight: 700; letter-spacing: 0.15em; color: var(--muted); min-height: 0; }
+.practice-sub:empty { display: none; }
 .practice-say { margin: 0; font-size: calc(2rem * var(--s)); font-weight: 700; line-height: 1.25; text-wrap: balance; max-width: 30ch; }
 .meter { position: relative; height: calc(64px * var(--s)); background: var(--surface); border-radius: 18px; overflow: hidden; box-shadow: inset 0 0 0 2px var(--line); }
 .meter-fill { position: absolute; inset: 0 auto 0 0; width: 0; background: var(--sky); transition: width 80ms linear; }
@@ -625,6 +637,8 @@ input, textarea { -webkit-user-select: text; user-select: text; }
     <div class="board-add">
       <button class="btn big" id="addTyping">+ Add what I'm typing</button>
       <button class="btn big" id="addLastBoard">+ Add what I last said</button>
+      <button class="btn big" id="undoRemove" hidden>Undo</button>
+      <button class="btn big" id="editPhrases">Edit</button>
     </div>
     <button class="btn primary big" id="closeBoard">Close</button>
   </div>
@@ -918,10 +932,18 @@ input, textarea { -webkit-user-select: text; user-select: text; }
 <div class="screen" id="practice" hidden>
   <div class="screen-head"><h2>Voice practice</h2><button class="btn primary big" data-close>Back</button></div>
   <div class="screen-body">
-    <div class="seg practice-modes" id="practiceModes" role="group" aria-label="Exercise">
-      <button data-mode="ah" aria-pressed="true">Long "Ahhh"</button><button data-mode="phrase" aria-pressed="false">Say it loud</button>
+    <div class="practice-modes" id="practiceModes" role="group" aria-label="Exercise">
+      <button data-mode="workout" class="workout" aria-pressed="true">Daily workout</button>
+      <button data-mode="ah" aria-pressed="false">Long "Ahhh"</button>
+      <button data-mode="glide" aria-pressed="false">High &amp; low</button>
+      <button data-mode="phrase" aria-pressed="false">Say it loud</button>
+      <button data-mode="count" aria-pressed="false">Count to 10</button>
+      <button data-mode="ha" aria-pressed="false">Strong "HA!"</button>
     </div>
-    <p class="practice-say" id="practiceSay">Take a deep breath. Say "Ahhh" as loud and as long as you can.</p>
+    <p class="workout-progress" id="workoutProgress" hidden></p>
+    <p class="practice-say" id="practiceSay"></p>
+    <p class="practice-sub" id="practiceSub"></p>
+    <span class="screen-label" id="meterLabel">Loudness</span>
     <div class="meter" id="meter" aria-hidden="true"><div class="meter-fill" id="meterFill"></div><div class="meter-target" id="meterTarget"></div></div>
     <p class="practice-result" id="practiceResult"></p>
     <div class="practice-stars" id="practiceStars" aria-live="polite"></div>
@@ -1576,9 +1598,13 @@ const iconSVG = name => '<svg viewBox="0 0 24 24" fill="none" stroke="currentCol
 
 const typingText = () => (state.words.length || state.partial) ? formatSentence([...state.words, ...(state.partial ? [state.partial] : [])]) : '';
 const hasPhrase = t => settings.phrases.some(p => normSentence(p) === normSentence(t));
+// How many times he has said a phrase (from what the app has learned)
+const phraseUses = p => { const s = learn.sent[normSentence(p)]; return s ? s.n : 0; };
 function openBoard(freshIdx) {
   const g = $('#boardGrid'); g.textContent = '';
-  settings.phrases.forEach((p, i) => {
+  // Most used first; ties keep the order they were added
+  const order = settings.phrases.map((p, i) => ({ p, i, n: phraseUses(p) })).sort((a, b) => b.n - a.n || a.i - b.i);
+  order.forEach(({ p, i }) => {
     const b = document.createElement('button'); b.dataset.idx = i;
     if (i === freshIdx) b.className = 'fresh';
     const art = phraseArt(p);
@@ -1593,7 +1619,8 @@ function openBoard(freshIdx) {
   $('#addTyping').disabled = !typing || hasPhrase(typing);
   $('#addLastBoard').disabled = !lastSaid || hasPhrase(lastSaid);
   $('#board').hidden = false;
-  if (freshIdx !== undefined && g.children[freshIdx]) g.children[freshIdx].scrollIntoView({ block: 'center', behavior: 'smooth' });
+  const fresh = freshIdx !== undefined && g.querySelector('[data-idx="' + freshIdx + '"]');
+  if (fresh) fresh.scrollIntoView({ block: 'center', behavior: 'smooth' });
 }
 function addTypedPhrase() {
   const el = $('#boardNew');
@@ -1612,7 +1639,38 @@ function addFromBoard(text) {
   openBoard(settings.phrases.length - 1);
   toast('Added to phrases');
 }
-function closeBoard() { $('#board').hidden = true; }
+function closeBoard() { $('#board').hidden = true; setPhraseEditing(false); }
+// Edit mode: tapping a phrase removes it; Undo puts it back for a few seconds
+let phraseEditing = false, lastRemoved = null, undoTimer = null;
+function setPhraseEditing(on) {
+  phraseEditing = on;
+  $('#boardGrid').classList.toggle('editing', on);
+  $('#editPhrases').setAttribute('aria-pressed', String(on));
+  $('#editPhrases').textContent = on ? 'Done editing' : 'Edit';
+}
+function removePhraseAt(i) {
+  const [gone] = settings.phrases.splice(i, 1);
+  if (!gone) return;
+  const nk = normSentence(gone);
+  settings.removedPhrases = (settings.removedPhrases || []).filter(p => p !== nk).concat(nk).slice(-300);
+  syncedChanged();
+  lastRemoved = { text: gone, index: i };
+  openBoard();
+  $('#undoRemove').hidden = false;
+  clearTimeout(undoTimer);
+  undoTimer = setTimeout(() => { $('#undoRemove').hidden = true; lastRemoved = null; }, 8000);
+  toast('Removed: ' + gone);
+}
+function undoRemovePhrase() {
+  if (!lastRemoved) return;
+  const { text, index } = lastRemoved;
+  settings.phrases.splice(Math.min(index, settings.phrases.length), 0, text);
+  settings.removedPhrases = (settings.removedPhrases || []).filter(p => p !== normSentence(text));
+  syncedChanged();
+  lastRemoved = null;
+  $('#undoRemove').hidden = true;
+  openBoard(index);
+}
 
 // ---------- Alerts: Alexa through Voice Monkey, family phones through ntfy ----------
 const NTFY = 'https://ntfy.sh/';
@@ -2338,14 +2396,14 @@ function tvCommand(k) {
 
 // Voice practice: loudness meter from the microphone, nothing is recorded or sent
 const PRACTICE_EXTRA = ['Good morning', 'I love you', 'Vamos Argentina', 'Thank you very much', 'How are you today'];
-let mic = null, practiceRaf = 0, practiceRun = null, practiceMode = 'ah', practicePhraseIdx = 0;
+let mic = null, practiceRaf = 0, practiceRun = null, practiceMode = 'workout', practicePhraseIdx = 0;
 function practicePhrases() {
   const list = settings.phrases.concat(PRACTICE_EXTRA);
   return list.filter((p, i) => list.findIndex(q => normSentence(q) === normSentence(p)) === i);
 }
 function practiceStats() {
   const p = LS.get('dv.practice', {});
-  if (p.day !== todayStr()) { p.day = todayStr(); p.tries = 0; p.bestToday = 0; p.stars = 0; }
+  if (p.day !== todayStr()) { p.day = todayStr(); p.tries = 0; p.bestToday = 0; p.stars = 0; p.workoutStep = 0; p.pitchBase = 0; p.glideNext = 'up'; p.familyTold = false; }
   return p;
 }
 const DAILY_GOAL = 10;
@@ -2380,7 +2438,10 @@ const PRAISE = {
   okay: ['Good effort! A little longer next time.', 'Nice! Big breath, and try again.', "You're warming up. Let's go again."],
   loud: ['Loud and clear! Great job.', 'Perfect! Everyone could hear that.', 'Excellent! That was strong.', 'Yes! That was a great, loud voice.'],
   almost: ['So close! Just a little louder.', 'Good! Push a bit more from your belly.', 'Almost there. Think loud!'],
-  retry: ["Let's try again. Big breath, think loud!", 'Take a deep breath and give it everything.']
+  retry: ["Let's try again. Big breath, think loud!", 'Take a deep breath and give it everything.'],
+  high: ['Beautiful high note!', 'Great slide up!', 'Wow, way up high!'],
+  low: ['Nice and low!', 'Great slide down!', 'Deep and strong!'],
+  ha: ['Strong HAs! Great breath power.', 'Powerful! Five strong HAs.', 'Excellent! Short and loud.']
 };
 // Celebration: confetti in the theme's colors and a crowd cheer
 function crowdCheer(big) {
@@ -2417,20 +2478,54 @@ function celebrate(big) {
   }
   setTimeout(() => { box.textContent = ''; }, 4200);
 }
-function tellFamilyPractice(p) {
-  const msg = 'Dad finished his voice practice today: ' + (p.stars || 0) + ' strong tries' + (p.bestToday ? ', best "Ahhh" ' + p.bestToday.toFixed(1) + ' seconds' : '') + '. Send him a cheer!';
+function tellFamilyPractice(p, workout) {
+  const msg = 'Dad ' + (workout ? 'finished his voice workout' : 'reached his voice practice goal') + ' today: ' + (p.stars || 0) + ' strong tries'
+    + (p.bestToday ? ', best "Ahhh" ' + p.bestToday.toFixed(1) + ' seconds' : '') + '. Send him a cheer!';
   if (poReady()) poSend({ title: 'Voice practice done', message: msg, priority: '-1' });
   if (phonesReady()) ntfyPost(topics().says, msg, { title: 'Voice practice done', priority: '3', tags: 'star' });
 }
+// Exercises (loud-voice therapy style). The daily workout walks through a mix of them.
+const EX_NAMES = { ah: 'Long "Ahhh"', glide: 'High & low', phrase: 'Say it loud', count: 'Count to 10', ha: 'Strong "HA!"' };
+const WORKOUT = ['ah', 'ah', 'ah', 'glide', 'glide', 'glide', 'glide', 'phrase', 'phrase', 'phrase', 'count', 'ha'];
+let inWorkout = true, glideStep = 'base';
+function currentExercise() {
+  if (!inWorkout) return practiceMode;
+  return WORKOUT[Math.min(practiceStats().workoutStep || 0, WORKOUT.length - 1)];
+}
 function setPracticeMode(m) {
   stopListening();
+  inWorkout = m === 'workout';
   practiceMode = m;
   document.querySelectorAll('#practiceModes button').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.mode === m)));
-  $('#practiceHear').hidden = m !== 'phrase';
-  $('#practiceNext').hidden = m !== 'phrase';
   $('#practiceResult').textContent = '';
-  if (m === 'ah') $('#practiceSay').textContent = 'Take a deep breath. Say "Ahhh" as loud and as long as you can.';
-  else showPracticePhrase();
+  $('#practiceResult').classList.remove('win');
+  showExercise();
+}
+function showExercise() {
+  const ex = currentExercise();
+  const p = practiceStats();
+  const wp = $('#workoutProgress');
+  if (inWorkout) {
+    const step = p.workoutStep || 0;
+    wp.hidden = false;
+    wp.textContent = step >= WORKOUT.length
+      ? "Today's workout is done! Keep going any time."
+      : 'Workout: exercise ' + (step + 1) + ' of ' + WORKOUT.length + ' · ' + EX_NAMES[ex];
+  } else wp.hidden = true;
+  $('#practiceHear').hidden = ex !== 'phrase';
+  $('#practiceNext').hidden = ex !== 'phrase' || inWorkout;
+  $('#practiceSub').textContent = '';
+  $('#meterLabel').textContent = ex === 'glide' ? 'Pitch' : 'Loudness';
+  if (ex === 'ah') $('#practiceSay').textContent = 'Take a deep breath. Say "Ahhh" as loud and as long as you can.';
+  else if (ex === 'glide') {
+    glideStep = p.pitchBase ? (p.glideNext || 'up') : 'base';
+    $('#practiceSay').textContent = glideStep === 'base' ? 'Say a normal, comfortable "Ahhh" for a few seconds.'
+      : glideStep === 'up' ? 'Slide your voice UP. Start low and go as high as you can.'
+        : 'Slide your voice DOWN. Start high and go as low as you can.';
+  } else if (ex === 'phrase') showPracticePhrase();
+  else if (ex === 'count') { $('#practiceSay').textContent = 'Count out loud from 1 to 10. Make every number loud.'; $('#practiceSub').textContent = '1 2 3 4 5 6 7 8 9 10'; }
+  else if (ex === 'ha') $('#practiceSay').textContent = 'Say "HA!" five times. Short, strong and loud.';
+  $('#practiceStart').textContent = 'Start';
 }
 function showPracticePhrase() {
   const list = practicePhrases();
@@ -2443,9 +2538,11 @@ async function startMic() {
     const stream = await navigator.mediaDevices.getUserMedia({ audio: { echoCancellation: false, noiseSuppression: false, autoGainControl: false } });
     const C = window.AudioContext || window.webkitAudioContext;
     const ctx = new C();
+    // Browsers (iPad Safari especially) can create audio contexts switched off; Start is a tap, so this is allowed
+    if (ctx.state === 'suspended') { try { await ctx.resume(); } catch (e) {} }
     const analyser = ctx.createAnalyser(); analyser.fftSize = 2048;
     ctx.createMediaStreamSource(stream).connect(analyser);
-    mic = { stream, ctx, analyser, data: new Float32Array(analyser.fftSize) };
+    mic = { stream, ctx, analyser, data: new Float32Array(analyser.fftSize), corr: new Float32Array(1024) };
     return true;
   } catch (e) { return false; }
 }
@@ -2454,6 +2551,27 @@ function micDb() {
   let sum = 0;
   for (let i = 0; i < mic.data.length; i++) sum += mic.data[i] * mic.data[i];
   return 20 * Math.log10(Math.sqrt(sum / mic.data.length) + 1e-8);
+}
+// Voice pitch by autocorrelation; takes the first strong peak so it doesn't drop an octave
+function micPitch() {
+  const buf = mic.data, sr = mic.ctx.sampleRate, n = 1024;
+  const minLag = Math.floor(sr / 450), maxLag = Math.min(Math.floor(sr / 70), buf.length - n - 1);
+  let energy = 0;
+  for (let i = 0; i < n; i++) energy += buf[i] * buf[i];
+  if (energy < 1e-4) return 0;
+  let best = 0;
+  for (let lag = minLag; lag <= maxLag; lag++) {
+    let s = 0;
+    for (let i = 0; i < n; i++) s += buf[i] * buf[i + lag];
+    mic.corr[lag - minLag] = s;
+    if (s > best) best = s;
+  }
+  if (best / energy < 0.5) return 0;
+  for (let lag = minLag + 1; lag < maxLag; lag++) {
+    const k = lag - minLag, s = mic.corr[k];
+    if (s >= best * 0.9 && s >= mic.corr[k - 1] && s >= mic.corr[k + 1]) return sr / lag;
+  }
+  return 0;
 }
 function stopMic() {
   if (!mic) return;
@@ -2467,6 +2585,13 @@ function setMeter(db, target) {
   $('#meterTarget').style.left = meterPct(target) + '%';
   $('#meter').classList.toggle('hit', db >= target);
 }
+// Pitch meter: -8 to +12 steps (semitones) around his normal voice
+const pitchPct = semi => Math.max(0, Math.min(100, (semi + 8) / 20 * 100));
+function setPitchMeter(semi, targetSemi) {
+  $('#meterFill').style.width = (semi === null ? 0 : pitchPct(semi)) + '%';
+  $('#meterTarget').style.left = pitchPct(targetSemi) + '%';
+  $('#meter').classList.toggle('hit', semi !== null && (targetSemi > 0 ? semi >= targetSemi : semi <= targetSemi));
+}
 function stopListening() {
   if (practiceRun) practiceRun = null;
   clearTimeout(practiceRaf);
@@ -2474,35 +2599,75 @@ function stopListening() {
   setMeter(-100, -30);
   $('#practiceStart').textContent = 'Start';
 }
+const median = arr => { const s = arr.slice().sort((a, b) => a - b); return s.length ? s[Math.floor(s.length / 2)] : 0; };
+const GO_TEXT = { ah: 'Go! Think loud! Ahhh…', phrase: 'Think loud! Now say it.', count: 'Go! Count 1 to 10, loud!', ha: 'Go! HA! HA! HA!' };
 async function startPractice() {
   if (practiceRun) { stopListening(); return; }
   if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) { $('#practiceResult').textContent = 'This browser cannot use the microphone.'; return; }
   if (hasTTS) speechSynthesis.cancel();
   if (!(await startMic())) { $('#practiceResult').textContent = 'The microphone is blocked. Allow microphone access for this app in the browser settings, then try again.'; return; }
+  const ex = currentExercise();
+  const p = practiceStats();
   $('#practiceStart').textContent = 'Stop';
+  $('#practiceResult').classList.remove('win');
   $('#practiceResult').textContent = 'Get ready… stay quiet for a moment.';
   const samples = [];
-  const run = practiceRun = { phase: 'quiet', t0: performance.now(), prev: 0, startedAt: 0, lastAbove: 0, above: 0, peak: -100, target: -30 };
+  const run = practiceRun = {
+    ex, step: ex === 'glide' ? glideStep : '', base: p.pitchBase || 0, phase: 'quiet', t0: performance.now(), prev: 0,
+    startedAt: 0, lastAbove: 0, above: 0, peak: -100, target: -30,
+    loud: false, loudStart: 0, lastLoud: 0, bursts: 0,
+    pitches: [], voicedMs: 0, lastVoiced: 0, voiced: false, maxSemi: -99, minSemi: 99, hiTime: 0, loTime: 0
+  };
   const tick = () => {
     if (practiceRun !== run || !mic) return;
     const db = micDb();
     const now = performance.now();
     const dt = run.prev ? now - run.prev : 0;
     run.prev = now;
-    setMeter(db, run.target);
     if (run.phase === 'quiet') {
+      setMeter(db, run.target);
       samples.push(db);
       if (now - run.t0 > 1000) {
-        samples.sort((a, b) => a - b);
         // Target sits well above the room's own noise, so the TV alone doesn't count
-        run.target = Math.min(-22, Math.max(-50, samples[Math.floor(samples.length / 2)] + 18));
+        run.target = Math.min(-22, Math.max(-50, median(samples) + 18));
         run.phase = 'go'; run.t0 = now;
-        $('#practiceResult').textContent = practiceMode === 'ah' ? 'Go! Think loud! Ahhh…' : 'Think loud! Now say it.';
+        $('#practiceResult').textContent = ex !== 'glide' ? GO_TEXT[ex]
+          : run.step === 'base' ? 'Now say a normal "Ahhh".' : run.step === 'up' ? 'Slide UP! Ahhh…' : 'Slide DOWN! Ahhh…';
       }
+      practiceRaf = setTimeout(tick, 40);
+      return;
+    }
+    run.peak = Math.max(run.peak, db);
+    if (ex === 'glide') {
+      const f = micPitch();
+      const voiced = db >= run.target - 6 && f > 0;      if (run.step === 'base') {
+        setMeter(db, run.target);
+        if (voiced) { run.pitches.push(f); run.voicedMs += dt; run.lastVoiced = now; }
+        if (run.voicedMs >= 2500 || now - run.t0 > 9000 || (run.voicedMs > 800 && now - run.lastVoiced > 1200)) { finishPractice(run); return; }
+      } else {
+        const targetSemi = run.step === 'up' ? 4 : -3;
+        if (voiced) {
+          const semi = 12 * Math.log2(f / run.base);
+          run.voiced = true; run.lastVoiced = now;
+          run.maxSemi = Math.max(run.maxSemi, semi); run.minSemi = Math.min(run.minSemi, semi);
+          if (run.step === 'up' && semi >= 4) run.hiTime += dt;
+          if (run.step === 'down' && semi <= -3) run.loTime += dt;
+          setPitchMeter(semi, targetSemi);
+          $('#practiceResult').textContent = (semi >= 0 ? '+' : '') + Math.round(semi) + ' steps';
+        } else setPitchMeter(null, targetSemi);
+        if ((run.voiced && now - run.lastVoiced > 900) || now - run.t0 > 10000) { finishPractice(run); return; }
+      }
+    } else if (ex === 'count' || ex === 'ha') {
+      const thr = ex === 'ha' ? run.target + 4 : run.target;
+      setMeter(db, thr);      if (!run.loud && db >= thr) { run.loud = true; run.loudStart = now; }
+      else if (run.loud && db < thr - 4) { if (now - run.loudStart >= 100) run.bursts++; run.loud = false; run.lastLoud = now; }
+      $('#practiceResult').textContent = ex === 'ha' ? 'HA: ' + run.bursts + ' of 5' : 'Loud numbers: ' + run.bursts;
+      const quiet = run.bursts && !run.loud && now - run.lastLoud > (ex === 'ha' ? 3000 : 2500);
+      if ((ex === 'ha' && run.bursts >= 5 && !run.loud) || quiet || now - run.t0 > (ex === 'ha' ? 12000 : 15000)) { finishPractice(run); return; }
     } else {
-      run.peak = Math.max(run.peak, db);
+      setMeter(db, run.target);
       if (db >= run.target) { if (!run.startedAt) run.startedAt = now; run.lastAbove = now; run.above += dt; }
-      if (practiceMode === 'ah') {
+      if (ex === 'ah') {
         if (run.startedAt) $('#practiceResult').textContent = ((run.lastAbove - run.startedAt) / 1000).toFixed(1) + ' seconds';
         const quietFor = now - (run.lastAbove || run.t0);
         if ((run.startedAt && quietFor > 900) || (!run.startedAt && now - run.t0 > 8000) || now - run.t0 > 40000) { finishPractice(run); return; }
@@ -2513,14 +2678,12 @@ async function startPractice() {
   practiceRaf = setTimeout(tick, 40);
 }
 function finishPractice(run) {
-  const target = run.target;
+  const target = run.target, ex = run.ex;
   stopListening();
-  setMeter(-100, target);
-  $('#practiceStart').textContent = 'Try again';
   const p = practiceStats();
   p.tries = (p.tries || 0) + 1;
-  let msg, star = false, record = false;
-  if (practiceMode === 'ah') {
+  let msg = '', star = false, record = false;
+  if (ex === 'ah') {
     const secs = run.startedAt ? (run.lastAbove - run.startedAt) / 1000 : 0;
     if (secs < 0.5) msg = pick(PRAISE.retry);
     else {
@@ -2531,26 +2694,58 @@ function finishPractice(run) {
       p.bestEver = Math.max(p.bestEver || 0, secs);
       msg = secs.toFixed(1) + ' seconds! ' + pick(record ? PRAISE.record : strong ? PRAISE.strong : PRAISE.okay);
     }
-  } else {
+  } else if (ex === 'phrase') {
     star = run.above >= 800;
     msg = pick(star ? PRAISE.loud : run.peak > target - 8 ? PRAISE.almost : PRAISE.retry);
+  } else if (ex === 'count') {
+    star = run.bursts >= 6;
+    msg = (run.bursts ? run.bursts + ' loud numbers! ' : '') + pick(star ? PRAISE.loud : run.bursts >= 3 ? PRAISE.almost : PRAISE.retry);
+  } else if (ex === 'ha') {
+    star = run.bursts >= 5;
+    msg = pick(star ? PRAISE.ha : run.bursts >= 3 ? PRAISE.almost : PRAISE.retry);
+  } else if (ex === 'glide') {
+    if (run.step === 'base') {
+      if (run.pitches.length >= 15) { p.pitchBase = median(run.pitches); p.glideNext = 'up'; msg = 'Got it! Now I know your normal voice.'; star = true; }
+      else msg = "I couldn't hear a steady Ahhh. Let's try again.";
+    } else if (run.step === 'up') {
+      star = run.hiTime >= 250;
+      p.glideNext = 'down';
+      msg = star ? 'You went up ' + Math.round(run.maxSemi) + ' steps! ' + pick(PRAISE.high) : run.voiced ? 'Good! Try to go a little higher.' : pick(PRAISE.retry);
+    } else {
+      star = run.loTime >= 250;
+      p.glideNext = 'up';
+      msg = star ? 'You went down ' + Math.round(-run.minSemi) + ' steps! ' + pick(PRAISE.low) : run.voiced ? 'Nice! Try to go a little lower.' : pick(PRAISE.retry);
+    }
   }
-  const firstToday = !(p.tries > 1);
+  const firstToday = p.tries === 1;
   const hadGoal = (p.stars || 0) >= DAILY_GOAL;
   if (star) p.stars = (p.stars || 0) + 1;
   const goalNow = !hadGoal && (p.stars || 0) >= DAILY_GOAL;
+  let workoutDoneNow = false;
+  if (inWorkout && (p.workoutStep || 0) < WORKOUT.length) {
+    p.workoutStep = (p.workoutStep || 0) + 1;
+    if (p.workoutStep >= WORKOUT.length) workoutDoneNow = true;
+  }
   LS.set('dv.practice', p);
   const days = LS.get('dv.practiceDays', []);
   if (!days.includes(ymd(new Date()))) { days.push(ymd(new Date())); LS.set('dv.practiceDays', days.slice(-400)); }
-  renderPracticeStats();
-  if (goalNow) msg += " You reached today's goal! Great work.";
+  if (workoutDoneNow) msg += ' Workout complete! Wonderful job today.';
+  else if (goalNow) msg += " You reached today's goal! Great work.";
   else if (firstToday && practiceStreak() >= 2) msg += ' That is ' + practiceStreak() + ' days in a row!';
+  renderPracticeStats();
+  showExercise();
+  if (inWorkout && !workoutDoneNow && p.workoutStep < WORKOUT.length) $('#practiceStart').textContent = 'Start next';
+  else if (!inWorkout) $('#practiceStart').textContent = 'Try again';
   $('#practiceResult').textContent = msg;
   $('#practiceResult').classList.toggle('win', star);
-  if (goalNow || record) celebrate(true);
+  if (workoutDoneNow || goalNow || record) celebrate(true);
   else if (star) celebrate(false);
   setTimeout(() => say(msg), star ? 900 : 0);
-  if (goalNow) tellFamilyPractice(p);
+  if ((workoutDoneNow || goalNow) && !p.familyTold) {
+    p.familyTold = true;
+    LS.set('dv.practice', p);
+    tellFamilyPractice(p, workoutDoneNow);
+  }
 }
 
 // ---------- Wake lock ----------
@@ -2598,10 +2793,13 @@ $('#boardGrid').addEventListener('click', e => {
   const b = e.target.closest('button'); if (!b) return;
   const t = settings.phrases[Number(b.dataset.idx)]; if (!t) return;
   if (!guarded('b' + t)) return;
+  if (phraseEditing) { removePhraseAt(Number(b.dataset.idx)); return; }
   closeBoard();
   speakWhole(t);
 });
 $('#closeBoard').addEventListener('click', closeBoard);
+$('#editPhrases').addEventListener('click', () => setPhraseEditing(!phraseEditing));
+$('#undoRemove').addEventListener('click', undoRemovePhrase);
 $('#allPhrases').addEventListener('click', () => { if (guarded('allPhrases')) openBoard(); });
 $('#addTyping').addEventListener('click', () => { if (guarded('addTyping')) addFromBoard(typingText()); });
 $('#addLastBoard').addEventListener('click', () => { if (guarded('addLastBoard')) addFromBoard(lastSaid); });
