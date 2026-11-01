@@ -35,6 +35,7 @@ body { margin: 0; }
   --board-line: rgba(255, 255, 255, 0.18);
   --tray: rgba(11, 31, 58, 0.08);
   --sky: #74acdf;
+  --sky-fg: #0b1f3a;
   --lv1: #c62828; --lv2: #df6a2b; --lv3: #b8901a; --lv4: #4b9a47; --lv5: #2a7a33;
   --markings: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 600' preserveAspectRatio='none'%3E%3Cg fill='none' stroke='white' stroke-opacity='0.6' stroke-width='3'%3E%3Crect x='20' y='20' width='960' height='560' vector-effect='non-scaling-stroke'/%3E%3Cpath d='M500 20V580' vector-effect='non-scaling-stroke'/%3E%3Crect x='20' y='170' width='130' height='260' vector-effect='non-scaling-stroke'/%3E%3Crect x='850' y='170' width='130' height='260' vector-effect='non-scaling-stroke'/%3E%3Crect x='20' y='240' width='45' height='120' vector-effect='non-scaling-stroke'/%3E%3Crect x='935' y='240' width='45' height='120' vector-effect='non-scaling-stroke'/%3E%3C/g%3E%3C/svg%3E");
   --circle: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Ccircle cx='100' cy='100' r='90' fill='none' stroke='white' stroke-opacity='0.6' stroke-width='2.5'/%3E%3Ccircle cx='100' cy='100' r='4' fill='white' fill-opacity='0.6'/%3E%3C/svg%3E");
@@ -87,10 +88,19 @@ body {
   background-position: center, center, 0 0;
   background-size: auto 46%, 100% 100%, auto;
 }
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) body { background-blend-mode: soft-light, soft-light, normal; }
+/* Themes set these from script; the Argentina pitch above is the fallback until then */
+body.skinned {
+  background-color: var(--skin-base);
+  background-image: var(--skin-image);
+  background-repeat: var(--skin-repeat);
+  background-position: var(--skin-pos);
+  background-size: var(--skin-size);
 }
-:root[data-theme="dark"] body { background-blend-mode: soft-light, soft-light, normal; }
+/* Night: dim whatever theme is showing so the white tiles don't glare */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) body { box-shadow: inset 0 0 0 100vmax rgba(3, 10, 22, 0.55); }
+}
+:root[data-theme="dark"] body { box-shadow: inset 0 0 0 100vmax rgba(3, 10, 22, 0.55); }
 .stars { align-self: center; color: var(--accent); font-size: 1.15rem; letter-spacing: 0.12em; text-shadow: 0 1px 0 rgba(11, 31, 58, 0.35); padding: 0 4px; white-space: nowrap; }
 button { font: inherit; color: inherit; cursor: pointer; touch-action: manipulation; }
 button:focus-visible, select:focus-visible, input:focus-visible, textarea:focus-visible { outline: 3px solid var(--k-desc); outline-offset: 2px; }
@@ -338,6 +348,9 @@ input, textarea { -webkit-user-select: text; user-select: text; }
 .inbox-label { grid-column: 1; color: var(--muted); font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; font-size: 0.9rem; }
 .inbox p { grid-column: 1; margin: 0; font-size: clamp(1.8rem, 4.5vw, 3.2rem); font-weight: 700; line-height: 1.15; overflow-wrap: anywhere; }
 .inbox .btn { grid-column: 2; grid-row: 1 / span 2; }
+.inbox.reminder { border-color: var(--accent); z-index: 29; }
+.reminder-btns { grid-column: 2; grid-row: 1 / span 2; display: flex; flex-wrap: wrap; gap: 10px; justify-content: flex-end; }
+.reminder-btns .btn { grid-column: auto; grid-row: auto; }
 
 /* Family screen */
 .family { position: fixed; inset: 0; z-index: 10; background: var(--bg); overflow-y: auto; user-select: text; -webkit-user-select: text; }
@@ -386,7 +399,8 @@ input, textarea { -webkit-user-select: text; user-select: text; }
 /* Short screens (laptops, browser tabs with toolbars): tighten everything around the word grid */
 @media (max-height: 700px) and (min-width: 721px) {
   #app { gap: 6px; padding-block: 6px; }
-  .msg { height: calc(60px * var(--s)); font-size: calc(1.65rem * var(--s)); padding: 8px 14px; }
+  .msg { height: calc(68px * var(--s)); font-size: calc(1.55rem * var(--s)); padding: 22px 14px 6px; }
+  .msg::after { top: 4px; font-size: 0.72rem; }
   .actions .speak { font-size: calc(1.35rem * var(--s)); }
   .actions .speak svg, .actions .speak .ball { width: 26px; height: 26px; }
   .actions .ans.help { font-size: calc(1.45rem * var(--s)); }
@@ -400,8 +414,12 @@ input, textarea { -webkit-user-select: text; user-select: text; }
 }
 /* ---------- Argentina look: scoreboard on top, white tiles, keyboard tray ---------- */
 .top { background: var(--board); border-radius: 20px; padding: 8px; gap: 8px; box-shadow: 0 8px 22px rgba(11, 31, 58, 0.28); }
-.msg { position: relative; background: transparent; border: 0; box-shadow: none; color: var(--board-fg); padding-right: 74px; }
-.msg::after { content: "\2605\2605\2605"; position: absolute; top: 10px; right: 14px; color: var(--accent); font-size: 0.9rem; letter-spacing: 0.15em; }
+.msg { position: relative; background: transparent; border: 0; box-shadow: none; color: var(--board-fg); padding-top: 26px; }
+.msg::after {
+  content: var(--badge, "\2605\2605\2605"); position: absolute; top: 7px; right: 14px; max-width: 75%;
+  color: var(--accent); font-size: 0.8rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
 .msg .hint { color: var(--board-muted); }
 .msg .caret { background: var(--accent); }
 .msg .last-label { color: var(--accent); text-transform: uppercase; letter-spacing: 0.14em; font-weight: 700; font-size: 0.42em; }
@@ -419,10 +437,10 @@ input, textarea { -webkit-user-select: text; user-select: text; }
 .chip { box-shadow: 0 1px 2px rgba(11, 31, 58, 0.12); }
 .chiprow { min-height: calc(76px * var(--s)); }
 .chip.all {
-  background: var(--sky); color: #0b1f3a; border: 0; min-width: calc(300px * var(--s));
+  background: var(--sky); color: var(--sky-fg); border: 0; min-width: calc(300px * var(--s));
   font-size: calc(1.85rem * var(--s)); gap: 14px; padding: 8px 34px; box-shadow: 0 4px 12px rgba(11, 31, 58, 0.22);
 }
-.chip.all svg { color: #0b1f3a; width: 34px; height: 34px; }
+.chip.all svg { color: var(--sky-fg); width: 34px; height: 34px; }
 @media (max-height: 700px) and (min-width: 721px) {
   .chiprow { min-height: calc(58px * var(--s)); }
   .chip.all { font-size: calc(1.5rem * var(--s)); min-width: calc(250px * var(--s)); }
@@ -492,7 +510,7 @@ input, textarea { -webkit-user-select: text; user-select: text; }
 .history-row .dot b { color: var(--fg); font-weight: 400; }
 .remote { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; }
 .remote button { min-height: calc(120px * var(--s)); background: var(--surface); border: 0; border-radius: 20px; font-size: calc(1.6rem * var(--s)); font-weight: 700; box-shadow: 0 6px 16px rgba(11, 31, 58, 0.1); }
-.remote button.vol { background: var(--sky); color: #0b1f3a; }
+.remote button.vol { background: var(--sky); color: var(--sky-fg); }
 .remote button:active { transform: scale(0.97); }
 @media (max-width: 720px) { .remote { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 .practice-modes { align-self: flex-start; }
@@ -614,6 +632,15 @@ input, textarea { -webkit-user-select: text; user-select: text; }
   </div>
 </div>
 
+<div class="inbox reminder" id="reminder" hidden>
+  <span class="inbox-label">Reminder</span>
+  <p id="reminderText"></p>
+  <div class="reminder-btns">
+    <button class="btn big" id="reminderSay" hidden></button>
+    <button class="btn primary big" id="reminderClose">OK</button>
+  </div>
+</div>
+
 <div class="inbox" id="inbox" hidden>
   <span class="inbox-label">Message for you</span>
   <p id="inboxText"></p>
@@ -662,6 +689,35 @@ input, textarea { -webkit-user-select: text; user-select: text; }
         <input type="text" id="tvName" autocomplete="off" placeholder="Fire TV">
       </label>
       <div class="row-btns"><button class="btn primary" id="saveTv">Save</button><button class="btn" id="testTv">Test: turn the volume up</button></div>
+    </section>
+
+    <section>
+      <h2>Theme</h2>
+      <p>Automatic picks a holiday theme on holidays, a team theme when Argentina, Barcelona or the Spurs play that day, and Argentina the rest of the time.</p>
+      <label for="themeSel">Theme
+        <select id="themeSel">
+          <option value="auto">Automatic (holidays and game days)</option>
+          <option value="argentina">Argentina</option>
+          <option value="spurs">San Antonio Spurs</option>
+          <option value="barcelona">FC Barcelona</option>
+          <option value="birthday">Birthday</option>
+          <option value="christmas">Christmas</option>
+          <option value="newyear">New Year</option>
+          <option value="thanksgiving">Thanksgiving</option>
+          <option value="halloween">Halloween</option>
+          <option value="ramadan">Ramadan</option>
+          <option value="eid">Eid</option>
+          <option value="july4">4th of July</option>
+          <option value="valentines">Valentine's Day</option>
+        </select>
+      </label>
+      <label for="birthday">His birthday
+        <input type="date" id="birthday">
+      </label>
+      <label for="events">Reminders for him, one per line as month-day = what it is
+        <textarea id="events" placeholder="02-01 = Mom's birthday"></textarea>
+      </label>
+      <div class="row-btns"><button class="btn primary" id="saveTheme">Save</button><span class="screen-status" id="themeNow"></span></div>
     </section>
 
     <section>
@@ -1037,6 +1093,8 @@ function importSetup() {
     if (d.sayAs && typeof d.sayAs === 'object') settings.sayAs = d.sayAs;
     if (d.boost && typeof d.boost === 'object') { BOOST = d.boost; LS.set('dv.boost', BOOST); }
     if (typeof d.familyCode === 'string' && CODE_RE.test(d.familyCode)) settings.familyCode = d.familyCode;
+    if (typeof d.birthday === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(d.birthday)) settings.birthday = d.birthday;
+    if (Array.isArray(d.events)) settings.events = d.events.filter(e => e && /^\d{2}-\d{2}$/.test(e.md) && typeof e.title === 'string');
     LS.set('dv.settings', settings);
     return true;
   } catch (e) {
@@ -1319,8 +1377,12 @@ function deleteWord() {
 function clearAll() { state.words = []; state.partial = ''; render(); }
 
 let lastTap = { id: null, t: 0 };
+// Pop-ups wait while he's actively tapping, but a half-finished sentence left for hours doesn't block them
+let lastActivity = 0;
+const busyTyping = () => Date.now() - lastActivity < 60000;
 function guarded(id) {
   const now = Date.now();
+  lastActivity = now;
   if (settings.guard > 0 && lastTap.id === id && now - lastTap.t < settings.guard) return false;
   lastTap = { id, t: now };
   return true;
@@ -1806,6 +1868,10 @@ function openSettings() {
   $('#myWords').value = settings.myWords.join(', ');
   $('#sayAs').value = sayAsText();
   $('#tvName').value = settings.tvName || '';
+  $('#themeSel').value = settings.theme || 'auto';
+  $('#birthday').value = settings.birthday || '';
+  $('#events').value = eventsText();
+  updateTheme();
   renderAlertSettings(); alertStatus('');
   applyScale(); renderPhraseList(); renderLearnInfo();
   $('#resetRow').hidden = false; $('#confirmRow').hidden = true;
@@ -1852,6 +1918,214 @@ const fallUrl = () => NTFY + topics().help + '/publish?' + new URLSearchParams({
   message: ALERTS.fall.phone, title: ALERTS.fall.title, priority: '5', tags: 'fall,rotating_light', actions: ackAction()
 });
 const alertStatus = t => { $('#alertStatus').textContent = t; };
+
+// ---------- Themes: holidays, game days, birthday ----------
+const svgUrl = s => 'url("data:image/svg+xml,' + encodeURIComponent(s) + '")';
+const NS = "xmlns='http://www.w3.org/2000/svg'";
+const starPts = (cx, cy, r) => Array.from({ length: 10 }, (_, i) => {
+  const a = Math.PI / 5 * i - Math.PI / 2, rr = i % 2 ? r * 0.42 : r;
+  return (cx + rr * Math.cos(a)).toFixed(1) + ',' + (cy + rr * Math.sin(a)).toFixed(1);
+}).join(' ');
+const crescent = (x, y, s, c, o) => "<path transform='translate(" + x + ' ' + y + ') scale(' + s + ")' d='M0-18A18 18 0 1 0 0 18A13 13 0 1 1 0-18Z' fill='" + c + "' fill-opacity='" + o + "'/>";
+const PAT = {
+  snow: '<svg ' + NS + " width='120' height='120'><g stroke='#fff' stroke-opacity='.35' stroke-width='2' stroke-linecap='round' fill='none'><g transform='translate(30 34)'><path d='M0-14V14M-12-7L12 7M-12 7L12-7M0-14l-3-3M0-14l3-3M0 14l-3 3M0 14l3 3'/></g><g transform='translate(88 86) scale(.7)'><path d='M0-14V14M-12-7L12 7M-12 7L12-7'/></g></g><circle cx='92' cy='26' r='2' fill='#fff' fill-opacity='.4'/><circle cx='20' cy='96' r='2.5' fill='#fff' fill-opacity='.35'/></svg>",
+  confetti: '<svg ' + NS + " width='160' height='160'><g fill-opacity='.6'><rect x='14' y='20' width='11' height='4' rx='1' fill='#f2c94c' transform='rotate(25 19 22)'/><rect x='96' y='40' width='12' height='4' rx='1' fill='#dfe6f0' transform='rotate(-30 102 42)'/><circle cx='60' cy='70' r='3' fill='#f2c94c'/><circle cx='130' cy='110' r='3.5' fill='#e86fa0'/><rect x='30' y='120' width='10' height='4' rx='1' fill='#7fd1ff' transform='rotate(60 35 122)'/><rect x='118' y='140' width='9' height='4' rx='1' fill='#f2c94c' transform='rotate(-15 122 142)'/><circle cx='80' cy='22' r='2' fill='#dfe6f0'/><circle cx='22' cy='72' r='2' fill='#e86fa0'/></g></svg>",
+  balloons: '<svg ' + NS + " width='200' height='200'><g fill-opacity='.5'><ellipse cx='40' cy='48' rx='16' ry='20' fill='#ff6f91'/><ellipse cx='150' cy='118' rx='14' ry='18' fill='#ffd166'/><ellipse cx='112' cy='36' rx='12' ry='15' fill='#06d6a0'/></g><g fill='none' stroke='#5b2a86' stroke-opacity='.35' stroke-width='1.5'><path d='M40 68q-6 14 4 28'/><path d='M150 136q6 12-4 26'/><path d='M112 51q-5 10 3 22'/></g><g fill-opacity='.55'><rect x='70' y='150' width='10' height='4' rx='1' fill='#5b2a86' transform='rotate(30 75 152)'/><circle cx='20' cy='150' r='3' fill='#ff6f91'/><circle cx='180' cy='30' r='3' fill='#06d6a0'/><rect x='160' y='180' width='9' height='4' rx='1' fill='#ffd166' transform='rotate(-25 164 182)'/></g></svg>",
+  leaves: '<svg ' + NS + " width='140' height='140'><g transform='translate(34 36) rotate(-30)'><path d='M0-16C10-8 10 8 0 16C-10 8-10-8 0-16Z' fill='#7a2e0b' fill-opacity='.3'/><path d='M0-14V18' stroke='#7a2e0b' stroke-opacity='.35'/></g><g transform='translate(100 98) rotate(40) scale(.8)'><path d='M0-16C10-8 10 8 0 16C-10 8-10-8 0-16Z' fill='#f6c66b' fill-opacity='.4'/><path d='M0-14V18' stroke='#7a2e0b' stroke-opacity='.3'/></g><g transform='translate(106 28) rotate(110) scale(.6)'><path d='M0-16C10-8 10 8 0 16C-10 8-10-8 0-16Z' fill='#8f3d10' fill-opacity='.3'/></g></svg>",
+  spooky: '<svg ' + NS + " width='180' height='180'><g transform='translate(44 52)' fill='#ff7a1a' fill-opacity='.35'><ellipse rx='18' ry='15'/><ellipse cx='-9' rx='10' ry='14'/><ellipse cx='9' rx='10' ry='14'/><rect x='-2' y='-21' width='4' height='7' fill='#4caf50'/></g><path transform='translate(130 120)' d='M-20 0Q-12-10-4-4L0-8L4-4Q12-10 20 0Q12-2 8 4Q4 0 0 4Q-4 0-8 4Q-12-2-20 0Z' fill='#0e0716' fill-opacity='.55'/><circle cx='150' cy='34' r='2' fill='#fff' fill-opacity='.35'/><circle cx='30' cy='150' r='2' fill='#fff' fill-opacity='.3'/></svg>",
+  crescent: '<svg ' + NS + " width='160' height='160'>" + crescent(42, 44, 1, '#d9a520', '.45') + "<polygon points='" + starPts(118, 40, 7) + "' fill='#d9a520' fill-opacity='.45'/><polygon points='" + starPts(110, 120, 5) + "' fill='#d9a520' fill-opacity='.35'/><polygon points='" + starPts(36, 124, 4) + "' fill='#fff' fill-opacity='.3'/></svg>",
+  lantern: '<svg ' + NS + " width='180' height='180'><g transform='translate(50 40)' fill='#e8b84a' fill-opacity='.42'><path d='M-2-22h4v6h-4z'/><path d='M-12-16h24l-4 6h-16z'/><rect x='-11' y='-10' width='22' height='30' rx='5'/><path d='M-12 20h24l-4 6h-16z'/></g>" + crescent(132, 118, 0.9, '#e8b84a', '.4') + "<polygon points='" + starPts(140, 40, 5) + "' fill='#e8b84a' fill-opacity='.35'/><polygon points='" + starPts(40, 140, 4) + "' fill='#fff' fill-opacity='.3'/></svg>",
+  stars: '<svg ' + NS + " width='140' height='140'><polygon points='" + starPts(36, 36, 10) + "' fill='#1b2a5c' fill-opacity='.35'/><polygon points='" + starPts(104, 100, 8) + "' fill='#1b2a5c' fill-opacity='.3'/></svg>",
+  hearts: '<svg ' + NS + " width='140' height='140'><path transform='translate(38 40) scale(1.4)' d='M0 6C-12-4-8-16 0-9C8-16 12-4 0 6Z' fill='#e0245e' fill-opacity='.35'/><path transform='translate(104 102)' d='M0 6C-12-4-8-16 0-9C8-16 12-4 0 6Z' fill='#e0245e' fill-opacity='.3'/></svg>"
+};
+const fieldCircle = c => '<svg ' + NS + " viewBox='0 0 200 200'><circle cx='100' cy='100' r='90' fill='none' stroke='" + c + "' stroke-opacity='.55' stroke-width='2.5'/><circle cx='100' cy='100' r='4' fill='" + c + "' fill-opacity='.55'/></svg>";
+const VE = " vector-effect='non-scaling-stroke'";
+const pitchLines = c => '<svg ' + NS + " viewBox='0 0 1000 600' preserveAspectRatio='none'><g fill='none' stroke='" + c + "' stroke-opacity='.55' stroke-width='3'><rect x='20' y='20' width='960' height='560'" + VE + "/><path d='M500 20V580'" + VE + "/><rect x='20' y='170' width='130' height='260'" + VE + "/><rect x='850' y='170' width='130' height='260'" + VE + "/><rect x='20' y='240' width='45' height='120'" + VE + "/><rect x='935' y='240' width='45' height='120'" + VE + '/></g></svg>';
+const courtLines = c => '<svg ' + NS + " viewBox='0 0 1000 600' preserveAspectRatio='none'><g fill='none' stroke='" + c + "' stroke-opacity='.3' stroke-width='3'><rect x='20' y='20' width='960' height='560'" + VE + "/><path d='M500 20V580'" + VE + "/><rect x='20' y='200' width='200' height='200'" + VE + "/><rect x='780' y='200' width='200' height='200'" + VE + "/><path d='M20 60H140A270 270 0 0 1 140 540H20'" + VE + "/><path d='M980 60H860A270 270 0 0 0 860 540H980'" + VE + '/></g></svg>';
+
+const SKINS = {
+  argentina: { name: 'Argentina', a: '#a9cdee', b: '#cfe3f5', stripe: 10, field: 'pitch', line: '#ffffff', board: '#0b1f3a', accent: '#f6b40e', accentFg: '#2a1d00', sky: '#74acdf', skyFg: '#0b1f3a', badge: '★★★' },
+  spurs: { name: 'San Antonio Spurs', a: '#c4ced4', b: '#dde3e7', stripe: 8, field: 'court', line: '#111111', board: '#000000', accent: '#00b2a9', accentFg: '#00211f', sky: '#111111', skyFg: '#ffffff', badge: 'Go Spurs Go' },
+  barcelona: { name: 'FC Barcelona', a: '#a50044', b: '#004d98', stripe: 10, field: 'pitch', line: '#ffffff', board: '#0a1a3a', accent: '#edbb00', accentFg: '#2a1d00', sky: '#ffffff', skyFg: '#004d98', badge: 'Visca el Barça' },
+  birthday: { name: 'Birthday', a: '#ffe3ec', b: '#fff1d6', stripe: 12, pattern: 'balloons', size: 200, board: '#5b2a86', accent: '#ff6f91', accentFg: '#ffffff', sky: '#5b2a86', skyFg: '#ffffff', badge: 'Happy Birthday!' },
+  christmas: { name: 'Christmas', a: '#0f5132', b: '#135f3c', stripe: 10, pattern: 'snow', size: 120, board: '#8b1a1a', accent: '#f6c344', accentFg: '#3a2a00', sky: '#c0392b', skyFg: '#ffffff', badge: 'Merry Christmas' },
+  newyear: { name: 'New Year', a: '#0d1b3a', b: '#11234a', stripe: 10, pattern: 'confetti', size: 160, board: '#050c1c', accent: '#f2c94c', accentFg: '#2a1d00', sky: '#dfe6f0', skyFg: '#0d1b3a', badge: 'Happy New Year' },
+  thanksgiving: { name: 'Thanksgiving', a: '#c2692a', b: '#cf7b36', stripe: 10, pattern: 'leaves', size: 140, board: '#3e2210', accent: '#f2b33d', accentFg: '#3a2400', sky: '#7b3f1d', skyFg: '#ffffff', badge: 'Happy Thanksgiving' },
+  halloween: { name: 'Halloween', a: '#2a1340', b: '#321850', stripe: 10, pattern: 'spooky', size: 180, board: '#0e0716', accent: '#ff7a1a', accentFg: '#1e0b00', sky: '#8e44ad', skyFg: '#ffffff', badge: 'Happy Halloween' },
+  ramadan: { name: 'Ramadan', a: '#1a1d4a', b: '#20245a', stripe: 10, pattern: 'lantern', size: 180, board: '#0c0e2a', accent: '#e8b84a', accentFg: '#2a1d00', sky: '#e8d9a8', skyFg: '#1a1d4a', badge: 'Ramadan Kareem' },
+  eid: { name: 'Eid', a: '#0d4d4a', b: '#105955', stripe: 10, pattern: 'crescent', size: 160, board: '#082d2b', accent: '#d9a520', accentFg: '#2b1f00', sky: '#e9d8a6', skyFg: '#0d4d4a', badge: 'Eid Mubarak' },
+  july4: { name: '4th of July', a: '#b22234', b: '#f3e6e6', stripe: 7.7, pattern: 'stars', size: 140, board: '#1b2a5c', accent: '#ffffff', accentFg: '#b22234', sky: '#1b2a5c', skyFg: '#ffffff', badge: 'Happy 4th of July' },
+  valentines: { name: "Valentine's Day", a: '#f6c1cf', b: '#fadbe4', stripe: 10, pattern: 'hearts', size: 140, board: '#6d0f2f', accent: '#ff4d79', accentFg: '#ffffff', sky: '#c2185b', skyFg: '#ffffff', badge: "Happy Valentine's Day" }
+};
+let currentSkin = null;
+function applySkin(key, badge) {
+  const sk = SKINS[key] || SKINS.argentina;
+  const layers = [], rep = [], pos = [], size = [];
+  if (sk.field) {
+    layers.push(svgUrl(fieldCircle(sk.line))); rep.push('no-repeat'); pos.push('center'); size.push('auto 46%');
+    layers.push(svgUrl(sk.field === 'court' ? courtLines(sk.line) : pitchLines(sk.line))); rep.push('no-repeat'); pos.push('center'); size.push('100% 100%');
+  }
+  if (sk.pattern) { layers.push(svgUrl(PAT[sk.pattern])); rep.push('repeat'); pos.push('0 0'); size.push(sk.size + 'px ' + sk.size + 'px'); }
+  layers.push('repeating-linear-gradient(90deg, ' + sk.a + ' 0 ' + sk.stripe + '%, ' + sk.b + ' ' + sk.stripe + '% ' + sk.stripe * 2 + '%)');
+  rep.push('repeat'); pos.push('0 0'); size.push('auto');
+  const st = document.documentElement.style;
+  st.setProperty('--skin-base', sk.a);
+  st.setProperty('--skin-image', layers.join(', '));
+  st.setProperty('--skin-repeat', rep.join(', '));
+  st.setProperty('--skin-pos', pos.join(', '));
+  st.setProperty('--skin-size', size.join(', '));
+  st.setProperty('--board', sk.board);
+  st.setProperty('--accent', sk.accent);
+  st.setProperty('--accent-fg', sk.accentFg);
+  st.setProperty('--sky', sk.sky);
+  st.setProperty('--sky-fg', sk.skyFg);
+  st.setProperty('--badge', JSON.stringify(badge || sk.badge));
+  document.body.classList.add('skinned');
+  const meta = document.querySelector('meta[name="theme-color"]');
+  if (meta) meta.setAttribute('content', sk.board);
+  currentSkin = key;
+}
+
+// Islamic holidays follow the moon, so these dates are close estimates (sighting can shift them a day)
+const ISLAMIC = {
+  ramadan: ['2026-02-18', '2027-02-08', '2028-01-28', '2029-01-16', '2030-01-06'],
+  fitr: ['2026-03-20', '2027-03-10', '2028-02-27', '2029-02-14', '2030-02-05'],
+  adha: ['2026-05-27', '2027-05-16', '2028-05-05', '2029-04-24', '2030-04-13']
+};
+const ymd = d => d.toLocaleDateString('en-CA');
+const dayDiff = (from, to) => Math.round((new Date(to + 'T12:00') - new Date(from + 'T12:00')) / 864e5);
+function nthWeekday(year, month, weekday, n) {
+  const first = new Date(year, month, 1);
+  return new Date(year, month, 1 + ((weekday - first.getDay() + 7) % 7) + 7 * (n - 1));
+}
+const ordinal = n => n + (n % 100 >= 11 && n % 100 <= 13 ? 'th' : ['th', 'st', 'nd', 'rd'][n % 10] || 'th');
+// big: the day itself (beats a game day); otherwise a holiday season (a game day wins)
+function holidayFor(d) {
+  const m = d.getMonth() + 1, day = d.getDate(), y = d.getFullYear(), s = ymd(d);
+  const bd = /^\d{4}-\d{2}-\d{2}$/.test(settings.birthday || '') ? settings.birthday : '';
+  if (bd && +bd.slice(5, 7) === m && +bd.slice(8, 10) === day) {
+    const age = y - +bd.slice(0, 4);
+    return { skin: 'birthday', big: true, badge: age > 0 && age < 120 ? 'Happy ' + ordinal(age) + ' Birthday!' : 'Happy Birthday!' };
+  }
+  for (const f of ISLAMIC.fitr) { const k = dayDiff(f, s); if (k === 0) return { skin: 'eid', big: true }; if (k >= -1 && k <= 2) return { skin: 'eid' }; }
+  for (const a of ISLAMIC.adha) { const k = dayDiff(a, s); if (k === 0) return { skin: 'eid', big: true }; if (k >= -1 && k <= 3) return { skin: 'eid' }; }
+  if ((m === 12 && day === 31) || (m === 1 && day === 1)) return { skin: 'newyear', big: true };
+  if (m === 12 && (day === 24 || day === 25)) return { skin: 'christmas', big: true };
+  const tk = dayDiff(ymd(nthWeekday(y, 10, 4, 4)), s);
+  if (tk === 0) return { skin: 'thanksgiving', big: true };
+  if (m === 10 && day === 31) return { skin: 'halloween', big: true };
+  if (m === 7 && day === 4) return { skin: 'july4', big: true };
+  if (m === 2 && day === 14) return { skin: 'valentines', big: true };
+  if ((m === 5 && day === 25) || (m === 7 && day === 9)) return { skin: 'argentina', big: true, badge: '¡Viva Argentina!' };
+  if ((m === 12 && day >= 30) || (m === 1 && day <= 2)) return { skin: 'newyear' };
+  if (m === 12 && day <= 26) return { skin: 'christmas' };
+  if (tk >= -3 && tk <= 3) return { skin: 'thanksgiving' };
+  if (m === 10 && day >= 24) return { skin: 'halloween' };
+  if (m === 7 && day === 3) return { skin: 'july4' };
+  if (m === 2 && day === 13) return { skin: 'valentines' };
+  for (let i = 0; i < ISLAMIC.ramadan.length; i++) {
+    const k = dayDiff(ISLAMIC.ramadan[i], s), end = dayDiff(ISLAMIC.ramadan[i], ISLAMIC.fitr[i]) - 2;
+    if (k >= 0 && k <= end) return { skin: 'ramadan' };
+  }
+  return null;
+}
+
+// Game days from ESPN's public schedules (free, no account). Argentina first, then Barça, then the Spurs.
+const TEAMS = [
+  { skin: 'argentina', label: 'Argentina', id: '202', url: 'https://site.api.espn.com/apis/site/v2/sports/soccer/all/teams/202/schedule?fixture=true' },
+  { skin: 'barcelona', label: 'Barça', id: '83', url: 'https://site.api.espn.com/apis/site/v2/sports/soccer/all/teams/83/schedule?fixture=true' },
+  { skin: 'spurs', label: 'Spurs', id: '24', url: 'https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/sa/schedule' }
+];
+let games = (LS.get('dv.games', {}).games) || [];
+async function refreshGames(force) {
+  const cache = LS.get('dv.games', null);
+  if (!force && cache && Date.now() - cache.at < 6 * 3600e3) return;
+  if (!navigator.onLine) return;
+  const found = [];
+  await Promise.all(TEAMS.map(async t => {
+    try {
+      const d = await (await fetch(t.url)).json();
+      (d.events || []).forEach(e => {
+        const c = e.competitions && e.competitions[0];
+        if (!c || typeof e.date !== 'string') return;
+        const when = Date.parse(e.date);
+        if (!(when > Date.now() - 2 * 864e5 && when < Date.now() + 30 * 864e5)) return;
+        const opp = (c.competitors || []).find(x => x.team && x.team.id !== t.id);
+        found.push({ skin: t.skin, label: t.label, date: e.date, opp: opp ? (opp.team.shortDisplayName || opp.team.displayName || '') : '', timed: c.timeValid !== false });
+      });
+    } catch (err) {}
+  }));
+  if (found.length) { games = found; LS.set('dv.games', { at: Date.now(), games }); }
+}
+function gameFor(d) {
+  const day = ymd(d);
+  const today = games.filter(g => ymd(new Date(g.date)) === day);
+  for (const t of TEAMS) { const g = today.find(x => x.skin === t.skin); if (g) return g; }
+  return null;
+}
+const gameBadge = g => g.label + (g.opp ? ' vs ' + g.opp : '') + ' · ' + (g.timed ? new Date(g.date).toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' }) : 'today');
+function pickTheme(d) {
+  const h = holidayFor(d), g = gameFor(d);
+  if (h && h.big) return { skin: h.skin, badge: (h.badge || SKINS[h.skin].badge) + (g ? ' · Game day' : '') };
+  if (g) return { skin: g.skin, badge: gameBadge(g) };
+  if (h) return { skin: h.skin, badge: h.badge || SKINS[h.skin].badge };
+  return { skin: 'argentina', badge: SKINS.argentina.badge };
+}
+// Reminders for him: shown the day before and on the day, with a ready-made thing to say
+const eventList = () => (Array.isArray(settings.events) ? settings.events : []).filter(e => e && /^\d{2}-\d{2}$/.test(e.md) && typeof e.title === 'string' && e.title);
+const eventsText = () => eventList().map(e => e.md + ' = ' + e.title).join('\n');
+function parseEvents(text) {
+  return text.split('\n').map(l => {
+    const i = l.indexOf('=');
+    if (i < 1) return null;
+    const md = l.slice(0, i).trim().replace('/', '-').replace(/^(\d)-/, '0$1-').replace(/-(\d)$/, '-0$1');
+    const title = l.slice(i + 1).trim();
+    return /^\d{2}-\d{2}$/.test(md) && title ? { md, title } : null;
+  }).filter(Boolean);
+}
+const mdOf = d => String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
+const eventsOn = d => eventList().filter(e => e.md === mdOf(d));
+function wishFor(title) {
+  const m = /^(.+?)['’]s birthday$/i.exec(title.trim());
+  return m ? 'Happy birthday, ' + m[1] + '! I love you.' : '';
+}
+let reminderQueue = [];
+function checkReminders() {
+  if (anyOverlayOpen() || !$('#reminder').hidden || busyTyping()) return;
+  const now = new Date(), tomorrow = new Date(now.getTime() + 864e5);
+  const shown = LS.get('dv.remShown', {});
+  const today = ymd(now);
+  const due = [];
+  eventsOn(now).forEach(e => { const k = today + '|' + e.md + '|today'; if (!shown[k]) due.push({ k, text: 'Today is ' + e.title + '!', wish: wishFor(e.title) }); });
+  eventsOn(tomorrow).forEach(e => { const k = today + '|' + e.md + '|tomorrow'; if (!shown[k]) due.push({ k, text: 'Tomorrow is ' + e.title + '.', wish: '' }); });
+  if (!due.length) return;
+  reminderQueue = due;
+  showNextReminder();
+}
+function showNextReminder() {
+  const r = reminderQueue.shift();
+  if (!r) { $('#reminder').hidden = true; return; }
+  const shown = LS.get('dv.remShown', {});
+  shown[r.k] = 1;
+  LS.set('dv.remShown', shown);
+  $('#reminderText').textContent = r.text;
+  const sayBtn = $('#reminderSay');
+  sayBtn.hidden = !r.wish;
+  sayBtn.textContent = r.wish ? 'Say: ' + r.wish : '';
+  sayBtn.dataset.wish = r.wish;
+  $('#reminder').hidden = false;
+  chime();
+  setTimeout(() => say(r.text), 1200);
+}
+
+function updateTheme() {
+  const t = settings.theme && settings.theme !== 'auto' && SKINS[settings.theme] ? { skin: settings.theme, badge: SKINS[settings.theme].badge } : pickTheme(new Date());
+  const ev = eventsOn(new Date())[0];
+  if (ev && (!settings.theme || settings.theme === 'auto') && t.skin !== 'birthday') t.badge += ' · ' + ev.title;
+  applySkin(t.skin, t.badge);
+  const el = $('#themeNow');
+  if (el) el.textContent = 'Showing: ' + SKINS[t.skin].name + ' (' + t.badge + ')';
+}
 
 // ---------- More screens ----------
 const todayStr = () => new Date().toLocaleDateString('en-CA');
@@ -2007,7 +2281,7 @@ function maybePromptCheckin() {
   if (st.done === todayStr()) return;
   if (st.snoozeUntil && Date.now() < st.snoozeUntil) return;
   if (new Date().getHours() < 7) return;
-  if (anyOverlayOpen() || state.words.length || state.partial) return;
+  if (anyOverlayOpen() || busyTyping()) return;
   openCheckin();
 }
 
@@ -2237,6 +2511,19 @@ $('#openGrocery').addEventListener('click', () => { renderGrocery(); $('#grocery
 $('#openCheckin').addEventListener('click', openCheckin);
 $('#openTv').addEventListener('click', () => openScreen('tv'));
 $('#remote').addEventListener('click', e => { const b = e.target.closest('button[data-tv]'); if (b && guarded('tv' + b.dataset.tv)) tvCommand(b.dataset.tv); });
+$('#saveTheme').addEventListener('click', () => {
+  settings.theme = $('#themeSel').value;
+  const b = $('#birthday').value;
+  settings.birthday = /^\d{4}-\d{2}-\d{2}$/.test(b) ? b : '';
+  settings.events = parseEvents($('#events').value);
+  $('#events').value = eventsText();
+  saveSettings();
+  updateTheme();
+  toast('Saved');
+});
+$('#themeSel').addEventListener('change', () => { settings.theme = $('#themeSel').value; updateTheme(); });
+$('#reminderClose').addEventListener('click', showNextReminder);
+$('#reminderSay').addEventListener('click', () => { const w = $('#reminderSay').dataset.wish; if (w) { say(w); record(w, { train: false }); } });
 $('#saveTv').addEventListener('click', () => { settings.tvName = $('#tvName').value.trim(); saveSettings(); toast('TV name saved'); });
 $('#testTv').addEventListener('click', () => { settings.tvName = $('#tvName').value.trim(); saveSettings(); tvCommand('up'); });
 $('#openPractice').addEventListener('click', () => { openScreen('practice'); setPracticeMode(practiceMode); renderPracticeStats(); });
@@ -2393,8 +2680,15 @@ render();
 layoutWords();
 watchBattery();
 listenForReplies();
+updateTheme();
+refreshGames().then(updateTheme);
+setInterval(() => refreshGames().then(updateTheme), 30 * 60 * 1000);
+document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') refreshGames().then(updateTheme); });
 setTimeout(maybePromptCheckin, 4000);
 setInterval(maybePromptCheckin, 5 * 60 * 1000);
+setTimeout(checkReminders, 6000);
+setInterval(checkReminders, 10 * 60 * 1000);
+document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') setTimeout(checkReminders, 3000); });
 document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') setTimeout(maybePromptCheckin, 1500); });
 if (setupLoaded) toast('His words and phrases are loaded');
 if ('serviceWorker' in navigator && location.protocol === 'https:') navigator.serviceWorker.register('sw.js').catch(() => {});
