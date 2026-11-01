@@ -295,7 +295,8 @@ button:focus-visible, select:focus-visible, input:focus-visible, textarea:focus-
 }
 /* Everything that sits on the stripes gets a solid face so it never blends into the background */
 .actions .speak { box-shadow: 0 4px 12px rgba(11, 31, 58, 0.25); }
-.actions .speak .ball { width: 38px; height: 38px; color: var(--accent-fg); }
+#speakIcon { display: grid; place-items: center; color: var(--accent-fg); }
+.actions .speak #speakIcon svg { width: 38px; height: 38px; }
 .gear { background: var(--surface); }
 .msg, .w, .chip, .ans, .tool, .key, .actions button { box-shadow: 0 2px 6px rgba(11, 31, 58, 0.12); }
 .tool { background: var(--surface); }
@@ -402,7 +403,7 @@ input, textarea { -webkit-user-select: text; user-select: text; }
   .msg { height: calc(68px * var(--s)); font-size: calc(1.55rem * var(--s)); padding: 22px 14px 6px; }
   .msg::after { top: 4px; font-size: 0.72rem; }
   .actions .speak { font-size: calc(1.35rem * var(--s)); }
-  .actions .speak svg, .actions .speak .ball { width: 26px; height: 26px; }
+  .actions .speak svg, .actions .speak #speakIcon svg { width: 26px; height: 26px; }
   .actions .ans.help { font-size: calc(1.45rem * var(--s)); }
   .ans { min-height: calc(42px * var(--s)); }
   .chiprow { min-height: calc(46px * var(--s)); }
@@ -522,6 +523,15 @@ input, textarea { -webkit-user-select: text; user-select: text; }
 .meter-target { position: absolute; top: 0; bottom: 0; width: 4px; background: var(--fg); left: 60%; opacity: 0.7; }
 .practice-result { margin: 0; font-size: calc(1.5rem * var(--s)); font-weight: 700; min-height: 1.4em; }
 .practice-note { margin: 0; color: var(--muted); max-width: 65ch; line-height: 1.45; }
+.practice-stars { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 14px; font-weight: 700; font-size: calc(1.2rem * var(--s)); }
+.practice-stars .row { display: flex; gap: 4px; font-size: calc(2rem * var(--s)); line-height: 1; letter-spacing: 0; }
+.practice-stars .on { color: var(--accent); text-shadow: 0 1px 0 rgba(11, 31, 58, 0.3); }
+.practice-stars .off { color: var(--line); }
+.practice-stars .streak { color: var(--k-verb); }
+.practice-result.win { color: var(--k-verb); }
+.confetti { position: fixed; inset: 0; pointer-events: none; z-index: 60; overflow: hidden; }
+.confetti i { position: absolute; top: -20px; width: 10px; height: 16px; border-radius: 2px; animation: fall linear forwards; }
+@keyframes fall { to { transform: translate3d(var(--dx), 110vh, 0) rotate(var(--rot)); } }
 @media (max-width: 720px) {
   .faces { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .history-row { grid-template-columns: 1fr; }
@@ -529,6 +539,7 @@ input, textarea { -webkit-user-select: text; user-select: text; }
 
 @media (prefers-reduced-motion: reduce) {
   .msg .caret, .actions .speak.talking, .gear.holding .ring { animation: none; }
+  .confetti { display: none; }
   .gear.holding .ring { clip-path: none; }
   .w:active, .key:active, .chip:active, .actions button:active { transform: none; }
 }
@@ -541,7 +552,7 @@ input, textarea { -webkit-user-select: text; user-select: text; }
     <div class="msg" id="msg" aria-live="polite"></div>
     <div class="actions">
       <button class="speak" id="speak" aria-label="Speak the sentence">
-        <svg class="ball" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10.2" fill="#fff" stroke="currentColor" stroke-width="1.6"/><path d="M12 7.3l3.7 2.7-1.4 4.4H9.7L8.3 10z" fill="currentColor"/><path d="M12 1.8v5.5M15.7 10l5.4-1.7M14.3 14.4l3.3 4.7M9.7 14.4l-3.3 4.7M8.3 10L2.9 8.3" fill="none" stroke="currentColor" stroke-width="1.4"/></svg>
+        <span id="speakIcon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10.2" fill="#fff" stroke="currentColor" stroke-width="1.6"/><path d="M12 7.3l3.7 2.7-1.4 4.4H9.7L8.3 10z" fill="currentColor"/><path d="M12 1.8v5.5M15.7 10l5.4-1.7M14.3 14.4l3.3 4.7M9.7 14.4l-3.3 4.7M8.3 10L2.9 8.3" fill="none" stroke="currentColor" stroke-width="1.4"/></svg></span>
         <span id="speakLabel">Speak</span>
       </button>
       <div class="col">
@@ -697,6 +708,7 @@ input, textarea { -webkit-user-select: text; user-select: text; }
       <label for="themeSel">Theme
         <select id="themeSel">
           <option value="auto">Automatic (holidays and game days)</option>
+          <option value="plain">No theme (plain)</option>
           <option value="argentina">Argentina</option>
           <option value="spurs">San Antonio Spurs</option>
           <option value="barcelona">FC Barcelona</option>
@@ -714,8 +726,8 @@ input, textarea { -webkit-user-select: text; user-select: text; }
       <label for="birthday">His birthday
         <input type="date" id="birthday">
       </label>
-      <label for="events">Reminders for him, one per line as month-day = what it is
-        <textarea id="events" placeholder="02-01 = Mom's birthday"></textarea>
+      <label for="events">Reminders for him, one per line: month-day = what it is | what he can say
+        <textarea id="events" placeholder="02-01 = May's birthday | Happy birthday, honey! I love you."></textarea>
       </label>
       <div class="row-btns"><button class="btn primary" id="saveTheme">Save</button><span class="screen-status" id="themeNow"></span></div>
     </section>
@@ -912,6 +924,7 @@ input, textarea { -webkit-user-select: text; user-select: text; }
     <p class="practice-say" id="practiceSay">Take a deep breath. Say "Ahhh" as loud and as long as you can.</p>
     <div class="meter" id="meter" aria-hidden="true"><div class="meter-fill" id="meterFill"></div><div class="meter-target" id="meterTarget"></div></div>
     <p class="practice-result" id="practiceResult"></p>
+    <div class="practice-stars" id="practiceStars" aria-live="polite"></div>
     <div class="screen-actions">
       <button class="btn primary big" id="practiceStart">Start</button>
       <button class="btn big" id="practiceHear" hidden>Hear it</button>
@@ -922,6 +935,7 @@ input, textarea { -webkit-user-select: text; user-select: text; }
   </div>
 </div>
 
+<div class="confetti" id="confetti" aria-hidden="true"></div>
 <div class="toast" id="toast" hidden></div>
 
 <script>
@@ -1943,7 +1957,24 @@ const VE = " vector-effect='non-scaling-stroke'";
 const pitchLines = c => '<svg ' + NS + " viewBox='0 0 1000 600' preserveAspectRatio='none'><g fill='none' stroke='" + c + "' stroke-opacity='.55' stroke-width='3'><rect x='20' y='20' width='960' height='560'" + VE + "/><path d='M500 20V580'" + VE + "/><rect x='20' y='170' width='130' height='260'" + VE + "/><rect x='850' y='170' width='130' height='260'" + VE + "/><rect x='20' y='240' width='45' height='120'" + VE + "/><rect x='935' y='240' width='45' height='120'" + VE + '/></g></svg>';
 const courtLines = c => '<svg ' + NS + " viewBox='0 0 1000 600' preserveAspectRatio='none'><g fill='none' stroke='" + c + "' stroke-opacity='.3' stroke-width='3'><rect x='20' y='20' width='960' height='560'" + VE + "/><path d='M500 20V580'" + VE + "/><rect x='20' y='200' width='200' height='200'" + VE + "/><rect x='780' y='200' width='200' height='200'" + VE + "/><path d='M20 60H140A270 270 0 0 1 140 540H20'" + VE + "/><path d='M980 60H860A270 270 0 0 0 860 540H980'" + VE + '/></g></svg>';
 
+// Speak button icon per theme, drawn in the button's ink color
+const SV = (inner) => '<svg viewBox="0 0 24 24">' + inner + '</svg>';
+const SPEAK_ICONS = {
+  speaker: SV('<path d="M4 9v6h4l5 4V5L8 9H4z" fill="currentColor"/><path d="M16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>'),
+  ball: SV('<circle cx="12" cy="12" r="10.2" fill="#fff" stroke="currentColor" stroke-width="1.6"/><path d="M12 7.3l3.7 2.7-1.4 4.4H9.7L8.3 10z" fill="currentColor"/><path d="M12 1.8v5.5M15.7 10l5.4-1.7M14.3 14.4l3.3 4.7M9.7 14.4l-3.3 4.7M8.3 10L2.9 8.3" fill="none" stroke="currentColor" stroke-width="1.4"/>'),
+  basketball: SV('<circle cx="12" cy="12" r="10.2" fill="#e8762c" stroke="currentColor" stroke-width="1.6"/><path d="M12 1.8v20.4M1.8 12h20.4M5.2 4.6c3.2 3.4 3.2 11.4 0 14.8M18.8 4.6c-3.2 3.4-3.2 11.4 0 14.8" fill="none" stroke="currentColor" stroke-width="1.4"/>'),
+  gift: SV('<rect x="3" y="9" width="18" height="12" rx="1.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M3 13h18M12 9v12" stroke="currentColor" stroke-width="2"/><path d="M12 9c-2-4.5-6.5-4.5-6.5-1.8C5.5 9 9 9 12 9zm0 0c2-4.5 6.5-4.5 6.5-1.8C18.5 9 15 9 12 9z" fill="none" stroke="currentColor" stroke-width="1.8"/>'),
+  star: SV('<polygon points="' + starPts(12, 12.5, 10.5) + '" fill="currentColor"/>'),
+  leaf: SV('<path d="M5 19C5 9 11 4 20 4c0 9-5 15-15 15z" fill="currentColor"/><path d="M5 19l9-9" stroke="#fff" stroke-opacity=".7" stroke-width="1.6" stroke-linecap="round"/>'),
+  pumpkin: SV('<ellipse cx="12" cy="14" rx="9" ry="7.5" fill="currentColor"/><path d="M12 7c0 4 0 10 0 14M7.5 8c-1.5 3-1.5 9 0 12M16.5 8c1.5 3 1.5 9 0 12" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="1.3"/><path d="M12 7V3.5h2.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>'),
+  lantern: SV('<path d="M11 1.5h2v2.5h-2z M7 4h10l-2 3H9z M8 7h8a1 1 0 0 1 1 1v9a3 3 0 0 1-3 3h-4a3 3 0 0 1-3-3V8a1 1 0 0 1 1-1z M9 20h6l-1 2.5h-4z" fill="currentColor"/><path d="M10 10v7M14 10v7" stroke="#fff" stroke-opacity=".45" stroke-width="1.2"/>'),
+  crescent: SV('<path d="M13 2.5A9.5 9.5 0 1 0 21.5 15 7.5 7.5 0 1 1 13 2.5z" fill="currentColor"/><polygon points="' + starPts(17.5, 7.5, 3.2) + '" fill="currentColor"/>'),
+  heart: SV('<path d="M12 21s-8.5-5.4-8.5-11.2A4.8 4.8 0 0 1 12 6.6a4.8 4.8 0 0 1 8.5 3.2C20.5 15.6 12 21 12 21z" fill="currentColor"/>'),
+  balloon: SV('<ellipse cx="12" cy="9.5" rx="7" ry="8" fill="currentColor"/><path d="M12 17.5l-1.5 2h3zM12 19.5c-1.5 1.5 1.5 2.5 0 4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M9 6.5a3.5 3.5 0 0 1 2.5-2" fill="none" stroke="#fff" stroke-opacity=".6" stroke-width="1.5" stroke-linecap="round"/>')
+};
+
 const SKINS = {
+  plain: { name: 'No theme', a: '#e6ebf1', b: '#e6ebf1', stripe: 50, board: '#1d2b3e', accent: '#f0ac2e', accentFg: '#1f1400', sky: '#d3dde9', skyFg: '#1d2b3e', badge: '' },
   argentina: { name: 'Argentina', a: '#a9cdee', b: '#cfe3f5', stripe: 10, field: 'pitch', line: '#ffffff', board: '#0b1f3a', accent: '#f6b40e', accentFg: '#2a1d00', sky: '#74acdf', skyFg: '#0b1f3a', badge: '★★★' },
   spurs: { name: 'San Antonio Spurs', a: '#c4ced4', b: '#dde3e7', stripe: 8, field: 'court', line: '#111111', board: '#000000', accent: '#00b2a9', accentFg: '#00211f', sky: '#111111', skyFg: '#ffffff', badge: 'Go Spurs Go' },
   barcelona: { name: 'FC Barcelona', a: '#a50044', b: '#004d98', stripe: 10, field: 'pitch', line: '#ffffff', board: '#0a1a3a', accent: '#edbb00', accentFg: '#2a1d00', sky: '#ffffff', skyFg: '#004d98', badge: 'Visca el Barça' },
@@ -1957,9 +1988,11 @@ const SKINS = {
   july4: { name: '4th of July', a: '#b22234', b: '#f3e6e6', stripe: 7.7, pattern: 'stars', size: 140, board: '#1b2a5c', accent: '#ffffff', accentFg: '#b22234', sky: '#1b2a5c', skyFg: '#ffffff', badge: 'Happy 4th of July' },
   valentines: { name: "Valentine's Day", a: '#f6c1cf', b: '#fadbe4', stripe: 10, pattern: 'hearts', size: 140, board: '#6d0f2f', accent: '#ff4d79', accentFg: '#ffffff', sky: '#c2185b', skyFg: '#ffffff', badge: "Happy Valentine's Day" }
 };
+const SKIN_ICON = { plain: 'speaker', argentina: 'ball', spurs: 'basketball', barcelona: 'ball', birthday: 'balloon', christmas: 'gift', newyear: 'star', thanksgiving: 'leaf', halloween: 'pumpkin', ramadan: 'lantern', eid: 'crescent', july4: 'star', valentines: 'heart' };
 let currentSkin = null;
 function applySkin(key, badge) {
   const sk = SKINS[key] || SKINS.argentina;
+  $('#speakIcon').innerHTML = SPEAK_ICONS[SKIN_ICON[key] || 'ball'];
   const layers = [], rep = [], pos = [], size = [];
   if (sk.field) {
     layers.push(svgUrl(fieldCircle(sk.line))); rep.push('no-repeat'); pos.push('center'); size.push('auto 46%');
@@ -2073,14 +2106,16 @@ function pickTheme(d) {
 }
 // Reminders for him: shown the day before and on the day, with a ready-made thing to say
 const eventList = () => (Array.isArray(settings.events) ? settings.events : []).filter(e => e && /^\d{2}-\d{2}$/.test(e.md) && typeof e.title === 'string' && e.title);
-const eventsText = () => eventList().map(e => e.md + ' = ' + e.title).join('\n');
+// Settings line: "02-01 = May's birthday | Happy birthday, honey! I love you."
+const eventsText = () => eventList().map(e => e.md + ' = ' + e.title + (e.say ? ' | ' + e.say : '')).join('\n');
 function parseEvents(text) {
   return text.split('\n').map(l => {
     const i = l.indexOf('=');
     if (i < 1) return null;
     const md = l.slice(0, i).trim().replace('/', '-').replace(/^(\d)-/, '0$1-').replace(/-(\d)$/, '-0$1');
-    const title = l.slice(i + 1).trim();
-    return /^\d{2}-\d{2}$/.test(md) && title ? { md, title } : null;
+    const [title, sayText] = l.slice(i + 1).split('|').map(s => s.trim());
+    if (!/^\d{2}-\d{2}$/.test(md) || !title) return null;
+    return sayText ? { md, title, say: sayText } : { md, title };
   }).filter(Boolean);
 }
 const mdOf = d => String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
@@ -2096,7 +2131,7 @@ function checkReminders() {
   const shown = LS.get('dv.remShown', {});
   const today = ymd(now);
   const due = [];
-  eventsOn(now).forEach(e => { const k = today + '|' + e.md + '|today'; if (!shown[k]) due.push({ k, text: 'Today is ' + e.title + '!', wish: wishFor(e.title) }); });
+  eventsOn(now).forEach(e => { const k = today + '|' + e.md + '|today'; if (!shown[k]) due.push({ k, text: 'Today is ' + e.title + '!', wish: typeof e.say === 'string' && e.say ? e.say : wishFor(e.title) }); });
   eventsOn(tomorrow).forEach(e => { const k = today + '|' + e.md + '|tomorrow'; if (!shown[k]) due.push({ k, text: 'Tomorrow is ' + e.title + '.', wish: '' }); });
   if (!due.length) return;
   reminderQueue = due;
@@ -2124,7 +2159,7 @@ function updateTheme() {
   if (ev && (!settings.theme || settings.theme === 'auto') && t.skin !== 'birthday') t.badge += ' · ' + ev.title;
   applySkin(t.skin, t.badge);
   const el = $('#themeNow');
-  if (el) el.textContent = 'Showing: ' + SKINS[t.skin].name + ' (' + t.badge + ')';
+  if (el) el.textContent = 'Showing: ' + SKINS[t.skin].name + (t.badge ? ' (' + t.badge + ')' : '');
 }
 
 // ---------- More screens ----------
@@ -2310,14 +2345,82 @@ function practicePhrases() {
 }
 function practiceStats() {
   const p = LS.get('dv.practice', {});
-  if (p.day !== todayStr()) { p.day = todayStr(); p.tries = 0; p.bestToday = 0; }
+  if (p.day !== todayStr()) { p.day = todayStr(); p.tries = 0; p.bestToday = 0; p.stars = 0; }
   return p;
+}
+const DAILY_GOAL = 10;
+function practiceStreak() {
+  const days = new Set(LS.get('dv.practiceDays', []));
+  let n = 0;
+  const d = new Date();
+  if (!days.has(ymd(d))) d.setDate(d.getDate() - 1);
+  while (days.has(ymd(d))) { n++; d.setDate(d.getDate() - 1); }
+  return n;
 }
 function renderPracticeStats() {
   const p = practiceStats();
   $('#practiceStats').textContent = 'Today: ' + (p.tries || 0) + (p.tries === 1 ? ' try' : ' tries')
     + (p.bestToday ? ' · Best "Ahhh" today: ' + p.bestToday.toFixed(1) + ' s' : '')
     + (p.bestEver ? ' · Personal best: ' + p.bestEver.toFixed(1) + ' s' : '');
+  const box = $('#practiceStars'); box.textContent = '';
+  const stars = Math.min(p.stars || 0, DAILY_GOAL);
+  const row = document.createElement('span'); row.className = 'row';
+  for (let i = 0; i < DAILY_GOAL; i++) { const s = document.createElement('span'); s.className = i < stars ? 'on' : 'off'; s.textContent = '★'; row.appendChild(s); }
+  box.appendChild(row);
+  const label = document.createElement('span');
+  label.textContent = (p.stars || 0) >= DAILY_GOAL ? "Today's goal done!" : stars + ' of ' + DAILY_GOAL + ' stars today';
+  box.appendChild(label);
+  const streak = practiceStreak();
+  if (streak >= 2) { const st = document.createElement('span'); st.className = 'streak'; st.textContent = streak + ' days in a row'; box.appendChild(st); }
+}
+const pick = list => list[Math.floor(Math.random() * list.length)];
+const PRAISE = {
+  record: ['New personal best! Fantastic!', "That's your best ever. Amazing work!", 'A new record! Your voice is getting stronger.'],
+  strong: ['Great job! Strong and steady.', 'Excellent! That was a powerful Ahhh.', 'Wonderful! Keep that big voice.', 'Beautiful! Nice and loud.'],
+  okay: ['Good effort! A little longer next time.', 'Nice! Big breath, and try again.', "You're warming up. Let's go again."],
+  loud: ['Loud and clear! Great job.', 'Perfect! Everyone could hear that.', 'Excellent! That was strong.', 'Yes! That was a great, loud voice.'],
+  almost: ['So close! Just a little louder.', 'Good! Push a bit more from your belly.', 'Almost there. Think loud!'],
+  retry: ["Let's try again. Big breath, think loud!", 'Take a deep breath and give it everything.']
+};
+// Celebration: confetti in the theme's colors and a crowd cheer
+function crowdCheer(big) {
+  const a = audio(); if (!a) return;
+  const dur = big ? 2.6 : 1.4;
+  const buf = a.createBuffer(1, Math.floor(a.sampleRate * dur), a.sampleRate);
+  const data = buf.getChannelData(0);
+  for (let i = 0; i < data.length; i++) data[i] = Math.random() * 2 - 1;
+  const src = a.createBufferSource(); src.buffer = buf;
+  const band = a.createBiquadFilter(); band.type = 'bandpass'; band.frequency.value = 1100; band.Q.value = 0.6;
+  const g = a.createGain(); const t0 = a.currentTime;
+  g.gain.setValueAtTime(0.0001, t0);
+  g.gain.exponentialRampToValueAtTime(big ? 0.5 : 0.32, t0 + 0.35);
+  g.gain.exponentialRampToValueAtTime(0.0001, t0 + dur);
+  src.connect(band); band.connect(g); g.connect(a.destination);
+  src.start(t0); src.stop(t0 + dur);
+  tone(784, 0.05, 0.3, 0.25); tone(988, 0.2, 0.3, 0.25); tone(1175, 0.35, 0.5, 0.25);
+}
+function celebrate(big) {
+  crowdCheer(big);
+  const box = $('#confetti');
+  const cs = getComputedStyle(document.documentElement);
+  const colors = [cs.getPropertyValue('--accent'), cs.getPropertyValue('--sky'), '#ffffff', cs.getPropertyValue('--k-verb'), cs.getPropertyValue('--k-social')].map(c => c.trim() || '#f6b40e');
+  const n = big ? 120 : 60;
+  for (let i = 0; i < n; i++) {
+    const p = document.createElement('i');
+    p.style.left = Math.random() * 100 + 'vw';
+    p.style.background = colors[i % colors.length];
+    p.style.setProperty('--dx', (Math.random() * 30 - 15) + 'vw');
+    p.style.setProperty('--rot', (Math.random() * 900 - 450) + 'deg');
+    p.style.animationDuration = (1.8 + Math.random() * 1.6) + 's';
+    p.style.animationDelay = (Math.random() * 0.4) + 's';
+    box.appendChild(p);
+  }
+  setTimeout(() => { box.textContent = ''; }, 4200);
+}
+function tellFamilyPractice(p) {
+  const msg = 'Dad finished his voice practice today: ' + (p.stars || 0) + ' strong tries' + (p.bestToday ? ', best "Ahhh" ' + p.bestToday.toFixed(1) + ' seconds' : '') + '. Send him a cheer!';
+  if (poReady()) poSend({ title: 'Voice practice done', message: msg, priority: '-1' });
+  if (phonesReady()) ntfyPost(topics().says, msg, { title: 'Voice practice done', priority: '3', tags: 'star' });
 }
 function setPracticeMode(m) {
   stopListening();
@@ -2366,7 +2469,7 @@ function setMeter(db, target) {
 }
 function stopListening() {
   if (practiceRun) practiceRun = null;
-  cancelAnimationFrame(practiceRaf);
+  clearTimeout(practiceRaf);
   stopMic();
   setMeter(-100, -30);
   $('#practiceStart').textContent = 'Start';
@@ -2394,7 +2497,7 @@ async function startPractice() {
         // Target sits well above the room's own noise, so the TV alone doesn't count
         run.target = Math.min(-22, Math.max(-50, samples[Math.floor(samples.length / 2)] + 18));
         run.phase = 'go'; run.t0 = now;
-        $('#practiceResult').textContent = practiceMode === 'ah' ? 'Go! Ahhh…' : 'Now say it, nice and loud.';
+        $('#practiceResult').textContent = practiceMode === 'ah' ? 'Go! Think loud! Ahhh…' : 'Think loud! Now say it.';
       }
     } else {
       run.peak = Math.max(run.peak, db);
@@ -2405,9 +2508,9 @@ async function startPractice() {
         if ((run.startedAt && quietFor > 900) || (!run.startedAt && now - run.t0 > 8000) || now - run.t0 > 40000) { finishPractice(run); return; }
       } else if (now - run.t0 > 6000 || (run.startedAt && now - run.lastAbove > 1500)) { finishPractice(run); return; }
     }
-    practiceRaf = requestAnimationFrame(tick);
+    practiceRaf = setTimeout(tick, 40);
   };
-  practiceRaf = requestAnimationFrame(tick);
+  practiceRaf = setTimeout(tick, 40);
 }
 function finishPractice(run) {
   const target = run.target;
@@ -2416,23 +2519,38 @@ function finishPractice(run) {
   $('#practiceStart').textContent = 'Try again';
   const p = practiceStats();
   p.tries = (p.tries || 0) + 1;
-  let msg;
+  let msg, star = false, record = false;
   if (practiceMode === 'ah') {
     const secs = run.startedAt ? (run.lastAbove - run.startedAt) / 1000 : 0;
-    if (secs < 0.5) msg = 'I could not hear it. Take a big breath and try again, louder.';
+    if (secs < 0.5) msg = pick(PRAISE.retry);
     else {
-      const record = secs > (p.bestEver || 0);
+      record = p.bestEver > 0 && secs > p.bestEver;
+      const strong = secs >= 4 || !p.bestEver || secs >= p.bestEver * 0.75;
+      star = secs >= 2;
       p.bestToday = Math.max(p.bestToday || 0, secs);
       p.bestEver = Math.max(p.bestEver || 0, secs);
-      msg = 'You held it for ' + secs.toFixed(1) + ' seconds!' + (record ? ' A new personal best!' : '');
+      msg = secs.toFixed(1) + ' seconds! ' + pick(record ? PRAISE.record : strong ? PRAISE.strong : PRAISE.okay);
     }
   } else {
-    msg = run.above >= 800 ? 'Loud and clear! Great job.' : run.peak > target - 8 ? 'Almost! A little louder next time.' : 'Try again, as loud as you can.';
+    star = run.above >= 800;
+    msg = pick(star ? PRAISE.loud : run.peak > target - 8 ? PRAISE.almost : PRAISE.retry);
   }
+  const firstToday = !(p.tries > 1);
+  const hadGoal = (p.stars || 0) >= DAILY_GOAL;
+  if (star) p.stars = (p.stars || 0) + 1;
+  const goalNow = !hadGoal && (p.stars || 0) >= DAILY_GOAL;
   LS.set('dv.practice', p);
+  const days = LS.get('dv.practiceDays', []);
+  if (!days.includes(ymd(new Date()))) { days.push(ymd(new Date())); LS.set('dv.practiceDays', days.slice(-400)); }
   renderPracticeStats();
+  if (goalNow) msg += " You reached today's goal! Great work.";
+  else if (firstToday && practiceStreak() >= 2) msg += ' That is ' + practiceStreak() + ' days in a row!';
   $('#practiceResult').textContent = msg;
-  say(msg);
+  $('#practiceResult').classList.toggle('win', star);
+  if (goalNow || record) celebrate(true);
+  else if (star) celebrate(false);
+  setTimeout(() => say(msg), star ? 900 : 0);
+  if (goalNow) tellFamilyPractice(p);
 }
 
 // ---------- Wake lock ----------
