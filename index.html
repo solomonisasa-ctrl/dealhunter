@@ -571,6 +571,10 @@ input, textarea { -webkit-user-select: text; user-select: text; }
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="2.5"/><path d="M11 18h2"/></svg>
         <span class="label">Send to phone</span>
       </button>
+      <button class="tool send-phone" id="tellHouse" hidden>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/></svg>
+        <span class="label">Tell the house</span>
+      </button>
       <button class="tool send-phone more-btn" id="moreBtn">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="5" cy="12" r="1.6" fill="currentColor"/><circle cx="12" cy="12" r="1.6" fill="currentColor"/><circle cx="19" cy="12" r="1.6" fill="currentColor"/></svg>
         <span class="label">More</span>
@@ -790,10 +794,6 @@ input, textarea { -webkit-user-select: text; user-select: text; }
       <button class="tile" id="openTv">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="5" width="20" height="13" rx="2"/><path d="M8 22h8M12 18v4"/></svg>
         <span>TV remote</span><small>Talks to the Echo in his room</small>
-      </button>
-      <button class="tile" id="tellHouse" hidden>
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/></svg>
-        <span>Tell the house</span><small>Says what he typed on the Alexas</small>
       </button>
     </div>
   </div>
@@ -1865,7 +1865,6 @@ function openMore() {
   $('#checkinNote').textContent = LS.get('dv.checkinState', {}).done === todayStr() ? 'Done today' : 'Not done today';
   const p = practiceStats();
   $('#practiceNote').textContent = p.tries ? p.tries + (p.tries === 1 ? ' try' : ' tries') + ' today' : 'Not practiced today';
-  $('#tellHouse').hidden = !vmReady();
   openScreen('moreMenu');
 }
 
