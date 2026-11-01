@@ -247,6 +247,14 @@ button:focus-visible, select:focus-visible, input:focus-visible, textarea:focus-
   background: var(--alert); color: var(--alert-fg); border-color: transparent; padding: 0 18px;
 }
 .actions .ans.help small { font-size: 0.45em; }
+.board-new { display: flex; gap: 10px; }
+.board-new input {
+  flex: 1; min-width: 0; font: inherit; font-size: calc(1.4rem * var(--s)); font-weight: 700; color: var(--fg);
+  background: var(--surface); border: 2px solid var(--line); border-radius: var(--radius); padding: 12px 16px;
+}
+.board-new input:focus { border-color: var(--k-desc); outline: none; }
+/* Safari won't let anyone type into a box whose parent turned off text selection */
+input, textarea { -webkit-user-select: text; user-select: text; }
 .board-add { display: flex; flex-wrap: wrap; gap: 10px; margin-left: auto; }
 .board-add .btn:disabled { opacity: 0.4; cursor: default; }
 .board-head { flex-wrap: wrap; }
@@ -255,7 +263,7 @@ button:focus-visible, select:focus-visible, input:focus-visible, textarea:focus-
 .msg .last-said { color: var(--muted); }
 
 /* Phrase board */
-.board { position: fixed; inset: 0; z-index: 25; background: var(--bg); display: grid; grid-template-rows: auto minmax(0, 1fr); gap: 12px;
+.board { position: fixed; inset: 0; z-index: 25; background: var(--bg); display: grid; grid-template-rows: auto auto minmax(0, 1fr); gap: 12px;
   padding-block: max(14px, env(safe-area-inset-top, 0px)) max(14px, env(safe-area-inset-bottom, 0px));
   padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
 .board-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
@@ -425,6 +433,10 @@ button:focus-visible, select:focus-visible, input:focus-visible, textarea:focus-
       <button class="btn big" id="addLastBoard">+ Add what I last said</button>
     </div>
     <button class="btn primary big" id="closeBoard">Close</button>
+  </div>
+  <div class="board-new">
+    <input type="text" id="boardNew" placeholder="Type a new phrase here" autocomplete="off" enterkeyhint="done">
+    <button class="btn primary big" id="boardNewAdd">Add</button>
   </div>
   <div class="board-grid" id="boardGrid"></div>
 </div>
@@ -1144,6 +1156,16 @@ function openBoard(freshIdx) {
   $('#board').hidden = false;
   if (freshIdx !== undefined && g.children[freshIdx]) g.children[freshIdx].scrollIntoView({ block: 'center', behavior: 'smooth' });
 }
+function addTypedPhrase() {
+  const el = $('#boardNew');
+  let text = el.value.trim().replace(/\s+/g, ' ');
+  if (!text) { el.focus(); return; }
+  text = formatSentence(text.split(' '));
+  if (hasPhrase(text)) { toast('Already in phrases'); return; }
+  el.value = '';
+  el.blur();
+  addFromBoard(text);
+}
 function addFromBoard(text) {
   if (!text || hasPhrase(text)) return;
   settings.phrases.push(text);
@@ -1519,6 +1541,8 @@ $('#closeBoard').addEventListener('click', closeBoard);
 $('#allPhrases').addEventListener('click', () => { if (guarded('allPhrases')) openBoard(); });
 $('#addTyping').addEventListener('click', () => { if (guarded('addTyping')) addFromBoard(typingText()); });
 $('#addLastBoard').addEventListener('click', () => { if (guarded('addLastBoard')) addFromBoard(lastSaid); });
+$('#boardNewAdd').addEventListener('click', addTypedPhrase);
+$('#boardNew').addEventListener('keydown', e => { if (e.key === 'Enter') { e.preventDefault(); addTypedPhrase(); } });
 $('#alertCancel').addEventListener('click', closeHelp);
 $('#inboxClose').addEventListener('click', closeInbox);
 
