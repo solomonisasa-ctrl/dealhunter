@@ -407,8 +407,20 @@ input, textarea { -webkit-user-select: text; user-select: text; }
 .gear { border-radius: 999px; width: 44px; border: 1.5px solid var(--line); }
 
 .chip { box-shadow: 0 1px 2px rgba(11, 31, 58, 0.12); }
-.chip.all { background: var(--sky); color: #0b1f3a; border: 0; }
-.chip.all svg { color: #0b1f3a; }
+.chiprow { min-height: calc(76px * var(--s)); }
+.chip.all {
+  background: var(--sky); color: #0b1f3a; border: 0; min-width: calc(300px * var(--s));
+  font-size: calc(1.85rem * var(--s)); gap: 14px; padding: 8px 34px; box-shadow: 0 4px 12px rgba(11, 31, 58, 0.22);
+}
+.chip.all svg { color: #0b1f3a; width: 34px; height: 34px; }
+@media (max-height: 700px) and (min-width: 721px) {
+  .chiprow { min-height: calc(58px * var(--s)); }
+  .chip.all { font-size: calc(1.5rem * var(--s)); min-width: calc(250px * var(--s)); }
+  .chip.all svg { width: 28px; height: 28px; }
+}
+@media (max-width: 720px) {
+  .chip.all { min-width: 0; font-size: calc(1.3rem * var(--s)); padding: 8px 18px; }
+}
 .chip.suggest { background: var(--surface); border: 2px solid var(--accent); }
 .tool.send-phone { border: 1.5px solid var(--board); color: var(--fg); }
 .tool.send-phone svg { color: var(--fg); }
