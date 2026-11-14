@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Seal family file</title>
+<style>
+  body { font: 16px/1.45 -apple-system, "Segoe UI", system-ui, sans-serif; max-width: 760px; margin: 0 auto; padding: 24px 16px; background: #f2f2f7; color: #1c1c1e; }
+  textarea, input { width: 100%; box-sizing: border-box; font: 14px ui-monospace, Consolas, monospace; padding: 10px; border: 1px solid #c7c7cc; border-radius: 10px; }
+  textarea { min-height: 220px; }
+  button { font: inherit; font-weight: 600; padding: 10px 18px; border: 0; border-radius: 10px; background: #0a7aff; color: #fff; margin: 12px 0; }
+</style>
+</head>
+<body>
+<h1>Seal family file</h1>
+<p>Makes <b>family.json</b> for the app: paste his setup as JSON (the same fields as a setup link), type the family password, then publish the output as family.json next to index.html. Runs only in this browser.</p>
+<label>Setup JSON<textarea id="plain"></textarea></label>
+<label>Family password<input id="pass" type="text" autocomplete="off"></label>
+<button id="go">Seal</button>
+<textarea id="out" readonly></textarea>
+<script>
+// Must match decryptFamily() in index.html
+const normPass = p => (p || '').toLowerCase().trim().split(/[\s-]+/).filter(Boolean).join('-');
+const toB64 = b => { let s = ''; for (let i = 0; i < b.length; i++) s += String.fromCharCode(b[i]); return btoa(s); };
+async function seal(plainText, pass, iter = 310000) {
+  JSON.parse(plainText);
+  const salt = crypto.getRandomValues(new Uint8Array(16)), iv = crypto.getRandomValues(new Uint8Array(12));
+  const base = await crypto.subtle.importKey('raw', new TextEncoder().encode(normPass(pass)), 'PBKDF2', false, ['deriveKey']);
+  const key = await crypto.subtle.deriveKey({ name: 'PBKDF2', salt, iterations: iter, hash: 'SHA-256' }, base, { name: 'AES-GCM', length: 256 }, false, ['encrypt']);
+  const data = new Uint8Array(await crypto.subtle.encrypt({ name: 'AES-GCM', iv }, key, new TextEncoder().encode(plainText)));
+  return JSON.stringify({ v: Date.now(), iter, salt: toB64(salt), iv: toB64(iv), data: toB64(data) });
+}
+document.getElementById('go').addEventListener('click', async () => {
+  try { document.getElementById('out').value = await seal(document.getElementById('plain').value, document.getElementById('pass').value); }
+  catch (e) { document.getElementById('out').value = 'Error: ' + e.message; }
+});
+</script>
+</body>
+</html>

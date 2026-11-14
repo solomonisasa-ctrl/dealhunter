@@ -1,0 +1,1306 @@
+# Everyday sentences for the prediction model. One per line. Lines starting with # are ignored.
+# Written in his voice: a dad and grandpa in his recliner, watching TV and soccer, talking with family.
+# More common sentences are listed more than once on purpose (xN at the end repeats a line N times).
+
+## Needs and help
+I need help x4
+I need help please x2
+Can you help me? x5
+Can you help me please? x3
+Can you help me get up? x3
+Can you help me stand up? x2
+Can you help me sit up? x2
+Can you help me with my medicine? x3
+Can you help me with my shoes?
+Can you help me with my socks?
+Can you help me with my shirt?
+Can you help me with my pants?
+Can you help me with my jacket?
+Can you help me with the remote?
+Can you help me with the phone?
+Can you help me to the bathroom? x2
+Can you help me get dressed? x2
+Can you help me take a shower?
+Can you help me shave?
+Can you help me brush my teeth?
+Can you help me move?
+Can you help me lie down?
+Can you help me get to bed?
+Can you help me get to the chair?
+Can you help me walk?
+Can you help me eat?
+Can you help me drink?
+Can you help me find my glasses?
+Can you help me find my phone?
+Can you help me find the remote?
+Can you help me fix the TV?
+Can you help me fix my pillow?
+Can you help me fix my blanket?
+I need the bathroom x4
+I need to go to the bathroom x3
+I need to pee x2
+I need to use the bathroom x2
+I need my medicine x3
+I need my pills
+I need my glasses x2
+I need my phone
+I need my blanket
+I need my pillow
+I need my water
+I need my shoes
+I need some water x3
+I need some help x2
+I need some air
+I need some rest
+I need a drink
+I need a blanket x2
+I need a pillow
+I need a towel
+I need a tissue x2
+I need a napkin
+I need a shower
+I need a haircut
+I need a shave
+I need a new battery
+I need to rest x2
+I need to lie down x2
+I need to sit up
+I need to stand up
+I need to stretch
+I need to move
+I need to change my clothes
+I need to change my shirt
+I need to take my medicine x2
+I need to eat something
+I need to drink something
+I need to go to sleep
+I need to call the doctor
+I need you x2
+I need you to call me
+I need you to come here
+I need you to help me x2
+I need more water
+I need more time
+I need more medicine
+I need clean clothes
+Please help me x3
+Please come here x3
+Please come help me
+Please hurry
+Please wait x2
+Please wait a minute x2
+Please don't go
+Please stay with me
+Please sit with me
+Please call me
+Please call the doctor
+Please turn it up
+Please turn it down
+Please turn off the light
+Please turn on the light
+Please close the door
+Please open the door
+Please open the window
+Please bring me water
+Please bring me my medicine
+Please bring me a blanket
+Please give me a minute
+Please be quiet
+Please speak louder
+Please slow down
+Please say that again x2
+Please repeat that
+Please listen to me
+Please don't worry
+Please don't forget
+Please check on me later
+Come here please x2
+Come sit with me x2
+Come back soon x2
+Come see me
+Come watch with me
+Come watch the game with me x2
+
+## Water, food and drinks
+Can I have some water? x5
+Can I have some water please? x2
+Can I have a Pepsi? x4
+Can I have a cold Pepsi? x2
+Can I have a Kind bar? x3
+Can I have a snack? x2
+Can I have something to eat? x2
+Can I have something to drink? x2
+Can I have some coffee? x3
+Can I have some tea? x2
+Can I have some juice? x2
+Can I have some ice? x2
+Can I have some ice water?
+Can I have some soup?
+Can I have some fruit?
+Can I have some more? x2
+Can I have a sandwich?
+Can I have a straw? x2
+Can I have a cup of coffee?
+Can I have a glass of water? x2
+Can I have breakfast?
+Can I have lunch?
+Can I have dinner?
+Can I have dessert?
+Can I have some cookies?
+Can I have some chips?
+Can I have some ice cream?
+Can I have some rice?
+Can I have some bread?
+Can I have a banana?
+Can I have an apple?
+Can I have some yogurt?
+Can I have some eggs?
+Can I have some toast?
+Can we get Arby's? x3
+Can we get McDonald's? x3
+Can we get Whataburger? x3
+Can we get pizza? x2
+Can we get tacos? x2
+Can we get Chinese food?
+Can we get chicken?
+Can we get some food?
+Can we order food? x2
+Can we order pizza?
+Can we eat together?
+Can we eat outside?
+I'm hungry x4
+I'm thirsty x4
+I'm not hungry x2
+I'm full x2
+I'm still hungry
+I want some water x2
+I want a Pepsi x2
+I want a snack
+I want something sweet
+I want something cold
+I want something hot
+I want coffee
+I want ice cream
+I want to eat x2
+I want to eat now
+I want Arby's
+I want McDonald's
+I want Whataburger
+I want a burger
+I want fries
+I want chicken
+I want pizza
+I would like some water x2
+I would like a Pepsi
+I would like some coffee
+I would like to eat
+I would like to rest
+I don't want to eat
+I don't want that
+I don't like it
+I like it x2
+I like that x2
+It tastes good x2
+It's delicious x2
+It's too hot
+It's too cold
+It's too salty
+It's too spicy
+It's too sweet
+It's too much
+The food is good x2
+The food was great
+The coffee is cold
+The water is warm
+Thank you for the food x2
+Thank you for dinner
+Thank you for lunch
+Thank you for breakfast
+Thank you for cooking x2
+What's for dinner? x3
+What's for lunch? x2
+What's for breakfast?
+What are we eating? x2
+What are you cooking? x2
+What did you cook?
+What did you eat?
+When is dinner? x3
+When is lunch? x2
+When is breakfast?
+When can we eat?
+Is dinner ready? x2
+Is lunch ready?
+Is the food ready?
+Is the coffee ready?
+Did you eat? x4
+Did you eat today? x2
+Did you eat lunch?
+Did you eat dinner?
+Did you eat breakfast?
+Did you cook?
+Did you go to the store?
+Did you get my Pepsi?
+Did you get the groceries?
+Did you buy milk?
+Can you make me coffee? x2
+Can you make me a sandwich?
+Can you make me tea?
+Can you make me something to eat?
+Can you cut my food?
+Can you cut it smaller?
+Can you heat it up? x2
+Can you warm it up?
+Can you get me some water? x3
+Can you get me a Pepsi? x2
+Can you get me a snack?
+Can you get me some ice?
+Can you get me a straw?
+Can you bring me water? x2
+Can you bring me some water? x2
+Can you bring me a Pepsi?
+Can you bring me my coffee?
+Can you bring me food?
+Can you bring me a towel?
+Can you bring me a napkin?
+More please x2
+More water please x2
+No more thank you
+That's enough x2
+
+## TV and the remote
+Can you turn up the TV? x5
+Can you turn down the TV? x4
+Can you turn on the TV? x3
+Can you turn off the TV? x3
+Can you turn it up? x3
+Can you turn it down? x3
+Can you turn it off? x2
+Can you turn it on? x2
+Can you change the channel? x4
+Can you put the game on? x4
+Can you put on the news? x2
+Can you put on a movie?
+Can you put on the soccer game? x2
+Can you put on Argentina? x2
+Can you put on the Spurs game? x2
+Can you put on Barcelona? x2
+Can you find the game? x2
+Can you find the remote? x2
+Can you fix the TV? x2
+Can you pause it? x2
+Can you pause the TV?
+Can you rewind it?
+Can you go back?
+Can you turn on the captions?
+Can you turn off the captions?
+Can you give me the remote? x2
+Can you hand me the remote? x2
+Turn up the TV x3
+Turn up the TV please x2
+Turn down the TV x2
+Turn down the TV please
+Turn it up x3
+Turn it up please x2
+Turn it down x2
+Turn it down please
+Turn it off x2
+Turn it on
+Turn on the TV x2
+Turn off the TV x2
+Turn on the game x2
+Turn on the news
+Turn on the light x2
+Turn off the light x2
+Turn on the fan x2
+Turn off the fan
+Turn on the heater
+Turn off the heater
+Turn on the air
+Turn off the air
+Turn up the heat
+Turn down the air
+The TV is too loud x2
+The TV is too quiet
+The TV is not working x2
+The TV is frozen
+The remote is not working x2
+The remote fell x2
+The remote is lost
+I can't hear the TV x2
+I can't find the remote x2
+I dropped the remote x2
+I want to watch the game x3
+I want to watch soccer x2
+I want to watch the news x2
+I want to watch a movie
+I want to watch TV
+I want to watch something else
+I want to change the channel
+What channel is the game on? x3
+What channel is it on?
+What time is the game? x4
+What time does the game start? x2
+What time is it? x4
+What's on TV? x2
+What are you watching? x2
+What do you want to watch?
+Do you want to watch the game with me? x2
+Do you want to watch TV?
+Let's watch the game x3
+Let's watch a movie
+Let's watch something
+
+## Soccer and sports
+Did you see the game? x4
+Did you watch the game? x3
+Did you see Messi? x3
+Did you see that goal? x2
+Did Argentina win? x3
+Did Barcelona win? x2
+Did the Spurs win? x2
+Who won the game? x3
+Who won? x2
+Who is playing? x2
+Who is playing today?
+Who scored? x2
+What's the score? x4
+What was the score? x2
+When is the next game? x2
+When does Argentina play? x2
+When does Barcelona play?
+When do the Spurs play?
+Is the game on? x2
+Is the game on today?
+Is Argentina playing today? x2
+Is Messi playing? x2
+Is Barcelona playing today?
+Are the Spurs playing tonight?
+Argentina is playing today x2
+Argentina won x2
+Argentina lost
+Barcelona won x2
+Barcelona lost
+The Spurs won x2
+The Spurs lost
+We won x2
+We lost
+What a goal x3
+What a game x2
+What a save
+That was a great goal x2
+That was a great game x2
+Messi is the best x3
+Messi scored x2
+Vamos Argentina x3
+Go Spurs go x2
+Visca Barca
+Come watch the game x2
+The game is starting x2
+The game is on x2
+The game is over
+It's halftime
+It was a penalty
+That was a foul
+That was offside
+The referee is terrible x2
+They need to score
+They are playing well
+They are playing bad
+I love soccer x2
+I love this game
+I love Messi x2
+
+## How he feels
+I'm tired x4
+I'm cold x4
+I'm hot x3
+I'm okay x4
+I'm fine x3
+I'm good x3
+I'm in pain x3
+I'm sorry x3
+I'm ready x3
+I'm done x3
+I'm sleepy x2
+I'm bored x2
+I'm happy x2
+I'm sad
+I'm scared
+I'm worried
+I'm dizzy x2
+I'm sick
+I'm comfortable
+I'm uncomfortable x2
+I'm stiff x2
+I'm shaking x2
+I'm not okay x2
+I'm not feeling well x3
+I'm not tired
+I'm not cold
+I'm feeling better x3
+I'm feeling good x2
+I'm feeling tired
+I'm feeling weak
+I'm feeling dizzy
+I'm so tired x2
+I'm so happy x2
+I'm so proud of you x3
+I'm proud of you x3
+I'm very tired
+I'm very happy
+I'm a little cold
+I'm a little tired
+I'm going to sleep x2
+I'm going to rest x2
+I'm going to take a nap x2
+I'm going to the bathroom
+I'm glad you're here x2
+I'm glad you came x2
+I'm happy to see you x2
+I feel good x3
+I feel bad x2
+I feel sick x2
+I feel tired x2
+I feel better x3
+I feel worse
+I feel dizzy x2
+I feel weak x2
+I feel cold
+I feel hot
+I feel stiff
+I feel great
+I feel okay
+I feel fine
+I feel much better
+I don't feel good x3
+I don't feel well x3
+I don't feel like it
+I don't feel like eating
+It hurts x4
+It hurts a lot x2
+It hurts here x2
+It hurts when I move
+It doesn't hurt
+It's okay x3
+It's fine x2
+It's good x2
+It's cold in here x3
+It's hot in here x3
+It's too loud x2
+It's too bright
+It's too dark
+My back hurts x3
+My legs hurt x2
+My leg hurts
+My head hurts x2
+My neck hurts x2
+My stomach hurts x2
+My feet hurt
+My foot hurts
+My arm hurts
+My hands hurt
+My hand hurts
+My shoulder hurts
+My knee hurts
+My chest hurts x2
+My throat hurts
+My mouth is dry x2
+My eyes hurt
+My legs are stiff
+My hands are shaking x2
+My hands are cold
+My feet are cold x2
+I have a headache x2
+I have a stomachache
+I have a cramp x2
+I have pain in my back
+I have pain in my leg
+I can't sleep x2
+I can't move x2
+I can't get up x2
+I can't stand up
+I can't reach it x2
+I can't see x2
+I can't hear you x2
+I can't find it x2
+I can't do it
+I can't breathe
+I slept well x2
+I slept badly
+I didn't sleep well x3
+I didn't sleep
+I had a bad dream
+I had a good day x2
+I had a bad day
+I need to see the doctor
+I think I need a doctor
+I almost fell
+I fell x2
+I fell down
+I feel like I'm going to fall
+
+## Medicine and health
+Did I take my medicine? x4
+Did I take my pills? x2
+Is it time for my medicine? x4
+When is my medicine? x2
+When do I take my medicine?
+Can you open my medicine? x3
+Can you give me my medicine? x2
+Can you bring me my medicine? x2
+Can you get my pills?
+Can you call the doctor? x3
+Can you call my doctor?
+Can you make an appointment?
+I took my medicine x2
+I didn't take my medicine
+I forgot my medicine
+My medicine is wearing off x2
+My medicine is working
+I need more medicine
+We need more medicine
+When is my appointment? x3
+When is my doctor appointment? x2
+When do I see the doctor? x2
+Do I have an appointment today? x2
+Do I have an appointment this week?
+What did the doctor say? x3
+Is the nurse coming? x2
+When is the nurse coming?
+I want to go to therapy
+I did my exercises x2
+I want to do my exercises
+I want to practice my voice
+I want to walk a little x2
+Can we go for a walk? x2
+Can you help me walk outside?
+
+## Clothes, bath and grooming
+Can you help me shave? x3
+Can you cut my nails? x3
+Can you cut my hair? x3
+Can you do my laundry? x3
+Can you wash my clothes? x2
+Can you change my sheets?
+Can you get me clean clothes? x2
+Can you get me a jacket?
+Can you get me a sweater?
+Can you get me my slippers?
+Can you get me my socks?
+Can you get me my shoes?
+Can you get me a towel?
+I want to take a shower x3
+I want to take a bath
+I want to change my clothes x2
+I want to brush my teeth
+I want to wash my face
+I want to shave
+I need a haircut x2
+I need to shave
+My clothes are dirty
+My shirt is wet
+I spilled x2
+I spilled my drink x2
+I spilled my water
+I spilled my coffee
+
+## Comfort and the room
+Can you fix my pillow? x3
+Can you fix my blanket? x2
+Can you get me a blanket? x3
+Can you cover me? x2
+Can you move my chair?
+Can you lift my legs? x2
+Can you lower my legs?
+Can you raise my chair?
+Can you recline my chair? x2
+Can you sit me up? x2
+Can you move me? x2
+Can you turn me?
+Can you open the blinds? x2
+Can you close the blinds? x2
+Can you open the window?
+Can you close the window?
+Can you open the door? x2
+Can you close the door? x2
+Can you turn on the light? x2
+Can you turn off the light? x2
+Can you turn on the fan? x2
+Can you turn off the fan?
+Can you turn up the heat? x2
+Can you turn on the heater?
+Can you turn on the air?
+Can you turn off the air?
+Can you charge my phone? x2
+Can you charge my iPad? x2
+Can you plug in my iPad?
+Can you fix my iPad?
+Can you bring me my glasses? x2
+Can you clean my glasses?
+Can you pick that up? x2
+Can you pick it up?
+Can you put it here?
+Can you put it back?
+Can you take this?
+Can you take this away?
+Can you throw this away?
+Can you hold this?
+Can you hand me that? x2
+Can you pass me that?
+Can you reach that for me?
+The light is too bright
+The room is cold
+The room is hot
+Leave the door open x2
+Leave the light on x2
+Leave it there
+Put it here x2
+Put it there
+Over there x2
+Right here x2
+Not that one x2
+That one x2
+This one x2
+The other one x2
+
+## Family and visitors
+I love you x6
+I love you so much x4
+I love you too x4
+I love you all x2
+I love you honey x3
+I love you habibi x2
+I love you habibti x2
+I miss you x4
+I miss you so much x2
+I missed you x2
+I'm proud of you x2
+I'm so proud of you
+Thank you x6
+Thank you so much x4
+Thank you very much x3
+Thank you for everything x3
+Thank you for coming x3
+Thank you for helping me x3
+Thank you for your help x2
+Thank you for visiting
+Thank you for taking care of me x2
+Thank you honey x3
+Thank you habibi x2
+You're welcome x2
+You're the best x2
+You look beautiful x2
+You look nice x2
+You look tired
+You look good
+Good morning x4
+Good morning honey x2
+Good night x4
+Good night honey x2
+Good night I love you x2
+Good afternoon
+Good evening
+Have a good day x3
+Have a good night x2
+Have fun x2
+Drive safe x3
+Be careful x3
+Take care x2
+See you later x3
+See you tomorrow x3
+See you soon x2
+Welcome home x2
+Welcome back
+How are you? x6
+How are you doing? x4
+How are you today? x2
+How are you feeling? x2
+How is everyone? x3
+How is everything? x2
+How are the kids? x3
+How are the grandkids? x2
+How is the baby? x2
+How is your mom? x2
+How is your family?
+How is school? x3
+How is work? x2
+How was work? x5
+How was school? x4
+How was your day? x5
+How was your trip? x2
+How was the doctor? x2
+How was the game? x2
+How was dinner?
+How was your weekend? x2
+How did it go? x3
+How did you sleep? x2
+How long are you staying? x2
+How long will you be gone? x2
+How long until dinner?
+How much was it? x2
+How much does it cost?
+How old is he?
+How old is she?
+How about you? x2
+Where are you? x4
+Where are you going? x4
+Where were you? x2
+Where is everyone? x3
+Where is Mom? x2
+Where is my phone? x3
+Where is my wallet?
+Where is my iPad?
+Where is the remote? x3
+Where are my glasses? x3
+Where are my shoes?
+Where are my keys?
+Where are the kids? x2
+Where did you go? x2
+Where did you put it? x2
+Where did it go?
+When are you coming? x4
+When are you coming back? x4
+When are you coming home? x3
+When are you leaving? x3
+When will you be back? x3
+When will you be home? x2
+When is everyone coming? x2
+When are the kids coming? x2
+When are they coming? x2
+When did you get here?
+Who is here? x2
+Who is coming? x2
+Who is that? x3
+Who was that? x2
+Who called? x3
+Who is at the door? x2
+Is anyone home? x2
+Is someone here?
+Is everyone okay? x2
+Is everything okay? x3
+Are you okay? x5
+Are you coming? x3
+Are you coming back? x2
+Are you leaving? x2
+Are you staying? x2
+Are you hungry? x2
+Are you tired? x2
+Are you busy? x2
+Are you home? x2
+Are you sure? x2
+Are you ready? x2
+Did you sleep well? x3
+Did you have fun? x3
+Did you have a good day? x3
+Did you call? x2
+Did you call Mom?
+Did you see that? x2
+Did you hear that? x2
+Did you hear me?
+Did you get it? x2
+Did you find it? x2
+Did you finish? x2
+Did you go to work? x2
+Did you go to school?
+Did you feed the dog?
+Did you feed the cat?
+Did you pay the bills?
+Did you check the mail? x2
+Did you lock the door? x2
+Did you remember?
+Did anyone call? x3
+Did someone call?
+Did the mail come?
+Can you call me? x3
+Can you call me later? x2
+Can you call Mom? x2
+Can you call them?
+Can you call him?
+Can you call her?
+Can you text me?
+Can you come here? x4
+Can you come here please? x2
+Can you come back later? x2
+Can you come over? x2
+Can you come visit? x2
+Can you come see me?
+Can you stay? x2
+Can you stay with me? x3
+Can you stay a little longer? x2
+Can you sit with me? x3
+Can you wait? x2
+Can you wait a minute? x2
+Can you tell me? x2
+Can you tell them I said hi?
+Can you tell her I love her
+Can you tell him I love him
+Can you tell everyone I said hi
+Can you read it to me? x2
+Can you show me? x2
+Can you show me pictures? x2
+Can you show me the video?
+Can you send me pictures? x2
+Can you check on me later? x2
+Can you check the mail? x2
+Can you feed the dog?
+Can you take out the trash?
+Can you lock the door?
+Can you go to the store? x2
+Can you pick up my medicine?
+Can we talk? x3
+Can we talk later? x2
+Can we go outside? x3
+Can we go for a drive? x2
+Can we go to church?
+Can we go to the store?
+Can we go home?
+Can we go now?
+Can we call them? x2
+Can we video call? x2
+Can I see the baby? x2
+Can I see the kids? x2
+Can I hold the baby? x2
+Can I see the pictures?
+Can I go outside? x2
+Can I go with you? x2
+Can I come with you? x2
+Can I talk to you? x2
+Can I ask you something? x2
+Can I use your phone?
+Can I try?
+Tell them I said hi x3
+Tell them I love them x3
+Tell her I love her x2
+Tell him I love him x2
+Tell everyone I said hi x2
+Tell me about your day x3
+Tell me what happened x2
+Tell me the truth
+Tell me again
+Say hi to everyone x2
+Say hi for me
+Give me a hug x3
+Give me a kiss
+Come give me a hug x2
+I want to see the kids x2
+I want to see the grandkids x2
+I want to see you x2
+I want to go home
+I want to go outside x2
+I want to go for a drive
+I want to go to church
+I want to talk to you x2
+I want to call my brother
+I want to call my sister
+I want to be alone
+I want to sleep x2
+I want to rest
+I want to sit outside x2
+I want to sit up
+I want to lie down
+I want to go to bed x2
+I want to get up x2
+I want to stay here
+I want to come with you
+I hope you have a good day x2
+I hope you feel better x2
+I hope everything is okay
+I'm happy for you x2
+Congratulations x2
+Happy birthday x3
+Happy birthday I love you x2
+Happy anniversary
+Merry Christmas x2
+Happy New Year x2
+Happy Thanksgiving x2
+Eid Mubarak x2
+Ramadan Kareem
+Happy Mother's Day
+Happy Father's Day
+God bless you x3
+God willing x2
+Thank God x2
+Inshallah x2
+Alhamdulillah x2
+Mashallah x2
+Yalla x2
+Habibi x2
+
+## Quick answers and conversation
+Yes x6
+Yes please x4
+Yes thank you x2
+No x6
+No thank you x4
+No thanks x2
+Not now x3
+Not yet x3
+Not today x2
+Maybe x3
+Maybe later x3
+I don't know x5
+I don't remember x3
+I don't understand x3
+I don't care x2
+I don't think so x2
+I don't want to x2
+I don't need anything x2
+I don't want anything
+I think so x3
+I hope so x2
+I agree x2
+I disagree
+I understand x2
+I remember x2
+I know x3
+I forgot x3
+I forgot what I wanted to say x2
+I was going to say something
+I have a question x3
+I have an idea
+I have something to tell you x2
+I want to tell you something x3
+I want to say something x2
+I'm trying to tell you something x2
+Let me think x2
+Let me finish x2
+Let me try x2
+Let me see x2
+Let me rest x2
+Let me sleep
+Let's go x3
+Let's eat x2
+Let's talk x2
+Let's go outside x2
+Let's go for a drive
+Let's wait x2
+Let's try again x2
+Let's do it
+That's good x3
+That's great x2
+That's okay x3
+That's fine x2
+That's right x3
+That's wrong x2
+That's funny x3
+That's not right x2
+That's enough x2
+That's it x2
+That's too much
+That's all x2
+That's what I said x2
+That's what I mean
+That's not what I said x2
+That's not what I mean x2
+That sounds good x3
+That sounds great x2
+That makes sense
+Sounds good x3
+Of course x2
+No problem x3
+Don't worry x4
+Don't worry about it x3
+Don't worry about me x3
+Don't forget x2
+Don't go x2
+Don't leave
+Don't touch it x2
+Don't do that x2
+Don't be sad
+Don't be late x2
+Wait x3
+Wait a minute x4
+Wait a second x2
+Wait for me x2
+Hold on x3
+Stop x3
+Stop please x2
+Stop it
+Slow down x3
+Hurry up x2
+Go ahead x3
+Go to sleep
+Go home
+Go get it
+Excuse me x4
+Sorry x3
+I'm sorry x2
+I'm sorry I'm slow x2
+I'm sorry it takes me so long x2
+Never mind x4
+Forget it x2
+It doesn't matter x2
+It's not important x2
+It's important x3
+It's an emergency x2
+Listen to me x3
+Look at this x3
+Look at that x2
+Look at me
+Watch this
+Really? x3
+Are you serious? x2
+What? x3
+What happened? x5
+What happened to you?
+What's wrong? x4
+What's up? x2
+What's going on? x3
+What's that? x3
+What's this? x2
+What's the weather? x3
+What's the weather today? x2
+What's the date? x2
+What's the date today?
+What's your name?
+What did you say? x4
+What did you do today? x3
+What did you do? x2
+What did he say? x2
+What did she say? x2
+What did they say? x2
+What do you think? x3
+What do you want? x2
+What do you need? x2
+What do you mean? x3
+What are you doing? x4
+What are you doing today? x2
+What are you doing later?
+What are we doing today? x2
+What are we doing tomorrow?
+What time is it? x2
+What time are you coming? x2
+What time are you leaving? x2
+What time is dinner?
+What day is it? x3
+What day is it today? x2
+What is that? x2
+What is this?
+What was that? x2
+What should we do? x2
+What should I do?
+Why? x2
+Why not? x3
+Why did you do that? x2
+Why are you sad?
+Why is it so loud?
+Why is it so cold?
+Who did that?
+Is it hot outside? x2
+Is it cold outside? x2
+Is it raining? x3
+Is it going to rain? x2
+Is it time? x2
+Is it time to eat? x2
+Is it time for bed?
+Is it done? x2
+Is it ready?
+Is it on? x2
+Is it okay? x2
+Is that okay? x3
+Is that right? x2
+Is that true? x2
+Is that you? x2
+Is she okay? x2
+Is he okay? x2
+Is she coming? x2
+Is he coming? x2
+Is she here? x2
+Is he here?
+Is she home? x2
+Is he home?
+Do you want some? x2
+Do you want to watch the game?
+Do you want to eat? x2
+Do you want coffee?
+Do you need help? x2
+Do you need anything? x2
+Do you know? x2
+Do you know where it is? x2
+Do you have time? x2
+Do you have a minute? x2
+Do you remember? x3
+Do you like it? x3
+Do you understand? x2
+Do you hear that?
+Do you see that?
+Do I look okay?
+Do we have Pepsi? x2
+Do we have any coffee?
+Do we have any milk?
+Do we have any food?
+Does it work?
+Does it hurt?
+Will you come back? x2
+Will you call me? x2
+Will you be here tomorrow? x2
+Would you like some?
+Could you help me? x2
+Could you come here?
+Should I go to bed?
+Should we call the doctor?
+
+## Home, errands, plans and weather
+We need milk x2
+We need bread
+We need eggs
+We need coffee x2
+We need Pepsi x2
+We need water x2
+We need groceries x2
+We need toilet paper x2
+We need paper towels
+We need batteries
+We need more Kind bars
+Can you add it to the list? x2
+Add it to the grocery list x2
+Can you go shopping?
+Can you get groceries?
+Can you pay the bills?
+Can you check the weather?
+Can you water the plants?
+Can you fix it? x3
+Can you fix the internet? x2
+The internet is not working x2
+The wifi is not working x2
+My iPad is not working x2
+My phone is not working
+My phone is dead
+The battery is low x2
+It's raining x2
+It's sunny
+It's windy
+It's a nice day x3
+It's a beautiful day x2
+It's cold outside x2
+It's hot outside x2
+It's late x2
+It's early
+It's time to go x2
+It's time to eat x2
+It's time for bed x2
+It's time for my medicine x2
+What are we doing this weekend? x2
+What are the plans for today? x2
+Are we going somewhere?
+Are we going to church?
+Who is coming today?
+Who is coming over?
+Is anyone coming today? x2
+Is anyone coming over tonight?
+I want to go to church x2
+I want to go to the store
+I want to go for a ride
+I want to sit in the sun x2
+I want to sit on the porch x2
+Let's go to church
+Let's sit outside
+
+## Praying and faith
+I want to pray x3
+Can you help me pray?
+Is it time to pray?
+I prayed
+Pray for me x2
+I'm praying for you x2
+God is good x2
+
+## Talking about the past and stories
+I remember when you were little x3
+I remember that x2
+I used to do that x2
+I used to play soccer x2
+I used to work there
+When I was young x2
+Back in the day x2
+Do you remember when we went there? x2
+Do you remember that? x2
+Those were good times x2
+I miss those days x2
+Tell me a story
+Let me tell you a story x2
+I have a story for you
+
+## Feelings toward family
+You are a good son x2
+You are a good daughter x2
+You are a good mom x2
+You are a good dad
+You are a good husband
+You are a good wife
+You are beautiful x2
+You are so smart x2
+You are so kind
+You make me happy x3
+You make me proud x2
+You're a good person x2
+You're doing great x2
+You're doing a good job x2
+I'm lucky to have you x2
+I'm blessed x2
+I'm grateful x2
+I appreciate you x3
+I appreciate it x2
+We are family x2
+Family is everything x2
+
+## More ways to start with I
+I was watching the game x2
+I was sleeping x2
+I was going to call you
+I was thinking about you x2
+I was worried about you x2
+I was waiting for you x2
+I will call you later
+I will be okay x2
+I will try x2
+I will wait
+I went to sleep early
+I wish I could talk x2
+I wish you could stay x2
+I wish I could go with you
+I won't forget
+I wonder what time it is
+I would like to go outside
+I would love that x2
+I think it's time for bed
+I think I need help x2
+I think I'm going to rest
+I think you're right x2
+I just want to rest x2
+I just need a minute x2
+I just woke up x2
+I already ate x2
+I already took my medicine x2
+I also need water
+I really need help
+I really love you x2
+I really miss you
+I really like it
+I am tired x2
+I am cold
+I am okay x2
+I am hungry
+I am happy x2
+I got it x2
+I got up early
+I saw it on TV x2
+I saw the game
+I told you x2
+I called you x2
+I heard you
+I heard that x2
+I hear you x2
+I see x2
+I see it
+I mean it x2
+I meant to tell you
+I made a mistake
+I'll be okay x2
+I'll wait x2
+I'll try
+I'll call you later
+I've been waiting x2
+I've been thinking about you
+I'd like some water x2
+I'd love some coffee
