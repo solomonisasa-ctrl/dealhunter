@@ -836,13 +836,21 @@ svg { flex: none; }
       </div>
       <p class="fam-note" id="alertStatus"></p>
       <h2 style="margin-top:18px">Pocket fall button (Flic)</h2>
-      <p>In the Flic app, set the button's <b>Hold</b> action to <b>Internet Request</b>, method <b>GET</b>, and paste this address. Holding the button then alerts family phones right away, and this tablet adds the Alexa announcement.</p>
+      <p>Holding the button for a second alerts family phones and has the Alexas announce it, even while this tablet is asleep. Click and double click stay empty, so a bump in his pocket does nothing.</p>
+      <p>1. In the Flic app, open the button, choose <b>Hold</b>, and add an <b>Internet Request</b> action. Method <b>GET</b>, with this address:</p>
       <div class="addrow">
-        <input type="text" id="fallUrl" readonly>
+        <input type="text" id="fallUrl" readonly aria-label="Address for family phones">
         <button class="btn" id="copyFallUrl">Copy</button>
+      </div>
+      <p style="margin-top:14px">2. Add a second <b>Internet Request</b> to the same <b>Hold</b>. Method <b>GET</b>, with this address for the Alexas:</p>
+      <div class="addrow">
+        <input type="text" id="fallAlexaUrl" readonly aria-label="Address for the Alexas">
+        <button class="btn" id="copyFallAlexaUrl">Copy</button>
       </div>
       <div class="row-btns" style="margin-top:10px"><button class="btn" id="testFall">Test the fall alert</button></div>
       <ol class="tips" style="margin-top:8px">
+        <li>If you change the family code or the Alexa settings, copy both addresses into the Flic app again.</li>
+        <li>The button works through the phone or iPad it is paired with. Keep the Flic app there and never swipe it closed. A Flic Hub plugged in near his chair works even with no phone nearby.</li>
         <li>On each family phone, install the free <b>ntfy</b> app and subscribe to <b id="topicHelp"></b> (urgent help) and <b id="topicSays"></b> (messages he sends with Send to phone).</li>
         <li>To message him, publish to <b id="topicReply"></b> in the ntfy app. It pops up on his tablet and is read out loud.</li>
         <li>Keep a wireless caregiver pager by his chair too, in case the internet is down.</li>
@@ -1981,12 +1989,13 @@ function ntfyPost(topic, message, params) {
     .then(r => (r.ok ? 'ok' : 'error ' + r.status))
     .catch(() => 'sent');
 }
+const vmUrl = speech => 'https://api-v3.voicemonkey.io/announce?' + new URLSearchParams({
+  token: settings.vmToken.trim(), device: settings.vmSpeakers.split(',').map(s => s.trim()).filter(Boolean).join(','), speech
+});
 function vmAnnounce(speech) {
   if (!vmReady()) return Promise.resolve('not set up');
   if (!navigator.onLine) return Promise.resolve('offline');
-  const device = settings.vmSpeakers.split(',').map(s => s.trim()).filter(Boolean).join(',');
-  const q = new URLSearchParams({ token: settings.vmToken.trim(), device, speech });
-  return fetch('https://api-v3.voicemonkey.io/announce?' + q, { referrerPolicy: 'no-referrer' })
+  return fetch(vmUrl(speech), { referrerPolicy: 'no-referrer' })
     .then(r => r.json().catch(() => ({})).then(j => (r.ok && j.success !== false ? 'ok' : 'error: ' + (j.error || j.message || r.status))))
     // Without CORS headers the browser hides the reply, but the request still reaches Voice Monkey
     .catch(() => 'sent');
@@ -2015,10 +2024,10 @@ function poStopRepeats() {
 }
 
 let helpCloseTimer = null, helpRepeatTimer = null, helpRepeats = 0, helpActive = false, helpKind = 'help';
-function sendHelpOut(again, skipNtfy) {
+function sendHelpOut(again, skipNtfy, skipAlexa) {
   const a = ALERTS[helpKind];
   const jobs = [];
-  if (vmReady()) jobs.push(vmAnnounce(again ? 'Reminder. ' + a.speech : a.speech).then(r => ['the Alexas', r]));
+  if (vmReady() && !skipAlexa) jobs.push(vmAnnounce(again ? 'Reminder. ' + a.speech : a.speech).then(r => ['the Alexas', r]));
   if (poReady() && !again) jobs.push(poEmergency(a.title, a.phone).then(r => ['Pushover phones', r]));
   if (phonesReady() && !skipNtfy) {
     jobs.push(ntfyPost(topics().help, again ? a.again : a.phone, {
@@ -2033,8 +2042,9 @@ function describeSends(results) {
     r === 'ok' || r === 'sent' ? 'Sent to ' + who + '.' : r === 'offline' ? 'No internet, so ' + who + ' were not reached.' : 'Problem reaching ' + who + '.'
   ).join(' ');
 }
-// kind 'fall' comes from the pocket button, which has already notified the phones itself
-function triggerHelp(kind) {
+// kind 'fall' comes from the pocket button, which has already notified the phones itself,
+// and the Alexas too when buttonAnnounced (so the first announcement isn't said twice; the reminders still are)
+function triggerHelp(kind, buttonAnnounced) {
   const fall = kind === 'fall';
   if (helpActive && fall) return;
   clearTimeout(helpCloseTimer); clearTimeout(helpRepeatTimer);
@@ -2049,8 +2059,10 @@ function triggerHelp(kind) {
   const spoken = fall ? 'Help is being called. Stay still if you are hurt.' : 'I need help. Please come.';
   setTimeout(() => { if (helpActive) say(spoken); }, 6200);
   if (!fall) record('I need help. Please come.', { train: false });
-  sendHelpOut(false, fall).then(res => {
+  const announced = fall && !!buttonAnnounced;
+  sendHelpOut(false, fall, announced).then(res => {
     if (!helpActive) return;
+    if (announced) res.unshift(['the Alexas', 'ok']);
     if (fall && phonesReady()) res.push(['family phones', 'ok']);
     $('#alertSub').textContent = describeSends(res) + ' Stay calm. Someone will answer soon.';
   });
@@ -2122,7 +2134,7 @@ function listenForReplies() {
     if (!m || !Array.isArray(m.tags) || !m.tags.includes('fall') || seenFalls.has(m.id)) return;
     seenFalls.add(m.id);
     if (typeof m.time === 'number' && Date.now() / 1000 - m.time > 600) return;
-    triggerHelp('fall');
+    triggerHelp('fall', m.tags.includes(BUTTON_ANNOUNCES));
   };
 }
 
@@ -2285,10 +2297,17 @@ function renderAlertSettings() {
   $('#topicSays').textContent = t.says;
   $('#topicReply').textContent = t.reply;
   $('#fallUrl').value = phonesReady() ? fallUrl() : 'Set a family code first';
+  $('#fallAlexaUrl').value = vmReady() ? fallAlexaUrl() : 'Add the Voice Monkey token and speaker IDs above, then tap Save';
 }
+// The button's Hold runs two Internet Requests: this one alerts family phones and the tablet,
+// and fallAlexaUrl() announces on the Alexas straight from the button, so a fall is heard even while the tablet sleeps.
+// The loudspeaker tag (📢 on phones) tells the tablet the button made that announcement itself.
+const BUTTON_ANNOUNCES = 'loudspeaker';
 const fallUrl = () => NTFY + topics().help + '/publish?' + new URLSearchParams({
-  message: ALERTS.fall.phone, title: ALERTS.fall.title, priority: '5', tags: 'fall,rotating_light', actions: ackAction()
+  message: ALERTS.fall.phone, title: ALERTS.fall.title, priority: '5',
+  tags: 'fall,rotating_light' + (vmReady() ? ',' + BUTTON_ANNOUNCES : ''), actions: ackAction()
 });
+const fallAlexaUrl = () => vmUrl(ALERTS.fall.speech);
 const alertStatus = t => { $('#alertStatus').textContent = t; };
 
 // ---------- Themes: holidays, game days, birthday ----------
@@ -3233,17 +3252,23 @@ $('#testPushover').addEventListener('click', () => {
       : r === 'sent' ? 'Sent. Phones should ring within a few seconds.'
         : r === 'offline' ? 'This tablet has no internet right now.' : 'Pushover said: ' + r.replace(/^error: /, '')));
 });
-$('#copyFallUrl').addEventListener('click', () => {
-  const el = $('#fallUrl');
+function copyAddress(id, ready) {
+  if (!ready) { alertStatus('Fill in the settings above and tap Save first.'); return; }
+  const el = $(id);
   const done = () => alertStatus('Copied. Paste it into the Flic app.');
   if (navigator.clipboard) navigator.clipboard.writeText(el.value).then(done, () => { el.select(); alertStatus('Selected. Copy it with your keyboard.'); });
   else { el.select(); alertStatus('Selected. Copy it with your keyboard.'); }
-});
+}
+$('#copyFallUrl').addEventListener('click', () => copyAddress('#fallUrl', phonesReady()));
+$('#copyFallAlexaUrl').addEventListener('click', () => copyAddress('#fallAlexaUrl', vmReady()));
 $('#testFall').addEventListener('click', () => {
   if (!phonesReady()) { alertStatus('Set a family code first, then tap Save.'); return; }
   alertStatus('Sending a test fall alert, exactly like the button does…');
-  fetch(fallUrl()).then(() => alertStatus('Sent. Phones should buzz, and this screen should show the fall alert within a few seconds.'),
-    () => alertStatus('Sent. Phones should buzz, and this screen should show the fall alert within a few seconds.'));
+  const calls = [fetch(fallUrl())];
+  // Voice Monkey sends no CORS headers, so this "fails" in the browser even though the Alexas get it
+  if (vmReady()) calls.push(fetch(fallAlexaUrl(), { referrerPolicy: 'no-referrer' }));
+  Promise.allSettled(calls).then(() => alertStatus('Sent. Phones should buzz' + (vmReady() ? ', the Alexas should announce it,' : '') +
+    ' and this screen should show the fall alert within a few seconds.'));
 });
 $('#testPhones').addEventListener('click', () => {
   if (!phonesReady()) { alertStatus('Set a family code first, then tap Save.'); return; }
@@ -3411,7 +3436,7 @@ $('#syncNow').addEventListener('click', async () => {
 // ---------- Automatic updates ----------
 // version.json names the newest build. When it changes, the app reloads itself, but only after he has left it alone
 // for a few minutes and nothing is open, so the screen never changes under his finger. His sentence-in-progress is kept.
-const BUILD = '2026-11-14.1';
+const BUILD = '2026-11-16.1';
 let updateReady = false;
 async function checkForUpdate() {
   if (!navigator.onLine) return;
