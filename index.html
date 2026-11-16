@@ -88,10 +88,12 @@ input, textarea { -webkit-user-select: text; user-select: text; }
 button { font: inherit; color: inherit; cursor: pointer; touch-action: manipulation; -webkit-appearance: none; appearance: none; }
 button:focus-visible, select:focus-visible, input:focus-visible, textarea:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
 svg { flex: none; }
+/* Steady taps (see the Events section): the app, not the browser, decides what each touch on these areas means */
+.actions, .answers, #chips, #words, #kb { touch-action: none; }
 .press, .w, .key, .chip, .ans, .tool, .ctl, .speak, .tile, .face, .remote button, .board-grid button, .quick-items button, .btn {
   transition: transform 0.12s ease, filter 0.12s ease, background-color 0.2s ease;
 }
-.w:active, .key:active, .chip:active, .ans:active, .tool:active, .ctl:active, .speak:active, .tile:active, .face:active,
+.w:active, .key:active, .chip:active, .ans:active, .tool:active, .ctl:active, .speak:active, .tile:active, .face:active, .pressed,
 .remote button:active, .board-grid button:active, .quick-items button:active, .btn:active { transform: scale(0.965); filter: brightness(0.94); }
 
 #app {
@@ -759,7 +761,7 @@ svg { flex: none; }
       <div class="seg" id="size" role="group" aria-label="Text size">
         <button data-v="1">Normal</button><button data-v="1.15">Large</button><button data-v="1.3">Largest</button>
       </div>
-      <p style="margin-top:16px">Shaky hands can tap the same button twice. Taps on the same button closer together than this are ignored.</p>
+      <p style="margin-top:16px">Shaky hands can tap twice or bounce onto the next key. A second tap this soon after the last one is ignored, on any button. A tap always counts for the button he first touched, even if his finger slides or stays down.</p>
       <label for="guard">Ignore repeat taps
         <select id="guard">
           <option value="0">Off</option>
@@ -3089,6 +3091,59 @@ async function keepAwake() {
   } catch (e) {}
 }
 
+// ---------- Steady taps ----------
+// Parkinson's makes a finger slide while it's down, linger before lifting, bounce onto a second key, or land in the
+// gap between keys. The browser drops a tap that slid, so on the typing areas the app decides what a touch means:
+// the button he first touched counts when he lifts, however long he held or wherever he slid; a touch in a gap counts
+// for the nearest button; and a second tap sooner than the "Ignore repeat taps" setting after the last one (on any
+// button, not just the same one) is treated as a bounce. A resting hand doesn't block him: a new touch takes over from
+// one that has been down over a second. The real button click still runs the action, so nothing else changes.
+const STEADY = '.key, .w, #chips .chip, #speak, #delWord, #clear, .ans';
+let steadyDown = null, steadyLastAt = 0, steadyClickUntil = 0;
+function nearestIn(box, sel, x, y) {
+  let best = null, bestD = Infinity;
+  box.querySelectorAll(sel).forEach(b => {
+    if (b.disabled) return;
+    const r = b.getBoundingClientRect();
+    const dx = Math.max(r.left - x, 0, x - r.right), dy = Math.max(r.top - y, 0, y - r.bottom), d = dx * dx + dy * dy;
+    if (d < bestD) { bestD = d; best = b; }
+  });
+  return bestD <= 30 * 30 ? best : null;
+}
+function steadyTarget(e) {
+  const b = e.target.closest(STEADY);
+  if (b) return b.disabled ? null : b;
+  const kb = e.target.closest('#kb'); if (kb) return nearestIn(kb, '.key', e.clientX, e.clientY);
+  const words = e.target.closest('#words'); if (words) return nearestIn(words, '.w', e.clientX, e.clientY);
+  return null;
+}
+function steadyRelease() { if (steadyDown) steadyDown.b.classList.remove('pressed'); steadyDown = null; }
+$('#app').addEventListener('pointerdown', e => {
+  if (e.pointerType === 'mouse' && e.button !== 0) return;
+  if (steadyDown && Date.now() - steadyDown.t < 1000) return;
+  const b = steadyTarget(e);
+  steadyRelease();
+  if (!b) return;
+  steadyDown = { id: e.pointerId, b, t: Date.now() };
+  b.classList.add('pressed');
+}, true);
+$('#app').addEventListener('pointerup', e => {
+  if (!steadyDown || e.pointerId !== steadyDown.id) return;
+  const b = steadyDown.b;
+  steadyRelease();
+  steadyClickUntil = Date.now() + 1000;
+  const now = Date.now();
+  if (b.disabled || !document.contains(b)) return;
+  if (settings.guard > 0 && now - steadyLastAt < settings.guard) return;
+  steadyLastAt = now;
+  b.click();
+}, true);
+$('#app').addEventListener('pointercancel', e => { if (steadyDown && e.pointerId === steadyDown.id) steadyRelease(); }, true);
+// The browser's own click from that same touch would count twice (or land on the wrong button after a slide)
+$('#app').addEventListener('click', e => {
+  if (e.isTrusted && Date.now() < steadyClickUntil && (e.target.closest(STEADY) || e.target.closest('#kb, #words'))) { e.stopPropagation(); e.preventDefault(); }
+}, true);
+
 // ---------- Events ----------
 $('#words').addEventListener('click', e => {
   const b = e.target.closest('.w'); if (!b || b.disabled) return;
@@ -3474,7 +3529,7 @@ $('#syncNow').addEventListener('click', async () => {
 // ---------- Automatic updates ----------
 // version.json names the newest build. When it changes, the app reloads itself, but only after he has left it alone
 // for a few minutes and nothing is open, so the screen never changes under his finger. His sentence-in-progress is kept.
-const BUILD = '2026-11-16.3';
+const BUILD = '2026-11-16.4';
 let updateReady = false;
 async function checkForUpdate() {
   if (!navigator.onLine) return;
