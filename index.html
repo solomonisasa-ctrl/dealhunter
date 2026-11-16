@@ -836,7 +836,7 @@ svg { flex: none; }
       </div>
       <p class="fam-note" id="alertStatus"></p>
       <h2 style="margin-top:18px">Pocket fall button (Flic)</h2>
-      <p>Holding the button for a second alerts family phones and has the Alexas announce it, even while this tablet is asleep. Click and double click stay empty, so a bump in his pocket does nothing.</p>
+      <p>Holding the button for a second alerts family phones through ntfy and Pushover and has the Alexas announce it, even if this tablet is asleep or his app is closed. Click and double click stay empty, so a bump in his pocket does nothing.</p>
       <p>1. In the Flic app, open the button, choose <b>Hold</b>, and add an <b>Internet Request</b> action. Method <b>GET</b>, with this address:</p>
       <div class="addrow">
         <input type="text" id="fallUrl" readonly aria-label="Address for family phones">
@@ -847,9 +847,24 @@ svg { flex: none; }
         <input type="text" id="fallAlexaUrl" readonly aria-label="Address for the Alexas">
         <button class="btn" id="copyFallAlexaUrl">Copy</button>
       </div>
+      <p style="margin-top:14px">3. Add a third <b>Internet Request</b> to the same <b>Hold</b> for Pushover. Method <b>POST</b>, with this address:</p>
+      <div class="addrow">
+        <input type="text" id="fallPoUrl" readonly value="https://api.pushover.net/1/messages.json" aria-label="Address for Pushover">
+        <button class="btn" id="copyFallPoUrl">Copy</button>
+      </div>
+      <p>Content type:</p>
+      <div class="addrow">
+        <input type="text" id="fallPoType" readonly value="application/x-www-form-urlencoded" aria-label="Content type for Pushover">
+        <button class="btn" id="copyFallPoType">Copy</button>
+      </div>
+      <p>Body:</p>
+      <div class="addrow">
+        <input type="text" id="fallPoBody" readonly aria-label="Body for Pushover">
+        <button class="btn" id="copyFallPoBody">Copy</button>
+      </div>
       <div class="row-btns" style="margin-top:10px"><button class="btn" id="testFall">Test the fall alert</button></div>
       <ol class="tips" style="margin-top:8px">
-        <li>If you change the family code or the Alexa settings, copy both addresses into the Flic app again.</li>
+        <li>If you change the family code, the Alexa settings or the Pushover keys, copy the addresses and the Pushover body into the Flic app again.</li>
         <li>The button works through the phone or iPad it is paired with. Keep the Flic app there and never swipe it closed. A Flic Hub plugged in near his chair works even with no phone nearby.</li>
         <li>On each family phone, install the free <b>ntfy</b> app and subscribe to <b id="topicHelp"></b> (urgent help) and <b id="topicSays"></b> (messages he sends with Send to phone).</li>
         <li>To message him, publish to <b id="topicReply"></b> in the ntfy app. It pops up on his tablet and is read out loud.</li>
@@ -2004,32 +2019,37 @@ function vmAnnounce(speech) {
 const PO_API = 'https://api.pushover.net/1/';
 const PO_TAG = 'dadsvoice-help';
 const poReady = () => !!(settings.poToken && settings.poUser);
+const poBody = fields => new URLSearchParams(Object.assign({ token: settings.poToken.trim(), user: settings.poUser.trim() }, fields));
 function poSend(fields) {
   if (!poReady()) return Promise.resolve('not set up');
   if (!navigator.onLine) return Promise.resolve('offline');
-  const body = new URLSearchParams(Object.assign({ token: settings.poToken.trim(), user: settings.poUser.trim() }, fields));
-  return fetch(PO_API + 'messages.json', { method: 'POST', body })
+  return fetch(PO_API + 'messages.json', { method: 'POST', body: poBody(fields) })
     .then(r => r.json().catch(() => ({})).then(j => (r.ok && j.status === 1 ? 'ok' : 'error: ' + ((j.errors && j.errors.join('; ')) || r.status))))
     .catch(() => 'sent');
 }
 // Emergency alerts repeat every 30s on family phones until someone taps Acknowledge; the acknowledgment comes back through the reply topic
-function poEmergency(title, message, expire) {
+function poEmergencyFields(title, message, expire) {
   const fields = { title, message, priority: '2', retry: '30', expire: String(expire || 3600), sound: 'siren', tags: PO_TAG };
   if (phonesReady()) fields.callback = NTFY + topics().reply;
-  return poSend(fields);
+  return fields;
+}
+function poEmergency(title, message, expire) {
+  return poSend(poEmergencyFields(title, message, expire));
 }
 function poStopRepeats() {
   if (!poReady() || !navigator.onLine) return;
   fetch(PO_API + 'receipts/cancel_by_tag/' + PO_TAG + '.json', { method: 'POST', body: new URLSearchParams({ token: settings.poToken.trim() }) }).catch(() => {});
 }
 
-let helpCloseTimer = null, helpRepeatTimer = null, helpRepeats = 0, helpActive = false, helpKind = 'help';
-function sendHelpOut(again, skipNtfy, skipAlexa) {
+let helpCloseTimer = null, helpRepeatTimer = null, poBackupTimer = null, helpRepeats = 0, helpActive = false, helpKind = 'help';
+// skip: what the pocket button already sent itself ({ ntfy, alexa, pushover })
+function sendHelpOut(again, skip) {
+  skip = skip || {};
   const a = ALERTS[helpKind];
   const jobs = [];
-  if (vmReady() && !skipAlexa) jobs.push(vmAnnounce(again ? 'Reminder. ' + a.speech : a.speech).then(r => ['the Alexas', r]));
-  if (poReady() && !again) jobs.push(poEmergency(a.title, a.phone).then(r => ['Pushover phones', r]));
-  if (phonesReady() && !skipNtfy) {
+  if (vmReady() && !skip.alexa) jobs.push(vmAnnounce(again ? 'Reminder. ' + a.speech : a.speech).then(r => ['the Alexas', r]));
+  if (poReady() && !again && !skip.pushover) jobs.push(poEmergency(a.title, a.phone).then(r => ['Pushover phones', r]));
+  if (phonesReady() && !skip.ntfy) {
     jobs.push(ntfyPost(topics().help, again ? a.again : a.phone, {
       title: a.title, priority: '5', tags: 'rotating_light', actions: ackAction()
     }).then(r => ['family phones', r]));
@@ -2042,12 +2062,13 @@ function describeSends(results) {
     r === 'ok' || r === 'sent' ? 'Sent to ' + who + '.' : r === 'offline' ? 'No internet, so ' + who + ' were not reached.' : 'Problem reaching ' + who + '.'
   ).join(' ');
 }
-// kind 'fall' comes from the pocket button, which has already notified the phones itself,
-// and the Alexas too when buttonAnnounced (so the first announcement isn't said twice; the reminders still are)
-function triggerHelp(kind, buttonAnnounced) {
+// kind 'fall' comes from the pocket button, which has already notified the ntfy phones itself. byButton says what else
+// it sent ({ alexa, pushover }), so those aren't sent twice. The Alexa reminders still play, and if nobody has
+// acknowledged the button's Pushover alert after 45 seconds the tablet sends its own, in case the Flic's request failed.
+function triggerHelp(kind, byButton) {
   const fall = kind === 'fall';
   if (helpActive && fall) return;
-  clearTimeout(helpCloseTimer); clearTimeout(helpRepeatTimer);
+  clearTimeout(helpCloseTimer); clearTimeout(helpRepeatTimer); clearTimeout(poBackupTimer);
   helpActive = true; helpRepeats = 0; helpKind = fall ? 'fall' : 'help';
   const ov = $('#alertOverlay');
   ov.classList.remove('acked');
@@ -2059,13 +2080,18 @@ function triggerHelp(kind, buttonAnnounced) {
   const spoken = fall ? 'Help is being called. Stay still if you are hurt.' : 'I need help. Please come.';
   setTimeout(() => { if (helpActive) say(spoken); }, 6200);
   if (!fall) record('I need help. Please come.', { train: false });
-  const announced = fall && !!buttonAnnounced;
-  sendHelpOut(false, fall, announced).then(res => {
+  const sent = fall ? { ntfy: true, alexa: !!(byButton && byButton.alexa), pushover: !!(byButton && byButton.pushover) } : {};
+  sendHelpOut(false, sent).then(res => {
     if (!helpActive) return;
-    if (announced) res.unshift(['the Alexas', 'ok']);
+    if (sent.pushover) res.unshift(['Pushover phones', 'ok']);
+    if (sent.alexa) res.unshift(['the Alexas', 'ok']);
     if (fall && phonesReady()) res.push(['family phones', 'ok']);
     $('#alertSub').textContent = describeSends(res) + ' Stay calm. Someone will answer soon.';
   });
+  if (sent.pushover && poReady()) {
+    const a = ALERTS[helpKind];
+    poBackupTimer = setTimeout(() => { if (helpActive) poEmergency(a.title, a.again); }, 45000);
+  }
   scheduleHelpRepeat();
 }
 function scheduleHelpRepeat() {
@@ -2080,7 +2106,7 @@ function scheduleHelpRepeat() {
 function helpAcknowledged(text) {
   if (!helpActive) return false;
   helpActive = false;
-  clearTimeout(helpRepeatTimer); stopAlarm();
+  clearTimeout(helpRepeatTimer); clearTimeout(poBackupTimer); stopAlarm();
   poStopRepeats();
   const ov = $('#alertOverlay');
   ov.classList.add('acked');
@@ -2094,7 +2120,7 @@ function helpAcknowledged(text) {
 function closeHelp() {
   const wasActive = helpActive;
   helpActive = false;
-  clearTimeout(helpRepeatTimer); clearTimeout(helpCloseTimer); stopAlarm();
+  clearTimeout(helpRepeatTimer); clearTimeout(helpCloseTimer); clearTimeout(poBackupTimer); stopAlarm();
   $('#alertOverlay').hidden = true;
   if (!wasActive) return;
   poStopRepeats();
@@ -2134,7 +2160,7 @@ function listenForReplies() {
     if (!m || !Array.isArray(m.tags) || !m.tags.includes('fall') || seenFalls.has(m.id)) return;
     seenFalls.add(m.id);
     if (typeof m.time === 'number' && Date.now() / 1000 - m.time > 600) return;
-    triggerHelp('fall', m.tags.includes(BUTTON_ANNOUNCES));
+    triggerHelp('fall', { alexa: m.tags.includes(BUTTON_ALEXA), pushover: m.tags.includes(BUTTON_PUSHOVER) });
   };
 }
 
@@ -2298,16 +2324,20 @@ function renderAlertSettings() {
   $('#topicReply').textContent = t.reply;
   $('#fallUrl').value = phonesReady() ? fallUrl() : 'Set a family code first';
   $('#fallAlexaUrl').value = vmReady() ? fallAlexaUrl() : 'Add the Voice Monkey token and speaker IDs above, then tap Save';
+  $('#fallPoBody').value = poReady() ? fallPushoverBody() : 'Add the Pushover user key and app API token above, then tap Save';
 }
-// The button's Hold runs two Internet Requests: this one alerts family phones and the tablet,
-// and fallAlexaUrl() announces on the Alexas straight from the button, so a fall is heard even while the tablet sleeps.
-// The loudspeaker tag (📢 on phones) tells the tablet the button made that announcement itself.
-const BUTTON_ANNOUNCES = 'loudspeaker';
+// The button's Hold runs up to three Internet Requests: fallUrl() alerts ntfy phones and the tablet,
+// fallAlexaUrl() announces on the Alexas, and a POST of fallPushoverBody() sends the Pushover siren, all straight from
+// the button so they work even when the tablet isn't. Tags on the ntfy alert tell the tablet what the button sent itself:
+// loudspeaker (📢) for the Alexas, iphone (📱) for Pushover.
+const BUTTON_ALEXA = 'loudspeaker', BUTTON_PUSHOVER = 'iphone';
 const fallUrl = () => NTFY + topics().help + '/publish?' + new URLSearchParams({
   message: ALERTS.fall.phone, title: ALERTS.fall.title, priority: '5',
-  tags: 'fall,rotating_light' + (vmReady() ? ',' + BUTTON_ANNOUNCES : ''), actions: ackAction()
+  tags: ['fall', 'rotating_light'].concat(vmReady() ? [BUTTON_ALEXA] : [], poReady() ? [BUTTON_PUSHOVER] : []).join(','),
+  actions: ackAction()
 });
 const fallAlexaUrl = () => vmUrl(ALERTS.fall.speech);
+const fallPushoverBody = () => poBody(poEmergencyFields(ALERTS.fall.title, ALERTS.fall.phone)).toString();
 const alertStatus = t => { $('#alertStatus').textContent = t; };
 
 // ---------- Themes: holidays, game days, birthday ----------
@@ -2480,9 +2510,12 @@ function wishFor(title) {
   return m ? 'Happy birthday, ' + m[1] + '! I love you.' : '';
 }
 let reminderQueue = [];
+// Reminders chime and speak, so they wait until morning instead of going off just after midnight
+const REMINDER_HOUR = 8;
 function checkReminders() {
   if (anyOverlayOpen() || !$('#reminder').hidden || busyTyping()) return;
   const now = new Date(), tomorrow = new Date(now.getTime() + 864e5);
+  if (now.getHours() < REMINDER_HOUR) return;
   const shown = LS.get('dv.remShown', {});
   const today = ymd(now);
   const due = [];
@@ -3261,14 +3294,18 @@ function copyAddress(id, ready) {
 }
 $('#copyFallUrl').addEventListener('click', () => copyAddress('#fallUrl', phonesReady()));
 $('#copyFallAlexaUrl').addEventListener('click', () => copyAddress('#fallAlexaUrl', vmReady()));
+$('#copyFallPoUrl').addEventListener('click', () => copyAddress('#fallPoUrl', true));
+$('#copyFallPoType').addEventListener('click', () => copyAddress('#fallPoType', true));
+$('#copyFallPoBody').addEventListener('click', () => copyAddress('#fallPoBody', poReady()));
 $('#testFall').addEventListener('click', () => {
   if (!phonesReady()) { alertStatus('Set a family code first, then tap Save.'); return; }
   alertStatus('Sending a test fall alert, exactly like the button does…');
   const calls = [fetch(fallUrl())];
   // Voice Monkey sends no CORS headers, so this "fails" in the browser even though the Alexas get it
   if (vmReady()) calls.push(fetch(fallAlexaUrl(), { referrerPolicy: 'no-referrer' }));
-  Promise.allSettled(calls).then(() => alertStatus('Sent. Phones should buzz' + (vmReady() ? ', the Alexas should announce it,' : '') +
-    ' and this screen should show the fall alert within a few seconds.'));
+  if (poReady()) calls.push(fetch(PO_API + 'messages.json', { method: 'POST', body: fallPushoverBody(), headers: { 'Content-Type': 'application/x-www-form-urlencoded' } }));
+  Promise.allSettled(calls).then(() => alertStatus('Sent. Phones should buzz' + (poReady() ? ', Pushover should ring' : '') +
+    (vmReady() ? ', the Alexas should announce it' : '') + ', and this screen should show the fall alert within a few seconds.'));
 });
 $('#testPhones').addEventListener('click', () => {
   if (!phonesReady()) { alertStatus('Set a family code first, then tap Save.'); return; }
@@ -3436,7 +3473,7 @@ $('#syncNow').addEventListener('click', async () => {
 // ---------- Automatic updates ----------
 // version.json names the newest build. When it changes, the app reloads itself, but only after he has left it alone
 // for a few minutes and nothing is open, so the screen never changes under his finger. His sentence-in-progress is kept.
-const BUILD = '2026-11-16.1';
+const BUILD = '2026-11-16.2';
 let updateReady = false;
 async function checkForUpdate() {
   if (!navigator.onLine) return;
