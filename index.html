@@ -649,7 +649,10 @@ svg { flex: none; }
 <div class="inbox" id="inbox" hidden>
   <span class="inbox-label">Message for you</span>
   <p id="inboxText"></p>
-  <button class="btn primary big" id="inboxClose">OK</button>
+  <div class="reminder-btns">
+    <button class="btn big" id="inboxRead">Read it to me</button>
+    <button class="btn primary big" id="inboxClose">OK</button>
+  </div>
 </div>
 
 <div class="settings" id="settings" hidden>
@@ -867,7 +870,7 @@ svg { flex: none; }
         <li>If you change the family code, the Alexa settings or the Pushover keys, copy the addresses and the Pushover body into the Flic app again.</li>
         <li>The button works through the phone or iPad it is paired with. Keep the Flic app there and never swipe it closed. A Flic Hub plugged in near his chair works even with no phone nearby.</li>
         <li>On each family phone, install the free <b>ntfy</b> app and subscribe to <b id="topicHelp"></b> (urgent help) and <b id="topicSays"></b> (messages he sends with Send to phone).</li>
-        <li>To message him, publish to <b id="topicReply"></b> in the ntfy app. It pops up on his tablet and is read out loud.</li>
+        <li>To message him, publish to <b id="topicReply"></b> in the ntfy app. It pops up silently on his tablet, and he can tap Read it to me to hear it.</li>
         <li>Keep a wireless caregiver pager by his chair too, in case the internet is down.</li>
       </ol>
     </section>
@@ -2188,11 +2191,10 @@ function tellHouse() {
 }
 
 // ---------- Messages from family ----------
+// Shown silently: the app never makes a sound he didn't ask for. He can tap Read it to me.
 function showInbox(d) {
   $('#inboxText').textContent = d.text;
   $('#inbox').hidden = false;
-  chime();
-  setTimeout(() => say(d.text), 1200);
 }
 function closeInbox() {
   $('#inbox').hidden = true;
@@ -2510,7 +2512,7 @@ function wishFor(title) {
   return m ? 'Happy birthday, ' + m[1] + '! I love you.' : '';
 }
 let reminderQueue = [];
-// Reminders chime and speak, so they wait until morning instead of going off just after midnight
+// Reminders appear silently, and wait until morning so he sees them when he's up
 const REMINDER_HOUR = 8;
 function checkReminders() {
   if (anyOverlayOpen() || !$('#reminder').hidden || busyTyping()) return;
@@ -2537,8 +2539,6 @@ function showNextReminder() {
   sayBtn.textContent = r.wish ? 'Say: ' + r.wish : '';
   sayBtn.dataset.wish = r.wish;
   $('#reminder').hidden = false;
-  chime();
-  setTimeout(() => say(r.text), 1200);
 }
 
 function updateTheme() {
@@ -3137,6 +3137,7 @@ $('#boardNewAdd').addEventListener('click', addTypedPhrase);
 $('#boardNew').addEventListener('keydown', e => { if (e.key === 'Enter') { e.preventDefault(); addTypedPhrase(); } });
 $('#alertCancel').addEventListener('click', closeHelp);
 $('#inboxClose').addEventListener('click', closeInbox);
+$('#inboxRead').addEventListener('click', () => say($('#inboxText').textContent));
 
 // Help needs a deliberate hold so a stray tap never sets off the alarm
 const helpBtn = $('#help');
@@ -3473,7 +3474,7 @@ $('#syncNow').addEventListener('click', async () => {
 // ---------- Automatic updates ----------
 // version.json names the newest build. When it changes, the app reloads itself, but only after he has left it alone
 // for a few minutes and nothing is open, so the screen never changes under his finger. His sentence-in-progress is kept.
-const BUILD = '2026-11-16.2';
+const BUILD = '2026-11-16.3';
 let updateReady = false;
 async function checkForUpdate() {
   if (!navigator.onLine) return;
