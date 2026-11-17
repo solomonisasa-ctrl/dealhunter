@@ -248,6 +248,13 @@ svg { flex: none; }
 /* On the gray page background, plain buttons need their own card face */
 .board .btn:not(.primary):not(.danger), .screen .btn:not(.primary):not(.danger), .setup-banner .btn:not(.primary) { background: var(--surface); box-shadow: var(--shadow-1), inset 0 0 0 1px var(--line); }
 .row-btns { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.sound-off {
+  position: fixed; left: 50%; top: max(14px, env(safe-area-inset-top, 0px)); transform: translateX(-50%); z-index: 40;
+  display: inline-flex; align-items: center; gap: 10px; padding: 12px 22px; border: 0; border-radius: 999px;
+  background: #1c1c1e; color: #ffffff; font-weight: 700; font-size: 1.05rem; box-shadow: var(--shadow-3); white-space: nowrap;
+}
+.sound-off svg { width: 22px; height: 22px; }
+.sound-off[hidden] { display: none; }
 .toast {
   position: fixed; left: 50%; bottom: max(28px, env(safe-area-inset-bottom, 0px)); transform: translateX(-50%); z-index: 70;
   padding: 12px 22px; border-radius: 999px; background: rgba(28, 28, 30, 0.92); color: #ffffff; font-weight: 600;
@@ -1012,6 +1019,10 @@ svg { flex: none; }
 </div>
 <div class="confetti" id="confetti" aria-hidden="true"></div>
 <div class="toast" id="toast" hidden></div>
+<button class="sound-off" id="soundOff">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4z" fill="currentColor"/><path d="M17 9l5 5M22 9l-5 5"/></svg>
+  Tap anywhere to turn on sound
+</button>
 
 <script>
 (() => {
@@ -1583,7 +1594,11 @@ function say(text, opts) {
   if (!hasTTS) { if (!opts.quiet) openShow(text); return; }
   try {
     speechSynthesis.cancel();
-    const u = new SpeechSynthesisUtterance(spoken(text));
+    // Apple voices read a capital letter on its own as "capital I", so a lone letter is said as the word
+    let t = spoken(text);
+    if (/^\s*i\s*[.!?,]?\s*$/i.test(t)) t = 'eye';
+    else if (/^\s*[A-Z]\s*[.!?,]?\s*$/.test(t)) t = t.toLowerCase();
+    const u = new SpeechSynthesisUtterance(t);
     const v = pickVoice();
     if (v) { u.voice = v; u.lang = v.lang; }
     u.rate = opts.quiet ? Math.min(1.4, settings.rate * 1.1) : settings.rate;
@@ -1607,6 +1622,25 @@ function audio() {
     return actx;
   } catch (e) { return null; }
 }
+// The iPad won't play sound or speech from a page until someone touches it after it loads, and the app reloads
+// itself after every update. Sounds that start on their own (a fall alarm from the Flic button, "Someone is on the
+// way") stay silent until then. So every touch switches sound on, and until the first one a notice says to tap.
+let soundOn = false;
+function unlockSound(e) {
+  const a = audio();
+  if (a) { try { const s = a.createBufferSource(); s.buffer = a.createBuffer(1, 1, 22050); s.connect(a.destination); s.start(0); } catch (err) {} }
+  if (soundOn) return;
+  if (hasTTS && !speechSynthesis.speaking && !speechSynthesis.pending) {
+    try { const u = new SpeechSynthesisUtterance(' '); u.volume = 0; speechSynthesis.speak(u); } catch (err) {}
+  }
+  // pointerdown alone doesn't always count on older iPads; the touchend or click of the same tap finishes it
+  if (e.type === 'pointerdown') return;
+  soundOn = true;
+  $('#soundOff').hidden = true;
+  // An alert that went off while sound was blocked says so now
+  if (helpActive && !(e.target && e.target.closest && e.target.closest('#alertCancel'))) say(helpKind === 'fall' ? 'Help is being called. Stay still if you are hurt.' : 'Help is being called.');
+}
+['pointerdown', 'touchend', 'click', 'keydown'].forEach(t => document.addEventListener(t, unlockSound, true));
 function tone(freq, start, dur, vol, type) {
   const a = audio(); if (!a) return;
   const t0 = a.currentTime + start;
@@ -2118,10 +2152,15 @@ function helpAcknowledged(text) {
   poStopRepeats();
   const ov = $('#alertOverlay');
   ov.classList.add('acked');
+  const extra = text && !/^someone is on the way/i.test(text) ? text : '';
   $('#alertTitle').textContent = 'Someone is on the way';
-  $('#alertSub').textContent = text && !/^someone is on the way/i.test(text) ? text : 'They got your alert.';
+  $('#alertSub').textContent = extra || 'They got your alert.';
   $('#alertCancel').textContent = 'OK';
-  say('Someone is on the way.');
+  // A chime, then the news out loud, and once more in case the alarm or a shaken moment covered it
+  const news = 'Someone is on the way.' + (extra ? ' ' + extra : '');
+  chime();
+  setTimeout(() => say(news), 1100);
+  setTimeout(() => { if (!ov.hidden && ov.classList.contains('acked')) say(news); }, 9000);
   helpCloseTimer = setTimeout(() => { ov.hidden = true; }, 20000);
   return true;
 }
@@ -3532,7 +3571,7 @@ $('#syncNow').addEventListener('click', async () => {
 // ---------- Automatic updates ----------
 // version.json names the newest build. When it changes, the app reloads itself, but only after he has left it alone
 // for a few minutes and nothing is open, so the screen never changes under his finger. His sentence-in-progress is kept.
-const BUILD = '2026-11-16.5';
+const BUILD = '2026-11-16.6';
 let updateReady = false;
 async function checkForUpdate() {
   if (!navigator.onLine) return;
