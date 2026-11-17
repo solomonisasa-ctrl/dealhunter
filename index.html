@@ -830,6 +830,12 @@ svg { flex: none; }
       <label for="vmSpeakers">Voice Monkey speaker IDs (comma separated)
         <input type="text" id="vmSpeakers" autocomplete="off" spellcheck="false" placeholder="kitchen-echo, living-room-echo">
       </label>
+      <label for="vmLoud">Voice Monkey routine trigger for full volume (optional)
+        <input type="text" id="vmLoud" autocomplete="off" spellcheck="false" placeholder="A Routine Trigger whose Alexa routine turns the Echos up">
+      </label>
+      <label for="vmNormal">Voice Monkey routine trigger for normal volume (optional)
+        <input type="text" id="vmNormal" autocomplete="off" spellcheck="false" placeholder="A Routine Trigger whose Alexa routine turns them back down">
+      </label>
       <label for="poUser">Pushover user key or group key
         <input type="text" id="poUser" autocomplete="off" spellcheck="false" placeholder="From pushover.net, top of your dashboard">
       </label>
@@ -1166,7 +1172,7 @@ const cap = s => s ? s.charAt(0).toUpperCase() + s.slice(1) : s;
 const settings = Object.assign({
   voiceURI: '', rate: 0.95, pitch: 1, scale: 1, guard: 300, speakMode: 'words',
   phrases: DEFAULT_PHRASES.slice(), myWords: [], sayAs: {}, removedPhrases: [],
-  vmToken: '', vmSpeakers: '', familyCode: '', sendSentences: true, poToken: '', poUser: ''
+  vmToken: '', vmSpeakers: '', vmLoud: '', vmNormal: '', familyCode: '', sendSentences: true, poToken: '', poUser: ''
 }, LS.get('dv.settings', {}));
 // v2: the old automatic voice could land on one of Apple's novelty voices (the "squeaky toy"); pick again from the good ones
 if (!settings.v2) {
@@ -1221,7 +1227,7 @@ function applySetupObject(d) {
   if (typeof d.birthday === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(d.birthday)) settings.birthday = d.birthday;
   if (typeof d.name === 'string') settings.name = d.name.trim().slice(0, 40);
   if (Array.isArray(d.events)) settings.events = d.events.filter(e => e && /^\d{2}-\d{2}$/.test(e.md) && typeof e.title === 'string');
-  ['vmToken', 'vmSpeakers', 'poUser', 'poToken', 'tvName', 'theme', 'speakMode'].forEach(k => { if (typeof d[k] === 'string' && d[k]) settings[k] = d[k].slice(0, 200); });
+  ['vmToken', 'vmSpeakers', 'vmLoud', 'vmNormal', 'poUser', 'poToken', 'tvName', 'theme', 'speakMode'].forEach(k => { if (typeof d[k] === 'string' && d[k]) settings[k] = d[k].slice(0, 200); });
   if (Array.isArray(d.removedPhrases)) settings.removedPhrases = Array.from(new Set((settings.removedPhrases || []).concat(d.removedPhrases.filter(s => typeof s === 'string'))));
   LS.set('dv.settings', settings);
 }
@@ -1237,7 +1243,7 @@ async function applySetupCode(text) {
 }
 // Everything another device needs (alert keys included); the code only ever lives in this browser and the QR on screen
 function exportSettings() {
-  const keys = ['phrases', 'myWords', 'sayAs', 'familyCode', 'birthday', 'name', 'events', 'vmToken', 'vmSpeakers', 'poUser', 'poToken', 'tvName', 'theme', 'speakMode', 'removedPhrases'];
+  const keys = ['phrases', 'myWords', 'sayAs', 'familyCode', 'birthday', 'name', 'events', 'vmToken', 'vmSpeakers', 'vmLoud', 'vmNormal', 'poUser', 'poToken', 'tvName', 'theme', 'speakMode', 'removedPhrases'];
   const out = { boost: BOOST };
   keys.forEach(k => { if (settings[k] !== undefined && settings[k] !== '') out[k] = settings[k]; });
   return out;
@@ -2057,6 +2063,15 @@ function vmAnnounce(speech) {
     // Without CORS headers the browser hides the reply, but the request still reaches Voice Monkey
     .catch(() => 'sent');
 }
+// Voice Monkey can't set volume, but it can fire an Alexa routine that does: vmLoud turns the Echos up when an alert
+// starts, vmNormal turns them back down when it's answered or cancelled. Each counts as one Voice Monkey request.
+function vmTrigger(id) {
+  id = (id || '').trim();
+  if (!id || !settings.vmToken || !navigator.onLine) return Promise.resolve('not set up');
+  return fetch('https://api-v3.voicemonkey.io/trigger?' + new URLSearchParams({ token: settings.vmToken.trim(), device: id }), { referrerPolicy: 'no-referrer' })
+    .then(r => (r.ok ? 'ok' : 'error ' + r.status)).catch(() => 'sent');
+}
+const LOUD_SETTLE_MS = 3000;
 
 const PO_API = 'https://api.pushover.net/1/';
 const PO_TAG = 'dadsvoice-help';
@@ -2089,7 +2104,11 @@ function sendHelpOut(again, skip) {
   skip = skip || {};
   const a = ALERTS[helpKind];
   const jobs = [];
-  if (vmReady() && !skip.alexa) jobs.push(vmAnnounce(again ? a.remind : a.speech).then(r => ['the Alexas', r]));
+  if (vmReady() && !skip.alexa) {
+    // The first announcement waits a moment for the full-volume routine to turn the Echos up
+    const wait = !again && settings.vmLoud ? new Promise(r => setTimeout(r, LOUD_SETTLE_MS)) : Promise.resolve();
+    jobs.push(wait.then(() => vmAnnounce(again ? a.remind : a.speech)).then(r => ['the Alexas', r]));
+  }
   if (poReady() && !again && !skip.pushover) jobs.push(poEmergency(a.title, a.phone).then(r => ['Pushover phones', r]));
   if (phonesReady() && !skip.ntfy) {
     jobs.push(ntfyPost(topics().help, again ? a.again : a.phone, {
@@ -2119,6 +2138,7 @@ function triggerHelp(kind, byButton) {
   $('#alertCancel').textContent = "I'm okay. Cancel.";
   ov.hidden = false;
   startAlarm(3);
+  if (vmReady()) vmTrigger(settings.vmLoud);
   const spoken = fall ? 'Help is being called. Stay still if you are hurt.' : 'I need help. Please come.';
   setTimeout(() => { if (helpActive) say(spoken); }, 6200);
   if (!fall) record('I need help. Please come.', { train: false });
@@ -2154,6 +2174,7 @@ function helpAcknowledged(text) {
   helpActive = false;
   clearTimeout(helpRepeatTimer); clearTimeout(poBackupTimer); stopAlarm();
   poStopRepeats();
+  if (vmReady()) vmTrigger(settings.vmNormal);
   const ov = $('#alertOverlay');
   ov.classList.add('acked');
   const extra = text && !/^someone is on the way/i.test(text) ? text : '';
@@ -2177,7 +2198,11 @@ function closeHelp() {
   poStopRepeats();
   poSend({ title: 'Dad is okay', message: 'Dad cancelled the help alert. He says he is okay.', priority: '0' });
   if (phonesReady()) ntfyPost(topics().help, 'Dad cancelled the help alert. He says he is okay.', { title: 'Dad is okay', priority: '4', tags: 'white_check_mark' });
-  if (vmReady()) vmAnnounce('Dad is okay. He cancelled the help alert.');
+  if (vmReady()) {
+    vmAnnounce('Dad is okay. He cancelled the help alert.');
+    // Back to normal volume once that has been said
+    setTimeout(() => vmTrigger(settings.vmNormal), 8000);
+  }
 }
 
 let replySource = null, helpSource = null, poTestPending = false;
@@ -2364,6 +2389,8 @@ function queueLog(text) {
 function renderAlertSettings() {
   $('#vmToken').value = settings.vmToken || '';
   $('#vmSpeakers').value = settings.vmSpeakers || '';
+  $('#vmLoud').value = settings.vmLoud || '';
+  $('#vmNormal').value = settings.vmNormal || '';
   $('#poUser').value = settings.poUser || '';
   $('#poToken').value = settings.poToken || '';
   $('#familyCode').value = settings.familyCode || '';
@@ -3363,6 +3390,8 @@ $('#saveAlerts').addEventListener('click', () => {
   if (!CODE_RE.test(code)) { alertStatus('The family code needs 8 to 64 letters, numbers, dashes or underscores.'); return; }
   settings.vmToken = $('#vmToken').value.trim();
   settings.vmSpeakers = $('#vmSpeakers').value.trim();
+  settings.vmLoud = $('#vmLoud').value.trim();
+  settings.vmNormal = $('#vmNormal').value.trim();
   settings.poUser = $('#poUser').value.trim();
   settings.poToken = $('#poToken').value.trim();
   settings.familyCode = code;
@@ -3575,7 +3604,7 @@ $('#syncNow').addEventListener('click', async () => {
 // ---------- Automatic updates ----------
 // version.json names the newest build. When it changes, the app reloads itself, but only after he has left it alone
 // for a few minutes and nothing is open, so the screen never changes under his finger. His sentence-in-progress is kept.
-const BUILD = '2026-11-16.7';
+const BUILD = '2026-11-16.8';
 let updateReady = false;
 async function checkForUpdate() {
   if (!navigator.onLine) return;
