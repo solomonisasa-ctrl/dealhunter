@@ -823,7 +823,7 @@ svg { flex: none; }
 
     <section>
       <h2>Alerts</h2>
-      <p>When he holds <b>Help</b>, the Alexas you choose announce it, and family phones get an urgent notification with an <b>I'm on my way</b> button. The announcement repeats every 90 seconds until someone taps <b>I'm on my way</b> or <b>Acknowledge</b>, or he cancels. Other messages reach family phones only when he taps <b>Send to phone</b>.</p>
+      <p>When he holds <b>Help</b>, the Alexas you choose announce it, and family phones get an urgent notification with an <b>I'm on my way</b> button. The Alexas repeat a short reminder every 10 seconds until someone taps <b>I'm on my way</b> or <b>Acknowledge</b>, or he cancels. Other messages reach family phones only when he taps <b>Send to phone</b>.</p>
       <label for="vmToken">Voice Monkey API token
         <input type="text" id="vmToken" autocomplete="off" spellcheck="false" placeholder="From app.voicemonkey.io, API Tokens">
       </label>
@@ -2024,10 +2024,13 @@ const NTFY = 'https://ntfy.sh/';
 const ALERTS = {
   help: {
     speech: 'Attention please. Dad needs help in the guest house. Please go to him now.',
+    // Short enough to finish before the next one, 10 seconds later
+    remind: 'Dad still needs help. Please go to him now.',
     title: 'Dad needs help', phone: 'Dad needs help in the guest house.', again: 'Still no answer. Dad needs help in the guest house.'
   },
   fall: {
     speech: 'Attention please. Dad pressed his fall button. He may have fallen. Please go to him now.',
+    remind: 'Dad may have fallen. Please go to him now.',
     title: 'Dad may have fallen', phone: 'Dad pressed his fall button. He may be on the floor.', again: 'Still no answer. Dad may have fallen.'
   }
 };
@@ -2086,7 +2089,7 @@ function sendHelpOut(again, skip) {
   skip = skip || {};
   const a = ALERTS[helpKind];
   const jobs = [];
-  if (vmReady() && !skip.alexa) jobs.push(vmAnnounce(again ? 'Reminder. ' + a.speech : a.speech).then(r => ['the Alexas', r]));
+  if (vmReady() && !skip.alexa) jobs.push(vmAnnounce(again ? a.remind : a.speech).then(r => ['the Alexas', r]));
   if (poReady() && !again && !skip.pushover) jobs.push(poEmergency(a.title, a.phone).then(r => ['Pushover phones', r]));
   if (phonesReady() && !skip.ntfy) {
     jobs.push(ntfyPost(topics().help, again ? a.again : a.phone, {
@@ -2133,15 +2136,16 @@ function triggerHelp(kind, byButton) {
   }
   scheduleHelpRepeat();
 }
-// Every 90 seconds the Alexas, family phones and this tablet's alarm go off again, with no limit, until someone
-// taps I'm on my way or Acknowledge, or he cancels
-const HELP_REPEAT_MS = 90000;
+// Every 10 seconds the Alexas say a short reminder again, with no limit, until someone taps I'm on my way or
+// Acknowledge, or he cancels. This tablet's alarm goes off every 30 seconds, and since Pushover already rings phones
+// every 30 seconds on its own, the ntfy "Still no answer" goes out every 90 seconds instead of flooding them.
+const HELP_REPEAT_MS = 10000;
 function scheduleHelpRepeat() {
   helpRepeatTimer = setTimeout(() => {
     if (!helpActive) return;
     helpRepeats++;
-    startAlarm(2);
-    sendHelpOut(true);
+    if (helpRepeats % 3 === 0) startAlarm(2);
+    sendHelpOut(true, { ntfy: helpRepeats % 9 !== 0 });
     scheduleHelpRepeat();
   }, HELP_REPEAT_MS);
 }
@@ -3571,7 +3575,7 @@ $('#syncNow').addEventListener('click', async () => {
 // ---------- Automatic updates ----------
 // version.json names the newest build. When it changes, the app reloads itself, but only after he has left it alone
 // for a few minutes and nothing is open, so the screen never changes under his finger. His sentence-in-progress is kept.
-const BUILD = '2026-11-16.6';
+const BUILD = '2026-11-16.7';
 let updateReady = false;
 async function checkForUpdate() {
   if (!navigator.onLine) return;
