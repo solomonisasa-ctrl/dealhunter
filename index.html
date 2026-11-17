@@ -816,7 +816,7 @@ svg { flex: none; }
 
     <section>
       <h2>Alerts</h2>
-      <p>When he holds <b>Help</b>, the Alexas you choose announce it, and family phones get an urgent notification with an <b>I'm on my way</b> button. Other messages reach family phones only when he taps <b>Send to phone</b>.</p>
+      <p>When he holds <b>Help</b>, the Alexas you choose announce it, and family phones get an urgent notification with an <b>I'm on my way</b> button. The announcement repeats every 90 seconds until someone taps <b>I'm on my way</b> or <b>Acknowledge</b>, or he cancels. Other messages reach family phones only when he taps <b>Send to phone</b>.</p>
       <label for="vmToken">Voice Monkey API token
         <input type="text" id="vmToken" autocomplete="off" spellcheck="false" placeholder="From app.voicemonkey.io, API Tokens">
       </label>
@@ -2099,14 +2099,17 @@ function triggerHelp(kind, byButton) {
   }
   scheduleHelpRepeat();
 }
+// Every 90 seconds the Alexas, family phones and this tablet's alarm go off again, with no limit, until someone
+// taps I'm on my way or Acknowledge, or he cancels
+const HELP_REPEAT_MS = 90000;
 function scheduleHelpRepeat() {
   helpRepeatTimer = setTimeout(() => {
-    if (!helpActive || helpRepeats >= 2) return;
+    if (!helpActive) return;
     helpRepeats++;
     startAlarm(2);
     sendHelpOut(true);
     scheduleHelpRepeat();
-  }, 90000);
+  }, HELP_REPEAT_MS);
 }
 function helpAcknowledged(text) {
   if (!helpActive) return false;
@@ -3529,7 +3532,7 @@ $('#syncNow').addEventListener('click', async () => {
 // ---------- Automatic updates ----------
 // version.json names the newest build. When it changes, the app reloads itself, but only after he has left it alone
 // for a few minutes and nothing is open, so the screen never changes under his finger. His sentence-in-progress is kept.
-const BUILD = '2026-11-16.4';
+const BUILD = '2026-11-16.5';
 let updateReady = false;
 async function checkForUpdate() {
   if (!navigator.onLine) return;
